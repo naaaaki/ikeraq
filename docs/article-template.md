@@ -113,36 +113,82 @@ AI画像生成は文字を高確率で崩す。綴りが壊れたラベルは、
 
 ### 手順3 — プロンプトを組む
 
-**［型の説明］＋［1文］＋［共通スタイル］** の順でつなぐ。
+**［① 何が描かれているか］＋［共通スタイル］** の2段構成。
 
-共通スタイルは**毎回まったく同じ文を使う。** サイト全体で絵が揃い、Wakuru の絵だと分かるようになる。
+①だけを毎回書き直し、共通スタイルは**一字一句そのまま**使う。サイト全体で絵が揃い、Wakuru の絵だと分かるようになる。
+
+#### ①の書き方
+
+**「何が、何個、どこに、どうつながっているか」を具体的に書く。** 抽象的に書くとモデルが勝手に解釈して、毎回違う絵が出る。
+
+> ✅ Three small outlined squares are stacked vertically on the left. A straight line runs from each of them, converging into a single solid green rounded rectangle at the center.
+>
+> ❌ A diagram showing how requests are routed to models.
+
+日本語で考えてから英語にする。並べる向きは **左から右** か **上から下**。
+
+#### 共通スタイル（毎回そのままコピーする）
 
 ```
-共通スタイル（毎回コピーする）:
+Style: flat 2D vector diagram, in the manner of a minimal editorial illustration
+for a technical magazine. Use only simple geometric primitives - rectangles,
+rounded rectangles, circles, and straight or right-angled connecting lines.
+Small solid triangular arrowheads are allowed to show direction.
 
-flat geometric diagram, abstract shapes only, absolutely no text, no letters,
-no numbers, no labels, warm off-white background #F7F4EE, one dark green
-accent #1E5A48, near-black outlines #17160F, thin uniform 2px strokes,
-plenty of negative space, centered composition, no gradients, no shadows,
-no 3D, no perspective, no icons of computers or people, 16:9
+Composition: centered and balanced, with generous empty space around the shapes.
+Elements sit on a clear horizontal axis. Nothing touches the edge of the frame.
+
+Color: exactly three colors and nothing else - a warm off-white background
+(#F7F4EE), deep green fills (#1E5A48), and near-black outlines (#17160F).
+Outlines are thin and uniform, about 3px on a 1600px-wide canvas.
+
+Must not contain: writing of any kind - no text, letters, numbers, words,
+labels, captions, watermarks, or marks that resemble writing. No recognizable
+icons such as computers, servers, clouds, databases, gears, or people.
+No gradients, shadows, textures, 3D shading, perspective, or outer glow.
+
+Aspect ratio 16:9.
 ```
+
+#### なぜこの書き方なのか
+
+| 書いていること | 理由 |
+|---|---|
+| `Style:` `Composition:` のラベル区切り | ラベルで区切ると生成モデルの解釈が安定する |
+| 色を16進数で3色に限定し「この3色だけ」と言い切る | 指定しないと勝手に色が増える |
+| 文字の禁止を言い換えで並べる | 1語だけだとモデルによっては素通りする |
+| アイコン（パソコン・サーバー・雲・人）を名指しで禁止 | 放っておくと必ず描く |
+| 線の太さをキャンバス幅基準で言う | 「thin」だけでは細さが安定しない |
 
 ### 例：deepfoundry/atlas-lm の場合
 
-- **型**：まとめ型（複数のモデルを1つの入口にまとめる）
+- **型**：まとめ型
 - **1文**：アプリからの呼び出しが1か所に集まり、そこから複数のモデルに振り分けられる
 
 ```
-A minimal abstract diagram: one small square on the left connected by a single
-line to a solid rounded rectangle in the center, which then fans out into three
-circles of different sizes on the right. The three lines from the center spread
-outward.
+A small outlined square sits on the left. A straight line runs right from it
+into a solid green rounded rectangle at the center. From the right side of that
+rectangle, three lines fan out to three outlined circles of different sizes on
+the right. The circles vary in size to suggest that the destinations differ.
 
-flat geometric diagram, abstract shapes only, absolutely no text, no letters,
-no numbers, no labels, warm off-white background #F7F4EE, one dark green
-accent #1E5A48, near-black outlines #17160F, thin uniform 2px strokes,
-plenty of negative space, centered composition, no gradients, no shadows,
-no 3D, no perspective, no icons of computers or people, 16:9
+Style: flat 2D vector diagram, in the manner of a minimal editorial illustration
+for a technical magazine. Use only simple geometric primitives - rectangles,
+rounded rectangles, circles, and straight or right-angled connecting lines.
+Small solid triangular arrowheads are allowed to show direction.
+
+Composition: centered and balanced, with generous empty space around the shapes.
+Elements sit on a clear horizontal axis. Nothing touches the edge of the frame.
+
+Color: exactly three colors and nothing else - a warm off-white background
+(#F7F4EE), deep green fills (#1E5A48), and near-black outlines (#17160F).
+Outlines are thin and uniform, about 3px on a 1600px-wide canvas.
+
+Must not contain: writing of any kind - no text, letters, numbers, words,
+labels, captions, watermarks, or marks that resemble writing. No recognizable
+icons such as computers, servers, clouds, databases, gears, or people.
+No gradients, shadows, textures, 3D shading, perspective, or outer glow.
+
+Aspect ratio 16:9.
 ```
 
 ### 手順4 — キャプションを書く

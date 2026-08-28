@@ -11,11 +11,12 @@
  *   大量・機械的に見えた時点で該当する（docs/DECISIONS.md N1）。
  */
 
-import { mkdir, writeFile } from 'node:fs/promises';
+import { mkdir, readFile, writeFile } from 'node:fs/promises';
 import { existsSync } from 'node:fs';
 import path from 'node:path';
 import { loadNotes, notePath } from './lib/notes.js';
 import { buildDraft } from './lib/draft.js';
+import { checkNote } from './lib/check-note.js';
 import { listSnapshotDates, loadAllRepos, loadSnapshot } from './lib/storage.js';
 import { todayJST } from './lib/date.js';
 import type { Repository } from '../src/types.js';
@@ -24,6 +25,10 @@ import type { Repository } from '../src/types.js';
 const CANDIDATE_LIMIT = 15;
 
 async function main() {
+  if (process.argv.includes('--check')) {
+    await checkAll();
+    return;
+  }
   const target = process.argv.slice(2).find((a) => a.includes('/'));
   const repos = await loadAllRepos();
   const notes = await loadNotes();
@@ -90,6 +95,35 @@ async function latestDeltas(): Promise<Map<string, number>> {
       .filter((e) => e.fetched && e.stars_delta !== null)
       .map((e) => [e.repo_id, e.stars_delta as number])
   );
+}
+
+/** 下書きの抜けをまとめて確認する */
+async function checkAll() {
+  const notes = await loadNotes();
+  if (notes.size === 0) {
+    console.log('下書きがありません。`npm run note -- owner/name` で作ってください');
+    return;
+  }
+
+  let errors = 0;
+  let warns = 0;
+  for (const repoId of notes.keys()) {
+    const raw = await readFile(notePath(repoId), 'utf8');
+    const issues = checkNote(raw);
+    if (issues.length === 0) continue;
+
+    console.log(`\n${repoId}`);
+    for (const issue of issues) {
+      const mark = issue.level === 'error' ? '×' : '!';
+      console.log(`  ${mark} ${issue.message}`);
+      if (issue.level === 'error') errors++;
+      else warns++;
+    }
+  }
+
+  console.log(`\n${notes.size} 件を確認しました。要修正 ${errors} 件 / 確認したいもの ${warns} 件`);
+  if (errors === 0 && warns === 0) console.log('抜けはありません。');
+  if (errors > 0) process.exit(1);
 }
 
 main().catch((e) => {

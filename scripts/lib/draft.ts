@@ -13,44 +13,82 @@ import type { Repository } from '../../src/types.js';
 /**
  * 図の共通スタイル。★毎回まったく同じ文を使う。
  * サイト全体で絵が揃い、Wakuru の絵だと分かるようになる。
- * 「文字を入れない」は絶対に外さないこと（生成時に崩れて信頼を損なうため）。
+ *
+ * 書き方の意図:
+ * - 生成モデルは「Style:」「Composition:」のようにラベルで区切ると解釈が安定する
+ * - 色は16進数で3色に限定し、「この3色だけ」と言い切る。指定しないと勝手に増える
+ * - 文字の禁止は、言い換えを並べて逃げ道を塞ぐ。モデルによっては1語だと素通りする
+ * - アイコン（パソコン・サーバー・雲・人）を明示的に禁じる。放っておくと必ず描く
+ * - 線の太さはキャンバス幅を基準に言う。「thin」だけでは細さが安定しない
  */
 export const IMAGE_STYLE = [
-  'flat geometric diagram, abstract shapes only, absolutely no text, no letters,',
-  'no numbers, no labels, warm off-white background #F7F4EE, one dark green',
-  'accent #1E5A48, near-black outlines #17160F, thin uniform 2px strokes,',
-  'plenty of negative space, centered composition, no gradients, no shadows,',
-  'no 3D, no perspective, no icons of computers or people, 16:9',
+  'Style: flat 2D vector diagram, in the manner of a minimal editorial illustration',
+  'for a technical magazine. Use only simple geometric primitives — rectangles,',
+  'rounded rectangles, circles, and straight or right-angled connecting lines.',
+  'Small solid triangular arrowheads are allowed to show direction.',
+  '',
+  'Composition: centered and balanced, with generous empty space around the shapes.',
+  'Elements sit on a clear horizontal axis. Nothing touches the edge of the frame.',
+  '',
+  'Color: exactly three colors and nothing else — a warm off-white background',
+  '(#F7F4EE), deep green fills (#1E5A48), and near-black outlines (#17160F).',
+  'Outlines are thin and uniform, about 3px on a 1600px-wide canvas.',
+  '',
+  'Must not contain: writing of any kind — no text, letters, numbers, words,',
+  'labels, captions, watermarks, or marks that resemble writing. No recognizable',
+  'icons such as computers, servers, clouds, databases, gears, or people.',
+  'No gradients, shadows, textures, 3D shading, perspective, or outer glow.',
+  '',
+  'Aspect ratio 16:9.',
 ].join('\n');
 
-/** 図の型。迷ったら流れ型（たいていのものは流れで説明できる） */
+/**
+ * 図の型。迷ったら流れ型（たいていのものは流れで説明できる）。
+ * shape は「何が何個、どこに、どうつながっているか」を具体的に書く。
+ * 抽象的に書くとモデルが勝手に解釈して、毎回違う絵が出る。
+ */
 const FIGURE_TYPES = [
   {
     key: 'まとめ型',
     hint: 'バラバラだったものを1つにする（統合・プロキシ・ハブ）',
-    shape:
-      'several shapes on the left converging into one solid rounded rectangle in the center, then fanning out to the right',
+    shape: [
+      'Three small outlined squares are stacked vertically on the left. A straight',
+      'line runs from each of them, converging into the left side of a single solid',
+      'green rounded rectangle at the center. From the right side of that rectangle,',
+      'three lines fan out to three outlined circles of different sizes on the right.',
+    ].join('\n'),
     topics: ['gateway', 'proxy', 'router', 'orchestration', 'aggregator', 'hub', 'platform', 'framework'],
   },
   {
     key: '置き換え型',
     hint: '重かったものが軽くなる（依存が減る・手順が減る）',
-    shape:
-      'a comparison of two states: a cluster of many small shapes on the left, and a single simple shape on the right',
+    shape: [
+      'The left half shows a loose cluster of six small outlined squares joined by',
+      'many crossing lines. The right half shows a single solid green rounded',
+      'rectangle standing alone with nothing around it. A thin vertical line',
+      'separates the two halves.',
+    ].join('\n'),
     topics: ['lightweight', 'zero-config', 'standalone', 'single-binary', 'replacement', 'alternative', 'local-first'],
   },
   {
     key: '層型',
     hint: '既存の仕組みのどこかに挟まる（ミドルウェア・ラッパー）',
-    shape:
-      'three horizontal bands stacked vertically, with the middle band filled solid and the others outlined',
+    shape: [
+      'Three wide horizontal bands are stacked with even gaps between them. The top',
+      'and bottom bands are outlined only. The middle band is filled solid green and',
+      'extends slightly wider than the other two.',
+    ].join('\n'),
     topics: ['middleware', 'wrapper', 'plugin', 'extension', 'sdk', 'runtime', 'kernel'],
   },
   {
     key: '流れ型',
     hint: '入力を受けて何かして出す（変換・解析・パイプライン）',
-    shape:
-      'shapes arranged left to right, changing form as they move: a square becoming a circle through a solid rectangle in the middle',
+    shape: [
+      'A small outlined square sits on the left. A straight line runs right from it',
+      'into a solid green rounded rectangle at the center. From the right side of',
+      'that rectangle, another straight line continues to an outlined circle on the',
+      'right. The form visibly changes from square to circle across the frame.',
+    ].join('\n'),
     topics: [],
   },
 ] as const;
@@ -108,24 +146,29 @@ image_alt:
 
 ## 図
 
-<!-- 型：${fig.key}（${fig.hint}）
-     ※ topics から推定したもの。合わなければ docs/article-template.md の表から選び直す
+<!-- ★ このプロンプトは仮のもの。topics から型を当てただけで、
+     このリポジトリの中身は見ていない。
 
-     手順1. 「何が → どうなって → 何になる」を1文で書く
-     手順2. 下のプロンプトの ①ここ を、その1文を絵にした説明に差し替える
-     手順3. 生成した画像を data/notes/${repo.owner}/${repo.name}.png に置き、
-             上の frontmatter に image: と image_alt: を書く
-     手順4. キャプションを書く（絵が言えないことを言う）
+     「どういうものか」を書き終えてから、Claude Code に
+     「図のプロンプトを作って」と頼むこと。書いた内容を読んで、
+     ①の部分をこのリポジトリに合う形に書き直してくれる。
+     手順は CLAUDE.md「記事を書くときの流れ」4 にある。
 
-  --- 生成プロンプト（①だけ書き換えて、そのまま使う）---
+     推定した型：${fig.key}（${fig.hint}）
+     画像は data/notes/${repo.owner}/${repo.name}.png に置き、
+     上の frontmatter に image: と image_alt: を書く。
 
-  ① A minimal abstract diagram: ${fig.shape}.
+  ------------------------------------------------------------
+  ① Subject（ここを書き直す）
+
+  ${indent(fig.shape, '  ')}
 
   ${indent(IMAGE_STYLE, '  ')}
+  ------------------------------------------------------------
 
-  --- ここまで ---
-
-  ★ 画像に文字を入れない。AI生成は文字が崩れる。意味はキャプションで持つ
+  ★ 文字の禁止（no text 以下）は絶対に外さない。
+    AI画像生成は文字を崩す。綴りの壊れた図は、判定基準を全公開している
+    サイトでは致命傷になる。意味は絵ではなくキャプションが持つ。
 -->
 
 キャプション:
