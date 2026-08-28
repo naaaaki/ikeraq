@@ -349,15 +349,26 @@ async function fetchRepositoryDetail(
   let readmeExcerpt = repo.readme_excerpt;
   let readmeLength = repo.readme_length;
   let hasJa = repo.has_japanese_readme;
-  if (!repo.last_fetched_date || readmeLength === 0) {
-    // ★ README が取れなくても、スター数の記録は必ず残す（それが Phase 0 の目的）
-    const readme = await optional(() => client.getReadme(repo.owner, repo.name), `README ${repo.id}`);
-    if (readme) {
-      readmeLength = readme.length;
-      readmeExcerpt = buildReadmeExcerpt(readme);
-      hasJa =
-        (await optional(() => client.hasJapaneseReadme(repo.owner, repo.name), `ja-README ${repo.id}`)) ??
-        hasJa;
+  if (readmeLength === null) {
+    // ★ README が取れなくても、スター数の記録は必ず残す（それが Phase 0 の目的）。
+    //   ただし「取得に失敗した（不明）」と「README が無い（0字）」は区別する。
+    //   混ぜると、ドキュメントが最も薄いケースが無警告で素通りする
+    try {
+      const readme = await client.getReadme(repo.owner, repo.name);
+      if (readme === null) {
+        readmeLength = 0; // 404 = README が置かれていない
+        readmeExcerpt = '';
+      } else {
+        readmeLength = readme.length;
+        readmeExcerpt = buildReadmeExcerpt(readme);
+        hasJa =
+          (await optional(() => client.hasJapaneseReadme(repo.owner, repo.name), `ja-README ${repo.id}`)) ??
+          hasJa;
+      }
+    } catch (e) {
+      if (e instanceof RequestBudgetExceededError) throw e;
+      // 取得失敗。null のままにして、次回また試す
+      console.warn(`[collect] README ${repo.id} の取得に失敗しました（次回再試行します）`, e);
     }
   }
 

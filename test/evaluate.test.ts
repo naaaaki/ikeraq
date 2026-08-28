@@ -57,10 +57,19 @@ function repo(over: Partial<Repository> = {}): Repository {
   };
 }
 
-const ctx = (over: Partial<Parameters<typeof detectFlags>[1]> = {}) => ({
-  history: { deltas: [], latestDelta: null },
-  category: 'other' as const,
-  similarIds: [] as string[],
+const hist = (deltas: number[], latestDate = '2026-08-29') => ({
+  deltas,
+  latestDelta: deltas.at(-1) ?? null,
+  latestDate: deltas.length ? latestDate : null,
+});
+
+const ctx = (
+  over: Partial<Parameters<typeof detectFlags>[1]> = {}
+): Parameters<typeof detectFlags>[1] => ({
+  history: hist([]),
+  category: 'other',
+  similarIds: [],
+  today: '2026-08-29',
   now: NOW,
   ...over,
 });
@@ -106,6 +115,17 @@ test('ライセンス未設定とコピーレフトを区別する', () => {
   assert.ok(!mit.some((f) => f.id === 'no_license' || f.id === 'copyleft'));
 });
 
+test('★README が無い場合も警告する。未取得とは区別する', () => {
+  // null = まだ取得できていない → 判定しない
+  assert.ok(!detectFlags(repo({ readme_length: null }), ctx()).some((f) => f.id === 'thin_readme'));
+  // 0 = README が存在しない → 判定する（最も薄いケースを素通りさせない）
+  const none = detectFlags(repo({ readme_length: 0 }), ctx());
+  const flag = none.find((f) => f.id === 'thin_readme');
+  assert.ok(flag, 'README が無いのに警告されていない');
+  assert.match(flag.label, /README がありません/);
+  assert.equal(usabilityScore(none), 90);
+});
+
 test('usability_score は仕様どおりに減点する（SPEC §7.4）', () => {
   assert.equal(usabilityScore([]), 100);
 
@@ -122,7 +142,7 @@ test('usability_score は仕様どおりに減点する（SPEC §7.4）', () => 
 
 test('偽スター系のフラグは usability_score に混ぜない（SPEC §7 の2軸分離）', () => {
   // スター急増だけが立っている状態でも、実運用スコアは満点のまま
-  const flags = detectFlags(repo({ stars: 20000 }), ctx({ history: { deltas: [10, 10, 10, 10, 10, 10, 10, 5000], latestDelta: 5000 } }));
+  const flags = detectFlags(repo({ stars: 20000 }), ctx({ history: hist([10, 10, 10, 10, 10, 10, 10, 5000]) }));
   assert.ok(flags.some((f) => f.id === 'star_spike'));
   assert.equal(usabilityScore(flags), 100);
 });
@@ -132,34 +152,65 @@ test('偽スター系のフラグは usability_score に混ぜない（SPEC §7 
 // ---------------------------------------------------------------------------
 
 test('star_spike は過去7日平均の10倍超で立つ', () => {
-  const r = repo();
-  const normal = detectStarSpike(r, { deltas: [20, 20, 20, 20, 20, 20, 20, 100], latestDelta: 100 }, NOW);
+  const normal = detectStarSpike(hist([20, 20, 20, 20, 20, 20, 20, 100]), '2026-08-29');
   assert.equal(normal.flagged, false); // 5倍なので該当しない
 
-  const spike = detectStarSpike(r, { deltas: [20, 20, 20, 20, 20, 20, 20, 400], latestDelta: 400 }, NOW);
+  const spike = detectStarSpike(hist([20, 20, 20, 20, 20, 20, 20, 400]), '2026-08-29');
   assert.equal(spike.flagged, true); // 20倍
   assert.equal(spike.provisional, false);
 });
 
 test('増加が小さいうちは倍率が跳ねても急増としない', () => {
   // 平均1 → 30 は30倍だが、増加数が小さいので判定しない
-  const r = repo();
-  const result = detectStarSpike(r, { deltas: [1, 1, 1, 1, 1, 1, 1, 30], latestDelta: 30 }, NOW);
-  assert.equal(result.flagged, false);
+  assert.equal(detectStarSpike(hist([1, 1, 1, 1, 1, 1, 1, 30]), '2026-08-29').flagged, false);
 });
 
-test('履歴が7日未満なら代替判定に切り替わり、暫定になる（SPEC §7.3）', () => {
-  // 作成から600日で2,000スター → 平均 3.3/日。そこに 500 が来たら急増
-  const r = repo({ stars: 2000, created_at: '2025-01-06T00:00:00Z' });
-  const result = detectStarSpike(r, { deltas: [80, 500], latestDelta: 500 }, NOW);
+test('履歴が7日未満なら観測値の中央値と比べ、暫定になる（SPEC §7.3）', () => {
+  const result = detectStarSpike(hist([20, 20, 800]), '2026-08-29');
   assert.equal(result.flagged, true);
   assert.equal(result.provisional, true, '暫定判定であることが分かるようにする');
   assert.match(result.reason ?? '', /暫定/);
 });
 
+test('★代替判定は古い定番リポジトリを誤検知しない（生涯平均を使わない）', () => {
+  // 生涯平均で判定すると、正常なトレンド入りでも警告が出てしまう。
+  // 観測できた増加の中央値と比べれば該当しない
+  assert.equal(detectStarSpike(hist([150, 180, 200]), '2026-08-29').flagged, false);
+});
+
+test('★代替判定は新参の急伸を取りこぼさない', () => {
+  // 生涯平均で判定すると、平均が大きすぎて絶対に立たない。
+  // 観測できた増加の中央値と比べれば急増として拾える
+  assert.equal(detectStarSpike(hist([20, 20, 4000]), '2026-08-29').flagged, true);
+});
+
+test('履歴が1日も無ければ判定せず、判定中のままにする', () => {
+  const result = detectStarSpike(hist([]), '2026-08-29');
+  assert.equal(result.flagged, false);
+  assert.equal(result.provisional, true);
+});
+
+test('★観測が古い場合は急増を判定しない（3層構造で毎日は取得しないため）', () => {
+  const spikes = [20, 20, 20, 20, 20, 20, 20, 4000];
+  // 4日前の観測。古い急増を根拠に警告が残り続けるのを防ぐ
+  assert.equal(detectStarSpike(hist(spikes, '2026-08-25'), '2026-08-29').flagged, false);
+  // 2日前なら判定する
+  assert.equal(detectStarSpike(hist(spikes, '2026-08-27'), '2026-08-29').flagged, true);
+});
+
 test('履歴が足りないうちは「判定中」として扱える（SPEC §7.3）', () => {
-  assert.equal(isSuspicionProvisional(repo({ snapshot_days: 3 })), true);
-  assert.equal(isSuspicionProvisional(repo({ snapshot_days: 7 })), false);
+  assert.equal(isSuspicionProvisional(repo({ suspicion_provisional: true })), true);
+  assert.equal(isSuspicionProvisional(repo({ suspicion_provisional: false })), false);
+});
+
+test('★暫定判定はシグナルに数えない（検知直後に疑いが乱発されるのを防ぐ）', () => {
+  const r = repo({ dependents_count: 500 });
+  const flags = detectFlags(r, ctx({ history: hist([20, 20, 900]) }));
+  assert.ok(flags.some((f) => f.id === 'star_spike'), '根拠としては表示する');
+
+  const result = fakeStarSuspicion(r, hist([20, 20, 900]), NOW, '2026-08-29');
+  assert.equal(result.level, 'none', '暫定なのでレベルは上げない');
+  assert.equal(result.provisional, true);
 });
 
 test('low_activity はスター規模に対して活動が伴わない場合だけ立つ', () => {
@@ -169,6 +220,15 @@ test('low_activity はスター規模に対して活動が伴わない場合だ�
   assert.equal(detectLowActivity(repo({ stars: 300, forks: 1, open_issues: 0, contributors_count: 1 })), false);
   // fork が十分あれば該当しない
   assert.equal(detectLowActivity(repo({ stars: 10000, forks: 900, open_issues: 1, contributors_count: 1 })), false);
+});
+
+test('★小規模リポジトリを「実利用の欠如」で拾わない', () => {
+  // スター5・fork 0・リリース0。fork比率だけ見ると該当してしまうが、
+  // §7.5 の意図は「スターは多いのに使われていない」
+  const tiny = detectNoRealUsage(
+    repo({ stars: 5, forks: 0, open_issues: 0, releases_count: 0, contributors_count: 5, dependents_count: null })
+  );
+  assert.equal(tiny.flagged, false, '拾ってしまっている: ' + tiny.signals.join(' / '));
 });
 
 test('実利用の欠如は dependents を優先し、無ければ代替シグナルを合成する（SPEC §7.5）', () => {
@@ -187,17 +247,33 @@ test('実利用の欠如は dependents を優先し、無ければ代替シグ�
 });
 
 test('該当シグナル数で疑いの段階が決まる（SPEC §7.2）', () => {
-  const clean = fakeStarSuspicion(repo({ dependents_count: 120 }), { deltas: [], latestDelta: null }, NOW);
+  const clean = fakeStarSuspicion(repo({ dependents_count: 120 }), hist([]), NOW, '2026-08-29');
   assert.equal(clean.level, 'none');
 
   // 急増 + 低活動 + 実利用の欠如 → 3つで high
   const bad = fakeStarSuspicion(
-    repo({ stars: 12000, forks: 40, open_issues: 1, contributors_count: 1, releases_count: 0 }),
-    { deltas: [20, 20, 20, 20, 20, 20, 20, 4000], latestDelta: 4000 },
-    NOW
+    repo({
+      stars: 12000,
+      forks: 40,
+      open_issues: 1,
+      contributors_count: 1,
+      releases_count: 0,
+      created_at: '2026-08-15T00:00:00Z',
+    }),
+    hist([20, 20, 20, 20, 20, 20, 20, 4000]),
+    NOW,
+    '2026-08-29'
   );
   assert.equal(bad.level, 'high');
   assert.equal(bad.signals.length >= 3, true);
+});
+
+test('★低活動と実利用の欠如は二重に数えない（同じ事実を見ているため）', () => {
+  // fork少・Issue 0・貢献者1 という「ひとつの状況」。両方の条件に当たるが1シグナル
+  const r = repo({ stars: 10000, forks: 30, open_issues: 0, contributors_count: 1, releases_count: 0 });
+  const result = fakeStarSuspicion(r, hist([10, 10, 10, 10, 10, 10, 10, 12]), NOW, '2026-08-29');
+  assert.equal(result.signals.length, 1, '二重計上: ' + result.signals.join(' / '));
+  assert.equal(result.level, 'low');
 });
 
 test('教材系リポジトリでは fork 比率の閾値を緩める（SPEC §7.1 の誤検知注意）', () => {
@@ -220,9 +296,17 @@ test('duplicate_suspect は owner が違い、検知時期が近いものだけ�
   assert.equal(index.get('gamma/vector-store'), undefined);
 });
 
-test('名前の正規化は区切り文字と接尾辞を無視する', () => {
+test('名前の正規化は区切り文字と末尾の数字を無視する', () => {
   assert.equal(normalizeRepoName('vector-store'), normalizeRepoName('vector_store'));
   assert.equal(normalizeRepoName('agentkit2'), normalizeRepoName('agent-kit'));
+});
+
+test('★言語ポートを重複と誤検知しない', () => {
+  // 正当な言語ポート同士は別物として扱う
+  assert.notEqual(normalizeRepoName('langchain-go'), normalizeRepoName('langchain-rs'));
+  // 単語の一部を言語名として削らない
+  assert.equal(normalizeRepoName('cargo'), 'cargo');
+  assert.equal(normalizeRepoName('django'), 'django');
 });
 
 // ---------------------------------------------------------------------------
@@ -247,15 +331,20 @@ test('警告つきは必ず index する。低スコアで noindex にしない�
   flagged.flags = detectFlags(repo({ license_category: 'none' }), ctx());
   flagged.usability_score = usabilityScore(flagged.flags);
   assert.ok(flagged.usability_score < 100);
-  assert.equal(isIndexable(flagged), true, '警告つきこそ見せたいコンテンツ');
+  assert.equal(isIndexable(flagged, 5), true, '警告つきこそ見せたいコンテンツ');
 
-  // 疑いがあるだけでも index する
-  const suspected = repo({ snapshot_days: 1, fake_star_suspicion: 'low' });
-  assert.equal(isIndexable(suspected), true);
+  // 疑いがあるだけでも index する（スター1,000以上でページが作られる場合）
+  assert.equal(isIndexable(repo({ stars: 2000, snapshot_days: 1, fake_star_suspicion: 'low' }), 5), true);
 
   // 履歴が7日たまれば index する
-  assert.equal(isIndexable(repo({ snapshot_days: 7 })), true);
+  assert.equal(isIndexable(repo({ stars: 2000, snapshot_days: 7 }), 5), true);
 
   // 何もないもの（description の翻訳と定型データだけ）は noindex
-  assert.equal(isIndexable(repo({ snapshot_days: 3 })), false);
+  assert.equal(isIndexable(repo({ stars: 2000, snapshot_days: 3 }), 5), false);
+});
+
+test('★ページを作らないものは index 対象に数えない（sitemap に404が並ぶのを防ぐ）', () => {
+  const notGenerated = repo({ stars: 300, snapshot_days: 30, fake_star_suspicion: 'low' });
+  assert.equal(shouldGeneratePage(notGenerated, 5), false);
+  assert.equal(isIndexable(notGenerated, 5), false);
 });

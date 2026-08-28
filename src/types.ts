@@ -128,8 +128,13 @@ export interface Repository {
 
   /** README 抜粋。最大500字（SPEC §8.2） */
   readme_excerpt: string;
-  /** README の文字数。薄さ判定用 */
-  readme_length: number;
+  /**
+   * README の文字数。薄さ判定用。
+   * ★ null = まだ取得できていない（判定対象外）
+   *   0    = README が存在しない（判定対象。最も薄いケース）
+   *   この2つを混ぜると「READMEが無い」が無警告で素通りする
+   */
+  readme_length: number | null;
   /** README.ja.md 等の有無 */
   has_japanese_readme: boolean;
 
@@ -149,6 +154,17 @@ export interface Repository {
   usability_score: number;
   /** 数字が信用できるか。usability_score とは別軸（SPEC §7.2） */
   fake_star_suspicion: FakeStarSuspicion;
+  /**
+   * どのシグナルで疑いが立ったか。
+   * ★「実利用の欠如」はフラグを持たないシグナルなので、これを保存しないと
+   *   「理由の表示できない警告」が生まれる。根拠の公開は §8.3 の要件
+   */
+  suspicion_signals: string[];
+  /**
+   * 履歴が足りず、判定が暫定である（SPEC §7.3）。
+   * UI では「判定中」と表示し、確定した判定と区別する
+   */
+  suspicion_provisional: boolean;
 
   /** 蓄積されたスナップショット日数（SPEC §2.5 の index 判定で使用） */
   snapshot_days: number;

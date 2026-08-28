@@ -9,9 +9,8 @@
  */
 
 import { THRESHOLDS as T } from './thresholds.js';
-import { detectLowActivity, detectNoRealUsage, detectStarSpike } from './flags.js';
-import { daysSince } from './date.js';
-import type { FakeStarSuspicion, Flag, Repository } from '../../src/types.js';
+import { detectLowActivity, detectNoRealUsage, detectStarSpike, detectTooNew } from './flags.js';
+import type { FakeStarSuspicion, Flag, Repository, UsabilityFlagId } from '../../src/types.js';
 import type { StarHistory } from './flags.js';
 
 /**
@@ -21,11 +20,13 @@ import type { StarHistory } from './flags.js';
  * スコアは単独で表示せず、必ずフラグの内訳とセットで見せること。
  */
 export function usabilityScore(flags: Flag[]): number {
+  // ★ Record<UsabilityFlagId, number> にすることで、減点表への登録漏れを
+  //   型で検出する。漏れると「フラグは立つのに減点されない」が黙って起きる
+  const penalties: Record<UsabilityFlagId, number> = T.penalty;
   let score = 100;
   for (const flag of flags) {
     if (flag.axis !== 'usability') continue;
-    const penalty = (T.penalty as Record<string, number>)[flag.id];
-    if (penalty) score -= penalty;
+    score -= penalties[flag.id as UsabilityFlagId] ?? 0;
   }
   return Math.max(0, score);
 }
@@ -41,26 +42,35 @@ export function usabilityScore(flags: Flag[]): number {
 export function fakeStarSuspicion(
   repo: Repository,
   history: StarHistory,
-  now = new Date()
-): { level: FakeStarSuspicion; signals: string[] } {
+  now = new Date(),
+  today?: string
+): { level: FakeStarSuspicion; signals: string[]; provisional: boolean } {
   const signals: string[] = [];
 
-  const spike = detectStarSpike(repo, history, now);
-  if (spike.flagged) {
-    signals.push(spike.provisional ? 'スター速度の異常（暫定）' : 'スター速度の異常');
+  const spike = detectStarSpike(history, today);
+  // ★ 暫定判定はシグナルに数えない（SPEC §7.3「信頼度を下げる」）。
+  //   数えると、検知直後のリポジトリが軒並み「疑いあり」になり、
+  //   警告そのものが信用されなくなる。理由としては表示するので、根拠は失われない
+  if (spike.flagged && !spike.provisional) signals.push('スター速度の異常');
+
+  // ★ 低活動と実利用の欠如は、fork比率・Issue数という同じ事実を見ている部分がある。
+  //   両方立っても1つとして数える。二重計上すると、ひとつの状況だけで medium になる
+  const lowActivity = detectLowActivity(repo);
+  const noUsage = detectNoRealUsage(repo);
+  if (lowActivity && noUsage.flagged) {
+    signals.push('低活動・実利用の欠如');
+  } else if (lowActivity) {
+    signals.push('低活動');
+  } else if (noUsage.flagged) {
+    signals.push('実利用の欠如');
   }
 
-  if (detectLowActivity(repo)) signals.push('低活動');
-
-  const ageDays = daysSince(repo.created_at, now);
-  if (ageDays <= T.tooNewDays && repo.stars > T.tooNewStars) signals.push('新規性');
-
-  if (detectNoRealUsage(repo).flagged) signals.push('実利用の欠如');
+  if (detectTooNew(repo, now)) signals.push('新規性');
 
   const level: FakeStarSuspicion =
     signals.length === 0 ? 'none' : signals.length === 1 ? 'low' : signals.length === 2 ? 'medium' : 'high';
 
-  return { level, signals };
+  return { level, signals, provisional: spike.provisional };
 }
 
 /**
@@ -68,7 +78,9 @@ export function fakeStarSuspicion(
  * UI では「判定中」と表示し、確定した判定と区別する。
  */
 export function isSuspicionProvisional(repo: Repository): boolean {
-  return repo.snapshot_days < T.spikeMinHistoryDays;
+  // ★ 判定に使った実際の履歴本数を保存してあるので、それを見る。
+  //   snapshot_days から推測すると、実際に確定判定へ移る日とズレる
+  return repo.suspicion_provisional;
 }
 
 /**
@@ -95,7 +107,11 @@ export function shouldGeneratePage(
  * ★ usability_score は index 判定に使わない。
  *   低スコア＝価値がない、ではなく、低スコアであること自体が読者への情報だから。
  */
-export function isIndexable(repo: Repository): boolean {
+export function isIndexable(repo: Repository, latestDelta: number | null): boolean {
+  // ★ そもそもページを作らないものを index 対象に数えない。
+  //   数えると sitemap に 404 の URL が並ぶ
+  if (!shouldGeneratePage(repo, latestDelta)) return false;
+
   return (
     repo.flags.length > 0 ||
     repo.fake_star_suspicion !== 'none' ||

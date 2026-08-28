@@ -38,8 +38,12 @@ jobs:
           DISCORD_WEBHOOK_URL: ${{ secrets.DISCORD_WEBHOOK_URL }}
         run: npm run collect
 
-      # 機械判定。外部APIを呼ばないので、失敗しても収集結果は残る
+      # 機械判定。★ここで失敗してもジョブを止めないこと。
+      #   止めると次の「データをコミット」が実行されず、その日のスナップショットが
+      #   ランナーごと消える。この履歴だけは後から取り直せない（SPEC §6.2）。
+      #   判定は外部APIを呼ばないので、翌日流し直せば復旧できる。
       - name: フラグ・スコアの判定
+        continue-on-error: true
         run: npm run evaluate
 
       - name: データをコミット

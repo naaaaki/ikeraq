@@ -43,7 +43,14 @@ export const THRESHOLDS = {
   /** 実利用の欠如（SPEC §7.5 の代替シグナル）。この本数以上そろったら該当 */
   noUsageSignalsRequired: 2,
   noUsageForkRatio: 0.01,
-  noUsageIssueMinStars: 1000,
+  /** 「スターは多いのに使われていない」を見るので、小規模リポジトリは対象外にする */
+  noUsageMinStars: 1000,
+
+  /**
+   * 観測値の鮮度。直近の観測がこの日数より古ければ急増の判定をしない。
+   * 3層構造により毎日は取得しないため（SPEC §10.4）、古い値で警告が残り続けるのを防ぐ
+   */
+  observationMaxAgeDays: 3,
 
   /** duplicate_suspect: 類似名がこの日数以内に複数現れたら（SPEC §7.1） */
   duplicateWindowDays: 14,

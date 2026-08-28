@@ -33,7 +33,7 @@ export function newRepository(gh: GitHubRepo, firstSeenAt: string = new Date().t
     license_spdx: gh.license?.spdx_id ?? null,
     license_category: categorizeLicense(gh.license?.spdx_id),
     readme_excerpt: '',
-    readme_length: 0,
+    readme_length: null, // 未取得。README が無いことが分かったら 0 にする
     has_japanese_readme: false,
     contributors_count: null,
     releases_count: null,
@@ -43,6 +43,8 @@ export function newRepository(gh: GitHubRepo, firstSeenAt: string = new Date().t
     flags: [],
     usability_score: 100,
     fake_star_suspicion: 'none',
+    suspicion_signals: [],
+    suspicion_provisional: true, // 履歴が貯まるまでは判定中
     snapshot_days: 0,
     is_indexable: false,
     first_seen_at: firstSeenAt,
