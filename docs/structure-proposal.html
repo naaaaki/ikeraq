@@ -261,7 +261,6 @@
           <tr><td class="mono">/repo/{owner}/{name}</td><td>個別ページ。生成基準を満たしたものだけ</td><td></td></tr>
           <tr><td class="mono">/daily/YYYY-MM-DD</td><td>日次アーカイブ</td><td></td></tr>
           <tr><td class="mono">/weekly/YYYY-Www</td><td>週次まとめ。人が書く。SEOの中核</td><td></td></tr>
-          <tr><td class="mono">/collections/{slug}</td><td>特集。テーマで手集めしたリスト</td><td><span class="tag new">追加</span></td></tr>
           <tr><td class="mono">/hall-of-fame</td><td>殿堂。何度もトレンド入りした定番</td><td><span class="tag new">追加</span></td></tr>
           <tr><td class="mono">/category/{category}</td><td>カテゴリ別。AIエージェント、開発ツールなど</td><td></td></tr>
           <tr><td class="mono">/lang/{language}</td><td>言語別</td><td></td></tr>
@@ -277,10 +276,9 @@
       </table>
     </div>
 
-    <h3 style="margin-top: 34px;">追加した3つの理由</h3>
+    <h3 style="margin-top: 34px;">追加した2つの理由</h3>
     <ul class="plain" style="font-size: 14px;">
       <li><strong class="mono" style="font-family: var(--mono); font-size: 13px;">/hall-of-fame</strong> — 毎日の記録があって初めて作れるページです。競合Bもやっており、有効性は確認済み。「今日たまたま伸びた」ではなく「ずっと注目されている」を示せます</li>
-      <li><strong class="mono" style="font-family: var(--mono); font-size: 13px;">/collections/{slug}</strong> — 「個人開発で使えるAIツール10選」のようなテーマ集。<strong>SEOの本命はここです。</strong>単発の紹介より、まとめ記事のほうが検索で強く、被リンクも付きます</li>
       <li><strong class="mono" style="font-family: var(--mono); font-size: 13px;">/japanese</strong> — 日本語圏サイトの存在理由に直結します。データは既に取れています</li>
     </ul>
   </section>
@@ -347,13 +345,6 @@
           比較は蓄積データがあって初めて書けます。競合は週次を「ランキングの羅列」で済ませているので、ここに一言の解釈が入るだけで差が出ます。
         </p>
       </div>
-      <div class="card">
-        <h3>特集（Collections）</h3>
-        <p class="note" style="margin: 0;">
-          テーマで手集めしたリスト。例：「日本語 README があるAIツール」「Docker を使わずに試せるデータベース」「個人開発者のためのデプロイ先」。<br>
-          既存の紹介文を組み合わせるだけなので、書く手間は少なく、検索では単発ページより強く出ます。
-        </p>
-      </div>
     </div>
   </section>
 
@@ -364,7 +355,6 @@
         <thead><tr><th style="width: 30%;">機能</th><th>内容と根拠</th><th style="width: 14%;">優先</th></tr></thead>
         <tbody>
           <tr><td>殿堂入り</td><td>複数日トレンド入りしたもの。蓄積データが効く。競合Bで実績あり</td><td>高</td></tr>
-          <tr><td>特集</td><td>テーマ別のまとめ。SEOの本命</td><td>高</td></tr>
           <tr><td>使い始めるセクション</td><td>両競合に無い。検索意図に直結</td><td>高</td></tr>
           <tr><td>日本語 README 絞り込み</td><td>データは取得済み。実装は軽い</td><td>高</td></tr>
           <tr><td>対象レベル表示</td><td>初心者／中級／上級。競合Bが採用。機械では判定できないので、紹介文を書くときに人が付ける</td><td>中</td></tr>
@@ -400,12 +390,12 @@
       </div>
 
       <div class="card">
-        <h3>特集は Phase 2 以降・月1本</h3>
+        <h3>特集は構成に含めない</h3>
         <p class="note" style="margin: 0 0 12px;">
-          いまは着手しません。<strong>紹介文が15〜20本たまるまで素材がない</strong>ためです。ただし紹介文を書く段階で「これはどの特集に入りそうか」は意識しておきます。
+          特集はサイト構成ではなく、記事の作り方の話です。<strong>いまあるデータだけで作れるページが構成、書きためた記事が素材として要るページは構成外</strong>という線引きにしました。
         </p>
         <p class="note" style="margin: 0;">
-          <strong style="color: var(--warn);">量産しないこと。</strong>まとめ記事の大量生成は、Google が警戒する形に近づきます。月1本、多くても月2本までに抑えます。
+          後から足しても手戻りがありません。特集は「slug と、含めるリポジトリのIDを並べたファイル」を1つ足すだけで作れ、リポジトリのデータ構造には触らないためです。記事がたまってきたら、やりたければやる、という扱いにします。
         </p>
       </div>
     </div>
