@@ -60,10 +60,10 @@
     <!-- 横スクロールするタブ -->
     <div style="display: flex; gap: 20px; overflow-x: auto; margin-top: 4px;">
       <a href="#" class="tab on">今日</a>
-      <a href="#" class="tab">週次</a>
-      <a href="#" class="tab" style="color: var(--warn);">警告つき</a>
+      <a href="#" class="tab">今週まとめ</a>
+      <a href="#" class="tab">カテゴリ</a>
       <a href="#" class="tab">言語</a>
-      <a href="#" class="tab">判定基準</a>
+      <a href="#" class="tab">サイトについて</a>
     </div>
   </header>
 
@@ -72,17 +72,21 @@
     <span class="num" style="font-size: 11px; color: var(--ink3);">06:02 更新</span>
   </div>
 
-  <!-- 警告のサマリ。モバイルでは一覧の前に置いて、価値を先に見せる -->
-  <a href="#" style="margin: 16px 18px 0; padding: 13px 15px; background: var(--warn-soft); border: 1px solid #E8D5A8; border-radius: 3px; display: flex; align-items: center; justify-content: space-between; gap: 12px;">
-    <span style="display: flex; align-items: center; gap: 9px; color: var(--warn); font-size: 13px;">
-      <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.9" stroke-linecap="round" stroke-linejoin="round"><path d="M10.3 3.6 1.8 18a2 2 0 0 0 1.7 3h17a2 2 0 0 0 1.7-3L13.7 3.6a2 2 0 0 0-3.4 0Z"/><path d="M12 9v4"/><path d="M12 17h.01"/></svg>
-      今日は <span class="num" style="font-weight: 500;">7</span> 件に警告
-    </span>
-    <svg width="15" height="15" viewBox="0 0 24 24" fill="none" stroke="#8A5A00" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round"><path d="m9 5 7 7-7 7"/></svg>
-  </a>
+  <!-- ★ピックアップ = 紹介文を書いたもの。モバイルでも先頭に置く -->
+  <article style="margin: 18px 18px 0; padding: 16px 17px; background: var(--card); border: 1px solid var(--rule); border-radius: 3px;">
+    <div class="eyebrow" style="margin-bottom: 10px;">今日のピックアップ</div>
+    <a href="#" class="repo" style="display: block; margin-bottom: 8px;"><span class="owner">lumen-ai/</span>orbit</a>
+    <p style="margin: 0 0 12px; font-size: 13.5px; line-height: 1.85; color: var(--ink);">
+      ベクタ検索を試すたびに Docker を立ち上げていた人には、これがいちばん効きます。インデックス全体を1ファイルに持つので、サーバーもデーモンも要りません。
+    </p>
+    <div style="display: flex; gap: 5px; flex-wrap: wrap;">
+      <span class="chip ok">Apache-2.0 · 商用可</span>
+      <span class="chip">Rust</span>
+    </div>
+  </article>
 
   <div style="padding: 24px 18px 0;">
-    <div class="eyebrow" style="padding-bottom: 12px; border-bottom: 1px solid var(--rule);">スター増加順</div>
+    <div class="eyebrow" style="padding-bottom: 12px; border-bottom: 1px solid var(--rule);">注目度順</div>
 
     <article style="padding: 18px 0; border-bottom: 1px solid var(--rule); display: flex; flex-direction: column; gap: 8px;">
       <div style="display: flex; align-items: baseline; gap: 10px;">
@@ -111,10 +115,7 @@
         <span class="num" style="font-size: 12.5px; color: var(--accent); font-weight: 500;">+4,120</span>
       </div>
       <div style="display: flex; gap: 5px; flex-wrap: wrap;">
-        <span class="chip warn">
-          <svg width="11" height="11" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M10.3 3.6 1.8 18a2 2 0 0 0 1.7 3h17a2 2 0 0 0 1.7-3L13.7 3.6a2 2 0 0 0-3.4 0Z"/><path d="M12 9v4"/><path d="M12 17h.01"/></svg>
-          スター数に不自然さ
-        </span>
+        <span class="chip ok">Apache-2.0 · 商用可</span>
         <span class="chip">Python</span>
       </div>
     </article>

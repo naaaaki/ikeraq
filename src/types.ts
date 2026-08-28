@@ -42,42 +42,22 @@ export type Category = (typeof CATEGORIES)[number];
 // 警告フラグ（SPEC §7.1）
 // ---------------------------------------------------------------------------
 
-/** 実運用可否の軸に効くフラグ */
-export const USABILITY_FLAGS = [
-  'stale',
-  'archived',
-  'no_license',
-  'copyleft',
-  'thin_readme',
-] as const;
+/**
+ * 警告フラグ。すべて「実運用に耐えるか」を見るもの。
+ *
+ * ★ 偽スター判定は D-004 で廃止した。フラグは1種類しかないため軸を持たない。
+ */
+export const FLAGS = ['stale', 'archived', 'no_license', 'copyleft', 'thin_readme'] as const;
 
-/** 偽スター疑いの軸に効くフラグ */
-export const FAKE_STAR_FLAGS = [
-  'abnormal_fork_ratio',
-  'too_new',
-  'star_spike',
-  'low_activity',
-  'duplicate_suspect',
-] as const;
-
-export type UsabilityFlagId = (typeof USABILITY_FLAGS)[number];
-export type FakeStarFlagId = (typeof FAKE_STAR_FLAGS)[number];
-export type FlagId = UsabilityFlagId | FakeStarFlagId;
-
-/** フラグがどちらの軸のものか（SPEC §7 の2軸分離） */
-export type FlagAxis = 'usability' | 'fake_star';
+export type FlagId = (typeof FLAGS)[number];
 
 export interface Flag {
   id: FlagId;
-  axis: FlagAxis;
-  /** 日本語の表示文言（例: 「⚠ メンテ停止の疑い」） */
+  /** 日本語の表示文言（例: 「メンテ停止の疑い」） */
   label: string;
   /** なぜ立ったかの説明。/about/criteria と個別ページで表示する */
   reason: string;
 }
-
-/** 偽スター疑い（SPEC §7.2）。断定はしない */
-export type FakeStarSuspicion = 'none' | 'low' | 'medium' | 'high';
 
 // ---------------------------------------------------------------------------
 // 追跡層（SPEC §10.4）
@@ -101,7 +81,12 @@ export interface Repository {
 
   /** GitHub 原文の description。翻訳・要約はしない（SPEC §9.1） */
   description_en: string | null;
-  /** 手動コメント。人間が書く。任意（SPEC §17.1） */
+  /**
+   * 日本語の紹介文。★このサイトの主役（D-001 / D-002）。
+   * Naoki が Claude Code を使って調査・執筆したものを、
+   * data/notes/{owner}/{name}.md から読み込む。
+   * 全件には付かない。書いたものだけ付く
+   */
   human_note: string | null;
 
   language: string | null;
@@ -138,33 +123,19 @@ export interface Repository {
   /** README.ja.md 等の有無 */
   has_japanese_readme: boolean;
 
+  /** 貢献者数。プロジェクトの活発さを示す情報として表示する */
   contributors_count: number | null;
-  /** dependents_count の代替候補（SPEC §7.5） */
+  /** リリース数。同上 */
   releases_count: number | null;
-  /** 取得可否を Phase 0 で検証（SPEC §7.5） */
-  dependents_count: number | null;
   ossf_scorecard: number | null;
 
   /** topics と language からのルールベース分類（SPEC §6.3） */
   category: Category | null;
 
-  // --- 機械判定の結果（Phase 1 で埋める。Phase 0 では初期値のまま） ---
+  // --- 機械判定の結果（evaluate.ts が埋める） ---
   flags: Flag[];
-  /** 0-100。実運用可否のみ（SPEC §7.4） */
+  /** 0-100。実運用に耐えるか（SPEC §7.4） */
   usability_score: number;
-  /** 数字が信用できるか。usability_score とは別軸（SPEC §7.2） */
-  fake_star_suspicion: FakeStarSuspicion;
-  /**
-   * どのシグナルで疑いが立ったか。
-   * ★「実利用の欠如」はフラグを持たないシグナルなので、これを保存しないと
-   *   「理由の表示できない警告」が生まれる。根拠の公開は §8.3 の要件
-   */
-  suspicion_signals: string[];
-  /**
-   * 履歴が足りず、判定が暫定である（SPEC §7.3）。
-   * UI では「判定中」と表示し、確定した判定と区別する
-   */
-  suspicion_provisional: boolean;
 
   /** 蓄積されたスナップショット日数（SPEC §2.5 の index 判定で使用） */
   snapshot_days: number;
