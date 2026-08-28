@@ -1,0 +1,36 @@
+# 結果の監視（SPEC §17.2）
+#
+# ★ 日次パイプラインとは別ワークフローにすること。
+#   パイプライン自体が動かなくなった場合、その中に監視を置いても発火しないため。
+#
+# 見るのは「処理の成否」ではなく「結果」（データの鮮度・件数）。
+# これにより、想定していない壊れ方も拾える。
+name: monitor
+
+on:
+  schedule:
+    # 03:00 UTC = 12:00 JST。日次パイプライン(06:00 JST)の6時間後に確認する
+    - cron: '0 3 * * *'
+  workflow_dispatch:
+
+permissions:
+  contents: read
+
+jobs:
+  monitor:
+    runs-on: ubuntu-latest
+    timeout-minutes: 10
+    steps:
+      - uses: actions/checkout@v4
+
+      - uses: actions/setup-node@v4
+        with:
+          node-version: '22'
+          cache: npm
+
+      - run: npm ci
+
+      - name: データの鮮度・件数を確認
+        env:
+          DISCORD_WEBHOOK_URL: ${{ secrets.DISCORD_WEBHOOK_URL }}
+        run: npm run monitor

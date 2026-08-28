@@ -1,0 +1,53 @@
+# 日次収集パイプライン（SPEC §11）
+#
+# ★ GitHub Actions の cron は混雑時に遅延・スキップされる仕様（SPEC §17.2-7）。
+#   それ自体は防げないので、別建ての monitor.yml でデータの鮮度を監視する。
+name: daily
+
+on:
+  schedule:
+    # 21:00 UTC = 06:00 JST
+    - cron: '0 21 * * *'
+  workflow_dispatch:
+
+concurrency:
+  group: daily
+  cancel-in-progress: false
+
+permissions:
+  contents: write
+
+jobs:
+  collect:
+    runs-on: ubuntu-latest
+    timeout-minutes: 30
+    steps:
+      - uses: actions/checkout@v4
+
+      - uses: actions/setup-node@v4
+        with:
+          node-version: '22'
+          cache: npm
+
+      # 依存パッケージの破壊的変更で勝手に壊れないよう lockfile 固定（SPEC §17.2-5）
+      - run: npm ci
+
+      - name: 収集とスナップショット保存
+        env:
+          GITHUB_TOKEN: ${{ secrets.WAKURU_GITHUB_PAT }}
+          DISCORD_WEBHOOK_URL: ${{ secrets.DISCORD_WEBHOOK_URL }}
+        run: npm run collect
+
+      - name: データをコミット
+        run: |
+          git config user.name  "wakuru-bot"
+          git config user.email "wakuru-bot@users.noreply.github.com"
+          git add data
+          if git diff --staged --quiet; then
+            echo "変更なし"
+            exit 0
+          fi
+          git commit -m "chore: daily snapshot $(TZ=Asia/Tokyo date +%F)"
+          # 手動コミットとの衝突に備えてリベースしてから push
+          git pull --rebase origin ${{ github.ref_name }}
+          git push

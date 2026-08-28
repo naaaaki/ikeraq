@@ -1,0 +1,24 @@
+{
+  "name": "wakuru",
+  "version": "0.1.0",
+  "private": true,
+  "type": "module",
+  "description": "GitHubでトレンド入りしたリポジトリを日本語で紹介するサイト（Phase 0: データ収集）",
+  "engines": {
+    "node": ">=20.11"
+  },
+  "scripts": {
+    "seed": "tsx --env-file-if-exists=.env scripts/seed.ts",
+    "collect": "tsx --env-file-if-exists=.env scripts/collect.ts",
+    "monitor": "tsx --env-file-if-exists=.env scripts/monitor.ts",
+    "stats": "tsx --env-file-if-exists=.env scripts/stats.ts",
+    "verify:dependents": "tsx --env-file-if-exists=.env scripts/verify-dependents.ts",
+    "typecheck": "tsc --noEmit",
+    "test": "tsx --test test/*.test.ts"
+  },
+  "devDependencies": {
+    "@types/node": "^24.10.1",
+    "tsx": "4.20.6",
+    "typescript": "5.9.3"
+  }
+}
