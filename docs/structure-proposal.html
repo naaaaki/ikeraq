@@ -1,0 +1,418 @@
+<title>Wakuru サイト構成案</title>
+<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Newsreader:opsz,wght@6..72,400;6..72,500&family=Zen+Kaku+Gothic+New:wght@400;500;700&family=JetBrains+Mono:wght@400;500&display=swap">
+<style>
+  :root {
+    --paper: #FAF8F4;
+    --card: #FFFFFF;
+    --ink: #191816;
+    --ink2: #56524B;
+    --ink3: #8A857D;
+    --rule: #E7E2D9;
+    --rule2: #D8D2C6;
+    --accent: #1E5A48;
+    --accent-soft: #E9F0EC;
+    --warn: #8A5A00;
+    --warn-soft: #FAF2E1;
+    --danger: #96302C;
+    --jp: 'Zen Kaku Gothic New', 'Hiragino Kaku Gothic ProN', 'Yu Gothic', sans-serif;
+    --serif: 'Newsreader', 'Hiragino Mincho ProN', serif;
+    --mono: 'JetBrains Mono', ui-monospace, monospace;
+  }
+  :root:not([data-theme="light"]) {
+    color-scheme: light;
+  }
+  @media (prefers-color-scheme: dark) {
+    :root:not([data-theme="light"]) {
+      --paper: #161714;
+      --card: #1D1F1A;
+      --ink: #EDEAE0;
+      --ink2: #B3AEA1;
+      --ink3: #837E71;
+      --rule: #2C2E27;
+      --rule2: #3A3D33;
+      --accent: #8FC0A9;
+      --accent-soft: #1F2A24;
+      --warn: #D8AC5E;
+      --warn-soft: #2A2418;
+      --danger: #D98A80;
+      color-scheme: dark;
+    }
+  }
+  :root[data-theme="dark"] {
+    --paper: #161714;
+    --card: #1D1F1A;
+    --ink: #EDEAE0;
+    --ink2: #B3AEA1;
+    --ink3: #837E71;
+    --rule: #2C2E27;
+    --rule2: #3A3D33;
+    --accent: #8FC0A9;
+    --accent-soft: #1F2A24;
+    --warn: #D8AC5E;
+    --warn-soft: #2A2418;
+    --danger: #D98A80;
+    color-scheme: dark;
+  }
+
+  body {
+    margin: 0;
+    background: var(--paper);
+    color: var(--ink);
+    font-family: var(--jp);
+    -webkit-font-smoothing: antialiased;
+    line-height: 1.85;
+  }
+  .wrap { max-width: 760px; margin: 0 auto; padding: 0 24px 96px; }
+
+  a { color: var(--accent); text-underline-offset: 3px; }
+
+  h1, h2, h3 { text-wrap: balance; }
+  h1 {
+    font-family: var(--serif);
+    font-size: clamp(32px, 6vw, 46px);
+    font-weight: 400;
+    letter-spacing: -.015em;
+    line-height: 1.18;
+    margin: 0 0 14px;
+  }
+  h2 {
+    font-family: var(--serif);
+    font-size: 26px;
+    font-weight: 400;
+    letter-spacing: -.01em;
+    line-height: 1.3;
+    margin: 0 0 20px;
+    padding-bottom: 12px;
+    border-bottom: 1px solid var(--rule2);
+  }
+  h3 {
+    font-size: 15px;
+    font-weight: 700;
+    margin: 0 0 10px;
+    letter-spacing: .01em;
+  }
+  p { margin: 0 0 16px; }
+  strong { font-weight: 700; }
+
+  .eyebrow {
+    font-size: 11px;
+    letter-spacing: .18em;
+    color: var(--ink3);
+    font-weight: 500;
+  }
+  .lede { font-size: 16px; color: var(--ink2); line-height: 1.9; }
+  .note { font-size: 13px; color: var(--ink3); line-height: 1.8; }
+
+  section { margin-top: 64px; }
+
+  code, .mono { font-family: var(--mono); font-size: .92em; }
+
+  .scroll { overflow-x: auto; }
+  table { border-collapse: collapse; width: 100%; font-size: 13.5px; }
+  th, td {
+    text-align: left;
+    padding: 11px 14px 11px 0;
+    border-bottom: 1px solid var(--rule);
+    vertical-align: top;
+  }
+  th { color: var(--ink3); font-weight: 500; font-size: 11.5px; letter-spacing: .1em; }
+  td:last-child, th:last-child { padding-right: 0; }
+
+  .card {
+    background: var(--card);
+    border: 1px solid var(--rule);
+    border-radius: 3px;
+    padding: 22px 24px;
+  }
+  .stack { display: flex; flex-direction: column; gap: 16px; }
+  .grid2 { display: grid; grid-template-columns: repeat(2, minmax(0, 1fr)); gap: 16px; }
+  @media (max-width: 620px) { .grid2 { grid-template-columns: minmax(0, 1fr); } }
+
+  /* ページの節は上から下への順序そのものが情報なので番号を振る */
+  ol.template { list-style: none; margin: 0; padding: 0; counter-reset: step; }
+  ol.template > li {
+    counter-increment: step;
+    display: grid;
+    grid-template-columns: 34px minmax(0, 1fr);
+    gap: 16px;
+    padding: 14px 0;
+    border-bottom: 1px solid var(--rule);
+  }
+  ol.template > li::before {
+    content: counter(step, decimal-leading-zero);
+    font-family: var(--mono);
+    font-size: 12px;
+    color: var(--ink3);
+    padding-top: 3px;
+    font-variant-numeric: tabular-nums;
+  }
+  ol.template .what { font-weight: 500; font-size: 14.5px; line-height: 1.6; }
+  ol.template .why { font-size: 12.5px; color: var(--ink3); line-height: 1.7; margin-top: 3px; }
+
+  ul.plain { margin: 0; padding-left: 1.15em; }
+  ul.plain li { margin-bottom: 8px; }
+
+  .tag {
+    display: inline-block;
+    padding: 1px 7px;
+    font-size: 11px;
+    line-height: 1.7;
+    border-radius: 2px;
+    border: 1px solid var(--rule2);
+    color: var(--ink3);
+    white-space: nowrap;
+  }
+  .tag.new { color: var(--accent); border-color: var(--accent); background: var(--accent-soft); }
+  .tag.cut { color: var(--danger); border-color: var(--danger); }
+
+  .callout {
+    border-left: none;
+    background: var(--warn-soft);
+    border: 1px solid var(--rule2);
+    border-radius: 3px;
+    padding: 18px 20px;
+    font-size: 13.5px;
+    line-height: 1.85;
+    color: var(--ink2);
+  }
+  .callout strong { color: var(--warn); }
+
+  hr.sep { border: none; border-top: 1px solid var(--rule); margin: 0; }
+</style>
+
+<div class="wrap">
+
+  <header style="padding: 72px 0 0;">
+    <div class="eyebrow" style="margin-bottom: 18px;">WAKURU / 提案 · 2026年8月29日</div>
+    <h1>サイト構成とページのかたち</h1>
+    <p class="lede" style="margin: 0;">
+      競合2サイトを調べたうえで、Wakuru のURL設計と、個別ページのテンプレートを提案します。結論を先に言うと、<strong>競合はどちらも「読んで終わり」で止まっていて、「使い始めるまで」を書いていません。</strong>ここが空いています。
+    </p>
+  </header>
+
+  <section>
+    <h2>調べたこと</h2>
+
+    <div class="stack">
+      <div class="card">
+        <div class="eyebrow" style="margin-bottom: 10px;">競合A — GitHub トレンド日本語解説</div>
+        <p style="margin: 0 0 12px; font-size: 14px;">
+          今日／週間のタブと言語フィルタ。1行の要約、スター数、今日の急上昇、fork、タグを並べた一覧サイトです。
+        </p>
+        <p class="note" style="margin: 0;">
+          <strong style="color: var(--danger);">穴：個別ページが存在しません。</strong>各リポジトリは GitHub へ直リンクするだけなので、「{repo名} 使い方」のような検索で拾える受け皿がありません。収益はリポジトリごとの Udemy 広告です。
+        </p>
+      </div>
+
+      <div class="card">
+        <div class="eyebrow" style="margin-bottom: 10px;">競合B — ghtrend</div>
+        <p style="margin: 0 0 12px; font-size: 14px;">
+          こちらは作り込まれています。トップ・日別・個別ページ・<strong>殿堂入り</strong>・週間まとめの5種類。各リポジトリに、キャッチーな見出し／3〜5文の要約／使える場面の具体例／なぜ今話題か／注目ポイント2つ／対象レベル（初心者・中級・上級）を生成しています。
+        </p>
+        <p class="note" style="margin: 0;">
+          <strong style="color: var(--danger);">穴：全自動です。</strong>毎日スクレイピングして LLM に全件書かせているため、作者自身が「たまに何故か英語で出力されちゃう」と書いています。品質が安定せず、Google が問題視する「大量生成」にも近い形です。
+        </p>
+      </div>
+    </div>
+
+    <h3 style="margin-top: 34px;">両方に共通して無かったもの</h3>
+    <ul class="plain" style="font-size: 14px;">
+      <li><strong>使い始めるまでの手順。</strong>「何ができるか」は書いてあっても、「で、どう入れるの」が無い</li>
+      <li><strong>日本語 README があるかどうか。</strong>日本語圏向けサイトなのに、両方とも出していません</li>
+      <li><strong>人の言葉。</strong>触った人が「ここが効く／ここは合わない」と書いた文章がない</li>
+    </ul>
+  </section>
+
+  <section>
+    <h2>どこで勝つか</h2>
+    <div class="grid2">
+      <div class="card">
+        <h3>1. 数は少なく、中身を濃く</h3>
+        <p class="note" style="margin: 0;">全件に紹介文を付けない。週3〜5本でいいので、Naoki が読んで確認した文章だけ載せる。競合Bの弱点（精度が不安定・大量生成）の裏返しです。</p>
+      </div>
+      <div class="card">
+        <h3>2. 使い始めるまでを1画面に</h3>
+        <p class="note" style="margin: 0;">導入コマンドと最小の動く例まで置く。両競合に無く、検索意図（「{repo名} 使い方」）にも一致します。</p>
+      </div>
+      <div class="card">
+        <h3>3. 蓄積データを見せる</h3>
+        <p class="note" style="margin: 0;">毎日のスター記録は、日が経つほど競合が追いつけなくなる資産です。殿堂入り・推移グラフ・先週との比較で使います。</p>
+      </div>
+      <div class="card">
+        <h3>4. 日本語で読める度合い</h3>
+        <p class="note" style="margin: 0;">日本語 README の有無を出す。実装済みなのに、まだ見せ場を作れていません。絞り込み条件にもします。</p>
+      </div>
+    </div>
+  </section>
+
+  <section>
+    <h2>サイト構成（URL設計）</h2>
+    <p class="note" style="margin-bottom: 20px;">
+      仕様書 §5 からの変更点に印を付けています。<span class="tag new">追加</span> は今回の提案、<span class="tag cut">廃止</span> はコンセプト変更に伴って落とすものです。
+    </p>
+
+    <div class="scroll">
+      <table>
+        <thead>
+          <tr><th style="width: 34%;">URL</th><th>内容</th><th style="width: 15%;"></th></tr>
+        </thead>
+        <tbody>
+          <tr><td class="mono">/</td><td>トップ。ピックアップ＋今日の一覧</td><td></td></tr>
+          <tr><td class="mono">/repo/{owner}/{name}</td><td>個別ページ。生成基準を満たしたものだけ</td><td></td></tr>
+          <tr><td class="mono">/daily/YYYY-MM-DD</td><td>日次アーカイブ</td><td></td></tr>
+          <tr><td class="mono">/weekly/YYYY-Www</td><td>週次まとめ。人が書く。SEOの中核</td><td></td></tr>
+          <tr><td class="mono">/collections/{slug}</td><td>特集。テーマで手集めしたリスト</td><td><span class="tag new">追加</span></td></tr>
+          <tr><td class="mono">/hall-of-fame</td><td>殿堂。何度もトレンド入りした定番</td><td><span class="tag new">追加</span></td></tr>
+          <tr><td class="mono">/category/{category}</td><td>カテゴリ別。AIエージェント、開発ツールなど</td><td></td></tr>
+          <tr><td class="mono">/lang/{language}</td><td>言語別</td><td></td></tr>
+          <tr><td class="mono">/japanese</td><td>日本語 README があるものだけ</td><td><span class="tag new">追加</span></td></tr>
+          <tr><td class="mono">/about</td><td>サイトについて</td><td></td></tr>
+          <tr><td class="mono">/about/criteria</td><td>判定の基準。全公開する</td><td></td></tr>
+          <tr><td class="mono">/feed.xml</td><td>RSS</td><td></td></tr>
+          <tr><td class="mono">/newsletter</td><td>ニュースレター登録</td><td></td></tr>
+          <tr style="opacity: .55;"><td class="mono">/flagged</td><td>警告つき一覧</td><td><span class="tag cut">廃止</span></td></tr>
+          <tr style="opacity: .55;"><td class="mono">/tag/{topic}</td><td>トピック別 → カテゴリに統合</td><td><span class="tag cut">廃止</span></td></tr>
+          <tr style="opacity: .55;"><td class="mono">/license/{category}</td><td>ライセンス区分別 → 需要が薄いので保留</td><td><span class="tag cut">廃止</span></td></tr>
+        </tbody>
+      </table>
+    </div>
+
+    <h3 style="margin-top: 34px;">追加した3つの理由</h3>
+    <ul class="plain" style="font-size: 14px;">
+      <li><strong class="mono" style="font-family: var(--mono); font-size: 13px;">/hall-of-fame</strong> — 毎日の記録があって初めて作れるページです。競合Bもやっており、有効性は確認済み。「今日たまたま伸びた」ではなく「ずっと注目されている」を示せます</li>
+      <li><strong class="mono" style="font-family: var(--mono); font-size: 13px;">/collections/{slug}</strong> — 「個人開発で使えるAIツール10選」のようなテーマ集。<strong>SEOの本命はここです。</strong>単発の紹介より、まとめ記事のほうが検索で強く、被リンクも付きます</li>
+      <li><strong class="mono" style="font-family: var(--mono); font-size: 13px;">/japanese</strong> — 日本語圏サイトの存在理由に直結します。データは既に取れています</li>
+    </ul>
+  </section>
+
+  <section>
+    <h2>個別ページのテンプレート</h2>
+    <p style="font-size: 14px; color: var(--ink2);">
+      2種類あります。<strong>紹介文を書いたページ</strong>と、<strong>書いていないページ</strong>です。同じ型で作ると、中身の薄いページが量産されて検索エンジンに嫌われます。
+    </p>
+
+    <h3 style="margin-top: 34px;">A. 紹介文を書いたページ</h3>
+    <p class="note" style="margin-bottom: 18px;">上から下への順序そのものが設計です。読む人は「これ何？ → 自分に関係ある？ → どう使う？」の順に知りたがります。</p>
+
+    <ol class="template">
+      <li><div><div class="what">パンくず</div><div class="why">ホーム / カテゴリ / リポジトリ名</div></div></li>
+      <li><div><div class="what">リポジトリ名と、英語の説明文</div><div class="why">英語は小さく薄く。原文として残すが、主役にはしない</div></div></li>
+      <li><div><div class="what">日本語の見出し一文</div><div class="why">「何ができるか」を一言で。ここだけ読んで離脱しても価値が残る形にする</div></div></li>
+      <li><div><div class="what">バッジ列</div><div class="why">言語 / ライセンスと商用可否 / スター数 / 最終更新 / 日本語READMEの有無</div></div></li>
+      <li><div><div class="what">どういうものか（3〜5段落）</div><div class="why">★ページの主役。人が書く。英語の直訳にしない</div></div></li>
+      <li><div><div class="what">こういうときに効く</div><div class="why">具体的な場面を1〜2つ。「何ができるか」より「いつ使うか」のほうが読者の役に立つ</div></div></li>
+      <li><div><div class="what">使い始める</div><div class="why">★競合に無い。導入コマンドと、最小の動く例。ここまで書ければ「使い方」の検索を取れる</div></div></li>
+      <li><div><div class="what">気をつける点</div><div class="why">ライセンス・メンテ状況を文章で。スコアの数字パネルは置かない</div></div></li>
+      <li><div><div class="what">注目度の推移</div><div class="why">Wakuru が記録しているグラフ。他所には無いデータ</div></div></li>
+      <li><div><div class="what">基本情報</div><div class="why">fork / Issue / 貢献者 / リリース / 作成日。表で淡々と</div></div></li>
+      <li><div><div class="what">似たもの・関連</div><div class="why">同じカテゴリの中から。回遊してもらう導線</div></div></li>
+      <li><div><div class="what">出典と免責</div><div class="why">GitHub への正規リンク、書いた人、書いた日</div></div></li>
+    </ol>
+
+    <div class="callout" style="margin-top: 26px;">
+      <strong>「使い始める」を書くときの注意。</strong>README のコード例をそのまま貼るのは避けてください。README はコードとは別に、そのリポジトリのライセンスに従います。ライセンス未設定の README は全権利留保です。<strong>導入コマンド1行は事実に近いので問題ありませんが、使用例は自分で書いたものにしてください。</strong>抜粋の上限は500字です（仕様書 §8.2）。
+    </div>
+
+    <h3 style="margin-top: 40px;">B. 紹介文を書いていないページ</h3>
+    <p class="note" style="margin-bottom: 18px;">
+      自動生成されるページです。<strong>Aの短縮版にしない。</strong>「本文が空っぽの記事」に見えると、検索エンジンから中身の薄いページと判断されます。最初からデータを見せるページとして組みます。
+    </p>
+    <ol class="template">
+      <li><div><div class="what">リポジトリ名と、英語の説明文</div><div class="why">翻訳はしない。原文のまま</div></div></li>
+      <li><div><div class="what">バッジ列</div><div class="why">Aと同じ</div></div></li>
+      <li><div><div class="what">注目度の推移</div><div class="why">★このページの主役。7日分たまっていなければページ自体を検索エンジンに載せない</div></div></li>
+      <li><div><div class="what">基本情報と気をつける点</div><div class="why">機械的に取得・判定したもの</div></div></li>
+      <li><div><div class="what">GitHub で見る</div><div class="why">深追いする人はここから原典へ</div></div></li>
+    </ol>
+    <p class="note" style="margin-top: 16px;">
+      紹介文も警告も無く、推移も7日に満たないページは <span class="mono">noindex</span> にします。実装済みです。
+    </p>
+  </section>
+
+  <section>
+    <h2>そのほかのページ</h2>
+
+    <div class="stack">
+      <div class="card">
+        <h3>トップ</h3>
+        <p class="note" style="margin: 0;">
+          ①今日のピックアップ（紹介文を書いたもの・1〜3件を大きく）→ ②今日伸びているもの一覧 → ③殿堂・特集への導線。<br>
+          紹介文が1本も無い日も成立させること。無い日はピックアップ枠を出さず、一覧から始めます。書けない週があってもサイトが崩れない形にしておくのが、続けるコツです。
+        </p>
+      </div>
+      <div class="card">
+        <h3>週次まとめ</h3>
+        <p class="note" style="margin: 0;">
+          今週の要点3行 → 今週初めて出てきたもの → 続けて伸びているもの → <strong>先週との比較</strong>。<br>
+          比較は蓄積データがあって初めて書けます。競合は週次を「ランキングの羅列」で済ませているので、ここに一言の解釈が入るだけで差が出ます。
+        </p>
+      </div>
+      <div class="card">
+        <h3>特集（Collections）</h3>
+        <p class="note" style="margin: 0;">
+          テーマで手集めしたリスト。例：「日本語 README があるAIツール」「Docker を使わずに試せるデータベース」「個人開発者のためのデプロイ先」。<br>
+          既存の紹介文を組み合わせるだけなので、書く手間は少なく、検索では単発ページより強く出ます。
+        </p>
+      </div>
+    </div>
+  </section>
+
+  <section>
+    <h2>あったらいいもの</h2>
+    <div class="scroll">
+      <table>
+        <thead><tr><th style="width: 30%;">機能</th><th>内容と根拠</th><th style="width: 14%;">優先</th></tr></thead>
+        <tbody>
+          <tr><td>殿堂入り</td><td>複数日トレンド入りしたもの。蓄積データが効く。競合Bで実績あり</td><td>高</td></tr>
+          <tr><td>特集</td><td>テーマ別のまとめ。SEOの本命</td><td>高</td></tr>
+          <tr><td>使い始めるセクション</td><td>両競合に無い。検索意図に直結</td><td>高</td></tr>
+          <tr><td>日本語 README 絞り込み</td><td>データは取得済み。実装は軽い</td><td>高</td></tr>
+          <tr><td>対象レベル表示</td><td>初心者／中級／上級。競合Bが採用。機械では判定できないので、紹介文を書くときに人が付ける</td><td>中</td></tr>
+          <tr><td>先週との比較</td><td>週次まとめの中で見せる</td><td>中</td></tr>
+          <tr><td>ニュースレター</td><td>収益の本命（仕様書 §3）。登録フォームだけ先に置く</td><td>中</td></tr>
+          <tr><td>サイト内検索</td><td>件数が増えてから。300件を超えたあたりで検討</td><td>低</td></tr>
+          <tr><td>OGP画像の自動生成</td><td>SNS流入用。Phase 3</td><td>低</td></tr>
+        </tbody>
+      </table>
+    </div>
+  </section>
+
+  <section>
+    <h2>決まったこと</h2>
+    <p class="note" style="margin-bottom: 22px;">2026年8月29日、Naoki の判断。詳細は <span class="mono">docs/DECISIONS.md</span> の D-005〜D-007。</p>
+
+    <div class="stack">
+      <div class="card">
+        <h3>紹介文は週3本。書ける週はそれ以上</h3>
+        <p class="note" style="margin: 0;">
+          3ヶ月で36本。特集を組める量になります。<strong>書けない週があってよい設計</strong>にします。トップは紹介文が1本も無い日でも成立させ、ピックアップ枠を出さずに一覧から始めます。書けない週にサイトが崩れる設計は、続きません。
+        </p>
+      </div>
+
+      <div class="card">
+        <h3>「使い方」は入れる。ただし動かせたものだけ</h3>
+        <p class="note" style="margin: 0 0 12px;">
+          導入コマンドと最小の動く例まで書きます。<strong>実際に動かせなかったら、その節ごと省きます。</strong>試していないのに手順を書くと、読者が動かせなかったときに信用がまとめて失われるためです。
+        </p>
+        <p class="note" style="margin: 0;">
+          GPU が要る・APIキーが要る・セットアップが重い、といったリポジトリは普通にあります。そういうものは「どういうものか」だけ書いて公開します。無理に埋めません。
+        </p>
+      </div>
+
+      <div class="card">
+        <h3>特集は Phase 2 以降・月1本</h3>
+        <p class="note" style="margin: 0 0 12px;">
+          いまは着手しません。<strong>紹介文が15〜20本たまるまで素材がない</strong>ためです。ただし紹介文を書く段階で「これはどの特集に入りそうか」は意識しておきます。
+        </p>
+        <p class="note" style="margin: 0;">
+          <strong style="color: var(--warn);">量産しないこと。</strong>まとめ記事の大量生成は、Google が警戒する形に近づきます。月1本、多くても月2本までに抑えます。
+        </p>
+      </div>
+    </div>
+  </section>
+
+  <hr class="sep" style="margin-top: 72px;">
+  <p class="note" style="padding-top: 20px;">
+    調べた競合：<a href="https://git-hub-ranking-site.vercel.app/">GitHub トレンド日本語解説</a> ／ <a href="https://qiita.com/web_ya_san/items/cb373593eeea64bfdf0d">ghtrend（作者による解説記事）</a>
+  </p>
+</div>
