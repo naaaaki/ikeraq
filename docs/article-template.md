@@ -84,129 +84,57 @@
 
 ## 図の作り方
 
-**1リポジトリにつき1枚。**「どういうものか」の直後に入る。
+**図は任意。** 無理に入れない。入れないほうがいい記事のほうが多いくらい。
 
-### ★ 画像に文字を入れない
+### 決まっていること
 
-AI画像生成は文字を高確率で崩す。綴りが壊れたラベルは、信頼を売りにするサイトでは致命傷になる。
-
-**絵は関係性だけを示し、意味はキャプションで書く。** この分担なら崩れようがない。
-
-### 手順1 — どの型かを決める
-
-リポジトリの description と README の最初の段落から、次のどれかを選ぶ。
-
-| 型 | どんなリポジトリか | 絵の構造 |
-|---|---|---|
-| **流れ型** | 入力を受けて何かして出す（変換・解析・パイプライン） | 左から右へ、形が変わっていく |
-| **まとめ型** | バラバラだったものを1つにする（統合・プロキシ・ハブ） | 多 → 1 → 多。中央に箱 |
-| **置き換え型** | 重かったものが軽くなる（依存が減る・手順が減る） | 上下または左右に Before / After |
-| **層型** | 既存の仕組みのどこかに挟まる（ミドルウェア・ラッパー） | 横長の帯を積み、1枚を強調 |
-
-迷ったら**流れ型**。たいていのものは流れで説明できる。
-
-### 手順2 — 1文にする
-
-「**何が** → **どうなって** → **何になる**」を1文で書く。これが絵の中身になる。
-
-> 例：アプリからの呼び出しが1か所に集まり、そこから複数のモデルに振り分けられる
-
-### 手順3 — プロンプトを組む
-
-**［① 何が描かれているか］＋［共通スタイル］** の2段構成。
-
-①だけを毎回書き直し、共通スタイルは**一字一句そのまま**使う。サイト全体で絵が揃い、Wakuru の絵だと分かるようになる。
-
-#### ①の書き方
-
-**「何が、何個、どこに、どうつながっているか」を具体的に書く。** 抽象的に書くとモデルが勝手に解釈して、毎回違う絵が出る。
-
-> ✅ Three small outlined squares are stacked vertically on the left. A straight line runs from each of them, converging into a single solid green rounded rectangle at the center.
->
-> ❌ A diagram showing how requests are routed to models.
-
-日本語で考えてから英語にする。並べる向きは **左から右** か **上から下**。
-
-#### 共通スタイル（毎回そのままコピーする）
-
-```
-Style: flat 2D vector diagram, in the manner of a minimal editorial illustration
-for a technical magazine. Use only simple geometric primitives - rectangles,
-rounded rectangles, circles, and straight or right-angled connecting lines.
-Small solid triangular arrowheads are allowed to show direction.
-
-Composition: centered and balanced, with generous empty space around the shapes.
-Elements sit on a clear horizontal axis. Nothing touches the edge of the frame.
-
-Color: exactly three colors and nothing else - a warm off-white background
-(#F7F4EE), deep green fills (#1E5A48), and near-black outlines (#17160F).
-Outlines are thin and uniform, about 3px on a 1600px-wide canvas.
-
-Must not contain: writing of any kind - no text, letters, numbers, words,
-labels, captions, watermarks, or marks that resemble writing. No recognizable
-icons such as computers, servers, clouds, databases, gears, or people.
-No gradients, shadows, textures, 3D shading, perspective, or outer glow.
-
-Aspect ratio 16:9.
-```
-
-#### なぜこの書き方なのか
-
-| 書いていること | 理由 |
+| # | |
 |---|---|
-| `Style:` `Composition:` のラベル区切り | ラベルで区切ると生成モデルの解釈が安定する |
-| 色を16進数で3色に限定し「この3色だけ」と言い切る | 指定しないと勝手に色が増える |
-| 文字の禁止を言い換えで並べる | 1語だけだとモデルによっては素通りする |
-| アイコン（パソコン・サーバー・雲・人）を名指しで禁止 | 放っておくと必ず描く |
-| 線の太さをキャンバス幅基準で言う | 「thin」だけでは細さが安定しない |
+| 1 | **SVG で作る。** AI画像生成は使わない（D-008） |
+| 2 | **インラインで置く。** `<img>` にするとページのフォントが効かず、図だけ書体が変わる |
+| 3 | **型は決め打ちしない。** 記事ごとにその場で作る |
 
-### 例：deepfoundry/atlas-lm の場合
+### なぜ型を決めないのか
 
-- **型**：まとめ型
-- **1文**：アプリからの呼び出しが1か所に集まり、そこから複数のモデルに振り分けられる
+一度「流れ型・まとめ型・置き換え型・層型」の4つを用意したが、**実例が1本もない状態での想像**だった。
+リポジトリの性格は幅が広く、どの形が実際に繰り返し出るかは書いてみるまで分からない。
+
+**最初の5〜10本は毎回その場で作る。** 繰り返し出た形が見えてきたら、そのときテンプレにする。
+
+### 作り方
+
+記事（「どういうものか」）を書き終えてから、Claude Code に **「図を作って」** と頼む。
+手順は `CLAUDE.md`「記事を書くときの流れ」4。
+
+いま分かっているのは、次の組み立てが読みやすいということだけ。
 
 ```
-A small outlined square sits on the left. A straight line runs right from it
-into a solid green rounded rectangle at the center. From the right side of that
-rectangle, three lines fan out to three outlined circles of different sizes on
-the right. The circles vary in size to suggest that the destinations differ.
-
-Style: flat 2D vector diagram, in the manner of a minimal editorial illustration
-for a technical magazine. Use only simple geometric primitives - rectangles,
-rounded rectangles, circles, and straight or right-angled connecting lines.
-Small solid triangular arrowheads are allowed to show direction.
-
-Composition: centered and balanced, with generous empty space around the shapes.
-Elements sit on a clear horizontal axis. Nothing touches the edge of the frame.
-
-Color: exactly three colors and nothing else - a warm off-white background
-(#F7F4EE), deep green fills (#1E5A48), and near-black outlines (#17160F).
-Outlines are thin and uniform, about 3px on a 1600px-wide canvas.
-
-Must not contain: writing of any kind - no text, letters, numbers, words,
-labels, captions, watermarks, or marks that resemble writing. No recognizable
-icons such as computers, servers, clouds, databases, gears, or people.
-No gradients, shadows, textures, 3D shading, perspective, or outer glow.
-
-Aspect ratio 16:9.
+        ┌──────────────────────────────┐
+        │  見出し1行（キーワードだけ色を変える）  │
+        │                                      │
+        │   ▢  ──▶   ■  ──▶   ○ ○ ○            │
+        │                                      │
+        │  名前     名前      名前              │
+        │ （役割）  （役割）   （役割）           │
+        │                                      │
+        │   〜 締めの一行 〜                     │
+        └──────────────────────────────┘
 ```
 
-### 手順4 — キャプションを書く
+- **見出し**が一番大きい。ここだけ読んでも分かるように書く
+- **名前は太く、役割は小さくグレー**で（　）に入れる
+- **矢印はアクセント色**。太めにすると流れが読める
+- **締めの一行**で、絵が言っていないことを補う
 
-**絵が言えないことを、ここで言う。** 絵の説明ではなく、絵から読み取ってほしい意味を書く。
-
-> ✅ アプリが見る先はひとつだけになり、どのモデルに渡すかは atlas-lm の側で決まります。モデルを増やしても、アプリのコードは変わりません。
-> ❌ アプリとモデルの関係を示した図です。
-
-### 手順5 — 保存する
-
-- 保存先：`data/notes/{owner}/{name}.png`
-- 横1600px以上、16:9
-- ノートの frontmatter に `image:` と `image_alt:` を書く
-- `image_alt` は目の見えない人向けの説明。**絵に何が描かれているか**を書く（キャプションとは役割が違う）
+色は3色だけ。背景 `#FFFFFF`、墨 `#17160F`、緑 `#1E5A48`。
 
 ### 図を入れないほうがいい場合
 
-- 説明が1つの箱で終わってしまう（絵にすると情報がゼロになる）
-- 見た目が主役のもの（UIツール・テーマ）→ スクリーンショットのほうがよい。ただしライセンス確認が要る
-- 型のどれにも当てはまらない → 無理に作らない。図は必須ではない
+- 説明が箱ひとつで終わる（絵にすると情報がゼロになる）
+- 見た目が主役のもの（UIツール・テーマ）→ スクリーンショットのほうがよい。ただし著作権の確認が要る
+- 形が思いつかない → **無理に作らない**
+
+### 保存する
+
+- 記事の中に SVG を直接書く（フォントを継がせるため）
+- `image_alt` に**絵に何が描かれているか**を書く。キャプションとは役割が違う

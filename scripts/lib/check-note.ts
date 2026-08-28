@@ -48,13 +48,6 @@ export function checkNote(raw: string): NoteIssue[] {
     issues.push({ level: 'warn', message: '画像があるのにキャプションが書かれていません' });
   }
 
-  // テンプレのコメントが残ったまま公開されるのを防ぐ
-  if (/① Subject（ここを書き直す）/.test(raw)) {
-    issues.push({
-      level: 'warn',
-      message: '図のプロンプトが下書きのままです（記事を書いてから作り直す）',
-    });
-  }
 
   // 使い方は「動かせたときだけ」（D-006）。書いたなら確認した環境を残す
   if (hasBody(body, '使い方') && !/確認しました|確認しています/.test(body)) {

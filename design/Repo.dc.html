@@ -156,37 +156,64 @@
             </p>
           </div>
 
-          <!-- ★1リポジトリ1枚の図。画像に文字は入れない（生成時に崩れるため）。
-               意味はキャプションが持つ。ここは実際には <img> が入る枠で、
-               下の SVG は「どんな絵が入るか」を示したもの -->
+          <!-- ★1リポジトリ1枚の図。SVG で書く（AI画像生成では文字が崩れる）。
+               見出しとラベルがキャッチーさの源なので、文字の正確さが命。
+               ページのフォント（Zen Kaku Gothic New）を継ぐため、必ずインラインで置く -->
           <figure class="fig" style="margin-top: 30px;">
             <div class="frame">
-              <svg viewBox="0 0 800 450" style="width: 100%; height: 100%; display: block;" role="img" aria-label="アプリからの呼び出しが1か所に集まり、そこから複数のモデルへ振り分けられる様子の図">
-                <rect width="800" height="450" fill="#F7F4EE"/>
+              <svg viewBox="0 0 800 450" style="width: 100%; height: 100%; display: block;"
+                   role="img" aria-label="アプリは atlas-lm だけを呼び、atlas-lm が3つのモデルへ振り分ける流れを示した図">
+                <rect width="800" height="450" fill="#FFFFFF"/>
 
-                <!-- 左：アプリ。ひとつだけ -->
-                <rect x="86" y="196" width="86" height="58" rx="4" fill="none" stroke="#17160F" stroke-width="2"/>
+                <!-- 見出し。ここがいちばん目に入る -->
+                <text x="400" y="66" text-anchor="middle"
+                      style="font-family: var(--jp); font-size: 27px; font-weight: 700; fill: #17160F; letter-spacing: .01em;">
+                  呼ぶ先は<tspan style="fill: #1E5A48;">ひとつ</tspan>。渡す先は atlas-lm が決める
+                </text>
 
-                <!-- 中央：まとめる入口 -->
-                <rect x="330" y="160" width="140" height="130" rx="6" fill="#1E5A48"/>
+                <!-- 左：アプリ -->
+                <rect x="92" y="152" width="106" height="96" rx="10" fill="#FFFFFF" stroke="#17160F" stroke-width="2.5"/>
+                <rect x="116" y="176" width="58" height="8" rx="4" fill="#17160F" opacity=".22"/>
+                <rect x="116" y="196" width="42" height="8" rx="4" fill="#17160F" opacity=".22"/>
+                <rect x="116" y="216" width="50" height="8" rx="4" fill="#17160F" opacity=".22"/>
 
-                <!-- 右：複数のモデル。大きさを変えて性格の違いを示す -->
-                <circle cx="654" cy="128" r="30" fill="none" stroke="#17160F" stroke-width="2"/>
-                <circle cx="668" cy="225" r="44" fill="#1E5A48" fill-opacity=".18" stroke="#1E5A48" stroke-width="2"/>
-                <circle cx="648" cy="330" r="24" fill="none" stroke="#17160F" stroke-width="2"/>
+                <!-- 矢印1 -->
+                <path d="M216 200 H258" stroke="#1E5A48" stroke-width="4" stroke-linecap="round"/>
+                <path d="M258 189 l18 11 -18 11 z" fill="#1E5A48"/>
 
-                <!-- つなぐ線。左は1本、右は3本に分かれる -->
-                <path d="M172 225 H330" stroke="#17160F" stroke-width="2"/>
-                <path d="M470 225 H540 Q560 225 560 205 V148 Q560 128 580 128 H624" fill="none" stroke="#1E5A48" stroke-width="2"/>
-                <path d="M470 225 H624" stroke="#1E5A48" stroke-width="2"/>
-                <path d="M470 225 H540 Q560 225 560 245 V310 Q560 330 580 330 H624" fill="none" stroke="#1E5A48" stroke-width="2"/>
+                <!-- 中央：atlas-lm。主役なので塗る -->
+                <rect x="296" y="140" width="152" height="120" rx="12" fill="#1E5A48"/>
+                <circle cx="352" cy="200" r="9" fill="#FFFFFF" opacity=".95"/>
+                <circle cx="386" cy="200" r="9" fill="#FFFFFF" opacity=".6"/>
+                <circle cx="420" cy="200" r="9" fill="#FFFFFF" opacity=".35"/>
 
-                <!-- 進む向き -->
-                <path d="M244 218 l14 7 -14 7 z" fill="#17160F"/>
+                <!-- 矢印2 -->
+                <path d="M466 200 H508" stroke="#1E5A48" stroke-width="4" stroke-linecap="round"/>
+                <path d="M508 189 l18 11 -18 11 z" fill="#1E5A48"/>
+
+                <!-- 右：3つのモデル。大きさを変えて性格の違いを出す -->
+                <circle cx="580" cy="200" r="27" fill="#FFFFFF" stroke="#17160F" stroke-width="2.5"/>
+                <circle cx="648" cy="200" r="36" fill="#1E5A48" fill-opacity=".16" stroke="#1E5A48" stroke-width="2.5"/>
+                <circle cx="714" cy="200" r="22" fill="#FFFFFF" stroke="#17160F" stroke-width="2.5"/>
+
+                <!-- ラベル。名前を太く、役割を小さく -->
+                <text x="145" y="296" text-anchor="middle" style="font-family: var(--jp); font-size: 17px; font-weight: 700; fill: #17160F;">アプリ</text>
+                <text x="145" y="319" text-anchor="middle" style="font-family: var(--jp); font-size: 12.5px; fill: #837E73;">（呼び出す側）</text>
+
+                <text x="372" y="296" text-anchor="middle" style="font-family: var(--mono); font-size: 17px; font-weight: 500; fill: #1E5A48;">atlas-lm</text>
+                <text x="372" y="319" text-anchor="middle" style="font-family: var(--jp); font-size: 12.5px; fill: #837E73;">（振り分ける）</text>
+
+                <text x="647" y="296" text-anchor="middle" style="font-family: var(--jp); font-size: 17px; font-weight: 700; fill: #17160F;">3つのモデル</text>
+                <text x="647" y="319" text-anchor="middle" style="font-family: var(--jp); font-size: 12.5px; fill: #837E73;">（速い・賢い・安い）</text>
+
+                <!-- 締めの一行 -->
+                <text x="400" y="392" text-anchor="middle" style="font-family: var(--jp); font-size: 15px; fill: #514D45;">
+                  〜 モデルを増やしても、アプリは書き換えない 〜
+                </text>
               </svg>
             </div>
             <figcaption>
-              アプリが見る先はひとつだけになり、どのモデルに渡すかは atlas-lm の側で決まります。モデルを増やしても、アプリのコードは変わりません。
+              どのモデルに渡すかは atlas-lm の側で決まります。アプリが知っているのは窓口ひとつだけです。
             </figcaption>
           </figure>
         </section>
