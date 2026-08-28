@@ -109,9 +109,9 @@
     <nav class="meta" aria-label="パンくず">
       <a href="#" style="color: var(--ink3);">ホーム</a>
       <span style="padding: 0 8px; color: var(--rule2);">/</span>
-      <a href="#" style="color: var(--ink3);">AIエージェント</a>
+      <a href="#" style="color: var(--ink3);">開発ツール</a>
       <span style="padding: 0 8px; color: var(--rule2);">/</span>
-      <span class="num">deepfoundry/atlas-lm</span>
+      <span class="num">tt-a1i/archify</span>
     </nav>
   </div>
 
@@ -122,24 +122,24 @@
       <!-- 見出し。名前 → 日本語の一言 → 英語原文 の順。読み手は日本語から入る -->
       <div style="padding: 28px 0 30px; border-bottom: 1px solid var(--rule2);">
         <h1 style="margin: 0 0 14px; font-family: var(--mono); font-size: 29px; font-weight: 500; letter-spacing: -.025em; line-height: 1.3;">
-          <span style="color: var(--ink3); font-weight: 400;">deepfoundry/</span>atlas-lm
+          <span style="color: var(--ink3); font-weight: 400;">tt-a1i/</span>archify
         </h1>
         <p class="display" style="margin: 0 0 16px; font-size: 22px; line-height: 1.55; color: var(--ink);">
-          複数のLLMを1つの入口にまとめて、乗り換えを怖くなくする
+          AIには構造だけ考えさせて、図そのものは機械が組み立てる
         </p>
         <p class="en" style="margin: 0 0 20px;">
-          All-in-one LLM serving stack with routing, caching and evaluation built in.
+          Agent skill for beautiful, verifiable architecture, workflow, sequence, data-flow, and lifecycle diagrams—self-contained HTML with motion and crisp export.
         </p>
-        <a class="url" href="https://github.com/deepfoundry/atlas-lm" style="margin-bottom: 20px;">
-          <span class="host">github.com/</span>deepfoundry/atlas-lm
+        <a class="url" href="https://github.com/tt-a1i/archify" style="margin-bottom: 20px;">
+          <span class="host">github.com/</span>tt-a1i/archify
           <svg width="12" height="12" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.4" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M7 17 17 7"/><path d="M9 7h8v8"/></svg>
         </a>
 
         <div style="display: flex; align-items: center; gap: 16px; flex-wrap: wrap;">
-          <span class="lic">Apache-2.0 · 商用OK</span>
-          <span class="lang"><span class="dot" style="background: #3572A5;"></span>Python</span>
-          <span class="meta">★ <b class="num">9,880</b>（今日 <b class="num" style="color: var(--accent);">+4,120</b>）</span>
-          <span class="meta">3日前に更新</span>
+          <span class="lic">MIT · 商用OK</span>
+          <span class="lang"><span class="dot" style="background: #F1E05A;"></span>JavaScript</span>
+          <span class="meta">★ <b class="num">26,755</b>（今日 <b class="num" style="color: var(--accent);">+4,561</b>）</span>
+          <span class="meta">昨日 更新</span>
         </div>
       </div>
 
@@ -149,71 +149,73 @@
           <h2 class="sec">どういうものか</h2>
           <div class="body">
             <p style="margin: 0 0 20px;">
-              複数の LLM を、ひとつの窓口の裏にまとめる道具です。アプリからは1か所を呼ぶだけで、どのモデルに渡すかは atlas-lm が決めます。OpenAI と同じ形式で話すので、既存のクライアントは接続先を変えるだけで繋がります。
+              Claude Code や Cursor などのコーディングエージェントに追加して使う「スキル」です。会話の中で「このリポジトリの構成を図にして」と頼むと呼び出され、アーキテクチャ図やシーケンス図が出てきます。
+            </p>
+            <p style="margin: 0 0 20px;">
+              面白いのは<b style="font-weight: 700;">役割の分け方</b>です。エージェントが書くのは、型の決まった JSON だけ。どこに何を置くか、線をどう引くかといった見た目の部分は、Archify 側が機械的に組み立てます。作者は「エージェントは型付きの中間表現を作る。Archify がそれを決定的に HTML/SVG へコンパイルする」と説明しています。
             </p>
             <p style="margin: 0;">
-              中に3つの機能が入っています。リクエストごとにモデルを選ぶ<b style="font-weight: 700;">ルーティング</b>、同じ問い合わせを2度投げない<b style="font-weight: 700;">キャッシュ</b>、そして過去のリクエストを記録しておいて別のモデルに流し直せる<b style="font-weight: 700;">評価</b>です。この3つを別々のツールで揃えると設定が散らかるので、まとめてあることに意味があります。
+              出てくるのは自己完結した HTML が1枚。ダークとライトの両方に対応していて、PNG・SVG・WebM で書き出せます。図を作る前に複数の検証を通す作りになっており、「検証できる図」であることを前面に出しています。
             </p>
           </div>
 
-          <!-- ★1リポジトリ1枚の図。SVG で書く（AI画像生成では文字が崩れる）。
-               見出しとラベルがキャッチーさの源なので、文字の正確さが命。
-               ページのフォント（Zen Kaku Gothic New）を継ぐため、必ずインラインで置く -->
           <figure class="fig" style="margin-top: 30px;">
             <div class="frame">
-              <svg viewBox="0 0 800 450" style="width: 100%; height: 100%; display: block;"
-                   role="img" aria-label="アプリは atlas-lm だけを呼び、atlas-lm が3つのモデルへ振り分ける流れを示した図">
+              <svg viewBox="0 0 800 450" style="width: 100%; height: 100%; display: block;" role="img"
+                   aria-label="エージェントが型付きJSONを書き、Archifyがそれを検証してHTML1枚に組み立てる流れの図。見た目を決める工程はエージェント側にない。">
                 <rect width="800" height="450" fill="#FFFFFF"/>
 
-                <!-- 見出し。ここがいちばん目に入る -->
-                <text x="400" y="66" text-anchor="middle"
-                      style="font-family: var(--jp); font-size: 27px; font-weight: 700; fill: #17160F; letter-spacing: .01em;">
-                  呼ぶ先は<tspan style="fill: #1E5A48;">ひとつ</tspan>。渡す先は atlas-lm が決める
+                <text x="400" y="64" text-anchor="middle"
+                      style="font-family: var(--jp); font-size: 26px; font-weight: 700; fill: #17160F;">
+                  AIが書くのは<tspan style="fill: #1E5A48;">JSONまで</tspan>。絵にするのは機械の仕事
                 </text>
 
-                <!-- 左：アプリ -->
-                <rect x="92" y="152" width="106" height="96" rx="10" fill="#FFFFFF" stroke="#17160F" stroke-width="2.5"/>
-                <rect x="116" y="176" width="58" height="8" rx="4" fill="#17160F" opacity=".22"/>
-                <rect x="116" y="196" width="42" height="8" rx="4" fill="#17160F" opacity=".22"/>
-                <rect x="116" y="216" width="50" height="8" rx="4" fill="#17160F" opacity=".22"/>
+                <rect x="74" y="150" width="104" height="94" rx="10" fill="#FFFFFF" stroke="#17160F" stroke-width="2.5"/>
+                <circle cx="126" cy="182" r="13" fill="#17160F" opacity=".18"/>
+                <rect x="96" y="207" width="60" height="7" rx="3.5" fill="#17160F" opacity=".18"/>
+                <rect x="96" y="223" width="42" height="7" rx="3.5" fill="#17160F" opacity=".18"/>
 
-                <!-- 矢印1 -->
-                <path d="M216 200 H258" stroke="#1E5A48" stroke-width="4" stroke-linecap="round"/>
-                <path d="M258 189 l18 11 -18 11 z" fill="#1E5A48"/>
+                <path d="M196 197 H236" stroke="#1E5A48" stroke-width="4" stroke-linecap="round"/>
+                <path d="M236 186 l18 11 -18 11 z" fill="#1E5A48"/>
 
-                <!-- 中央：atlas-lm。主役なので塗る -->
-                <rect x="296" y="140" width="152" height="120" rx="12" fill="#1E5A48"/>
-                <circle cx="352" cy="200" r="9" fill="#FFFFFF" opacity=".95"/>
-                <circle cx="386" cy="200" r="9" fill="#FFFFFF" opacity=".6"/>
-                <circle cx="420" cy="200" r="9" fill="#FFFFFF" opacity=".35"/>
+                <rect x="272" y="150" width="104" height="94" rx="10" fill="#FFFFFF" stroke="#1E5A48" stroke-width="2.5" stroke-dasharray="7 5"/>
+                <rect x="294" y="176" width="60" height="7" rx="3.5" fill="#1E5A48" opacity=".55"/>
+                <rect x="294" y="192" width="46" height="7" rx="3.5" fill="#1E5A48" opacity=".55"/>
+                <rect x="294" y="208" width="54" height="7" rx="3.5" fill="#1E5A48" opacity=".55"/>
 
-                <!-- 矢印2 -->
-                <path d="M466 200 H508" stroke="#1E5A48" stroke-width="4" stroke-linecap="round"/>
-                <path d="M508 189 l18 11 -18 11 z" fill="#1E5A48"/>
+                <path d="M394 197 H434" stroke="#1E5A48" stroke-width="4" stroke-linecap="round"/>
+                <path d="M434 186 l18 11 -18 11 z" fill="#1E5A48"/>
 
-                <!-- 右：3つのモデル。大きさを変えて性格の違いを出す -->
-                <circle cx="580" cy="200" r="27" fill="#FFFFFF" stroke="#17160F" stroke-width="2.5"/>
-                <circle cx="648" cy="200" r="36" fill="#1E5A48" fill-opacity=".16" stroke="#1E5A48" stroke-width="2.5"/>
-                <circle cx="714" cy="200" r="22" fill="#FFFFFF" stroke="#17160F" stroke-width="2.5"/>
+                <rect x="470" y="140" width="128" height="114" rx="12" fill="#1E5A48"/>
+                <path d="M508 197 l14 14 30 -32" fill="none" stroke="#FFFFFF" stroke-width="5" stroke-linecap="round" stroke-linejoin="round"/>
 
-                <!-- ラベル。名前を太く、役割を小さく -->
-                <text x="145" y="296" text-anchor="middle" style="font-family: var(--jp); font-size: 17px; font-weight: 700; fill: #17160F;">アプリ</text>
-                <text x="145" y="319" text-anchor="middle" style="font-family: var(--jp); font-size: 12.5px; fill: #837E73;">（呼び出す側）</text>
+                <path d="M616 197 H656" stroke="#1E5A48" stroke-width="4" stroke-linecap="round"/>
+                <path d="M656 186 l18 11 -18 11 z" fill="#1E5A48"/>
 
-                <text x="372" y="296" text-anchor="middle" style="font-family: var(--mono); font-size: 17px; font-weight: 500; fill: #1E5A48;">atlas-lm</text>
-                <text x="372" y="319" text-anchor="middle" style="font-family: var(--jp); font-size: 12.5px; fill: #837E73;">（振り分ける）</text>
+                <rect x="692" y="150" width="34" height="94" rx="5" fill="#FFFFFF" stroke="#17160F" stroke-width="2.5"/>
+                <rect x="700" y="162" width="18" height="18" rx="3" fill="#1E5A48" opacity=".3"/>
+                <rect x="700" y="188" width="18" height="4" rx="2" fill="#17160F" opacity=".2"/>
+                <rect x="700" y="200" width="18" height="4" rx="2" fill="#17160F" opacity=".2"/>
 
-                <text x="647" y="296" text-anchor="middle" style="font-family: var(--jp); font-size: 17px; font-weight: 700; fill: #17160F;">3つのモデル</text>
-                <text x="647" y="319" text-anchor="middle" style="font-family: var(--jp); font-size: 12.5px; fill: #837E73;">（速い・賢い・安い）</text>
+                <text x="126" y="288" text-anchor="middle" style="font-family: var(--jp); font-size: 16px; font-weight: 700; fill: #17160F;">エージェント</text>
+                <text x="126" y="310" text-anchor="middle" style="font-family: var(--jp); font-size: 12px; fill: #837E73;">（構造を考える）</text>
 
-                <!-- 締めの一行 -->
-                <text x="400" y="392" text-anchor="middle" style="font-family: var(--jp); font-size: 15px; fill: #514D45;">
-                  〜 モデルを増やしても、アプリは書き換えない 〜
+                <text x="324" y="288" text-anchor="middle" style="font-family: var(--jp); font-size: 16px; font-weight: 700; fill: #17160F;">型付きJSON</text>
+                <text x="324" y="310" text-anchor="middle" style="font-family: var(--jp); font-size: 12px; fill: #837E73;">（ここまでがAIの仕事）</text>
+
+                <text x="534" y="288" text-anchor="middle" style="font-family: var(--mono); font-size: 16px; font-weight: 500; fill: #1E5A48;">Archify</text>
+                <text x="534" y="310" text-anchor="middle" style="font-family: var(--jp); font-size: 12px; fill: #837E73;">（検証して組み立てる）</text>
+
+                <text x="709" y="288" text-anchor="middle" style="font-family: var(--jp); font-size: 16px; font-weight: 700; fill: #17160F;">HTML</text>
+                <text x="709" y="310" text-anchor="middle" style="font-family: var(--jp); font-size: 12px; fill: #837E73;">（1枚で完結）</text>
+
+                <text x="400" y="390" text-anchor="middle" style="font-family: var(--jp); font-size: 15px; fill: #514D45;">
+                  〜 見た目を決める工程が、AIの手から外れている 〜
                 </text>
               </svg>
             </div>
             <figcaption>
-              どのモデルに渡すかは atlas-lm の側で決まります。アプリが知っているのは窓口ひとつだけです。
+              見た目を決める工程がエージェントの手から外れているので、同じ構造からは毎回同じ図が出てきます。「頼むたびに違う図が出る」を避けたい人向けの設計です。
             </figcaption>
           </figure>
         </section>
@@ -222,74 +224,34 @@
           <h2 class="sec">どんなときに使うか</h2>
           <div style="display: flex; flex-direction: column; gap: 24px;">
             <div>
-              <div style="font-size: 15px; font-weight: 700; margin-bottom: 8px;">モデルを乗り換える前に、壊れないか確かめたいとき</div>
+              <div style="font-size: 15px; font-weight: 700; margin-bottom: 8px;">リポジトリの構成を、口伝えではなく形で残したいとき</div>
               <p style="margin: 0; font-size: 14px; line-height: 1.95; color: var(--ink2);">
-                1週間ぶんの本番リクエストを記録しておいて、切り替え前に新しいモデルへ流し直せます。「変えてみたら一部の返答が崩れた」を、本番に出す前に見つけられます。
+                新しく入った人に構成を説明するたび、同じ話を口でしている状況があります。図に落としておけば済むのですが、手で描くと更新されなくなります。エージェントに読ませて出せるなら、更新のたびに作り直すという手が取れます。
               </p>
             </div>
             <div>
-              <div style="font-size: 15px; font-weight: 700; margin-bottom: 8px;">コストと速度で、モデルを振り分けたいとき</div>
+              <div style="font-size: 15px; font-weight: 700; margin-bottom: 8px;">変更の前後を、レビューで並べて見せたいとき</div>
               <p style="margin: 0; font-size: 14px; line-height: 1.95; color: var(--ink2);">
-                「短い問い合わせは安いモデル、長文は高いモデル」といった振り分けを、アプリ側のコードを触らずに設定ファイルだけで変えられます。
+                構成が変わる変更をレビューに出すとき、差分だけを見ても全体がどう変わったのか伝わりません。Before / After の比較が用意されているので、そこを見せる使い方ができます。
               </p>
             </div>
           </div>
         </section>
 
-        <!-- ★ 使い始める。競合に無い節（D-006） -->
-        <section class="block" id="start">
-          <h2 class="sec" style="display: flex; align-items: baseline; justify-content: space-between; gap: 20px;">
-            <span>使い方</span>
-            <span style="font-size: 12px; font-weight: 400; letter-spacing: 0; color: var(--accent); display: inline-flex; align-items: center; gap: 6px;">
-              <svg width="13" height="13" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.4" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="m4 12.5 5 5L20 6.5"/></svg>
-              編集部で動作を確認しました
-            </span>
-          </h2>
-
-          <div style="display: flex; flex-direction: column; gap: 26px;">
-            <div>
-              <div style="font-size: 14px; font-weight: 700; margin-bottom: 10px;">1. インストールする</div>
-              <pre class="code"><span class="c"># Docker は要りません</span>
-pip install atlas-lm</pre>
-            </div>
-
-            <div>
-              <div style="font-size: 14px; font-weight: 700; margin-bottom: 10px;">2. 設定ファイルを書く</div>
-              <pre class="code"><span class="c"># atlas.yaml</span>
-backends:
-  - name: <span class="s">fast</span>
-    model: <span class="s">gpt-4o-mini</span>
-    max_latency_ms: <span class="s">800</span>
-  - name: <span class="s">deep</span>
-    model: <span class="s">claude-sonnet-4</span>
-    max_cost_per_1k: <span class="s">0.01</span></pre>
-              <p style="margin: 10px 0 0; font-size: 12.5px; line-height: 1.8; color: var(--ink3);">
-                上が速さ優先、下が品質優先の設定です。名前は自由に付けられます。
-              </p>
-            </div>
-
-            <div>
-              <div style="font-size: 14px; font-weight: 700; margin-bottom: 10px;">3. 起動して、アプリから呼び出す</div>
-              <pre class="code">atlas serve --config atlas.yaml
-
-<span class="c"># 既存のクライアントは向き先を変えるだけ</span>
-client = OpenAI(base_url=<span class="s">"http://localhost:8080/v1"</span>)</pre>
-            </div>
-          </div>
-
-          <p style="margin: 22px 0 0; padding: 14px 16px; background: var(--sink); border-radius: 3px; font-size: 12.5px; line-height: 1.85; color: var(--ink2);">
-            ここまでを macOS / Python 3.12 で確認しています。<b style="font-weight: 500;">コード例は当サイトで書いたもの</b>で、README の転載ではありません。バージョンによって手順が変わることがあります。
-          </p>
-        </section>
+        <!-- ★「使い方」の節は無い。実際に動かせていないため、節ごと省いた（D-006）。
+             書けないものを埋めないことが、書いたものの信用を守る -->
 
         <section class="block" id="caution">
           <h2 class="sec">注意点</h2>
           <div style="display: flex; flex-direction: column; gap: 18px; font-size: 14px; line-height: 1.95; color: var(--ink2);">
             <p style="margin: 0;">
-              レイテンシと費用の上限を設定ファイルで宣言する設計です。この考え方が合わないと窮屈に感じるかもしれません。細かく制御したい場合は、素直に自分でルーティングを書いたほうが早いこともあります。
+              <b style="font-weight: 700; color: var(--ink);">やらないことが明記されています。</b>Mermaid の自動読み取り、汎用の自動レイアウト、ホスティングでの共有、画面上での編集は「意図的に対象外」と書かれています。既存の Mermaid をそのまま流し込みたい、という用途には向きません。
             </p>
             <p style="margin: 0;">
-              ライセンスは <b style="font-weight: 700; color: var(--ink);">Apache-2.0</b> で、自社サービスへの組込みを妨げる条項はありません。特許条項があるため、導入前に原文の確認をおすすめします。最終コミットは3日前で、開発は動いています。
+              <b style="font-weight: 700; color: var(--ink);">まだ新しいプロジェクトです。</b>公開から4か月半で、リリースは17回。開発の速度が速い分、書き方や設定が変わる可能性があります。エージェントのスキルという形なので、使っているエージェント側の仕様変更にも影響を受けます。
+            </p>
+            <p style="margin: 0;">
+              ライセンスは MIT で、商用利用の妨げになる条項はありません。
             </p>
           </div>
         </section>
@@ -303,67 +265,52 @@ client = OpenAI(base_url=<span class="s">"http://localhost:8080/v1"</span>)</pre
 
           <div class="facts">
             <div class="fact">
-              <div class="v">1<span class="u">年</span>2<span class="u">か月</span></div>
-              <div class="k">公開してからの期間。2025年6月11日が最初のコミットです</div>
+              <div class="v">4<span class="u">か月</span></div>
+              <div class="k">公開してからの期間。2026年4月15日が最初のコミットです</div>
             </div>
             <div class="fact">
-              <div class="v">27<span class="u">回</span></div>
-              <div class="k">リリースの回数。月に2回ほどのペースです</div>
+              <div class="v">17<span class="u">回</span></div>
+              <div class="k">リリースの回数。最新は12日前の v2.15.0 です</div>
             </div>
             <div class="fact">
-              <div class="v">48<span class="u">人</span></div>
+              <div class="v">10<span class="u">人</span></div>
               <div class="k">開発に参加した人数。作者ひとりではありません</div>
             </div>
             <div class="fact">
-              <div class="v">3<span class="u">日前</span></div>
+              <div class="v">1<span class="u">日前</span></div>
               <div class="k">最後のコミット。開発は動いています</div>
             </div>
             <div class="fact">
-              <div class="v">63<span class="u">件</span></div>
+              <div class="v">57<span class="u">件</span></div>
               <div class="k">未解決の Issue。やり取りがある状態です</div>
             </div>
             <div class="fact">
-              <div class="v">3<span class="u">か月連続</span></div>
-              <div class="k">スターが増え続けている期間。Wakuru の記録によるものです</div>
+              <div class="v">今日<span class="u">検知</span></div>
+              <div class="k">Wakuru が今日はじめて見つけました。推移はこれから記録します</div>
             </div>
           </div>
 
           <div style="margin-top: 18px; padding: 16px 18px; background: var(--sink); border-radius: 3px;">
             <div style="display: flex; align-items: center; gap: 9px; font-size: 13.5px; font-weight: 700; color: var(--accent); margin-bottom: 8px;">
               <svg width="15" height="15" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.4" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="m4 12.5 5 5L20 6.5"/></svg>
-              開発が続く見込みは高そうです
+              いまは活発。ただし歴史は浅い
             </div>
             <p style="margin: 0; font-size: 12.5px; line-height: 1.85; color: var(--ink2);">
-              1年以上、複数人で、定期的にリリースが出ています。よくある「作者が飽きて止まる」形ではありません。ただしこれは過去の記録から見た傾向であって、今後を保証するものではありません。<a href="#">判定の条件</a>を公開しています。
+              4か月で17回リリース、昨日もコミットがあり、10人が関わっています。動きは活発です。一方で公開から日が浅いため、長く続くかどうかを判断する材料はまだありません。<a href="#">判定の条件</a>を公開しています。
             </p>
           </div>
         </section>
 
         <section class="block" id="similar">
           <h2 class="sec">ほかの候補</h2>
-          <div>
-            <a href="#" style="display: flex; align-items: baseline; justify-content: space-between; gap: 20px; padding: 16px 0; border-bottom: 1px solid var(--rule); color: inherit;">
-              <span style="min-width: 0;">
-                <span class="num" style="font-size: 14.5px; color: var(--ink); font-weight: 500;"><span style="color: var(--ink3); font-weight: 400;">portway/</span>gate</span>
-                <span style="display: block; font-size: 13px; color: var(--ink3); padding-top: 5px; line-height: 1.7;">ルーティングに絞った軽い作りです。評価の機能はありません</span>
-                <span class="num" style="display: block; font-size: 11.5px; color: var(--ink3); padding-top: 5px;">github.com/portway/gate</span>
-              </span>
-              <span class="num meta" style="flex: none;">★ 4,120</span>
-            </a>
-            <a href="#" style="display: flex; align-items: baseline; justify-content: space-between; gap: 20px; padding: 16px 0; border-bottom: 1px solid var(--rule); color: inherit;">
-              <span style="min-width: 0;">
-                <span class="num" style="font-size: 14.5px; color: var(--ink); font-weight: 500;"><span style="color: var(--ink3); font-weight: 400;">evalbox/</span>replay</span>
-                <span style="display: block; font-size: 13px; color: var(--ink3); padding-top: 5px; line-height: 1.7;">本番トラフィックの再生に特化しています。ルーティングはありません</span>
-                <span class="num" style="display: block; font-size: 11.5px; color: var(--ink3); padding-top: 5px;">github.com/evalbox/replay</span>
-              </span>
-              <span class="num meta" style="flex: none;">★ 2,860</span>
-            </a>
-          </div>
+          <p style="margin: 0; font-size: 13.5px; line-height: 1.9; color: var(--ink3);">
+            同じカテゴリで追いかけているリポジトリが、まだ十分にたまっていません。集まりしだい、ここに並びます。
+          </p>
         </section>
 
         <section style="padding-top: 8px;">
           <p style="margin: 0; font-size: 12.5px; line-height: 1.95; color: var(--ink3);">
-            この記事は編集部が書きました（2026年8月29日）。調査の過程で AI を使うことはありますが、公開前に必ず人が読んで確認しています。数値は GitHub から取得したもの、警告は<a href="#">公開している条件</a>による自動判定です。事実誤認を見つけた場合はお知らせください。
+            この記事は編集部が書きました（2026年8月29日）。内容は公開されている README と GitHub のデータに基づいています。<b style="font-weight: 500; color: var(--ink2);">まだ実際には動かしていないため、「使い方」の節はありません。</b>数値は GitHub から取得したもの、警告は<a href="#">公開している条件</a>による自動判定です。事実誤認を見つけた場合はお知らせください。
           </p>
         </section>
       </div>
@@ -375,26 +322,25 @@ client = OpenAI(base_url=<span class="s">"http://localhost:8080/v1"</span>)</pre
         <div class="label" style="margin-bottom: 12px;">目次</div>
         <a href="#about" class="on">どういうものか</a>
         <a href="#when">どんなときに使うか</a>
-        <a href="#start">使い方</a>
         <a href="#caution">注意点</a>
         <a href="#health">開発の様子</a>
         <a href="#similar">ほかの候補</a>
       </nav>
 
       <div>
-        <a href="https://github.com/deepfoundry/atlas-lm" style="display: flex; align-items: center; justify-content: center; gap: 8px; height: 46px; border-radius: 2px; font-size: 13.5px; color: #FFF; background: var(--accent);">
+        <a href="https://github.com/tt-a1i/archify" style="display: flex; align-items: center; justify-content: center; gap: 8px; height: 46px; border-radius: 2px; font-size: 13.5px; color: #FFF; background: var(--accent);">
           <svg width="16" height="16" viewBox="0 0 16 16" fill="currentColor" aria-hidden="true"><path d="M8 0C3.58 0 0 3.58 0 8c0 3.54 2.29 6.53 5.47 7.59.4.07.55-.17.55-.38 0-.19-.01-.82-.01-1.49-2.01.37-2.53-.49-2.69-.94-.09-.23-.48-.94-.82-1.13-.28-.15-.68-.52-.01-.53.63-.01 1.08.58 1.23.82.72 1.21 1.87.87 2.33.66.07-.52.28-.87.51-1.07-1.78-.2-3.64-.89-3.64-3.95 0-.87.31-1.59.82-2.15-.08-.2-.36-1.02.08-2.12 0 0 .67-.21 2.2.82.64-.18 1.32-.27 2-.27s1.36.09 2 .27c1.53-1.04 2.2-.82 2.2-.82.44 1.1.16 1.92.08 2.12.51.56.82 1.27.82 2.15 0 3.07-1.87 3.75-3.65 3.95.29.25.54.73.54 1.48 0 1.07-.01 1.93-.01 2.2 0 .21.15.46.55.38A8.01 8.01 0 0 0 16 8c0-4.42-3.58-8-8-8Z"/></svg>
           GitHub で開く
         </a>
-        <div class="num" style="text-align: center; padding-top: 9px; font-size: 11px; color: var(--ink3); word-break: break-all;">github.com/deepfoundry/atlas-lm</div>
+        <div class="num" style="text-align: center; padding-top: 9px; font-size: 11px; color: var(--ink3); word-break: break-all;">github.com/tt-a1i/archify</div>
       </div>
 
       <section>
         <div class="label" style="padding-bottom: 12px; border-bottom: 1px solid var(--rule2);">スター数</div>
         <div style="padding-top: 14px;">
           <div style="display: flex; align-items: baseline; gap: 9px; margin-bottom: 10px;">
-            <span class="num" style="font-size: 21px; font-weight: 500;">9,880</span>
-            <span class="num" style="font-size: 13px; color: var(--accent); font-weight: 500;">+4,120</span>
+            <span class="num" style="font-size: 21px; font-weight: 500;">26,755</span>
+            <span class="num" style="font-size: 13px; color: var(--accent); font-weight: 500;">+4,561</span>
             <span class="meta">今日</span>
           </div>
           <svg viewBox="0 0 240 44" style="width: 100%; height: 44px; display: block;" preserveAspectRatio="none" role="img" aria-label="直近30日のスター数の推移">
@@ -402,28 +348,28 @@ client = OpenAI(base_url=<span class="s">"http://localhost:8080/v1"</span>)</pre
             <polyline points="0,40 27,39 53,38 80,36 107,34 133,32 160,29 187,20 213,9 240,4" fill="none" stroke="#1E5A48" stroke-width="1.8" stroke-linejoin="round" stroke-linecap="round"/>
             <circle cx="240" cy="4" r="2.6" fill="#1E5A48"/>
           </svg>
-          <div class="meta" style="padding-top: 7px;">直近30日。<span class="num">128</span> 日分を記録しています</div>
+          <div class="meta" style="padding-top: 7px;">今日から記録を始めました</div>
         </div>
       </section>
 
       <section>
         <div class="label" style="padding-bottom: 12px; border-bottom: 1px solid var(--rule2);">そのほかの数字</div>
         <div style="padding-top: 4px;">
-          <div class="kv"><span>Fork</span><b>742</b></div>
-          <div class="kv"><span>Watch</span><b>188</b></div>
-          <div class="kv"><span>未解決の Issue</span><b>63</b></div>
-          <div class="kv"><span>コントリビュータ</span><b>48</b></div>
-          <div class="kv" style="border-bottom: none;"><span>リリース</span><b>27</b></div>
+          <div class="kv"><span>Fork</span><b>1,697</b></div>
+          <div class="kv"><span>Watch</span><b>107</b></div>
+          <div class="kv"><span>未解決の Issue</span><b>57</b></div>
+          <div class="kv"><span>コントリビュータ</span><b>10</b></div>
+          <div class="kv" style="border-bottom: none;"><span>リリース</span><b>17</b></div>
         </div>
       </section>
 
       <section>
         <div class="label" style="padding-bottom: 12px; border-bottom: 1px solid var(--rule2);">基本情報</div>
         <div style="padding-top: 4px;">
-          <div class="kv"><span>作成</span><b>2025-06-11</b></div>
-          <div class="kv"><span>最終コミット</span><b>2026-08-25</b></div>
+          <div class="kv"><span>作成</span><b>2026-04-15</b></div>
+          <div class="kv"><span>最終コミット</span><b>2026-08-28</b></div>
           <div class="kv"><span>日本語 README</span><span style="color: var(--ink3);">なし</span></div>
-          <div class="kv" style="border-bottom: none;"><span>見つけた日</span><b>2026-08-14</b></div>
+          <div class="kv" style="border-bottom: none;"><span>見つけた日</span><b>2026-08-29</b></div>
         </div>
       </section>
     </aside>

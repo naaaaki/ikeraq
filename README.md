@@ -2,21 +2,24 @@
 
 > 新しい技術が、わかる。
 
-GitHubでトレンド入りしたリポジトリを、日本語で紹介するサイト。
-仕様は [`docs/SPEC.md`](docs/SPEC.md)（v0.6）。
+GitHub で注目されているリポジトリを、日本語で紹介するサイト。
 
-**いまは Phase 0（助走期間）です。サイトはまだ作りません。データ収集だけを動かします。**
+**読む順番：** [`CLAUDE.md`](CLAUDE.md)（守ることと日々の流れ）→ [`docs/DECISIONS.md`](docs/DECISIONS.md)（決定事項・**仕様書より優先**）→ [`docs/SPEC.md`](docs/SPEC.md)（v0.6・履歴として残す）
 
 ---
 
-## Phase 0 でやること
+## いまの状況
 
-| 目的 | 理由 |
+| | 状態 |
 |---|---|
-| 日次スナップショットの蓄積を最速で始める | **この履歴は後から遡って取得できない**（SPEC §6.2） |
-| 公開時点で7日以上のスター履歴を確保する | 偽スター判定（`star_spike`）が7日平均を必要とするため（SPEC §7.3） |
-| `dependents_count` の取得可否を検証する | 取得できない場合は代替シグナルに切り替える（SPEC §7.5） |
-| 日次の新規エントリー数を実測する | 仕様の「10〜15件」は推定値（SPEC §4.1） |
+| データ収集の仕組み | 完成。**GitHub トークン待ちで未稼働** |
+| 機械判定（警告・スコア・分類） | 完成 |
+| 記事作成の仕組み | 完成（`npm run note`） |
+| デザイン | モック（`design/`） |
+| サイト本体（Astro） | **未着手** |
+
+**次にやること：** GitHub リポジトリを作り、Secrets を登録する。
+収集が1日遅れるごとに、スター履歴が1日ぶん永久に欠ける。
 
 ---
 
@@ -42,24 +45,28 @@ GitHub Actions で動かす場合は、リポジトリ Secrets に以下を登�
 ## コマンド
 
 ```bash
-npm run seed              # 初回だけ。追跡対象の初期シードを作る（SPEC §10.4）
-npm run collect           # 日次収集。スナップショットを1日1ファイル保存する
-npm run collect -- --dry-run --limit=20   # 保存せずに動作確認
-npm run evaluate          # 機械判定（フラグ・スコア・index判定）。外部APIを呼ばない
-npm run monitor           # データの鮮度・件数を監視（SPEC §17.2）
-npm run stats             # Phase 0 の実測レポート
-npm run verify:dependents # dependents_count の取得可否を検証（SPEC §7.5）
+# 記事を書く（週3本が目標・D-005）
+npm run note                 候補を見る
+npm run note -- owner/name   下書きを作る
+npm run note -- --check      下書きの抜けを確認
 
-npm test                  # 単体テスト
-npm run typecheck         # 型チェック
+# データ
+npm run seed                 初回だけ。追跡対象の初期シードを作る（SPEC §10.4）
+npm run collect              日次収集。スナップショットを1日1ファイル保存する
+npm run collect -- --dry-run --limit=20    保存せずに動作確認
+npm run evaluate             機械判定。外部APIを呼ばないので何度でも流し直せる
+npm run monitor              データの鮮度・件数を監視（SPEC §17.2）
+npm run stats                実測レポート
+
+npm test                     単体テスト
+npm run typecheck            型チェック
 ```
 
 ### 立ち上げ手順
 
-1. `npm run verify:dependents` を1回実行し、結果を SPEC §15 の TBD に反映する
-2. `npm run seed` を1回実行する（追跡対象が最大700件できる）
-3. `npm run collect` を毎日動かす（GitHub Actions が自動でやる）
-4. 7〜14日ほど貯めてから `npm run stats` で実測値を確認し、Phase 1 に進む
+1. `npm run seed` を1回実行する（追跡対象が最大700件できる）
+2. `npm run collect` を毎日動かす（GitHub Actions が自動でやる）
+3. 7〜14日ほど貯めてから `npm run stats` で実測値を確認する
 
 ---
 
@@ -69,28 +76,38 @@ npm run typecheck         # 型チェック
 scripts/
   seed.ts               初期シード（1回だけ）
   collect.ts            日次収集パイプライン（SPEC §11）
-  evaluate.ts           機械判定（SPEC §11-4）。ネットワーク不要で何度でも流し直せる
+  evaluate.ts           機械判定。ネットワーク不要で何度でも流し直せる
   monitor.ts            結果の監視（SPEC §17.2）
-  stats.ts              Phase 0 の実測レポート
-  verify-dependents.ts  dependents_count の取得可否検証（SPEC §7.5）
+  note.ts               記事の下書き作成と抜けの確認
+  stats.ts              実測レポート
   lib/
     github.ts           APIクライアント（レート制限・同時実行数制限）
     storage.ts          データの読み書き
     repository.ts       Repository レコードの生成
+    notes.ts            日本語の紹介文の読み込み
+    draft.ts            記事の下書きの雛形
+    check-note.ts       下書きの抜けの確認
     license.ts          ライセンス区分の判定
     readme.ts           README 抜粋（最大500字）
     trending.ts         Trending の取得（失敗許容）
     flags.ts            警告フラグの判定（SPEC §7.1）
-    score.ts            2軸のスコアと index 判定（SPEC §2.5 / §7.2 / §7.4）
+    score.ts            スコアと公開判定（SPEC §2.4 / §2.5 / §7.4）
     thresholds.ts       ★判定に使う閾値。docs/criteria.md と対
     categorize.ts       ルールベース分類（SPEC §6.3）
-    similarity.ts       duplicate_suspect の突き合わせ
     tier.ts             追跡対象の3層管理
     date.ts             JST の日付処理
     notify.ts           Discord 通知
 data/
-  repos/{owner}/{name}.json   ★1リポジトリ1ファイル
+  repos/{owner}/{name}.json   ★1リポジトリ1ファイル（機械が書く）
   snapshots/YYYY-MM-DD.json   ★1日1ファイル・最重要資産
+  notes/{owner}/{name}.md     ★日本語の紹介文（人が書く）
+design/                       デザインのモック（.dc.html）
+docs/
+  DECISIONS.md          ★決定事項。仕様書より優先する
+  SPEC.md               仕様書 v0.6（履歴）
+  criteria.md           判定基準の全公開の原稿
+  article-template.md   記事の書き方
+  structure-proposal.html  サイト構成案
 src/
   types.ts              データモデル（SPEC §6）。scripts と Astro で共有する
 ```
@@ -99,41 +116,41 @@ src/
 
 ## 実装上の約束（守らないと壊れる）
 
-仕様書 §16 で明示されているもの。**変更する前に SPEC を読むこと。**
+**変更する前に `docs/DECISIONS.md` を読むこと。**
 
-- **LLM / 外部AI APIを使わない**（SPEC §9.1）。要約生成のコードを書かない
+- **日次パイプラインで LLM を呼ばない**（SPEC §9.1）。ランニングコストをドメイン代のみに保つ
+  - 記事を書くときに Naoki が Claude Code を使うのは別（D-002）
 - **`Promise.all` で全件を並列リクエストしない**（SPEC §10.2）。`mapLimited` を使う
 - **データは1リポジトリ1ファイルに分割する**（SPEC §9.4）
 - **Search API は1クエリ1,000件が上限**。stars でレンジ分割する（SPEC §10.4）
 - **依存パッケージのバージョンを固定し、lockfile をコミットする**
 - **追跡対象を減らさない**。追跡をやめた期間のスター履歴は永久に欠損する（SPEC §10.4）
-  - シードは 700 件まで（`SEED_LIMIT`）。上限 1,000 件を埋め切ると、翌日から新規トレンドを1件も追跡できなくなる
-  - 枠が足りないときに押し出せるのは「休眠層かつ90日以上停滞」のものだけ。押し出しは必ずログに残る
+  - シードは 700 件まで。上限 1,000 件を埋め切ると、翌日から新規トレンドを1件も追跡できなくなる
+  - 押し出せるのは「休眠層かつ90日以上停滞」のものだけ。押し出しは必ずログに残る
 - **見ていない日をスナップショットに書かない**。3層構造により毎日は取得しないため、
-  記録するのはその日に実際に取得したものだけ。「動かなかった日」と「見ていない日」の混同は
-  偽スター判定の土台を壊し、後から直せない
+  記録するのはその日に実際に取得したものだけ
 - **README を全文転載しない**。抜粋は最大500字（SPEC §8.2）
-- **閾値を変えたら `docs/criteria.md` も直す**。基準を公開していることが信頼の源泉（SPEC §8.3）
-- **警告は「疑い」までしか言わない**。断定表現は名誉毀損リスクを生む（SPEC §7.2）
+- **閾値を変えたら `docs/criteria.md` も直す**。基準を公開していることが信頼の源泉
+- **警告は「疑い」までしか言わない**。断定表現は名誉毀損リスクを生む
 
 ---
 
-## 次のフェーズ
+## 廃止したもの
 
-Phase 1 で以下を実装する（SPEC §13）。**Phase 0 のデータが7日以上貯まってから着手する。**
+| 対象 | 経緯 |
+|---|---|
+| 偽スター判定 | D-004 で機能ごと廃止。コードはコミット `85e1931` に残っている |
+| `/flagged`（警告つき一覧） | D-004 |
+| `dependents_count` と取得検証スクリプト | D-004。偽スター判定専用だった |
+| 特集（`/collections/`） | D-007。素材がたまるまで設計しない |
+| AI画像生成による図 | D-008。SVG で作る |
 
-**実装済み（データが貯まれば動く）**
+---
 
-- `scripts/evaluate.ts` — 機械判定（フラグ・ライセンス区分・`usability_score`）
-- `scripts/lib/flags.ts` — 警告フラグ判定（SPEC §7.1）
-- `scripts/lib/categorize.ts` — ルールベース分類（SPEC §6.3）
-- 偽スター疑い判定 ★差別化の核（SPEC §7.2）とコールドスタート対策（SPEC §7.3）
-- `docs/criteria.md` — 判定基準の全公開の原稿
-- `design/` — トップ / 個別 / `/flagged` / モバイル / デザインシステム
+## これから
 
-**これから**
-
-- Astro のセットアップとページ生成 / `/flagged` / `/about/criteria`
+- **Astro のセットアップとページ生成**
 - ステマ表記・プライバシーポリシー・自動判定の免責（SPEC §8）
 - Article + BreadcrumbList 構造化データ
+- `/hall-of-fame`（殿堂入り）と `/japanese`（日本語README あり）
 - Cloudflare Pages へのデプロイ
