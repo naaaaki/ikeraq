@@ -4,3 +4,6 @@ node_modules/
 dist/
 .astro/
 *.log
+
+# エージェントのメモリはツール側の作業ファイル。プロジェクトの成果物ではない
+.claude/agent-memory/
