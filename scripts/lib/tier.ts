@@ -13,6 +13,16 @@ import type { Repository, TrackingTier } from '../../src/types.js';
 /** 追跡対象の上限（SPEC §10.4）。増やすのは1ヶ月運用してAPI消費の実測が出てから */
 export const TRACKING_LIMIT = 1000;
 
+/**
+ * 初期シードで埋める上限。
+ * 上限いっぱいまで埋めると、翌日から新規トレンドを1件も追跡できなくなる。
+ * 新規用に枠を空けておく（SPEC §10.4 の「トレンド系はほぼカバーできる」を満たす範囲）。
+ */
+export const SEED_LIMIT = 700;
+
+/** 停滞がこの日数を超えたら休眠層とみなす（SPEC §10.4） */
+export const DORMANT_DAYS = 90;
+
 /** 層の判定（SPEC §10.4 の表） */
 export function decideTier(repo: Repository, prevStarsDelta: number | null, now = new Date()): TrackingTier {
   const detectedDaysAgo = daysSince(repo.first_seen_at, now);
@@ -22,7 +32,7 @@ export function decideTier(repo: Repository, prevStarsDelta: number | null, now 
   if (detectedDaysAgo <= 30 || growing) return 'hot';
 
   // 休眠: 90日以上スターがほぼ動いていない
-  if (repo.stars_stagnant_days >= 90) return 'dormant';
+  if (repo.stars_stagnant_days >= DORMANT_DAYS) return 'dormant';
 
   return 'normal';
 }
@@ -39,4 +49,14 @@ export function shouldFetchToday(repo: Repository, today: string): boolean {
     case 'dormant':
       return elapsed >= 7;
   }
+}
+
+/**
+ * 追跡枠が足りないときに押し出してよいか。
+ *
+ * ★ 押し出したリポジトリのスター履歴は二度と取れない（SPEC §10.4）。
+ *   条件は「休眠層かつ90日以上停滞」に限定し、それ以外は絶対に外さない。
+ */
+export function evictable(repo: Repository): boolean {
+  return repo.tracking_tier === 'dormant' && repo.stars_stagnant_days >= DORMANT_DAYS;
 }

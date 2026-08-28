@@ -23,7 +23,9 @@ export function newRepository(gh: GitHubRepo, firstSeenAt: string = new Date().t
     topics: gh.topics ?? [],
     stars: gh.stargazers_count,
     forks: gh.forks_count,
-    watchers: gh.subscribers_count ?? gh.watchers_count,
+    // ★ API の watchers_count はスター数と同じ値。検索結果には subscribers_count が
+    //   含まれないため、個別取得するまでは「不明」として null にする
+    watchers: gh.subscribers_count ?? null,
     open_issues: gh.open_issues_count,
     created_at: gh.created_at,
     pushed_at: gh.pushed_at,

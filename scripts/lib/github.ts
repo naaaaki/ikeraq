@@ -18,13 +18,38 @@ const API = 'https://api.github.com';
 /** 同時実行数の上限（SPEC §10.2） */
 export const CONCURRENCY = 6;
 
-/** 残リクエストがこれを下回ったらリセットまで待つ */
-const RATE_LIMIT_FLOOR = 100;
-
 /** リトライ回数の上限 */
 const MAX_RETRIES = 5;
 
+/**
+ * レート制限の枠は用途ごとに独立している。
+ *   core   … 通常の REST API。5,000 req/時
+ *   search … Search API。30 req/分
+ * 1つのカウンタで両方を管理すると、検索を1回投げただけで
+ * 「残り30 = 枯渇」と誤判定し、以降の全リクエストが待機してしまう。
+ */
+type RateResource = 'core' | 'search';
+
+/** 残数がこれを下回ったらリセットまで待つ。枠ごとに値が違う */
+const RATE_LIMIT_FLOOR: Record<RateResource, number> = {
+  core: 100,
+  search: 3,
+};
+
+/** レート制限で待つ上限。これを超える待機が必要なら諦めて次回に回す */
+const MAX_WAIT_MS = 15 * 60 * 1000;
+
+/** レート制限に達し、リトライしても回復しなかった */
 export class RateLimitExhaustedError extends Error {}
+
+/** レート制限ではない 403。リトライしても永久に失敗するので即座に諦める */
+export class ForbiddenError extends Error {}
+
+/** レスポンスが期待した形式で読めなかった（API のレスポンス構造変更・SPEC §17.2-1） */
+export class ResponseParseError extends Error {}
+
+/** 1回の実行に割り当てたリクエスト数を使い切った */
+export class RequestBudgetExceededError extends Error {}
 
 // ---------------------------------------------------------------------------
 // 同時実行数リミッタ（p-limit 相当・依存を増やさないため自前実装）
@@ -86,15 +111,35 @@ const sleep = (ms: number) => new Promise((r) => setTimeout(r, ms));
 
 export interface GitHubClientOptions {
   token: string;
-  /** テスト用。省略時は実時間 */
-  now?: () => number;
+  /**
+   * 1回の実行で投げるリクエスト数の上限。
+   * 初回実行のように対象が一気に増えたとき、枠を使い切って
+   * 待機し続けジョブがタイムアウトするのを防ぐ（残りは翌日に回す）。
+   */
+  maxRequests?: number;
+}
+
+interface RateState {
+  remaining: number;
+  resetAt: number | null;
+}
+
+export interface ApiResponse {
+  status: number;
+  /** JSON なら parse 済みの値、それ以外は生の文字列 */
+  body: unknown;
+  headers: Headers;
 }
 
 export class GitHubClient {
   private token: string;
-  /** 直近のレスポンスから読んだ残数。監視ログ用 */
-  public remaining = Infinity;
-  public rateLimitResetAt: number | null = null;
+  private maxRequests: number;
+
+  private rates: Record<RateResource, RateState> = {
+    core: { remaining: Infinity, resetAt: null },
+    search: { remaining: Infinity, resetAt: null },
+  };
+
   /** このプロセスで投げたリクエスト数（コスト実測用・SPEC §10.4） */
   public requestCount = 0;
 
@@ -105,20 +150,42 @@ export class GitHubClient {
       );
     }
     this.token = opts.token;
+    this.maxRequests = opts.maxRequests ?? Infinity;
+  }
+
+  /** 通常APIの残数（ログ表示用） */
+  get remaining(): number {
+    return this.rates.core.remaining;
+  }
+
+  get searchRemaining(): number {
+    return this.rates.search.remaining;
+  }
+
+  /** リクエスト予算が残っているか。呼び出し側はこれを見て打ち切る */
+  hasBudget(): boolean {
+    return this.requestCount < this.maxRequests;
+  }
+
+  private resourceOf(path: string): RateResource {
+    return path.startsWith('/search/') || path.includes('/search/') ? 'search' : 'core';
   }
 
   /**
    * 生のリクエスト。レート制限とバックオフをここに集約する。
    * 404 は「存在しない」を意味することが多いので null を返し、呼び出し側で扱う。
    */
-  async request(
-    path: string,
-    init: RequestInit = {}
-  ): Promise<{ status: number; body: unknown; headers: Headers } | null> {
+  async request(path: string, init: RequestInit = {}): Promise<ApiResponse | null> {
     const url = path.startsWith('http') ? path : `${API}${path}`;
+    const resource = this.resourceOf(path);
 
     for (let attempt = 0; attempt <= MAX_RETRIES; attempt++) {
-      await this.waitIfRateLimited();
+      if (!this.hasBudget()) {
+        throw new RequestBudgetExceededError(
+          `リクエスト予算 ${this.maxRequests} 回を使い切りました。残りは次回の実行に回します`
+        );
+      }
+      await this.waitIfRateLimited(resource);
 
       this.requestCount++;
       const res = await fetch(url, {
@@ -132,27 +199,30 @@ export class GitHubClient {
         },
       });
 
-      this.readRateLimitHeaders(res.headers);
+      this.readRateLimitHeaders(resource, res.headers);
 
       if (res.status === 404) return null;
 
-      if (res.ok) {
-        const text = await res.text();
-        return {
-          status: res.status,
-          body: text ? JSON.parse(text) : null,
-          headers: res.headers,
-        };
+      if (res.ok) return this.parseBody(res, url);
+
+      const bodyText = await res.text();
+
+      // ★ 403 にはレート制限とは無関係のものがある（貢献者が極端に多いリポジトリ等）。
+      //   これをリトライすると、31秒待った末に必ず失敗する。即座に諦める。
+      if (res.status === 403 && !isRateLimitResponse(res, bodyText)) {
+        throw new ForbiddenError(
+          `403 Forbidden（レート制限ではない）: ${url}\n${bodyText.slice(0, 200)}`
+        );
       }
 
       // レート制限・二次制限・一時障害は指数バックオフでリトライ
       if (res.status === 429 || res.status === 403 || res.status >= 500) {
-        const wait = this.retryDelayMs(res, attempt);
         if (attempt === MAX_RETRIES) {
           throw new RateLimitExhaustedError(
             `${res.status} ${res.statusText} — リトライ上限に達しました: ${url}`
           );
         }
+        const wait = this.retryDelayMs(res, attempt);
         console.warn(
           `[github] ${res.status} — ${Math.round(wait / 1000)}秒待機してリトライ (${attempt + 1}/${MAX_RETRIES}): ${url}`
         );
@@ -160,11 +230,33 @@ export class GitHubClient {
         continue;
       }
 
-      const body = await res.text();
-      throw new Error(`GitHub API ${res.status} ${res.statusText}: ${url}\n${body.slice(0, 300)}`);
+      throw new Error(`GitHub API ${res.status} ${res.statusText}: ${url}\n${bodyText.slice(0, 300)}`);
     }
 
     throw new Error(`到達不能: ${url}`);
+  }
+
+  /**
+   * Content-Type を見てから読む。
+   * README は Accept: raw を指定するため JSON ではなく Markdown が返る。
+   * すべてを JSON.parse にかけると、README の取得が必ず例外になる。
+   */
+  private async parseBody(res: Response, url: string): Promise<ApiResponse> {
+    const text = await res.text();
+    const contentType = res.headers.get('content-type') ?? '';
+    const base = { status: res.status, headers: res.headers };
+
+    if (!text) return { ...base, body: null };
+    if (!contentType.includes('json')) return { ...base, body: text };
+
+    try {
+      return { ...base, body: JSON.parse(text) };
+    } catch (e) {
+      // API のレスポンス構造変更。該当件だけスキップして続行させる（SPEC §17.2-1）
+      throw new ResponseParseError(
+        `JSON として読めませんでした: ${url}（${(e as Error).message}）`
+      );
+    }
   }
 
   private retryDelayMs(res: Response, attempt: number): number {
@@ -175,34 +267,43 @@ export class GitHubClient {
     const remaining = res.headers.get('x-ratelimit-remaining');
     if (remaining === '0' && reset) {
       const waitMs = Number(reset) * 1000 - Date.now();
-      // リセット待ちが長すぎる場合も待つ。止まるよりは遅れる方がよい（SPEC §11）
-      if (waitMs > 0) return Math.min(waitMs + 2000, 60 * 60 * 1000);
+      if (waitMs > 0) return Math.min(waitMs + 2000, MAX_WAIT_MS);
     }
     // 指数バックオフ（1s, 2s, 4s, 8s, 16s）
     return 1000 * 2 ** attempt;
   }
 
-  private readRateLimitHeaders(headers: Headers) {
+  private readRateLimitHeaders(resource: RateResource, headers: Headers) {
     const remaining = headers.get('x-ratelimit-remaining');
     const reset = headers.get('x-ratelimit-reset');
-    if (remaining !== null) this.remaining = Number(remaining);
-    if (reset !== null) this.rateLimitResetAt = Number(reset) * 1000;
+    // どの枠のヘッダかは x-ratelimit-resource が教えてくれる。無ければパスから推定した値を使う
+    const actual = (headers.get('x-ratelimit-resource') as RateResource | null) ?? resource;
+    const state = this.rates[actual] ?? this.rates[resource];
+    if (remaining !== null) state.remaining = Number(remaining);
+    if (reset !== null) state.resetAt = Number(reset) * 1000;
   }
 
   /** 枠が尽きかけていたらリセットまで待つ（SPEC §10.2） */
-  private async waitIfRateLimited() {
-    if (this.remaining > RATE_LIMIT_FLOOR) return;
-    if (!this.rateLimitResetAt) return;
-    const waitMs = this.rateLimitResetAt - Date.now();
+  private async waitIfRateLimited(resource: RateResource) {
+    const state = this.rates[resource];
+    if (state.remaining > RATE_LIMIT_FLOOR[resource]) return;
+    if (!state.resetAt) return;
+
+    const waitMs = state.resetAt - Date.now();
     if (waitMs <= 0) {
-      this.remaining = Infinity; // リセット済み。次のレスポンスで再取得される
+      state.remaining = Infinity; // リセット済み。次のレスポンスで再取得される
       return;
     }
+    if (waitMs > MAX_WAIT_MS) {
+      throw new RateLimitExhaustedError(
+        `${resource} のレート制限リセットまで ${Math.ceil(waitMs / 60000)} 分あります。今回は打ち切ります`
+      );
+    }
     console.warn(
-      `[github] レート制限が残り ${this.remaining}。${Math.ceil(waitMs / 1000)}秒待機します`
+      `[github] ${resource} のレート制限が残り ${state.remaining}。${Math.ceil(waitMs / 1000)}秒待機します`
     );
     await sleep(waitMs + 2000);
-    this.remaining = Infinity;
+    state.remaining = Infinity;
   }
 
   // -------------------------------------------------------------------------
@@ -225,11 +326,12 @@ export class GitHubClient {
       );
       if (!res) break;
       const body = res.body as { total_count: number; items: GitHubRepo[] };
+      if (!body || !Array.isArray(body.items)) {
+        throw new ResponseParseError(`検索レスポンスに items がありません: ${query}`);
+      }
       if (totalCount === null) totalCount = body.total_count;
       out.push(...body.items);
       if (body.items.length < perPage) break;
-      // Search API は毎分30リクエストの別枠。念のため間隔を空ける
-      await sleep(2000);
     }
 
     if (totalCount !== null && totalCount > 1000) {
@@ -275,8 +377,13 @@ export class GitHubClient {
       headers: { Accept: 'application/vnd.github.raw' },
     });
     if (!res) return null;
-    // raw 指定なので body は文字列だが、JSON パースに失敗する場合に備える
-    return typeof res.body === 'string' ? res.body : null;
+    if (typeof res.body === 'string') return res.body;
+    // raw が効かず JSON（base64）で返ってきた場合のフォールバック
+    const json = res.body as { content?: string; encoding?: string } | null;
+    if (json?.content && json.encoding === 'base64') {
+      return Buffer.from(json.content, 'base64').toString('utf8');
+    }
+    return null;
   }
 
   /** 日本語 README（README.ja.md 等）の有無（SPEC §6.1） */
@@ -304,26 +411,48 @@ export class GitHubClient {
     return Array.isArray(res.body) ? res.body.length : 0;
   }
 
-  /** 貢献者数。大規模リポジトリでは GitHub 側が概算を返すことがある */
+  /**
+   * 貢献者数。大規模リポジトリでは GitHub 側が 403 を返すことがあるため、
+   * 取得できない場合は null（＝不明）を返す。0 と混同しないこと。
+   */
   async getContributorsCount(owner: string, name: string): Promise<number | null> {
-    return this.countViaLinkHeader(`/repos/${owner}/${name}/contributors?anon=1`);
+    try {
+      return await this.countViaLinkHeader(`/repos/${owner}/${name}/contributors?anon=1`);
+    } catch (e) {
+      if (e instanceof ForbiddenError) return null;
+      throw e;
+    }
   }
 
   /** リリース数（dependents_count の代替シグナル・SPEC §7.5） */
   async getReleasesCount(owner: string, name: string): Promise<number | null> {
-    return this.countViaLinkHeader(`/repos/${owner}/${name}/releases`);
+    try {
+      return await this.countViaLinkHeader(`/repos/${owner}/${name}/releases`);
+    } catch (e) {
+      if (e instanceof ForbiddenError) return null;
+      throw e;
+    }
   }
 
   /** 現在のレート制限状況 */
   async getRateLimit(): Promise<{ limit: number; remaining: number; reset: number }> {
     const res = await this.request('/rate_limit');
-    const body = res!.body as { resources: { core: { limit: number; remaining: number; reset: number } } };
+    const body = res!.body as {
+      resources: { core: { limit: number; remaining: number; reset: number } };
+    };
     return body.resources.core;
   }
 }
 
+/** レート制限由来の 403 かどうか。そうでなければリトライしても無駄 */
+export function isRateLimitResponse(res: { headers: Headers }, bodyText: string): boolean {
+  if (res.headers.get('retry-after')) return true;
+  if (res.headers.get('x-ratelimit-remaining') === '0') return true;
+  return /rate limit|secondary rate|abuse detection/i.test(bodyText);
+}
+
 /**
  * SPEC §10.4 の初期シードで使う stars レンジ。
- * Search API の 1,000 件制限を回避するための分割。
+ * GitHub のレンジ指定は両端を含むため、境界が重ならないようずらしてある。
  */
-export const STAR_RANGES = ['200..500', '500..1000', '1000..5000', '>5000'];
+export const STAR_RANGES = ['200..500', '501..1000', '1001..5000', '>5000'];

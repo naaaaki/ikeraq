@@ -20,7 +20,11 @@ export const REPOS_DIR = path.join(DATA_DIR, 'repos');
 export const SNAPSHOTS_DIR = path.join(DATA_DIR, 'snapshots');
 
 function repoPath(id: string): string {
-  const [owner, name] = id.split('/');
+  const [owner, name, ...rest] = id.split('/');
+  // owner/name 以外の形は保存先が壊れる（undefined という名のフォルダができる）
+  if (!owner || !name || rest.length > 0 || owner.includes('..') || name.includes('..')) {
+    throw new Error(`リポジトリIDの形式が不正です: ${JSON.stringify(id)}`);
+  }
   return path.join(REPOS_DIR, owner, `${name}.json`);
 }
 
@@ -42,6 +46,26 @@ export async function loadRepo(id: string): Promise<Repository | null> {
 
 export async function saveRepo(repo: Repository): Promise<void> {
   await writeJson(repoPath(repo.id), repo);
+}
+
+/**
+ * 中身が変わったときだけ書き出す。
+ * 全件を毎日書くと1,000ファイル分の差分が毎日積まれ、
+ * 1リポジトリ1ファイルにした意味（変更分だけが差分に出る・SPEC §9.4）が消える。
+ */
+export async function saveRepoIfChanged(repo: Repository): Promise<boolean> {
+  const file = repoPath(repo.id);
+  const next = `${JSON.stringify(repo, null, 2)}\n`;
+  if (existsSync(file)) {
+    try {
+      if ((await readFile(file, 'utf8')) === next) return false;
+    } catch {
+      // 読めなければ書き直す
+    }
+  }
+  await mkdir(path.dirname(file), { recursive: true });
+  await writeFile(file, next, 'utf8');
+  return true;
 }
 
 /** 追跡対象を全件読み込む。件数は上限1,000件想定（SPEC §10.4） */

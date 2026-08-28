@@ -11,9 +11,16 @@ import { addDays, daysBetween, toDateStringJST } from '../scripts/lib/date.js';
 import { categorizeLicense } from '../scripts/lib/license.js';
 import { buildReadmeExcerpt, README_EXCERPT_MAX } from '../scripts/lib/readme.js';
 import { parseTrendingHtml } from '../scripts/lib/trending.js';
-import { createLimiter, mapLimited } from '../scripts/lib/github.js';
-import { shouldFetchToday } from '../scripts/lib/tier.js';
+import {
+  GitHubClient,
+  RequestBudgetExceededError,
+  STAR_RANGES,
+  createLimiter,
+  mapLimited,
+} from '../scripts/lib/github.js';
+import { SEED_LIMIT, TRACKING_LIMIT, evictable, shouldFetchToday } from '../scripts/lib/tier.js';
 import { newRepository } from '../scripts/lib/repository.js';
+import { saveRepo } from '../scripts/lib/storage.js';
 
 test('JST の日付境界: UTC 15:00 を過ぎたら翌日になる', () => {
   assert.equal(toDateStringJST(new Date('2026-08-28T14:59:00Z')), '2026-08-28');
@@ -145,4 +152,126 @@ test('新規レコードの機械判定項目は Phase 1 まで初期値のま�
   assert.equal(repo.category, null);
   assert.equal(repo.is_indexable, false);
   assert.equal(repo.tracking_tier, 'hot');
+});
+
+// ---------------------------------------------------------------------------
+// レビュー指摘に対する回帰テスト
+// ---------------------------------------------------------------------------
+
+test('README（raw）のレスポンスを JSON.parse しない', async () => {
+  const markdown = '# awesome-tool\n\nA fast tool.';
+  const original = globalThis.fetch;
+  globalThis.fetch = (async () =>
+    new Response(markdown, {
+      status: 200,
+      headers: { 'content-type': 'text/plain; charset=utf-8' },
+    })) as typeof fetch;
+  try {
+    const client = new GitHubClient({ token: 'dummy' });
+    assert.equal(await client.getReadme('octocat', 'hello'), markdown);
+  } finally {
+    globalThis.fetch = original;
+  }
+});
+
+test('レート制限の枠は core と search で独立している', async () => {
+  const original = globalThis.fetch;
+  const calls: string[] = [];
+  globalThis.fetch = (async (url: string) => {
+    calls.push(String(url));
+    const isSearch = String(url).includes('/search/');
+    return new Response(JSON.stringify(isSearch ? { total_count: 0, items: [] } : { ok: true }), {
+      status: 200,
+      headers: {
+        'content-type': 'application/json',
+        // Search API は 30/分。core と同じカウンタで扱うと枯渇と誤判定する
+        'x-ratelimit-remaining': isSearch ? '29' : '4999',
+        'x-ratelimit-reset': String(Math.floor(Date.now() / 1000) + 3600),
+        'x-ratelimit-resource': isSearch ? 'search' : 'core',
+      },
+    });
+  }) as unknown as typeof fetch;
+  try {
+    const client = new GitHubClient({ token: 'dummy' });
+    await client.searchRepos('stars:>100', 100);
+    // 検索のヘッダ(29)が core 側に書き込まれていないこと。
+    // 書き込まれていると下限100を割り、以降のリクエストが毎回1時間待機する
+    assert.equal(client.searchRemaining, 29);
+    assert.equal(client.remaining, Infinity);
+    // 待機が入っていればここで1時間止まる。即座に返ることで確認する
+    await client.getRepo('octocat', 'hello');
+    assert.equal(client.remaining, 4999);
+    assert.equal(calls.length, 2);
+  } finally {
+    globalThis.fetch = original;
+  }
+});
+
+test('レート制限ではない 403 はリトライせず即座に諦める', async () => {
+  const original = globalThis.fetch;
+  let attempts = 0;
+  globalThis.fetch = (async () => {
+    attempts++;
+    return new Response(JSON.stringify({ message: 'too many contributors' }), {
+      status: 403,
+      headers: { 'content-type': 'application/json', 'x-ratelimit-remaining': '4999' },
+    });
+  }) as typeof fetch;
+  try {
+    const client = new GitHubClient({ token: 'dummy' });
+    // 補助項目なので null を返し、リポジトリ本体の更新は巻き添えにしない
+    assert.equal(await client.getContributorsCount('torvalds', 'linux'), null);
+    assert.equal(attempts, 1);
+  } finally {
+    globalThis.fetch = original;
+  }
+});
+
+test('リクエスト予算を超えたら打ち切る', async () => {
+  const original = globalThis.fetch;
+  globalThis.fetch = (async () =>
+    new Response('{}', { status: 200, headers: { 'content-type': 'application/json' } })) as typeof fetch;
+  try {
+    const client = new GitHubClient({ token: 'dummy', maxRequests: 2 });
+    await client.getRepo('a', 'b');
+    await client.getRepo('c', 'd');
+    assert.equal(client.hasBudget(), false);
+    await assert.rejects(() => client.getRepo('e', 'f'), RequestBudgetExceededError);
+  } finally {
+    globalThis.fetch = original;
+  }
+});
+
+test('押し出してよいのは休眠かつ90日以上停滞のものだけ（SPEC §10.4）', () => {
+  const base = newRepository(sampleGh);
+  assert.equal(evictable({ ...base, tracking_tier: 'dormant', stars_stagnant_days: 120 }), true);
+  assert.equal(evictable({ ...base, tracking_tier: 'dormant', stars_stagnant_days: 30 }), false);
+  assert.equal(evictable({ ...base, tracking_tier: 'hot', stars_stagnant_days: 120 }), false);
+  assert.equal(evictable(base), false);
+});
+
+test('シード上限は追跡上限より小さい（新規トレンド用の枠を残す）', () => {
+  assert.ok(SEED_LIMIT < TRACKING_LIMIT, `${SEED_LIMIT} < ${TRACKING_LIMIT}`);
+});
+
+test('スターのレンジが境界で重複しない（SPEC §10.4）', () => {
+  const bounds = STAR_RANGES.filter((r) => r.includes('..')).map((r) => r.split('..').map(Number));
+  for (let i = 1; i < bounds.length; i++) {
+    assert.ok(bounds[i][0] > bounds[i - 1][1], `${STAR_RANGES[i - 1]} と ${STAR_RANGES[i]} が重複`);
+  }
+});
+
+test('watchers は個別取得するまで null（スター数を流用しない）', () => {
+  // 検索APIのレスポンスには subscribers_count が含まれない
+  const fromSearch = newRepository(sampleGh);
+  assert.equal(fromSearch.watchers, null);
+  assert.notEqual(fromSearch.watchers, fromSearch.stars);
+
+  const fromDetail = newRepository({ ...sampleGh, subscribers_count: 42 });
+  assert.equal(fromDetail.watchers, 42);
+});
+
+test('リポジトリIDの形式が不正なら保存しない', async () => {
+  await assert.rejects(() => saveRepo({ ...newRepository(sampleGh), id: 'broken' }), /形式が不正/);
+  await assert.rejects(() => saveRepo({ ...newRepository(sampleGh), id: '../etc/passwd' }), /形式が不正/);
 });

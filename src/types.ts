@@ -109,7 +109,12 @@ export interface Repository {
 
   stars: number;
   forks: number;
-  watchers: number;
+  /**
+   * 本当のウォッチャー数（API の subscribers_count）。
+   * 検索APIのレスポンスには含まれないため、個別取得するまで null。
+   * ★ API の watchers_count はスター数と同じ値なので使わないこと
+   */
+  watchers: number | null;
   open_issues: number;
 
   /** リポジトリ作成日 (ISO8601) */
@@ -170,11 +175,22 @@ export interface Repository {
 export interface SnapshotEntry {
   repo_id: string;
   stars: number;
-  /** 前日比。前日データがなければ null */
+  /**
+   * 1日あたりに均した増加数。前日データがなければ null。
+   * 前回スナップショットが数日前の場合は日数で割ってある
+   */
   stars_delta: number | null;
+  /** 均す前の生の増加数。後から判定ロジックを見直せるように残す */
+  stars_delta_raw: number | null;
   forks: number;
-  /** その日の順位（stars_delta 降順） */
+  /** その日の順位（stars_delta 降順）。取得していない日は null */
   rank: number | null;
+  /**
+   * この日に実際に GitHub から取得したか。
+   * 3層構造により毎日は取得しないため、
+   * 「スターが動かなかった日」と「見ていない日」を区別する必要がある
+   */
+  fetched: boolean;
 }
 
 export interface DailySnapshot {
@@ -182,6 +198,8 @@ export interface DailySnapshot {
   date: string;
   /** 生成時刻 (ISO8601) */
   generated_at: string;
+  /** 差分の比較元にしたスナップショットの日付。何日分の差か復元できるようにする */
+  prev_snapshot_date: string | null;
   entries: SnapshotEntry[];
   /** その日に初めて検知したリポジトリの id */
   new_repo_ids: string[];
@@ -198,6 +216,8 @@ export interface SnapshotStats {
   fetched_count: number;
   /** 取得に失敗してスキップした件数（SPEC §11 エラー時の原則） */
   skipped_count: number;
+  /** リクエスト予算を使い切って次回に回した件数 */
+  deferred_count: number;
   /** Trending 取得に成功したか（失敗許容・SPEC §10.3） */
   trending_ok: boolean;
   /** 収集にかかった秒数 */

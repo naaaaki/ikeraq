@@ -51,3 +51,14 @@ jobs:
           # 手動コミットとの衝突に備えてリベースしてから push
           git pull --rebase origin ${{ github.ref_name }}
           git push
+
+      # ★ npm ci の失敗・タイムアウト・ランナー障害では collect.ts の中の通知が飛ばない。
+      #   ワークフローが死んだこと自体をここで通知する（SPEC §17.2-2）
+      - name: 失敗を通知
+        if: failure()
+        env:
+          DISCORD_WEBHOOK_URL: ${{ secrets.DISCORD_WEBHOOK_URL }}
+        run: |
+          test -n "$DISCORD_WEBHOOK_URL" || exit 0
+          RUN_URL="${{ github.server_url }}/${{ github.repository }}/actions/runs/${{ github.run_id }}"
+          curl -sS -X POST -H 'Content-Type: application/json'             -d "{\"username\":\"Wakuru\",\"content\":\"⛔ daily ワークフローが失敗しました\n$RUN_URL\"}"             "$DISCORD_WEBHOOK_URL" || true

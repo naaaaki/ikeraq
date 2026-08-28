@@ -71,6 +71,12 @@ async function main() {
           message: `取得件数が急減しています（${before} → ${after} 件）`,
         });
       }
+      if (curr.stats.deferred_count > 0) {
+        issues.push({
+          level: 'warn',
+          message: `リクエスト予算を使い切り ${curr.stats.deferred_count} 件を翌日に繰り越しています。取得対象が想定より多い可能性があります`,
+        });
+      }
       if (curr.stats.skipped_count > curr.stats.fetched_count) {
         issues.push({
           level: 'warn',

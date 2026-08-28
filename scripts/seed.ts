@@ -13,12 +13,16 @@
 import { GitHubClient } from './lib/github.js';
 import { addDays, todayJST } from './lib/date.js';
 import { loadAllRepos, saveRepo } from './lib/storage.js';
-import { TRACKING_LIMIT } from './lib/tier.js';
+import { SEED_LIMIT, TRACKING_LIMIT } from './lib/tier.js';
 import { newRepository } from './lib/repository.js';
 import type { GitHubRepo } from '../src/types.js';
 
-/** 各クエリからの取得上限。合計で TRACKING_LIMIT に収まるようにする */
-const PER_QUERY_LIMIT = 500;
+/**
+ * 各クエリからの取得上限。
+ * ★ 上限（1,000件）いっぱいまでシードすると、翌日から新規トレンドを
+ *   1件も追跡できなくなる。SEED_LIMIT（700件）に収める。
+ */
+const PER_QUERY_LIMIT = 400;
 
 async function main() {
   const today = todayJST();
@@ -59,8 +63,11 @@ async function main() {
   const sorted = [...collected.values()].sort((a, b) => b.stargazers_count - a.stargazers_count);
   for (const gh of sorted) {
     if (repos.has(gh.full_name)) continue;
-    if (repos.size >= TRACKING_LIMIT) {
-      console.log(`[seed] 上限 ${TRACKING_LIMIT} 件に到達したので打ち切ります`);
+    if (repos.size >= SEED_LIMIT) {
+      console.log(
+        `[seed] シード上限 ${SEED_LIMIT} 件に到達したので打ち切ります` +
+          `（残り ${TRACKING_LIMIT - SEED_LIMIT} 件は日々の新規トレンド用に空けておく）`
+      );
       break;
     }
     const repo = newRepository(gh);
