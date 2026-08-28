@@ -11,7 +11,7 @@
   <style>
     :root {
       --paper: #FAF8F4; --card: #FFFFFF; --sink: #F3F0E9;
-      --ink: #17160F; --ink2: #514D45; --ink3: #837E73;
+      --ink: #17160F; --ink2: #514D45; --ink3: #6E6A5F;
       --rule: #E9E4DA; --rule2: #D6CFC2;
       --accent: #1E5A48; --accent-soft: #E7EFEA;
       --warn: #8A5A00; --warn-soft: #FBF3E0;
@@ -136,7 +136,7 @@
         </a>
 
         <div style="display: flex; align-items: center; gap: 16px; flex-wrap: wrap;">
-          <span class="lic">MIT · 商用OK</span>
+          <span class="lic">MIT · 商用可</span>
           <span class="lang"><span class="dot" style="background: #F1E05A;"></span>JavaScript</span>
           <span class="meta">★ <b class="num">26,755</b>（今日 <b class="num" style="color: var(--accent);">+4,561</b>）</span>
           <span class="meta">昨日 更新</span>
@@ -166,7 +166,7 @@
                 <rect width="800" height="450" fill="#FFFFFF"/>
 
                 <text x="400" y="64" text-anchor="middle"
-                      style="font-family: var(--jp); font-size: 26px; font-weight: 700; fill: #17160F;">
+                      style="font-family: var(--jp); font-size: 31px; font-weight: 700; fill: #17160F;">
                   AIが書くのは<tspan style="fill: #1E5A48;">JSONまで</tspan>。絵にするのは機械の仕事
                 </text>
 
@@ -197,25 +197,25 @@
                 <rect x="700" y="188" width="18" height="4" rx="2" fill="#17160F" opacity=".2"/>
                 <rect x="700" y="200" width="18" height="4" rx="2" fill="#17160F" opacity=".2"/>
 
-                <text x="126" y="288" text-anchor="middle" style="font-family: var(--jp); font-size: 16px; font-weight: 700; fill: #17160F;">エージェント</text>
-                <text x="126" y="310" text-anchor="middle" style="font-family: var(--jp); font-size: 12px; fill: #837E73;">（構造を考える）</text>
+                <text x="126" y="288" text-anchor="middle" style="font-family: var(--jp); font-size: 19px; font-weight: 700; fill: #17160F;">エージェント</text>
+                <text x="126" y="310" text-anchor="middle" style="font-family: var(--jp); font-size: 15px; fill: #6E6A5F;">（構造を考える）</text>
 
-                <text x="324" y="288" text-anchor="middle" style="font-family: var(--jp); font-size: 16px; font-weight: 700; fill: #17160F;">型付きJSON</text>
-                <text x="324" y="310" text-anchor="middle" style="font-family: var(--jp); font-size: 12px; fill: #837E73;">（ここまでがAIの仕事）</text>
+                <text x="324" y="288" text-anchor="middle" style="font-family: var(--jp); font-size: 19px; font-weight: 700; fill: #17160F;">型付きJSON</text>
+                <text x="324" y="310" text-anchor="middle" style="font-family: var(--jp); font-size: 15px; fill: #6E6A5F;">（ここまでがAIの仕事）</text>
 
-                <text x="534" y="288" text-anchor="middle" style="font-family: var(--mono); font-size: 16px; font-weight: 500; fill: #1E5A48;">Archify</text>
-                <text x="534" y="310" text-anchor="middle" style="font-family: var(--jp); font-size: 12px; fill: #837E73;">（検証して組み立てる）</text>
+                <text x="534" y="288" text-anchor="middle" style="font-family: var(--mono); font-size: 19px; font-weight: 500; fill: #1E5A48;">Archify</text>
+                <text x="534" y="310" text-anchor="middle" style="font-family: var(--jp); font-size: 15px; fill: #6E6A5F;">（検証して組み立てる）</text>
 
-                <text x="709" y="288" text-anchor="middle" style="font-family: var(--jp); font-size: 16px; font-weight: 700; fill: #17160F;">HTML</text>
-                <text x="709" y="310" text-anchor="middle" style="font-family: var(--jp); font-size: 12px; fill: #837E73;">（1枚で完結）</text>
+                <text x="709" y="288" text-anchor="middle" style="font-family: var(--jp); font-size: 19px; font-weight: 700; fill: #17160F;">HTML</text>
+                <text x="709" y="310" text-anchor="middle" style="font-family: var(--jp); font-size: 15px; fill: #6E6A5F;">（1枚で完結）</text>
 
-                <text x="400" y="390" text-anchor="middle" style="font-family: var(--jp); font-size: 15px; fill: #514D45;">
+                <text x="400" y="390" text-anchor="middle" style="font-family: var(--jp); font-size: 18px; fill: #514D45;">
                   〜 見た目を決める工程が、AIの手から外れている 〜
                 </text>
               </svg>
             </div>
             <figcaption>
-              見た目を決める工程がエージェントの手から外れているので、同じ構造からは毎回同じ図が出てきます。「頼むたびに違う図が出る」を避けたい人向けの設計です。
+              見た目を決める工程がエージェントの手から外れているので、同じ構造からは毎回同じ図が出る、という作りです。「頼むたびに違う図が出る」を避けたい人向けの設計です。
             </figcaption>
           </figure>
         </section>
@@ -224,13 +224,13 @@
           <h2 class="sec">どんなときに使うか</h2>
           <div style="display: flex; flex-direction: column; gap: 24px;">
             <div>
-              <div style="font-size: 15px; font-weight: 700; margin-bottom: 8px;">リポジトリの構成を、口伝えではなく形で残したいとき</div>
+              <h3 style="margin: 0 0 8px; font-size: 15px; font-weight: 700;">リポジトリの構成を、口伝えではなく形で残したいとき</h3>
               <p style="margin: 0; font-size: 14px; line-height: 1.95; color: var(--ink2);">
                 新しく入った人に構成を説明するたび、同じ話を口でしている状況があります。図に落としておけば済むのですが、手で描くと更新されなくなります。エージェントに読ませて出せるなら、更新のたびに作り直すという手が取れます。
               </p>
             </div>
             <div>
-              <div style="font-size: 15px; font-weight: 700; margin-bottom: 8px;">変更の前後を、レビューで並べて見せたいとき</div>
+              <h3 style="margin: 0 0 8px; font-size: 15px; font-weight: 700;">変更の前後を、レビューで並べて見せたいとき</h3>
               <p style="margin: 0; font-size: 14px; line-height: 1.95; color: var(--ink2);">
                 構成が変わる変更をレビューに出すとき、差分だけを見ても全体がどう変わったのか伝わりません。Before / After の比較が用意されているので、そこを見せる使い方ができます。
               </p>
@@ -238,20 +238,33 @@
           </div>
         </section>
 
-        <!-- ★「使い方」の節は無い。実際に動かせていないため、節ごと省いた（D-006）。
-             書けないものを埋めないことが、書いたものの信用を守る -->
+        <!-- ★「使い方」は書いていない。実際に動かせていないため（D-006）。
+             ただし「無い」ことは読者に見える形で伝える。黙って省くと、
+             探しに来た読者は無いことに気づく前に離脱する -->
+        <section class="block" id="start">
+          <h2 class="sec" style="color: var(--ink3); border-bottom-color: var(--rule);">使い方</h2>
+          <div style="display: flex; gap: 14px; align-items: flex-start; padding: 18px 20px; background: var(--sink); border-radius: 3px;">
+            <svg width="19" height="19" viewBox="0 0 24 24" fill="none" stroke="#837E73" stroke-width="2" stroke-linecap="round" style="flex: none; margin-top: 2px;" aria-hidden="true"><circle cx="12" cy="12" r="9"/><path d="M12 8v5"/><path d="M12 16.5h.01"/></svg>
+            <div>
+              <p style="margin: 0 0 8px; font-size: 14px; line-height: 1.9; color: var(--ink2);">
+                <b style="font-weight: 700; color: var(--ink);">この記事には手順を載せていません。</b>まだ手元で動かせていないためです。
+              </p>
+              <p style="margin: 0; font-size: 12.5px; line-height: 1.85; color: var(--ink3);">
+                Wakuru は、実際に動かして確かめたものだけ手順を書きます。試していない手順を載せると、動かなかったときに他の記述も信用できなくなるからです。<a href="#">記事の作り方</a>
+              </p>
+            </div>
+          </div>
+        </section>
+
 
         <section class="block" id="caution">
           <h2 class="sec">注意点</h2>
           <div style="display: flex; flex-direction: column; gap: 18px; font-size: 14px; line-height: 1.95; color: var(--ink2);">
             <p style="margin: 0;">
-              <b style="font-weight: 700; color: var(--ink);">やらないことが明記されています。</b>Mermaid の自動読み取り、汎用の自動レイアウト、ホスティングでの共有、画面上での編集は「意図的に対象外」と書かれています。既存の Mermaid をそのまま流し込みたい、という用途には向きません。
+              <b style="font-weight: 700; color: var(--ink);">やらないことが明記されています。</b>README には、Mermaid の自動読み取り、汎用の自動レイアウト、ホスティングでの共有、画面上での編集が「いまのところ意図的に対象外」と書かれています。既存の Mermaid をそのまま流し込みたい、という用途には向きません。
             </p>
             <p style="margin: 0;">
               <b style="font-weight: 700; color: var(--ink);">まだ新しいプロジェクトです。</b>公開から4か月半で、リリースは17回。開発の速度が速い分、書き方や設定が変わる可能性があります。エージェントのスキルという形なので、使っているエージェント側の仕様変更にも影響を受けます。
-            </p>
-            <p style="margin: 0;">
-              ライセンスは MIT で、商用利用の妨げになる条項はありません。
             </p>
           </div>
         </section>
@@ -265,7 +278,7 @@
 
           <div class="facts">
             <div class="fact">
-              <div class="v">4<span class="u">か月</span></div>
+              <div class="v">4<span class="u">か月半</span></div>
               <div class="k">公開してからの期間。2026年4月15日が最初のコミットです</div>
             </div>
             <div class="fact">
@@ -282,7 +295,7 @@
             </div>
             <div class="fact">
               <div class="v">57<span class="u">件</span></div>
-              <div class="k">未解決の Issue。やり取りがある状態です</div>
+              <div class="k">未解決のまま残っている Issue の数です</div>
             </div>
             <div class="fact">
               <div class="v">今日<span class="u">検知</span></div>
@@ -322,6 +335,7 @@
         <div class="label" style="margin-bottom: 12px;">目次</div>
         <a href="#about" class="on">どういうものか</a>
         <a href="#when">どんなときに使うか</a>
+        <a href="#start" style="color: var(--ink3);">使い方（未掲載）</a>
         <a href="#caution">注意点</a>
         <a href="#health">開発の様子</a>
         <a href="#similar">ほかの候補</a>
@@ -343,12 +357,13 @@
             <span class="num" style="font-size: 13px; color: var(--accent); font-weight: 500;">+4,561</span>
             <span class="meta">今日</span>
           </div>
-          <svg viewBox="0 0 240 44" style="width: 100%; height: 44px; display: block;" preserveAspectRatio="none" role="img" aria-label="直近30日のスター数の推移">
-            <path d="M0,40 L27,39 L53,38 L80,36 L107,34 L133,32 L160,29 L187,20 L213,9 L240,4 L240,44 L0,44 Z" fill="#1E5A48" fill-opacity=".08"/>
-            <polyline points="0,40 27,39 53,38 80,36 107,34 133,32 160,29 187,20 213,9 240,4" fill="none" stroke="#1E5A48" stroke-width="1.8" stroke-linejoin="round" stroke-linecap="round"/>
-            <circle cx="240" cy="4" r="2.6" fill="#1E5A48"/>
+          <!-- ★記録が無い日に、それらしい線を描かない。
+               データを資産にするサイトで最初のページが嘘だと、以後の数字が全部疑われる -->
+          <svg viewBox="0 0 240 44" style="width: 100%; height: 44px; display: block;" role="img" aria-label="スター数の記録はまだ1日分だけです">
+            <line x1="0" y1="40" x2="240" y2="40" stroke="#E9E4DA" stroke-width="1.5" stroke-dasharray="4 5"/>
+            <circle cx="238" cy="40" r="3" fill="#1E5A48"/>
           </svg>
-          <div class="meta" style="padding-top: 7px;">今日から記録を始めました</div>
+          <div class="meta" style="padding-top: 7px;">記録は今日から。推移は数日たつと出ます</div>
         </div>
       </section>
 

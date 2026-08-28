@@ -14,7 +14,7 @@ Claude Code や Cursor などのコーディングエージェントに追加し
 
 面白いのは**役割の分け方**です。エージェントが書くのは、型の決まった JSON だけ。どこに何を置くか、線をどう引くかといった見た目の部分は、Archify 側が機械的に組み立てます。作者は「エージェントは型付きの中間表現を作る。Archify がそれを決定的に HTML/SVG へコンパイルする」と説明しています。
 
-出てくるのは自己完結した HTML が1枚。ダークとライトの両方に対応していて、PNG・SVG・WebM で書き出せます。図を作る前に複数の検証を通す作りになっており、「検証できる図」であることを前面に出しています。
+出てくるのは、それ1つで開ける HTML ファイルが1枚です。配色はダークとライトの両方があり、PNG・SVG・WebM で書き出せます。図を組み立てる前にスキーマやレイアウトの検証を通す作りになっています。
 
 ## 図
 
@@ -24,7 +24,7 @@ Claude Code や Cursor などのコーディングエージェントに追加し
     <rect width="800" height="450" fill="#FFFFFF"/>
 
     <text x="400" y="64" text-anchor="middle"
-          style="font-family: var(--jp); font-size: 26px; font-weight: 700; fill: #17160F;">
+          style="font-family: var(--jp); font-size: 31px; font-weight: 700; fill: #17160F;">
       AIが書くのは<tspan style="fill: #1E5A48;">JSONまで</tspan>。絵にするのは機械の仕事
     </text>
 
@@ -60,19 +60,19 @@ Claude Code や Cursor などのコーディングエージェントに追加し
     <rect x="700" y="200" width="18" height="4" rx="2" fill="#17160F" opacity=".2"/>
 
     <!-- ラベル -->
-    <text x="126" y="288" text-anchor="middle" style="font-family: var(--jp); font-size: 16px; font-weight: 700; fill: #17160F;">エージェント</text>
-    <text x="126" y="310" text-anchor="middle" style="font-family: var(--jp); font-size: 12px; fill: #837E73;">（構造を考える）</text>
+    <text x="126" y="288" text-anchor="middle" style="font-family: var(--jp); font-size: 19px; font-weight: 700; fill: #17160F;">エージェント</text>
+    <text x="126" y="310" text-anchor="middle" style="font-family: var(--jp); font-size: 15px; fill: #6E6A5F;">（構造を考える）</text>
 
-    <text x="324" y="288" text-anchor="middle" style="font-family: var(--jp); font-size: 16px; font-weight: 700; fill: #17160F;">型付きJSON</text>
-    <text x="324" y="310" text-anchor="middle" style="font-family: var(--jp); font-size: 12px; fill: #837E73;">（ここまでがAIの仕事）</text>
+    <text x="324" y="288" text-anchor="middle" style="font-family: var(--jp); font-size: 19px; font-weight: 700; fill: #17160F;">型付きJSON</text>
+    <text x="324" y="310" text-anchor="middle" style="font-family: var(--jp); font-size: 15px; fill: #6E6A5F;">（ここまでがAIの仕事）</text>
 
-    <text x="534" y="288" text-anchor="middle" style="font-family: var(--mono); font-size: 16px; font-weight: 500; fill: #1E5A48;">Archify</text>
-    <text x="534" y="310" text-anchor="middle" style="font-family: var(--jp); font-size: 12px; fill: #837E73;">（検証して組み立てる）</text>
+    <text x="534" y="288" text-anchor="middle" style="font-family: var(--mono); font-size: 19px; font-weight: 500; fill: #1E5A48;">Archify</text>
+    <text x="534" y="310" text-anchor="middle" style="font-family: var(--jp); font-size: 15px; fill: #6E6A5F;">（検証して組み立てる）</text>
 
-    <text x="709" y="288" text-anchor="middle" style="font-family: var(--jp); font-size: 16px; font-weight: 700; fill: #17160F;">HTML</text>
-    <text x="709" y="310" text-anchor="middle" style="font-family: var(--jp); font-size: 12px; fill: #837E73;">（1枚で完結）</text>
+    <text x="709" y="288" text-anchor="middle" style="font-family: var(--jp); font-size: 19px; font-weight: 700; fill: #17160F;">HTML</text>
+    <text x="709" y="310" text-anchor="middle" style="font-family: var(--jp); font-size: 15px; fill: #6E6A5F;">（1枚で完結）</text>
 
-    <text x="400" y="390" text-anchor="middle" style="font-family: var(--jp); font-size: 15px; fill: #514D45;">
+    <text x="400" y="390" text-anchor="middle" style="font-family: var(--jp); font-size: 18px; fill: #514D45;">
       〜 見た目を決める工程が、AIの手から外れている 〜
     </text>
   </svg>
@@ -80,13 +80,13 @@ Claude Code や Cursor などのコーディングエージェントに追加し
 
 キャプション:
 
-見た目を決める工程がエージェントの手から外れているので、同じ構造からは毎回同じ図が出てきます。「頼むたびに違う図が出る」を避けたい人向けの設計です。
+見た目を決める工程がエージェントの手から外れているので、同じ構造からは毎回同じ図が出る、という作りです。「頼むたびに違う図が出る」を避けたい人向けの設計です。
 
 ## どんなときに使うか
 
 ### リポジトリの構成を、口伝えではなく形で残したいとき
 
-新しく入った人に構成を説明するたび、同じ話を口でしている状況があります。図に落としておけば済むのですが、手で描くと更新されなくなります。エージェントに読ませて出せるなら、更新のたびに作り直すという手が取れます。
+新しく入った人に構成を説明するたび、同じ話を口で繰り返すことになります。図に落としておけば済むのですが、手で描くと更新されなくなります。リポジトリを読ませて図を出せるなら、更新のたびに作り直すという手が取れます。
 
 ### 変更の前後を、レビューで並べて見せたいとき
 
@@ -94,8 +94,8 @@ Claude Code や Cursor などのコーディングエージェントに追加し
 
 ## 注意点
 
-**やらないことが明記されています。** Mermaid の自動読み取り、汎用の自動レイアウト、ホスティングでの共有、画面上での編集は「意図的に対象外」と書かれています。既存の Mermaid をそのまま流し込みたい、という用途には向きません。
+**やらないことが明記されています。** README には、Mermaid の自動読み取り、汎用の自動レイアウト、ホスティングでの共有、画面上での編集が「いまのところ意図的に対象外」と書かれています。既存の Mermaid をそのまま流し込みたい、という用途には向きません。
 
-**まだ新しいプロジェクトです。** 公開から4か月半で、リリースは17回。開発の速度が速い分、書き方や設定が変わる可能性があります。エージェントのスキルという形なので、使っているエージェント側の仕様変更にも影響を受けます。
+**まだ新しいプロジェクトです。** 公開から4か月半で、リリースは16回。開発の速度が速い分、JSON の書き方や設定が変わる可能性があります。エージェントのスキルという形なので、使っているエージェント側の仕様変更にも影響を受けます。
 
 ライセンスは MIT で、商用利用の妨げになる条項はありません。
