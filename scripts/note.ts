@@ -15,6 +15,7 @@ import { mkdir, writeFile } from 'node:fs/promises';
 import { existsSync } from 'node:fs';
 import path from 'node:path';
 import { loadNotes, notePath } from './lib/notes.js';
+import { buildDraft } from './lib/draft.js';
 import { listSnapshotDates, loadAllRepos, loadSnapshot } from './lib/storage.js';
 import { todayJST } from './lib/date.js';
 import type { Repository } from '../src/types.js';
@@ -69,30 +70,12 @@ async function createDraft(repos: Repository[], id: string) {
     return;
   }
 
-  const draft = [
-    '---',
-    `updated: ${todayJST()}`,
-    '---',
-    '',
-    '<!--',
-    `  ${repo.id}`,
-    `  ${repo.description_en ?? '(説明なし)'}`,
-    `  ${repo.language ?? '-'} / ${repo.license_spdx ?? 'ライセンス未設定'} / ★${repo.stars}`,
-    `  https://github.com/${repo.id}`,
-    '',
-    '  書くときの約束（docs/DECISIONS.md D-002）:',
-    '  - 上の英語 description を訳しただけにしない。それはページを作る理由にならない',
-    '  - 「何ができるか」より「どういうときに効くか」を書く',
-    '  - 触っていないこと・確かめていないことは書かない',
-    '  - 200〜400字程度。長く書くより、毎週続けられる量にする',
-    '-->',
-    '',
-    '',
-  ].join('\n');
+  const draft = buildDraft(repo, todayJST());
 
   await mkdir(path.dirname(file), { recursive: true });
   await writeFile(file, draft, 'utf8');
   console.log(`下書きを作りました: ${file}`);
+  console.log('書き方は docs/article-template.md にあります。');
   console.log('Claude Code と一緒に埋めてください。');
 }
 

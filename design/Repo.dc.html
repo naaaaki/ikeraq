@@ -10,201 +10,402 @@
   <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Newsreader:opsz,wght@6..72,400;6..72,500&family=Zen+Kaku+Gothic+New:wght@400;500;700&family=JetBrains+Mono:wght@400;500;600&display=swap">
   <style>
     :root {
-      --paper: #FAF8F4; --card: #FFFFFF;
-      --ink: #191816; --ink2: #56524B; --ink3: #8A857D;
-      --rule: #E7E2D9; --rule2: #D8D2C6;
-      --accent: #1E5A48; --accent-soft: #E9F0EC;
-      --warn: #8A5A00; --warn-soft: #FAF2E1;
-      --danger: #96302C; --danger-soft: #F9EDEC;
+      --paper: #FAF8F4; --card: #FFFFFF; --sink: #F3F0E9;
+      --ink: #17160F; --ink2: #514D45; --ink3: #837E73;
+      --rule: #E9E4DA; --rule2: #D6CFC2;
+      --accent: #1E5A48; --accent-soft: #E7EFEA;
+      --warn: #8A5A00; --warn-soft: #FBF3E0;
+      --danger: #93302B; --danger-soft: #FAEEEC;
       --jp: 'Zen Kaku Gothic New', 'Hiragino Kaku Gothic ProN', 'Yu Gothic', sans-serif;
       --serif: 'Newsreader', 'Hiragino Mincho ProN', serif;
       --mono: 'JetBrains Mono', ui-monospace, monospace;
     }
-    body { margin: 0; background: var(--paper); color: var(--ink); font-family: var(--jp); -webkit-font-smoothing: antialiased; }
+    body {
+      margin: 0; background: var(--paper); color: var(--ink);
+      font-family: var(--jp); -webkit-font-smoothing: antialiased; letter-spacing: .015em;
+    }
     a { color: var(--accent); text-decoration: none; }
-    a:hover { color: #14402F; text-decoration: underline; text-underline-offset: 3px; }
-    .eyebrow { font-size: 11px; letter-spacing: .16em; color: var(--ink3); font-weight: 500; }
+    a:hover { text-decoration: underline; text-underline-offset: 3px; }
+    a:focus-visible { outline: 2px solid var(--accent); outline-offset: 3px; border-radius: 2px; }
+
+    .display { font-family: var(--serif); font-weight: 400; letter-spacing: -.012em; font-feature-settings: 'palt'; }
+    .label { font-size: 11px; letter-spacing: .2em; color: var(--ink3); font-weight: 500; }
     .num { font-family: var(--mono); font-variant-numeric: tabular-nums; }
-    .chip { display: inline-flex; align-items: center; gap: 5px; height: 23px; padding: 0 8px;
-            font-size: 11.5px; line-height: 1; border: 1px solid var(--rule2); border-radius: 2px;
-            color: var(--ink2); background: var(--card); white-space: nowrap; }
-    .chip.warn { color: var(--warn); border-color: #E8D5A8; background: var(--warn-soft); }
-    .chip.ok { color: var(--accent); border-color: #BFD5CB; background: var(--accent-soft); }
-    .kv { display: flex; justify-content: space-between; align-items: baseline; padding: 12px 0; border-bottom: 1px solid var(--rule); font-size: 13px; color: var(--ink2); }
+    .en { font-size: 13.5px; line-height: 1.7; color: var(--ink3); }
+    .body { font-size: 16px; line-height: 2.0; color: var(--ink); letter-spacing: .02em; }
+    .lang { display: inline-flex; align-items: center; gap: 6px; font-size: 12px; color: var(--ink2); }
+    .dot { width: 8px; height: 8px; border-radius: 50%; flex: none; }
+    .lic { display: inline-flex; align-items: center; height: 23px; padding: 0 8px;
+           font-size: 12px; line-height: 1; border-radius: 2px; white-space: nowrap;
+           border: 1px solid #C3D5CC; color: var(--accent); background: var(--accent-soft); }
+    .meta { font-size: 12px; color: var(--ink3); }
+    .meta b { font-weight: 400; color: var(--ink2); }
+    /* 原典の URL。紹介サイトなので、どこへ行けばいいかを常に見せる */
+    .url { display: inline-flex; align-items: center; gap: 7px; font-family: var(--mono);
+           font-size: 13px; color: var(--accent); letter-spacing: -.01em; }
+    .url .host { color: var(--ink3); }
+
+    /* 節の見出し。本文との差をはっきり付けて、飛ばし読みできるようにする */
+    h2.sec { margin: 0 0 20px; font-size: 20px; font-weight: 700; letter-spacing: .01em;
+             padding-bottom: 13px; border-bottom: 1px solid var(--rule2); }
+    section.block { margin-bottom: 52px; scroll-margin-top: 24px; }
+
+    pre.code { margin: 0; padding: 15px 17px; background: #14150F; color: #E6E4DB;
+               border-radius: 3px; overflow-x: auto; font-family: var(--mono);
+               font-size: 12.5px; line-height: 1.8; }
+    pre.code .c { color: #7E8A6E; }
+    pre.code .s { color: #C9B36B; }
+
+    .kv { display: flex; justify-content: space-between; align-items: baseline; gap: 16px;
+          padding: 11px 0; border-bottom: 1px solid var(--rule); font-size: 12.5px; color: var(--ink2); }
     .kv b { font-weight: 500; color: var(--ink); font-family: var(--mono); font-variant-numeric: tabular-nums; }
+
+    /* 長いページなので、いま何を読んでいるか分かるように目次を出す */
+    .toc a { display: block; padding: 8px 0 8px 13px; font-size: 12.5px; color: var(--ink2);
+             border-left: 2px solid var(--rule); }
+    .toc a:hover { color: var(--ink); border-left-color: var(--rule2); text-decoration: none; }
+    .toc a.on { color: var(--accent); border-left-color: var(--accent); font-weight: 500; }
+
+    /* 1リポジトリ1枚の図。文字は画像に入れず、キャプションで持つ */
+    figure.fig { margin: 0; }
+    figure.fig .frame { border: 1px solid var(--rule2); border-radius: 3px; overflow: hidden;
+                        background: var(--card); aspect-ratio: 16 / 9; display: block; }
+    figure.fig img { width: 100%; height: 100%; object-fit: cover; display: block; }
+    figure.fig figcaption { padding-top: 12px; font-size: 12.5px; line-height: 1.85; color: var(--ink3); }
+
+    /* 開発の様子。数字を大きく、意味を小さく。読み手が拾うのは数字のほう */
+    .facts { display: grid; grid-template-columns: repeat(2, minmax(0, 1fr)); gap: 1px;
+             background: var(--rule); border: 1px solid var(--rule); border-radius: 3px; overflow: hidden; }
+    .fact { background: var(--card); padding: 18px 20px; }
+    .fact .v { font-family: var(--mono); font-variant-numeric: tabular-nums;
+               font-size: 22px; font-weight: 500; line-height: 1.2; color: var(--ink); letter-spacing: -.01em; }
+    .fact .v .u { font-family: var(--jp); font-size: 13px; font-weight: 400; color: var(--ink2); padding-left: 3px; }
+    .fact .k { font-size: 12px; color: var(--ink3); padding-top: 7px; }
   </style>
 </helmet>
 
 <div style="min-height: 100%; background: var(--paper);">
 
-  <div style="border-bottom: 1px solid var(--rule); background: #F5F2EC;">
-    <div style="max-width: 1080px; margin: 0 auto; padding: 7px 24px; display: flex; align-items: center; justify-content: space-between; gap: 16px;">
+  <div style="border-bottom: 1px solid var(--rule); background: var(--sink);">
+    <div style="max-width: 1120px; margin: 0 auto; padding: 8px 32px;">
       <span style="font-size: 11.5px; color: var(--ink3);">当サイトはアフィリエイト広告を利用しています</span>
-      <span style="font-size: 11.5px; color: var(--ink3);">紹介文は人が書いています。数値と警告は自動取得・自動判定です — <a href="#">判定の基準</a></span>
     </div>
   </div>
 
-  <header style="border-bottom: 1px solid var(--rule);">
-    <div style="max-width: 1080px; margin: 0 auto; padding: 18px 24px; display: flex; align-items: center; justify-content: space-between; gap: 32px;">
-      <div style="display: flex; align-items: baseline; gap: 14px;">
-        <a href="#" style="font-family: var(--serif); font-size: 22px; color: var(--ink); letter-spacing: -.015em;">Wakuru</a>
-        <span style="font-size: 12px; color: var(--ink3);">新しい技術が、わかる。</span>
-      </div>
-      <div style="display: flex; align-items: center; gap: 22px; font-size: 13px;">
+  <header style="border-bottom: 1px solid var(--rule2);">
+    <div style="max-width: 1120px; margin: 0 auto; padding: 20px 32px; display: flex; align-items: center; justify-content: space-between; gap: 40px;">
+      <a href="#" class="display" style="font-size: 23px; color: var(--ink);">Wakuru</a>
+      <div style="display: flex; align-items: center; gap: 26px; font-size: 13px;">
         <a href="#" style="color: var(--ink2);">今日</a>
-        <a href="#" style="color: var(--ink2);">今週まとめ</a>
+        <a href="#" style="color: var(--ink2);">今週のまとめ</a>
+        <a href="#" style="color: var(--ink2);">殿堂入り</a>
         <a href="#" style="color: var(--ink2);">カテゴリ</a>
         <a href="#" style="color: var(--ink2);">このサイトについて</a>
       </div>
     </div>
   </header>
 
-  <!-- パンくず（BreadcrumbList 構造化データを載せる場所） -->
-  <div style="max-width: 1080px; margin: 0 auto; padding: 16px 24px 0; font-size: 12px; color: var(--ink3);">
-    <a href="#" style="color: var(--ink3);">ホーム</a>
-    <span style="padding: 0 7px;">/</span>
-    <a href="#" style="color: var(--ink3);">Python</a>
-    <span style="padding: 0 7px;">/</span>
-    <span class="num">deepfoundry/atlas-lm</span>
+  <div style="max-width: 1120px; margin: 0 auto; padding: 18px 32px 0;">
+    <nav class="meta" aria-label="パンくず">
+      <a href="#" style="color: var(--ink3);">ホーム</a>
+      <span style="padding: 0 8px; color: var(--rule2);">/</span>
+      <a href="#" style="color: var(--ink3);">AIエージェント</a>
+      <span style="padding: 0 8px; color: var(--rule2);">/</span>
+      <span class="num">deepfoundry/atlas-lm</span>
+    </nav>
   </div>
 
-  <div style="max-width: 1080px; margin: 0 auto; padding: 0 24px 72px; display: flex; gap: 56px; align-items: flex-start;">
+  <div style="max-width: 1120px; margin: 0 auto; padding: 0 32px 88px; display: flex; gap: 64px; align-items: flex-start;">
 
-    <main style="flex: 1; min-width: 0;">
+    <main style="flex: 1; min-width: 0; max-width: 700px;">
 
-      <!-- タイトル -->
-      <div style="padding: 26px 0 24px;">
-        <h1 style="margin: 0 0 10px; font-family: var(--mono); font-size: 30px; font-weight: 500; letter-spacing: -.02em; line-height: 1.25;">
+      <!-- 見出し。名前 → 日本語の一言 → 英語原文 の順。読み手は日本語から入る -->
+      <div style="padding: 28px 0 30px; border-bottom: 1px solid var(--rule2);">
+        <h1 style="margin: 0 0 14px; font-family: var(--mono); font-size: 29px; font-weight: 500; letter-spacing: -.025em; line-height: 1.3;">
           <span style="color: var(--ink3); font-weight: 400;">deepfoundry/</span>atlas-lm
         </h1>
-        <p style="margin: 0 0 18px; font-size: 13px; line-height: 1.6; color: var(--ink3);">
+        <p class="display" style="margin: 0 0 16px; font-size: 22px; line-height: 1.55; color: var(--ink);">
+          複数のLLMを1つの入口にまとめて、乗り換えを怖くなくする
+        </p>
+        <p class="en" style="margin: 0 0 20px;">
           All-in-one LLM serving stack with routing, caching and evaluation built in.
         </p>
-        <div style="display: flex; gap: 6px; flex-wrap: wrap;">
-          <span class="chip">Python</span>
-          <span class="chip">llm</span>
-          <span class="chip">inference</span>
-          <span class="chip">serving</span>
+        <a class="url" href="https://github.com/deepfoundry/atlas-lm" style="margin-bottom: 20px;">
+          <span class="host">github.com/</span>deepfoundry/atlas-lm
+          <svg width="12" height="12" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.4" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M7 17 17 7"/><path d="M9 7h8v8"/></svg>
+        </a>
+
+        <div style="display: flex; align-items: center; gap: 16px; flex-wrap: wrap;">
+          <span class="lic">Apache-2.0 · 商用OK</span>
+          <span class="lang"><span class="dot" style="background: #3572A5;"></span>Python</span>
+          <span class="meta">★ <b class="num">9,880</b>（今日 <b class="num" style="color: var(--accent);">+4,120</b>）</span>
+          <span class="meta">3日前に更新</span>
         </div>
       </div>
 
-            <!-- ★ 日本語の紹介文。このページの主役（D-001 / D-002） -->
-      <section style="margin-bottom: 34px; background: var(--card); border: 1px solid var(--rule); border-radius: 3px; padding: 26px 28px;">
-        <div class="eyebrow" style="margin-bottom: 16px;">どういうものか</div>
-        <div style="font-size: 15px; line-height: 2; color: var(--ink);">
-          <p style="margin: 0 0 16px;">
-            LLM を本番で動かすときに必要になるものを、ひとつのエンドポイントの裏にまとめた道具です。ルーティング、キャッシュ、評価の3つが最初から入っています。OpenAI と同じ形式で話すので、既存のクライアントはそのまま繋がります。
-          </p>
-          <p style="margin: 0 0 16px;">
-            いちばん効くのは<b style="font-weight: 500;">モデルを乗り換えるとき</b>です。1週間ぶんの本番リクエストを記録しておいて、切り替え前に新しいモデルへ流し直せます。「変えてみたら壊れた」を事前に潰せるということです。
-          </p>
-          <p style="margin: 0;">
-            一方で、レイテンシと費用の上限を YAML で宣言する設計なので、その設計思想が合わないと窮屈に感じるかもしれません。まずは小さく試すのがよさそうです。
-          </p>
-        </div>
-        <div style="margin-top: 20px; padding-top: 16px; border-top: 1px solid var(--rule); font-size: 11.5px; color: var(--ink3);">
-          2026年8月29日 · 編集部
-        </div>
-      </section>
+      <div style="padding: 34px 0 0;">
 
-<!-- スター推移 -->
-      <section style="margin-bottom: 34px;">
-        <div class="eyebrow" style="padding-bottom: 14px; border-bottom: 1px solid var(--rule); display: flex; justify-content: space-between; align-items: baseline;">
-          <span>注目度の推移 — 直近30日</span>
-          <span style="letter-spacing: 0; color: var(--ink3);">当サイトの計測 <span class="num">128</span> 日分</span>
-        </div>
-        <div style="background: var(--card); border: 1px solid var(--rule); border-top: none; padding: 22px 20px 16px;">
-          <svg viewBox="0 0 700 170" style="width: 100%; height: 170px; display: block;" preserveAspectRatio="none">
-            <line x1="0" y1="10" x2="700" y2="10" stroke="#EFEBE3" stroke-width="1"/>
-            <line x1="0" y1="60" x2="700" y2="60" stroke="#EFEBE3" stroke-width="1"/>
-            <line x1="0" y1="110" x2="700" y2="110" stroke="#EFEBE3" stroke-width="1"/>
-            <line x1="0" y1="159" x2="700" y2="159" stroke="#E7E2D9" stroke-width="1"/>
-            <polyline points="0,150 40,148 80,146 120,145 160,143 200,141 240,139 280,137 320,135 360,133 400,131 440,129 480,127 520,118 560,88 600,44 640,26 700,20" fill="none" stroke="#1E5A48" stroke-width="2" stroke-linejoin="round"/>
-          </svg>
-          <div style="display: flex; justify-content: space-between; font-size: 11px; color: var(--ink3); padding-top: 8px;" class="num">
-            <span>07-29</span><span>08-08</span><span>08-18</span><span>08-28</span>
+        <section class="block" id="about">
+          <h2 class="sec">どういうものか</h2>
+          <div class="body">
+            <p style="margin: 0 0 20px;">
+              複数の LLM を、ひとつの窓口の裏にまとめる道具です。アプリからは1か所を呼ぶだけで、どのモデルに渡すかは atlas-lm が決めます。OpenAI と同じ形式で話すので、既存のクライアントは接続先を変えるだけで繋がります。
+            </p>
+            <p style="margin: 0;">
+              中に3つの機能が入っています。リクエストごとにモデルを選ぶ<b style="font-weight: 700;">ルーティング</b>、同じ問い合わせを2度投げない<b style="font-weight: 700;">キャッシュ</b>、そして過去のリクエストを記録しておいて別のモデルに流し直せる<b style="font-weight: 700;">評価</b>です。この3つを別々のツールで揃えると設定が散らかるので、まとめてあることに意味があります。
+            </p>
           </div>
-          <div style="padding-top: 12px; border-top: 1px solid var(--rule); margin-top: 12px; font-size: 11.5px; color: var(--ink3);">
-            累計スター数の推移。Wakuru が毎日記録しています
-          </div>
-        </div>
-      </section>
 
-      <!-- README 抜粋（最大500字・全文は載せない） -->
-      <section style="margin-bottom: 34px;">
-        <div class="eyebrow" style="padding-bottom: 14px; border-bottom: 1px solid var(--rule);">README 抜粋</div>
-        <div style="padding-top: 16px;">
-          <p style="margin: 0 0 14px; font-size: 13.5px; line-height: 1.8; color: var(--ink2);">
-            atlas-lm is a serving stack that puts routing, caching and evaluation behind one endpoint. It speaks the OpenAI wire format, so existing clients work unchanged. The router picks a backend per request from latency and cost budgets you declare in a single YAML file, and every response is recorded so you can replay a week of production traffic against a candidate model before switching.
+          <!-- ★1リポジトリ1枚の図。画像に文字は入れない（生成時に崩れるため）。
+               意味はキャプションが持つ。ここは実際には <img> が入る枠で、
+               下の SVG は「どんな絵が入るか」を示したもの -->
+          <figure class="fig" style="margin-top: 30px;">
+            <div class="frame">
+              <svg viewBox="0 0 800 450" style="width: 100%; height: 100%; display: block;" role="img" aria-label="アプリからの呼び出しが1か所に集まり、そこから複数のモデルへ振り分けられる様子の図">
+                <rect width="800" height="450" fill="#F7F4EE"/>
+
+                <!-- 左：アプリ。ひとつだけ -->
+                <rect x="86" y="196" width="86" height="58" rx="4" fill="none" stroke="#17160F" stroke-width="2"/>
+
+                <!-- 中央：まとめる入口 -->
+                <rect x="330" y="160" width="140" height="130" rx="6" fill="#1E5A48"/>
+
+                <!-- 右：複数のモデル。大きさを変えて性格の違いを示す -->
+                <circle cx="654" cy="128" r="30" fill="none" stroke="#17160F" stroke-width="2"/>
+                <circle cx="668" cy="225" r="44" fill="#1E5A48" fill-opacity=".18" stroke="#1E5A48" stroke-width="2"/>
+                <circle cx="648" cy="330" r="24" fill="none" stroke="#17160F" stroke-width="2"/>
+
+                <!-- つなぐ線。左は1本、右は3本に分かれる -->
+                <path d="M172 225 H330" stroke="#17160F" stroke-width="2"/>
+                <path d="M470 225 H540 Q560 225 560 205 V148 Q560 128 580 128 H624" fill="none" stroke="#1E5A48" stroke-width="2"/>
+                <path d="M470 225 H624" stroke="#1E5A48" stroke-width="2"/>
+                <path d="M470 225 H540 Q560 225 560 245 V310 Q560 330 580 330 H624" fill="none" stroke="#1E5A48" stroke-width="2"/>
+
+                <!-- 進む向き -->
+                <path d="M244 218 l14 7 -14 7 z" fill="#17160F"/>
+              </svg>
+            </div>
+            <figcaption>
+              アプリが見る先はひとつだけになり、どのモデルに渡すかは atlas-lm の側で決まります。モデルを増やしても、アプリのコードは変わりません。
+            </figcaption>
+          </figure>
+        </section>
+
+        <section class="block" id="when">
+          <h2 class="sec">どんなときに使うか</h2>
+          <div style="display: flex; flex-direction: column; gap: 24px;">
+            <div>
+              <div style="font-size: 15px; font-weight: 700; margin-bottom: 8px;">モデルを乗り換える前に、壊れないか確かめたいとき</div>
+              <p style="margin: 0; font-size: 14px; line-height: 1.95; color: var(--ink2);">
+                1週間ぶんの本番リクエストを記録しておいて、切り替え前に新しいモデルへ流し直せます。「変えてみたら一部の返答が崩れた」を、本番に出す前に見つけられます。
+              </p>
+            </div>
+            <div>
+              <div style="font-size: 15px; font-weight: 700; margin-bottom: 8px;">コストと速度で、モデルを振り分けたいとき</div>
+              <p style="margin: 0; font-size: 14px; line-height: 1.95; color: var(--ink2);">
+                「短い問い合わせは安いモデル、長文は高いモデル」といった振り分けを、アプリ側のコードを触らずに設定ファイルだけで変えられます。
+              </p>
+            </div>
+          </div>
+        </section>
+
+        <!-- ★ 使い始める。競合に無い節（D-006） -->
+        <section class="block" id="start">
+          <h2 class="sec" style="display: flex; align-items: baseline; justify-content: space-between; gap: 20px;">
+            <span>使い方</span>
+            <span style="font-size: 12px; font-weight: 400; letter-spacing: 0; color: var(--accent); display: inline-flex; align-items: center; gap: 6px;">
+              <svg width="13" height="13" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.4" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="m4 12.5 5 5L20 6.5"/></svg>
+              編集部で動作を確認しました
+            </span>
+          </h2>
+
+          <div style="display: flex; flex-direction: column; gap: 26px;">
+            <div>
+              <div style="font-size: 14px; font-weight: 700; margin-bottom: 10px;">1. インストールする</div>
+              <pre class="code"><span class="c"># Docker は要りません</span>
+pip install atlas-lm</pre>
+            </div>
+
+            <div>
+              <div style="font-size: 14px; font-weight: 700; margin-bottom: 10px;">2. 設定ファイルを書く</div>
+              <pre class="code"><span class="c"># atlas.yaml</span>
+backends:
+  - name: <span class="s">fast</span>
+    model: <span class="s">gpt-4o-mini</span>
+    max_latency_ms: <span class="s">800</span>
+  - name: <span class="s">deep</span>
+    model: <span class="s">claude-sonnet-4</span>
+    max_cost_per_1k: <span class="s">0.01</span></pre>
+              <p style="margin: 10px 0 0; font-size: 12.5px; line-height: 1.8; color: var(--ink3);">
+                上が速さ優先、下が品質優先の設定です。名前は自由に付けられます。
+              </p>
+            </div>
+
+            <div>
+              <div style="font-size: 14px; font-weight: 700; margin-bottom: 10px;">3. 起動して、アプリから呼び出す</div>
+              <pre class="code">atlas serve --config atlas.yaml
+
+<span class="c"># 既存のクライアントは向き先を変えるだけ</span>
+client = OpenAI(base_url=<span class="s">"http://localhost:8080/v1"</span>)</pre>
+            </div>
+          </div>
+
+          <p style="margin: 22px 0 0; padding: 14px 16px; background: var(--sink); border-radius: 3px; font-size: 12.5px; line-height: 1.85; color: var(--ink2);">
+            ここまでを macOS / Python 3.12 で確認しています。<b style="font-weight: 500;">コード例は当サイトで書いたもの</b>で、README の転載ではありません。バージョンによって手順が変わることがあります。
           </p>
-          <div style="display: flex; align-items: center; gap: 12px; font-size: 11.5px; color: var(--ink3);">
-            <span>出典 — GitHub の README より <span class="num">500</span> 字以内で抜粋</span>
-            <a href="#" style="display: inline-flex; align-items: center; gap: 5px; color: var(--accent);">
-              原典を読む
-              <svg width="11" height="11" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round"><path d="M7 17 17 7"/><path d="M9 7h8v8"/></svg>
+        </section>
+
+        <section class="block" id="caution">
+          <h2 class="sec">注意点</h2>
+          <div style="display: flex; flex-direction: column; gap: 18px; font-size: 14px; line-height: 1.95; color: var(--ink2);">
+            <p style="margin: 0;">
+              レイテンシと費用の上限を設定ファイルで宣言する設計です。この考え方が合わないと窮屈に感じるかもしれません。細かく制御したい場合は、素直に自分でルーティングを書いたほうが早いこともあります。
+            </p>
+            <p style="margin: 0;">
+              ライセンスは <b style="font-weight: 700; color: var(--ink);">Apache-2.0</b> で、自社サービスへの組込みを妨げる条項はありません。特許条項があるため、導入前に原文の確認をおすすめします。最終コミットは3日前で、開発は動いています。
+            </p>
+          </div>
+        </section>
+
+        <section class="block" id="health">
+          <h2 class="sec">開発の様子</h2>
+
+          <p style="margin: 0 0 22px; font-size: 14px; line-height: 1.95; color: var(--ink2);">
+            採用を考えるときに気になるのは、<b style="font-weight: 700; color: var(--ink);">来年も続いているか</b>と<b style="font-weight: 700; color: var(--ink);">困ったときに助けが得られるか</b>だと思います。判断の材料になる数字を並べます。
+          </p>
+
+          <div class="facts">
+            <div class="fact">
+              <div class="v">1<span class="u">年</span>2<span class="u">か月</span></div>
+              <div class="k">公開してからの期間。2025年6月11日が最初のコミットです</div>
+            </div>
+            <div class="fact">
+              <div class="v">27<span class="u">回</span></div>
+              <div class="k">リリースの回数。月に2回ほどのペースです</div>
+            </div>
+            <div class="fact">
+              <div class="v">48<span class="u">人</span></div>
+              <div class="k">開発に参加した人数。作者ひとりではありません</div>
+            </div>
+            <div class="fact">
+              <div class="v">3<span class="u">日前</span></div>
+              <div class="k">最後のコミット。開発は動いています</div>
+            </div>
+            <div class="fact">
+              <div class="v">63<span class="u">件</span></div>
+              <div class="k">未解決の Issue。やり取りがある状態です</div>
+            </div>
+            <div class="fact">
+              <div class="v">3<span class="u">か月連続</span></div>
+              <div class="k">スターが増え続けている期間。Wakuru の記録によるものです</div>
+            </div>
+          </div>
+
+          <div style="margin-top: 18px; padding: 16px 18px; background: var(--sink); border-radius: 3px;">
+            <div style="display: flex; align-items: center; gap: 9px; font-size: 13.5px; font-weight: 700; color: var(--accent); margin-bottom: 8px;">
+              <svg width="15" height="15" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.4" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="m4 12.5 5 5L20 6.5"/></svg>
+              開発が続く見込みは高そうです
+            </div>
+            <p style="margin: 0; font-size: 12.5px; line-height: 1.85; color: var(--ink2);">
+              1年以上、複数人で、定期的にリリースが出ています。よくある「作者が飽きて止まる」形ではありません。ただしこれは過去の記録から見た傾向であって、今後を保証するものではありません。<a href="#">判定の条件</a>を公開しています。
+            </p>
+          </div>
+        </section>
+
+        <section class="block" id="similar">
+          <h2 class="sec">ほかの候補</h2>
+          <div>
+            <a href="#" style="display: flex; align-items: baseline; justify-content: space-between; gap: 20px; padding: 16px 0; border-bottom: 1px solid var(--rule); color: inherit;">
+              <span style="min-width: 0;">
+                <span class="num" style="font-size: 14.5px; color: var(--ink); font-weight: 500;"><span style="color: var(--ink3); font-weight: 400;">portway/</span>gate</span>
+                <span style="display: block; font-size: 13px; color: var(--ink3); padding-top: 5px; line-height: 1.7;">ルーティングに絞った軽い作りです。評価の機能はありません</span>
+                <span class="num" style="display: block; font-size: 11.5px; color: var(--ink3); padding-top: 5px;">github.com/portway/gate</span>
+              </span>
+              <span class="num meta" style="flex: none;">★ 4,120</span>
+            </a>
+            <a href="#" style="display: flex; align-items: baseline; justify-content: space-between; gap: 20px; padding: 16px 0; border-bottom: 1px solid var(--rule); color: inherit;">
+              <span style="min-width: 0;">
+                <span class="num" style="font-size: 14.5px; color: var(--ink); font-weight: 500;"><span style="color: var(--ink3); font-weight: 400;">evalbox/</span>replay</span>
+                <span style="display: block; font-size: 13px; color: var(--ink3); padding-top: 5px; line-height: 1.7;">本番トラフィックの再生に特化しています。ルーティングはありません</span>
+                <span class="num" style="display: block; font-size: 11.5px; color: var(--ink3); padding-top: 5px;">github.com/evalbox/replay</span>
+              </span>
+              <span class="num meta" style="flex: none;">★ 2,860</span>
             </a>
           </div>
-        </div>
-      </section>
+        </section>
 
-      <!-- 判定の根拠 -->
-      <section>
-        <div class="eyebrow" style="padding-bottom: 14px; border-bottom: 1px solid var(--rule);">この記事について</div>
-        <p style="margin: 16px 0 0; font-size: 13px; line-height: 1.85; color: var(--ink2);">
-          上の紹介文は編集部が書いたものです。調査の過程で AI を使うことはありますが、公開前に必ず人が読んで確認しています。数値は GitHub の公式 API から機械的に取得したもの、警告は公開された計算式による自動判定です。条件と閾値は<a href="#">判定の基準</a>ですべて公開しています。事実誤認を見つけた場合は、お知らせください。
-        </p>
-      </section>
+        <section style="padding-top: 8px;">
+          <p style="margin: 0; font-size: 12.5px; line-height: 1.95; color: var(--ink3);">
+            この記事は編集部が書きました（2026年8月29日）。調査の過程で AI を使うことはありますが、公開前に必ず人が読んで確認しています。数値は GitHub から取得したもの、警告は<a href="#">公開している条件</a>による自動判定です。事実誤認を見つけた場合はお知らせください。
+          </p>
+        </section>
+      </div>
     </main>
 
-    <!-- 右レール -->
-    <aside style="width: 288px; flex: none; padding-top: 26px; display: flex; flex-direction: column; gap: 28px;">
+    <aside style="width: 260px; flex: none; padding-top: 28px; display: flex; flex-direction: column; gap: 32px; position: sticky; top: 24px;">
 
-      <div style="background: var(--card); border: 1px solid var(--rule); border-radius: 3px; padding: 18px 20px;">
-        <div style="display: flex; align-items: baseline; justify-content: space-between; margin-bottom: 4px;">
-          <span class="num" style="font-family: var(--serif); font-size: 34px; line-height: 1;">9,880</span>
-          <span class="num" style="font-size: 13px; color: var(--accent); font-weight: 500;">+4,120</span>
-        </div>
-        <div style="font-size: 11.5px; color: var(--ink3); margin-bottom: 16px;">スター · 今日の増加</div>
-        <div class="kv"><span>Fork</span><b>742</b></div>
-        <div class="kv"><span>Watch</span><b>188</b></div>
-        <div class="kv"><span>Open Issue</span><b>63</b></div>
-        <div class="kv"><span>コントリビュータ</span><b>48</b></div>
-        <div class="kv" style="border-bottom: none;"><span>リリース</span><b>27</b></div>
+      <nav class="toc" aria-label="目次">
+        <div class="label" style="margin-bottom: 12px;">目次</div>
+        <a href="#about" class="on">どういうものか</a>
+        <a href="#when">どんなときに使うか</a>
+        <a href="#start">使い方</a>
+        <a href="#caution">注意点</a>
+        <a href="#health">開発の様子</a>
+        <a href="#similar">ほかの候補</a>
+      </nav>
+
+      <div>
+        <a href="https://github.com/deepfoundry/atlas-lm" style="display: flex; align-items: center; justify-content: center; gap: 8px; height: 46px; border-radius: 2px; font-size: 13.5px; color: #FFF; background: var(--accent);">
+          <svg width="16" height="16" viewBox="0 0 16 16" fill="currentColor" aria-hidden="true"><path d="M8 0C3.58 0 0 3.58 0 8c0 3.54 2.29 6.53 5.47 7.59.4.07.55-.17.55-.38 0-.19-.01-.82-.01-1.49-2.01.37-2.53-.49-2.69-.94-.09-.23-.48-.94-.82-1.13-.28-.15-.68-.52-.01-.53.63-.01 1.08.58 1.23.82.72 1.21 1.87.87 2.33.66.07-.52.28-.87.51-1.07-1.78-.2-3.64-.89-3.64-3.95 0-.87.31-1.59.82-2.15-.08-.2-.36-1.02.08-2.12 0 0 .67-.21 2.2.82.64-.18 1.32-.27 2-.27s1.36.09 2 .27c1.53-1.04 2.2-.82 2.2-.82.44 1.1.16 1.92.08 2.12.51.56.82 1.27.82 2.15 0 3.07-1.87 3.75-3.65 3.95.29.25.54.73.54 1.48 0 1.07-.01 1.93-.01 2.2 0 .21.15.46.55.38A8.01 8.01 0 0 0 16 8c0-4.42-3.58-8-8-8Z"/></svg>
+          GitHub で開く
+        </a>
+        <div class="num" style="text-align: center; padding-top: 9px; font-size: 11px; color: var(--ink3); word-break: break-all;">github.com/deepfoundry/atlas-lm</div>
       </div>
 
       <section>
-        <div class="eyebrow" style="padding-bottom: 11px; border-bottom: 1px solid var(--rule);">ライセンス</div>
-        <div style="padding-top: 14px; display: flex; flex-direction: column; gap: 11px;">
-          <div style="font-family: var(--mono); font-size: 15px;">Apache-2.0</div>
-          <span class="chip ok" style="align-self: flex-start;">
-            <svg width="12" height="12" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round"><path d="m4 12.5 5 5L20 6.5"/></svg>
-            商用利用しやすい区分
-          </span>
-          <p style="margin: 0; font-size: 12px; line-height: 1.7; color: var(--ink3);">
-            自社サービスへの組込みを妨げる条項は含まれません。特許条項があるため、利用時は原文の確認をおすすめします。
-          </p>
+        <div class="label" style="padding-bottom: 12px; border-bottom: 1px solid var(--rule2);">スター数</div>
+        <div style="padding-top: 14px;">
+          <div style="display: flex; align-items: baseline; gap: 9px; margin-bottom: 10px;">
+            <span class="num" style="font-size: 21px; font-weight: 500;">9,880</span>
+            <span class="num" style="font-size: 13px; color: var(--accent); font-weight: 500;">+4,120</span>
+            <span class="meta">今日</span>
+          </div>
+          <svg viewBox="0 0 240 44" style="width: 100%; height: 44px; display: block;" preserveAspectRatio="none" role="img" aria-label="直近30日のスター数の推移">
+            <path d="M0,40 L27,39 L53,38 L80,36 L107,34 L133,32 L160,29 L187,20 L213,9 L240,4 L240,44 L0,44 Z" fill="#1E5A48" fill-opacity=".08"/>
+            <polyline points="0,40 27,39 53,38 80,36 107,34 133,32 160,29 187,20 213,9 240,4" fill="none" stroke="#1E5A48" stroke-width="1.8" stroke-linejoin="round" stroke-linecap="round"/>
+            <circle cx="240" cy="4" r="2.6" fill="#1E5A48"/>
+          </svg>
+          <div class="meta" style="padding-top: 7px;">直近30日。<span class="num">128</span> 日分を記録しています</div>
         </div>
       </section>
 
       <section>
-        <div class="eyebrow" style="padding-bottom: 11px; border-bottom: 1px solid var(--rule);">基本情報</div>
-        <div class="kv"><span>作成</span><b>2025-06-11</b></div>
-        <div class="kv"><span>最終コミット</span><b>2026-08-25</b></div>
-        <div class="kv"><span>日本語 README</span><span style="color: var(--ink3);">なし</span></div>
-        <div class="kv" style="border-bottom: none;"><span>初回検知</span><b>2026-08-14</b></div>
+        <div class="label" style="padding-bottom: 12px; border-bottom: 1px solid var(--rule2);">そのほかの数字</div>
+        <div style="padding-top: 4px;">
+          <div class="kv"><span>Fork</span><b>742</b></div>
+          <div class="kv"><span>Watch</span><b>188</b></div>
+          <div class="kv"><span>未解決の Issue</span><b>63</b></div>
+          <div class="kv"><span>コントリビュータ</span><b>48</b></div>
+          <div class="kv" style="border-bottom: none;"><span>リリース</span><b>27</b></div>
+        </div>
       </section>
 
-      <a href="#" style="display: flex; align-items: center; justify-content: center; gap: 7px; height: 40px; border: 1px solid var(--rule2); border-radius: 2px; font-size: 13px; color: var(--ink2); background: var(--card);">
-        GitHub で開く
-        <svg width="12" height="12" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round"><path d="M7 17 17 7"/><path d="M9 7h8v8"/></svg>
-      </a>
+      <section>
+        <div class="label" style="padding-bottom: 12px; border-bottom: 1px solid var(--rule2);">基本情報</div>
+        <div style="padding-top: 4px;">
+          <div class="kv"><span>作成</span><b>2025-06-11</b></div>
+          <div class="kv"><span>最終コミット</span><b>2026-08-25</b></div>
+          <div class="kv"><span>日本語 README</span><span style="color: var(--ink3);">なし</span></div>
+          <div class="kv" style="border-bottom: none;"><span>見つけた日</span><b>2026-08-14</b></div>
+        </div>
+      </section>
     </aside>
   </div>
 
-  <footer style="border-top: 1px solid var(--rule); background: #F5F2EC;">
-    <div style="max-width: 1080px; margin: 0 auto; padding: 30px 24px 40px;">
-      <p style="margin: 0; max-width: 640px; font-size: 12px; line-height: 1.75; color: var(--ink3);">
-紹介文は人が書いています。数値データは GitHub API から取得したもの、警告は決定的なロジックによる自動判定です。警告は「疑い」であり、断定するものではありません。紹介しているリポジトリの動作を保証するものでもありません。技術選定の最終判断は、必ず原典をご確認ください。
+  <footer style="border-top: 1px solid var(--rule2); background: var(--sink);">
+    <div style="max-width: 1120px; margin: 0 auto; padding: 36px 32px 46px;">
+      <p style="margin: 0; max-width: 640px; font-size: 12px; line-height: 1.95; color: var(--ink3);">
+        紹介文は編集部が書いています。スター数やライセンスなどの数値は GitHub から取得したもの、警告は決まった条件による自動判定です。警告は「疑い」であり、断定するものではありません。紹介しているリポジトリの動作を保証するものでもありません。技術選定の最終判断は、必ず原典をご確認ください。
       </p>
     </div>
   </footer>

@@ -10,273 +10,332 @@
   <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Newsreader:opsz,wght@6..72,400;6..72,500&family=Zen+Kaku+Gothic+New:wght@400;500;700&family=JetBrains+Mono:wght@400;500;600&display=swap">
   <style>
     :root {
-      --paper: #FAF8F4; --card: #FFFFFF;
-      --ink: #191816; --ink2: #56524B; --ink3: #8A857D;
-      --rule: #E7E2D9; --rule2: #D8D2C6;
-      --accent: #1E5A48; --accent-soft: #E9F0EC;
-      --warn: #8A5A00; --warn-soft: #FAF2E1;
-      --danger: #96302C; --danger-soft: #F9EDEC;
+      --paper: #FAF8F4; --card: #FFFFFF; --sink: #F3F0E9;
+      --ink: #17160F; --ink2: #514D45; --ink3: #837E73;
+      --rule: #E9E4DA; --rule2: #D6CFC2;
+      --accent: #1E5A48; --accent-soft: #E7EFEA;
+      --warn: #8A5A00; --warn-soft: #FBF3E0;
+      --danger: #93302B; --danger-soft: #FAEEEC;
       --jp: 'Zen Kaku Gothic New', 'Hiragino Kaku Gothic ProN', 'Yu Gothic', sans-serif;
       --serif: 'Newsreader', 'Hiragino Mincho ProN', serif;
       --mono: 'JetBrains Mono', ui-monospace, monospace;
     }
-    body { margin: 0; background: var(--paper); color: var(--ink); font-family: var(--jp); -webkit-font-smoothing: antialiased; }
+    body {
+      margin: 0; background: var(--paper); color: var(--ink);
+      font-family: var(--jp); -webkit-font-smoothing: antialiased;
+      letter-spacing: .015em;
+    }
     a { color: var(--accent); text-decoration: none; }
-    a:hover { color: #14402F; text-decoration: underline; text-underline-offset: 3px; }
+    a:hover { text-decoration: underline; text-underline-offset: 3px; }
+    a:focus-visible { outline: 2px solid var(--accent); outline-offset: 3px; border-radius: 2px; }
 
-    .eyebrow { font-size: 11px; letter-spacing: .16em; color: var(--ink3); font-weight: 500; }
-    .repo { font-family: var(--mono); font-size: 16.5px; font-weight: 500; letter-spacing: -.01em; color: var(--ink); }
-    .repo .owner { color: var(--ink3); font-weight: 400; }
-    .desc-en { font-size: 13px; line-height: 1.6; color: var(--ink3); }
-    /* ★紹介文がこのサイトの主役。本文と同じ濃さ・大きさで出す */
-    .intro { font-size: 14.5px; line-height: 1.9; color: var(--ink); }
+    /* 見出しは詰めて、本文はゆったり。日本語は行間で読みやすさが決まる */
+    .display { font-family: var(--serif); font-weight: 400; letter-spacing: -.012em; font-feature-settings: 'palt'; }
+    .label { font-size: 11px; letter-spacing: .2em; color: var(--ink3); font-weight: 500; }
     .num { font-family: var(--mono); font-variant-numeric: tabular-nums; }
 
-    .chip { display: inline-flex; align-items: center; gap: 5px; height: 22px; padding: 0 8px;
-            font-size: 11.5px; line-height: 1; border: 1px solid var(--rule2); border-radius: 2px;
-            color: var(--ink3); background: var(--card); white-space: nowrap; }
-    .chip.warn { color: var(--warn); border-color: #E8D5A8; background: var(--warn-soft); }
-    .chip.danger { color: var(--danger); border-color: #E5C2BF; background: var(--danger-soft); }
-    .chip.ok { color: var(--accent); border-color: #BFD5CB; background: var(--accent-soft); }
+    .repo { font-family: var(--mono); font-weight: 500; letter-spacing: -.015em; color: var(--ink); }
+    .repo .owner { color: var(--ink3); font-weight: 400; }
 
-    .rowlink:hover .repo { color: var(--accent); }
+    /* 英語原文。読ませる文ではなく参照物なので、意図的に落とす */
+    .en { font-size: 13px; line-height: 1.65; color: var(--ink3); }
+    /* ★日本語の紹介文。ここが主役なので、本文として最も大きく組む */
+    .intro { font-size: 16px; line-height: 2.0; color: var(--ink); letter-spacing: .02em; }
+
+    /* 言語は一覧の左端に固定して、目線の縦のガイドにする */
+    .lang { display: inline-flex; align-items: center; gap: 6px; font-size: 11.5px; color: var(--ink2); white-space: nowrap; }
+    .dot { width: 8px; height: 8px; border-radius: 50%; flex: none; }
+
+    /* ライセンスだけ枠を付ける。他のメタ情報は素の文字にして、視線の競合を避ける */
+    .lic { display: inline-flex; align-items: center; height: 21px; padding: 0 7px;
+           font-size: 11.5px; line-height: 1; border-radius: 2px; white-space: nowrap;
+           border: 1px solid #C3D5CC; color: var(--accent); background: var(--accent-soft); }
+    .lic.warn { border-color: #E6D2A4; color: var(--warn); background: var(--warn-soft); }
+    .lic.danger { border-color: #E3BEBA; color: var(--danger); background: var(--danger-soft); }
+    .meta { font-size: 12px; color: var(--ink3); }
+    .meta b { font-weight: 400; color: var(--ink2); }
+    /* 原典の URL。紹介サイトなので、どこへ行けばいいかを常に見せる */
+    .url { display: inline-flex; align-items: center; gap: 6px; font-family: var(--mono);
+           font-size: 12px; color: var(--ink3); letter-spacing: -.01em; }
+    .url:hover { color: var(--accent); }
+
+    .row { display: grid; grid-template-columns: 96px minmax(0, 1fr) 104px; gap: 20px;
+           padding: 20px 0; border-bottom: 1px solid var(--rule); align-items: start; }
+    .row:hover .repo { color: var(--accent); }
+    .delta { font-size: 17px; font-weight: 500; color: var(--accent); line-height: 1; }
+    .total { font-size: 11.5px; color: var(--ink3); padding-top: 5px; }
+
+    .chip { display: inline-flex; align-items: center; height: 26px; padding: 0 10px;
+            font-size: 12px; border: 1px solid var(--rule2); border-radius: 2px;
+            color: var(--ink2); background: var(--card); white-space: nowrap; }
+    .chip:hover { border-color: var(--ink3); color: var(--ink); text-decoration: none; }
   </style>
 </helmet>
 
 <div style="min-height: 100%; background: var(--paper);">
 
-  <!-- ステマ規制の表記。景表法・指定告示によりファーストビューに置く（SPEC 8.1） -->
-  <div style="border-bottom: 1px solid var(--rule); background: #F5F2EC;">
-    <div style="max-width: 1080px; margin: 0 auto; padding: 7px 24px;">
+  <!-- ステマ規制の表記。ファーストビューに置く（SPEC 8.1） -->
+  <div style="border-bottom: 1px solid var(--rule); background: var(--sink);">
+    <div style="max-width: 1120px; margin: 0 auto; padding: 8px 32px;">
       <span style="font-size: 11.5px; color: var(--ink3);">当サイトはアフィリエイト広告を利用しています</span>
     </div>
   </div>
 
-  <!-- ヘッダ -->
-  <header style="border-bottom: 1px solid var(--rule);">
-    <div style="max-width: 1080px; margin: 0 auto; padding: 26px 24px 0; display: flex; align-items: flex-start; justify-content: space-between; gap: 32px;">
-      <div style="display: flex; flex-direction: column; gap: 3px;">
-        <div style="font-family: var(--serif); font-size: 31px; line-height: 1; letter-spacing: -.015em; color: var(--ink);">Wakuru</div>
-        <div style="font-size: 12.5px; color: var(--ink3); letter-spacing: .04em;">新しい技術が、わかる。</div>
+  <!-- ヘッダ。ロゴと説明を一組にして、初見の人が3秒で分かるようにする -->
+  <header style="border-bottom: 1px solid var(--rule2); background: var(--paper);">
+    <div style="max-width: 1120px; margin: 0 auto; padding: 30px 32px 0; display: flex; align-items: flex-start; justify-content: space-between; gap: 48px;">
+      <div>
+        <div class="display" style="font-size: 34px; line-height: 1;">Wakuru</div>
+        <div style="font-size: 13px; color: var(--ink2); padding-top: 7px; line-height: 1.6;">
+          GitHub で話題のリポジトリを、日本語で紹介しています。
+        </div>
       </div>
-      <div style="display: flex; align-items: center; gap: 10px; padding-top: 6px;">
-        <a href="#" style="display: inline-flex; align-items: center; height: 32px; padding: 0 12px; border: 1px solid var(--rule2); border-radius: 2px; font-size: 12.5px; color: var(--ink2); background: var(--card);">RSS</a>
-        <a href="#" style="display: inline-flex; align-items: center; height: 32px; padding: 0 14px; border-radius: 2px; font-size: 12.5px; color: #FFF; background: var(--accent);">ニュースレター</a>
+      <div style="display: flex; align-items: center; gap: 10px; padding-top: 5px; flex: none;">
+        <a href="#" class="chip" style="height: 34px;">RSS</a>
+        <a href="#" style="display: inline-flex; align-items: center; height: 34px; padding: 0 16px; border-radius: 2px; font-size: 12.5px; color: #FFF; background: var(--accent);">ニュースレターを受け取る</a>
       </div>
     </div>
-    <nav style="max-width: 1080px; margin: 0 auto; padding: 18px 24px 0;">
-      <div style="display: flex; align-items: center; gap: 26px;">
-        <a href="#" style="font-size: 13.5px; color: var(--ink); padding-bottom: 11px; border-bottom: 2px solid var(--accent); font-weight: 500;">今日</a>
-        <a href="#" style="font-size: 13.5px; color: var(--ink2); padding-bottom: 11px; border-bottom: 2px solid transparent;">今週まとめ</a>
-        <a href="#" style="font-size: 13.5px; color: var(--ink2); padding-bottom: 11px; border-bottom: 2px solid transparent;">言語</a>
-        <a href="#" style="font-size: 13.5px; color: var(--ink2); padding-bottom: 11px; border-bottom: 2px solid transparent;">カテゴリ</a>
-        <a href="#" style="font-size: 13.5px; color: var(--ink2); padding-bottom: 11px; border-bottom: 2px solid transparent;">このサイトについて</a>
+
+    <nav style="max-width: 1120px; margin: 0 auto; padding: 22px 32px 0;">
+      <div style="display: flex; align-items: center; gap: 28px;">
+        <a href="#" style="font-size: 13.5px; color: var(--ink); padding-bottom: 12px; border-bottom: 2px solid var(--accent); font-weight: 500;">今日</a>
+        <a href="#" style="font-size: 13.5px; color: var(--ink2); padding-bottom: 12px; border-bottom: 2px solid transparent;">今週のまとめ</a>
+        <a href="#" style="font-size: 13.5px; color: var(--ink2); padding-bottom: 12px; border-bottom: 2px solid transparent;">殿堂入り</a>
+        <a href="#" style="font-size: 13.5px; color: var(--ink2); padding-bottom: 12px; border-bottom: 2px solid transparent;">カテゴリ</a>
+        <a href="#" style="font-size: 13.5px; color: var(--ink2); padding-bottom: 12px; border-bottom: 2px solid transparent;">日本語README</a>
+        <a href="#" style="font-size: 13.5px; color: var(--ink2); padding-bottom: 12px; border-bottom: 2px solid transparent;">このサイトについて</a>
       </div>
     </nav>
   </header>
 
-  <div style="max-width: 1080px; margin: 0 auto; padding: 0 24px 72px; display: flex; gap: 56px; align-items: flex-start;">
+  <div style="max-width: 1120px; margin: 0 auto; padding: 0 32px 88px; display: flex; gap: 64px; align-items: flex-start;">
 
     <main style="flex: 1; min-width: 0;">
 
-      <div style="padding: 40px 0 26px; display: flex; align-items: baseline; justify-content: space-between; gap: 24px;">
-        <h1 style="margin: 0; font-family: var(--serif); font-size: 34px; font-weight: 400; letter-spacing: -.01em; line-height: 1.2;">2026年8月29日のトレンド</h1>
-        <div style="font-size: 12px; color: var(--ink3); white-space: nowrap;"><span class="num">06:02</span> 更新</div>
+      <div style="padding: 44px 0 32px; display: flex; align-items: baseline; justify-content: space-between; gap: 24px;">
+        <h1 class="display" style="margin: 0; font-size: 38px; line-height: 1.15;">8月29日のトレンド</h1>
+        <div class="meta" style="white-space: nowrap;"><span class="num">06:02</span> 更新</div>
       </div>
 
-      <!-- ★ピックアップ = 紹介文を書いたもの。ここがサイトの顔 -->
-      <div class="eyebrow" style="padding-bottom: 14px; border-bottom: 1px solid var(--rule2);">今日のピックアップ</div>
+      <!-- ★ピックアップ。記事として読ませる。一覧より一段大きく組む -->
+      <div style="display: flex; align-items: baseline; gap: 12px; padding-bottom: 4px;">
+        <span class="label">今日のピックアップ</span>
+        <span style="flex: 1; height: 1px; background: var(--rule2);"></span>
+        <span class="meta">編集部が書いています</span>
+      </div>
 
-      <article style="padding: 26px 0 28px; border-bottom: 1px solid var(--rule);">
-        <div style="display: flex; align-items: baseline; gap: 14px; justify-content: space-between; margin-bottom: 8px;">
-          <a href="#" class="repo" style="font-size: 19px;"><span class="owner">lumen-ai/</span>orbit</a>
-          <div style="display: flex; align-items: baseline; gap: 12px; flex: none;">
-            <span class="num" style="font-size: 13px; color: var(--ink3);">3,180</span>
-            <span class="num" style="font-size: 13px; color: var(--accent); font-weight: 500;">+240</span>
-          </div>
-        </div>
-        <div class="desc-en" style="margin-bottom: 14px;">Local-first vector index that keeps the whole index in a single mmap'd file.</div>
-        <p class="intro" style="margin: 0 0 14px;">
+      <article style="padding: 26px 0 30px; border-bottom: 1px solid var(--rule);">
+        <a href="#" class="repo" style="font-size: 21px; display: inline-block; margin-bottom: 10px;"><span class="owner">lumen-ai/</span>orbit</a>
+        <div class="en" style="margin-bottom: 18px;">Local-first vector index that keeps the whole index in a single mmap'd file.</div>
+        <p class="intro" style="margin: 0 0 20px;">
           ベクタ検索を試すたびに Docker を立ち上げていた人には、これがいちばん効きます。インデックス全体を1つのファイルに持つので、サーバーもデーモンも要りません。手元で試したところ、10万件の埋め込みで検索が数ミリ秒でした。<br>
-          本番の規模で使うものというより、<b style="font-weight: 500;">「まず動かして感触を掴む」段階のための道具</b>という位置づけです。Apache-2.0 なので、そのまま社内の検証に持ち込めます。
+          本番の規模で使うものというより、<b style="font-weight: 500;">まず動かして感触を掴む段階のための道具</b>という位置づけです。
         </p>
-        <div style="display: flex; gap: 6px; flex-wrap: wrap; align-items: center;">
-          <span class="chip ok">Apache-2.0 · 商用可</span>
-          <span class="chip">Rust</span>
-          <span class="chip">日本語 README あり</span>
-          <span class="chip">最終コミット 3日前</span>
+        <div style="display: flex; align-items: center; gap: 14px; flex-wrap: wrap;">
+          <span class="lic">Apache-2.0 · 商用OK</span>
+          <span class="meta"><span class="lang"><span class="dot" style="background: #DEA584;"></span>Rust</span></span>
+          <span class="meta">★ <b class="num">3,180</b>（今日 <b class="num" style="color: var(--accent);">+240</b>）</span>
+          <span class="meta">日本語 README あり</span>
+          <a class="url" href="https://github.com/nagi-labs/tsumugi">github.com/nagi-labs/tsumugi<svg width="11" height="11" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.4" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M7 17 17 7"/><path d="M9 7h8v8"/></svg></a>
+          <a class="url" href="https://github.com/lumen-ai/orbit">github.com/lumen-ai/orbit<svg width="11" height="11" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.4" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M7 17 17 7"/><path d="M9 7h8v8"/></svg></a>
         </div>
       </article>
 
-      <article style="padding: 26px 0 28px; border-bottom: 1px solid var(--rule2);">
-        <div style="display: flex; align-items: baseline; gap: 14px; justify-content: space-between; margin-bottom: 8px;">
-          <a href="#" class="repo" style="font-size: 19px;"><span class="owner">nagi-labs/</span>tsumugi</a>
-          <div style="display: flex; align-items: baseline; gap: 12px; flex: none;">
-            <span class="num" style="font-size: 13px; color: var(--ink3);">6,412</span>
-            <span class="num" style="font-size: 13px; color: var(--accent); font-weight: 500;">+880</span>
-          </div>
-        </div>
-        <div class="desc-en" style="margin-bottom: 14px;">Japanese morphological analyzer with a WASM build. Ships a 4MB dictionary.</div>
-        <p class="intro" style="margin: 0 0 14px;">
-          日本語の形態素解析をブラウザだけで完結させたい場合の選択肢です。WASM ビルドが用意されていて、サーバーに文章を送らずに済みます。辞書が4MBあるので初回読み込みは重いですが、そこさえ許容できれば入力補助やタグ付けには十分な速度が出ます。<br>
-          ただし <b style="font-weight: 500;">AGPL-3.0</b> です。社内ツールなら問題ありませんが、自社サービスに組み込む場合はライセンスの確認が要ります。
+      <article style="padding: 26px 0 30px; border-bottom: 1px solid var(--rule2);">
+        <a href="#" class="repo" style="font-size: 21px; display: inline-block; margin-bottom: 10px;"><span class="owner">nagi-labs/</span>tsumugi</a>
+        <div class="en" style="margin-bottom: 18px;">Japanese morphological analyzer with a WASM build. Ships a 4MB dictionary.</div>
+        <p class="intro" style="margin: 0 0 20px;">
+          日本語の形態素解析を、ブラウザだけで完結させたいときの選択肢です。WASM ビルドが用意されていて、サーバーに文章を送らずに済みます。辞書が4MBあるので初回の読み込みは重いですが、そこさえ許容できれば入力補助やタグ付けには十分な速度が出ます。
         </p>
-        <div style="display: flex; gap: 6px; flex-wrap: wrap; align-items: center;">
-          <span class="chip warn">AGPL-3.0 · 自社サービス組込み注意</span>
-          <span class="chip">Rust</span>
-          <span class="chip">日本語 README あり</span>
+        <div style="display: flex; align-items: center; gap: 14px; flex-wrap: wrap;">
+          <span class="lic warn">AGPL-3.0 · 組込みは要確認</span>
+          <span class="meta"><span class="lang"><span class="dot" style="background: #DEA584;"></span>Rust</span></span>
+          <span class="meta">★ <b class="num">6,412</b>（今日 <b class="num" style="color: var(--accent);">+880</b>）</span>
+          <span class="meta">日本語 README あり</span>
         </div>
       </article>
 
-      <!-- 一覧。紹介文が無いものはここに行として並ぶだけ -->
-      <div class="eyebrow" style="padding: 34px 0 14px; border-bottom: 1px solid var(--rule2);">そのほか、今日伸びているもの</div>
+      <!-- 一覧。左端に言語、右端に増加数を固定して、上下に目が走るようにする -->
+      <div style="display: flex; align-items: baseline; gap: 12px; padding: 40px 0 4px;">
+        <span class="label">そのほか、今日伸びているリポジトリ</span>
+        <span style="flex: 1; height: 1px; background: var(--rule2);"></span>
+        <span class="meta">24件</span>
+      </div>
 
-      <article class="rowlink" style="display: flex; gap: 18px; padding: 18px 0; border-bottom: 1px solid var(--rule);">
-        <div style="flex: 1; min-width: 0; display: flex; flex-direction: column; gap: 7px;">
-          <div style="display: flex; align-items: baseline; gap: 12px; justify-content: space-between;">
-            <a href="#" class="repo"><span class="owner">harbor-dev/</span>skiff</a>
-            <div style="display: flex; align-items: baseline; gap: 12px; flex: none;">
-              <span class="num" style="font-size: 12.5px; color: var(--ink3);">18,204</span>
-              <span class="num" style="font-size: 12.5px; color: var(--accent); font-weight: 500;">+1,340</span>
-            </div>
+      <div style="display: grid; grid-template-columns: 96px minmax(0, 1fr) 104px; gap: 20px; padding: 12px 0 8px; border-bottom: 1px solid var(--rule2);">
+        <span class="label" style="font-size: 10px;">言語</span>
+        <span class="label" style="font-size: 10px;">リポジトリ</span>
+        <span class="label" style="font-size: 10px; text-align: right;">今日の増加</span>
+      </div>
+
+      <article class="row">
+        <div class="lang"><span class="dot" style="background: #00ADD8;"></span>Go</div>
+        <div style="min-width: 0;">
+          <a href="#" class="repo" style="font-size: 16.5px; display: block; margin-bottom: 6px;"><span class="owner">harbor-dev/</span>skiff</a>
+          <div class="en" style="margin-bottom: 9px;">A container runtime for edge devices. Boots an OCI image in under 40ms on a Raspberry Pi 4.</div>
+          <div style="display: flex; align-items: center; gap: 12px; flex-wrap: wrap;">
+            <span class="lic">MIT · 商用OK</span>
+            <span class="meta">★ <b class="num">18,204</b></span>
+            <span class="meta">2日前に更新</span>
+            <a class="url" href="https://github.com/harbor-dev/skiff">github.com/harbor-dev/skiff</a>
           </div>
-          <div class="desc-en">A container runtime for edge devices. Boots an OCI image in under 40ms on a Raspberry Pi 4.</div>
-          <div style="display: flex; gap: 6px; flex-wrap: wrap;">
-            <span class="chip ok">MIT · 商用可</span><span class="chip">Go</span><span class="chip">最終コミット 2日前</span>
-          </div>
+        </div>
+        <div style="text-align: right;">
+          <div class="delta num">+1,340</div>
+          <div class="total">スター</div>
         </div>
       </article>
 
-      <article class="rowlink" style="display: flex; gap: 18px; padding: 18px 0; border-bottom: 1px solid var(--rule);">
-        <div style="flex: 1; min-width: 0; display: flex; flex-direction: column; gap: 7px;">
-          <div style="display: flex; align-items: baseline; gap: 12px; justify-content: space-between;">
-            <a href="#" class="repo"><span class="owner">deepfoundry/</span>atlas-lm</a>
-            <div style="display: flex; align-items: baseline; gap: 12px; flex: none;">
-              <span class="num" style="font-size: 12.5px; color: var(--ink3);">9,880</span>
-              <span class="num" style="font-size: 12.5px; color: var(--accent); font-weight: 500;">+4,120</span>
-            </div>
+      <article class="row">
+        <div class="lang"><span class="dot" style="background: #3572A5;"></span>Python</div>
+        <div style="min-width: 0;">
+          <a href="#" class="repo" style="font-size: 16.5px; display: block; margin-bottom: 6px;"><span class="owner">deepfoundry/</span>atlas-lm</a>
+          <div class="en" style="margin-bottom: 9px;">All-in-one LLM serving stack with routing, caching and evaluation built in.</div>
+          <div style="display: flex; align-items: center; gap: 12px; flex-wrap: wrap;">
+            <span class="lic">Apache-2.0 · 商用OK</span>
+            <span class="meta">★ <b class="num">9,880</b></span>
+            <span class="meta">3日前に更新</span>
+            <a class="url" href="https://github.com/deepfoundry/atlas-lm">github.com/deepfoundry/atlas-lm</a>
           </div>
-          <div class="desc-en">All-in-one LLM serving stack with routing, caching and evaluation built in.</div>
-          <div style="display: flex; gap: 6px; flex-wrap: wrap;">
-            <span class="chip ok">Apache-2.0 · 商用可</span><span class="chip">Python</span><span class="chip">最終コミット 3日前</span>
-          </div>
+        </div>
+        <div style="text-align: right;">
+          <div class="delta num">+4,120</div>
+          <div class="total">スター</div>
         </div>
       </article>
 
-      <article class="rowlink" style="display: flex; gap: 18px; padding: 18px 0; border-bottom: 1px solid var(--rule);">
-        <div style="flex: 1; min-width: 0; display: flex; flex-direction: column; gap: 7px;">
-          <div style="display: flex; align-items: baseline; gap: 12px; justify-content: space-between;">
-            <a href="#" class="repo"><span class="owner">voltcore/</span>relay</a>
-            <div style="display: flex; align-items: baseline; gap: 12px; flex: none;">
-              <span class="num" style="font-size: 12.5px; color: var(--ink3);">5,073</span>
-              <span class="num" style="font-size: 12.5px; color: var(--accent); font-weight: 500;">+610</span>
-            </div>
+      <article class="row">
+        <div class="lang"><span class="dot" style="background: #EC915C;"></span>Zig</div>
+        <div style="min-width: 0;">
+          <a href="#" class="repo" style="font-size: 16.5px; display: block; margin-bottom: 6px;"><span class="owner">voltcore/</span>relay</a>
+          <div class="en" style="margin-bottom: 9px;">Message relay for IoT fleets. Single binary, no broker required.</div>
+          <div style="display: flex; align-items: center; gap: 12px; flex-wrap: wrap;">
+            <span class="lic danger">ライセンス未設定 · 利用条件が不明</span>
+            <span class="meta">★ <b class="num">5,073</b></span>
+            <span class="meta">今日 更新</span>
+            <a class="url" href="https://github.com/voltcore/relay">github.com/voltcore/relay</a>
           </div>
-          <div class="desc-en">Message relay for IoT fleets. Single binary, no broker required.</div>
-          <div style="display: flex; gap: 6px; flex-wrap: wrap;">
-            <span class="chip danger">ライセンス未設定 · 利用条件不明</span><span class="chip">Zig</span>
-          </div>
+        </div>
+        <div style="text-align: right;">
+          <div class="delta num">+610</div>
+          <div class="total">スター</div>
         </div>
       </article>
 
-      <article class="rowlink" style="display: flex; gap: 18px; padding: 18px 0; border-bottom: 1px solid var(--rule);">
-        <div style="flex: 1; min-width: 0; display: flex; flex-direction: column; gap: 7px;">
-          <div style="display: flex; align-items: baseline; gap: 12px; justify-content: space-between;">
-            <a href="#" class="repo"><span class="owner">mirrorstack/</span>lantern</a>
-            <div style="display: flex; align-items: baseline; gap: 12px; flex: none;">
-              <span class="num" style="font-size: 12.5px; color: var(--ink3);">4,201</span>
-              <span class="num" style="font-size: 12.5px; color: var(--accent); font-weight: 500;">+455</span>
-            </div>
+      <article class="row">
+        <div class="lang"><span class="dot" style="background: #3178C6;"></span>TypeScript</div>
+        <div style="min-width: 0;">
+          <a href="#" class="repo" style="font-size: 16.5px; display: block; margin-bottom: 6px;"><span class="owner">mirrorstack/</span>lantern</a>
+          <div class="en" style="margin-bottom: 9px;">Terminal UI toolkit with a declarative layout engine and true-color support.</div>
+          <div style="display: flex; align-items: center; gap: 12px; flex-wrap: wrap;">
+            <span class="lic">BSD-3-Clause · 商用OK</span>
+            <span class="meta">★ <b class="num">4,201</b></span>
+            <span class="meta" style="color: var(--warn);">8か月 更新なし</span>
+            <a class="url" href="https://github.com/mirrorstack/lantern">github.com/mirrorstack/lantern</a>
           </div>
-          <div class="desc-en">Terminal UI toolkit with a declarative layout engine and true-color support.</div>
-          <div style="display: flex; gap: 6px; flex-wrap: wrap;">
-            <span class="chip ok">BSD-3-Clause · 商用可</span><span class="chip">TypeScript</span>
-            <span class="chip warn">最終コミット 8か月前</span>
-          </div>
+        </div>
+        <div style="text-align: right;">
+          <div class="delta num">+455</div>
+          <div class="total">スター</div>
         </div>
       </article>
 
-      <article class="rowlink" style="display: flex; gap: 18px; padding: 18px 0; border-bottom: 1px solid var(--rule);">
-        <div style="flex: 1; min-width: 0; display: flex; flex-direction: column; gap: 7px;">
-          <div style="display: flex; align-items: baseline; gap: 12px; justify-content: space-between;">
-            <a href="#" class="repo"><span class="owner">kite-tools/</span>plume</a>
-            <div style="display: flex; align-items: baseline; gap: 12px; flex: none;">
-              <span class="num" style="font-size: 12.5px; color: var(--ink3);">3,644</span>
-              <span class="num" style="font-size: 12.5px; color: var(--accent); font-weight: 500;">+298</span>
-            </div>
+      <article class="row">
+        <div class="lang"><span class="dot" style="background: #00ADD8;"></span>Go</div>
+        <div style="min-width: 0;">
+          <a href="#" class="repo" style="font-size: 16.5px; display: block; margin-bottom: 6px;"><span class="owner">kite-tools/</span>plume</a>
+          <div class="en" style="margin-bottom: 9px;">Static site generator that compiles Markdown to zero-JS pages in a single pass.</div>
+          <div style="display: flex; align-items: center; gap: 12px; flex-wrap: wrap;">
+            <span class="lic">MIT · 商用OK</span>
+            <span class="meta">★ <b class="num">3,644</b></span>
+            <span class="meta">5日前に更新</span>
+            <a class="url" href="https://github.com/kite-tools/plume">github.com/kite-tools/plume</a>
           </div>
-          <div class="desc-en">Static site generator that compiles Markdown to zero-JS pages in a single pass.</div>
-          <div style="display: flex; gap: 6px; flex-wrap: wrap;">
-            <span class="chip ok">MIT · 商用可</span><span class="chip">Go</span><span class="chip">最終コミット 5日前</span>
-          </div>
+        </div>
+        <div style="text-align: right;">
+          <div class="delta num">+298</div>
+          <div class="total">スター</div>
         </div>
       </article>
 
-      <div style="padding: 30px 0 0;"><a href="#" style="font-size: 13.5px;">残り19件を見る →</a></div>
+      <div style="padding: 32px 0 0;">
+        <a href="#" style="display: inline-flex; align-items: center; gap: 8px; height: 44px; padding: 0 22px; border: 1px solid var(--rule2); border-radius: 2px; font-size: 13.5px; color: var(--ink2); background: var(--card);">
+          残り19件を見る
+          <svg width="13" height="13" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M5 12h13"/><path d="m12 5 7 7-7 7"/></svg>
+        </a>
+      </div>
     </main>
 
-    <!-- 右レール -->
-    <aside style="width: 288px; flex: none; padding-top: 40px; display: flex; flex-direction: column; gap: 30px;">
+    <aside style="width: 280px; flex: none; padding-top: 44px; display: flex; flex-direction: column; gap: 34px;">
 
-      <section style="border: 1px solid var(--rule); background: var(--card); border-radius: 3px; padding: 20px;">
-        <div class="eyebrow" style="margin-bottom: 12px;">このサイトについて</div>
-        <p style="margin: 0 0 14px; font-size: 13px; line-height: 1.85; color: var(--ink2);">
-          GitHub で注目を集めているリポジトリを、日本語で紹介しています。紹介文は人が書いています。あわせて、ライセンスやメンテ状況など、実際に使えるかの判断材料を機械的に付けています。
+      <section style="border: 1px solid var(--rule2); background: var(--card); border-radius: 3px; padding: 22px;">
+        <div class="label" style="margin-bottom: 13px;">はじめての方へ</div>
+        <p style="margin: 0 0 14px; font-size: 13px; line-height: 1.95; color: var(--ink2);">
+          毎朝、GitHub で伸びているリポジトリを集めています。そのうち編集部が実際に触ったものには、<b style="font-weight: 500; color: var(--ink);">日本語の紹介と使い方</b>を書いています。
         </p>
-        <a href="#" style="font-size: 12.5px;">判定の基準を見る →</a>
+        <a href="#" style="font-size: 12.5px;">くわしく →</a>
       </section>
 
       <section>
-        <div class="eyebrow" style="padding-bottom: 11px; border-bottom: 1px solid var(--rule);">カテゴリ</div>
-        <div style="display: flex; flex-wrap: wrap; gap: 6px; padding-top: 13px;">
-          <a href="#" class="chip">AIエージェント <span class="num">32</span></a>
-          <a href="#" class="chip">開発ツール <span class="num">61</span></a>
-          <a href="#" class="chip">インフラ <span class="num">28</span></a>
-          <a href="#" class="chip">フロントエンド <span class="num">44</span></a>
-          <a href="#" class="chip">データ <span class="num">19</span></a>
-          <a href="#" class="chip">学習・資料 <span class="num">23</span></a>
-        </div>
-      </section>
-
-      <section>
-        <div class="eyebrow" style="padding-bottom: 11px; border-bottom: 1px solid var(--rule);">言語で絞る</div>
-        <div style="display: flex; flex-wrap: wrap; gap: 6px; padding-top: 13px;">
-          <a href="#" class="chip">TypeScript <span class="num">86</span></a>
-          <a href="#" class="chip">Python <span class="num">74</span></a>
-          <a href="#" class="chip">Rust <span class="num">51</span></a>
-          <a href="#" class="chip">Go <span class="num">44</span></a>
+        <div class="label" style="padding-bottom: 12px; border-bottom: 1px solid var(--rule2);">カテゴリ</div>
+        <div style="display: flex; flex-wrap: wrap; gap: 7px; padding-top: 15px;">
+          <a href="#" class="chip">AIエージェント <span class="num" style="color: var(--ink3); padding-left: 5px;">32</span></a>
+          <a href="#" class="chip">開発ツール <span class="num" style="color: var(--ink3); padding-left: 5px;">61</span></a>
+          <a href="#" class="chip">インフラ <span class="num" style="color: var(--ink3); padding-left: 5px;">28</span></a>
+          <a href="#" class="chip">フロントエンド <span class="num" style="color: var(--ink3); padding-left: 5px;">44</span></a>
+          <a href="#" class="chip">データ <span class="num" style="color: var(--ink3); padding-left: 5px;">19</span></a>
         </div>
       </section>
 
       <section>
-        <div class="eyebrow" style="padding-bottom: 11px; border-bottom: 1px solid var(--rule);">記録</div>
-        <div style="display: flex; justify-content: space-between; align-items: baseline; padding: 11px 0; border-bottom: 1px solid var(--rule); font-size: 13px; color: var(--ink2);">
-          <span>紹介した数</span><span class="num" style="color: var(--ink);">86</span>
+        <div class="label" style="padding-bottom: 12px; border-bottom: 1px solid var(--rule2);">言語</div>
+        <div style="padding-top: 6px;">
+          <a href="#" style="display: flex; align-items: center; justify-content: space-between; padding: 10px 0; border-bottom: 1px solid var(--rule); font-size: 13px; color: var(--ink2);">
+            <span class="lang"><span class="dot" style="background: #3178C6;"></span>TypeScript</span><span class="num" style="color: var(--ink3); font-size: 12px;">86</span>
+          </a>
+          <a href="#" style="display: flex; align-items: center; justify-content: space-between; padding: 10px 0; border-bottom: 1px solid var(--rule); font-size: 13px; color: var(--ink2);">
+            <span class="lang"><span class="dot" style="background: #3572A5;"></span>Python</span><span class="num" style="color: var(--ink3); font-size: 12px;">74</span>
+          </a>
+          <a href="#" style="display: flex; align-items: center; justify-content: space-between; padding: 10px 0; border-bottom: 1px solid var(--rule); font-size: 13px; color: var(--ink2);">
+            <span class="lang"><span class="dot" style="background: #DEA584;"></span>Rust</span><span class="num" style="color: var(--ink3); font-size: 12px;">51</span>
+          </a>
+          <a href="#" style="display: flex; align-items: center; justify-content: space-between; padding: 10px 0; border-bottom: 1px solid var(--rule); font-size: 13px; color: var(--ink2);">
+            <span class="lang"><span class="dot" style="background: #00ADD8;"></span>Go</span><span class="num" style="color: var(--ink3); font-size: 12px;">44</span>
+          </a>
         </div>
-        <div style="display: flex; justify-content: space-between; align-items: baseline; padding: 11px 0; border-bottom: 1px solid var(--rule); font-size: 13px; color: var(--ink2);">
-          <span>追跡リポジトリ</span><span class="num" style="color: var(--ink);">712</span>
-        </div>
-        <div style="display: flex; justify-content: space-between; align-items: baseline; padding: 11px 0; border-bottom: 1px solid var(--rule); font-size: 13px; color: var(--ink2);">
-          <span>スター推移の記録</span><span class="num" style="color: var(--ink);">128 日分</span>
+      </section>
+
+      <section>
+        <div class="label" style="padding-bottom: 12px; border-bottom: 1px solid var(--rule2);">これまでの記録</div>
+        <div style="padding-top: 6px;">
+          <div style="display: flex; justify-content: space-between; align-items: baseline; padding: 10px 0; border-bottom: 1px solid var(--rule); font-size: 13px; color: var(--ink2);">
+            <span>紹介した数</span><span class="num" style="color: var(--ink);">86</span>
+          </div>
+          <div style="display: flex; justify-content: space-between; align-items: baseline; padding: 10px 0; border-bottom: 1px solid var(--rule); font-size: 13px; color: var(--ink2);">
+            <span>見ているリポジトリ</span><span class="num" style="color: var(--ink);">712</span>
+          </div>
+          <div style="display: flex; justify-content: space-between; align-items: baseline; padding: 10px 0; border-bottom: 1px solid var(--rule); font-size: 13px; color: var(--ink2);">
+            <span>記録している日数</span><span class="num" style="color: var(--ink);">128</span>
+          </div>
         </div>
       </section>
     </aside>
   </div>
 
-  <footer style="border-top: 1px solid var(--rule); background: #F5F2EC;">
-    <div style="max-width: 1080px; margin: 0 auto; padding: 34px 24px 44px; display: flex; justify-content: space-between; gap: 48px; align-items: flex-start;">
-      <div style="max-width: 520px; display: flex; flex-direction: column; gap: 9px;">
-        <div style="font-family: var(--serif); font-size: 19px; color: var(--ink);">Wakuru</div>
-        <p style="margin: 0; font-size: 12px; line-height: 1.75; color: var(--ink3);">
-          紹介文は人が書いています。数値データは GitHub API から取得したもの、警告は決定的なロジックによる自動判定です。警告は「疑い」であり、断定するものではありません。紹介しているリポジトリの動作を保証するものでもありません。技術選定の最終判断は、必ず原典をご確認ください。
+  <footer style="border-top: 1px solid var(--rule2); background: var(--sink);">
+    <div style="max-width: 1120px; margin: 0 auto; padding: 40px 32px 52px; display: flex; justify-content: space-between; gap: 56px; align-items: flex-start;">
+      <div style="max-width: 540px;">
+        <div class="display" style="font-size: 20px; margin-bottom: 12px;">Wakuru</div>
+        <p style="margin: 0; font-size: 12px; line-height: 1.95; color: var(--ink3);">
+          紹介文は編集部が書いています。スター数やライセンスなどの数値は GitHub から取得したもの、警告は決まった条件による自動判定です。警告は「疑い」であり、断定するものではありません。紹介しているリポジトリの動作を保証するものでもありません。技術選定の最終判断は、必ず原典をご確認ください。
         </p>
       </div>
-      <div style="display: flex; gap: 44px; font-size: 12.5px;">
-        <div style="display: flex; flex-direction: column; gap: 9px;">
+      <div style="display: flex; gap: 48px; font-size: 12.5px;">
+        <div style="display: flex; flex-direction: column; gap: 11px;">
           <a href="#" style="color: var(--ink2);">判定の基準</a>
           <a href="#" style="color: var(--ink2);">このサイトについて</a>
         </div>
-        <div style="display: flex; flex-direction: column; gap: 9px;">
+        <div style="display: flex; flex-direction: column; gap: 11px;">
           <a href="#" style="color: var(--ink2);">プライバシーポリシー</a>
           <a href="#" style="color: var(--ink2);">RSS</a>
         </div>
