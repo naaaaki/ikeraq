@@ -38,6 +38,10 @@ jobs:
           DISCORD_WEBHOOK_URL: ${{ secrets.DISCORD_WEBHOOK_URL }}
         run: npm run collect
 
+      # 機械判定。外部APIを呼ばないので、失敗しても収集結果は残る
+      - name: フラグ・スコアの判定
+        run: npm run evaluate
+
       - name: データをコミット
         run: |
           git config user.name  "wakuru-bot"

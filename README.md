@@ -45,6 +45,7 @@ GitHub Actions で動かす場合は、リポジトリ Secrets に以下を登�
 npm run seed              # 初回だけ。追跡対象の初期シードを作る（SPEC §10.4）
 npm run collect           # 日次収集。スナップショットを1日1ファイル保存する
 npm run collect -- --dry-run --limit=20   # 保存せずに動作確認
+npm run evaluate          # 機械判定（フラグ・スコア・index判定）。外部APIを呼ばない
 npm run monitor           # データの鮮度・件数を監視（SPEC §17.2）
 npm run stats             # Phase 0 の実測レポート
 npm run verify:dependents # dependents_count の取得可否を検証（SPEC §7.5）
@@ -68,6 +69,7 @@ npm run typecheck         # 型チェック
 scripts/
   seed.ts               初期シード（1回だけ）
   collect.ts            日次収集パイプライン（SPEC §11）
+  evaluate.ts           機械判定（SPEC §11-4）。ネットワーク不要で何度でも流し直せる
   monitor.ts            結果の監視（SPEC §17.2）
   stats.ts              Phase 0 の実測レポート
   verify-dependents.ts  dependents_count の取得可否検証（SPEC §7.5）
@@ -78,6 +80,11 @@ scripts/
     license.ts          ライセンス区分の判定
     readme.ts           README 抜粋（最大500字）
     trending.ts         Trending の取得（失敗許容）
+    flags.ts            警告フラグの判定（SPEC §7.1）
+    score.ts            2軸のスコアと index 判定（SPEC §2.5 / §7.2 / §7.4）
+    thresholds.ts       ★判定に使う閾値。docs/criteria.md と対
+    categorize.ts       ルールベース分類（SPEC §6.3）
+    similarity.ts       duplicate_suspect の突き合わせ
     tier.ts             追跡対象の3層管理
     date.ts             JST の日付処理
     notify.ts           Discord 通知
@@ -106,6 +113,8 @@ src/
   記録するのはその日に実際に取得したものだけ。「動かなかった日」と「見ていない日」の混同は
   偽スター判定の土台を壊し、後から直せない
 - **README を全文転載しない**。抜粋は最大500字（SPEC §8.2）
+- **閾値を変えたら `docs/criteria.md` も直す**。基準を公開していることが信頼の源泉（SPEC §8.3）
+- **警告は「疑い」までしか言わない**。断定表現は名誉毀損リスクを生む（SPEC §7.2）
 
 ---
 
@@ -113,9 +122,18 @@ src/
 
 Phase 1 で以下を実装する（SPEC §13）。**Phase 0 のデータが7日以上貯まってから着手する。**
 
+**実装済み（データが貯まれば動く）**
+
 - `scripts/evaluate.ts` — 機械判定（フラグ・ライセンス区分・`usability_score`）
 - `scripts/lib/flags.ts` — 警告フラグ判定（SPEC §7.1）
 - `scripts/lib/categorize.ts` — ルールベース分類（SPEC §6.3）
-- 偽スター疑い判定 ★差別化の核（SPEC §7.2）
-- Astro でのページ生成 / `/flagged` / `/about/criteria`
+- 偽スター疑い判定 ★差別化の核（SPEC §7.2）とコールドスタート対策（SPEC §7.3）
+- `docs/criteria.md` — 判定基準の全公開の原稿
+- `design/` — トップ / 個別 / `/flagged` / モバイル / デザインシステム
+
+**これから**
+
+- Astro のセットアップとページ生成 / `/flagged` / `/about/criteria`
 - ステマ表記・プライバシーポリシー・自動判定の免責（SPEC §8）
+- Article + BreadcrumbList 構造化データ
+- Cloudflare Pages へのデプロイ

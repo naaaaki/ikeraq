@@ -9,6 +9,7 @@
   },
   "scripts": {
     "seed": "tsx --env-file-if-exists=.env scripts/seed.ts",
+    "evaluate": "tsx --env-file-if-exists=.env scripts/evaluate.ts",
     "collect": "tsx --env-file-if-exists=.env scripts/collect.ts",
     "monitor": "tsx --env-file-if-exists=.env scripts/monitor.ts",
     "stats": "tsx --env-file-if-exists=.env scripts/stats.ts",
