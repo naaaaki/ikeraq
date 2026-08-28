@@ -1,0 +1,246 @@
+<!doctype html>
+<html>
+<head>
+  <meta charset="utf-8">
+  <script src="./support.js"></script>
+</head>
+<body>
+<x-dc>
+<helmet>
+  <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Newsreader:opsz,wght@6..72,400;6..72,500&family=Zen+Kaku+Gothic+New:wght@400;500;700&family=JetBrains+Mono:wght@400;500;600&display=swap">
+  <style>
+    :root {
+      --paper: #FAF8F4; --card: #FFFFFF;
+      --ink: #191816; --ink2: #56524B; --ink3: #8A857D;
+      --rule: #E7E2D9; --rule2: #D8D2C6;
+      --accent: #1E5A48; --accent-soft: #E9F0EC;
+      --warn: #8A5A00; --warn-soft: #FAF2E1;
+      --danger: #96302C; --danger-soft: #F9EDEC;
+      --jp: 'Zen Kaku Gothic New', 'Hiragino Kaku Gothic ProN', 'Yu Gothic', sans-serif;
+      --serif: 'Newsreader', 'Hiragino Mincho ProN', serif;
+      --mono: 'JetBrains Mono', ui-monospace, monospace;
+    }
+    body { margin: 0; background: var(--paper); color: var(--ink); font-family: var(--jp); -webkit-font-smoothing: antialiased; }
+    a { color: var(--accent); text-decoration: none; }
+    a:hover { color: #14402F; text-decoration: underline; text-underline-offset: 3px; }
+    .eyebrow { font-size: 11px; letter-spacing: .16em; color: var(--ink3); font-weight: 500; }
+    .num { font-family: var(--mono); font-variant-numeric: tabular-nums; }
+    .chip { display: inline-flex; align-items: center; gap: 5px; height: 23px; padding: 0 8px;
+            font-size: 11.5px; line-height: 1; border: 1px solid var(--rule2); border-radius: 2px;
+            color: var(--ink2); background: var(--card); white-space: nowrap; }
+    .chip.warn { color: var(--warn); border-color: #E8D5A8; background: var(--warn-soft); }
+    .chip.ok { color: var(--accent); border-color: #BFD5CB; background: var(--accent-soft); }
+    .kv { display: flex; justify-content: space-between; align-items: baseline; padding: 12px 0; border-bottom: 1px solid var(--rule); font-size: 13px; color: var(--ink2); }
+    .kv b { font-weight: 500; color: var(--ink); font-family: var(--mono); font-variant-numeric: tabular-nums; }
+  </style>
+</helmet>
+
+<div style="min-height: 100%; background: var(--paper);">
+
+  <div style="border-bottom: 1px solid var(--rule); background: #F5F2EC;">
+    <div style="max-width: 1080px; margin: 0 auto; padding: 7px 24px; display: flex; align-items: center; justify-content: space-between; gap: 16px;">
+      <span style="font-size: 11.5px; color: var(--ink3);">当サイトはアフィリエイト広告を利用しています</span>
+      <span style="font-size: 11.5px; color: var(--ink3);">警告はすべて自動判定です。断定するものではありません — <a href="#">判定基準</a></span>
+    </div>
+  </div>
+
+  <header style="border-bottom: 1px solid var(--rule);">
+    <div style="max-width: 1080px; margin: 0 auto; padding: 18px 24px; display: flex; align-items: center; justify-content: space-between; gap: 32px;">
+      <div style="display: flex; align-items: baseline; gap: 14px;">
+        <a href="#" style="font-family: var(--serif); font-size: 22px; color: var(--ink); letter-spacing: -.015em;">Wakuru</a>
+        <span style="font-size: 12px; color: var(--ink3);">新しい技術が、わかる。</span>
+      </div>
+      <div style="display: flex; align-items: center; gap: 22px; font-size: 13px;">
+        <a href="#" style="color: var(--ink2);">今日</a>
+        <a href="#" style="color: var(--ink2);">週次サマリ</a>
+        <a href="#" style="color: var(--warn);">警告つき</a>
+        <a href="#" style="color: var(--ink2);">判定基準</a>
+      </div>
+    </div>
+  </header>
+
+  <!-- パンくず（BreadcrumbList 構造化データを載せる場所） -->
+  <div style="max-width: 1080px; margin: 0 auto; padding: 16px 24px 0; font-size: 12px; color: var(--ink3);">
+    <a href="#" style="color: var(--ink3);">ホーム</a>
+    <span style="padding: 0 7px;">/</span>
+    <a href="#" style="color: var(--ink3);">Python</a>
+    <span style="padding: 0 7px;">/</span>
+    <span class="num">deepfoundry/atlas-lm</span>
+  </div>
+
+  <div style="max-width: 1080px; margin: 0 auto; padding: 0 24px 72px; display: flex; gap: 56px; align-items: flex-start;">
+
+    <main style="flex: 1; min-width: 0;">
+
+      <!-- タイトル -->
+      <div style="padding: 26px 0 24px;">
+        <h1 style="margin: 0 0 10px; font-family: var(--mono); font-size: 30px; font-weight: 500; letter-spacing: -.02em; line-height: 1.25;">
+          <span style="color: var(--ink3); font-weight: 400;">deepfoundry/</span>atlas-lm
+        </h1>
+        <p style="margin: 0 0 14px; font-size: 14.5px; line-height: 1.6; color: var(--ink2);">
+          All-in-one LLM serving stack with routing, caching and evaluation built in.
+        </p>
+        <div style="display: flex; gap: 6px; flex-wrap: wrap;">
+          <span class="chip">Python</span>
+          <span class="chip">llm</span>
+          <span class="chip">inference</span>
+          <span class="chip">serving</span>
+        </div>
+      </div>
+
+      <!-- ★ 2軸を並べて見せる。混ぜないことが仕様の要（SPEC 7） -->
+      <div style="display: grid; grid-template-columns: repeat(2, minmax(0, 1fr)); gap: 16px; margin-bottom: 34px;">
+
+        <!-- 軸1: 実運用に耐えるか -->
+        <section style="background: var(--card); border: 1px solid var(--rule); border-radius: 3px; padding: 20px;">
+          <div class="eyebrow" style="margin-bottom: 14px;">実運用に耐えるか</div>
+          <div style="display: flex; align-items: baseline; gap: 9px; margin-bottom: 14px;">
+            <span class="num" style="font-family: var(--serif); font-size: 46px; line-height: .9; color: var(--accent);">85</span>
+            <span style="font-size: 12px; color: var(--ink3);">/ 100</span>
+          </div>
+          <div style="height: 4px; background: var(--rule); border-radius: 2px; overflow: hidden; margin-bottom: 16px;">
+            <div style="width: 85%; height: 100%; background: var(--accent);"></div>
+          </div>
+          <div style="display: flex; flex-direction: column; gap: 8px; font-size: 12.5px; color: var(--ink2); line-height: 1.5;">
+            <div style="display: flex; justify-content: space-between;"><span>ライセンス</span><span style="color: var(--accent);">Apache-2.0 · 商用可</span></div>
+            <div style="display: flex; justify-content: space-between;"><span>メンテ状況</span><span>3日前にコミット</span></div>
+            <div style="display: flex; justify-content: space-between;"><span>ドキュメント</span><span class="num">README 4,820字</span></div>
+            <div style="display: flex; justify-content: space-between;"><span>アーカイブ</span><span>されていない</span></div>
+          </div>
+        </section>
+
+        <!-- 軸2: 数字が信用できるか -->
+        <section style="background: var(--warn-soft); border: 1px solid #E8D5A8; border-radius: 3px; padding: 20px;">
+          <div class="eyebrow" style="margin-bottom: 14px; color: var(--warn);">数字が信用できるか</div>
+          <div style="display: flex; align-items: center; gap: 10px; margin-bottom: 14px;">
+            <svg width="26" height="26" viewBox="0 0 24 24" fill="none" stroke="#8A5A00" stroke-width="1.7" stroke-linecap="round" stroke-linejoin="round"><path d="M10.3 3.6 1.8 18a2 2 0 0 0 1.7 3h17a2 2 0 0 0 1.7-3L13.7 3.6a2 2 0 0 0-3.4 0Z"/><path d="M12 9v4"/><path d="M12 17h.01"/></svg>
+            <span style="font-family: var(--serif); font-size: 27px; line-height: 1; color: var(--warn);">疑い — 中</span>
+          </div>
+          <!-- 該当シグナルの内訳。スコアだけを見せない -->
+          <div style="display: flex; flex-direction: column; gap: 8px; font-size: 12.5px; color: var(--warn); line-height: 1.5;">
+            <div style="display: flex; gap: 7px; align-items: flex-start;">
+              <span style="line-height: 1.45;">◆</span><span>スター急増 — 直近の増加が過去7日平均の <span class="num">14</span> 倍</span>
+            </div>
+            <div style="display: flex; gap: 7px; align-items: flex-start;">
+              <span style="line-height: 1.45;">◆</span><span>低活動 — スター <span class="num">9,880</span> に対し fork <span class="num">61</span> · Issue <span class="num">3</span></span>
+            </div>
+            <div style="display: flex; gap: 7px; align-items: flex-start; color: var(--ink3);">
+              <span style="line-height: 1.45;">◇</span><span>新規性 — 該当なし（作成から <span class="num">14</span> か月）</span>
+            </div>
+          </div>
+          <p style="margin: 14px 0 0; font-size: 11.5px; line-height: 1.65; color: var(--warn); border-top: 1px solid #E8D5A8; padding-top: 12px;">
+            これは自動判定であり、偽スターと断定するものではありません。ヒューリスティックには誤検知があります。
+          </p>
+        </section>
+      </div>
+
+      <!-- スター推移 -->
+      <section style="margin-bottom: 34px;">
+        <div class="eyebrow" style="padding-bottom: 14px; border-bottom: 1px solid var(--rule); display: flex; justify-content: space-between; align-items: baseline;">
+          <span>スター推移 — 直近30日</span>
+          <span style="letter-spacing: 0; color: var(--ink3);">当サイトの計測 <span class="num">128</span> 日分</span>
+        </div>
+        <div style="background: var(--card); border: 1px solid var(--rule); border-top: none; padding: 22px 20px 16px;">
+          <svg viewBox="0 0 700 170" style="width: 100%; height: 170px; display: block;" preserveAspectRatio="none">
+            <line x1="0" y1="10" x2="700" y2="10" stroke="#EFEBE3" stroke-width="1"/>
+            <line x1="0" y1="60" x2="700" y2="60" stroke="#EFEBE3" stroke-width="1"/>
+            <line x1="0" y1="110" x2="700" y2="110" stroke="#EFEBE3" stroke-width="1"/>
+            <line x1="0" y1="159" x2="700" y2="159" stroke="#E7E2D9" stroke-width="1"/>
+            <!-- 平常時 -->
+            <polyline points="0,150 40,148 80,146 120,145 160,143 200,141 240,139 280,137 320,135 360,133 400,131 440,129 480,127" fill="none" stroke="#1E5A48" stroke-width="2" stroke-linejoin="round"/>
+            <!-- 急増区間。ここだけ色を変えて「なぜ疑ったか」を絵で示す -->
+            <polyline points="480,127 520,118 560,88 600,44 640,26 700,20" fill="none" stroke="#8A5A00" stroke-width="2" stroke-linejoin="round"/>
+            <circle cx="600" cy="44" r="3.5" fill="#8A5A00"/>
+          </svg>
+          <div style="display: flex; justify-content: space-between; font-size: 11px; color: var(--ink3); padding-top: 8px;" class="num">
+            <span>07-29</span><span>08-08</span><span>08-18</span><span>08-28</span>
+          </div>
+          <div style="display: flex; gap: 18px; padding-top: 12px; border-top: 1px solid var(--rule); margin-top: 12px; font-size: 11.5px; color: var(--ink3);">
+            <span style="display: inline-flex; align-items: center; gap: 6px;"><span style="width: 14px; height: 2px; background: var(--accent); display: inline-block;"></span>通常の増加</span>
+            <span style="display: inline-flex; align-items: center; gap: 6px;"><span style="width: 14px; height: 2px; background: var(--warn); display: inline-block;"></span>急増と判定した区間</span>
+          </div>
+        </div>
+      </section>
+
+      <!-- README 抜粋（最大500字・全文は載せない） -->
+      <section style="margin-bottom: 34px;">
+        <div class="eyebrow" style="padding-bottom: 14px; border-bottom: 1px solid var(--rule);">README 抜粋</div>
+        <div style="padding-top: 16px;">
+          <p style="margin: 0 0 14px; font-size: 13.5px; line-height: 1.8; color: var(--ink2);">
+            atlas-lm is a serving stack that puts routing, caching and evaluation behind one endpoint. It speaks the OpenAI wire format, so existing clients work unchanged. The router picks a backend per request from latency and cost budgets you declare in a single YAML file, and every response is recorded so you can replay a week of production traffic against a candidate model before switching.
+          </p>
+          <div style="display: flex; align-items: center; gap: 12px; font-size: 11.5px; color: var(--ink3);">
+            <span>出典 — GitHub の README より <span class="num">500</span> 字以内で抜粋</span>
+            <a href="#" style="display: inline-flex; align-items: center; gap: 5px; color: var(--accent);">
+              原典を読む
+              <svg width="11" height="11" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round"><path d="M7 17 17 7"/><path d="M9 7h8v8"/></svg>
+            </a>
+          </div>
+        </div>
+      </section>
+
+      <!-- 判定の根拠 -->
+      <section>
+        <div class="eyebrow" style="padding-bottom: 14px; border-bottom: 1px solid var(--rule);">この判定について</div>
+        <p style="margin: 16px 0 0; font-size: 13px; line-height: 1.85; color: var(--ink2);">
+          このページの数値は GitHub の公式 API から機械的に取得したものです。要約や翻訳の生成は行っていません。警告の判定はすべて公開された計算式によるもので、<a href="#">判定基準のページ</a>で条件と閾値をすべて公開しています。誤検知と思われる判定を見つけた場合は、お知らせください。
+        </p>
+      </section>
+    </main>
+
+    <!-- 右レール -->
+    <aside style="width: 288px; flex: none; padding-top: 26px; display: flex; flex-direction: column; gap: 28px;">
+
+      <div style="background: var(--card); border: 1px solid var(--rule); border-radius: 3px; padding: 18px 20px;">
+        <div style="display: flex; align-items: baseline; justify-content: space-between; margin-bottom: 4px;">
+          <span class="num" style="font-family: var(--serif); font-size: 34px; line-height: 1;">9,880</span>
+          <span class="num" style="font-size: 13px; color: var(--warn); font-weight: 500;">+4,120</span>
+        </div>
+        <div style="font-size: 11.5px; color: var(--ink3); margin-bottom: 16px;">スター · 今日の増加</div>
+        <div class="kv"><span>Fork</span><b>61</b></div>
+        <div class="kv"><span>Watch</span><b>88</b></div>
+        <div class="kv"><span>Open Issue</span><b>3</b></div>
+        <div class="kv"><span>コントリビュータ</span><b>2</b></div>
+        <div class="kv" style="border-bottom: none;"><span>リリース</span><b>0</b></div>
+      </div>
+
+      <section>
+        <div class="eyebrow" style="padding-bottom: 11px; border-bottom: 1px solid var(--rule);">ライセンス</div>
+        <div style="padding-top: 14px; display: flex; flex-direction: column; gap: 11px;">
+          <div style="font-family: var(--mono); font-size: 15px;">Apache-2.0</div>
+          <span class="chip ok" style="align-self: flex-start;">
+            <svg width="12" height="12" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round"><path d="m4 12.5 5 5L20 6.5"/></svg>
+            商用利用しやすい区分
+          </span>
+          <p style="margin: 0; font-size: 12px; line-height: 1.7; color: var(--ink3);">
+            自社サービスへの組込みを妨げる条項は含まれません。特許条項があるため、利用時は原文の確認をおすすめします。
+          </p>
+        </div>
+      </section>
+
+      <section>
+        <div class="eyebrow" style="padding-bottom: 11px; border-bottom: 1px solid var(--rule);">基本情報</div>
+        <div class="kv"><span>作成</span><b>2025-06-11</b></div>
+        <div class="kv"><span>最終コミット</span><b>2026-08-25</b></div>
+        <div class="kv"><span>日本語 README</span><span style="color: var(--ink3);">なし</span></div>
+        <div class="kv" style="border-bottom: none;"><span>初回検知</span><b>2026-08-14</b></div>
+      </section>
+
+      <a href="#" style="display: flex; align-items: center; justify-content: center; gap: 7px; height: 40px; border: 1px solid var(--rule2); border-radius: 2px; font-size: 13px; color: var(--ink2); background: var(--card);">
+        GitHub で開く
+        <svg width="12" height="12" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round"><path d="M7 17 17 7"/><path d="M9 7h8v8"/></svg>
+      </a>
+    </aside>
+  </div>
+
+  <footer style="border-top: 1px solid var(--rule); background: #F5F2EC;">
+    <div style="max-width: 1080px; margin: 0 auto; padding: 30px 24px 40px;">
+      <p style="margin: 0; max-width: 640px; font-size: 12px; line-height: 1.75; color: var(--ink3);">
+        掲載しているのは GitHub API から取得した事実データと、決定的なロジックによる判定結果です。警告は自動判定であり、偽スターやメンテ停止を断定するものではありません。技術選定の最終判断は、必ず原典をご確認ください。
+      </p>
+    </div>
+  </footer>
+</div>
+</x-dc>
+</body>
+</html>

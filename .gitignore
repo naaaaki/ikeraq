@@ -7,3 +7,7 @@ dist/
 
 # エージェントのメモリはツール側の作業ファイル。プロジェクトの成果物ではない
 .claude/agent-memory/
+
+# デザインの生成物。元ファイル（.dc.html / canvas.json）だけを追跡する
+design/preview/
+design/*-design.html

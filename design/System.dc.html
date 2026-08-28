@@ -1,0 +1,165 @@
+<!doctype html>
+<html>
+<head>
+  <meta charset="utf-8">
+  <script src="./support.js"></script>
+</head>
+<body>
+<x-dc>
+<helmet>
+  <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Newsreader:opsz,wght@6..72,400;6..72,500&family=Zen+Kaku+Gothic+New:wght@400;500;700&family=JetBrains+Mono:wght@400;500;600&display=swap">
+  <style>
+    :root {
+      --paper: #FAF8F4; --card: #FFFFFF;
+      --ink: #191816; --ink2: #56524B; --ink3: #8A857D;
+      --rule: #E7E2D9; --rule2: #D8D2C6;
+      --accent: #1E5A48; --accent-soft: #E9F0EC;
+      --warn: #8A5A00; --warn-soft: #FAF2E1;
+      --danger: #96302C; --danger-soft: #F9EDEC;
+      --jp: 'Zen Kaku Gothic New', 'Hiragino Kaku Gothic ProN', 'Yu Gothic', sans-serif;
+      --serif: 'Newsreader', 'Hiragino Mincho ProN', serif;
+      --mono: 'JetBrains Mono', ui-monospace, monospace;
+    }
+    body { margin: 0; background: var(--paper); color: var(--ink); font-family: var(--jp); -webkit-font-smoothing: antialiased; }
+    a { color: var(--accent); text-decoration: none; }
+    a:hover { color: #14402F; }
+    .eyebrow { font-size: 11px; letter-spacing: .16em; color: var(--ink3); font-weight: 500; }
+    .num { font-family: var(--mono); font-variant-numeric: tabular-nums; }
+    .sect { padding-bottom: 12px; border-bottom: 1px solid var(--rule2); margin-bottom: 20px; }
+    .chip { display: inline-flex; align-items: center; gap: 5px; height: 23px; padding: 0 8px;
+            font-size: 11.5px; line-height: 1; border: 1px solid var(--rule2); border-radius: 2px;
+            color: var(--ink2); background: var(--card); white-space: nowrap; }
+    .chip.warn { color: var(--warn); border-color: #E8D5A8; background: var(--warn-soft); }
+    .chip.danger { color: var(--danger); border-color: #E5C2BF; background: var(--danger-soft); }
+    .chip.ok { color: var(--accent); border-color: #BFD5CB; background: var(--accent-soft); }
+    .sw { display: flex; flex-direction: column; gap: 7px; }
+    .sw .box { height: 52px; border-radius: 2px; border: 1px solid rgba(0,0,0,.07); }
+    .sw .name { font-size: 11.5px; color: var(--ink2); }
+    .sw .hex { font-family: var(--mono); font-size: 11px; color: var(--ink3); }
+    .note { font-size: 12px; line-height: 1.7; color: var(--ink3); }
+  </style>
+</helmet>
+
+<div style="width: 900px; background: var(--paper); padding: 40px 44px 52px; box-sizing: border-box;">
+
+  <div style="margin-bottom: 38px;">
+    <div class="eyebrow" style="margin-bottom: 8px;">WAKURU DESIGN SYSTEM</div>
+    <h1 style="margin: 0 0 8px; font-family: var(--serif); font-size: 32px; font-weight: 400; letter-spacing: -.01em;">見た目の決まりごと</h1>
+    <p style="margin: 0; max-width: 620px; font-size: 13px; line-height: 1.8; color: var(--ink2);">
+      一覧に並ぶのは英語の description と日本語の警告・ラベルです。日本語側が読み取りの主役になるよう、英語本文は落ち着いた濃度に、警告は色で段階を持たせています。
+    </p>
+  </div>
+
+  <!-- 色 -->
+  <section style="margin-bottom: 40px;">
+    <div class="sect"><span class="eyebrow">色</span></div>
+    <div style="display: grid; grid-template-columns: repeat(4, minmax(0, 1fr)); gap: 14px; margin-bottom: 22px;">
+      <div class="sw"><div class="box" style="background: #FAF8F4;"></div><span class="name">紙 — 背景</span><span class="hex">#FAF8F4</span></div>
+      <div class="sw"><div class="box" style="background: #FFFFFF;"></div><span class="name">白 — カード</span><span class="hex">#FFFFFF</span></div>
+      <div class="sw"><div class="box" style="background: #191816;"></div><span class="name">墨 — 本文</span><span class="hex">#191816</span></div>
+      <div class="sw"><div class="box" style="background: #8A857D;"></div><span class="name">補助テキスト</span><span class="hex">#8A857D</span></div>
+    </div>
+    <div style="display: grid; grid-template-columns: repeat(4, minmax(0, 1fr)); gap: 14px;">
+      <div class="sw"><div class="box" style="background: #1E5A48;"></div><span class="name">深緑 — ブランド・増加</span><span class="hex">#1E5A48</span></div>
+      <div class="sw"><div class="box" style="background: #8A5A00;"></div><span class="name">琥珀 — 注意</span><span class="hex">#8A5A00</span></div>
+      <div class="sw"><div class="box" style="background: #96302C;"></div><span class="name">朱 — 重い警告</span><span class="hex">#96302C</span></div>
+      <div class="sw"><div class="box" style="background: #E7E2D9;"></div><span class="name">罫線</span><span class="hex">#E7E2D9</span></div>
+    </div>
+    <p class="note" style="margin: 16px 0 0; max-width: 620px;">
+      ブランド色を緑にしたのは、警告のために赤と琥珀を空けておくためです。技術サイトで多い青は使っていません。増加数を緑で出すため、警告色と混ざりません。
+    </p>
+  </section>
+
+  <!-- 文字 -->
+  <section style="margin-bottom: 40px;">
+    <div class="sect"><span class="eyebrow">文字</span></div>
+    <div style="display: flex; flex-direction: column; gap: 20px;">
+      <div style="display: flex; gap: 26px; align-items: baseline; border-bottom: 1px solid var(--rule); padding-bottom: 18px;">
+        <div style="width: 168px; flex: none;"><div style="font-size: 12px; color: var(--ink2);">見出し・ロゴ</div><div class="hex" style="font-family: var(--mono); font-size: 11px; color: var(--ink3);">Newsreader / 明朝</div></div>
+        <div style="font-family: var(--serif); font-size: 34px; line-height: 1.2;">新しい技術が、わかる。</div>
+      </div>
+      <div style="display: flex; gap: 26px; align-items: baseline; border-bottom: 1px solid var(--rule); padding-bottom: 18px;">
+        <div style="width: 168px; flex: none;"><div style="font-size: 12px; color: var(--ink2);">本文・ラベル</div><div class="hex" style="font-family: var(--mono); font-size: 11px; color: var(--ink3);">Zen Kaku Gothic New</div></div>
+        <div style="font-size: 14px; line-height: 1.8; max-width: 460px; color: var(--ink2);">スター数の伸び方に不自然な点があります。これは自動判定であり、断定するものではありません。</div>
+      </div>
+      <div style="display: flex; gap: 26px; align-items: baseline;">
+        <div style="width: 168px; flex: none;"><div style="font-size: 12px; color: var(--ink2);">リポジトリ名・数値</div><div class="hex" style="font-family: var(--mono); font-size: 11px; color: var(--ink3);">JetBrains Mono</div></div>
+        <div style="display: flex; flex-direction: column; gap: 7px;">
+          <div style="font-family: var(--mono); font-size: 17px; font-weight: 500;"><span style="color: var(--ink3); font-weight: 400;">deepfoundry/</span>atlas-lm</div>
+          <div class="num" style="font-size: 14px; color: var(--ink2);">9,880 <span style="color: var(--accent);">+4,120</span></div>
+        </div>
+      </div>
+    </div>
+    <p class="note" style="margin: 16px 0 0; max-width: 620px;">
+      リポジトリ名と数字は等幅にします。桁が揃うことで、一覧を上から下に流し読みできます。
+    </p>
+  </section>
+
+  <!-- 警告の見せ方 -->
+  <section style="margin-bottom: 40px;">
+    <div class="sect"><span class="eyebrow">警告の見せ方 — 2軸を混ぜない</span></div>
+    <div style="display: grid; grid-template-columns: repeat(2, minmax(0, 1fr)); gap: 20px;">
+      <div style="border: 1px solid var(--rule); background: var(--card); border-radius: 3px; padding: 18px;">
+        <div style="font-size: 13px; font-weight: 500; margin-bottom: 4px;">実運用に耐えるか</div>
+        <div class="note" style="margin-bottom: 14px;">ライセンス・メンテ状況。0〜100 の点数で出す</div>
+        <div style="display: flex; flex-wrap: wrap; gap: 6px;">
+          <span class="chip ok">MIT · 商用可</span>
+          <span class="chip warn">AGPL-3.0 · 組込み注意</span>
+          <span class="chip danger">ライセンス未設定</span>
+          <span class="chip warn">メンテ停止の疑い</span>
+          <span class="chip danger">アーカイブ済み</span>
+        </div>
+      </div>
+      <div style="border: 1px solid var(--rule); background: var(--card); border-radius: 3px; padding: 18px;">
+        <div style="font-size: 13px; font-weight: 500; margin-bottom: 4px;">数字が信用できるか</div>
+        <div class="note" style="margin-bottom: 14px;">点数にせず「なし／低／中／高」の段階で出す</div>
+        <div style="display: flex; flex-wrap: wrap; gap: 6px;">
+          <span class="chip warn">スター急増</span>
+          <span class="chip warn">低活動</span>
+          <span class="chip warn">作成30日以内</span>
+          <span class="chip">判定中（履歴7日未満）</span>
+        </div>
+      </div>
+    </div>
+    <p class="note" style="margin: 16px 0 0; max-width: 620px;">
+      「AGPL だから使いにくい」と「スターが怪しい」は別の話なので、同じ数字に潰しません。文言は必ず「疑い」で止め、断定表現は使いません。
+    </p>
+  </section>
+
+  <!-- 部品 -->
+  <section>
+    <div class="sect"><span class="eyebrow">部品</span></div>
+    <div style="display: grid; grid-template-columns: repeat(2, minmax(0, 1fr)); gap: 26px;">
+      <div>
+        <div style="font-size: 12px; color: var(--ink2); margin-bottom: 11px;">ボタン</div>
+        <div style="display: flex; gap: 10px; align-items: center;">
+          <a href="#" style="display: inline-flex; align-items: center; height: 38px; padding: 0 18px; border-radius: 2px; font-size: 13px; color: #FFF; background: var(--accent);">ニュースレター</a>
+          <a href="#" style="display: inline-flex; align-items: center; height: 38px; padding: 0 16px; border: 1px solid var(--rule2); border-radius: 2px; font-size: 13px; color: var(--ink2); background: var(--card);">GitHub で開く</a>
+        </div>
+      </div>
+      <div>
+        <div style="font-size: 12px; color: var(--ink2); margin-bottom: 11px;">疑いの度合い</div>
+        <div style="display: flex; gap: 22px; align-items: center;">
+          <span style="display: flex; align-items: center; gap: 7px; font-size: 12.5px; color: var(--ink3);">なし
+            <span style="display: inline-flex; gap: 3px;"><i style="width:7px;height:7px;border-radius:50%;background:#DED8CB;display:block;"></i><i style="width:7px;height:7px;border-radius:50%;background:#DED8CB;display:block;"></i><i style="width:7px;height:7px;border-radius:50%;background:#DED8CB;display:block;"></i></span>
+          </span>
+          <span style="display: flex; align-items: center; gap: 7px; font-size: 12.5px; color: var(--warn);">中
+            <span style="display: inline-flex; gap: 3px;"><i style="width:7px;height:7px;border-radius:50%;background:#8A5A00;display:block;"></i><i style="width:7px;height:7px;border-radius:50%;background:#8A5A00;display:block;"></i><i style="width:7px;height:7px;border-radius:50%;background:#DED8CB;display:block;"></i></span>
+          </span>
+          <span style="display: flex; align-items: center; gap: 7px; font-size: 12.5px; color: var(--danger);">高
+            <span style="display: inline-flex; gap: 3px;"><i style="width:7px;height:7px;border-radius:50%;background:#96302C;display:block;"></i><i style="width:7px;height:7px;border-radius:50%;background:#96302C;display:block;"></i><i style="width:7px;height:7px;border-radius:50%;background:#96302C;display:block;"></i></span>
+          </span>
+        </div>
+      </div>
+    </div>
+    <div style="margin-top: 26px; padding-top: 20px; border-top: 1px solid var(--rule);">
+      <div style="font-size: 12px; color: var(--ink2); margin-bottom: 11px;">余白と幅</div>
+      <div class="note" style="max-width: 620px;">
+        コンテンツ幅 1080px（本文 736 + 余白 56 + 右レール 288）。一覧の1行は上下 22px。角丸は 2〜3px までにとどめ、影は使いません。罫線1本で区切ることで、密度を上げても静かに見えます。
+      </div>
+    </div>
+  </section>
+</div>
+</x-dc>
+</body>
+</html>

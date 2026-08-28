@@ -1,0 +1,109 @@
+<!doctype html>
+<html>
+<head>
+  <meta charset="utf-8">
+  <script src="./support.js"></script>
+</head>
+<body>
+<x-dc>
+<helmet>
+  <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=JetBrains+Mono:wght@400;500;700&display=swap">
+  <style>
+    :root {
+      --bg: #12130F; --bg2: #191A16; --line: #2A2C25;
+      --fg: #E6E4DB; --fg2: #9A9788; --fg3: #6A6759;
+      --green: #8FBF6A; --amber: #D9A441; --red: #D2705C;
+      --mono: 'JetBrains Mono', ui-monospace, monospace;
+    }
+    body { margin: 0; background: var(--bg); color: var(--fg); font-family: var(--mono); -webkit-font-smoothing: antialiased; }
+    a { color: var(--green); text-decoration: none; }
+    a:hover { color: #A9D488; text-decoration: underline; }
+    .dim { color: var(--fg2); }
+    .row { display: grid; grid-template-columns: 30px 1fr 92px 78px 128px; gap: 14px; align-items: center;
+           padding: 9px 20px; border-bottom: 1px solid var(--line); font-size: 12.5px; }
+    .tag { display: inline-block; padding: 1px 5px; font-size: 10.5px; border: 1px solid var(--line); color: var(--fg2); }
+    .tag.a { color: var(--amber); border-color: #5B4820; }
+    .tag.r { color: var(--red); border-color: #5E332B; }
+  </style>
+</helmet>
+
+<div style="width: 900px; min-height: 640px; background: var(--bg); box-sizing: border-box; display: flex; flex-direction: column;">
+
+  <div style="padding: 16px 20px 14px; border-bottom: 1px solid var(--line); display: flex; align-items: baseline; justify-content: space-between;">
+    <div style="display: flex; align-items: baseline; gap: 14px;">
+      <span style="font-size: 17px; font-weight: 700; letter-spacing: -.02em;">wakuru</span>
+      <span class="dim" style="font-size: 11.5px;">新しい技術が、わかる。</span>
+    </div>
+    <div style="display: flex; gap: 16px; font-size: 11.5px;" class="dim">
+      <span style="color: var(--fg);">today</span><span>weekly</span><span style="color: var(--amber);">flagged</span><span>criteria</span>
+    </div>
+  </div>
+
+  <div style="padding: 18px 20px 12px; display: flex; align-items: baseline; justify-content: space-between;">
+    <span style="font-size: 14px;">2026-08-28</span>
+    <span class="dim" style="font-size: 11px;">tracked 712 · history 128d · 06:02 JST</span>
+  </div>
+
+  <div class="row" style="border-top: 1px solid var(--line); border-bottom: 1px solid var(--line); color: var(--fg3); font-size: 10.5px; letter-spacing: .1em;">
+    <span>#</span><span>REPOSITORY</span><span style="text-align: right;">STARS</span><span style="text-align: right;">TODAY</span><span>FLAGS</span>
+  </div>
+
+  <div class="row">
+    <span class="dim">01</span>
+    <span><span class="dim">harbor-dev/</span>skiff</span>
+    <span style="text-align: right;">18,204</span>
+    <span style="text-align: right; color: var(--green);">+1,340</span>
+    <span><span class="tag">MIT</span> <span class="tag">go</span></span>
+  </div>
+  <div class="row">
+    <span class="dim">02</span>
+    <span><span class="dim">deepfoundry/</span>atlas-lm</span>
+    <span style="text-align: right;">9,880</span>
+    <span style="text-align: right; color: var(--amber);">+4,120</span>
+    <span><span class="tag a">spike</span> <span class="tag a">low-activity</span></span>
+  </div>
+  <div class="row">
+    <span class="dim">03</span>
+    <span><span class="dim">nagi-labs/</span>tsumugi</span>
+    <span style="text-align: right;">6,412</span>
+    <span style="text-align: right; color: var(--green);">+880</span>
+    <span><span class="tag a">AGPL-3.0</span> <span class="tag">rust</span></span>
+  </div>
+  <div class="row">
+    <span class="dim">04</span>
+    <span><span class="dim">voltcore/</span>relay</span>
+    <span style="text-align: right;">5,073</span>
+    <span style="text-align: right; color: var(--green);">+610</span>
+    <span><span class="tag r">no-license</span> <span class="tag">zig</span></span>
+  </div>
+  <div class="row">
+    <span class="dim">05</span>
+    <span><span class="dim">mirrorstack/</span>lantern</span>
+    <span style="text-align: right;">4,201</span>
+    <span style="text-align: right; color: var(--green);">+455</span>
+    <span><span class="tag a">stale 8mo</span> <span class="tag">ts</span></span>
+  </div>
+  <div class="row">
+    <span class="dim">06</span>
+    <span><span class="dim">kite-tools/</span>plume</span>
+    <span style="text-align: right;">3,644</span>
+    <span style="text-align: right; color: var(--green);">+298</span>
+    <span><span class="tag">MIT</span> <span class="tag">go</span></span>
+  </div>
+  <div class="row">
+    <span class="dim">07</span>
+    <span><span class="dim">lumen-ai/</span>orbit</span>
+    <span style="text-align: right;">3,180</span>
+    <span style="text-align: right; color: var(--green);">+240</span>
+    <span><span class="tag">Apache-2.0</span> <span class="tag">rust</span></span>
+  </div>
+
+  <div style="padding: 20px; margin-top: auto; border-top: 1px solid var(--line);">
+    <div style="font-size: 11.5px; line-height: 1.7; color: var(--fg2); max-width: 560px;">
+      日本語の説明は各行を開いたときだけ出す。一覧は英語のまま、記号とラベルで密度を稼ぐ方向。
+    </div>
+  </div>
+</div>
+</x-dc>
+</body>
+</html>

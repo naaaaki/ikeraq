@@ -1,0 +1,13 @@
+paper      #FAF8F4   和紙寄りの温白
+card       #FFFFFF
+ink        #191816   墨（本文）
+ink2       #56524B   二次テキスト
+ink3       #8A857D   補助
+rule       #E7E2D9
+rule2      #D8D2C6
+accent     #1E5A48   深緑（ブランド・リンク・増加）
+accentSoft #E9F0EC
+warn       #8A5A00   琥珀（注意）
+warnSoft   #FAF2E1
+danger     #96302C   朱（重い警告）
+dangerSoft #F9EDEC

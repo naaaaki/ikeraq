@@ -1,0 +1,330 @@
+<!doctype html>
+<html>
+<head>
+  <meta charset="utf-8">
+  <script src="./support.js"></script>
+</head>
+<body>
+<x-dc>
+<helmet>
+  <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Newsreader:opsz,wght@6..72,400;6..72,500&family=Zen+Kaku+Gothic+New:wght@400;500;700&family=JetBrains+Mono:wght@400;500;600&display=swap">
+  <style>
+    :root {
+      --paper: #FAF8F4; --card: #FFFFFF;
+      --ink: #191816; --ink2: #56524B; --ink3: #8A857D;
+      --rule: #E7E2D9; --rule2: #D8D2C6;
+      --accent: #1E5A48; --accent-soft: #E9F0EC;
+      --warn: #8A5A00; --warn-soft: #FAF2E1;
+      --danger: #96302C; --danger-soft: #F9EDEC;
+      --jp: 'Zen Kaku Gothic New', 'Hiragino Kaku Gothic ProN', 'Yu Gothic', sans-serif;
+      --serif: 'Newsreader', 'Hiragino Mincho ProN', serif;
+      --mono: 'JetBrains Mono', ui-monospace, monospace;
+    }
+    body { margin: 0; background: var(--paper); color: var(--ink); font-family: var(--jp); -webkit-font-smoothing: antialiased; }
+    a { color: var(--accent); text-decoration: none; }
+    a:hover { color: #14402F; text-decoration: underline; text-underline-offset: 3px; }
+
+    .eyebrow { font-size: 11px; letter-spacing: .16em; color: var(--ink3); font-weight: 500; }
+    .repo { font-family: var(--mono); font-size: 16.5px; font-weight: 500; letter-spacing: -.01em; color: var(--ink); }
+    .repo .owner { color: var(--ink3); font-weight: 400; }
+    .desc { font-size: 13.5px; line-height: 1.62; color: var(--ink2); }
+    .num { font-family: var(--mono); font-variant-numeric: tabular-nums; }
+
+    .chip { display: inline-flex; align-items: center; gap: 5px; height: 23px; padding: 0 8px;
+            font-size: 11.5px; line-height: 1; border: 1px solid var(--rule2); border-radius: 2px;
+            color: var(--ink2); background: var(--card); white-space: nowrap; }
+    .chip.warn { color: var(--warn); border-color: #E8D5A8; background: var(--warn-soft); }
+    .chip.danger { color: var(--danger); border-color: #E5C2BF; background: var(--danger-soft); }
+    .chip.ok { color: var(--accent); border-color: #BFD5CB; background: var(--accent-soft); }
+    .chip svg { flex: none; }
+
+    .rowlink:hover .repo { color: var(--accent); }
+  </style>
+</helmet>
+
+<div style="min-height: 100%; background: var(--paper);">
+
+  <!-- ステマ規制の表記。景表法・指定告示によりファーストビューに置く（SPEC 8.1） -->
+  <div style="border-bottom: 1px solid var(--rule); background: #F5F2EC;">
+    <div style="max-width: 1080px; margin: 0 auto; padding: 7px 24px; display: flex; align-items: center; justify-content: space-between; gap: 16px;">
+      <span style="font-size: 11.5px; color: var(--ink3);">当サイトはアフィリエイト広告を利用しています</span>
+      <span style="font-size: 11.5px; color: var(--ink3);">警告はすべて自動判定です。断定するものではありません — <a href="#">判定基準</a></span>
+    </div>
+  </div>
+
+  <!-- ヘッダ -->
+  <header style="border-bottom: 1px solid var(--rule);">
+    <div style="max-width: 1080px; margin: 0 auto; padding: 26px 24px 0; display: flex; align-items: flex-start; justify-content: space-between; gap: 32px;">
+      <div style="display: flex; flex-direction: column; gap: 3px;">
+        <div style="font-family: var(--serif); font-size: 31px; line-height: 1; letter-spacing: -.015em; color: var(--ink);">Wakuru</div>
+        <div style="font-size: 12.5px; color: var(--ink3); letter-spacing: .04em;">新しい技術が、わかる。</div>
+      </div>
+      <div style="display: flex; align-items: center; gap: 10px; padding-top: 6px;">
+        <a href="#" style="display: inline-flex; align-items: center; gap: 6px; height: 32px; padding: 0 12px; border: 1px solid var(--rule2); border-radius: 2px; font-size: 12.5px; color: var(--ink2); background: var(--card);">
+          <svg width="13" height="13" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round"><path d="M4 4h16v16H4z" opacity=".0"/><path d="M4 11h16"/><path d="M4 6h16"/><path d="M4 16h10"/></svg>
+          RSS
+        </a>
+        <a href="#" style="display: inline-flex; align-items: center; height: 32px; padding: 0 14px; border-radius: 2px; font-size: 12.5px; color: #FFF; background: var(--accent);">ニュースレター</a>
+      </div>
+    </div>
+    <nav style="max-width: 1080px; margin: 0 auto; padding: 18px 24px 0;">
+      <div style="display: flex; align-items: center; gap: 26px;">
+        <a href="#" style="font-size: 13.5px; color: var(--ink); padding-bottom: 11px; border-bottom: 2px solid var(--accent); font-weight: 500;">今日</a>
+        <a href="#" style="font-size: 13.5px; color: var(--ink2); padding-bottom: 11px; border-bottom: 2px solid transparent;">週次サマリ</a>
+        <a href="#" style="font-size: 13.5px; color: var(--ink2); padding-bottom: 11px; border-bottom: 2px solid transparent;">言語</a>
+        <a href="#" style="font-size: 13.5px; color: var(--ink2); padding-bottom: 11px; border-bottom: 2px solid transparent;">ライセンス</a>
+        <a href="#" style="font-size: 13.5px; color: var(--warn); padding-bottom: 11px; border-bottom: 2px solid transparent;">警告つき</a>
+        <a href="#" style="font-size: 13.5px; color: var(--ink2); padding-bottom: 11px; border-bottom: 2px solid transparent;">判定基準</a>
+      </div>
+    </nav>
+  </header>
+
+  <!-- 本文 -->
+  <div style="max-width: 1080px; margin: 0 auto; padding: 0 24px 72px; display: flex; gap: 56px; align-items: flex-start;">
+
+    <main style="flex: 1; min-width: 0;">
+
+      <!-- 見出し -->
+      <div style="padding: 40px 0 26px; display: flex; align-items: baseline; justify-content: space-between; gap: 24px; border-bottom: 1px solid var(--rule);">
+        <h1 style="margin: 0; font-family: var(--serif); font-size: 34px; font-weight: 400; letter-spacing: -.01em; line-height: 1.2;">2026年8月28日のトレンド</h1>
+        <div style="font-size: 12px; color: var(--ink3); white-space: nowrap;">
+          <span class="num">06:02</span> 更新 · 追跡 <span class="num">712</span> 件
+        </div>
+      </div>
+
+      <!-- 注目枠（人間が一言を書いたものだけ。空でも成立する） -->
+      <section style="margin: 26px 0 34px; padding: 22px 24px; background: var(--card); border: 1px solid var(--rule); border-radius: 3px;">
+        <div class="eyebrow" style="margin-bottom: 12px;">注目 — 編集部の一言</div>
+        <div style="display: flex; flex-direction: column; gap: 10px;">
+          <div class="repo"><span class="owner">lumen-ai/</span>orbit</div>
+          <div class="desc">Local-first vector index that keeps the whole index in a single mmap'd file. No server, no daemon.</div>
+          <p style="margin: 4px 0 0; font-size: 13.5px; line-height: 1.8; color: var(--ink);">
+            サーバーを立てずに済むのが効くところ。検証環境で「とりあえずベクタ検索を試す」用途なら、依存が1つ減る意味は大きい。ライセンスは Apache-2.0 で商用利用に支障なし。
+          </p>
+          <div style="display: flex; gap: 6px; flex-wrap: wrap; margin-top: 4px;">
+            <span class="chip ok">Apache-2.0 · 商用可</span>
+            <span class="chip">日本語 README あり</span>
+          </div>
+        </div>
+      </section>
+
+      <!-- 一覧 -->
+      <div class="eyebrow" style="padding-bottom: 14px; border-bottom: 1px solid var(--rule);">スター増加順 · 24件</div>
+
+      <!-- 行 1 -->
+      <article class="rowlink" style="display: flex; gap: 20px; padding: 22px 0; border-bottom: 1px solid var(--rule);">
+        <div class="num" style="width: 26px; flex: none; font-size: 13px; color: var(--ink3); padding-top: 3px;">01</div>
+        <div style="flex: 1; min-width: 0; display: flex; flex-direction: column; gap: 9px;">
+          <div style="display: flex; align-items: baseline; gap: 12px; justify-content: space-between;">
+            <a href="#" class="repo"><span class="owner">harbor-dev/</span>skiff</a>
+            <div style="display: flex; align-items: baseline; gap: 14px; flex: none;">
+              <span class="num" style="font-size: 13px; color: var(--ink2);">18,204</span>
+              <span class="num" style="font-size: 13px; color: var(--accent); font-weight: 500;">+1,340</span>
+            </div>
+          </div>
+          <div class="desc">A container runtime for edge devices. Boots an OCI image in under 40ms on a Raspberry Pi 4.</div>
+          <div style="display: flex; gap: 6px; flex-wrap: wrap; align-items: center;">
+            <span class="chip ok">MIT · 商用可</span>
+            <span class="chip">Go</span>
+            <span class="chip">最終コミット 2日前</span>
+          </div>
+        </div>
+      </article>
+
+      <!-- 行 2 : 偽スター疑い -->
+      <article class="rowlink" style="display: flex; gap: 20px; padding: 22px 0; border-bottom: 1px solid var(--rule);">
+        <div class="num" style="width: 26px; flex: none; font-size: 13px; color: var(--ink3); padding-top: 3px;">02</div>
+        <div style="flex: 1; min-width: 0; display: flex; flex-direction: column; gap: 9px;">
+          <div style="display: flex; align-items: baseline; gap: 12px; justify-content: space-between;">
+            <a href="#" class="repo"><span class="owner">deepfoundry/</span>atlas-lm</a>
+            <div style="display: flex; align-items: baseline; gap: 14px; flex: none;">
+              <span class="num" style="font-size: 13px; color: var(--ink2);">9,880</span>
+              <span class="num" style="font-size: 13px; color: var(--accent); font-weight: 500;">+4,120</span>
+            </div>
+          </div>
+          <div class="desc">All-in-one LLM serving stack with routing, caching and evaluation built in.</div>
+          <div style="display: flex; gap: 6px; flex-wrap: wrap; align-items: center;">
+            <span class="chip warn">
+              <svg width="12" height="12" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M10.3 3.6 1.8 18a2 2 0 0 0 1.7 3h17a2 2 0 0 0 1.7-3L13.7 3.6a2 2 0 0 0-3.4 0Z"/><path d="M12 9v4"/><path d="M12 17h.01"/></svg>
+              スター数の伸び方に不自然な点
+            </span>
+            <span class="chip warn">作成30日以内</span>
+            <span class="chip">Python</span>
+            <span class="chip">Apache-2.0</span>
+          </div>
+          <div style="font-size: 12px; color: var(--warn); line-height: 1.65; padding-left: 1px;">
+            急増・低活動の2点に該当。<a href="#" style="color: var(--warn); text-decoration: underline; text-underline-offset: 2px;">判定の内訳を見る</a>
+          </div>
+        </div>
+      </article>
+
+      <!-- 行 3 : ライセンス注意 -->
+      <article class="rowlink" style="display: flex; gap: 20px; padding: 22px 0; border-bottom: 1px solid var(--rule);">
+        <div class="num" style="width: 26px; flex: none; font-size: 13px; color: var(--ink3); padding-top: 3px;">03</div>
+        <div style="flex: 1; min-width: 0; display: flex; flex-direction: column; gap: 9px;">
+          <div style="display: flex; align-items: baseline; gap: 12px; justify-content: space-between;">
+            <a href="#" class="repo"><span class="owner">nagi-labs/</span>tsumugi</a>
+            <div style="display: flex; align-items: baseline; gap: 14px; flex: none;">
+              <span class="num" style="font-size: 13px; color: var(--ink2);">6,412</span>
+              <span class="num" style="font-size: 13px; color: var(--accent); font-weight: 500;">+880</span>
+            </div>
+          </div>
+          <div class="desc">Japanese morphological analyzer with a WASM build. Ships a 4MB dictionary.</div>
+          <div style="display: flex; gap: 6px; flex-wrap: wrap; align-items: center;">
+            <span class="chip warn">AGPL-3.0 · 自社サービス組込み注意</span>
+            <span class="chip">Rust</span>
+            <span class="chip">日本語 README あり</span>
+          </div>
+        </div>
+      </article>
+
+      <!-- 行 4 : ライセンスなし -->
+      <article class="rowlink" style="display: flex; gap: 20px; padding: 22px 0; border-bottom: 1px solid var(--rule);">
+        <div class="num" style="width: 26px; flex: none; font-size: 13px; color: var(--ink3); padding-top: 3px;">04</div>
+        <div style="flex: 1; min-width: 0; display: flex; flex-direction: column; gap: 9px;">
+          <div style="display: flex; align-items: baseline; gap: 12px; justify-content: space-between;">
+            <a href="#" class="repo"><span class="owner">voltcore/</span>relay</a>
+            <div style="display: flex; align-items: baseline; gap: 14px; flex: none;">
+              <span class="num" style="font-size: 13px; color: var(--ink2);">5,073</span>
+              <span class="num" style="font-size: 13px; color: var(--accent); font-weight: 500;">+610</span>
+            </div>
+          </div>
+          <div class="desc">Message relay for IoT fleets. Single binary, no broker required.</div>
+          <div style="display: flex; gap: 6px; flex-wrap: wrap; align-items: center;">
+            <span class="chip danger">
+              <svg width="12" height="12" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round"><circle cx="12" cy="12" r="9"/><path d="M12 8v4.5"/><path d="M12 16h.01"/></svg>
+              ライセンス未設定 · 利用条件不明
+            </span>
+            <span class="chip">Zig</span>
+          </div>
+        </div>
+      </article>
+
+      <!-- 行 5 : メンテ停止 -->
+      <article class="rowlink" style="display: flex; gap: 20px; padding: 22px 0; border-bottom: 1px solid var(--rule);">
+        <div class="num" style="width: 26px; flex: none; font-size: 13px; color: var(--ink3); padding-top: 3px;">05</div>
+        <div style="flex: 1; min-width: 0; display: flex; flex-direction: column; gap: 9px;">
+          <div style="display: flex; align-items: baseline; gap: 12px; justify-content: space-between;">
+            <a href="#" class="repo"><span class="owner">mirrorstack/</span>lantern</a>
+            <div style="display: flex; align-items: baseline; gap: 14px; flex: none;">
+              <span class="num" style="font-size: 13px; color: var(--ink2);">4,201</span>
+              <span class="num" style="font-size: 13px; color: var(--accent); font-weight: 500;">+455</span>
+            </div>
+          </div>
+          <div class="desc">Terminal UI toolkit with a declarative layout engine and true-color support.</div>
+          <div style="display: flex; gap: 6px; flex-wrap: wrap; align-items: center;">
+            <span class="chip warn">最終コミット 8か月前 · メンテ停止の疑い</span>
+            <span class="chip ok">BSD-3-Clause · 商用可</span>
+            <span class="chip">TypeScript</span>
+          </div>
+        </div>
+      </article>
+
+      <!-- 行 6 -->
+      <article class="rowlink" style="display: flex; gap: 20px; padding: 22px 0; border-bottom: 1px solid var(--rule);">
+        <div class="num" style="width: 26px; flex: none; font-size: 13px; color: var(--ink3); padding-top: 3px;">06</div>
+        <div style="flex: 1; min-width: 0; display: flex; flex-direction: column; gap: 9px;">
+          <div style="display: flex; align-items: baseline; gap: 12px; justify-content: space-between;">
+            <a href="#" class="repo"><span class="owner">kite-tools/</span>plume</a>
+            <div style="display: flex; align-items: baseline; gap: 14px; flex: none;">
+              <span class="num" style="font-size: 13px; color: var(--ink2);">3,644</span>
+              <span class="num" style="font-size: 13px; color: var(--accent); font-weight: 500;">+298</span>
+            </div>
+          </div>
+          <div class="desc">Static site generator that compiles Markdown to zero-JS pages in a single pass.</div>
+          <div style="display: flex; gap: 6px; flex-wrap: wrap; align-items: center;">
+            <span class="chip ok">MIT · 商用可</span>
+            <span class="chip">Go</span>
+            <span class="chip">最終コミット 5日前</span>
+          </div>
+        </div>
+      </article>
+
+      <div style="padding: 30px 0 0;">
+        <a href="#" style="font-size: 13.5px;">残り18件を見る →</a>
+      </div>
+    </main>
+
+    <!-- 右レール -->
+    <aside style="width: 288px; flex: none; padding-top: 40px; display: flex; flex-direction: column; gap: 30px;">
+
+      <!-- 警告つき（本サイト固有の価値。目立たせる） -->
+      <section style="border: 1px solid #E8D5A8; background: var(--warn-soft); border-radius: 3px; padding: 20px;">
+        <div class="eyebrow" style="color: var(--warn); margin-bottom: 12px;">今日の警告</div>
+        <div style="display: flex; align-items: baseline; gap: 8px; margin-bottom: 12px;">
+          <span class="num" style="font-family: var(--serif); font-size: 40px; line-height: 1; color: var(--warn);">7</span>
+          <span style="font-size: 12.5px; color: var(--warn);">件に警告がつきました</span>
+        </div>
+        <div style="display: flex; flex-direction: column; gap: 7px; font-size: 12.5px; color: var(--ink2); line-height: 1.5;">
+          <div style="display: flex; justify-content: space-between;"><span>スター数に不自然さ</span><span class="num">3</span></div>
+          <div style="display: flex; justify-content: space-between;"><span>ライセンス未設定</span><span class="num">2</span></div>
+          <div style="display: flex; justify-content: space-between;"><span>メンテ停止の疑い</span><span class="num">2</span></div>
+        </div>
+        <a href="#" style="display: block; margin-top: 15px; font-size: 12.5px; color: var(--warn); text-decoration: underline; text-underline-offset: 3px;">警告つき一覧を見る →</a>
+      </section>
+
+      <!-- 蓄積データ（このサイトの資産） -->
+      <section>
+        <div class="eyebrow" style="padding-bottom: 11px; border-bottom: 1px solid var(--rule);">蓄積データ</div>
+        <div style="display: flex; flex-direction: column; gap: 0;">
+          <div style="display: flex; justify-content: space-between; align-items: baseline; padding: 11px 0; border-bottom: 1px solid var(--rule); font-size: 13px; color: var(--ink2);">
+            <span>スター履歴</span><span class="num" style="color: var(--ink);">128 日分</span>
+          </div>
+          <div style="display: flex; justify-content: space-between; align-items: baseline; padding: 11px 0; border-bottom: 1px solid var(--rule); font-size: 13px; color: var(--ink2);">
+            <span>追跡リポジトリ</span><span class="num" style="color: var(--ink);">712</span>
+          </div>
+          <div style="display: flex; justify-content: space-between; align-items: baseline; padding: 11px 0; border-bottom: 1px solid var(--rule); font-size: 13px; color: var(--ink2);">
+            <span>累計の警告</span><span class="num" style="color: var(--ink);">341</span>
+          </div>
+        </div>
+      </section>
+
+      <!-- 言語 -->
+      <section>
+        <div class="eyebrow" style="padding-bottom: 11px; border-bottom: 1px solid var(--rule);">言語で絞る</div>
+        <div style="display: flex; flex-wrap: wrap; gap: 6px; padding-top: 13px;">
+          <a href="#" class="chip">TypeScript <span class="num" style="color: var(--ink3);">86</span></a>
+          <a href="#" class="chip">Python <span class="num" style="color: var(--ink3);">74</span></a>
+          <a href="#" class="chip">Rust <span class="num" style="color: var(--ink3);">51</span></a>
+          <a href="#" class="chip">Go <span class="num" style="color: var(--ink3);">44</span></a>
+          <a href="#" class="chip">C++ <span class="num" style="color: var(--ink3);">22</span></a>
+        </div>
+      </section>
+
+      <!-- ライセンス -->
+      <section>
+        <div class="eyebrow" style="padding-bottom: 11px; border-bottom: 1px solid var(--rule);">ライセンスで絞る</div>
+        <div style="display: flex; flex-direction: column; gap: 0;">
+          <a href="#" style="display: flex; justify-content: space-between; padding: 10px 0; border-bottom: 1px solid var(--rule); font-size: 13px; color: var(--ink2);"><span>商用利用しやすい</span><span class="num" style="color: var(--ink3);">412</span></a>
+          <a href="#" style="display: flex; justify-content: space-between; padding: 10px 0; border-bottom: 1px solid var(--rule); font-size: 13px; color: var(--ink2);"><span>組込みに注意</span><span class="num" style="color: var(--ink3);">63</span></a>
+          <a href="#" style="display: flex; justify-content: space-between; padding: 10px 0; border-bottom: 1px solid var(--rule); font-size: 13px; color: var(--ink2);"><span>未設定</span><span class="num" style="color: var(--ink3);">28</span></a>
+        </div>
+      </section>
+    </aside>
+  </div>
+
+  <!-- フッタ -->
+  <footer style="border-top: 1px solid var(--rule); background: #F5F2EC;">
+    <div style="max-width: 1080px; margin: 0 auto; padding: 34px 24px 44px; display: flex; justify-content: space-between; gap: 48px; align-items: flex-start;">
+      <div style="max-width: 520px; display: flex; flex-direction: column; gap: 9px;">
+        <div style="font-family: var(--serif); font-size: 19px; color: var(--ink);">Wakuru</div>
+        <p style="margin: 0; font-size: 12px; line-height: 1.75; color: var(--ink3);">
+          掲載しているのは GitHub API から取得した事実データと、決定的なロジックによる判定結果です。警告は自動判定であり、偽スターやメンテ停止を断定するものではありません。技術選定の最終判断は、必ず原典をご確認ください。
+        </p>
+      </div>
+      <div style="display: flex; gap: 44px; font-size: 12.5px;">
+        <div style="display: flex; flex-direction: column; gap: 9px;">
+          <a href="#" style="color: var(--ink2);">判定基準</a>
+          <a href="#" style="color: var(--ink2);">このサイトについて</a>
+        </div>
+        <div style="display: flex; flex-direction: column; gap: 9px;">
+          <a href="#" style="color: var(--ink2);">プライバシーポリシー</a>
+          <a href="#" style="color: var(--ink2);">RSS</a>
+        </div>
+      </div>
+    </div>
+  </footer>
+</div>
+</x-dc>
+</body>
+</html>
