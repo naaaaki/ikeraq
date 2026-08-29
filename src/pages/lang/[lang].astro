@@ -8,18 +8,24 @@
 import type { GetStaticPaths } from 'astro';
 import ListPage from '../../layouts/ListPage.astro';
 import { byMomentum, getSiteData, type RepoView } from '../../lib/content.js';
-import { num } from '../../lib/format.js';
+import { languageSlug, num } from '../../lib/format.js';
 
 export const getStaticPaths = (async () => {
   const site = await getSiteData();
+  // ★ URL は languageSlug で作る。小文字化だけだと C# が /lang/c%23/、
+  //   Jupyter Notebook が空白入りの URL になり、リンク先として成立しない
   const groups = new Map<string, { name: string; items: RepoView[] }>();
   for (const item of site.repos) {
     const name = item.repo.language;
     if (!name) continue;
-    const key = name.toLowerCase();
-    const group = groups.get(key) ?? { name, items: [] };
-    group.items.push(item);
-    groups.set(key, group);
+    const key = languageSlug(name);
+    const group = groups.get(key);
+    if (group) {
+      // 別の言語名が同じ URL になった場合。表示名は先に来たほうを残す
+      group.items.push(item);
+    } else {
+      groups.set(key, { name, items: [item] });
+    }
   }
   return [...groups.entries()].map(([key, group]) => ({
     params: { lang: key },

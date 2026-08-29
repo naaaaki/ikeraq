@@ -120,7 +120,8 @@ const description = `GitHub で注目されているリポジトリを日本語�
 
           {listed.map((item) => <RepoRow item={item} />)}
 
-          {remaining > 0 && (
+          {/* ★記録が1日も無いときは日次ページ自体が作られない。押すと404になるので出さない */}
+          {remaining > 0 && site.latestDate !== null && (
             <div style="padding: 32px 0 0;">
               <a
                 href={`/daily/${date}/`}

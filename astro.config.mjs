@@ -1,6 +1,7 @@
 // @ts-check
-import { readdirSync, readFileSync, existsSync } from 'node:fs';
+import { existsSync, readFileSync } from 'node:fs';
 import path from 'node:path';
+import { fileURLToPath } from 'node:url';
 import { defineConfig } from 'astro/config';
 import sitemap from '@astrojs/sitemap';
 
@@ -12,47 +13,42 @@ import sitemap from '@astrojs/sitemap';
  */
 const site = process.env.WAKURU_SITE_URL ?? 'https://wakuru.dev';
 
-/**
- * sitemap に載せない個別ページを集める。
- *
- * ★ noindex にしたページを sitemap に載せると「載せるな」と「載せろ」を同時に出すことになる。
- *   判定そのものは evaluate.ts が済ませてあるので、ここでは結果を読むだけ。
- */
-function noindexRepoPaths() {
-  const reposDir = path.resolve('data/repos');
-  if (!existsSync(reposDir)) return new Set();
-  const out = new Set();
-  for (const owner of readdirSync(reposDir, { withFileTypes: true })) {
-    if (!owner.isDirectory()) continue;
-    const dir = path.join(reposDir, owner.name);
-    for (const file of readdirSync(dir)) {
-      if (!file.endsWith('.json')) continue;
-      try {
-        const repo = JSON.parse(readFileSync(path.join(dir, file), 'utf8'));
-        if (!repo.is_indexable) out.add(`/repo/${repo.id}/`);
-      } catch {
-        // 壊れたファイルで全体を止めない。載せそこねるだけで済ませる
-      }
-    }
-  }
-  return out;
-}
+const OUT_DIR = fileURLToPath(new URL('./dist/', import.meta.url));
 
-const excluded = noindexRepoPaths();
+/**
+ * sitemap に載せるかどうかを、出来上がった HTML そのものから決める。
+ *
+ * ★ noindex にしたページを sitemap に載せると、
+ *   「載せるな」と「見に来い」を同時に出すことになる。
+ *
+ * ★ 判定を2か所に書かない。
+ *   以前はデータを読み直して個別ページだけ除いていたが、
+ *   殿堂入りのように「中身が0件なら noindex」というページを取りこぼした。
+ *   出力を見れば、どのページが noindex かは1つの規則で決まり、
+ *   ページを足しても直す必要がない。
+ */
+function isIndexable(pageUrl) {
+  const pathname = new URL(pageUrl).pathname;
+  const file = pathname.endsWith('/')
+    ? path.join(OUT_DIR, pathname, 'index.html')
+    : path.join(OUT_DIR, pathname);
+
+  // 読めないものは載せない。載せて 404 を渡すより、載せそこねるほうが害が小さい
+  if (!existsSync(file)) return false;
+  try {
+    const html = readFileSync(file, 'utf8');
+    return !/<meta\s+name="robots"[^>]*noindex/i.test(html);
+  } catch {
+    return false;
+  }
+}
 
 export default defineConfig({
   site,
   output: 'static',
   trailingSlash: 'always',
   build: { format: 'directory' },
-  integrations: [
-    sitemap({
-      filter: (page) => {
-        const pathname = new URL(page).pathname;
-        return !pathname.startsWith('/404') && !excluded.has(pathname);
-      },
-    }),
-  ],
+  integrations: [sitemap({ filter: isIndexable })],
   markdown: {
     syntaxHighlight: 'shiki',
     shikiConfig: { theme: 'github-light', wrap: true },

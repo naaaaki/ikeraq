@@ -118,6 +118,44 @@ export function categoryLabel(category: string | null): string {
   return CATEGORY_LABELS[category] ?? 'そのほか';
 }
 
+/**
+ * 言語名を URL に使える形にする。
+ *
+ * ★ 小文字にするだけでは足りない。GitHub の言語名には記号と空白が入る。
+ *   C# → c%23（# は URL では「ページ内の位置」の記号）
+ *   Jupyter Notebook → 空白入りの URL
+ *   どちらもリンク先として成立しない。
+ *
+ * 読める形になるものは対応表に置き、それ以外は英数字とハイフンだけに落とす。
+ */
+const LANGUAGE_SLUGS: Record<string, string> = {
+  'C#': 'c-sharp',
+  'F#': 'f-sharp',
+  'C++': 'c-plus-plus',
+  'Objective-C': 'objective-c',
+  'Objective-C++': 'objective-c-plus-plus',
+  'Jupyter Notebook': 'jupyter-notebook',
+  'Vim Script': 'vim-script',
+  'Emacs Lisp': 'emacs-lisp',
+  'Common Lisp': 'common-lisp',
+  "Standard ML": 'standard-ml',
+  'Visual Basic .NET': 'visual-basic-net',
+  'Jupyter': 'jupyter',
+};
+
+export function languageSlug(language: string): string {
+  const mapped = LANGUAGE_SLUGS[language];
+  if (mapped) return mapped;
+  const slug = language
+    .toLowerCase()
+    .replace(/\+/g, '-plus')
+    .replace(/#/g, '-sharp')
+    .replace(/[^a-z0-9]+/g, '-')
+    .replace(/^-+|-+$/g, '');
+  // すべて記号だった場合に空の URL を作らない
+  return slug.length > 0 ? slug : 'other';
+}
+
 /** 個別ページの URL。owner / name はそのまま使う（GitHub 側で使える文字しか来ない） */
 export function repoUrl(id: string): string {
   return `/repo/${id}/`;

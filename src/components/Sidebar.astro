@@ -6,7 +6,7 @@
  * 収集が始まる前に「カテゴリ 0」が並ぶと、動いていないサイトに見えるため。
  */
 import { countBy, getSiteData } from '../lib/content.js';
-import { categoryLabel, languageColor, num } from '../lib/format.js';
+import { categoryLabel, languageColor, languageSlug, num } from '../lib/format.js';
 
 const site = await getSiteData();
 
@@ -49,7 +49,7 @@ const japaneseCount = site.repos.filter((v) => v.repo.has_japanese_readme).lengt
         <div style="padding-top: 6px;">
           {languages.map((l) => (
             <a
-              href={`/lang/${encodeURIComponent(l.key.toLowerCase())}/`}
+              href={`/lang/${languageSlug(l.key)}/`}
               style="display: flex; align-items: center; justify-content: space-between; padding: 10px 0; border-bottom: 1px solid var(--rule); font-size: 13px; color: var(--ink2);"
             >
               <span class="lang">
