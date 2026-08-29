@@ -19,6 +19,7 @@ import { getSiteData, type RepoView } from '../../../lib/content.js';
 import {
   categoryLabel,
   languageColor,
+  languageSlug,
   licenseLabel,
   num,
   repoUrl,
@@ -94,22 +95,34 @@ const facts: Fact[] = [
   // ★記録日数はここに出さない。同じことをサイドバーのスター推移が示していて、二重になる
 ].filter((f): f is Fact => f !== null);
 
+/**
+ * パンくずの中間に何を置くか。
+ *
+ * ★「そのほか」を置かない。読む人に何も伝えず、検索エンジンにとっても
+ *   意味のない語で1階層を埋めることになる。
+ *   分類できたときはカテゴリ、できなければ言語を使う。どちらも無ければ階層を作らない。
+ */
+const crumb =
+  repo.category && repo.category !== 'other'
+    ? { name: categoryLabel(repo.category), href: `/category/${repo.category}/` }
+    : repo.language
+      ? { name: repo.language, href: `/lang/${languageSlug(repo.language)}/` }
+      : null;
+
 // --- メタ情報 ---
 const description = leadText ?? repo.description_en ?? `${repo.id} のスター数・ライセンス・更新状況をまとめています。`;
 const canonical = new URL(repoUrl(repo.id), Astro.site).href;
 
+// ★見えているパンくずと構造化データを一致させる。ずれると検索エンジンに無視される
 const breadcrumb = {
   '@context': 'https://schema.org',
   '@type': 'BreadcrumbList',
   itemListElement: [
     { '@type': 'ListItem', position: 1, name: 'ホーム', item: new URL('/', Astro.site).href },
-    {
-      '@type': 'ListItem',
-      position: 2,
-      name: categoryLabel(repo.category),
-      item: new URL(`/category/${repo.category ?? 'other'}/`, Astro.site).href,
-    },
-    { '@type': 'ListItem', position: 3, name: repo.id, item: canonical },
+    ...(crumb
+      ? [{ '@type': 'ListItem', position: 2, name: crumb.name, item: new URL(crumb.href, Astro.site).href }]
+      : []),
+    { '@type': 'ListItem', position: crumb ? 3 : 2, name: repo.id, item: canonical },
   ],
 };
 
@@ -144,8 +157,14 @@ const noteCredit = note
   <nav class="meta" aria-label="パンくず" style="padding-top: 18px;">
     <a href="/" style="color: var(--ink3);">ホーム</a>
     <span style="padding: 0 7px; color: var(--rule2);">/</span>
-    <a href={`/category/${repo.category ?? 'other'}/`} style="color: var(--ink3);">{categoryLabel(repo.category)}</a>
-    <span style="padding: 0 7px; color: var(--rule2);">/</span>
+    {
+      crumb && (
+        <>
+          <a href={crumb.href} style="color: var(--ink3);">{crumb.name}</a>
+          <span style="padding: 0 7px; color: var(--rule2);">/</span>
+        </>
+      )
+    }
     <span>{repo.id}</span>
   </nav>
 

@@ -33,7 +33,7 @@
   "contributors_count": 142,
   "releases_count": 335,
   "ossf_scorecard": null,
-  "category": "other",
+  "category": "infra",
   "flags": [
     {
       "id": "copyleft",

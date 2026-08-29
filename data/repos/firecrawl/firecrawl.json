@@ -41,7 +41,7 @@
   "contributors_count": 172,
   "releases_count": 35,
   "ossf_scorecard": null,
-  "category": "llm",
+  "category": "ai-agent",
   "flags": [
     {
       "id": "copyleft",

@@ -38,7 +38,7 @@
   "contributors_count": 989,
   "releases_count": 306,
   "ossf_scorecard": null,
-  "category": "web-frontend",
+  "category": "infra",
   "flags": [
     {
       "id": "copyleft",

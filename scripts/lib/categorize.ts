@@ -26,19 +26,19 @@ interface Rule {
 const RULES: Rule[] = [
   {
     category: 'ai-agent',
-    topics: ['ai-agent', 'agent', 'agents', 'autonomous-agents', 'multi-agent', 'agentic', 'mcp'],
+    topics: ['agent', 'agents', 'agentic', 'mcp', 'harness', 'copilot', 'autogpt'],
   },
   {
     category: 'llm',
-    topics: ['llm', 'large-language-models', 'gpt', 'chatgpt', 'rag', 'transformers', 'fine-tuning', 'prompt-engineering', 'inference'],
+    topics: ['llm', 'llms', 'gpt', 'chatgpt', 'rag', 'transformers', 'fine-tuning', 'prompt', 'prompts', 'inference', 'embeddings', 'ollama'],
   },
   {
     category: 'security',
-    topics: ['security', 'cve', 'pentesting', 'vulnerability', 'infosec', 'cryptography', 'malware', 'appsec'],
+    topics: ['security', 'cve', 'pentesting', 'vulnerability', 'infosec', 'cryptography', 'malware', 'appsec', 'osint', 'forensics'],
   },
   {
     category: 'infra',
-    topics: ['kubernetes', 'infrastructure', 'devops', 'terraform', 'docker', 'container', 'observability', 'sre', 'cloud-native'],
+    topics: ['kubernetes', 'infrastructure', 'devops', 'terraform', 'docker', 'container', 'observability', 'sre', 'proxy', 'vpn', 'tunnel', 'networking', 'selfhosted', 'self-hosted', 'monitoring', 'hosting'],
   },
   {
     category: 'infra',
@@ -47,11 +47,11 @@ const RULES: Rule[] = [
   },
   {
     category: 'data',
-    topics: ['database', 'sql', 'analytics', 'data-engineering', 'etl', 'data-science', 'vector-database', 'dataframe'],
+    topics: ['database', 'sql', 'analytics', 'etl', 'dataframe', 'elasticsearch', 'knowledge-graph', 'scraping', 'crawler'],
   },
   {
     category: 'web-frontend',
-    topics: ['react', 'vue', 'svelte', 'frontend', 'css', 'ui-components', 'design-system', 'tailwind', 'web-components'],
+    topics: ['react', 'vue', 'svelte', 'frontend', 'css', 'tailwind', 'ui', 'design', 'canvas', 'whiteboard', 'components'],
   },
   {
     category: 'mobile',
@@ -63,7 +63,7 @@ const RULES: Rule[] = [
   },
   {
     category: 'learning',
-    topics: ['awesome', 'awesome-list', 'tutorial', 'learning', 'roadmap', 'interview', 'books', 'course', 'education', 'cheatsheet'],
+    topics: ['awesome', 'tutorial', 'tutorials', 'learning', 'roadmap', 'interview', 'books', 'course', 'education', 'cheatsheet', 'cookbook', 'guide', 'examples'],
   },
   {
     // 教材系はリポジトリ名にも強い癖が出る。fork 比率の誤検知を避けるため拾っておく
@@ -72,20 +72,39 @@ const RULES: Rule[] = [
   },
   {
     category: 'dev-tool',
-    topics: ['cli', 'developer-tools', 'editor', 'linter', 'formatter', 'build-tool', 'package-manager', 'testing', 'debugger', 'terminal'],
+    topics: ['cli', 'editor', 'ide', 'linter', 'formatter', 'packaging', 'testing', 'debugger', 'terminal', 'devtools', 'productivity', 'automation', 'git', 'bundler', 'compiler', 'monorepo', 'resolver'],
   },
   {
     category: 'backend',
-    topics: ['backend', 'api', 'server', 'microservices', 'graphql', 'grpc', 'web-framework', 'orm'],
+    topics: ['backend', 'api', 'server', 'microservices', 'graphql', 'grpc', 'orm', 'nodejs', 'http', 'rest', 'websocket', 'framework'],
   },
 ];
+
+/**
+ * topics を語の単位までほどく。
+ *
+ * ★ 完全一致だけでは取りこぼす。実データで `ai-agents`（複数形）や
+ *   `agent-skills` が「そのほか」に落ちていた。ハイフンで区切った語も見る。
+ *   部分一致にしないのは、`api` が `rapid` に当たるような誤爆を避けるため。
+ */
+function expandTopics(topics: string[] | null | undefined): Set<string> {
+  const out = new Set<string>();
+  for (const raw of topics ?? []) {
+    const topic = raw.toLowerCase();
+    out.add(topic);
+    for (const part of topic.split('-')) {
+      if (part.length >= 2) out.add(part);
+    }
+  }
+  return out;
+}
 
 export function categorize(
   topics: string[] | null | undefined,
   language: string | null | undefined,
   repoName?: string
 ): Category {
-  const t = new Set((topics ?? []).map((x) => x.toLowerCase()));
+  const t = expandTopics(topics);
   const name = (repoName ?? '').toLowerCase();
 
   for (const rule of RULES) {
