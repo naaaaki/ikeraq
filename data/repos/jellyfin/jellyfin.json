@@ -1,0 +1,44 @@
+{
+  "id": "jellyfin/jellyfin",
+  "owner": "jellyfin",
+  "name": "jellyfin",
+  "description_en": "The Free Software Media System - Server Backend & API",
+  "human_note": null,
+  "language": "C#",
+  "topics": [
+    "csharp",
+    "dotnet",
+    "hacktoberfest",
+    "jellyfin"
+  ],
+  "stars": 56342,
+  "forks": 5381,
+  "watchers": null,
+  "open_issues": 592,
+  "created_at": "2018-12-09T06:36:45Z",
+  "pushed_at": "2026-08-29T19:14:04Z",
+  "is_archived": false,
+  "license_spdx": "GPL-2.0",
+  "license_category": "strong-copyleft",
+  "readme_excerpt": "Jellyfin The Free Software Media System Jellyfin is a Free Software Media System that puts you in control of managing and streaming your media. It is an alternative to the proprietary Emby and Plex, to provide media from a dedicated server to end-user devices via multiple apps. Jellyfin is descended from Emby's 3.5.2 release and ported to the .NET platform to enable full cross-platform support. There are no strings attached, no premium licenses or features, and no hidden agendas: just a team th…",
+  "readme_length": 13335,
+  "has_japanese_readme": false,
+  "contributors_count": 1834,
+  "releases_count": 113,
+  "ossf_scorecard": null,
+  "category": "other",
+  "flags": [
+    {
+      "id": "copyleft",
+      "label": "自社サービス組込み注意",
+      "reason": "GPL-2.0 です。組み込んだ側のソース公開が必要になる場合があります。"
+    }
+  ],
+  "usability_score": 85,
+  "snapshot_days": 1,
+  "is_indexable": true,
+  "first_seen_at": "2026-08-29T23:02:08.747Z",
+  "tracking_tier": "hot",
+  "last_fetched_date": "2026-08-30",
+  "stars_stagnant_days": 0
+}

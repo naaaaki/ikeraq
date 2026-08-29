@@ -1,0 +1,43 @@
+{
+  "id": "p-e-w/heretic",
+  "owner": "p-e-w",
+  "name": "heretic",
+  "description_en": "Fully automatic censorship removal for language models",
+  "human_note": null,
+  "language": "Python",
+  "topics": [
+    "abliteration",
+    "llm",
+    "transformer"
+  ],
+  "stars": 28667,
+  "forks": 3158,
+  "watchers": 137,
+  "open_issues": 81,
+  "created_at": "2025-09-21T05:46:16Z",
+  "pushed_at": "2026-08-17T16:57:44Z",
+  "is_archived": false,
+  "license_spdx": "AGPL-3.0",
+  "license_category": "strong-copyleft",
+  "readme_excerpt": "Heretic: Fully automatic censorship removal for language models Heretic is a tool that removes censorship (aka \"safety alignment\") from transformer-based language models without expensive post-training. It combines an advanced implementation of directional ablation, also known as \"abliteration\" (Arditi et al. 2024, Lai 2025 (1, 2)), with a TPE-based parameter optimizer powered by Optuna. This approach enables Heretic to work completely automatically. Heretic finds high-quality abliteration para…",
+  "readme_length": 18207,
+  "has_japanese_readme": false,
+  "contributors_count": 34,
+  "releases_count": 5,
+  "ossf_scorecard": null,
+  "category": "llm",
+  "flags": [
+    {
+      "id": "copyleft",
+      "label": "自社サービス組込み注意",
+      "reason": "AGPL-3.0 です。組み込んだ側のソース公開が必要になる場合があります。"
+    }
+  ],
+  "usability_score": 85,
+  "snapshot_days": 1,
+  "is_indexable": true,
+  "first_seen_at": "2026-08-29T23:02:07.533Z",
+  "tracking_tier": "hot",
+  "last_fetched_date": "2026-08-30",
+  "stars_stagnant_days": 0
+}

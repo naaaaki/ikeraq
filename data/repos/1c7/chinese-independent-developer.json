@@ -1,0 +1,43 @@
+{
+  "id": "1c7/chinese-independent-developer",
+  "owner": "1c7",
+  "name": "chinese-independent-developer",
+  "description_en": "👩🏿‍💻👨🏾‍💻👩🏼‍💻👨🏽‍💻👩🏻‍💻中国独立开发者项目列表 -- 分享大家都在做什么",
+  "human_note": null,
+  "language": "Python",
+  "topics": [
+    "china",
+    "indie",
+    "indie-developer"
+  ],
+  "stars": 61116,
+  "forks": 5334,
+  "watchers": null,
+  "open_issues": 2,
+  "created_at": "2017-09-21T11:08:23Z",
+  "pushed_at": "2026-08-28T10:32:36Z",
+  "is_archived": false,
+  "license_spdx": null,
+  "license_category": "none",
+  "readme_excerpt": "中国独立开发者项目列表 聚合所有中国独立开发者的项目 子版面 - 程序员版面：使用需要命令行或写代码 - 游戏版面：都是游戏 - 2018 ~ 2020 年项目列表：因 GitHub 渲染限制单独存档 备注：您当前查看的是主版面，收录的产品是打开即用，和子版面中的产品类型不同。 1. 为什么有这个表 作为开发者其实比较好奇其他人在做什么业余项目（不管目的是做到盈利/玩票/试试看） 所以特意建了这个库。欢迎各位开发者把自己的项目加进来~ 发 Pull Request 或 Issue 即可 （入选标准：必须是网站或App，不能是开发者工具或论坛型网站） 写好介绍语很重要：❌ AI 视频生成工具 → ✅ 无需剪辑经验，3 步生成竖屏短视频 👉 如何写好一句话产品介绍 2. 项目有 3 种状态 | 开发中 | 已上线 | 已关闭或缺乏维护 | | :clock8: | :whitecheckmark: | :x: | 3. 项目列表 2026 年 8 月 28 号添加 mikewaynecn - Github :whitecheckmark: BaziCalculator.ai：免费在线八…",
+  "readme_length": 349126,
+  "has_japanese_readme": false,
+  "contributors_count": 430,
+  "releases_count": 0,
+  "ossf_scorecard": null,
+  "category": "other",
+  "flags": [
+    {
+      "id": "no_license",
+      "label": "利用条件不明",
+      "reason": "ライセンスが設定されていません。この場合は原則として全権利が留保され、利用できません。"
+    }
+  ],
+  "usability_score": 60,
+  "snapshot_days": 1,
+  "is_indexable": true,
+  "first_seen_at": "2026-08-29T23:02:08.747Z",
+  "tracking_tier": "hot",
+  "last_fetched_date": "2026-08-30",
+  "stars_stagnant_days": 0
+}

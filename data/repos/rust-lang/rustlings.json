@@ -1,0 +1,44 @@
+{
+  "id": "rust-lang/rustlings",
+  "owner": "rust-lang",
+  "name": "rustlings",
+  "description_en": ":crab: Small exercises to get you used to reading and writing Rust code!",
+  "human_note": null,
+  "language": "Rust",
+  "topics": [
+    "beginner-friendly",
+    "exercises",
+    "rust",
+    "rustlings"
+  ],
+  "stars": 64001,
+  "forks": 11251,
+  "watchers": null,
+  "open_issues": 33,
+  "created_at": "2015-09-15T02:25:18Z",
+  "pushed_at": "2026-08-29T19:39:33Z",
+  "is_archived": false,
+  "license_spdx": "MIT",
+  "license_category": "permissive",
+  "readme_excerpt": "Rustlings 🦀 Small exercises to get you used to reading and writing Rust code - Recommended in parallel to reading the official Rust book 📚️ Visit the website for a demo, info about setup and more: ➡️ rustlings.rust-lang.org ⬅️",
+  "readme_length": 376,
+  "has_japanese_readme": false,
+  "contributors_count": 489,
+  "releases_count": 46,
+  "ossf_scorecard": null,
+  "category": "other",
+  "flags": [
+    {
+      "id": "thin_readme",
+      "label": "ドキュメントが少なめ",
+      "reason": "README が 376 字です（判定は 500 字未満）。単機能のライブラリでは正常な場合もあります。"
+    }
+  ],
+  "usability_score": 90,
+  "snapshot_days": 1,
+  "is_indexable": true,
+  "first_seen_at": "2026-08-29T23:02:08.747Z",
+  "tracking_tier": "hot",
+  "last_fetched_date": "2026-08-30",
+  "stars_stagnant_days": 0
+}

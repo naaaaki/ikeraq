@@ -1,0 +1,49 @@
+{
+  "id": "JetBrains/kotlin",
+  "owner": "JetBrains",
+  "name": "kotlin",
+  "description_en": "The Kotlin Programming Language. ",
+  "human_note": null,
+  "language": "Kotlin",
+  "topics": [
+    "compiler",
+    "gradle-plugin",
+    "intellij-plugin",
+    "kotlin",
+    "kotlin-library",
+    "maven-plugin",
+    "programming-language",
+    "wasm",
+    "webassembly"
+  ],
+  "stars": 53363,
+  "forks": 6400,
+  "watchers": null,
+  "open_issues": 404,
+  "created_at": "2012-02-13T17:29:58Z",
+  "pushed_at": "2026-08-29T22:21:40Z",
+  "is_archived": false,
+  "license_spdx": null,
+  "license_category": "none",
+  "readme_excerpt": "Kotlin Programming Language Welcome to Kotlin! Kotlin is a concise multiplatform language developed by JetBrains and contributors. Some handy links: Kotlin Site Getting Started Guide Try Kotlin Kotlin Standard Library Issue Tracker Kotlin YouTube Channel Forum Kotlin Blog Subscribe to Kotlin YouTube channel Follow Kotlin on Twitter Public Slack channel TeamCity CI build Kotlin Foundation Kotlin Multiplatform capabilities Support for multiplatform programming is one of Kotlin’s key benefits. It…",
+  "readme_length": 9438,
+  "has_japanese_readme": false,
+  "contributors_count": 1190,
+  "releases_count": 301,
+  "ossf_scorecard": null,
+  "category": "dev-tool",
+  "flags": [
+    {
+      "id": "no_license",
+      "label": "利用条件不明",
+      "reason": "ライセンスが設定されていません。この場合は原則として全権利が留保され、利用できません。"
+    }
+  ],
+  "usability_score": 60,
+  "snapshot_days": 1,
+  "is_indexable": true,
+  "first_seen_at": "2026-08-29T23:02:08.747Z",
+  "tracking_tier": "hot",
+  "last_fetched_date": "2026-08-30",
+  "stars_stagnant_days": 0
+}

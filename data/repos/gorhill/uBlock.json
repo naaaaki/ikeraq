@@ -1,0 +1,47 @@
+{
+  "id": "gorhill/uBlock",
+  "owner": "gorhill",
+  "name": "uBlock",
+  "description_en": "uBlock Origin - An efficient blocker for Chromium and Firefox. Fast and lean.",
+  "human_note": null,
+  "language": "JavaScript",
+  "topics": [
+    "blocker",
+    "browser-extension",
+    "chromium",
+    "firefox",
+    "javascript",
+    "ublock",
+    "ublock-origin"
+  ],
+  "stars": 67376,
+  "forks": 4309,
+  "watchers": null,
+  "open_issues": 15,
+  "created_at": "2015-04-01T17:51:11Z",
+  "pushed_at": "2026-08-29T16:05:41Z",
+  "is_archived": false,
+  "license_spdx": "GPL-3.0",
+  "license_category": "strong-copyleft",
+  "readme_excerpt": "[![Badge Commits]][Commit Rate] [![Badge Issues]][Issues] [![Badge Localization]][Crowdin] [![Badge License]][License] [![Badge NPM]][NPM] [![Badge Mozilla]][Mozilla] [![Badge Chrome]][Chrome] [![Badge Edge]][Edge] uBlock Origin (uBO) | Browser | Install from ... | Status | | :-------: | ---------------- | ------ | | | Firefox Add-ons | uBO works best on Firefox | | | Edge Add-ons | \"Moving the Microsoft Edge extensions ecosystem forward with Manifest Version 3\" : \"Beginning in August 2026, Mic…",
+  "readme_length": 11129,
+  "has_japanese_readme": false,
+  "contributors_count": 128,
+  "releases_count": 289,
+  "ossf_scorecard": null,
+  "category": "other",
+  "flags": [
+    {
+      "id": "copyleft",
+      "label": "自社サービス組込み注意",
+      "reason": "GPL-3.0 です。組み込んだ側のソース公開が必要になる場合があります。"
+    }
+  ],
+  "usability_score": 85,
+  "snapshot_days": 1,
+  "is_indexable": true,
+  "first_seen_at": "2026-08-29T23:02:08.747Z",
+  "tracking_tier": "hot",
+  "last_fetched_date": "2026-08-30",
+  "stars_stagnant_days": 0
+}

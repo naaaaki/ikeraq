@@ -1,0 +1,49 @@
+{
+  "id": "freqtrade/freqtrade",
+  "owner": "freqtrade",
+  "name": "freqtrade",
+  "description_en": "Free, open source crypto trading bot",
+  "human_note": null,
+  "language": "Python",
+  "topics": [
+    "algorithmic-trading",
+    "bitcoin",
+    "cryptocurrencies",
+    "cryptocurrency",
+    "freqtrade",
+    "python",
+    "telegram-bot",
+    "trade",
+    "trading-bot"
+  ],
+  "stars": 53810,
+  "forks": 11176,
+  "watchers": null,
+  "open_issues": 35,
+  "created_at": "2017-05-17T23:48:53Z",
+  "pushed_at": "2026-08-27T16:26:43Z",
+  "is_archived": false,
+  "license_spdx": "GPL-3.0",
+  "license_category": "strong-copyleft",
+  "readme_excerpt": "Freqtrade is a free and open source crypto trading bot written in Python. It is designed to support all major exchanges and be controlled via Telegram or webUI. It contains backtesting, plotting and money management tools as well as strategy optimization by machine learning. Disclaimer This software is for educational purposes only. Do not risk money which you are afraid to lose. USE THE SOFTWARE AT YOUR OWN RISK. THE AUTHORS AND ALL AFFILIATES ASSUME NO RESPONSIBILITY FOR YOUR TRADING RESULTS.…",
+  "readme_length": 12770,
+  "has_japanese_readme": false,
+  "contributors_count": 400,
+  "releases_count": 116,
+  "ossf_scorecard": null,
+  "category": "other",
+  "flags": [
+    {
+      "id": "copyleft",
+      "label": "自社サービス組込み注意",
+      "reason": "GPL-3.0 です。組み込んだ側のソース公開が必要になる場合があります。"
+    }
+  ],
+  "usability_score": 85,
+  "snapshot_days": 1,
+  "is_indexable": true,
+  "first_seen_at": "2026-08-29T23:02:08.747Z",
+  "tracking_tier": "hot",
+  "last_fetched_date": "2026-08-30",
+  "stars_stagnant_days": 0
+}

@@ -1,0 +1,52 @@
+{
+  "id": "AppFlowy-IO/AppFlowy",
+  "owner": "AppFlowy-IO",
+  "name": "AppFlowy",
+  "description_en": "Bring projects, wikis, and teams together with AI. AppFlowy is the AI collaborative workspace where you achieve more without losing control of your data. The leading open source Notion alternative.",
+  "human_note": null,
+  "language": "Dart",
+  "topics": [
+    "blog",
+    "confluence-alternative",
+    "content-management",
+    "content-services",
+    "documentation",
+    "flutter",
+    "note-taking",
+    "notion-alternative",
+    "project-management",
+    "task-management",
+    "team-collaboration",
+    "wiki"
+  ],
+  "stars": 76062,
+  "forks": 5929,
+  "watchers": null,
+  "open_issues": 1009,
+  "created_at": "2021-06-16T12:56:48Z",
+  "pushed_at": "2026-08-28T06:32:59Z",
+  "is_archived": false,
+  "license_spdx": "AGPL-3.0",
+  "license_category": "strong-copyleft",
+  "readme_excerpt": "AppFlowy ⭐️ The Open Source Alternative To Notion ⭐️ AppFlowy is the AI workspace where you achieve more without losing control of your data Website • Forum • Discord • Reddit • Twitter User Installation - Download AppFlowy Desktop (macOS, Windows, and Linux) - Other channels: FlatHub, Snapcraft, Sourceforge - Available on - App Store: iPhone - Play Store: Android 10 or above; ARMv7 is not supported - Self-hosting AppFlowy - Source Built With - Flutter - Rust Stay Up-to-Date Getting Started wit…",
+  "readme_length": 8549,
+  "has_japanese_readme": false,
+  "contributors_count": 380,
+  "releases_count": 143,
+  "ossf_scorecard": null,
+  "category": "mobile",
+  "flags": [
+    {
+      "id": "copyleft",
+      "label": "自社サービス組込み注意",
+      "reason": "AGPL-3.0 です。組み込んだ側のソース公開が必要になる場合があります。"
+    }
+  ],
+  "usability_score": 85,
+  "snapshot_days": 1,
+  "is_indexable": true,
+  "first_seen_at": "2026-08-29T23:02:08.747Z",
+  "tracking_tier": "hot",
+  "last_fetched_date": "2026-08-30",
+  "stars_stagnant_days": 0
+}

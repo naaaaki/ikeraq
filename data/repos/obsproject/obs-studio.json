@@ -1,0 +1,51 @@
+{
+  "id": "obsproject/obs-studio",
+  "owner": "obsproject",
+  "name": "obs-studio",
+  "description_en": "OBS Studio - Free and open source software for live streaming and screen recording",
+  "human_note": null,
+  "language": "C",
+  "topics": [
+    "c",
+    "c-plus-plus",
+    "directshow",
+    "facebook-live",
+    "ffmpeg",
+    "game-capture",
+    "live-streaming",
+    "screen-capture",
+    "twitch-tv",
+    "video-recording",
+    "youtube-live"
+  ],
+  "stars": 75593,
+  "forks": 9940,
+  "watchers": null,
+  "open_issues": 1170,
+  "created_at": "2013-10-01T02:40:31Z",
+  "pushed_at": "2026-08-26T18:05:18Z",
+  "is_archived": false,
+  "license_spdx": "GPL-2.0",
+  "license_category": "strong-copyleft",
+  "readme_excerpt": "OBS Studio .. image:: https://github.com/obsproject/obs-studio/actions/workflows/push.yaml/badge.svg?branch=master :alt: OBS Studio Build Status - GitHub Actions :target: https://github.com/obsproject/obs-studio/actions/workflows/push.yaml?query=branch%3Amaster .. image:: https://badges.crowdin.net/obs-studio/localized.svg :alt: OBS Studio Translation Project Progress :target: https://crowdin.com/project/obs-studio .. image:: https://img.shields.io/discord/348973006581923840.svg?label=&logo=dis…",
+  "readme_length": 3139,
+  "has_japanese_readme": false,
+  "contributors_count": 745,
+  "releases_count": 247,
+  "ossf_scorecard": null,
+  "category": "game",
+  "flags": [
+    {
+      "id": "copyleft",
+      "label": "自社サービス組込み注意",
+      "reason": "GPL-2.0 です。組み込んだ側のソース公開が必要になる場合があります。"
+    }
+  ],
+  "usability_score": 85,
+  "snapshot_days": 1,
+  "is_indexable": true,
+  "first_seen_at": "2026-08-29T23:02:08.747Z",
+  "tracking_tier": "hot",
+  "last_fetched_date": "2026-08-30",
+  "stars_stagnant_days": 0
+}
