@@ -9,6 +9,7 @@ import Base from '../../layouts/Base.astro';
 import { getSiteData } from '../../lib/content.js';
 import { num } from '../../lib/format.js';
 import Mascot from '../../components/Mascot.astro';
+import { CONTACT_EMAIL } from '../../lib/site.js';
 
 const site = await getSiteData();
 ---
@@ -92,13 +93,21 @@ const site = await getSiteData();
       </div>
     </section>
 
-    {/*
-      ★お問い合わせの節は、連絡先が決まるまで出さない。
-        「公開前に記載すること」という作業メモを本文として出すと、そのまま読者に見える。
-        窓口そのものは公開前に必須（docs/TODO.md A-1）。実在の店舗・人物ではなく
-        リポジトリを扱うが、事実誤認の指摘を受ける口は要る。
-        連絡先が決まったら、ここを開いて書くこと。
-    */}
+    <section class="block">
+      <h2 class="sec">お問い合わせ</h2>
+      <div class="prose">
+        <p>
+          事実誤認のご指摘、掲載の取り下げのご依頼は、こちらまでご連絡ください。
+          内容を確認のうえ対応します。
+        </p>
+        <p style="font-size: 17px;">
+          <a href={`mailto:${CONTACT_EMAIL}`}>{CONTACT_EMAIL}</a>
+        </p>
+        <p class="meta" style="line-height: 1.9;">
+          個人で運営しているため、返信までにお時間をいただく場合があります。
+        </p>
+      </div>
+    </section>
 
     <section class="block">
       <h2 class="sec">免責</h2>
