@@ -1,0 +1,47 @@
+{
+  "id": "papers-we-love/papers-we-love",
+  "owner": "papers-we-love",
+  "name": "papers-we-love",
+  "description_en": "Papers from the computer science community to read and discuss.",
+  "human_note": null,
+  "language": "Shell",
+  "topics": [
+    "awesome",
+    "computer-science",
+    "meetup",
+    "papers",
+    "programming",
+    "read-papers",
+    "theory"
+  ],
+  "stars": 109086,
+  "forks": 6417,
+  "watchers": null,
+  "open_issues": 3,
+  "created_at": "2013-12-15T14:31:41Z",
+  "pushed_at": "2026-08-24T09:14:23Z",
+  "is_archived": false,
+  "license_spdx": null,
+  "license_category": "none",
+  "readme_excerpt": "Papers We Love (PWL) is a community built around reading, discussing and learning more about academic computer science papers. This repository serves as a directory of some of the best papers the community can find, bringing together documents scattered across the web. You can also visit the Papers We Love site for more info. Due to licenses we cannot always host the papers themselves (when we do, you will see a :scroll: emoji next to its title in the directory README) but we can provide links…",
+  "readme_length": 5313,
+  "has_japanese_readme": false,
+  "contributors_count": 309,
+  "releases_count": 0,
+  "ossf_scorecard": null,
+  "category": "learning",
+  "flags": [
+    {
+      "id": "no_license",
+      "label": "利用条件不明",
+      "reason": "ライセンスが設定されていません。この場合は原則として全権利が留保され、利用できません。"
+    }
+  ],
+  "usability_score": 60,
+  "snapshot_days": 1,
+  "is_indexable": true,
+  "first_seen_at": "2026-08-29T15:46:21.821Z",
+  "tracking_tier": "hot",
+  "last_fetched_date": "2026-08-30",
+  "stars_stagnant_days": 0
+}

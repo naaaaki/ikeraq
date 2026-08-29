@@ -1,0 +1,48 @@
+{
+  "id": "clash-verge-rev/clash-verge-rev",
+  "owner": "clash-verge-rev",
+  "name": "clash-verge-rev",
+  "description_en": "A modern GUI client based on Tauri, designed to run in Windows, macOS and Linux for tailored proxy experience",
+  "human_note": null,
+  "language": "TypeScript",
+  "topics": [
+    "clash",
+    "clash-meta",
+    "clash-verge",
+    "linux",
+    "mac",
+    "mihomo",
+    "tauri-app",
+    "windows"
+  ],
+  "stars": 140948,
+  "forks": 10146,
+  "watchers": null,
+  "open_issues": 419,
+  "created_at": "2023-11-21T18:24:03Z",
+  "pushed_at": "2026-08-29T14:54:15Z",
+  "is_archived": false,
+  "license_spdx": "GPL-3.0",
+  "license_category": "strong-copyleft",
+  "readme_excerpt": "Continuation of Clash Verge A Clash Meta GUI based on Tauri . Languages: 简体中文 · English · Español · Русский · 日本語 · 한국어 · فارسی Preview | Dark | Light | Install 请到发布页面下载对应的安装包：Release page Go to the Release page to download the corresponding installation package Supports Windows (x64/x86), Linux (x64/arm64) and macOS 11+ (intel/apple). 我应当怎样选择发行版 | 版本 | 特征 | 链接 | | :---------- | :--------------------------------------- | :-------------------------------------------------------------------------…",
+  "readme_length": 4791,
+  "has_japanese_readme": false,
+  "contributors_count": 166,
+  "releases_count": 67,
+  "ossf_scorecard": null,
+  "category": "other",
+  "flags": [
+    {
+      "id": "copyleft",
+      "label": "自社サービス組込み注意",
+      "reason": "GPL-3.0 です。組み込んだ側のソース公開が必要になる場合があります。"
+    }
+  ],
+  "usability_score": 85,
+  "snapshot_days": 1,
+  "is_indexable": true,
+  "first_seen_at": "2026-08-29T15:46:21.820Z",
+  "tracking_tier": "hot",
+  "last_fetched_date": "2026-08-30",
+  "stars_stagnant_days": 0
+}

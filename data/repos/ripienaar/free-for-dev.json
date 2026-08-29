@@ -1,0 +1,42 @@
+{
+  "id": "ripienaar/free-for-dev",
+  "owner": "ripienaar",
+  "name": "free-for-dev",
+  "description_en": "A list of SaaS, PaaS and IaaS offerings that have free tiers of interest to devops and infradev",
+  "human_note": null,
+  "language": "HTML",
+  "topics": [
+    "awesome-list",
+    "free-for-developers"
+  ],
+  "stars": 135852,
+  "forks": 14241,
+  "watchers": null,
+  "open_issues": 12,
+  "created_at": "2015-03-18T21:06:26Z",
+  "pushed_at": "2026-08-28T08:34:33Z",
+  "is_archived": false,
+  "license_spdx": null,
+  "license_category": "none",
+  "readme_excerpt": "free-for.dev Developers and open-source authors now have many services offering free tiers, but finding them all takes time to make informed decisions. This is a list of software (SaaS, PaaS, IaaS, etc.) and other offerings with free developer tiers. The scope of this particular list is limited to things that infrastructure developers (System Administrators, DevOps Practitioners, etc.) are likely to find useful. We love all the free services out there, but it would be good to keep it on topic.…",
+  "readme_length": 254768,
+  "has_japanese_readme": false,
+  "contributors_count": 2256,
+  "releases_count": 0,
+  "ossf_scorecard": null,
+  "category": "learning",
+  "flags": [
+    {
+      "id": "no_license",
+      "label": "利用条件不明",
+      "reason": "ライセンスが設定されていません。この場合は原則として全権利が留保され、利用できません。"
+    }
+  ],
+  "usability_score": 60,
+  "snapshot_days": 1,
+  "is_indexable": true,
+  "first_seen_at": "2026-08-29T15:46:21.820Z",
+  "tracking_tier": "hot",
+  "last_fetched_date": "2026-08-30",
+  "stars_stagnant_days": 0
+}

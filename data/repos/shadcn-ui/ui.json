@@ -1,0 +1,53 @@
+{
+  "id": "shadcn-ui/ui",
+  "owner": "shadcn-ui",
+  "name": "ui",
+  "description_en": "A set of beautifully-designed, accessible components and a code distribution platform. Works with your favorite frameworks. Open Source. Open Code.",
+  "human_note": null,
+  "language": "TypeScript",
+  "topics": [
+    "base-ui",
+    "components",
+    "laravel",
+    "nextjs",
+    "radix-ui",
+    "react",
+    "react-aria",
+    "react-aria-components",
+    "shadcn",
+    "tailwindcss",
+    "tanstack",
+    "ui",
+    "vite"
+  ],
+  "stars": 122490,
+  "forks": 10026,
+  "watchers": null,
+  "open_issues": 2263,
+  "created_at": "2023-01-04T12:43:27Z",
+  "pushed_at": "2026-08-26T06:28:13Z",
+  "is_archived": false,
+  "license_spdx": "MIT",
+  "license_category": "permissive",
+  "readme_excerpt": "shadcn/ui A set of beautifully designed components that you can customize, extend, and build on. Start here then make it your own. Open Source. Open Code. Use this to build your own component library. Documentation Visit https://ui.shadcn.com/docs to view the documentation. Contributing Please read the contributing guide. License Licensed under the MIT license.",
+  "readme_length": 467,
+  "has_japanese_readme": false,
+  "contributors_count": 638,
+  "releases_count": 118,
+  "ossf_scorecard": null,
+  "category": "web-frontend",
+  "flags": [
+    {
+      "id": "thin_readme",
+      "label": "ドキュメントが少なめ",
+      "reason": "README が 467 字です（判定は 500 字未満）。単機能のライブラリでは正常な場合もあります。"
+    }
+  ],
+  "usability_score": 90,
+  "snapshot_days": 1,
+  "is_indexable": true,
+  "first_seen_at": "2026-08-29T15:46:21.820Z",
+  "tracking_tier": "hot",
+  "last_fetched_date": "2026-08-30",
+  "stars_stagnant_days": 0
+}

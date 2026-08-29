@@ -1,0 +1,43 @@
+{
+  "id": "laravel/laravel",
+  "owner": "laravel",
+  "name": "laravel",
+  "description_en": "Laravel is a web application framework with expressive, elegant syntax. We’ve already laid the foundation for your next big idea — freeing you to create without sweating the small things.",
+  "human_note": null,
+  "language": "Blade",
+  "topics": [
+    "framework",
+    "laravel",
+    "php"
+  ],
+  "stars": 84891,
+  "forks": 24889,
+  "watchers": null,
+  "open_issues": 31,
+  "created_at": "2011-06-08T03:06:08Z",
+  "pushed_at": "2026-08-25T16:27:45Z",
+  "is_archived": false,
+  "license_spdx": null,
+  "license_category": "none",
+  "readme_excerpt": "About Laravel Laravel is a web application framework with expressive, elegant syntax. We believe development must be an enjoyable and creative experience to be truly fulfilling. Laravel takes the pain out of development by easing common tasks used in many web projects, such as: - Simple, fast routing engine. - Powerful dependency injection container. - Multiple back-ends for session and cache storage. - Expressive, intuitive database ORM. - Database agnostic schema migrations. - Robust backgrou…",
+  "readme_length": 3700,
+  "has_japanese_readme": false,
+  "contributors_count": 863,
+  "releases_count": 228,
+  "ossf_scorecard": null,
+  "category": "other",
+  "flags": [
+    {
+      "id": "no_license",
+      "label": "利用条件不明",
+      "reason": "ライセンスが設定されていません。この場合は原則として全権利が留保され、利用できません。"
+    }
+  ],
+  "usability_score": 60,
+  "snapshot_days": 1,
+  "is_indexable": true,
+  "first_seen_at": "2026-08-29T15:46:21.821Z",
+  "tracking_tier": "hot",
+  "last_fetched_date": "2026-08-30",
+  "stars_stagnant_days": 0
+}

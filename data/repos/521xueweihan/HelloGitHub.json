@@ -1,0 +1,44 @@
+{
+  "id": "521xueweihan/HelloGitHub",
+  "owner": "521xueweihan",
+  "name": "HelloGitHub",
+  "description_en": ":octocat: 分享 GitHub 上有趣、入门级的开源项目。Share interesting, entry-level open source projects on GitHub.",
+  "human_note": null,
+  "language": "Python",
+  "topics": [
+    "awesome",
+    "github",
+    "hellogithub",
+    "python"
+  ],
+  "stars": 173589,
+  "forks": 12674,
+  "watchers": null,
+  "open_issues": 657,
+  "created_at": "2016-05-04T06:24:11Z",
+  "pushed_at": "2026-08-28T00:38:12Z",
+  "is_archived": false,
+  "license_spdx": null,
+  "license_category": "none",
+  "readme_excerpt": "中文 | English | 日本語 分享 GitHub 上有趣、入门级的开源项目。 兴趣是最好的老师，HelloGitHub 帮你找到开源的乐趣！ 简介 HelloGitHub 分享 GitHub 上有趣、入门级的开源项目。每月 28 号以月刊的形式更新发布，内容包括：有趣、入门级的开源项目、开源书籍、实战项目、企业级项目等，让你用很短时间感受到开源的魅力，爱上开源！ 内容 获得更好的阅读体验 官网 或 HelloGitHub 公众号 | :cardindex: | :jackolantern: | :beer: | :fishcake: | :octocat: | | 第 125 期 | 第 124 期 | 第 123 期 | 第 122 期 | 第 121 期 | | 第 120 期 | 第 119 期 | 第 118 期 | 第 117 期 | 第 116 期 | | 第 115 期 | 第 114 期 | 第 113 期 | 第 112 期 | 第 111 期 | | 第 110 期 | 第 109 期 | 第 108 期 | 第 107 期 | 第 106 期 | | 第…",
+  "readme_length": 5785,
+  "has_japanese_readme": true,
+  "contributors_count": 11,
+  "releases_count": 69,
+  "ossf_scorecard": null,
+  "category": "learning",
+  "flags": [
+    {
+      "id": "no_license",
+      "label": "利用条件不明",
+      "reason": "ライセンスが設定されていません。この場合は原則として全権利が留保され、利用できません。"
+    }
+  ],
+  "usability_score": 60,
+  "snapshot_days": 1,
+  "is_indexable": true,
+  "first_seen_at": "2026-08-29T15:46:21.820Z",
+  "tracking_tier": "hot",
+  "last_fetched_date": "2026-08-30",
+  "stars_stagnant_days": 0
+}
