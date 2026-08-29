@@ -1,0 +1,369 @@
+---
+/**
+ * 個別ページ（design/Repo.dc.html / docs/structure-proposal.html）
+ *
+ * 2種類ある。
+ *   A. 紹介文を書いたページ  … 人が書いた文章が主役
+ *   B. 書いていないページ    … 記録したデータが主役。Aの短縮版にしない
+ *
+ * ★ 紹介文も無く、記録も足りないページは noindex にする（SPEC §2.5）。
+ *   中身の薄いページを検索エンジンに出すと、サイト全体の評価が下がる。
+ * ★ 断定しない。警告は「疑い」までしか言わない（SPEC §8）
+ */
+import type { GetStaticPaths } from 'astro';
+import Base from '../../../layouts/Base.astro';
+import RepoLink from '../../../components/RepoLink.astro';
+import GithubLink from '../../../components/GithubLink.astro';
+import StarChart from '../../../components/StarChart.astro';
+import { getSiteData, type RepoView } from '../../../lib/content.js';
+import {
+  categoryLabel,
+  languageColor,
+  licenseLabel,
+  num,
+  repoUrl,
+  toJstDate,
+  updatedAgo,
+} from '../../../lib/format.js';
+import { plainText, renderFigure, renderMarkdown, splitFigure, splitSections } from '../../../lib/note.js';
+import { daysSince } from '../../../../scripts/lib/date.js';
+
+export const getStaticPaths = (async () => {
+  const site = await getSiteData();
+  return site.repos.map((item) => ({
+    params: { owner: item.repo.owner, name: item.repo.name },
+    props: { item },
+  }));
+}) satisfies GetStaticPaths;
+
+interface Props {
+  item: RepoView;
+}
+const { item } = Astro.props;
+const { repo, note, delta, history } = item;
+
+const lic = licenseLabel(repo);
+const ago = updatedAgo(repo.pushed_at);
+const ageDays = daysSince(repo.created_at);
+
+// --- 紹介文をほどく（節ごとに置き場所が違う） ---
+const parsed = note ? splitSections(note.body) : null;
+const lead = parsed?.sections.get('見出しの一文');
+const leadText = lead ? plainText(lead) : null;
+
+const figureSection = parsed?.sections.get('図');
+const figure = figureSection ? splitFigure(figureSection) : null;
+const figureHtml = figure?.figure ? await renderFigure(figure.figure) : null;
+
+const BODY_ORDER = ['どういうものか', 'どんなときに使うか', '使い方', '注意点'] as const;
+const bodyBlocks = await Promise.all(
+  BODY_ORDER.filter((h) => parsed?.sections.has(h)).map(async (h) => ({
+    heading: h as string,
+    html: await renderMarkdown(parsed!.sections.get(h)!),
+  }))
+);
+const extraBlocks = await Promise.all(
+  (parsed?.extra ?? []).map(async (e) => ({ heading: e.heading, html: await renderMarkdown(e.body) }))
+);
+const blocks = [...bodyBlocks, ...extraBlocks];
+const hasHowTo = bodyBlocks.some((b) => b.heading === '使い方');
+
+const slug = (heading: string) => encodeURIComponent(heading);
+
+// --- 関連（同じカテゴリから。回遊の導線） ---
+const site = await getSiteData();
+const related = site.repos
+  .filter((v) => v.repo.id !== repo.id && v.repo.category === repo.category)
+  .sort((a, b) => b.repo.stars - a.repo.stars)
+  .slice(0, 3);
+
+// --- 開発の様子。数字はすべて取得したもの。無いものは出さない ---
+type Fact = { v: string; u: string; k: string };
+const facts: Fact[] = [
+  ageDays >= 365
+    ? { v: (ageDays / 365).toFixed(1), u: '年', k: `公開してからの期間。${toJstDate(repo.created_at)} が最初のコミットです` }
+    : {
+        v: String(Math.max(1, Math.round(ageDays / 30))),
+        u: 'か月',
+        k: `公開してからの期間。${toJstDate(repo.created_at)} が最初のコミットです`,
+      },
+  repo.releases_count !== null ? { v: num(repo.releases_count), u: '回', k: 'リリースの回数です' } : null,
+  repo.contributors_count !== null ? { v: num(repo.contributors_count), u: '人', k: '開発に参加した人数です' } : null,
+  { v: String(ago.days), u: '日前', k: '最後のコミットです' },
+  { v: num(repo.open_issues), u: '件', k: '未解決のまま残っている Issue の数です' },
+  // ★記録日数はここに出さない。同じことをサイドバーのスター推移が示していて、二重になる
+].filter((f): f is Fact => f !== null);
+
+// --- メタ情報 ---
+const description = leadText ?? repo.description_en ?? `${repo.id} のスター数・ライセンス・更新状況をまとめています。`;
+const canonical = new URL(repoUrl(repo.id), Astro.site).href;
+
+const breadcrumb = {
+  '@context': 'https://schema.org',
+  '@type': 'BreadcrumbList',
+  itemListElement: [
+    { '@type': 'ListItem', position: 1, name: 'ホーム', item: new URL('/', Astro.site).href },
+    {
+      '@type': 'ListItem',
+      position: 2,
+      name: categoryLabel(repo.category),
+      item: new URL(`/category/${repo.category ?? 'other'}/`, Astro.site).href,
+    },
+    { '@type': 'ListItem', position: 3, name: repo.id, item: canonical },
+  ],
+};
+
+// 紹介文があるページだけ Article を出す。データだけのページを記事と名乗らせない
+const article = note
+  ? {
+      '@context': 'https://schema.org',
+      '@type': 'Article',
+      headline: leadText ?? repo.id,
+      description,
+      inLanguage: 'ja',
+      url: canonical,
+      datePublished: note.updated ?? undefined,
+      dateModified: note.updated ?? undefined,
+      author: { '@type': 'Organization', name: 'Wakuru 編集部' },
+      publisher: { '@type': 'Organization', name: 'Wakuru' },
+    }
+  : null;
+
+/** JSON-LD に閉じタグが混ざるとページが壊れる。文字参照にしてから埋める */
+const jsonld = (value: unknown) => JSON.stringify(value).replace(/</g, '\\u003c');
+
+const noteCredit = note
+  ? `この記事は編集部が書きました${note.updated ? `（${note.updated}）` : ''}。`
+  : 'このページは自動で作られています。';
+---
+
+<Base title={repo.id} description={description} noindex={!repo.is_indexable} canonical={canonical} wide compact>
+  <script type="application/ld+json" slot="head" is:inline set:html={jsonld(breadcrumb)} />
+  {article && <script type="application/ld+json" slot="head" is:inline set:html={jsonld(article)} />}
+
+  <nav class="meta" aria-label="パンくず" style="padding-top: 18px;">
+    <a href="/" style="color: var(--ink3);">ホーム</a>
+    <span style="padding: 0 7px; color: var(--rule2);">/</span>
+    <a href={`/category/${repo.category ?? 'other'}/`} style="color: var(--ink3);">{categoryLabel(repo.category)}</a>
+    <span style="padding: 0 7px; color: var(--rule2);">/</span>
+    <span>{repo.id}</span>
+  </nav>
+
+  <div style="display: flex; gap: 56px; align-items: flex-start; flex-wrap: wrap; padding-top: 26px;">
+    <main id="main" class="article">
+      <h1 style="margin: 0 0 12px;">
+        <RepoLink id={repo.id} size={27} />
+      </h1>
+
+      {repo.description_en && <div class="en" style="margin: 4px 0 20px;">{repo.description_en}</div>}
+
+      {
+        leadText && (
+          <p class="display" style="margin: 0 0 22px; font-size: 25px; line-height: 1.5;">
+            {leadText}
+          </p>
+        )
+      }
+
+      <div
+        style="display: flex; align-items: center; gap: 14px; flex-wrap: wrap; padding-bottom: 30px; border-bottom: 1px solid var(--rule2);"
+      >
+        <span class={`lic ${lic.tone === 'ok' ? '' : lic.tone}`}>{lic.text}</span>
+        <span class="meta">
+          <span class="lang">
+            <span class="dot" style={`background: ${languageColor(repo.language)};`} />
+            {repo.language ?? '—'}
+          </span>
+        </span>
+        <span class="meta">
+          ★ <b class="num">{num(repo.stars)}</b>
+          {delta !== null && (
+            <>
+              （今日 <b class="num" style="color: var(--accent);">+{num(delta)}</b>）
+            </>
+          )}
+        </span>
+        <span class="meta" style={ago.days >= 180 ? 'color: var(--warn);' : ''}>{ago.text}</span>
+        {repo.has_japanese_readme && <span class="meta">日本語 README あり</span>}
+      </div>
+
+      {/* ★原典への出口。紹介サイトなので、ここが見つからないと読み手の行き場がなくなる */}
+      <div style="padding-top: 22px;">
+        <GithubLink id={repo.id} variant="button" />
+      </div>
+
+      {
+        repo.flags.length > 0 && (
+          <div class="callout" style="margin-top: 30px;">
+            <b>気をつける点</b>
+            <ul style="margin: 8px 0 0; padding-left: 1.3em;">
+              {repo.flags.map((f) => (
+                <li>
+                  {f.label} — {f.reason}
+                </li>
+              ))}
+            </ul>
+          </div>
+        )
+      }
+
+      <div style="padding-top: 44px;">
+        {
+          blocks.map((b) => (
+            <section class="block" id={slug(b.heading)}>
+              <h2 class="sec">{b.heading}</h2>
+              <div class="prose" set:html={b.html} />
+              {b.heading === 'どういうものか' && figureHtml && (
+                <figure class="fig" style="margin-top: 30px;">
+                  <div class="frame" set:html={figureHtml} />
+                  {figure?.caption && <figcaption>{figure.caption}</figcaption>}
+                </figure>
+              )}
+            </section>
+          ))
+        }
+
+        {
+          note && !hasHowTo && (
+            <section class="block">
+              {/* ★実際に動かせていないときは節ごと省く（D-006）。書いていない理由まで書く */}
+              <h2 class="sec" style="color: var(--ink3); border-bottom-color: var(--rule);">
+                使い方
+              </h2>
+              <p class="meta" style="margin: 0; line-height: 1.9;">
+                この記事には手順を載せていません。実際に動かせたものだけ書く決まりにしています。
+                <a href="/about/">記事の作り方</a>
+              </p>
+            </section>
+          )
+        }
+
+        {
+          !note && (
+            <section class="block">
+              {/* B型。Aの短縮版にしない。記録したデータを主役にする */}
+              <h2 class="sec">記録している数値</h2>
+              <p class="meta" style="margin: 0 0 20px; line-height: 1.9;">
+                このリポジトリには、まだ日本語の紹介文がありません。以下は GitHub から取得した数値と、Wakuru
+                が記録しているスター数の推移です。
+              </p>
+              <StarChart history={history} width={640} height={120} />
+            </section>
+          )
+        }
+
+        <section class="block" id="health">
+          <h2 class="sec">開発の様子</h2>
+          <div class="facts">
+            {
+              facts.map((f) => (
+                <div class="fact">
+                  <div class="v">
+                    {f.v}
+                    <span class="u">{f.u}</span>
+                  </div>
+                  <div class="k">{f.k}</div>
+                </div>
+              ))
+            }
+          </div>
+          <p class="meta" style="margin: 16px 0 0; line-height: 1.9;">
+            数値は GitHub から取得したものです。どの条件で警告が付くかは<a href="/about/criteria/">判定の条件</a
+            >に公開しています。
+          </p>
+        </section>
+
+        {
+          related.length > 0 && (
+            <section class="block" id="similar">
+              <h2 class="sec">ほかの候補</h2>
+              {related.map((r) => (
+                <a
+                  href={repoUrl(r.repo.id)}
+                  style="display: block; padding: 14px 0; border-bottom: 1px solid var(--rule); color: var(--ink);"
+                >
+                  <RepoLink id={r.repo.id} size={14.5} />
+                  {r.lead ? (
+                    <div style="margin-top: 5px; font-size: 13.5px; line-height: 1.7; color: var(--ink2);">{r.lead}</div>
+                  ) : (
+                    r.repo.description_en && <div class="en" style="margin-top: 5px;">{r.repo.description_en}</div>
+                  )}
+                </a>
+              ))}
+            </section>
+          )
+        }
+
+        {/* ★出典と免責。削らないこと（SPEC §8） */}
+        <p class="meta" style="line-height: 1.95; border-top: 1px solid var(--rule); padding-top: 22px;">
+          {noteCredit}
+          内容は公開されている README と GitHub のデータに基づいています。
+          {
+            note && !hasHowTo && (
+              <b style="font-weight: 500; color: var(--ink2);">
+                まだ実際には動かしていないため、「使い方」の節はありません。
+              </b>
+            )
+          }
+          数値は GitHub から取得したもの、警告は<a href="/about/criteria/">公開している条件</a
+          >による自動判定です。事実誤認を見つけた場合はお知らせください。
+        </p>
+      </div>
+    </main>
+
+    <aside class="article-aside">
+      {
+        blocks.length > 0 && (
+          <nav class="toc" aria-label="目次">
+            <div class="label" style="margin-bottom: 12px;">
+              目次
+            </div>
+            {blocks.map((b) => (
+              <a href={`#${slug(b.heading)}`}>{b.heading}</a>
+            ))}
+            <a href="#health">開発の様子</a>
+            {related.length > 0 && <a href="#similar">ほかの候補</a>}
+          </nav>
+        )
+      }
+
+      <section>
+        <div class="label" style="padding-bottom: 12px; border-bottom: 1px solid var(--rule2);">スター数</div>
+        <div style="padding-top: 14px;">
+          <div class="num" style="font-size: 26px; font-weight: 500; line-height: 1;">{num(repo.stars)}</div>
+          {
+            delta !== null && (
+              <div class="meta" style="padding-top: 6px;">
+                今日 <b class="num" style="color: var(--accent);">+{num(delta)}</b>
+              </div>
+            )
+          }
+          <div style="padding-top: 14px;">
+            <StarChart history={history} />
+          </div>
+        </div>
+      </section>
+
+      <section>
+        <div class="label" style="padding-bottom: 12px; border-bottom: 1px solid var(--rule2);">そのほかの数字</div>
+        <div style="padding-top: 4px;">
+          <div class="kv"><span>Fork</span><b>{num(repo.forks)}</b></div>
+          {repo.watchers !== null && <div class="kv"><span>Watch</span><b>{num(repo.watchers)}</b></div>}
+          <div class="kv"><span>未解決の Issue</span><b>{num(repo.open_issues)}</b></div>
+          {repo.contributors_count !== null && <div class="kv"><span>コントリビュータ</span><b>{num(repo.contributors_count)}</b></div>}
+          {repo.releases_count !== null && <div class="kv"><span>リリース</span><b>{num(repo.releases_count)}</b></div>}
+        </div>
+      </section>
+
+      <section>
+        <div class="label" style="padding-bottom: 12px; border-bottom: 1px solid var(--rule2);">基本情報</div>
+        <div style="padding-top: 4px;">
+          <div class="kv"><span>作成</span><b>{toJstDate(repo.created_at)}</b></div>
+          <div class="kv"><span>最終コミット</span><b>{toJstDate(repo.pushed_at)}</b></div>
+          <div class="kv"><span>日本語 README</span><b>{repo.has_japanese_readme ? 'あり' : 'なし'}</b></div>
+          <div class="kv"><span>カテゴリ</span><b>{categoryLabel(repo.category)}</b></div>
+        </div>
+      </section>
+    </aside>
+  </div>
+</Base>

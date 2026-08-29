@@ -1,0 +1,36 @@
+---
+/**
+ * 殿堂入り（structure-proposal「追加」）
+ *
+ * ★ 毎日の記録があって初めて作れるページ。ここが競合に追いつかれにくい部分。
+ *   「今日たまたま伸びた」ではなく「ずっと注目されている」を示す。
+ *
+ * 記録が浅いうちは、無理に埋めない。条件を満たすものが出るまで、
+ * 何日たてば出るのかを書いておく。
+ */
+import ListPage from '../../layouts/ListPage.astro';
+import { getSiteData, HALL_OF_FAME_DAYS, TREND_RANK } from '../../lib/content.js';
+import { num } from '../../lib/format.js';
+
+const site = await getSiteData();
+const items = site.repos
+  .filter((v) => v.trendDays >= HALL_OF_FAME_DAYS)
+  .sort((a, b) => b.trendDays - a.trendDays || b.repo.stars - a.repo.stars);
+
+const empty =
+  site.snapshotCount === 0
+    ? '毎日の記録がまだありません。収集が始まると、上位に入った回数を数えはじめます。'
+    : `上位${TREND_RANK}位に${HALL_OF_FAME_DAYS}日以上入ったリポジトリは、まだありません。いまの記録は${num(site.snapshotCount)}日分です。`;
+---
+
+<ListPage
+  title="殿堂入り"
+  heading="殿堂入り"
+  description={`トレンドの上位${TREND_RANK}位に${HALL_OF_FAME_DAYS}日以上入ったリポジトリ。一日だけ伸びたものではなく、繰り返し注目されているものです。`}
+  lede={`Wakuru が毎日記録しているスター数の順位から、上位${TREND_RANK}位に${HALL_OF_FAME_DAYS}日以上入ったものを集めています。記録している日数は${num(site.snapshotCount)}日分です。`}
+  items={items}
+  label="繰り返し上位に入ったリポジトリ"
+  note={`上位入りの多い順 · ${num(items.length)}件`}
+  empty={empty}
+  noindex={items.length === 0}
+/>

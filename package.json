@@ -3,7 +3,7 @@
   "version": "0.1.0",
   "private": true,
   "type": "module",
-  "description": "GitHubでトレンド入りしたリポジトリを日本語で紹介するサイト（Phase 0: データ収集）",
+  "description": "GitHubでトレンド入りしたリポジトリを日本語で紹介するサイト",
   "engines": {
     "node": ">=20.11"
   },
@@ -15,11 +15,19 @@
     "monitor": "tsx --env-file-if-exists=.env scripts/monitor.ts",
     "stats": "tsx --env-file-if-exists=.env scripts/stats.ts",
     "typecheck": "tsc --noEmit",
-    "test": "tsx --test test/*.test.ts"
+    "test": "tsx --test test/*.test.ts",
+    "dev": "astro dev",
+    "build": "astro build",
+    "preview": "astro preview"
   },
   "devDependencies": {
     "@types/node": "24.10.1",
     "tsx": "4.20.6",
     "typescript": "5.9.3"
+  },
+  "dependencies": {
+    "@astrojs/rss": "4.0.19",
+    "@astrojs/sitemap": "3.7.3",
+    "astro": "5.18.2"
   }
 }

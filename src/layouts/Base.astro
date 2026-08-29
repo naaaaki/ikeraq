@@ -1,0 +1,179 @@
+---
+/**
+ * 全ページ共通の枠（design/Main.dc.html が原本）
+ *
+ * ★ ステマ規制の表記はファーストビューに置く（SPEC §8.1）。
+ *   全ページの最上部に固定するので、個別ページで消せないようにここに置いてある。
+ */
+import '../styles/global.css';
+
+interface Props {
+  title: string;
+  description: string;
+  /** 検索エンジンに載せない（SPEC §2.5）。中身の薄いページを弾くために使う */
+  noindex?: boolean;
+  /** 正規 URL。既定は現在の URL */
+  canonical?: string;
+  /** 一覧ページ以外はサイドバーを持たない */
+  wide?: boolean;
+  /**
+   * 記事ページ用の細いヘッダ（design/Repo.dc.html）。
+   * 読み始めるまでの高さを削るため、記事では説明文とナビを1段にたたむ
+   */
+  compact?: boolean;
+}
+
+const { title, description, noindex = false, canonical, wide = false, compact = false } = Astro.props;
+
+const siteName = 'Wakuru';
+const pageTitle = title === siteName ? `${siteName} — 新しい技術が、わかる。` : `${title} | ${siteName}`;
+const canonicalUrl = canonical ?? new URL(Astro.url.pathname, Astro.site).href;
+
+/**
+ * ★ 作っていないページはここに並べない。
+ *   「今週のまとめ」「ニュースレター」は素材と受け口ができてから足す
+ */
+const NAV = [
+  { href: '/', label: '今日' },
+  { href: '/hall-of-fame/', label: '殿堂入り' },
+  { href: '/category/', label: 'カテゴリ' },
+  { href: '/japanese/', label: '日本語README' },
+  { href: '/about/', label: 'このサイトについて' },
+];
+
+const path = Astro.url.pathname;
+const isCurrent = (href: string) => (href === '/' ? path === '/' : path.startsWith(href));
+---
+
+<!doctype html>
+<html lang="ja">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>{pageTitle}</title>
+    <meta name="description" content={description} />
+    <link rel="canonical" href={canonicalUrl} />
+    {noindex && <meta name="robots" content="noindex, follow" />}
+
+    <meta property="og:type" content="website" />
+    <meta property="og:site_name" content={siteName} />
+    <meta property="og:title" content={pageTitle} />
+    <meta property="og:description" content={description} />
+    <meta property="og:url" content={canonicalUrl} />
+    <meta name="twitter:card" content="summary" />
+
+    <link rel="alternate" type="application/rss+xml" title={siteName} href="/feed.xml" />
+
+    <!-- 表示より先に書体を取りに行かせる。日本語の書体は重いので、遅れると読み始めがずれる -->
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css2?family=Newsreader:opsz,wght@6..72,400;6..72,500&family=Zen+Kaku+Gothic+New:wght@400;500;700&family=JetBrains+Mono:wght@400;500;600&display=swap"
+    />
+
+    <slot name="head" />
+  </head>
+
+  <body>
+    <a class="visually-hidden skip-link" href="#main">本文へ移動</a>
+
+    <!-- ステマ規制の表記。ファーストビューに置く（SPEC §8.1） -->
+    <div style="border-bottom: 1px solid var(--rule); background: var(--sink);">
+      <div class="wrap" style="padding-top: 8px; padding-bottom: 8px;">
+        <span style="font-size: 11.5px; color: var(--ink3);">当サイトはアフィリエイト広告を利用しています</span>
+      </div>
+    </div>
+
+    {
+      compact ? (
+        <header style="border-bottom: 1px solid var(--rule2);">
+          <div
+            class="wrap"
+            style="padding-top: 20px; padding-bottom: 20px; display: flex; align-items: center; justify-content: space-between; gap: 40px;"
+          >
+            <a href="/" class="display" style="font-size: 23px; color: var(--ink);">Wakuru</a>
+            <nav class="scroll-x" style="display: flex; align-items: center; gap: 26px; font-size: 13px;" aria-label="サイト内">
+              {NAV.map((item) => (
+                <a
+                  href={item.href}
+                  aria-current={isCurrent(item.href) ? 'page' : undefined}
+                  style={`white-space: nowrap; color: ${isCurrent(item.href) ? 'var(--ink)' : 'var(--ink2)'};`}
+                >
+                  {item.label}
+                </a>
+              ))}
+            </nav>
+          </div>
+        </header>
+      ) : (
+        <header style="border-bottom: 1px solid var(--rule2); background: var(--paper);">
+          <div
+            class="wrap"
+            style="padding-top: 30px; display: flex; align-items: flex-start; justify-content: space-between; gap: 48px; flex-wrap: wrap;"
+          >
+            <div>
+              <a href="/" class="display" style="font-size: 34px; line-height: 1; color: var(--ink); display: block;">
+                Wakuru
+              </a>
+              <div style="font-size: 13px; color: var(--ink2); padding-top: 7px; line-height: 1.6;">
+                GitHub で話題のリポジトリを、日本語で紹介しています。
+              </div>
+            </div>
+            <div style="display: flex; align-items: center; gap: 10px; padding-top: 5px; flex: none;">
+              <a href="/feed.xml" class="chip" style="height: 34px;">RSS</a>
+            </div>
+          </div>
+
+          <nav class="wrap" style="padding-top: 22px;" aria-label="サイト内">
+            <div class="scroll-x" style="display: flex; align-items: center; gap: 28px;">
+              {NAV.map((item) => (
+                <a
+                  href={item.href}
+                  aria-current={isCurrent(item.href) ? 'page' : undefined}
+                  style={`font-size: 13.5px; white-space: nowrap; padding-bottom: 12px; border-bottom: 2px solid ${
+                    isCurrent(item.href) ? 'var(--accent)' : 'transparent'
+                  }; color: ${isCurrent(item.href) ? 'var(--ink)' : 'var(--ink2)'}; font-weight: ${
+                    isCurrent(item.href) ? 500 : 400
+                  };`}
+                >
+                  {item.label}
+                </a>
+              ))}
+            </div>
+          </nav>
+        </header>
+      )
+    }
+
+    <div class="wrap" style={`padding-bottom: 88px; ${wide ? '' : 'display: flex; gap: 64px; align-items: flex-start; flex-wrap: wrap;'}`}>
+      <slot />
+    </div>
+
+    <footer style="border-top: 1px solid var(--rule2); background: var(--sink);">
+      <div
+        class="wrap"
+        style="padding-top: 40px; padding-bottom: 52px; display: flex; justify-content: space-between; gap: 56px; align-items: flex-start; flex-wrap: wrap;"
+      >
+        <div style="max-width: 540px;">
+          <div class="display" style="font-size: 20px; margin-bottom: 12px;">Wakuru</div>
+          <!-- ★免責。ここを削らないこと（SPEC §8）。警告は「疑い」までしか言わない -->
+          <p style="margin: 0; font-size: 12px; line-height: 1.95; color: var(--ink3);">
+            紹介文は編集部が書いています。スター数やライセンスなどの数値は GitHub
+            から取得したもの、警告は決まった条件による自動判定です。警告は「疑い」であり、断定するものではありません。紹介しているリポジトリの動作を保証するものでもありません。技術選定の最終判断は、必ず原典をご確認ください。
+          </p>
+        </div>
+        <div style="display: flex; gap: 48px; font-size: 12.5px;">
+          <div style="display: flex; flex-direction: column; gap: 11px;">
+            <a href="/about/criteria/" style="color: var(--ink2);">判定の基準</a>
+            <a href="/about/" style="color: var(--ink2);">このサイトについて</a>
+          </div>
+          <div style="display: flex; flex-direction: column; gap: 11px;">
+            <a href="/japanese/" style="color: var(--ink2);">日本語 README</a>
+            <a href="/feed.xml" style="color: var(--ink2);">RSS</a>
+          </div>
+        </div>
+      </div>
+    </footer>
+  </body>
+</html>

@@ -1,0 +1,43 @@
+---
+/**
+ * カテゴリ別（SPEC §6.3・ルールベース分類。LLM は使わない）
+ *
+ * ★ 1件も無いカテゴリのページは作らない。空のページを量産すると、
+ *   サイト全体が「中身の薄いページの集まり」として扱われる（SPEC §2.5）。
+ */
+import type { GetStaticPaths } from 'astro';
+import ListPage from '../../layouts/ListPage.astro';
+import { byMomentum, getSiteData, type RepoView } from '../../lib/content.js';
+import { categoryLabel, num } from '../../lib/format.js';
+
+export const getStaticPaths = (async () => {
+  const site = await getSiteData();
+  const groups = new Map<string, RepoView[]>();
+  for (const item of site.repos) {
+    const key = item.repo.category ?? 'other';
+    groups.set(key, [...(groups.get(key) ?? []), item]);
+  }
+  return [...groups.entries()].map(([category, items]) => ({
+    params: { category },
+    props: { category, items: items.sort(byMomentum) },
+  }));
+}) satisfies GetStaticPaths;
+
+interface Props {
+  category: string;
+  items: RepoView[];
+}
+const { category, items } = Astro.props;
+const label = categoryLabel(category);
+---
+
+<ListPage
+  title={label}
+  heading={label}
+  description={`${label}に分類したリポジトリ${num(items.length)}件。スター数・ライセンス・更新状況をまとめています。`}
+  lede={`topics と言語から機械的に分類しています。分け方は「判定の基準」に公開しています。`}
+  items={items}
+  label={`${label}のリポジトリ`}
+  note={`増加の多い順 · ${num(items.length)}件`}
+  empty="このカテゴリのリポジトリはまだありません。"
+/>

@@ -1,0 +1,40 @@
+---
+/**
+ * 日次アーカイブ
+ *
+ * その日のスナップショットに載ったものを、記録した順位のまま並べる。
+ * ★ 後から並べ直さない。あとで基準を変えても、その日に出した順位は残す
+ */
+import type { GetStaticPaths } from 'astro';
+import ListPage from '../../layouts/ListPage.astro';
+import { getSiteData, type RepoView } from '../../lib/content.js';
+import { jaDate, num } from '../../lib/format.js';
+
+export const getStaticPaths = (async () => {
+  const site = await getSiteData();
+  return site.days.map((day) => ({
+    params: { date: day.date },
+    props: {
+      date: day.date,
+      items: day.repoIds.map((id) => site.byId.get(id)).filter((v): v is RepoView => v !== undefined),
+    },
+  }));
+}) satisfies GetStaticPaths;
+
+interface Props {
+  date: string;
+  items: RepoView[];
+}
+const { date, items } = Astro.props;
+---
+
+<ListPage
+  title={`${jaDate(date)}のトレンド`}
+  heading={`${jaDate(date)}のトレンド`}
+  description={`${date} に GitHub で伸びていたリポジトリ${num(items.length)}件の記録です。`}
+  lede={`${date} の記録です。順位はこの日に記録したまま残しています。`}
+  items={items}
+  label="この日に伸びていたリポジトリ"
+  note={`記録した順 · ${num(items.length)}件`}
+  empty="この日の記録は空でした。"
+/>

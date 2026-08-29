@@ -1,0 +1,78 @@
+---
+/**
+ * 一覧の1行（design/Main.dc.html の .row が原本）
+ *
+ * 左に言語、右に増加数を固定する。上下に目が走るようにするため。
+ *
+ * ★ 日本語を主役にする。紹介文を書いたものには「見出しの一文」があるので、
+ *   それを一番大きく出す。英語の description は原文として下に小さく残す。
+ *   一覧は「気になるものを選ぶ場所」であり、そこが英語だけだと日本語サイトの意味がない。
+ */
+import type { RepoView } from '../lib/content.js';
+import { languageColor, licenseLabel, num, repoUrl, updatedAgo } from '../lib/format.js';
+import RepoLink from './RepoLink.astro';
+import GithubLink from './GithubLink.astro';
+
+interface Props {
+  item: RepoView;
+}
+const { item } = Astro.props;
+const { repo, delta, lead } = item;
+
+const lic = licenseLabel(repo);
+const ago = updatedAgo(repo.pushed_at);
+// 半年以上あいたものは色で気づかせる。文言では断定しない
+const stale = ago.days >= 180;
+---
+
+<article class="row clickable">
+  <div class="lang row-lang">
+    <span class="dot" style={`background: ${languageColor(repo.language)};`}></span>
+    {repo.language ?? '—'}
+  </div>
+
+  <div style="min-width: 0;">
+    <div style="margin-bottom: 6px;">
+      <RepoLink id={repo.id} size={16.5} href={repoUrl(repo.id)} stretch />
+    </div>
+
+    {
+      lead ? (
+        <>
+          {/* ★人が書いた日本語。ここが一覧の主役 */}
+          <p style="margin: 0 0 7px; font-size: 14.5px; line-height: 1.75; color: var(--ink); letter-spacing: .02em;">
+            {lead}
+          </p>
+          {repo.description_en && (
+            <div class="en" style="margin-bottom: 9px; font-size: 12px;">
+              {repo.description_en}
+            </div>
+          )}
+        </>
+      ) : (
+        repo.description_en && <div class="en" style="margin-bottom: 9px;">{repo.description_en}</div>
+      )
+    }
+
+    <div style="display: flex; align-items: center; gap: 12px; flex-wrap: wrap;">
+      <span class={`lic ${lic.tone === 'ok' ? '' : lic.tone}`}>{lic.text}</span>
+      <span class="meta">★ <b class="num">{num(repo.stars)}</b></span>
+      <span class="meta" style={stale ? 'color: var(--warn);' : ''}>{ago.text}</span>
+      {repo.has_japanese_readme && <span class="meta">日本語 README あり</span>}
+      <GithubLink id={repo.id} />
+    </div>
+  </div>
+
+  <div style="text-align: right;">
+    {
+      delta === null ? (
+        <div class="total">—</div>
+      ) : (
+        <>
+          <div class="delta num">+{num(delta)}</div>
+          <div class="total">スター</div>
+        </>
+      )
+    }
+  </div>
+</article>

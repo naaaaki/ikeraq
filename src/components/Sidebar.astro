@@ -1,0 +1,85 @@
+---
+/**
+ * 一覧ページのサイドバー（design/Main.dc.html が原本）
+ *
+ * 件数は実データから数える。0件のものは出さない。
+ * 収集が始まる前に「カテゴリ 0」が並ぶと、動いていないサイトに見えるため。
+ */
+import { countBy, getSiteData } from '../lib/content.js';
+import { categoryLabel, languageColor, num } from '../lib/format.js';
+
+const site = await getSiteData();
+
+const categories = countBy(site.repos, (v) => v.repo.category).slice(0, 8);
+const languages = countBy(site.repos, (v) => v.repo.language).slice(0, 6);
+const japaneseCount = site.repos.filter((v) => v.repo.has_japanese_readme).length;
+---
+
+<aside style="width: 280px; flex: none; padding-top: 44px; display: flex; flex-direction: column; gap: 34px;">
+  <section style="border: 1px solid var(--rule2); background: var(--card); border-radius: 3px; padding: 22px;">
+    <div class="label" style="margin-bottom: 13px;">はじめての方へ</div>
+    <p style="margin: 0 0 14px; font-size: 13px; line-height: 1.95; color: var(--ink2);">
+      GitHub で伸びているリポジトリを集めています。そのうち調べたものには<b
+        style="font-weight: 500; color: var(--ink);">日本語の紹介</b
+      >を付け、<b style="font-weight: 500; color: var(--ink);">実際に動かせたものには使い方</b>も書きます。
+    </p>
+    <a href="/about/" style="font-size: 12.5px;">くわしく →</a>
+  </section>
+
+  {
+    categories.length > 0 && (
+      <section>
+        <div class="label" style="padding-bottom: 12px; border-bottom: 1px solid var(--rule2);">カテゴリ</div>
+        <div style="display: flex; flex-wrap: wrap; gap: 7px; padding-top: 15px;">
+          {categories.map((c) => (
+            <a href={`/category/${c.key}/`} class="chip">
+              {categoryLabel(c.key)}
+              <span class="num" style="color: var(--ink3); padding-left: 5px;">{c.count}</span>
+            </a>
+          ))}
+        </div>
+      </section>
+    )
+  }
+
+  {
+    languages.length > 0 && (
+      <section>
+        <div class="label" style="padding-bottom: 12px; border-bottom: 1px solid var(--rule2);">言語</div>
+        <div style="padding-top: 6px;">
+          {languages.map((l) => (
+            <a
+              href={`/lang/${encodeURIComponent(l.key.toLowerCase())}/`}
+              style="display: flex; align-items: center; justify-content: space-between; padding: 10px 0; border-bottom: 1px solid var(--rule); font-size: 13px; color: var(--ink2);"
+            >
+              <span class="lang">
+                <span class="dot" style={`background: ${languageColor(l.key)};`} />
+                {l.key}
+              </span>
+              <span class="num" style="color: var(--ink3); font-size: 12px;">{l.count}</span>
+            </a>
+          ))}
+        </div>
+      </section>
+    )
+  }
+
+  <section>
+    <div class="label" style="padding-bottom: 12px; border-bottom: 1px solid var(--rule2);">これまでの記録</div>
+    <div style="padding-top: 6px;">
+      {
+        [
+          { label: '紹介した数', value: site.noteCount },
+          { label: '見ているリポジトリ', value: site.repos.length },
+          { label: '記録している日数', value: site.snapshotCount },
+          { label: '日本語 README あり', value: japaneseCount },
+        ].map((s) => (
+          <div style="display: flex; justify-content: space-between; align-items: baseline; padding: 10px 0; border-bottom: 1px solid var(--rule); font-size: 13px; color: var(--ink2);">
+            <span>{s.label}</span>
+            <span class="num" style="color: var(--ink);">{num(s.value)}</span>
+          </div>
+        ))
+      }
+    </div>
+  </section>
+</aside>

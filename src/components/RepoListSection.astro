@@ -1,0 +1,44 @@
+---
+/**
+ * リポジトリ一覧のかたまり（トップ・カテゴリ・言語・日次で共通）
+ *
+ * 一覧ページを増やすたびに見出しと表組みを書き写すと、必ずどれかがずれる。
+ * 見出し行と空のときの文言まで、ここに閉じ込めておく。
+ */
+import type { RepoView } from '../lib/content.js';
+import RepoRow from './RepoRow.astro';
+import { num } from '../lib/format.js';
+
+interface Props {
+  items: RepoView[];
+  label: string;
+  /** 右肩の補足。並び順や件数を書く */
+  note?: string;
+  /** 1件も無いときに出す文。ページごとに事情が違うので必ず渡す */
+  empty: string;
+}
+const { items, label, note, empty } = Astro.props;
+---
+
+<div class="section-head" style="padding: 8px 0 4px;">
+  <span class="label">{label}</span>
+  <span class="fill"></span>
+  <span class="meta">{note ?? `${num(items.length)}件`}</span>
+</div>
+
+{
+  items.length === 0 ? (
+    <div class="callout" style="margin-top: 20px;">{empty}</div>
+  ) : (
+    <>
+      <div
+        style="display: grid; grid-template-columns: 96px minmax(0, 1fr) 104px; gap: 20px; padding: 12px 0 8px; border-bottom: 1px solid var(--rule2);"
+      >
+        <span class="label row-lang" style="font-size: 10px;">言語</span>
+        <span class="label" style="font-size: 10px;">リポジトリ</span>
+        <span class="label" style="font-size: 10px; text-align: right;">今日の増加</span>
+      </div>
+      {items.map((item) => <RepoRow item={item} />)}
+    </>
+  )
+}

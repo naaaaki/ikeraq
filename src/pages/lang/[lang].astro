@@ -1,0 +1,45 @@
+---
+/**
+ * 言語別
+ *
+ * URL は小文字にする。GitHub の言語名は表記が揺れる（C# / F# など記号も入る）ので、
+ * URL 用の鍵と表示名を分けて持つ。
+ */
+import type { GetStaticPaths } from 'astro';
+import ListPage from '../../layouts/ListPage.astro';
+import { byMomentum, getSiteData, type RepoView } from '../../lib/content.js';
+import { num } from '../../lib/format.js';
+
+export const getStaticPaths = (async () => {
+  const site = await getSiteData();
+  const groups = new Map<string, { name: string; items: RepoView[] }>();
+  for (const item of site.repos) {
+    const name = item.repo.language;
+    if (!name) continue;
+    const key = name.toLowerCase();
+    const group = groups.get(key) ?? { name, items: [] };
+    group.items.push(item);
+    groups.set(key, group);
+  }
+  return [...groups.entries()].map(([key, group]) => ({
+    params: { lang: key },
+    props: { name: group.name, items: group.items.sort(byMomentum) },
+  }));
+}) satisfies GetStaticPaths;
+
+interface Props {
+  name: string;
+  items: RepoView[];
+}
+const { name, items } = Astro.props;
+---
+
+<ListPage
+  title={`${name} のリポジトリ`}
+  heading={`${name} のリポジトリ`}
+  description={`${name} で書かれた、GitHub で注目されているリポジトリ${num(items.length)}件。`}
+  items={items}
+  label={`${name} のリポジトリ`}
+  note={`増加の多い順 · ${num(items.length)}件`}
+  empty={`${name} のリポジトリはまだありません。`}
+/>

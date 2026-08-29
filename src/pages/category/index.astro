@@ -1,0 +1,48 @@
+---
+/**
+ * カテゴリの入口。分類の一覧と件数だけを置く。
+ * リポジトリそのものはカテゴリ別ページに任せる
+ */
+import Base from '../../layouts/Base.astro';
+import Sidebar from '../../components/Sidebar.astro';
+import { countBy, getSiteData } from '../../lib/content.js';
+import { categoryLabel, num } from '../../lib/format.js';
+
+const site = await getSiteData();
+const categories = countBy(site.repos, (v) => v.repo.category ?? 'other');
+---
+
+<Base
+  title="カテゴリ"
+  description="Wakuru が追跡しているリポジトリを、AIエージェント・開発ツール・インフラなどの分類ごとにまとめています。"
+>
+  <main id="main" style="flex: 1; min-width: 0;">
+    <div style="padding: 44px 0 28px;">
+      <h1 class="display" style="margin: 0; font-size: 34px; line-height: 1.2;">カテゴリ</h1>
+      <p class="meta" style="margin: 12px 0 0; font-size: 13px; line-height: 1.9; max-width: 620px;">
+        GitHub の topics と言語から、決まった規則で分類しています。人が1件ずつ振り分けているわけではないので、
+        当てはまりが悪いものは「そのほか」に入ります。分け方は<a href="/about/criteria/">判定の基準</a>に公開しています。
+      </p>
+    </div>
+
+    {
+      categories.length === 0 ? (
+        <div class="callout">まだ分類できるリポジトリがありません。収集が始まると、ここに分類が並びます。</div>
+      ) : (
+        <div style="border-top: 1px solid var(--rule2);">
+          {categories.map((c) => (
+            <a
+              href={`/category/${c.key}/`}
+              style="display: flex; align-items: baseline; justify-content: space-between; gap: 20px; padding: 18px 0; border-bottom: 1px solid var(--rule); color: var(--ink);"
+            >
+              <span style="font-size: 15.5px;">{categoryLabel(c.key)}</span>
+              <span class="num" style="color: var(--ink3); font-size: 13px;">{num(c.count)}</span>
+            </a>
+          ))}
+        </div>
+      )
+    }
+  </main>
+
+  <Sidebar />
+</Base>

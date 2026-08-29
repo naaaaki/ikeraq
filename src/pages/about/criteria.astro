@@ -1,0 +1,41 @@
+---
+/**
+ * 判定の基準（docs/criteria.md をそのままページにする）
+ *
+ * ★ 原稿は docs/criteria.md の1本だけ。ここで文言を書き足さない。
+ *   2か所に書くと、必ず片方が古くなる。古い基準を公開するのが、いちばん信用を損なう。
+ * ★ docs/criteria.md は scripts/lib/thresholds.ts と対。閾値を変えたら原稿も直すこと。
+ */
+import { readFile } from 'node:fs/promises';
+import path from 'node:path';
+import Base from '../../layouts/Base.astro';
+import { renderMarkdown } from '../../lib/note.js';
+import { ROOT } from '../../../scripts/lib/storage.js';
+
+const raw = await readFile(path.join(ROOT, 'docs', 'criteria.md'), 'utf8');
+
+// 先頭の H1 と、書き手向けの注記（引用ブロック）は載せない。読者に関係がない
+const body = raw
+  .replace(/^#\s+.*\n/, '')
+  .replace(/^(?:>.*\n|\n)*/, '')
+  .replace(/^---\s*\n/, '')
+  .trim();
+
+const html = await renderMarkdown(body);
+---
+
+<Base
+  title="判定の基準"
+  description="Wakuru が警告やスコアを付けている条件を、すべて公開しています。日数・文字数・点数まで、実際に使っている値そのままです。"
+  wide
+  compact
+>
+  <main id="main" style="max-width: 720px; padding: 44px 0 40px;">
+    <h1 class="display" style="margin: 0 0 10px; font-size: 34px; line-height: 1.2;">判定の基準</h1>
+    <p class="meta" style="margin: 0 0 44px; line-height: 1.9;">
+      警告とスコアは機械が付けています。どういう条件で付くのかを、隠さず全部公開します。
+    </p>
+
+    <div class="prose" set:html={html} />
+  </main>
+</Base>

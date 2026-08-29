@@ -1,0 +1,30 @@
+---
+/**
+ * owner/name。owner を薄くして、name に目が行くようにする
+ *
+ * `stretch` を付けると、親の `.clickable` の全面が当たり判定になる。
+ * 一覧では読んだ位置で押せるようにしたいので、そちらを使う（global.css の .clickable）
+ */
+interface Props {
+  id: string;
+  size: number;
+  href?: string;
+  stretch?: boolean;
+}
+const { id, size, href, stretch = false } = Astro.props;
+const [owner, name] = id.split('/');
+---
+
+{
+  href ? (
+    <a href={href} class={`repo${stretch ? ' stretch' : ''}`} style={`font-size: ${size}px; display: inline-block;`}>
+      <span class="owner">{owner}/</span>
+      {name}
+    </a>
+  ) : (
+    <span class="repo" style={`font-size: ${size}px;`}>
+      <span class="owner">{owner}/</span>
+      {name}
+    </span>
+  )
+}

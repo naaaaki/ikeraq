@@ -1,0 +1,38 @@
+---
+/**
+ * 一覧ページの枠（カテゴリ・言語・日次・日本語README・殿堂で共通）
+ *
+ * 見出しとリード文だけ差し替えれば1ページ増える形にしておく。
+ */
+import Base from './Base.astro';
+import Sidebar from '../components/Sidebar.astro';
+import RepoListSection from '../components/RepoListSection.astro';
+import type { RepoView } from '../lib/content.js';
+
+interface Props {
+  title: string;
+  heading: string;
+  description: string;
+  /** 見出しの下に置く1〜2行。何を集めたページなのかを書く */
+  lede?: string;
+  items: RepoView[];
+  label: string;
+  note?: string;
+  empty: string;
+  noindex?: boolean;
+}
+const { title, heading, description, lede, items, label, note, empty, noindex = false } = Astro.props;
+---
+
+<Base title={title} description={description} noindex={noindex}>
+  <main id="main" style="flex: 1; min-width: 0;">
+    <div style="padding: 44px 0 28px;">
+      <h1 class="display" style="margin: 0; font-size: 34px; line-height: 1.2;">{heading}</h1>
+      {lede && <p class="meta" style="margin: 12px 0 0; font-size: 13px; line-height: 1.9; max-width: 620px;">{lede}</p>}
+    </div>
+
+    <RepoListSection items={items} label={label} note={note} empty={empty} />
+  </main>
+
+  <Sidebar />
+</Base>

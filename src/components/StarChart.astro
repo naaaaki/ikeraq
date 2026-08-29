@@ -1,0 +1,47 @@
+---
+/**
+ * スター数の推移（Wakuru が自分で記録したデータ。ここが競合に無い部分）
+ *
+ * ★ 記録が無い日を線でつながない。実際に取得した日だけを点にする（SPEC §6.2）。
+ *   点が2つ未満のときは、グラフではなく「まだ記録が足りない」と書く。
+ */
+import { num } from '../lib/format.js';
+
+interface Props {
+  history: { date: string; stars: number }[];
+  width?: number;
+  height?: number;
+}
+const { history, width = 240, height = 44 } = Astro.props;
+
+const points = history.slice(-60);
+const enough = points.length >= 2;
+
+let path = '';
+let label = '';
+if (enough) {
+  const values = points.map((p) => p.stars);
+  const min = Math.min(...values);
+  const max = Math.max(...values);
+  const span = max - min || 1;
+  const stepX = width / (points.length - 1);
+  path = points
+    .map((p, i) => `${i === 0 ? 'M' : 'L'}${(i * stepX).toFixed(1)} ${(height - ((p.stars - min) / span) * (height - 4) - 2).toFixed(1)}`)
+    .join(' ');
+  const first = points[0]!;
+  const last = points.at(-1)!;
+  label = `${first.date} から ${last.date} までのスター数の推移。${num(first.stars)} から ${num(last.stars)} へ。`;
+}
+---
+
+{
+  enough ? (
+    <svg viewBox={`0 0 ${width} ${height}`} style="width: 100%; height: 44px; display: block;" role="img" aria-label={label}>
+      <path d={path} fill="none" stroke="var(--accent)" stroke-width="1.6" stroke-linejoin="round" stroke-linecap="round" />
+    </svg>
+  ) : (
+    <p class="meta" style="margin: 0; line-height: 1.8;">
+      記録は{points.length === 0 ? 'まだありません' : '始まったばかりです'}。推移は数日たつと出ます。
+    </p>
+  )
+}

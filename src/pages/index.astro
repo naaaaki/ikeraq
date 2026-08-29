@@ -1,0 +1,149 @@
+---
+/**
+ * トップ（design/Main.dc.html が原本 / docs/structure-proposal.html）
+ *
+ * ★ 紹介文が1本も無い日でも成立させること（D-005）。
+ *   書けない週にサイトが崩れる作りは続かない。無い日はピックアップ枠を出さず、一覧から始める。
+ */
+import Base from '../layouts/Base.astro';
+import Sidebar from '../components/Sidebar.astro';
+import RepoRow from '../components/RepoRow.astro';
+import RepoLink from '../components/RepoLink.astro';
+import GithubLink from '../components/GithubLink.astro';
+import { byMomentum, getSiteData } from '../lib/content.js';
+import { jaDate, languageColor, licenseLabel, num, repoUrl } from '../lib/format.js';
+import { plainText, renderMarkdown, splitSections } from '../lib/note.js';
+import { todayJST } from '../../scripts/lib/date.js';
+
+const site = await getSiteData();
+const date = site.latestDate ?? todayJST();
+
+const sorted = [...site.repos].sort(byMomentum);
+
+/** ピックアップは紹介文を書いたものだけ。最大3件（structure-proposal） */
+const pickupItems = sorted.filter((v) => v.note !== null).slice(0, 3);
+const pickups = await Promise.all(
+  pickupItems.map(async (item) => {
+    const { sections } = splitSections(item.note!.body);
+    const lead = sections.get('見出しの一文');
+    // 一覧では「どういうものか」の最初の段落だけ見せる。続きは個別ページで読ませる
+    const firstParagraph = (sections.get('どういうものか') ?? '').split(/\n\s*\n/)[0] ?? '';
+    return {
+      item,
+      lead: lead ? plainText(lead) : null,
+      intro: firstParagraph ? await renderMarkdown(firstParagraph) : null,
+    };
+  })
+);
+
+const pickupIds = new Set(pickups.map((p) => p.item.repo.id));
+const rest = sorted.filter((v) => !pickupIds.has(v.repo.id));
+const LIST_LIMIT = 24;
+const listed = rest.slice(0, LIST_LIMIT);
+const remaining = rest.length - listed.length;
+
+const description = `GitHub で注目されているリポジトリを日本語で紹介しています。${jaDate(date)}に伸びているリポジトリの一覧と、編集部が書いた紹介文。`;
+---
+
+<Base title="Wakuru" description={description}>
+  <main id="main" style="flex: 1; min-width: 0;">
+    <div style="padding: 44px 0 32px; display: flex; align-items: baseline; justify-content: space-between; gap: 24px;">
+      <h1 class="display" style="margin: 0; font-size: 38px; line-height: 1.15;">{jaDate(date)}のトレンド</h1>
+      {site.latestDate && <div class="meta" style="white-space: nowrap;">最終更新 <span class="num">{date}</span></div>}
+    </div>
+
+    {
+      pickups.length > 0 && (
+        <>
+          <div class="section-head" style="padding-bottom: 4px;">
+            <span class="label">今日のピックアップ</span>
+            <span class="fill" />
+            <span class="meta">編集部が書いています</span>
+          </div>
+
+          {pickups.map(({ item, lead, intro }) => {
+            const lic = licenseLabel(item.repo);
+            return (
+              <article class="clickable" style="padding: 26px 0 30px; border-bottom: 1px solid var(--rule);">
+                <div style="margin-bottom: 10px;">
+                  <RepoLink id={item.repo.id} size={21} href={repoUrl(item.repo.id)} stretch />
+                </div>
+                {item.repo.description_en && <div class="en" style="margin-bottom: 18px;">{item.repo.description_en}</div>}
+                {lead && (
+                  <p class="intro" style="margin: 0 0 12px; font-weight: 500;">
+                    {lead}
+                  </p>
+                )}
+                {intro && <div class="intro" style="margin-bottom: 20px;" set:html={intro} />}
+                <div style="display: flex; align-items: center; gap: 14px; flex-wrap: wrap;">
+                  <span class={`lic ${lic.tone === 'ok' ? '' : lic.tone}`}>{lic.text}</span>
+                  <span class="meta">
+                    <span class="lang">
+                      <span class="dot" style={`background: ${languageColor(item.repo.language)};`} />
+                      {item.repo.language ?? '—'}
+                    </span>
+                  </span>
+                  <span class="meta">
+                    ★ <b class="num">{num(item.repo.stars)}</b>
+                    {item.delta !== null && (
+                      <>
+                        （今日 <b class="num" style="color: var(--accent);">+{num(item.delta)}</b>）
+                      </>
+                    )}
+                  </span>
+                  {item.repo.has_japanese_readme && <span class="meta">日本語 README あり</span>}
+                  <GithubLink id={item.repo.id} />
+                </div>
+              </article>
+            );
+          })}
+        </>
+      )
+    }
+
+    {
+      listed.length > 0 ? (
+        <>
+          <div class="section-head" style="padding: 40px 0 4px;">
+            <span class="label">{pickups.length > 0 ? 'そのほか、今日伸びているリポジトリ' : '今日伸びているリポジトリ'}</span>
+            <span class="fill" />
+            <span class="meta">増加の多い順 · {num(rest.length)}件</span>
+          </div>
+
+          <div
+            style="display: grid; grid-template-columns: 96px minmax(0, 1fr) 104px; gap: 20px; padding: 12px 0 8px; border-bottom: 1px solid var(--rule2);"
+          >
+            <span class="label row-lang" style="font-size: 10px;">言語</span>
+            <span class="label" style="font-size: 10px;">リポジトリ</span>
+            <span class="label" style="font-size: 10px; text-align: right;">今日の増加</span>
+          </div>
+
+          {listed.map((item) => <RepoRow item={item} />)}
+
+          {remaining > 0 && (
+            <div style="padding: 32px 0 0;">
+              <a
+                href={`/daily/${date}/`}
+                style="display: inline-flex; align-items: center; gap: 8px; height: 44px; padding: 0 22px; border: 1px solid var(--rule2); border-radius: 2px; font-size: 13.5px; color: var(--ink2); background: var(--card);"
+              >
+                残り{num(remaining)}件を見る
+                <svg width="13" height="13" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true">
+                  <path d="M5 12h13" />
+                  <path d="m12 5 7 7-7 7" />
+                </svg>
+              </a>
+            </div>
+          )}
+        </>
+      ) : (
+        pickups.length === 0 && (
+          <div class="callout" style="margin-top: 24px;">
+            まだ収集したデータがありません。収集が始まると、ここに伸びているリポジトリが並びます。
+          </div>
+        )
+      )
+    }
+  </main>
+
+  <Sidebar />
+</Base>

@@ -4,7 +4,7 @@
 
 GitHub で注目されているリポジトリを、日本語で紹介するサイト。
 
-**読む順番：** [`CLAUDE.md`](CLAUDE.md)（守ることと日々の流れ）→ [`docs/DECISIONS.md`](docs/DECISIONS.md)（決定事項・**仕様書より優先**）→ [`docs/SPEC.md`](docs/SPEC.md)（v0.6・履歴として残す）
+**読む順番：** [`CLAUDE.md`](CLAUDE.md)（守ることと日々の流れ）→ [`docs/DECISIONS.md`](docs/DECISIONS.md)（決定事項・**仕様書より優先**）→ [`docs/TODO.md`](docs/TODO.md)（**残っている課題**）→ [`docs/SPEC.md`](docs/SPEC.md)（v0.6・履歴として残す）
 
 ---
 
@@ -16,10 +16,18 @@ GitHub で注目されているリポジトリを、日本語で紹介するサ�
 | 機械判定（警告・スコア・分類） | 完成 |
 | 記事作成の仕組み | 完成（`npm run note`） |
 | デザイン | モック（`design/`） |
-| サイト本体（Astro） | **未着手** |
+| サイト本体（Astro） | 骨組み完成。10ページがビルドできる |
 
 **次にやること：** GitHub リポジトリを作り、Secrets を登録する。
 収集が1日遅れるごとに、スター履歴が1日ぶん永久に欠ける。
+
+### 公開前に必ず埋めること
+
+| 項目 | 場所 |
+|---|---|
+| 連絡先（事実誤認の指摘・掲載取り下げの窓口） | `src/pages/about/index.astro` の「お問い合わせ」 |
+| プライバシーポリシー | 未作成。書けるまでフッターにリンクを置いていない |
+| 独自ドメイン | `astro.config.mjs` の `site`。いまは `wakuru.dev` 決め打ち |
 
 ---
 
@@ -45,6 +53,11 @@ GitHub Actions で動かす場合は、リポジトリ Secrets に以下を登�
 ## コマンド
 
 ```bash
+# サイト
+npm run dev                  開発サーバー。確認したら必ず止める
+npm run build                dist/ に静的HTMLを出力する
+npm run preview              build したものを見る
+
 # 記事を書く（週3本が目標・D-005）
 npm run note                 候補を見る
 npm run note -- owner/name   下書きを作る
@@ -147,10 +160,24 @@ src/
 
 ---
 
+## サイトのページ
+
+| URL | 内容 |
+|---|---|
+| `/` | トップ。ピックアップ（紹介文つき）＋今日伸びているもの |
+| `/repo/{owner}/{name}/` | 個別。紹介文があるA型と、データだけのB型で組み方を変える |
+| `/daily/{YYYY-MM-DD}/` | 日次アーカイブ。その日に記録した順位のまま残す |
+| `/category/` `/category/{c}/` | カテゴリ |
+| `/lang/{language}/` | 言語別 |
+| `/japanese/` | 日本語 README があるものだけ |
+| `/hall-of-fame/` | 殿堂入り。上位50位に3日以上入ったもの |
+| `/about/` `/about/criteria/` | サイトについて／判定の基準（`docs/criteria.md` をそのまま出す） |
+| `/feed.xml` | RSS。紹介文を書いたものだけ流す |
+
 ## これから
 
-- **Astro のセットアップとページ生成**
-- ステマ表記・プライバシーポリシー・自動判定の免責（SPEC §8）
-- Article + BreadcrumbList 構造化データ
-- `/hall-of-fame`（殿堂入り）と `/japanese`（日本語README あり）
+- 今週のまとめ（`/weekly/`）。紹介文がたまってから
+- ニュースレターの登録フォーム（受け口が決まってから）
+- プライバシーポリシーと連絡先
+- OGP 画像
 - Cloudflare Pages へのデプロイ
