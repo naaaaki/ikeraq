@@ -140,6 +140,22 @@ export function byMomentum(a: RepoView, b: RepoView): number {
   return b.repo.stars - a.repo.stars;
 }
 
+/**
+ * 紹介文があるものを先頭に固める（一覧ページ用）。
+ *
+ * ★ 一覧は「気になるものを選ぶ場所」。日本語の解説を書いたものが
+ *   150件の中に埋もれると、書いた意味がなくなる。
+ *   同じ条件どうしの並びは byMomentum に従う。
+ *
+ * ★ 日次アーカイブには使わない。その日に記録した順位をそのまま残すため。
+ */
+export function byNoteFirst(a: RepoView, b: RepoView): number {
+  const an = a.note ? 0 : 1;
+  const bn = b.note ? 0 : 1;
+  if (an !== bn) return an - bn;
+  return byMomentum(a, b);
+}
+
 /** 集計。サイドバーのカテゴリ・言語の件数に使う */
 export function countBy<T>(items: T[], key: (item: T) => string | null): { key: string; count: number }[] {
   const counts = new Map<string, number>();

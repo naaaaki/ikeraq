@@ -15,6 +15,7 @@ import Base from '../../../layouts/Base.astro';
 import RepoLink from '../../../components/RepoLink.astro';
 import GithubLink from '../../../components/GithubLink.astro';
 import StarChart from '../../../components/StarChart.astro';
+import Mascot from '../../../components/Mascot.astro';
 import { getSiteData, type RepoView } from '../../../lib/content.js';
 import {
   categoryLabel,
@@ -262,10 +263,13 @@ const noteCredit = note
             <section class="block">
               {/* B型。Aの短縮版にしない。記録したデータを主役にする */}
               <h2 class="sec">記録している数値</h2>
-              <p class="meta" style="margin: 0 0 20px; line-height: 1.9;">
-                このリポジトリには、まだ日本語の紹介文がありません。以下は GitHub から取得した数値と、Wakuru
-                が記録しているスター数の推移です。
-              </p>
+              <div style="display: flex; align-items: center; gap: 16px; margin-bottom: 20px;">
+                <Mascot pose="point" size={76} />
+                <p class="meta" style="margin: 0; line-height: 1.9;">
+                  このリポジトリには、まだ日本語の紹介文がありません。以下は GitHub から取得した数値と、Wakuru
+                  が記録しているスター数の推移です。
+                </p>
+              </div>
               <StarChart history={history} width={640} height={120} />
             </section>
           )

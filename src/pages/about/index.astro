@@ -8,6 +8,7 @@
 import Base from '../../layouts/Base.astro';
 import { getSiteData } from '../../lib/content.js';
 import { num } from '../../lib/format.js';
+import Mascot from '../../components/Mascot.astro';
 
 const site = await getSiteData();
 ---
@@ -19,8 +20,13 @@ const site = await getSiteData();
   compact
 >
   <main id="main" style="max-width: 720px; padding: 44px 0 40px;">
-    <h1 class="display" style="margin: 0 0 10px; font-size: 34px; line-height: 1.2;">このサイトについて</h1>
-    <p class="meta" style="margin: 0 0 44px;">新しい技術が、わかる。</p>
+    <div style="display: flex; align-items: flex-end; gap: 20px; margin-bottom: 44px;">
+      <div>
+        <h1 class="display" style="margin: 0 0 10px; font-size: 34px; line-height: 1.2;">このサイトについて</h1>
+        <p class="meta" style="margin: 0;">新しい技術が、わかる。</p>
+      </div>
+      <Mascot pose="normal" size={104} />
+    </div>
 
     <section class="block">
       <h2 class="sec">何をしているサイトか</h2>

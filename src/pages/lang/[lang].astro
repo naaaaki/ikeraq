@@ -7,7 +7,7 @@
  */
 import type { GetStaticPaths } from 'astro';
 import ListPage from '../../layouts/ListPage.astro';
-import { byMomentum, getSiteData, type RepoView } from '../../lib/content.js';
+import { byNoteFirst, getSiteData, type RepoView } from '../../lib/content.js';
 import { languageSlug, num } from '../../lib/format.js';
 
 export const getStaticPaths = (async () => {
@@ -29,7 +29,7 @@ export const getStaticPaths = (async () => {
   }
   return [...groups.entries()].map(([key, group]) => ({
     params: { lang: key },
-    props: { name: group.name, items: group.items.sort(byMomentum) },
+    props: { name: group.name, items: group.items.sort(byNoteFirst) },
   }));
 }) satisfies GetStaticPaths;
 
@@ -38,6 +38,8 @@ interface Props {
   items: RepoView[];
 }
 const { name, items } = Astro.props;
+const noteCount = items.filter((v) => v.note !== null).length;
+const order = noteCount > 0 ? `紹介文つきが先頭 · ${num(items.length)}件` : `増加の多い順 · ${num(items.length)}件`;
 ---
 
 <ListPage
@@ -46,6 +48,6 @@ const { name, items } = Astro.props;
   description={`${name} で書かれた、GitHub で注目されているリポジトリ${num(items.length)}件。`}
   items={items}
   label={`${name} のリポジトリ`}
-  note={`増加の多い順 · ${num(items.length)}件`}
+  note={order}
   empty={`${name} のリポジトリはまだありません。`}
 />

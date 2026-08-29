@@ -1,0 +1,41 @@
+---
+/**
+ * マスコット
+ *
+ * ★ 飾りとして置く。意味は文章のほうが持つ。
+ *   画像が読めなくても、周りの文だけで用が足りる形にしておくこと。
+ *   そのため alt は空にして、読み上げからは外す（装飾画像の扱い）。
+ *
+ * ★ 記事の中の図には使わない。図は SVG で作る（D-008）。
+ *
+ * 元画像は 1254px 角で1枚850KB あった。表示は最大160pxなので、
+ * 2倍の320pxまで縮めて webp にしてある（1枚20KB）。
+ * 表示速度は SEO に直結する（SPEC §12.2 は LCP 2.5秒未満を要求）。
+ */
+
+export const POSES = ['normal', 'wave', 'think', 'bow', 'point'] as const;
+export type Pose = (typeof POSES)[number];
+
+interface Props {
+  pose: Pose;
+  /** 表示幅（px）。最大160まで */
+  size?: number;
+  /** 図として意味を持たせたいときだけ渡す。既定は装飾扱い */
+  alt?: string;
+  class?: string;
+}
+
+const { pose, size = 96, alt = '', class: className } = Astro.props;
+---
+
+<img
+  src={`/mascot/${pose}.webp`}
+  alt={alt}
+  width={size}
+  height={size}
+  loading="lazy"
+  decoding="async"
+  aria-hidden={alt === '' ? 'true' : undefined}
+  class={className}
+  style={`width: ${size}px; height: auto; display: block; flex: none;`}
+/>

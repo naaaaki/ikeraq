@@ -6,11 +6,13 @@
  * データは収集時に取れているので、ここは絞り込むだけ。
  */
 import ListPage from '../../layouts/ListPage.astro';
-import { byMomentum, getSiteData } from '../../lib/content.js';
+import { byNoteFirst, getSiteData } from '../../lib/content.js';
 import { num } from '../../lib/format.js';
 
 const site = await getSiteData();
-const items = site.repos.filter((v) => v.repo.has_japanese_readme).sort(byMomentum);
+const items = site.repos.filter((v) => v.repo.has_japanese_readme).sort(byNoteFirst);
+const noteCount = items.filter((v) => v.note !== null).length;
+const order = noteCount > 0 ? `紹介文つきが先頭 · ${num(items.length)}件` : `増加の多い順 · ${num(items.length)}件`;
 ---
 
 <ListPage
@@ -20,6 +22,6 @@ const items = site.repos.filter((v) => v.repo.has_japanese_readme).sort(byMoment
   lede="README.ja.md などの日本語版が置かれているリポジトリだけを集めています。翻訳の品質までは見ていません。置かれているかどうかだけで判定しています。"
   items={items}
   label="日本語 README があるリポジトリ"
-  note={`増加の多い順 · ${num(items.length)}件`}
+  note={order}
   empty="日本語 README があるリポジトリは、まだ見つかっていません。収集が進むと、ここに並びます。"
 />

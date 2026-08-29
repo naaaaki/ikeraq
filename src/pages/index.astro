@@ -10,7 +10,7 @@ import Sidebar from '../components/Sidebar.astro';
 import RepoRow from '../components/RepoRow.astro';
 import RepoLink from '../components/RepoLink.astro';
 import GithubLink from '../components/GithubLink.astro';
-import { byMomentum, getSiteData } from '../lib/content.js';
+import { byMomentum, byNoteFirst, getSiteData } from '../lib/content.js';
 import { jaDate, languageColor, licenseLabel, num, repoUrl } from '../lib/format.js';
 import { plainText, renderMarkdown, splitSections } from '../lib/note.js';
 import { todayJST } from '../../scripts/lib/date.js';
@@ -37,7 +37,8 @@ const pickups = await Promise.all(
 );
 
 const pickupIds = new Set(pickups.map((p) => p.item.repo.id));
-const rest = sorted.filter((v) => !pickupIds.has(v.repo.id));
+// ピックアップは3件まで。4本目以降の記事が150件の中に埋もれないよう、一覧でも先頭に固める
+const rest = sorted.filter((v) => !pickupIds.has(v.repo.id)).sort(byNoteFirst);
 const LIST_LIMIT = 24;
 const listed = rest.slice(0, LIST_LIMIT);
 const remaining = rest.length - listed.length;
@@ -107,7 +108,9 @@ const description = `GitHub で注目されているリポジトリを日本語�
           <div class="section-head" style="padding: 40px 0 4px;">
             <span class="label">{pickups.length > 0 ? 'そのほか、今日伸びているリポジトリ' : '今日伸びているリポジトリ'}</span>
             <span class="fill" />
-            <span class="meta">増加の多い順 · {num(rest.length)}件</span>
+            <span class="meta">
+              {rest.some((v) => v.note !== null) ? '紹介文つきが先頭' : '増加の多い順'} · {num(rest.length)}件
+            </span>
           </div>
 
           <div

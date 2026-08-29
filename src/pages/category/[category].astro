@@ -7,7 +7,7 @@
  */
 import type { GetStaticPaths } from 'astro';
 import ListPage from '../../layouts/ListPage.astro';
-import { byMomentum, getSiteData, type RepoView } from '../../lib/content.js';
+import { byNoteFirst, getSiteData, type RepoView } from '../../lib/content.js';
 import { categoryLabel, num } from '../../lib/format.js';
 
 export const getStaticPaths = (async () => {
@@ -19,7 +19,7 @@ export const getStaticPaths = (async () => {
   }
   return [...groups.entries()].map(([category, items]) => ({
     params: { category },
-    props: { category, items: items.sort(byMomentum) },
+    props: { category, items: items.sort(byNoteFirst) },
   }));
 }) satisfies GetStaticPaths;
 
@@ -29,6 +29,8 @@ interface Props {
 }
 const { category, items } = Astro.props;
 const label = categoryLabel(category);
+const noteCount = items.filter((v) => v.note !== null).length;
+const order = noteCount > 0 ? `紹介文つきが先頭 · ${num(items.length)}件` : `増加の多い順 · ${num(items.length)}件`;
 ---
 
 <ListPage
@@ -38,6 +40,6 @@ const label = categoryLabel(category);
   lede={`topics と言語から機械的に分類しています。分け方は「判定の基準」に公開しています。`}
   items={items}
   label={`${label}のリポジトリ`}
-  note={`増加の多い順 · ${num(items.length)}件`}
+  note={order}
   empty="このカテゴリのリポジトリはまだありません。"
 />

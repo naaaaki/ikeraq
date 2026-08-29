@@ -7,10 +7,12 @@
  * 行き先を1つ示して、戻れるようにしておく。
  */
 import Base from '../layouts/Base.astro';
+import Mascot from '../components/Mascot.astro';
 ---
 
 <Base title="ページが見つかりません" description="お探しのページは見つかりませんでした。" noindex wide compact>
   <main id="main" style="max-width: 620px; padding: 72px 0 96px;">
+    <div style="margin-bottom: 22px;"><Mascot pose="bow" size={132} /></div>
     <p class="label" style="margin-bottom: 14px;">404</p>
     <h1 class="display" style="margin: 0 0 18px; font-size: 32px; line-height: 1.25;">ページが見つかりませんでした</h1>
     <p class="meta" style="margin: 0 0 28px; line-height: 1.95;">
