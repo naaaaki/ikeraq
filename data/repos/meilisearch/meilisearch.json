@@ -27,8 +27,8 @@
     "vector-search",
     "vectors"
   ],
-  "stars": 59124,
-  "forks": 2690,
+  "stars": 59139,
+  "forks": 2692,
   "watchers": null,
   "open_issues": 319,
   "created_at": "2018-04-23T11:45:28Z",
@@ -45,10 +45,10 @@
   "category": "data",
   "flags": [],
   "usability_score": 100,
-  "snapshot_days": 1,
+  "snapshot_days": 2,
   "is_indexable": false,
   "first_seen_at": "2026-08-29T23:02:08.747Z",
   "tracking_tier": "hot",
-  "last_fetched_date": "2026-08-30",
+  "last_fetched_date": "2026-08-31",
   "stars_stagnant_days": 0
 }

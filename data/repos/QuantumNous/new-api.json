@@ -1,0 +1,47 @@
+{
+  "id": "QuantumNous/new-api",
+  "owner": "QuantumNous",
+  "name": "new-api",
+  "description_en": "A unified AI model hub for aggregation & distribution. It supports cross-converting various LLMs into OpenAI-compatible, Claude-compatible, or Gemini-compatible formats. A centralized gateway for personal and enterprise model management.",
+  "human_note": null,
+  "language": "Go",
+  "topics": [
+    "ai-gateway",
+    "claude",
+    "deepseek",
+    "gemini",
+    "newapi",
+    "openai",
+    "rerank"
+  ],
+  "stars": 46805,
+  "forks": 11137,
+  "watchers": null,
+  "open_issues": 1297,
+  "created_at": "2023-11-10T19:33:36Z",
+  "pushed_at": "2026-08-30T15:14:53Z",
+  "is_archived": false,
+  "license_spdx": "AGPL-3.0",
+  "license_category": "strong-copyleft",
+  "readme_excerpt": "New API 🍥 Next-Generation LLM Gateway and AI Asset Management System 简体中文 | 繁體中文 | English | Français | 日本語 Quick Start • Key Features • Deployment • Documentation • Help 📝 Project Description > [!IMPORTANT] > - This project is intended solely for lawful and authorized AI API gateway, organization-level authentication, multi-model management, usage analytics, cost accounting, and private deployment scenarios. > - Users must lawfully obtain upstream API keys, accounts, model services, and inte…",
+  "readme_length": 21821,
+  "has_japanese_readme": true,
+  "contributors_count": 309,
+  "releases_count": 516,
+  "ossf_scorecard": null,
+  "category": "other",
+  "flags": [
+    {
+      "id": "copyleft",
+      "label": "自社サービス組込み注意",
+      "reason": "AGPL-3.0 です。組み込んだ側のソース公開が必要になる場合があります。"
+    }
+  ],
+  "usability_score": 85,
+  "snapshot_days": 1,
+  "is_indexable": true,
+  "first_seen_at": "2026-08-30T23:15:18.749Z",
+  "tracking_tier": "hot",
+  "last_fetched_date": "2026-08-31",
+  "stars_stagnant_days": 0
+}

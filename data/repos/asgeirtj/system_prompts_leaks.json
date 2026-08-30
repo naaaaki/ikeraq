@@ -27,12 +27,12 @@
     "system-prompt",
     "system-prompts"
   ],
-  "stars": 63799,
-  "forks": 10464,
+  "stars": 63844,
+  "forks": 10479,
   "watchers": null,
   "open_issues": 49,
   "created_at": "2025-05-03T02:43:56Z",
-  "pushed_at": "2026-08-29T00:07:28Z",
+  "pushed_at": "2026-08-30T00:55:03Z",
   "is_archived": false,
   "license_spdx": "CC0-1.0",
   "license_category": "permissive",
@@ -45,10 +45,10 @@
   "category": "ai-agent",
   "flags": [],
   "usability_score": 100,
-  "snapshot_days": 1,
+  "snapshot_days": 2,
   "is_indexable": false,
   "first_seen_at": "2026-08-29T23:02:08.747Z",
   "tracking_tier": "hot",
-  "last_fetched_date": "2026-08-30",
+  "last_fetched_date": "2026-08-31",
   "stars_stagnant_days": 0
 }

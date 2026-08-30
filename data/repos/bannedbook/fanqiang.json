@@ -1,0 +1,51 @@
+{
+  "id": "bannedbook/fanqiang",
+  "owner": "bannedbook",
+  "name": "fanqiang",
+  "description_en": "翻墙-科学上网",
+  "human_note": null,
+  "language": "Kotlin",
+  "topics": [
+    "brook",
+    "daze",
+    "fanqiang",
+    "goflyway",
+    "lightsocks",
+    "proxy",
+    "psiphon",
+    "shadowsocks",
+    "ssr",
+    "trojan",
+    "v2ray"
+  ],
+  "stars": 51104,
+  "forks": 8357,
+  "watchers": null,
+  "open_issues": 334,
+  "created_at": "2015-01-14T00:34:25Z",
+  "pushed_at": "2026-08-30T01:09:00Z",
+  "is_archived": false,
+  "license_spdx": null,
+  "license_category": "none",
+  "readme_excerpt": "翻墙-科学上网、翻墙工具、翻墙教程项目库 翻墙新闻-FQNews-安卓APP 安卓翻墙软件 安卓翻墙APP教程 Chrome一键翻墙包 Chrome一键翻墙包 Mac版 EdgeGo-Edge一键翻墙包 火狐firefox一键翻墙包 Firefox一键翻墙包Linux版 自建V2ray服务器翻墙简明教程 自建Shadowsocks服务器翻墙简明教程 免费ss账号 v2ray免费账号 苹果电脑MAC翻墙 iphone翻墙 TorBrowser一键翻墙包 中国大陆注册ChatGPT教程 如何使用v2rayN配置链式代理 Windows V2ray/SS/SSR 翻墙教程 Clash for Windows 翻墙教程 V2rayN 教程 如何使用v2rayN配置链式代理 SSTap教程 Windows翻墙之SSR教程 TorBrowser+V2rayN配置使用教程 iPhone/iPad/iOS V2ray/SS 翻墙APP教程 iphone翻墙 注册苹果美区 Apple ID 帐号并购买APP指南 Iphone/iPad通过电脑局域网共享翻墙 Potatso教程 Shadowrocket…",
+  "readme_length": 8012,
+  "has_japanese_readme": false,
+  "contributors_count": 3,
+  "releases_count": 3,
+  "ossf_scorecard": null,
+  "category": "infra",
+  "flags": [
+    {
+      "id": "no_license",
+      "label": "利用条件不明",
+      "reason": "ライセンスが設定されていません。この場合は原則として全権利が留保され、利用できません。"
+    }
+  ],
+  "usability_score": 60,
+  "snapshot_days": 1,
+  "is_indexable": true,
+  "first_seen_at": "2026-08-30T23:15:18.749Z",
+  "tracking_tier": "hot",
+  "last_fetched_date": "2026-08-31",
+  "stars_stagnant_days": 0
+}

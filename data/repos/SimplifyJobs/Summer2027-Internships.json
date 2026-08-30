@@ -1,0 +1,49 @@
+{
+  "id": "SimplifyJobs/Summer2027-Internships",
+  "owner": "SimplifyJobs",
+  "name": "Summer2027-Internships",
+  "description_en": "Summer 2027 software engineering, data science, AI, quant, product management, and hardware internship postings. Updated daily by Simplify and Pitt CSC.",
+  "human_note": null,
+  "language": "Python",
+  "topics": [
+    "data-science",
+    "fall-2026",
+    "github",
+    "internship",
+    "internships",
+    "interview-preparation",
+    "jobs",
+    "software-engineering",
+    "university"
+  ],
+  "stars": 46941,
+  "forks": 3240,
+  "watchers": null,
+  "open_issues": 101,
+  "created_at": "2020-05-23T20:53:18Z",
+  "pushed_at": "2026-08-30T23:00:52Z",
+  "is_archived": false,
+  "license_spdx": null,
+  "license_category": "none",
+  "readme_excerpt": "# Summer 2027 Tech Internships by Pitt CSC & Simplify Use this repo to share and keep track of Summer 2027 tech internships across software engineering, data science, quant, hardware engineering, AI/ML and more. The list is updated and maintained daily by the Pitt Computer Science Club and Simplify! 🙏 Contribute by submitting an issue! See the contribution guidelines here! 🙏 Browse 717 Internship Roles by Category 💻 Software Engineering (232) 📱 Product Management (66) 🤖 Data Science, AI &…",
+  "readme_length": 431506,
+  "has_japanese_readme": false,
+  "contributors_count": 895,
+  "releases_count": 0,
+  "ossf_scorecard": null,
+  "category": "learning",
+  "flags": [
+    {
+      "id": "no_license",
+      "label": "利用条件不明",
+      "reason": "ライセンスが設定されていません。この場合は原則として全権利が留保され、利用できません。"
+    }
+  ],
+  "usability_score": 60,
+  "snapshot_days": 1,
+  "is_indexable": true,
+  "first_seen_at": "2026-08-30T23:15:18.749Z",
+  "tracking_tier": "hot",
+  "last_fetched_date": "2026-08-31",
+  "stars_stagnant_days": 0
+}

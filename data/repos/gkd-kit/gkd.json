@@ -1,0 +1,50 @@
+{
+  "id": "gkd-kit/gkd",
+  "owner": "gkd-kit",
+  "name": "gkd",
+  "description_en": "基于无障碍，高级选择器，订阅规则的自定义屏幕点击安卓应用 | An Android APP with custom screen tapping based on Accessibility, Advanced Selectors, and Subscription Rules",
+  "human_note": null,
+  "language": "Kotlin",
+  "topics": [
+    "accessibility",
+    "android",
+    "auto",
+    "click",
+    "compose",
+    "jetpack-compose",
+    "kotlin",
+    "kotlin-js",
+    "kotlin-multiplatform",
+    "webassembly"
+  ],
+  "stars": 41317,
+  "forks": 1958,
+  "watchers": null,
+  "open_issues": 11,
+  "created_at": "2023-07-04T03:59:15Z",
+  "pushed_at": "2026-08-27T10:32:01Z",
+  "is_archived": false,
+  "license_spdx": "GPL-3.0",
+  "license_category": "strong-copyleft",
+  "readme_excerpt": "gkd 基于 高级选择器 + 订阅规则 + 快照审查 的自定义屏幕点击 Android 应用 通过自定义规则，在指定界面，满足指定条件(如屏幕上存在特定文字)时，点击特定的节点或位置或执行其他操作 - 快捷操作 帮助你简化一些重复的流程, 如某些软件自动确认电脑登录 - 跳过流程 某些软件可能在启动时存在一些烦人的流程, 这个软件可以帮助你点击跳过这个流程 免责声明 本项目遵循 GPL-3.0 开源，项目仅供学习交流，禁止用于商业或非法用途 安装 如遇问题请先查看 疑难解答 截图 订阅 GKD 默认不提供规则，需自行添加本地规则，或者通过订阅链接的方式获取远程规则 也可通过 subscription-template 快速构建自己的远程订阅 第三方订阅列表可在 查看 要加入此列表, 需点击仓库主页右上角设置图标后在 Topics 中添加 gkd-subscription 示例图片 - 添加至 Topics (点击展开) 选择器 一个类似 CSS 选择器的选择器, 能联系节点上下文信息, 更容易也更精确找到目标节点 [@[vid=\\\"menu\\\"] [text^=\\\"广告\\\"]](ht…",
+  "readme_length": 3570,
+  "has_japanese_readme": false,
+  "contributors_count": 11,
+  "releases_count": 75,
+  "ossf_scorecard": null,
+  "category": "mobile",
+  "flags": [
+    {
+      "id": "copyleft",
+      "label": "自社サービス組込み注意",
+      "reason": "GPL-3.0 です。組み込んだ側のソース公開が必要になる場合があります。"
+    }
+  ],
+  "usability_score": 85,
+  "snapshot_days": 1,
+  "is_indexable": true,
+  "first_seen_at": "2026-08-30T23:15:18.750Z",
+  "tracking_tier": "hot",
+  "last_fetched_date": "2026-08-31",
+  "stars_stagnant_days": 0
+}

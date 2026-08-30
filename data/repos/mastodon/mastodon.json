@@ -1,0 +1,49 @@
+{
+  "id": "mastodon/mastodon",
+  "owner": "mastodon",
+  "name": "mastodon",
+  "description_en": "Your self-hosted, globally interconnected microblogging community",
+  "human_note": null,
+  "language": "Ruby",
+  "topics": [
+    "activity-stream",
+    "activitypub",
+    "docker",
+    "fediverse",
+    "mastodon",
+    "microblog",
+    "social-network",
+    "social-web",
+    "webfinger"
+  ],
+  "stars": 50261,
+  "forks": 7491,
+  "watchers": null,
+  "open_issues": 4512,
+  "created_at": "2016-02-22T15:01:25Z",
+  "pushed_at": "2026-08-30T14:15:58Z",
+  "is_archived": false,
+  "license_spdx": "AGPL-3.0",
+  "license_category": "strong-copyleft",
+  "readme_excerpt": "> [!NOTE] > Want to learn more about Mastodon? > Click below to find out more in a video. Mastodon is a free, open-source social network server based on ActivityPub where users can follow friends and discover new ones. On Mastodon, users can publish anything they want: links, pictures, text, and video. All Mastodon servers are interoperable as a federated network (users on one server can seamlessly communicate with users from another one, including non-Mastodon software that implements Activity…",
+  "readme_length": 5831,
+  "has_japanese_readme": false,
+  "contributors_count": 1121,
+  "releases_count": 361,
+  "ossf_scorecard": null,
+  "category": "infra",
+  "flags": [
+    {
+      "id": "copyleft",
+      "label": "自社サービス組込み注意",
+      "reason": "AGPL-3.0 です。組み込んだ側のソース公開が必要になる場合があります。"
+    }
+  ],
+  "usability_score": 85,
+  "snapshot_days": 1,
+  "is_indexable": true,
+  "first_seen_at": "2026-08-30T23:15:18.749Z",
+  "tracking_tier": "hot",
+  "last_fetched_date": "2026-08-31",
+  "stars_stagnant_days": 0
+}

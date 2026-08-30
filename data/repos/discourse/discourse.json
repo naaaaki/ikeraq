@@ -1,0 +1,47 @@
+{
+  "id": "discourse/discourse",
+  "owner": "discourse",
+  "name": "discourse",
+  "description_en": "A platform for community discussion. Free, open, simple.",
+  "human_note": null,
+  "language": "Ruby",
+  "topics": [
+    "discourse",
+    "ember",
+    "forum",
+    "javascript",
+    "postgresql",
+    "rails",
+    "ruby"
+  ],
+  "stars": 47762,
+  "forks": 9009,
+  "watchers": null,
+  "open_issues": 288,
+  "created_at": "2013-01-12T00:25:55Z",
+  "pushed_at": "2026-08-30T22:22:41Z",
+  "is_archived": false,
+  "license_spdx": "GPL-2.0",
+  "license_category": "strong-copyleft",
+  "readme_excerpt": "The online home for your community. > You can self-host Discourse on your own infrastructure. But if you'd rather skip the setup, maintenance, and server management, we offer official Discourse hosting. > 👉 Learn more about Discourse hosting Discourse is a 100% open-source community platform for those who want complete control over how and where their site is run. Our platform has been battle-tested for over a decade and continues to evolve to meet users’ needs for a powerful community platfor…",
+  "readme_length": 7486,
+  "has_japanese_readme": false,
+  "contributors_count": 1192,
+  "releases_count": 1,
+  "ossf_scorecard": null,
+  "category": "other",
+  "flags": [
+    {
+      "id": "copyleft",
+      "label": "自社サービス組込み注意",
+      "reason": "GPL-2.0 です。組み込んだ側のソース公開が必要になる場合があります。"
+    }
+  ],
+  "usability_score": 85,
+  "snapshot_days": 1,
+  "is_indexable": true,
+  "first_seen_at": "2026-08-30T23:15:18.749Z",
+  "tracking_tier": "hot",
+  "last_fetched_date": "2026-08-31",
+  "stars_stagnant_days": 0
+}

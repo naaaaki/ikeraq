@@ -1,0 +1,47 @@
+{
+  "id": "nvm-windows/nvm",
+  "owner": "nvm-windows",
+  "name": "nvm",
+  "description_en": "The Node.js version manager for Windows.",
+  "human_note": null,
+  "language": "Inno Setup",
+  "topics": [
+    "install",
+    "node",
+    "node-js",
+    "nodejs",
+    "nvm",
+    "version-manager",
+    "windows"
+  ],
+  "stars": 47505,
+  "forks": 3883,
+  "watchers": null,
+  "open_issues": 81,
+  "created_at": "2014-09-20T16:37:28Z",
+  "pushed_at": "2026-08-30T16:21:22Z",
+  "is_archived": false,
+  "license_spdx": null,
+  "license_category": "none",
+  "readme_excerpt": "> [!IMPORTANT] > ### NVM for Windows Version 2 Release Candidate is now available! > NVM for Windows has been fully rewritten for modern workflows. Try the v2 release candidate and help us validate it before the final release. There are significant changes from v1, as listed below and in the docs. NVM for Windows The Microsoft / Google recommended Node.js version manager for millions of Windows developers. NVM for Windows is not the same thing as nvm! (expand for details) The original nvm is a…",
+  "readme_length": 5006,
+  "has_japanese_readme": false,
+  "contributors_count": 2,
+  "releases_count": 24,
+  "ossf_scorecard": null,
+  "category": "backend",
+  "flags": [
+    {
+      "id": "no_license",
+      "label": "利用条件不明",
+      "reason": "ライセンスが設定されていません。この場合は原則として全権利が留保され、利用できません。"
+    }
+  ],
+  "usability_score": 60,
+  "snapshot_days": 1,
+  "is_indexable": true,
+  "first_seen_at": "2026-08-30T23:15:18.749Z",
+  "tracking_tier": "hot",
+  "last_fetched_date": "2026-08-31",
+  "stars_stagnant_days": 0
+}

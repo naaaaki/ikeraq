@@ -1,0 +1,50 @@
+{
+  "id": "666ghj/BettaFish",
+  "owner": "666ghj",
+  "name": "BettaFish",
+  "description_en": "微舆：人人可用的多Agent舆情分析助手，打破信息茧房，还原舆情原貌，预测未来走向，辅助决策！从0实现，不依赖任何框架。",
+  "human_note": null,
+  "language": "Python",
+  "topics": [
+    "agent-framework",
+    "data-analysis",
+    "deep-research",
+    "deep-search",
+    "llms",
+    "multi-agent-system",
+    "nlp",
+    "public-opinion-analysis",
+    "python3",
+    "sentiment-analysis"
+  ],
+  "stars": 42114,
+  "forks": 7628,
+  "watchers": null,
+  "open_issues": 4,
+  "created_at": "2024-07-01T13:11:38Z",
+  "pushed_at": "2026-08-25T16:01:57Z",
+  "is_archived": false,
+  "license_spdx": "GPL-2.0",
+  "license_category": "strong-copyleft",
+  "readme_excerpt": "&ensp; English | 中文文档 > [!IMPORTANT] > 查看我们最新发布的预测引擎：MiroFish-简洁通用的群体智能引擎，预测万物 > “数据分析三板斧”全线贯通：我们激动的宣布 MiroFish 正式发布！随着最后一块版图补齐，我们构建了从 BettaFish（数据收集与分析）到 MiroFish（全景预测）的完整链路。至此，从原始数据到智能决策的闭环已成，让预见未来成为可能！ ⚡ 项目概述 “微舆” 是一个从0实现的创新型 多智能体 舆情分析系统，帮助大家破除信息茧房，还原舆情原貌，预测未来走向，辅助决策。用户只需像聊天一样提出分析需求，智能体开始全自动分析 国内外30+主流社媒 与 数百万条大众评论。 > “微舆”谐音“微鱼”，BettaFish是一种体型很小但非常好斗、漂亮的鱼，它象征着“小而强大，不畏挑战” 查看系统以“武汉大学舆情”为例，生成的研究报告：武汉大学品牌声誉深度分析报告 查看系统以“武汉大学舆情”为例，一次完整运行的视频：视频-武汉大学品牌声誉深度分析报告 不仅仅体现在报告质量上，相比同类产品，我们拥有🚀六大优势： 1. AI驱动的…",
+  "readme_length": 25456,
+  "has_japanese_readme": false,
+  "contributors_count": 51,
+  "releases_count": 6,
+  "ossf_scorecard": null,
+  "category": "ai-agent",
+  "flags": [
+    {
+      "id": "copyleft",
+      "label": "自社サービス組込み注意",
+      "reason": "GPL-2.0 です。組み込んだ側のソース公開が必要になる場合があります。"
+    }
+  ],
+  "usability_score": 85,
+  "snapshot_days": 1,
+  "is_indexable": true,
+  "first_seen_at": "2026-08-30T23:15:18.750Z",
+  "tracking_tier": "hot",
+  "last_fetched_date": "2026-08-31",
+  "stars_stagnant_days": 0
+}

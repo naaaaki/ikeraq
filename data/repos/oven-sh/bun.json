@@ -19,12 +19,12 @@
     "transpiler",
     "typescript"
   ],
-  "stars": 95787,
-  "forks": 5017,
+  "stars": 95813,
+  "forks": 5019,
   "watchers": null,
   "open_issues": 8591,
   "created_at": "2021-04-14T00:48:17Z",
-  "pushed_at": "2026-08-29T15:15:00Z",
+  "pushed_at": "2026-08-30T23:11:58Z",
   "is_archived": false,
   "license_spdx": "NOASSERTION",
   "license_category": "unknown",
@@ -37,10 +37,10 @@
   "category": "web-frontend",
   "flags": [],
   "usability_score": 100,
-  "snapshot_days": 1,
+  "snapshot_days": 2,
   "is_indexable": false,
   "first_seen_at": "2026-08-29T15:46:21.821Z",
   "tracking_tier": "hot",
-  "last_fetched_date": "2026-08-30",
+  "last_fetched_date": "2026-08-31",
   "stars_stagnant_days": 0
 }

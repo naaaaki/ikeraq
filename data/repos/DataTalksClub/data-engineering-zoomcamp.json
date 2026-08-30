@@ -1,0 +1,48 @@
+{
+  "id": "DataTalksClub/data-engineering-zoomcamp",
+  "owner": "DataTalksClub",
+  "name": "data-engineering-zoomcamp",
+  "description_en": "Data Engineering Zoomcamp is a free 9-week course on building production-ready data pipelines. Join the course here 👇🏼",
+  "human_note": null,
+  "language": "Jupyter Notebook",
+  "topics": [
+    "course",
+    "data-engineering",
+    "dbt",
+    "docker",
+    "free",
+    "kafka",
+    "kestra",
+    "spark"
+  ],
+  "stars": 45088,
+  "forks": 8812,
+  "watchers": null,
+  "open_issues": 3,
+  "created_at": "2021-10-21T09:32:50Z",
+  "pushed_at": "2026-08-29T10:38:57Z",
+  "is_archived": false,
+  "license_spdx": null,
+  "license_category": "none",
+  "readme_excerpt": "Data Engineering Zoomcamp: A Free 9-Week Course on Data Engineering Fundamentals Master the fundamentals of data engineering by building an end-to-end data pipeline from scratch. Gain hands-on experience with industry-standard tools and best practices. Join Slack • #course-data-engineering Channel • Telegram Announcements • Course Playlist • FAQ Quick Links | Resource | Link | | Course materials | GitHub repository | | Video lectures | YouTube playlist | | Documentation | Zoomcamp Logistics · D…",
+  "readme_length": 12621,
+  "has_japanese_readme": false,
+  "contributors_count": 211,
+  "releases_count": 0,
+  "ossf_scorecard": null,
+  "category": "infra",
+  "flags": [
+    {
+      "id": "no_license",
+      "label": "利用条件不明",
+      "reason": "ライセンスが設定されていません。この場合は原則として全権利が留保され、利用できません。"
+    }
+  ],
+  "usability_score": 60,
+  "snapshot_days": 1,
+  "is_indexable": true,
+  "first_seen_at": "2026-08-30T23:15:18.750Z",
+  "tracking_tier": "hot",
+  "last_fetched_date": "2026-08-31",
+  "stars_stagnant_days": 0
+}

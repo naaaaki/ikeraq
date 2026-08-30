@@ -15,7 +15,7 @@
     "state-management"
   ],
   "stars": 58630,
-  "forks": 2186,
+  "forks": 2187,
   "watchers": null,
   "open_issues": 5,
   "created_at": "2019-04-09T09:10:06Z",
@@ -32,10 +32,10 @@
   "category": "web-frontend",
   "flags": [],
   "usability_score": 100,
-  "snapshot_days": 1,
+  "snapshot_days": 2,
   "is_indexable": false,
   "first_seen_at": "2026-08-29T23:02:08.747Z",
   "tracking_tier": "hot",
-  "last_fetched_date": "2026-08-30",
-  "stars_stagnant_days": 0
+  "last_fetched_date": "2026-08-31",
+  "stars_stagnant_days": 1
 }

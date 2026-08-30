@@ -15,12 +15,12 @@
     "wasm",
     "zsh"
   ],
-  "stars": 64635,
-  "forks": 5490,
+  "stars": 64665,
+  "forks": 5491,
   "watchers": null,
-  "open_issues": 5130,
+  "open_issues": 5139,
   "created_at": "2021-07-08T18:48:08Z",
-  "pushed_at": "2026-08-29T22:33:25Z",
+  "pushed_at": "2026-08-30T22:57:18Z",
   "is_archived": false,
   "license_spdx": "AGPL-3.0",
   "license_category": "strong-copyleft",
@@ -39,10 +39,10 @@
     }
   ],
   "usability_score": 85,
-  "snapshot_days": 1,
+  "snapshot_days": 2,
   "is_indexable": true,
   "first_seen_at": "2026-08-29T23:02:08.747Z",
   "tracking_tier": "hot",
-  "last_fetched_date": "2026-08-30",
+  "last_fetched_date": "2026-08-31",
   "stars_stagnant_days": 0
 }

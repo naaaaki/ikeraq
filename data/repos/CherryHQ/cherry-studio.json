@@ -1,0 +1,49 @@
+{
+  "id": "CherryHQ/cherry-studio",
+  "owner": "CherryHQ",
+  "name": "cherry-studio",
+  "description_en": "AI productivity studio with smart chat, autonomous agents, and 300+ assistants. Unified access to frontier LLMs",
+  "human_note": null,
+  "language": "TypeScript",
+  "topics": [
+    "agent-skills",
+    "ai-agent",
+    "claude-code",
+    "codex",
+    "deepseek",
+    "deepseek-harness",
+    "hermes-agent",
+    "skills",
+    "vibe-coding"
+  ],
+  "stars": 51265,
+  "forks": 4896,
+  "watchers": null,
+  "open_issues": 1477,
+  "created_at": "2024-05-24T01:56:26Z",
+  "pushed_at": "2026-08-30T22:16:21Z",
+  "is_archived": false,
+  "license_spdx": "AGPL-3.0",
+  "license_category": "strong-copyleft",
+  "readme_excerpt": "🌐 Language English 简体中文 繁體中文 日本語 한국어 हिन्दी ไทย Français Deutsch Español Italiano Русский Português Nederlands Polski العربية فارسی Türkçe Tiếng Việt Bahasa Indonesia English | Official Site | Documents | Development | Feedback [![][deepwiki-shield]][deepwiki-link] [![][twitter-shield]][twitter-link] [![][discord-shield]][discord-link] [![][telegram-shield]][telegram-link] [![][github-release-shield]][github-release-link] [![][github-nightly-shield]][github-nightly-link] [![][github-contributo…",
+  "readme_length": 21781,
+  "has_japanese_readme": false,
+  "contributors_count": 443,
+  "releases_count": 279,
+  "ossf_scorecard": null,
+  "category": "ai-agent",
+  "flags": [
+    {
+      "id": "copyleft",
+      "label": "自社サービス組込み注意",
+      "reason": "AGPL-3.0 です。組み込んだ側のソース公開が必要になる場合があります。"
+    }
+  ],
+  "usability_score": 85,
+  "snapshot_days": 1,
+  "is_indexable": true,
+  "first_seen_at": "2026-08-30T23:15:18.749Z",
+  "tracking_tier": "hot",
+  "last_fetched_date": "2026-08-31",
+  "stars_stagnant_days": 0
+}

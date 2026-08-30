@@ -22,8 +22,8 @@
     "python",
     "python3"
   ],
-  "stars": 72203,
-  "forks": 13244,
+  "stars": 72324,
+  "forks": 13262,
   "watchers": null,
   "open_issues": 201,
   "created_at": "2019-11-19T17:24:16Z",
@@ -46,10 +46,10 @@
     }
   ],
   "usability_score": 60,
-  "snapshot_days": 1,
+  "snapshot_days": 2,
   "is_indexable": true,
   "first_seen_at": "2026-08-29T23:02:08.747Z",
   "tracking_tier": "hot",
-  "last_fetched_date": "2026-08-30",
+  "last_fetched_date": "2026-08-31",
   "stars_stagnant_days": 0
 }

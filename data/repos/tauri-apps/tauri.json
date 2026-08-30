@@ -14,10 +14,10 @@
     "web-frontend",
     "webview"
   ],
-  "stars": 110641,
-  "forks": 3904,
+  "stars": 110687,
+  "forks": 3907,
   "watchers": null,
-  "open_issues": 1465,
+  "open_issues": 1466,
   "created_at": "2019-07-13T09:09:37Z",
   "pushed_at": "2026-08-28T16:18:58Z",
   "is_archived": false,
@@ -32,10 +32,10 @@
   "category": "web-frontend",
   "flags": [],
   "usability_score": 100,
-  "snapshot_days": 1,
+  "snapshot_days": 2,
   "is_indexable": false,
   "first_seen_at": "2026-08-29T15:46:21.820Z",
   "tracking_tier": "hot",
-  "last_fetched_date": "2026-08-30",
+  "last_fetched_date": "2026-08-31",
   "stars_stagnant_days": 0
 }

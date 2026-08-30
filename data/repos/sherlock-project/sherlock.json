@@ -23,12 +23,12 @@
     "sherlock",
     "tools"
   ],
-  "stars": 90585,
-  "forks": 10651,
+  "stars": 90658,
+  "forks": 10650,
   "watchers": null,
   "open_issues": 337,
   "created_at": "2018-12-24T14:30:48Z",
-  "pushed_at": "2026-08-29T05:14:28Z",
+  "pushed_at": "2026-08-30T05:15:47Z",
   "is_archived": false,
   "license_spdx": "MIT",
   "license_category": "permissive",
@@ -41,10 +41,10 @@
   "category": "security",
   "flags": [],
   "usability_score": 100,
-  "snapshot_days": 1,
+  "snapshot_days": 2,
   "is_indexable": false,
   "first_seen_at": "2026-08-29T15:46:21.821Z",
   "tracking_tier": "hot",
-  "last_fetched_date": "2026-08-30",
+  "last_fetched_date": "2026-08-31",
   "stars_stagnant_days": 0
 }

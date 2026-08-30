@@ -1,0 +1,51 @@
+{
+  "id": "paperless-ngx/paperless-ngx",
+  "owner": "paperless-ngx",
+  "name": "paperless-ngx",
+  "description_en": "A community-supported supercharged document management system: scan, index and archive all your documents",
+  "human_note": null,
+  "language": "Python",
+  "topics": [
+    "angular",
+    "archiving",
+    "django",
+    "dms",
+    "document-management",
+    "document-management-system",
+    "hacktoberfest",
+    "machine-learning",
+    "ocr",
+    "optical-character-recognition",
+    "pdf"
+  ],
+  "stars": 44731,
+  "forks": 3067,
+  "watchers": null,
+  "open_issues": 16,
+  "created_at": "2022-02-12T21:56:52Z",
+  "pushed_at": "2026-08-30T22:13:14Z",
+  "is_archived": false,
+  "license_spdx": "GPL-3.0",
+  "license_category": "strong-copyleft",
+  "readme_excerpt": "Paperless-ngx Paperless-ngx is a document management system that transforms your physical documents into a searchable online archive so you can keep, well, less paper. Paperless-ngx is the official successor to the original Paperless & Paperless-ng projects and is designed to distribute the responsibility of advancing and supporting the project among a team of people. Consider joining us! Thanks to the generous folks at DigitalOcean, a demo is available at demo.paperless-ngx.com using login dem…",
+  "readme_length": 7093,
+  "has_japanese_readme": false,
+  "contributors_count": 453,
+  "releases_count": 157,
+  "ossf_scorecard": null,
+  "category": "learning",
+  "flags": [
+    {
+      "id": "copyleft",
+      "label": "自社サービス組込み注意",
+      "reason": "GPL-3.0 です。組み込んだ側のソース公開が必要になる場合があります。"
+    }
+  ],
+  "usability_score": 85,
+  "snapshot_days": 1,
+  "is_indexable": true,
+  "first_seen_at": "2026-08-30T23:15:18.750Z",
+  "tracking_tier": "hot",
+  "last_fetched_date": "2026-08-31",
+  "stars_stagnant_days": 0
+}

@@ -13,10 +13,10 @@
     "react",
     "website"
   ],
-  "stars": 66121,
-  "forks": 10022,
+  "stars": 66125,
+  "forks": 10023,
   "watchers": null,
-  "open_issues": 398,
+  "open_issues": 399,
   "created_at": "2017-06-20T16:13:53Z",
   "pushed_at": "2026-08-28T20:35:46Z",
   "is_archived": false,
@@ -31,10 +31,10 @@
   "category": "web-frontend",
   "flags": [],
   "usability_score": 100,
-  "snapshot_days": 1,
+  "snapshot_days": 2,
   "is_indexable": false,
   "first_seen_at": "2026-08-29T23:02:08.747Z",
   "tracking_tier": "hot",
-  "last_fetched_date": "2026-08-30",
+  "last_fetched_date": "2026-08-31",
   "stars_stagnant_days": 0
 }
