@@ -37,8 +37,8 @@
 | ~~A-1~~ | ~~連絡先を書く~~ | — | **済**（2026-08-30）。`dino.spike.web3@gmail.com` を `/about/` と `/privacy/` に掲載 |
 | ~~A-2~~ | ~~プライバシーポリシー~~ | — | **済**（2026-08-30）。レビュー済み。`src/lib/site.ts` に連絡先を集約 |
 | A-3 | **ドメインを決める** | Naoki | `wakuru.dev` の空きと商標を確認。いまは設定に決め打ち |
-| **A-4** | **Cloudflare Pages へデプロイ** | Naoki＋開発 | ドメインを待たず `wakuru.pages.dev` で先行公開する（2026-08-30 判断）。環境変数 `WAKURU_SITE_URL` の設定が必須。検索避けは A-4c で対応済み |
-| **A-4b** | **デプロイ後に Cookie を確認する** | Naoki | ★**プライバシーポリシーが「当サイト自身は Cookie を設定していません」と書いている。** Cloudflare は保護機能で `__cf_bm` 等を付ける場合がある。ブラウザの開発者ツール（Application タブ）で実際に確認し、あれば `src/pages/privacy/index.astro` の Cookie の節を実態に合わせる |
+| ~~A-4~~ | ~~Cloudflare Pages へデプロイ~~ | — | **済**（2026-08-30）。https://wakuru.pages.dev/ で公開。`WAKURU_SITE_URL` と `NODE_VERSION=22` を設定済み。全ページ200・存在しないURLは404・canonical は pages.dev を指す。ドメイン確定後に差し替える |
+| **A-4b** | **デプロイ後に Cookie を確認する** | Naoki | ★**プライバシーポリシーが「当サイト自身は Cookie を設定していません」と書いている。** Cloudflare は保護機能で `__cf_bm` 等を付ける場合がある。ブラウザの開発者ツール（Application タブ）で実際に確認し、あれば `src/pages/privacy/index.astro` の Cookie の節を実態に合わせる。**サーバー応答（curl）では `Set-Cookie` は1つも無いことを確認済み**（2026-08-30）。残るはブラウザ実機での確認のみ |
 | **A-4c** | **`public/robots.txt` を削除する** | 開発 | ★ドメイン確定・移行が済んだら**必ず消す**。いまは検索避けで全ページを拒否している。**消し忘れると永久に検索から人が来ない**。A-5（Search Console 登録）より先に消すこと |
 | A-5 | Search Console 登録 | Naoki | 公開直後に |
 | ~~A-6~~ | ~~実データでの通し確認~~ | — | **不要と判断**（2026-08-30）。151件・189ページを実測したところ**ビルド1.47秒**（1ページ約8ms）。上限1000件でも10秒程度で、Cloudflare の20分制限には遠く届かない。件数増加は懸念材料から外す |
