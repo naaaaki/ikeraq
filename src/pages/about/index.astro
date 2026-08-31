@@ -9,7 +9,7 @@ import Base from '../../layouts/Base.astro';
 import { getSiteData } from '../../lib/content.js';
 import { num } from '../../lib/format.js';
 import Mascot from '../../components/Mascot.astro';
-import { CONTACT_EMAIL } from '../../lib/site.js';
+import { CONTACT_EMAIL, HAS_AFFILIATE } from '../../lib/site.js';
 
 const site = await getSiteData();
 ---
@@ -119,7 +119,11 @@ const site = await getSiteData();
         <p>
           紹介しているリポジトリの動作を保証するものではありません。技術選定の最終判断は、必ず原典をご確認ください。
         </p>
-        <p>当サイトはアフィリエイト広告を利用しています。</p>
+        <p>
+          {HAS_AFFILIATE
+            ? '当サイトはアフィリエイト広告を利用しています。'
+            : '現在、当サイトは広告を掲載していません。掲載を始めるときは、各ページの最上部に表示します。'}
+        </p>
       </div>
     </section>
   </main>

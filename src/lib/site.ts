@@ -23,3 +23,18 @@ export const CONTACT_EMAIL = 'dino.spike.web3@gmail.com';
  *   （docs/TODO.md）。いまはハンドルネームで置いている。
  */
 export const SITE_OPERATOR = 'naaaaki';
+
+/**
+ * 広告（アフィリエイト）を掲載しているか。
+ *
+ * ★ 表示の有無をここ1か所で決める。ステマ規制の表記・サイト説明・
+ *   プライバシーポリシーの3か所が、この値で揃う。
+ *
+ * ★ false のまま「利用しています」と出さない。
+ *   実際には1本もリンクが無いのに掲載を宣言している状態は、
+ *   規制対応にならないどころか、記載を確かめていない運営に見える。
+ *
+ * 導入するときは true にするだけでよい。あわせて
+ * プライバシーポリシーに事業者名を書き足すこと（docs/TODO.md C-2）。
+ */
+export const HAS_AFFILIATE = false;

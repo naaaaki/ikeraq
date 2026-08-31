@@ -4,8 +4,11 @@
  *
  * ★ ステマ規制の表記はファーストビューに置く（SPEC §8.1）。
  *   全ページの最上部に固定するので、個別ページで消せないようにここに置いてある。
+ *   出すかどうかは HAS_AFFILIATE（src/lib/site.ts）だけで決める。
+ *   広告が1本も無いのに「利用しています」と出さないため。
  */
 import '../styles/global.css';
+import { HAS_AFFILIATE } from '../lib/site.js';
 
 interface Props {
   title: string;
@@ -79,12 +82,17 @@ const isCurrent = (href: string) => (href === '/' ? path === '/' : path.startsWi
   <body>
     <a class="visually-hidden skip-link" href="#main">本文へ移動</a>
 
-    <!-- ステマ規制の表記。ファーストビューに置く（SPEC §8.1） -->
-    <div style="border-bottom: 1px solid var(--rule); background: var(--sink);">
-      <div class="wrap" style="padding-top: 8px; padding-bottom: 8px;">
-        <span style="font-size: 11.5px; color: var(--ink3);">当サイトはアフィリエイト広告を利用しています</span>
+    {/*
+      ステマ規制の表記。ファーストビューに置く（SPEC §8.1）。
+      ★ 広告を入れるまでは出さない。表示の要否は HAS_AFFILIATE で一元管理する
+    */}
+    {HAS_AFFILIATE && (
+      <div style="border-bottom: 1px solid var(--rule); background: var(--sink);">
+        <div class="wrap" style="padding-top: 8px; padding-bottom: 8px;">
+          <span style="font-size: 11.5px; color: var(--ink3);">当サイトはアフィリエイト広告を利用しています</span>
+        </div>
       </div>
-    </div>
+    )}
 
     {
       compact ? (
