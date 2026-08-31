@@ -41,7 +41,7 @@
 | ~~A-4d~~ | ~~GitHub の Secret に `IKERAQ_GITHUB_PAT` を追加~~ | — | **済**（2026-09-01）。旧 `WAKURU_GITHUB_PAT` は日次収集の成功を1回見届けてから削除する |
 | ~~A-4e~~ | ~~Cloudflare Pages の環境変数を差し替える~~ | — | **済**（2026-09-01）。`IKERAQ_SITE_URL` = `https://ikeraq.com`。canonical・og:url が新ドメインを指すことを実機で確認 |
 | ~~A-4f~~ | ~~Pages にカスタムドメイン `ikeraq.com` を追加~~ | — | **済**（2026-09-01）。`ikeraq.com` `www.ikeraq.com` とも 200。**www が apex へ 301 していない**ので、Cloudflare のリダイレクトルールで寄せるべき（A-8） |
-| A-4g | GitHubリポジトリ名を `ikeraq` に変更 | Naoki | 急がない。変更後は `git remote set-url` も必要。ローカルフォルダ `projects/wakuru` の改名とセットで（VS Code を閉じてから） |
+| A-4g | GitHubリポジトリ名を `ikeraq` に変更 | 開発 | **リポジトリ名は変更済み**（2026-09-01）。`naaaaki/ikeraq`・`git remote set-url` 済み・fetch 確認済み。**残：ローカルフォルダ `projects/wakuru` の改名**（VS Code が掴んでいて動かせない。閉じたら実行する） |
 | ~~A-4b~~ | ~~デプロイ後に Cookie を確認する~~ | — | **済**（2026-08-31）。実機のブラウザで確認：JSから見える Cookie 0件・localStorage 空。サーバー応答にも `Set-Cookie` なし。HttpOnly の Cookie はツールから直接読めないが、文面が「当サイト自身は設定していない／配信事業者が用いる場合がある」と主語を分けてあるため、仮に Cloudflare が付けても矛盾しない。**プライバシーポリシーの修正は不要**と判断 |
 | ~~A-4c~~ | ~~`public/robots.txt` を削除する~~ | — | **済**（2026-09-01）。削除ではなく**全ページ許可＋Sitemap 明示に書き換えた**。消すだけでも解除にはなるが、サイトマップの在り処を伝えられないため |
 | A-5 | Search Console 登録 | Naoki | 公開直後に |
