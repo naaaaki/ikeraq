@@ -31,7 +31,7 @@ export async function GET(context: APIContext) {
     });
 
   return rss({
-    title: 'Wakuru',
+    title: 'Ikeraq',
     description: 'GitHub で注目されているリポジトリを、日本語で紹介しています。',
     site: context.site!,
     items,

@@ -38,7 +38,7 @@ export async function notify(
       method: 'POST',
       headers: { 'Content-Type': 'application/json' },
       body: JSON.stringify({
-        username: 'Wakuru',
+        username: 'Ikeraq',
         embeds: [
           {
             title: `${PREFIX[level]} ${title}`,

@@ -22,7 +22,7 @@
 
 | # | 課題 | 担当 | 内容 |
 |---|---|---|---|
-| ~~S-1~~ | ~~GitHub リポジトリを作り、Secrets を登録する~~ | — | **済**（2026-08-30）。`naaaaki/wakuru` 作成・`WAKURU_GITHUB_PAT` 登録・初回収集151件を記録 |
+| ~~S-1~~ | ~~GitHub リポジトリを作り、Secrets を登録する~~ | — | **済**（2026-08-30）。`naaaaki/wakuru` 作成・`IKERAQ_GITHUB_PAT` 登録・初回収集151件を記録 |
 | ~~S-2~~ | ~~Discord の Webhook URL を登録する~~ | — | **見送り**（2026-08-30・Naoki判断）。`monitor.ts` は重大な異常のとき `exit 1` で Actions を失敗させるため、**「静かに止まった」は GitHub の標準メール通知で拾える**。エラーが頻発するようなら再検討する |
 | **S-3** | **GitHub の失敗メールが届く状態か確認する** | Naoki | Discord を入れない以上、これが唯一の警報。GitHub → Settings → Notifications → Actions が「失敗時のみ通知」以上になっているか見る。1分で済む |
 
@@ -36,8 +36,8 @@
 |---|---|---|---|
 | ~~A-1~~ | ~~連絡先を書く~~ | — | **済**（2026-08-30）。`dino.spike.web3@gmail.com` を `/about/` と `/privacy/` に掲載 |
 | ~~A-2~~ | ~~プライバシーポリシー~~ | — | **済**（2026-08-30）。レビュー済み。`src/lib/site.ts` に連絡先を集約 |
-| A-3 | **ドメインを決める** | Naoki | `wakuru.dev` の空きと商標を確認。いまは設定に決め打ち |
-| ~~A-4~~ | ~~Cloudflare Pages へデプロイ~~ | — | **済**（2026-08-30）。https://wakuru.pages.dev/ で公開。`WAKURU_SITE_URL` と `NODE_VERSION=22` を設定済み。全ページ200・存在しないURLは404・canonical は pages.dev を指す。ドメイン確定後に差し替える |
+| ~~A-3~~ | ~~ドメインを決める~~ | — | **済**（2026-09-01）。`ikeraq.com` を Cloudflare Registrar で取得。サイト名も Wakuru → Ikeraq に改名。**商標（J-PlatPat）の確認は未実施** |
+| ~~A-4~~ | ~~Cloudflare Pages へデプロイ~~ | — | **済**（2026-08-30）。https://wakuru.pages.dev/ で公開。`IKERAQ_SITE_URL` と `NODE_VERSION=22` を設定済み。全ページ200・存在しないURLは404・canonical は pages.dev を指す。ドメイン確定後に差し替える |
 | ~~A-4b~~ | ~~デプロイ後に Cookie を確認する~~ | — | **済**（2026-08-31）。実機のブラウザで確認：JSから見える Cookie 0件・localStorage 空。サーバー応答にも `Set-Cookie` なし。HttpOnly の Cookie はツールから直接読めないが、文面が「当サイト自身は設定していない／配信事業者が用いる場合がある」と主語を分けてあるため、仮に Cloudflare が付けても矛盾しない。**プライバシーポリシーの修正は不要**と判断 |
 | **A-4c** | **`public/robots.txt` を削除する** | 開発 | ★ドメイン確定・移行が済んだら**必ず消す**。いまは検索避けで全ページを拒否している。**消し忘れると永久に検索から人が来ない**。A-5（Search Console 登録）より先に消すこと |
 | A-5 | Search Console 登録 | Naoki | 公開直後に |

@@ -34,7 +34,7 @@ jobs:
 
       - name: 収集とスナップショット保存
         env:
-          GITHUB_TOKEN: ${{ secrets.WAKURU_GITHUB_PAT }}
+          GITHUB_TOKEN: ${{ secrets.IKERAQ_GITHUB_PAT }}
           DISCORD_WEBHOOK_URL: ${{ secrets.DISCORD_WEBHOOK_URL }}
         run: npm run collect
 
@@ -48,8 +48,8 @@ jobs:
 
       - name: データをコミット
         run: |
-          git config user.name  "wakuru-bot"
-          git config user.email "wakuru-bot@users.noreply.github.com"
+          git config user.name  "ikeraq-bot"
+          git config user.email "ikeraq-bot@users.noreply.github.com"
           git add data
           if git diff --staged --quiet; then
             echo "変更なし"
@@ -69,4 +69,4 @@ jobs:
         run: |
           test -n "$DISCORD_WEBHOOK_URL" || exit 0
           RUN_URL="${{ github.server_url }}/${{ github.repository }}/actions/runs/${{ github.run_id }}"
-          curl -sS -X POST -H 'Content-Type: application/json'             -d "{\"username\":\"Wakuru\",\"content\":\"⛔ daily ワークフローが失敗しました\n$RUN_URL\"}"             "$DISCORD_WEBHOOK_URL" || true
+          curl -sS -X POST -H 'Content-Type: application/json'             -d "{\"username\":\"Ikeraq\",\"content\":\"⛔ daily ワークフローが失敗しました\n$RUN_URL\"}"             "$DISCORD_WEBHOOK_URL" || true

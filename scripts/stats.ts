@@ -17,7 +17,7 @@ async function main() {
   const snapshots = (await Promise.all(dates.map(loadSnapshot))).filter((s) => s !== null);
   const repos = await loadAllRepos();
 
-  console.log('===== Wakuru Phase 0 実測レポート =====\n');
+  console.log('===== Ikeraq Phase 0 実測レポート =====\n');
   console.log(`スナップショット蓄積日数 : ${snapshots.length} 日（${dates[0]} 〜 ${dates.at(-1)}）`);
   console.log(`追跡対象                 : ${repos.length} 件`);
 

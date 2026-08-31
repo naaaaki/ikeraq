@@ -13,7 +13,7 @@
 export async function fetchTrending(): Promise<string[] | null> {
   try {
     const res = await fetch('https://github.com/trending', {
-      headers: { 'User-Agent': 'wakuru-collector', Accept: 'text/html' },
+      headers: { 'User-Agent': 'ikeraq-collector', Accept: 'text/html' },
     });
     if (!res.ok) {
       console.warn(`[trending] HTTP ${res.status}。Search API の結果のみで続行します`);

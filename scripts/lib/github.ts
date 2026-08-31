@@ -193,7 +193,7 @@ export class GitHubClient {
         headers: {
           Accept: 'application/vnd.github+json',
           'X-GitHub-Api-Version': '2022-11-28',
-          'User-Agent': 'wakuru-collector',
+          'User-Agent': 'ikeraq-collector',
           Authorization: `Bearer ${this.token}`,
           ...(init.headers as Record<string, string> | undefined),
         },

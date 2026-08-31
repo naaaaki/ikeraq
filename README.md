@@ -1,4 +1,4 @@
-# Wakuru（ワクル）
+# Ikeraq（イケラク）
 
 > 新しい技術が、わかる。
 
@@ -27,7 +27,7 @@ GitHub で注目されているリポジトリを、日本語で紹介するサ�
 |---|---|
 | 連絡先（事実誤認の指摘・掲載取り下げの窓口） | `src/pages/about/index.astro` の「お問い合わせ」 |
 | プライバシーポリシー | 未作成。書けるまでフッターにリンクを置いていない |
-| 独自ドメイン | `astro.config.mjs` の `site`。いまは `wakuru.dev` 決め打ち |
+| 独自ドメイン | `astro.config.mjs` の `site`。いまは `ikeraq.com` 決め打ち |
 
 ---
 
@@ -45,7 +45,7 @@ GitHub Actions で動かす場合は、リポジトリ Secrets に以下を登�
 
 | Secret | 用途 |
 |---|---|
-| `WAKURU_GITHUB_PAT` | GitHub API の認証 |
+| `IKERAQ_GITHUB_PAT` | GitHub API の認証 |
 | `DISCORD_WEBHOOK_URL` | 失敗・異常の通知（SPEC §17.2） |
 
 ---

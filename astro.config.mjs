@@ -6,12 +6,12 @@ import { defineConfig } from 'astro/config';
 import sitemap from '@astrojs/sitemap';
 
 /**
- * Wakuru サイト本体（SPEC §12）
+ * Ikeraq サイト本体（SPEC §12）
  *
  * - 静的出力のみ。サーバーを持たない（Cloudflare Pages に置く前提）
  * - 独自ドメインは未確定なので、環境変数で差し替えられるようにしてある
  */
-const site = process.env.WAKURU_SITE_URL ?? 'https://wakuru.dev';
+const site = process.env.IKERAQ_SITE_URL ?? 'https://ikeraq.com';
 
 const OUT_DIR = fileURLToPath(new URL('./dist/', import.meta.url));
 
