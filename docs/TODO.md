@@ -1,6 +1,6 @@
 # 課題表
 
-最終更新：2026-08-30
+最終更新：2026-09-01
 
 **優先度の考え方**
 
@@ -22,7 +22,7 @@
 
 | # | 課題 | 担当 | 内容 |
 |---|---|---|---|
-| ~~S-1~~ | ~~GitHub リポジトリを作り、Secrets を登録する~~ | — | **済**（2026-08-30）。`naaaaki/wakuru` 作成・`IKERAQ_GITHUB_PAT` 登録・初回収集151件を記録 |
+| ~~S-1~~ | ~~GitHub リポジトリを作り、Secrets を登録する~~ | — | **済**（2026-08-30）。`naaaaki/wakuru` 作成・`WAKURU_GITHUB_PAT` 登録（現 `IKERAQ_GITHUB_PAT`）・初回収集151件を記録 |
 | ~~S-2~~ | ~~Discord の Webhook URL を登録する~~ | — | **見送り**（2026-08-30・Naoki判断）。`monitor.ts` は重大な異常のとき `exit 1` で Actions を失敗させるため、**「静かに止まった」は GitHub の標準メール通知で拾える**。エラーが頻発するようなら再検討する |
 | **S-3** | **GitHub の失敗メールが届く状態か確認する** | Naoki | Discord を入れない以上、これが唯一の警報。GitHub → Settings → Notifications → Actions が「失敗時のみ通知」以上になっているか見る。1分で済む |
 
@@ -38,14 +38,15 @@
 | ~~A-2~~ | ~~プライバシーポリシー~~ | — | **済**（2026-08-30）。レビュー済み。`src/lib/site.ts` に連絡先を集約 |
 | ~~A-3~~ | ~~ドメインを決める~~ | — | **済**（2026-09-01）。`ikeraq.com` を Cloudflare Registrar で取得。サイト名も Wakuru → Ikeraq に改名。**商標（J-PlatPat）の確認は未実施** |
 | ~~A-4~~ | ~~Cloudflare Pages へデプロイ~~ | — | **済**（2026-08-30）。https://wakuru.pages.dev/ で公開。`WAKURU_SITE_URL` と `NODE_VERSION=22` を設定済み。全ページ200・存在しないURLは404・canonical は pages.dev を指す |
-| **A-4d** | **GitHub の Secret に `IKERAQ_GITHUB_PAT` を追加する** | Naoki | 🔴 **push より先にやる。** 値は既存 `WAKURU_GITHUB_PAT` と同じPAT。ワークフローは改名後の名前しか見ないので、無いと翌朝の日次収集が失敗する。動作確認後に旧Secretを削除 |
-| **A-4e** | **Cloudflare Pages の環境変数を差し替える** | Naoki | `WAKURU_SITE_URL` を削除し、`IKERAQ_SITE_URL` = `https://ikeraq.com` を追加。これを忘れると canonical が pages.dev のままになる |
-| **A-4f** | **Pages にカスタムドメイン `ikeraq.com` を追加** | Naoki | `www.ikeraq.com` も追加してリダイレクトさせる。DNSは同一アカウントなので自動 |
+| ~~A-4d~~ | ~~GitHub の Secret に `IKERAQ_GITHUB_PAT` を追加~~ | — | **済**（2026-09-01）。旧 `WAKURU_GITHUB_PAT` は日次収集の成功を1回見届けてから削除する |
+| ~~A-4e~~ | ~~Cloudflare Pages の環境変数を差し替える~~ | — | **済**（2026-09-01）。`IKERAQ_SITE_URL` = `https://ikeraq.com`。canonical・og:url が新ドメインを指すことを実機で確認 |
+| ~~A-4f~~ | ~~Pages にカスタムドメイン `ikeraq.com` を追加~~ | — | **済**（2026-09-01）。`ikeraq.com` `www.ikeraq.com` とも 200。**www が apex へ 301 していない**ので、Cloudflare のリダイレクトルールで寄せるべき（A-8） |
 | A-4g | GitHubリポジトリ名を `ikeraq` に変更 | Naoki | 急がない。変更後は `git remote set-url` も必要。ローカルフォルダ `projects/wakuru` の改名とセットで（VS Code を閉じてから） |
 | ~~A-4b~~ | ~~デプロイ後に Cookie を確認する~~ | — | **済**（2026-08-31）。実機のブラウザで確認：JSから見える Cookie 0件・localStorage 空。サーバー応答にも `Set-Cookie` なし。HttpOnly の Cookie はツールから直接読めないが、文面が「当サイト自身は設定していない／配信事業者が用いる場合がある」と主語を分けてあるため、仮に Cloudflare が付けても矛盾しない。**プライバシーポリシーの修正は不要**と判断 |
-| **A-4c** | **`public/robots.txt` を削除する** | 開発 | ★ドメイン確定・移行が済んだら**必ず消す**。いまは検索避けで全ページを拒否している。**消し忘れると永久に検索から人が来ない**。A-5（Search Console 登録）より先に消すこと |
+| ~~A-4c~~ | ~~`public/robots.txt` を削除する~~ | — | **済**（2026-09-01）。削除ではなく**全ページ許可＋Sitemap 明示に書き換えた**。消すだけでも解除にはなるが、サイトマップの在り処を伝えられないため |
 | A-5 | Search Console 登録 | Naoki | 公開直後に |
 | ~~A-6~~ | ~~実データでの通し確認~~ | — | **不要と判断**（2026-08-30）。151件・189ページを実測したところ**ビルド1.47秒**（1ページ約8ms）。上限1000件でも10秒程度で、Cloudflare の20分制限には遠く届かない。件数増加は懸念材料から外す |
+| **A-8** | **`www.ikeraq.com` を `ikeraq.com` へ 301 で寄せる** | Naoki | いま両方が 200 を返している。canonical は apex を指しているので致命傷ではないが、同じ内容が2つのURLで届く状態。Cloudflare の「ルール → リダイレクトルール」で `www` を apex に転送する |
 | **A-7** | **運営者名義を専門家に確認** | Naoki | 個人情報の取り扱いを説明する文書には、扱う主体の記載が要る。いまはハンドルネーム（`naaaaki`）で置いている。本名・屋号のどこまでが必要かは判断が要る。あわせて、第三者のアカウント名掲載の位置づけと、Cloudflare 利用時の越境移転の記載要否も |
 
 ---
