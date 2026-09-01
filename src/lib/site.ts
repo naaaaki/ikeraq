@@ -38,3 +38,33 @@ export const SITE_OPERATOR = 'naaaaki';
  * プライバシーポリシーに事業者名を書き足すこと（docs/TODO.md C-2）。
  */
 export const HAS_AFFILIATE = false;
+
+/**
+ * アクセス解析を入れているか。
+ *
+ * ★ 広告（HAS_AFFILIATE）と同じで、実態とプライバシーポリシーをここ1か所で揃える。
+ *
+ * ★ 解析だけは、他と危険度が違う。
+ *   Cloudflare Web Analytics はダッシュボードのトグル1つで有効にできてしまう。
+ *   コードを一切触らずにプライバシーポリシーが嘘になる、唯一の経路がここ。
+ *   「ここを true にしてからでないと有効化しない」という順番を必ず守ること。
+ *
+ * ★ true にする前に、ツールが Cookie を使うかどうかを確かめること。
+ *   下の文面は「Cookie を使わない」前提で書いてある。Cookie を使うツールに
+ *   入れ替えるなら、Cookie の節も直す必要がある。
+ */
+export const HAS_ANALYTICS = false;
+
+/** 使っている解析ツールの名前。HAS_ANALYTICS が true のときだけ意味を持つ */
+export const ANALYTICS_NAME = 'Cloudflare Web Analytics';
+
+/**
+ * 配信事業者。プライバシーポリシーで名指しするために置く。
+ *
+ * ★ Google Fonts は「Google LLC」と実名で書いているのに、
+ *   ホスティングだけ「配信事業者」と伏せていた。読む人からすると、
+ *   自分の IP アドレスがどこの誰に届くのかが分からない。片方だけ伏せる理由がない。
+ */
+export const HOSTING_PROVIDER = 'Cloudflare, Inc.';
+export const HOSTING_PROVIDER_COUNTRY = '米国';
+export const HOSTING_PRIVACY_URL = 'https://www.cloudflare.com/privacypolicy/';
