@@ -15,8 +15,8 @@
     "web-scraping",
     "web-scraping-python"
   ],
-  "stars": 64118,
-  "forks": 11930,
+  "stars": 64144,
+  "forks": 11932,
   "watchers": null,
   "open_issues": 448,
   "created_at": "2010-02-22T02:01:14Z",
@@ -33,10 +33,10 @@
   "category": "data",
   "flags": [],
   "usability_score": 100,
-  "snapshot_days": 2,
+  "snapshot_days": 3,
   "is_indexable": false,
   "first_seen_at": "2026-08-29T23:02:08.747Z",
   "tracking_tier": "hot",
-  "last_fetched_date": "2026-08-31",
+  "last_fetched_date": "2026-09-01",
   "stars_stagnant_days": 0
 }

@@ -1,0 +1,47 @@
+{
+  "id": "halo-dev/halo",
+  "owner": "halo-dev",
+  "name": "halo",
+  "description_en": "Halo 是一款强大易用的开源建站工具，从个人博客、知识库，到企业官网、在线商城，Halo 都能助您轻松实现，一站式满足您的多样化建站需求。",
+  "human_note": null,
+  "language": "Java",
+  "topics": [
+    "blog",
+    "blog-engine",
+    "cms",
+    "content-management-system",
+    "halo",
+    "halocms",
+    "website-builder"
+  ],
+  "stars": 39640,
+  "forks": 10330,
+  "watchers": null,
+  "open_issues": 116,
+  "created_at": "2018-03-21T12:56:52Z",
+  "pushed_at": "2026-08-31T08:21:35Z",
+  "is_archived": false,
+  "license_spdx": "GPL-3.0",
+  "license_category": "strong-copyleft",
+  "readme_excerpt": "Halo [ˈheɪloʊ]，强大易用的开源建站工具。 官网 文档 社区 Gitee Telegram 频道 Halo 是什么？ Halo 是一款强大易用的开源建站工具，从个人博客、知识库，到企业官网、在线商城，Halo 都能助您轻松实现，一站式满足您的多样化建站需求。 快速开始 如果你的设备有 Docker 环境，可以使用以下命令快速启动一个 Halo 的体验环境： 以上方式仅作为体验使用，推荐使用开源 Linux 服务器运维管理面板 1Panel 进行部署（查看文档），轻松搞定反向代理、SSL 证书及升级备份任务。更多部署方式，请查看文档。 在线体验 - 环境地址： - 后台地址： - 用户名：demo - 密码：P@ssw0rd123.. 版本对比 Halo 社区版：开源免费， 遵循 GPLv3 协议 - [x] 适合个人开发者、技术爱好者、开源项目 - [x] 零成本搭建博客、作品集、技术文档站 - [x] 超过 100 款免费主题和插件 Halo 专业版：在社区版基础上，集成 10+ 高价值功能 - [x] 移动端 APP：随时随地管理内容 - [x] AI 智能建站：快速…",
+  "readme_length": 4109,
+  "has_japanese_readme": false,
+  "contributors_count": 171,
+  "releases_count": 269,
+  "ossf_scorecard": null,
+  "category": "other",
+  "flags": [
+    {
+      "id": "copyleft",
+      "label": "自社サービス組込み注意",
+      "reason": "GPL-3.0 です。組み込んだ側のソース公開が必要になる場合があります。"
+    }
+  ],
+  "usability_score": 85,
+  "snapshot_days": 1,
+  "is_indexable": true,
+  "first_seen_at": "2026-09-01T00:26:13.031Z",
+  "tracking_tier": "hot",
+  "last_fetched_date": "2026-09-01",
+  "stars_stagnant_days": 0
+}

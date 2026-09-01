@@ -26,10 +26,10 @@
     "skills",
     "tree-sitter"
   ],
-  "stars": 112643,
-  "forks": 10962,
+  "stars": 113011,
+  "forks": 11002,
   "watchers": null,
-  "open_issues": 1149,
+  "open_issues": 1176,
   "created_at": "2026-04-03T15:49:07Z",
   "pushed_at": "2026-08-30T15:03:47Z",
   "is_archived": false,
@@ -44,10 +44,10 @@
   "category": "ai-agent",
   "flags": [],
   "usability_score": 100,
-  "snapshot_days": 2,
+  "snapshot_days": 3,
   "is_indexable": false,
   "first_seen_at": "2026-08-29T15:46:21.820Z",
   "tracking_tier": "hot",
-  "last_fetched_date": "2026-08-31",
+  "last_fetched_date": "2026-09-01",
   "stars_stagnant_days": 0
 }

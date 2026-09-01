@@ -15,12 +15,12 @@
     "python-requests",
     "requests"
   ],
-  "stars": 54265,
-  "forks": 10109,
+  "stars": 54271,
+  "forks": 10115,
   "watchers": null,
-  "open_issues": 234,
+  "open_issues": 236,
   "created_at": "2011-02-13T18:38:17Z",
-  "pushed_at": "2026-08-25T00:45:59Z",
+  "pushed_at": "2026-08-31T16:55:52Z",
   "is_archived": false,
   "license_spdx": "Apache-2.0",
   "license_category": "permissive",
@@ -33,10 +33,10 @@
   "category": "backend",
   "flags": [],
   "usability_score": 100,
-  "snapshot_days": 2,
+  "snapshot_days": 3,
   "is_indexable": false,
   "first_seen_at": "2026-08-29T23:02:08.747Z",
   "tracking_tier": "hot",
-  "last_fetched_date": "2026-08-31",
-  "stars_stagnant_days": 1
+  "last_fetched_date": "2026-09-01",
+  "stars_stagnant_days": 0
 }

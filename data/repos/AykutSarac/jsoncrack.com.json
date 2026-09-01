@@ -16,10 +16,10 @@
     "visualization",
     "yaml"
   ],
-  "stars": 44352,
-  "forks": 3567,
+  "stars": 44351,
+  "forks": 3565,
   "watchers": null,
-  "open_issues": 39,
+  "open_issues": 44,
   "created_at": "2022-01-30T15:25:18Z",
   "pushed_at": "2026-08-30T15:48:02Z",
   "is_archived": false,
@@ -34,10 +34,10 @@
   "category": "web-frontend",
   "flags": [],
   "usability_score": 100,
-  "snapshot_days": 1,
+  "snapshot_days": 2,
   "is_indexable": false,
   "first_seen_at": "2026-08-30T23:15:18.750Z",
   "tracking_tier": "hot",
-  "last_fetched_date": "2026-08-31",
-  "stars_stagnant_days": 0
+  "last_fetched_date": "2026-09-01",
+  "stars_stagnant_days": 1
 }

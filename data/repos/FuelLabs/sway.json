@@ -11,12 +11,12 @@
     "language",
     "sway"
   ],
-  "stars": 61471,
-  "forks": 5416,
+  "stars": 61467,
+  "forks": 5414,
   "watchers": null,
   "open_issues": 937,
   "created_at": "2021-01-19T20:54:33Z",
-  "pushed_at": "2026-08-28T17:59:58Z",
+  "pushed_at": "2026-09-01T00:23:49Z",
   "is_archived": false,
   "license_spdx": "Apache-2.0",
   "license_category": "permissive",
@@ -29,10 +29,10 @@
   "category": "dev-tool",
   "flags": [],
   "usability_score": 100,
-  "snapshot_days": 2,
+  "snapshot_days": 3,
   "is_indexable": false,
   "first_seen_at": "2026-08-29T23:02:08.747Z",
   "tracking_tier": "hot",
-  "last_fetched_date": "2026-08-31",
-  "stars_stagnant_days": 1
+  "last_fetched_date": "2026-09-01",
+  "stars_stagnant_days": 2
 }

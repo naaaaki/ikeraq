@@ -2,7 +2,7 @@
   "id": "diegosouzapw/OmniRoute",
   "owner": "diegosouzapw",
   "name": "OmniRoute",
-  "description_en": "Never stop coding. Free MIT AI gateway: one endpoint, 350 providers (90+ free), 1200+ models Kimi, Claude, GPT, Gemini, GLM, DeepSeek, MiniMax. Works with Claude Code, Codex, Cursor, OpenCode, Cline & Copilot. Quota-aware auto-fallback, RTK+Caveman compression saves 15-95% tokens, MCP/A2A, Desktop/PWA. Built by 450+ contributors",
+  "description_en": "Never stop coding. Free MIT AI gateway: one endpoint, 352 providers (150+ free), 1200+ models Kimi, Claude, GPT, Gemini, GLM, DeepSeek, MiniMax. Works with Claude Code, Codex, Cursor, OpenCode, Cline & Copilot. Quota-aware auto-fallback, RTK+Caveman compression saves 15-95% tokens, MCP/A2A, Desktop/PWA. Built by 550+ contributors",
   "human_note": null,
   "language": "TypeScript",
   "topics": [
@@ -27,12 +27,12 @@
     "qwen",
     "token-saver"
   ],
-  "stars": 58634,
-  "forks": 8128,
+  "stars": 59296,
+  "forks": 8237,
   "watchers": null,
-  "open_issues": 165,
+  "open_issues": 210,
   "created_at": "2026-02-13T12:38:31Z",
-  "pushed_at": "2026-08-30T22:40:15Z",
+  "pushed_at": "2026-08-31T18:39:21Z",
   "is_archived": false,
   "license_spdx": "MIT",
   "license_category": "permissive",
@@ -45,10 +45,10 @@
   "category": "ai-agent",
   "flags": [],
   "usability_score": 100,
-  "snapshot_days": 2,
+  "snapshot_days": 3,
   "is_indexable": false,
   "first_seen_at": "2026-08-29T23:02:08.747Z",
   "tracking_tier": "hot",
-  "last_fetched_date": "2026-08-31",
+  "last_fetched_date": "2026-09-01",
   "stars_stagnant_days": 0
 }

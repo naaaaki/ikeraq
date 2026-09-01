@@ -1,0 +1,46 @@
+{
+  "id": "hehonghui/awesome-english-ebooks",
+  "owner": "hehonghui",
+  "name": "awesome-english-ebooks",
+  "description_en": "经济学人(含音频)、纽约客、卫报、连线、大西洋月刊等英语杂志免费下载,支持epub、mobi、pdf格式, 每周更新",
+  "human_note": null,
+  "language": "CSS",
+  "topics": [
+    "download",
+    "ebooks",
+    "economist",
+    "economist-ebooks",
+    "new-yorker",
+    "pdf"
+  ],
+  "stars": 35699,
+  "forks": 2979,
+  "watchers": null,
+  "open_issues": 0,
+  "created_at": "2022-06-28T02:45:44Z",
+  "pushed_at": "2026-08-28T21:46:23Z",
+  "is_archived": false,
+  "license_spdx": null,
+  "license_category": "none",
+  "readme_excerpt": "经济学人、纽约客等英语外刊杂志下载 一、优质App推荐 英阅阅读器 - 超好用的英语阅读神器! 让您轻松读懂英文小说、外刊杂志 ,支持点击查词、句子翻译、mdict英汉-英英词典、阅读笔记、AI学英语(语法、词汇分析)等功能,iOS版下载、Android版下载(华为、小米等应用商店均可下载); 多邻国 - 全球火爆的外语学习平台, 学习就像玩游戏！多邻国官网 二、内容分类 经济学人 - 周刊, 点击这里下载最新一期 , 每周五十一点更新 纽约客 - 周刊, 点击这里下载最新一期 , 每周六上午更新 The Atlantic - 月刊, 每月2号更新 Wired - 月刊, 每月2号更新 如何选择杂志 ? 请参考下面两篇文章 考研英语题源分析，看看题目来自于哪里 2018英语外刊大合集 三、其他阅读器 1. epub 格式的电子书可以安装 多看阅读 , 通过 wifi传书功能 通过浏览器将电子书传入到阅读器中, 然后就可以进行阅读; 2. mobi 格式的电子书需要使用 kindle设备 或者在电脑、手机上安装 kindle 阅读app",
+  "readme_length": 1292,
+  "has_japanese_readme": false,
+  "contributors_count": 1,
+  "releases_count": 0,
+  "ossf_scorecard": null,
+  "category": "learning",
+  "flags": [
+    {
+      "id": "no_license",
+      "label": "利用条件不明",
+      "reason": "ライセンスが設定されていません。この場合は原則として全権利が留保され、利用できません。"
+    }
+  ],
+  "usability_score": 60,
+  "snapshot_days": 1,
+  "is_indexable": true,
+  "first_seen_at": "2026-09-01T00:26:13.032Z",
+  "tracking_tier": "hot",
+  "last_fetched_date": "2026-09-01",
+  "stars_stagnant_days": 0
+}

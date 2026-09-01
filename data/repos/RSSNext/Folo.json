@@ -1,0 +1,45 @@
+{
+  "id": "RSSNext/Folo",
+  "owner": "RSSNext",
+  "name": "Folo",
+  "description_en": "🧡 Folo is the AI RSS Reader",
+  "human_note": null,
+  "language": "TypeScript",
+  "topics": [
+    "ai",
+    "reader",
+    "rss",
+    "rss-reader",
+    "rsshub"
+  ],
+  "stars": 38895,
+  "forks": 2124,
+  "watchers": null,
+  "open_issues": 392,
+  "created_at": "2024-04-08T03:23:35Z",
+  "pushed_at": "2026-08-27T23:34:37Z",
+  "is_archived": false,
+  "license_spdx": "AGPL-3.0",
+  "license_category": "strong-copyleft",
+  "readme_excerpt": "Folo &nbsp;&nbsp;&nbsp; As they say, your thoughts are what you read—and we’ve been consuming noisy feeds for too long! Folo organizes content into one timeline, keeping you updated on what matters, noise-free. Share lists, explore collections, and enjoy distraction-free browsing. 👋🏻 Getting Started & Join Our Community Whether for users or professional developers, Folo will be your open information playground. Please be aware that Folo is currently under active development, and feedback is w…",
+  "readme_length": 13189,
+  "has_japanese_readme": false,
+  "contributors_count": 156,
+  "releases_count": 113,
+  "ossf_scorecard": null,
+  "category": "other",
+  "flags": [
+    {
+      "id": "copyleft",
+      "label": "自社サービス組込み注意",
+      "reason": "AGPL-3.0 です。組み込んだ側のソース公開が必要になる場合があります。"
+    }
+  ],
+  "usability_score": 85,
+  "snapshot_days": 1,
+  "is_indexable": true,
+  "first_seen_at": "2026-09-01T00:26:13.031Z",
+  "tracking_tier": "hot",
+  "last_fetched_date": "2026-09-01",
+  "stars_stagnant_days": 0
+}

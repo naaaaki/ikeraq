@@ -27,8 +27,8 @@
     "openai-chatgpt",
     "reverse-engineering"
   ],
-  "stars": 66619,
-  "forks": 13514,
+  "stars": 66620,
+  "forks": 13513,
   "watchers": null,
   "open_issues": 2,
   "created_at": "2023-03-29T17:00:43Z",
@@ -51,10 +51,10 @@
     }
   ],
   "usability_score": 85,
-  "snapshot_days": 2,
+  "snapshot_days": 3,
   "is_indexable": true,
   "first_seen_at": "2026-08-29T23:02:08.747Z",
   "tracking_tier": "hot",
-  "last_fetched_date": "2026-08-31",
+  "last_fetched_date": "2026-09-01",
   "stars_stagnant_days": 0
 }

@@ -1,0 +1,46 @@
+{
+  "id": "volcengine/OpenViking",
+  "owner": "volcengine",
+  "name": "OpenViking",
+  "description_en": "Self-evolving Context Database for AI Agents. Unify Agent Memory, Knowledge RAG and Skills.",
+  "human_note": null,
+  "language": "Python",
+  "topics": [
+    "agent-memory",
+    "agent-plugins",
+    "agentic-rag",
+    "context-database",
+    "dsh-plugin",
+    "self-evolving"
+  ],
+  "stars": 34703,
+  "forks": 2652,
+  "watchers": null,
+  "open_issues": 594,
+  "created_at": "2026-01-05T07:11:17Z",
+  "pushed_at": "2026-08-31T17:25:00Z",
+  "is_archived": false,
+  "license_spdx": "AGPL-3.0",
+  "license_category": "strong-copyleft",
+  "readme_excerpt": "OpenViking: The Context Database for AI Agents English / 中文 / 日本語 Website · Live Demo · GitHub · Issues · Docs 👋 Join our Community 📱 Lark Group · WeChat · Discord · X What is OpenViking OpenViking is an open-source context database for AI agents. It stores memories, resources, and skills as one virtual filesystem under the viking:// protocol, so an agent browses its own context with ls, tree, and find instead of querying a black-box vector store. Content is processed into three tiers — L0 ab…",
+  "readme_length": 16213,
+  "has_japanese_readme": true,
+  "contributors_count": 244,
+  "releases_count": 76,
+  "ossf_scorecard": null,
+  "category": "ai-agent",
+  "flags": [
+    {
+      "id": "copyleft",
+      "label": "自社サービス組込み注意",
+      "reason": "AGPL-3.0 です。組み込んだ側のソース公開が必要になる場合があります。"
+    }
+  ],
+  "usability_score": 85,
+  "snapshot_days": 1,
+  "is_indexable": true,
+  "first_seen_at": "2026-09-01T00:26:13.032Z",
+  "tracking_tier": "hot",
+  "last_fetched_date": "2026-09-01",
+  "stars_stagnant_days": 0
+}

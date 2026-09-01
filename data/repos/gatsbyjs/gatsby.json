@@ -15,9 +15,9 @@
     "web-app"
   ],
   "stars": 55944,
-  "forks": 10126,
+  "forks": 10127,
   "watchers": null,
-  "open_issues": 437,
+  "open_issues": 438,
   "created_at": "2015-05-21T22:43:05Z",
   "pushed_at": "2026-08-29T09:36:02Z",
   "is_archived": false,
@@ -32,10 +32,10 @@
   "category": "web-frontend",
   "flags": [],
   "usability_score": 100,
-  "snapshot_days": 2,
+  "snapshot_days": 3,
   "is_indexable": false,
   "first_seen_at": "2026-08-29T23:02:08.747Z",
   "tracking_tier": "hot",
-  "last_fetched_date": "2026-08-31",
-  "stars_stagnant_days": 0
+  "last_fetched_date": "2026-09-01",
+  "stars_stagnant_days": 1
 }

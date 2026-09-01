@@ -1,0 +1,52 @@
+{
+  "id": "kovidgoyal/kitty",
+  "owner": "kovidgoyal",
+  "name": "kitty",
+  "description_en": "If you live in the terminal, kitty is made for you! Cross-platform, fast, feature-rich, GPU based.",
+  "human_note": null,
+  "language": "Python",
+  "topics": [
+    "c",
+    "go",
+    "golang",
+    "golang-application",
+    "kitty",
+    "kitty-terminal",
+    "opengl",
+    "python",
+    "terminal",
+    "terminal-emulators",
+    "terminfo",
+    "vt100"
+  ],
+  "stars": 34708,
+  "forks": 1493,
+  "watchers": null,
+  "open_issues": 10,
+  "created_at": "2016-10-16T14:48:28Z",
+  "pushed_at": "2026-08-31T21:27:32Z",
+  "is_archived": false,
+  "license_spdx": "GPL-3.0",
+  "license_category": "strong-copyleft",
+  "readme_excerpt": "= kitty - the fast, feature-rich, cross-platform, GPU based terminal If you live in the terminal, kitty is made for you! See https://sw.kovidgoyal.net/kitty/[the kitty website]. image:https://github.com/kovidgoyal/kitty/workflows/CI/badge.svg[\"Build status\", link=\"https://github.com/kovidgoyal/kitty/actions?query=workflow%3ACI\"] https://sw.kovidgoyal.net/kitty/faq/[Frequently Asked Questions] To ask other questions about kitty usage, use either the https://github.com/kovidgoyal/kitty/discussion…",
+  "readme_length": 818,
+  "has_japanese_readme": false,
+  "contributors_count": 486,
+  "releases_count": 143,
+  "ossf_scorecard": null,
+  "category": "dev-tool",
+  "flags": [
+    {
+      "id": "copyleft",
+      "label": "自社サービス組込み注意",
+      "reason": "GPL-3.0 です。組み込んだ側のソース公開が必要になる場合があります。"
+    }
+  ],
+  "usability_score": 85,
+  "snapshot_days": 1,
+  "is_indexable": true,
+  "first_seen_at": "2026-09-01T00:26:13.032Z",
+  "tracking_tier": "hot",
+  "last_fetched_date": "2026-09-01",
+  "stars_stagnant_days": 0
+}

@@ -21,12 +21,12 @@
     "testing",
     "testing-tools"
   ],
-  "stars": 46650,
+  "stars": 46673,
   "forks": 2827,
   "watchers": null,
-  "open_issues": 1831,
+  "open_issues": 1827,
   "created_at": "2022-09-27T20:51:45Z",
-  "pushed_at": "2026-08-28T18:33:13Z",
+  "pushed_at": "2026-08-31T16:17:38Z",
   "is_archived": false,
   "license_spdx": "MIT",
   "license_category": "permissive",
@@ -39,10 +39,10 @@
   "category": "dev-tool",
   "flags": [],
   "usability_score": 100,
-  "snapshot_days": 1,
+  "snapshot_days": 2,
   "is_indexable": false,
   "first_seen_at": "2026-08-30T23:15:18.749Z",
   "tracking_tier": "hot",
-  "last_fetched_date": "2026-08-31",
+  "last_fetched_date": "2026-09-01",
   "stars_stagnant_days": 0
 }

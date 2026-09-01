@@ -12,12 +12,12 @@
     "terminal",
     "terminal-emulators"
   ],
-  "stars": 74234,
+  "stars": 74247,
   "forks": 4229,
   "watchers": null,
-  "open_issues": 2870,
+  "open_issues": 2874,
   "created_at": "2016-12-23T09:06:10Z",
-  "pushed_at": "2026-08-28T04:03:16Z",
+  "pushed_at": "2026-08-31T04:05:01Z",
   "is_archived": false,
   "license_spdx": "MIT",
   "license_category": "permissive",
@@ -30,10 +30,10 @@
   "category": "dev-tool",
   "flags": [],
   "usability_score": 100,
-  "snapshot_days": 2,
+  "snapshot_days": 3,
   "is_indexable": false,
   "first_seen_at": "2026-08-29T23:02:08.747Z",
   "tracking_tier": "hot",
-  "last_fetched_date": "2026-08-31",
+  "last_fetched_date": "2026-09-01",
   "stars_stagnant_days": 0
 }

@@ -13,9 +13,9 @@
     "python-libraries",
     "python-tools"
   ],
-  "stars": 317193,
-  "forks": 28618,
-  "watchers": null,
+  "stars": 317415,
+  "forks": 28626,
+  "watchers": 6137,
   "open_issues": 18,
   "created_at": "2014-06-27T21:00:06Z",
   "pushed_at": "2026-08-25T04:08:40Z",
@@ -31,10 +31,10 @@
   "category": "learning",
   "flags": [],
   "usability_score": 100,
-  "snapshot_days": 2,
+  "snapshot_days": 3,
   "is_indexable": false,
   "first_seen_at": "2026-08-29T15:46:21.820Z",
   "tracking_tier": "hot",
-  "last_fetched_date": "2026-08-31",
+  "last_fetched_date": "2026-09-01",
   "stars_stagnant_days": 0
 }

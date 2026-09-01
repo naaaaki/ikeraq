@@ -13,9 +13,9 @@
     "promise"
   ],
   "stars": 109195,
-  "forks": 11829,
+  "forks": 11834,
   "watchers": null,
-  "open_issues": 78,
+  "open_issues": 83,
   "created_at": "2014-08-18T22:30:27Z",
   "pushed_at": "2026-08-28T19:18:21Z",
   "is_archived": false,
@@ -30,10 +30,10 @@
   "category": "backend",
   "flags": [],
   "usability_score": 100,
-  "snapshot_days": 2,
+  "snapshot_days": 3,
   "is_indexable": false,
   "first_seen_at": "2026-08-29T15:46:21.820Z",
   "tracking_tier": "hot",
-  "last_fetched_date": "2026-08-31",
-  "stars_stagnant_days": 0
+  "last_fetched_date": "2026-09-01",
+  "stars_stagnant_days": 1
 }

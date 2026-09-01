@@ -24,10 +24,10 @@
     "understandcode",
     "vibe-coding"
   ],
-  "stars": 81097,
-  "forks": 6819,
+  "stars": 81192,
+  "forks": 6828,
   "watchers": null,
-  "open_issues": 296,
+  "open_issues": 297,
   "created_at": "2026-03-15T02:30:51Z",
   "pushed_at": "2026-08-26T06:38:15Z",
   "is_archived": false,
@@ -42,10 +42,10 @@
   "category": "ai-agent",
   "flags": [],
   "usability_score": 100,
-  "snapshot_days": 2,
+  "snapshot_days": 3,
   "is_indexable": false,
   "first_seen_at": "2026-08-29T15:46:21.821Z",
   "tracking_tier": "hot",
-  "last_fetched_date": "2026-08-31",
+  "last_fetched_date": "2026-09-01",
   "stars_stagnant_days": 0
 }

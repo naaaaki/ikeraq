@@ -19,10 +19,10 @@
     "team-collaboration",
     "wiki"
   ],
-  "stars": 76110,
-  "forks": 5947,
+  "stars": 76154,
+  "forks": 5956,
   "watchers": null,
-  "open_issues": 1011,
+  "open_issues": 1014,
   "created_at": "2021-06-16T12:56:48Z",
   "pushed_at": "2026-08-28T06:32:59Z",
   "is_archived": false,
@@ -43,10 +43,10 @@
     }
   ],
   "usability_score": 85,
-  "snapshot_days": 2,
+  "snapshot_days": 3,
   "is_indexable": true,
   "first_seen_at": "2026-08-29T23:02:08.747Z",
   "tracking_tier": "hot",
-  "last_fetched_date": "2026-08-31",
+  "last_fetched_date": "2026-09-01",
   "stars_stagnant_days": 0
 }

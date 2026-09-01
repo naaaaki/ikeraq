@@ -11,8 +11,8 @@
     "spring",
     "spring-boot"
   ],
-  "stars": 81381,
-  "forks": 42086,
+  "stars": 81391,
+  "forks": 42090,
   "watchers": null,
   "open_issues": 494,
   "created_at": "2012-10-19T15:02:57Z",
@@ -29,10 +29,10 @@
   "category": "backend",
   "flags": [],
   "usability_score": 100,
-  "snapshot_days": 2,
+  "snapshot_days": 3,
   "is_indexable": false,
   "first_seen_at": "2026-08-29T15:46:21.821Z",
   "tracking_tier": "hot",
-  "last_fetched_date": "2026-08-31",
+  "last_fetched_date": "2026-09-01",
   "stars_stagnant_days": 0
 }

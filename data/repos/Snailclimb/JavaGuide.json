@@ -20,8 +20,8 @@
     "springai",
     "system-design"
   ],
-  "stars": 158131,
-  "forks": 46161,
+  "stars": 158150,
+  "forks": 46162,
   "watchers": null,
   "open_issues": 17,
   "created_at": "2018-05-07T13:27:00Z",
@@ -38,10 +38,10 @@
   "category": "ai-agent",
   "flags": [],
   "usability_score": 100,
-  "snapshot_days": 2,
+  "snapshot_days": 3,
   "is_indexable": false,
   "first_seen_at": "2026-08-29T15:46:21.820Z",
   "tracking_tier": "hot",
-  "last_fetched_date": "2026-08-31",
+  "last_fetched_date": "2026-09-01",
   "stars_stagnant_days": 0
 }

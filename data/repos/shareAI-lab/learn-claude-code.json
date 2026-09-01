@@ -17,8 +17,8 @@
     "teaching",
     "tutorial"
   ],
-  "stars": 75674,
-  "forks": 12199,
+  "stars": 75757,
+  "forks": 12216,
   "watchers": null,
   "open_issues": 31,
   "created_at": "2025-06-29T15:34:15Z",
@@ -35,10 +35,10 @@
   "category": "ai-agent",
   "flags": [],
   "usability_score": 100,
-  "snapshot_days": 2,
+  "snapshot_days": 3,
   "is_indexable": false,
   "first_seen_at": "2026-08-29T23:02:08.747Z",
   "tracking_tier": "hot",
-  "last_fetched_date": "2026-08-31",
+  "last_fetched_date": "2026-09-01",
   "stars_stagnant_days": 0
 }

@@ -1,0 +1,48 @@
+{
+  "id": "date-fns/date-fns",
+  "owner": "date-fns",
+  "name": "date-fns",
+  "description_en": "⏳ Modern JavaScript date utility library ⌛️",
+  "human_note": null,
+  "language": "TypeScript",
+  "topics": [
+    "date",
+    "date-fns",
+    "hacktoberfest",
+    "javascript",
+    "modules",
+    "nodejs",
+    "time",
+    "utilities"
+  ],
+  "stars": 36645,
+  "forks": 2004,
+  "watchers": null,
+  "open_issues": 1003,
+  "created_at": "2014-10-06T10:24:22Z",
+  "pushed_at": "2026-08-30T01:05:02Z",
+  "is_archived": false,
+  "license_spdx": null,
+  "license_category": "none",
+  "readme_excerpt": "🔥️ NEW: date-fns v4.0 with first-class time zone support is out! date-fns provides the most comprehensive, yet simple and consistent toolset for manipulating JavaScript dates in a browser & Node.js 👉 Documentation 👉 Blog It's like Lodash for dates - It has 200+ functions for all occasions. - Modular: Pick what you need. Works with webpack, Browserify, or Rollup and also supports tree-shaking. - Native dates: Uses existing native type. It doesn't extend core objects for safety's sake. - Immut…",
+  "readme_length": 2121,
+  "has_japanese_readme": false,
+  "contributors_count": 431,
+  "releases_count": 127,
+  "ossf_scorecard": null,
+  "category": "backend",
+  "flags": [
+    {
+      "id": "no_license",
+      "label": "利用条件不明",
+      "reason": "ライセンスが設定されていません。この場合は原則として全権利が留保され、利用できません。"
+    }
+  ],
+  "usability_score": 60,
+  "snapshot_days": 1,
+  "is_indexable": true,
+  "first_seen_at": "2026-09-01T00:26:13.032Z",
+  "tracking_tier": "hot",
+  "last_fetched_date": "2026-09-01",
+  "stars_stagnant_days": 0
+}

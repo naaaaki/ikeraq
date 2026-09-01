@@ -11,12 +11,12 @@
     "dex",
     "java"
   ],
-  "stars": 50272,
-  "forks": 5739,
+  "stars": 50284,
+  "forks": 5741,
   "watchers": null,
   "open_issues": 442,
   "created_at": "2013-03-18T17:08:21Z",
-  "pushed_at": "2026-08-29T19:58:12Z",
+  "pushed_at": "2026-08-31T19:24:06Z",
   "is_archived": false,
   "license_spdx": "Apache-2.0",
   "license_category": "permissive",
@@ -29,10 +29,10 @@
   "category": "mobile",
   "flags": [],
   "usability_score": 100,
-  "snapshot_days": 1,
+  "snapshot_days": 2,
   "is_indexable": false,
   "first_seen_at": "2026-08-30T23:15:18.749Z",
   "tracking_tier": "hot",
-  "last_fetched_date": "2026-08-31",
+  "last_fetched_date": "2026-09-01",
   "stars_stagnant_days": 0
 }

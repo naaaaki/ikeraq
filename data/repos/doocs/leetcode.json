@@ -1,0 +1,48 @@
+{
+  "id": "doocs/leetcode",
+  "owner": "doocs",
+  "name": "leetcode",
+  "description_en": "🔥LeetCode solutions in any programming language | 多种编程语言实现 LeetCode、《剑指 Offer（第 2 版）》、《程序员面试金典（第 6 版）》题解",
+  "human_note": null,
+  "language": "Java",
+  "topics": [
+    "algorithms",
+    "cpp",
+    "csharp",
+    "golang",
+    "java",
+    "javascript",
+    "leetcode",
+    "python3"
+  ],
+  "stars": 36534,
+  "forks": 9495,
+  "watchers": null,
+  "open_issues": 3,
+  "created_at": "2018-09-16T14:03:03Z",
+  "pushed_at": "2026-08-31T16:16:10Z",
+  "is_archived": false,
+  "license_spdx": "CC-BY-SA-4.0",
+  "license_category": "strong-copyleft",
+  "readme_excerpt": "介绍 本项目包含 LeetCode、《剑指 Offer（第 2 版）》、《剑指 Offer（专项突击版）》、《程序员面试金典（第 6 版）》等题目的相关题解。所有题解均由多种编程语言实现，包括但不限于：Java、Python、C++、Go、TypeScript、Rust。我们正在全力更新，欢迎 Star 🌟 关注本项目，获取项目最新动态。 English Version 赞助商 感谢 APINEBULA 赞助本项目！APINEBULA 是银河录像局旗下的企业级 AI 聚合平台，背靠大平台资源，面向开发者、团队与企业用户提供稳定、高性价比的大模型 API 接入服务。平台聚合 Claude、GPT、Gemini 等主流满血模型，一个接口，接入全球顶尖 AI 大模型，各大模型价格低至 1 折起，支持企业级高并发、正式合同、对公打款与开票服务，适合 AI 编程、Agent 开发、业务系统集成等多种场景！使用 此链接 注册并在充值时填写 \"leetcode\" 优惠码可享九折优惠！ > 想出现在这里？如有赞助意向，欢迎添加微信 YLB0109（备注「赞助」）联系洽谈。 站点 算法全解 - Le…",
+  "readme_length": 17105,
+  "has_japanese_readme": false,
+  "contributors_count": 211,
+  "releases_count": 21,
+  "ossf_scorecard": null,
+  "category": "other",
+  "flags": [
+    {
+      "id": "copyleft",
+      "label": "自社サービス組込み注意",
+      "reason": "CC-BY-SA-4.0 です。組み込んだ側のソース公開が必要になる場合があります。"
+    }
+  ],
+  "usability_score": 85,
+  "snapshot_days": 1,
+  "is_indexable": true,
+  "first_seen_at": "2026-09-01T00:26:13.032Z",
+  "tracking_tier": "hot",
+  "last_fetched_date": "2026-09-01",
+  "stars_stagnant_days": 0
+}

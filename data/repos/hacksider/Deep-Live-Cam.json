@@ -25,10 +25,10 @@
     "webcam",
     "webcamera"
   ],
-  "stars": 96203,
-  "forks": 14040,
+  "stars": 96219,
+  "forks": 14041,
   "watchers": null,
-  "open_issues": 37,
+  "open_issues": 41,
   "created_at": "2023-09-24T13:19:31Z",
   "pushed_at": "2026-08-29T07:05:23Z",
   "is_archived": false,
@@ -49,10 +49,10 @@
     }
   ],
   "usability_score": 85,
-  "snapshot_days": 2,
+  "snapshot_days": 3,
   "is_indexable": true,
   "first_seen_at": "2026-08-29T15:46:21.821Z",
   "tracking_tier": "hot",
-  "last_fetched_date": "2026-08-31",
+  "last_fetched_date": "2026-09-01",
   "stars_stagnant_days": 0
 }
