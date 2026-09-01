@@ -1,0 +1,64 @@
+---
+/**
+ * ライセンスで選ぶ（入口）
+ *
+ * ★ このサイトが GitHub より先に答えられる問いは「仕事で使えるか」。
+ *   601件すべてに判定が付いているのに、これまで個別ページを開くしか
+ *   確かめる方法が無かった。ここがその入口になる。
+ *
+ * ★ 断定しない（CLAUDE.md ルール4）。分類は SPDX ID からの機械判定で、
+ *   法的な助言ではない。そのことをページの中で必ず言う。
+ */
+import Base from '../../layouts/Base.astro';
+import Sidebar from '../../components/Sidebar.astro';
+import { getSiteData, LICENSE_GROUPS, licenseGroupItems } from '../../lib/content.js';
+import { num } from '../../lib/format.js';
+
+/** ★ライセンスバッジと同じ色の意味に揃える。緑=障害になりにくい / 黄=要確認 / 赤=原則使えない */
+const TONE_COLOR = { ok: 'var(--accent)', warn: 'var(--warn)', danger: 'var(--danger)' } as const;
+
+const site = await getSiteData();
+const groups = LICENSE_GROUPS.map((group) => ({
+  group,
+  count: licenseGroupItems(site, group).length,
+})).filter((g) => g.count > 0);
+
+const description = `追跡している ${num(site.repos.length)} 件のリポジトリを、ライセンスの区分で分けています。商用に使いやすいもの・自社サービスへの組込みに注意が必要なもの・利用条件が確認できないもの。`;
+---
+
+<Base title="ライセンスで選ぶ" description={description}>
+  <main id="main" style="flex: 1; min-width: 0;">
+    <div style="padding: 44px 0 28px;">
+      <h1 class="display" style="margin: 0; font-size: 34px; line-height: 1.2;">ライセンスで選ぶ</h1>
+      <p class="meta" style="margin: 12px 0 0; font-size: 13px; line-height: 1.9; max-width: 620px;">
+        追跡している{num(site.repos.length)}件を、ライセンスの区分でまとめています。
+        GitHub が返すライセンス情報から機械的に分けているだけで、法律の助言ではありません。
+        実際に使うときは、必ずリポジトリ本体のライセンス原文を読んでください。
+      </p>
+    </div>
+
+    <div style="display: grid; gap: 14px; padding-bottom: 40px;">
+      {
+        groups.map(({ group, count }) => (
+          <a
+            href={`/license/${group.key}/`}
+            class="clickable"
+            style={`display: block; padding: 22px 24px; border: 1px solid var(--rule2); border-left: 3px solid ${TONE_COLOR[group.tone]}; border-radius: 3px; background: var(--card);`}
+          >
+            <div style="display: flex; align-items: baseline; justify-content: space-between; gap: 16px;">
+              <span class="display" style="font-size: 19px;">{group.heading}</span>
+              <span class="num" style="font-size: 19px; color: var(--ink2);">{num(count)}</span>
+            </div>
+            <p class="meta" style="margin: 9px 0 0; font-size: 12.5px; line-height: 1.85;">{group.lede}</p>
+          </a>
+        ))
+      }
+    </div>
+
+    <p class="meta" style="font-size: 12.5px; line-height: 1.9; padding-bottom: 20px;">
+      分け方の詳細は <a href="/about/criteria/">判定の基準</a> に公開しています。
+    </p>
+  </main>
+
+  <Sidebar />
+</Base>

@@ -8,7 +8,7 @@
  * 収集が始まる前でもサイトの形を確認できるようにするため。
  */
 
-import type { DailySnapshot, Repository } from '../types.js';
+import type { DailySnapshot, LicenseCategory, Repository } from '../types.js';
 import { plainText, splitSections } from './note.js';
 import { listSnapshotDates, loadAllRepos, loadSnapshot } from '../../scripts/lib/storage.js';
 import { loadNotes, type Note } from '../../scripts/lib/notes.js';
@@ -192,4 +192,101 @@ export function hallOfFameItems(site: SiteData): RepoView[] {
 export function categoryCounts(site: SiteData): { key: string; count: number }[] {
   const counts = countBy(site.repos, (v) => v.repo.category ?? 'other');
   return [...counts.filter((c) => c.key !== 'other'), ...counts.filter((c) => c.key === 'other')];
+}
+
+// ---------------------------------------------------------------------------
+// ライセンスで選ぶ
+//
+// ★ このサイトが持っていて GitHub が出さない判断が「仕事で使えるか」。
+//   全件に付いているのに、個別ページを開かないと見られなかった。
+//   ここで絞り込めるようにする。新しく計算するものは無い。
+//
+// ★ 断定しない（CLAUDE.md ルール4）。SPDX ID からの機械的な分類なので、
+//   「使ってよい」ではなく「その傾向がある」までしか言わない。
+//   最終判断は原文を読むこと、と各ページに必ず添える。
+// ---------------------------------------------------------------------------
+
+export type LicenseGroupKey = 'commercial' | 'copyleft' | 'unknown';
+
+export interface LicenseGroup {
+  key: LicenseGroupKey;
+  /** 見出し。ページの主題そのもの */
+  heading: string;
+  /** ナビ・チップ用の短い名前 */
+  short: string;
+  /** 何を集めたページなのかの説明。断定しない言い方に揃える */
+  lede: string;
+  /** 検索結果に出る一文 */
+  description: string;
+  /** この group に含める license_category */
+  members: LicenseCategory[];
+  /**
+   * 色の意味。★個別ページのライセンスバッジ（.lic / .warn / .danger）と同じ意味に揃える。
+   * 同じ判断に別の色を使うと、色が意味を持たなくなる。
+   */
+  tone: 'ok' | 'warn' | 'danger';
+}
+
+export const LICENSE_GROUPS: LicenseGroup[] = [
+  {
+    key: 'commercial',
+    heading: '商用に使いやすいもの',
+    short: '商用に使いやすい',
+    lede: 'MIT・Apache-2.0・BSD など、商用利用や組み込みの障害になりにくいライセンスのものを集めています。ライセンスの種類から機械的に分けているだけなので、使う前に原文の条項（著作権表示の掲載義務など）は必ず確認してください。',
+    description:
+      'MIT・Apache-2.0・BSD など、商用利用の障害になりにくいライセンスのリポジトリを集めています。仕事で使えるかどうかで探すためのページです。',
+    members: ['permissive'],
+    tone: 'ok',
+  },
+  {
+    key: 'copyleft',
+    heading: '自社サービスへの組込みに注意',
+    short: '組込みに注意',
+    lede: 'GPL・AGPL・LGPL・MPL など、コピーレフト系のライセンスのものを集めています。組み込んだ側のソース公開が必要になる場合があります。使えないという意味ではなく、条件を確認してから判断すべきもの、という意味です。',
+    description:
+      'GPL・AGPL・LGPL など、自社サービスに組み込むと公開義務が生じる場合があるライセンスのリポジトリを集めています。',
+    members: ['strong-copyleft', 'weak-copyleft'],
+    tone: 'warn',
+  },
+  {
+    key: 'unknown',
+    heading: '利用条件が確認できないもの',
+    short: '条件が不明',
+    lede: 'ライセンスが置かれていない、または GitHub がライセンスを特定できなかったものを集めています。ライセンスが無い場合、原則としてすべての権利が作者に留保されます。実際には条項が書かれている場合もあるので、使う前にリポジトリ本体を確認してください。',
+    description:
+      'ライセンスが設定されていない、または特定できなかったリポジトリを集めています。原則として全権利が作者に留保されるため、利用前の確認が要ります。',
+    members: ['none', 'unknown'],
+    tone: 'danger',
+  },
+];
+
+export function licenseGroup(key: string): LicenseGroup | null {
+  return LICENSE_GROUPS.find((g) => g.key === key) ?? null;
+}
+
+export function licenseGroupItems(site: SiteData, group: LicenseGroup): RepoView[] {
+  return site.repos.filter((v) => group.members.includes(v.repo.license_category)).sort(byNoteFirst);
+}
+
+/**
+ * ライセンス区分 × カテゴリの掛け合わせページを作る対象。
+ *
+ * ★ 件数が少ない組み合わせはページにしない。空に近い一覧を量産すると、
+ *   サイト全体が中身の薄いページの集まりとして扱われる（SPEC §2.5）。
+ * ★「そのほか」は作らない。読む人に何も伝えない語で1ページ増やす意味がない
+ *   （個別ページのパンくずと同じ判断）。
+ */
+export const LICENSE_CROSS_MIN = 10;
+
+export function licenseCrossCategories(items: RepoView[]): { key: string; count: number }[] {
+  const counts = new Map<string, number>();
+  for (const v of items) {
+    const k = v.repo.category ?? 'other';
+    if (k === 'other') continue;
+    counts.set(k, (counts.get(k) ?? 0) + 1);
+  }
+  return [...counts.entries()]
+    .map(([key, count]) => ({ key, count }))
+    .filter((c) => c.count >= LICENSE_CROSS_MIN)
+    .sort((a, b) => b.count - a.count);
 }

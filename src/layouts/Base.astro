@@ -45,6 +45,8 @@ const NAV = [
   // ★0件のあいだは出さない。空のページに着くのが、初めて来た人の最初の体験になるため
   ...(hasHallOfFame ? [{ href: '/hall-of-fame/', label: '殿堂入り' }] : []),
   { href: '/category/', label: 'カテゴリ' },
+  // ★このサイトが GitHub より先に答えられる問い。埋もれさせない
+  { href: '/license/', label: '商用利用' },
   { href: '/japanese/', label: '日本語README' },
   { href: '/about/', label: 'このサイトについて' },
 ];

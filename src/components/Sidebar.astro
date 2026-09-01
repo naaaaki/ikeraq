@@ -5,7 +5,7 @@
  * 件数は実データから数える。0件のものは出さない。
  * 収集が始まる前に「カテゴリ 0」が並ぶと、動いていないサイトに見えるため。
  */
-import { categoryCounts, countBy, getSiteData } from '../lib/content.js';
+import { categoryCounts, countBy, getSiteData, LICENSE_GROUPS, licenseGroupItems } from '../lib/content.js';
 import { categoryLabel, languageColor, languageSlug, num } from '../lib/format.js';
 
 const site = await getSiteData();
@@ -13,6 +13,10 @@ const site = await getSiteData();
 const categories = categoryCounts(site).slice(0, 8);
 const languages = countBy(site.repos, (v) => v.repo.language).slice(0, 6);
 const japaneseCount = site.repos.filter((v) => v.repo.has_japanese_readme).length;
+// ★ライセンスの区分。個別ページを開かないと分からなかった判断を、一覧から辿れるようにする
+const licenses = LICENSE_GROUPS.map((group) => ({ group, count: licenseGroupItems(site, group).length })).filter(
+  (l) => l.count > 0
+);
 ---
 
 <aside style="width: 280px; flex: none; padding-top: 44px; display: flex; flex-direction: column; gap: 34px;">
@@ -25,6 +29,22 @@ const japaneseCount = site.repos.filter((v) => v.repo.has_japanese_readme).lengt
     </p>
     <a href="/about/" style="font-size: 12.5px;">くわしく →</a>
   </section>
+
+  {
+    licenses.length > 0 && (
+      <section>
+        <div class="label" style="padding-bottom: 12px; border-bottom: 1px solid var(--rule2);">ライセンス</div>
+        <div style="display: flex; flex-wrap: wrap; gap: 7px; padding-top: 15px;">
+          {licenses.map((l) => (
+            <a href={`/license/${l.group.key}/`} class="chip">
+              {l.group.short}
+              <span class="num" style="color: var(--ink3); padding-left: 5px;">{l.count}</span>
+            </a>
+          ))}
+        </div>
+      </section>
+    )
+  }
 
   {
     categories.length > 0 && (

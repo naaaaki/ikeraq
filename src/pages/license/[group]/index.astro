@@ -1,0 +1,77 @@
+---
+/**
+ * ライセンス区分ごとの一覧
+ *
+ * ★ 断定しない。「使える／使えない」ではなく「確認が要る／障害になりにくい」まで。
+ * ★ カテゴリとの掛け合わせページへの入口をここに置く。
+ *   399件を1画面に並べても選べないので、絞り込む先を示す。
+ */
+import type { GetStaticPaths } from 'astro';
+import Base from '../../../layouts/Base.astro';
+import Sidebar from '../../../components/Sidebar.astro';
+import RepoListSection from '../../../components/RepoListSection.astro';
+import {
+  getSiteData,
+  licenseCrossCategories,
+  licenseGroupItems,
+  LICENSE_GROUPS,
+  type LicenseGroup,
+  type RepoView,
+} from '../../../lib/content.js';
+import { categoryLabel, num } from '../../../lib/format.js';
+
+export const getStaticPaths = (async () => {
+  const site = await getSiteData();
+  return LICENSE_GROUPS.map((group) => ({
+    params: { group: group.key },
+    props: { group, items: licenseGroupItems(site, group) },
+  }));
+}) satisfies GetStaticPaths;
+
+interface Props {
+  group: LicenseGroup;
+  items: RepoView[];
+}
+const { group, items } = Astro.props;
+
+const crosses = licenseCrossCategories(items);
+const noteCount = items.filter((v) => v.note !== null).length;
+const order = noteCount > 0 ? `紹介文つきが先頭 · ${num(items.length)}件` : `増加の多い順 · ${num(items.length)}件`;
+---
+
+<Base title={group.heading} description={group.description}>
+  <main id="main" style="flex: 1; min-width: 0;">
+    <nav class="meta" aria-label="パンくず" style="padding-top: 18px;">
+      <a href="/" style="color: var(--ink3);">ホーム</a>
+      <span style="padding: 0 7px; color: var(--rule2);">/</span>
+      <a href="/license/" style="color: var(--ink3);">ライセンス</a>
+      <span style="padding: 0 7px; color: var(--rule2);">/</span>
+      <span>{group.short}</span>
+    </nav>
+
+    <div style="padding: 26px 0 28px;">
+      <h1 class="display" style="margin: 0; font-size: 34px; line-height: 1.2;">{group.heading}</h1>
+      <p class="meta" style="margin: 12px 0 0; font-size: 13px; line-height: 1.9; max-width: 620px;">{group.lede}</p>
+    </div>
+
+    {
+      crosses.length > 0 && (
+        <div style="padding-bottom: 34px;">
+          <div class="label" style="margin-bottom: 10px;">分野で絞る</div>
+          <div style="display: flex; flex-wrap: wrap; gap: 8px;">
+            {crosses.map((c) => (
+              <a href={`/license/${group.key}/${c.key}/`} class="chip">
+                {categoryLabel(c.key)}
+                <span class="num" style="margin-left: 6px; color: var(--ink3);">{c.count}</span>
+              </a>
+            ))}
+          </div>
+        </div>
+      )
+    }
+
+    <RepoListSection items={items} label={group.heading} note={order} empty="該当するリポジトリはまだありません。" />
+  </main>
+
+  <Sidebar />
+</Base>
