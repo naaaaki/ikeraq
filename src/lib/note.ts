@@ -88,6 +88,21 @@ export async function renderMarkdown(md: string): Promise<string> {
 }
 
 /**
+ * 1行だけの Markdown を、段落タグを付けずに変換する。図のキャプション用。
+ *
+ * ★ キャプションも Markdown として扱う。
+ *   書き手には「キャプションだけ記法が効かない」と分かる手がかりが無く、
+ *   太字を書くと `**` がそのまま画面に出てしまっていた（実際に出ていた）。
+ *   段落タグは figcaption の中では余白が付いて浮くので、外側の <p> だけ外す。
+ */
+export async function renderInline(md: string): Promise<string> {
+  const html = (await renderMarkdown(md)).trim();
+  const m = /^<p>([\s\S]*)<\/p>$/.exec(html);
+  // 段落が2つ以上あるときは外さない（外すと文が繋がってしまう）
+  return m && !m[1].includes('<p>') ? m[1] : html;
+}
+
+/**
  * 図を描く。★Markdown を通さない。
  *
  * 図は SVG を直接書く決まりになっている（D-008）。

@@ -27,7 +27,7 @@ import {
   toJstDate,
   updatedAgo,
 } from '../../../lib/format.js';
-import { plainText, renderFigure, renderMarkdown, splitFigure, splitSections } from '../../../lib/note.js';
+import { plainText, renderFigure, renderInline, renderMarkdown, splitFigure, splitSections } from '../../../lib/note.js';
 import { daysSince } from '../../../../scripts/lib/date.js';
 
 export const getStaticPaths = (async () => {
@@ -56,6 +56,7 @@ const leadText = lead ? plainText(lead) : null;
 const figureSection = parsed?.sections.get('図');
 const figure = figureSection ? splitFigure(figureSection) : null;
 const figureHtml = figure?.figure ? await renderFigure(figure.figure) : null;
+const captionHtml = figure?.caption ? await renderInline(figure.caption) : null;
 
 const BODY_ORDER = ['どういうものか', 'どんなときに使うか', '使い方', '注意点'] as const;
 const bodyBlocks = await Promise.all(
@@ -269,7 +270,7 @@ const noteCredit = note
               {b.heading === 'どういうものか' && figureHtml && (
                 <figure class="fig" style="margin-top: 30px;">
                   <div class="frame" set:html={figureHtml} />
-                  {figure?.caption && <figcaption>{figure.caption}</figcaption>}
+                  {captionHtml && <figcaption set:html={captionHtml} />}
                 </figure>
               )}
             </section>
