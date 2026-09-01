@@ -18,6 +18,13 @@ import Mascot from '../components/Mascot.astro';
     <p class="meta" style="margin: 0 0 28px; line-height: 1.95;">
       URL が変わったか、そのリポジトリを追いかけるのをやめた可能性があります。
     </p>
-    <a href="/" class="chip" style="height: 40px; padding: 0 18px;">今日のトレンドを見る</a>
+    {/* ★行き先を1つしか出さないと、目的が違う人はそのまま離れる。
+        探しものの種類ごとに入口を出す */}
+    <div style="display: flex; flex-wrap: wrap; gap: 10px;">
+      <a href="/" class="chip" style="height: 40px; padding: 0 18px;">今日のトレンドを見る</a>
+      <a href="/license/commercial/" class="chip" style="height: 40px; padding: 0 18px;">商用に使いやすいもの</a>
+      <a href="/japanese/" class="chip" style="height: 40px; padding: 0 18px;">日本語 README があるもの</a>
+      <a href="/category/" class="chip" style="height: 40px; padding: 0 18px;">カテゴリから探す</a>
+    </div>
   </main>
 </Base>

@@ -74,10 +74,21 @@ const hasHowTo = bodyBlocks.some((b) => b.heading === '使い方');
 const slug = (heading: string) => encodeURIComponent(heading);
 
 // --- 関連（同じカテゴリから。回遊の導線） ---
+/**
+ * ★紹介文があるものを先に出す。
+ *   スター数だけで選ぶと、最後まで読んだ人に見せる3件が英語の説明だけになる
+ *   （実際にそうなっていた）。日本語で読める先を優先する。
+ *   同じ条件どうしはスター数で並べる。
+ */
 const site = await getSiteData();
 const related = site.repos
   .filter((v) => v.repo.id !== repo.id && v.repo.category === repo.category)
-  .sort((a, b) => b.repo.stars - a.repo.stars)
+  .sort((a, b) => {
+    const an = a.note ? 0 : 1;
+    const bn = b.note ? 0 : 1;
+    if (an !== bn) return an - bn;
+    return b.repo.stars - a.repo.stars;
+  })
   .slice(0, 3);
 
 // --- 開発の様子。数字はすべて取得したもの。無いものは出さない ---
@@ -210,12 +221,15 @@ const noteCredit = note
         style="display: flex; align-items: center; gap: 14px; flex-wrap: wrap; padding-bottom: 30px; border-bottom: 1px solid var(--rule2);"
       >
         <span class={`lic ${lic.tone === 'ok' ? '' : lic.tone}`}>{lic.text}</span>
-        <span class="meta">
-          <span class="lang">
-            <span class="dot" style={`background: ${languageColor(repo.language)};`} />
-            {repo.language ?? '—'}
+        {/* ★言語が判定できないものは、丸とダッシュだけが残って意味を持たない。出さない */}
+        {repo.language && (
+          <span class="meta">
+            <span class="lang">
+              <span class="dot" style={`background: ${languageColor(repo.language)};`} />
+              {repo.language}
+            </span>
           </span>
-        </span>
+        )}
         <span class="meta">
           ★ <b class="num">{num(repo.stars)}</b>
           {delta !== null && (

@@ -211,10 +211,19 @@ figure.fig figcaption { padding-top: 12px; font-size: 12.5px; line-height: 1.85;
 
 /* 記事ページの本文。読み幅を絞る */
 .article { flex: 1; min-width: 0; max-width: 720px; }
-.article-aside { width: 260px; flex: none; padding-top: 30px; display: flex; flex-direction: column; gap: 32px; }
+/*
+ * ★記事は画面7つ分になることがある。追従しないと、目次が使えるのは最初だけになる。
+ *   幅が狭いときは回り込んで縦に積まれるので、そのときは追従させない（下の 900px 側で解除）。
+ */
+.article-aside {
+  width: 260px; flex: none; padding-top: 30px; display: flex; flex-direction: column; gap: 32px;
+  position: sticky; top: 20px; align-self: flex-start;
+  max-height: calc(100vh - 40px); overflow-y: auto;
+}
 
 @media (max-width: 900px) {
-  .article-aside { width: 100%; padding-top: 0; }
+  /* 縦に積まれる幅では追従させない。本文の前に居座って読み始めを塞ぐため */
+  .article-aside { width: 100%; padding-top: 0; position: static; max-height: none; overflow-y: visible; }
   .facts { grid-template-columns: minmax(0, 1fr); }
 }
 

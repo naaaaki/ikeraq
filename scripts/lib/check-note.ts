@@ -5,6 +5,8 @@
  *   ここが見るのは「埋め忘れ」だけ。テンプレのコメントが残ったまま公開されるのを防ぐ。
  */
 
+import { findBrokenEmphasis } from './emphasis.js';
+
 export interface NoteIssue {
   level: 'error' | 'warn';
   message: string;
@@ -54,6 +56,15 @@ export function checkNote(raw: string): NoteIssue[] {
     issues.push({
       level: 'warn',
       message: '「使い方」を書いていますが、確認した環境が書かれていません',
+    });
+  }
+
+  // 太字の記法が日本語の句読点と噛み合っていないと、** がそのまま画面に出る。
+  // 書いた本人は気づきにくく、公開されるまで分からない
+  for (const broken of findBrokenEmphasis(body)) {
+    issues.push({
+      level: 'error',
+      message: `${broken.line}行目の ** が対になっていません。そのまま画面に出ます：${broken.excerpt}`,
     });
   }
 
