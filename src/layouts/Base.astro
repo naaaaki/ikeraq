@@ -9,6 +9,7 @@
  */
 import '../styles/global.css';
 import { HAS_AFFILIATE } from '../lib/site.js';
+import { getSiteData, hallOfFameItems } from '../lib/content.js';
 
 interface Props {
   title: string;
@@ -33,13 +34,16 @@ const siteName = 'Ikeraq';
 const pageTitle = title === siteName ? `${siteName}（イケラク） — 新しい技術が、わかる。` : `${title} | ${siteName}`;
 const canonicalUrl = canonical ?? new URL(Astro.url.pathname, Astro.site).href;
 
+const hasHallOfFame = hallOfFameItems(await getSiteData()).length > 0;
+
 /**
  * ★ 作っていないページはここに並べない。
  *   「今週のまとめ」「ニュースレター」は素材と受け口ができてから足す
  */
 const NAV = [
   { href: '/', label: '今日' },
-  { href: '/hall-of-fame/', label: '殿堂入り' },
+  // ★0件のあいだは出さない。空のページに着くのが、初めて来た人の最初の体験になるため
+  ...(hasHallOfFame ? [{ href: '/hall-of-fame/', label: '殿堂入り' }] : []),
   { href: '/category/', label: 'カテゴリ' },
   { href: '/japanese/', label: '日本語README' },
   { href: '/about/', label: 'このサイトについて' },

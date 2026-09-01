@@ -9,13 +9,11 @@
  * 何日たてば出るのかを書いておく。
  */
 import ListPage from '../../layouts/ListPage.astro';
-import { getSiteData, HALL_OF_FAME_DAYS, TREND_RANK } from '../../lib/content.js';
+import { getSiteData, hallOfFameItems, HALL_OF_FAME_DAYS, TREND_RANK } from '../../lib/content.js';
 import { num } from '../../lib/format.js';
 
 const site = await getSiteData();
-const items = site.repos
-  .filter((v) => v.trendDays >= HALL_OF_FAME_DAYS)
-  .sort((a, b) => b.trendDays - a.trendDays || b.repo.stars - a.repo.stars);
+const items = hallOfFameItems(site);
 
 const empty =
   site.snapshotCount === 0

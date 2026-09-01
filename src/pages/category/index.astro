@@ -5,11 +5,11 @@
  */
 import Base from '../../layouts/Base.astro';
 import Sidebar from '../../components/Sidebar.astro';
-import { countBy, getSiteData } from '../../lib/content.js';
+import { categoryCounts, getSiteData } from '../../lib/content.js';
 import { categoryLabel, num } from '../../lib/format.js';
 
 const site = await getSiteData();
-const categories = countBy(site.repos, (v) => v.repo.category ?? 'other');
+const categories = categoryCounts(site);
 ---
 
 <Base

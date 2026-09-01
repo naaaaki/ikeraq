@@ -168,3 +168,28 @@ export function countBy<T>(items: T[], key: (item: T) => string | null): { key: 
     .map(([key, count]) => ({ key, count }))
     .sort((a, b) => b.count - a.count);
 }
+
+/**
+ * 殿堂入りに該当するもの。
+ *
+ * ★ 判定を2か所に書かない。ヘッダーの出し分けと一覧が同じ規則を使う。
+ *   条件を満たすものが0件のあいだ、ヘッダーは「殿堂入り」を出さない
+ *   （押しても空のページに着くだけで、初めて来た人の印象を落とすため）。
+ */
+export function hallOfFameItems(site: SiteData): RepoView[] {
+  return site.repos
+    .filter((v) => v.trendDays >= HALL_OF_FAME_DAYS)
+    .sort((a, b) => b.trendDays - a.trendDays || b.repo.stars - a.repo.stars);
+}
+
+/**
+ * カテゴリごとの件数。
+ *
+ * ★「そのほか」は件数が最大でも必ず最後に置く。
+ *   件数順にそのまま並べると、分類できなかった残り物が一番目立つ位置に来て、
+ *   分け方が雑なサイトに見える。数え方は1か所に集約する。
+ */
+export function categoryCounts(site: SiteData): { key: string; count: number }[] {
+  const counts = countBy(site.repos, (v) => v.repo.category ?? 'other');
+  return [...counts.filter((c) => c.key !== 'other'), ...counts.filter((c) => c.key === 'other')];
+}

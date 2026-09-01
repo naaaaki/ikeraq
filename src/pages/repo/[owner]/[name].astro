@@ -111,7 +111,29 @@ const crumb =
       : null;
 
 // --- メタ情報 ---
-const description = leadText ?? repo.description_en ?? `${repo.id} のスター数・ライセンス・更新状況をまとめています。`;
+/**
+ * ★ 検索結果に出る文字列に、英語や中国語の原文を使わない。
+ *   description_en は GitHub の原文なので、日本語話者向けの検索結果としては読めない
+ *   （絵文字だけの説明文もある）。日本語のサイトを名乗る以上、ここは必ず日本語にする。
+ *   紹介文が無いページは、取得した数値から日本語の一文を組み立てる。
+ *   数値はすべて取得したものなので、これで嘘にはならない。
+ */
+const factsLine = [
+  repo.language ? `${repo.language} のリポジトリ` : null,
+  `スター ${num(repo.stars)}`,
+  lic.text,
+  ago.text,
+].filter((v): v is string => v !== null);
+// ★区切りは「／」。ライセンスの表記自体が「MIT · 商用可」のように中黒を含むので、
+//   同じ記号で項目を区切ると、どこまでが1項目か読めなくなる
+const description = leadText ?? `${repo.id} を日本語でまとめています。${factsLine.join('／')}。`;
+
+/**
+ * ★ タイトルにも日本語を入れる。`owner/name | Ikeraq` だけだと、
+ *   日本語で検索している人のクエリに一致する語がひとつも無い。
+ *   紹介文があるページは、そのために書いた「見出しの一文」をそのまま使う。
+ */
+const pageTitle = leadText ?? `${repo.id} のスター数とライセンス`;
 const canonical = new URL(repoUrl(repo.id), Astro.site).href;
 
 // ★見えているパンくずと構造化データを一致させる。ずれると検索エンジンに無視される
@@ -151,7 +173,7 @@ const noteCredit = note
   : 'このページは自動で作られています。';
 ---
 
-<Base title={repo.id} description={description} noindex={!repo.is_indexable} canonical={canonical} wide compact>
+<Base title={pageTitle} description={description} noindex={!repo.is_indexable} canonical={canonical} wide compact>
   <script type="application/ld+json" slot="head" is:inline set:html={jsonld(breadcrumb)} />
   {article && <script type="application/ld+json" slot="head" is:inline set:html={jsonld(article)} />}
 
@@ -174,8 +196,6 @@ const noteCredit = note
       <h1 style="margin: 0 0 12px;">
         <RepoLink id={repo.id} size={27} />
       </h1>
-
-      {repo.description_en && <div class="en" style="margin: 4px 0 20px;">{repo.description_en}</div>}
 
       {
         leadText && (
@@ -211,6 +231,19 @@ const noteCredit = note
       <div style="padding-top: 22px;">
         <GithubLink id={repo.id} variant="button" />
       </div>
+
+      {/*
+        ★ 原文は見出しの直下に置かない。
+          日本語で読める場所を探しに来た人が、最初に目にする行が英語や中国語だと、
+          その下に何が書いてあっても離脱する。原典の記載として残す価値はあるので、
+          GitHub への出口とひとまとめにして、ここに置く。
+      */}
+      {repo.description_en && (
+        <div style="padding-top: 18px;">
+          <div class="meta" style="margin-bottom: 5px;">GitHub の説明（原文）</div>
+          <div class="en">{repo.description_en}</div>
+        </div>
+      )}
 
       {
         repo.flags.length > 0 && (

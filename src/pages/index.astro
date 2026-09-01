@@ -44,9 +44,47 @@ const listed = rest.slice(0, LIST_LIMIT);
 const remaining = rest.length - listed.length;
 
 const description = `GitHub で注目されているリポジトリを日本語で紹介しています。${jaDate(date)}に伸びているリポジトリの一覧と、編集部が書いた紹介文。`;
+
+/**
+ * トップの構造化データ。
+ *
+ * ★ サイト名を名乗る。`Ikeraq` は誰も知らない語なので、
+ *   ここで宣言しておかないと検索エンジンがブランドとして扱えない。
+ * ★ 一覧の中身も ItemList で伝える。見えている並びと同じ順にする。ずれると無視される。
+ */
+const siteUrl = new URL('/', Astro.site).href;
+const website = {
+  '@context': 'https://schema.org',
+  '@type': 'WebSite',
+  name: 'Ikeraq',
+  alternateName: 'イケラク',
+  url: siteUrl,
+  description,
+  inLanguage: 'ja',
+  publisher: { '@type': 'Organization', name: 'Ikeraq' },
+};
+const itemList = {
+  '@context': 'https://schema.org',
+  '@type': 'ItemList',
+  name: `${jaDate(date)}のトレンド`,
+  itemListOrder: 'https://schema.org/ItemListOrderDescending',
+  numberOfItems: pickups.length + listed.length,
+  itemListElement: [...pickups.map((p) => p.item), ...listed].map((v, i) => ({
+    '@type': 'ListItem',
+    position: i + 1,
+    name: v.repo.id,
+    url: new URL(repoUrl(v.repo.id), Astro.site).href,
+  })),
+};
+
+/** JSON-LD に閉じタグが混ざるとページが壊れる。文字参照にしてから埋める */
+const jsonld = (value: unknown) => JSON.stringify(value).replace(/</g, '\u003c');
 ---
 
 <Base title="Ikeraq" description={description}>
+  <script type="application/ld+json" slot="head" is:inline set:html={jsonld(website)} />
+  <script type="application/ld+json" slot="head" is:inline set:html={jsonld(itemList)} />
+
   <main id="main" style="flex: 1; min-width: 0;">
     <div style="padding: 44px 0 32px; display: flex; align-items: baseline; justify-content: space-between; gap: 24px;">
       <h1 class="display" style="margin: 0; font-size: 38px; line-height: 1.15;">{jaDate(date)}のトレンド</h1>
@@ -69,12 +107,17 @@ const description = `GitHub で注目されているリポジトリを日本語�
                 <div style="margin-bottom: 10px;">
                   <RepoLink id={item.repo.id} size={21} href={repoUrl(item.repo.id)} stretch />
                 </div>
-                {item.repo.description_en && <div class="en" style="margin-bottom: 18px;">{item.repo.description_en}</div>}
+                {/*
+                  ★ 日本語を先に出す（RepoRow と同じ規則）。
+                    原文を先に置くと、このサイトの価値である日本語の一行を読むまでに
+                    英語を1本読み飛ばす動作を毎回強いることになる。
+                */}
                 {lead && (
-                  <p class="intro" style="margin: 0 0 12px; font-weight: 500;">
+                  <p class="intro" style="margin: 0 0 10px; font-weight: 500;">
                     {lead}
                   </p>
                 )}
+                {item.repo.description_en && <div class="en" style="margin-bottom: 18px;">{item.repo.description_en}</div>}
                 {intro && <div class="intro" style="margin-bottom: 20px;" set:html={intro} />}
                 <div style="display: flex; align-items: center; gap: 14px; flex-wrap: wrap;">
                   <span class={`lic ${lic.tone === 'ok' ? '' : lic.tone}`}>{lic.text}</span>

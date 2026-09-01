@@ -5,12 +5,12 @@
  * 件数は実データから数える。0件のものは出さない。
  * 収集が始まる前に「カテゴリ 0」が並ぶと、動いていないサイトに見えるため。
  */
-import { countBy, getSiteData } from '../lib/content.js';
+import { categoryCounts, countBy, getSiteData } from '../lib/content.js';
 import { categoryLabel, languageColor, languageSlug, num } from '../lib/format.js';
 
 const site = await getSiteData();
 
-const categories = countBy(site.repos, (v) => v.repo.category).slice(0, 8);
+const categories = categoryCounts(site).slice(0, 8);
 const languages = countBy(site.repos, (v) => v.repo.language).slice(0, 6);
 const japaneseCount = site.repos.filter((v) => v.repo.has_japanese_readme).length;
 ---
