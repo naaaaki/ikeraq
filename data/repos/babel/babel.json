@@ -14,10 +14,10 @@
     "flavortown",
     "javascript"
   ],
-  "stars": 43989,
-  "forks": 6002,
+  "stars": 43987,
+  "forks": 5999,
   "watchers": null,
-  "open_issues": 777,
+  "open_issues": 779,
   "created_at": "2014-09-28T13:38:23Z",
   "pushed_at": "2026-08-31T23:30:13Z",
   "is_archived": false,
@@ -32,10 +32,10 @@
   "category": "dev-tool",
   "flags": [],
   "usability_score": 100,
-  "snapshot_days": 2,
+  "snapshot_days": 3,
   "is_indexable": false,
   "first_seen_at": "2026-08-30T23:15:18.750Z",
   "tracking_tier": "hot",
-  "last_fetched_date": "2026-09-01",
-  "stars_stagnant_days": 1
+  "last_fetched_date": "2026-09-02",
+  "stars_stagnant_days": 2
 }

@@ -27,10 +27,10 @@
     "mcp",
     "skill-library"
   ],
-  "stars": 45761,
-  "forks": 6695,
+  "stars": 45828,
+  "forks": 6702,
   "watchers": null,
-  "open_issues": 1,
+  "open_issues": 2,
   "created_at": "2026-01-14T17:48:09Z",
   "pushed_at": "2026-08-31T17:15:27Z",
   "is_archived": false,
@@ -45,10 +45,10 @@
   "category": "ai-agent",
   "flags": [],
   "usability_score": 100,
-  "snapshot_days": 2,
+  "snapshot_days": 3,
   "is_indexable": false,
   "first_seen_at": "2026-08-30T23:15:18.750Z",
   "tracking_tier": "hot",
-  "last_fetched_date": "2026-09-01",
+  "last_fetched_date": "2026-09-02",
   "stars_stagnant_days": 0
 }

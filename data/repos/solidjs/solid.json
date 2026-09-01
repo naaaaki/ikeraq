@@ -15,12 +15,12 @@
     "reactive",
     "solid"
   ],
-  "stars": 35947,
-  "forks": 1099,
+  "stars": 35948,
+  "forks": 1100,
   "watchers": null,
   "open_issues": 30,
   "created_at": "2018-04-24T16:36:27Z",
-  "pushed_at": "2026-08-31T22:58:21Z",
+  "pushed_at": "2026-09-01T22:57:16Z",
   "is_archived": false,
   "license_spdx": "MIT",
   "license_category": "permissive",
@@ -33,10 +33,10 @@
   "category": "other",
   "flags": [],
   "usability_score": 100,
-  "snapshot_days": 1,
+  "snapshot_days": 2,
   "is_indexable": false,
   "first_seen_at": "2026-09-01T00:26:13.032Z",
   "tracking_tier": "hot",
-  "last_fetched_date": "2026-09-01",
+  "last_fetched_date": "2026-09-02",
   "stars_stagnant_days": 0
 }

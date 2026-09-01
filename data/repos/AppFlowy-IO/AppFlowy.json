@@ -19,12 +19,12 @@
     "team-collaboration",
     "wiki"
   ],
-  "stars": 76154,
-  "forks": 5956,
+  "stars": 76177,
+  "forks": 5959,
   "watchers": null,
-  "open_issues": 1014,
+  "open_issues": 1015,
   "created_at": "2021-06-16T12:56:48Z",
-  "pushed_at": "2026-08-28T06:32:59Z",
+  "pushed_at": "2026-09-01T07:10:47Z",
   "is_archived": false,
   "license_spdx": "AGPL-3.0",
   "license_category": "strong-copyleft",
@@ -43,10 +43,10 @@
     }
   ],
   "usability_score": 85,
-  "snapshot_days": 3,
+  "snapshot_days": 4,
   "is_indexable": true,
   "first_seen_at": "2026-08-29T23:02:08.747Z",
   "tracking_tier": "hot",
-  "last_fetched_date": "2026-09-01",
+  "last_fetched_date": "2026-09-02",
   "stars_stagnant_days": 0
 }

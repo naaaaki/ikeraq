@@ -11,10 +11,10 @@
     "rust",
     "rustlings"
   ],
-  "stars": 64019,
-  "forks": 11251,
+  "stars": 64024,
+  "forks": 11253,
   "watchers": null,
-  "open_issues": 32,
+  "open_issues": 33,
   "created_at": "2015-09-15T02:25:18Z",
   "pushed_at": "2026-08-30T07:00:57Z",
   "is_archived": false,
@@ -35,10 +35,10 @@
     }
   ],
   "usability_score": 90,
-  "snapshot_days": 3,
+  "snapshot_days": 4,
   "is_indexable": true,
   "first_seen_at": "2026-08-29T23:02:08.747Z",
   "tracking_tier": "hot",
-  "last_fetched_date": "2026-09-01",
+  "last_fetched_date": "2026-09-02",
   "stars_stagnant_days": 0
 }

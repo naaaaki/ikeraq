@@ -19,12 +19,12 @@
     "vue",
     "vue3"
   ],
-  "stars": 41605,
-  "forks": 3712,
+  "stars": 41604,
+  "forks": 3713,
   "watchers": null,
-  "open_issues": 702,
+  "open_issues": 703,
   "created_at": "2018-07-12T08:52:39Z",
-  "pushed_at": "2026-08-31T13:04:12Z",
+  "pushed_at": "2026-09-01T22:53:14Z",
   "is_archived": false,
   "license_spdx": "Apache-2.0",
   "license_category": "permissive",
@@ -37,10 +37,10 @@
   "category": "web-frontend",
   "flags": [],
   "usability_score": 100,
-  "snapshot_days": 2,
+  "snapshot_days": 3,
   "is_indexable": false,
   "first_seen_at": "2026-08-30T23:15:18.750Z",
   "tracking_tier": "hot",
-  "last_fetched_date": "2026-09-01",
-  "stars_stagnant_days": 1
+  "last_fetched_date": "2026-09-02",
+  "stars_stagnant_days": 2
 }

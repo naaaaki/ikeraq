@@ -1,0 +1,50 @@
+{
+  "id": "mifi/lossless-cut",
+  "owner": "mifi",
+  "name": "lossless-cut",
+  "description_en": "The swiss army knife of lossless video/audio editing",
+  "human_note": null,
+  "language": "TypeScript",
+  "topics": [
+    "codec",
+    "cut",
+    "editor",
+    "ffmpeg",
+    "lossless",
+    "losslesscut",
+    "player",
+    "video",
+    "video-editor",
+    "video-files"
+  ],
+  "stars": 43379,
+  "forks": 2147,
+  "watchers": null,
+  "open_issues": 296,
+  "created_at": "2016-10-30T10:49:56Z",
+  "pushed_at": "2026-09-01T11:02:16Z",
+  "is_archived": false,
+  "license_spdx": "GPL-2.0",
+  "license_category": "strong-copyleft",
+  "readme_excerpt": "LosslessCut The swiss army knife of lossless video/audio editing Thanks to my supporters and everyone who purchased LosslessCut! LosslessCut aims to be the ultimate cross platform FFmpeg GUI for extremely fast and lossless operations on video, audio, subtitle and other related media files. The main feature is lossless trimming and cutting of video and audio files, which is great for saving space by rough-cutting your large video files taken from a video camera, GoPro, drone, etc. It lets you qu…",
+  "readme_length": 12421,
+  "has_japanese_readme": false,
+  "contributors_count": 174,
+  "releases_count": 106,
+  "ossf_scorecard": null,
+  "category": "dev-tool",
+  "flags": [
+    {
+      "id": "copyleft",
+      "label": "自社サービス組込み注意",
+      "reason": "GPL-2.0 です。組み込んだ側のソース公開が必要になる場合があります。"
+    }
+  ],
+  "usability_score": 85,
+  "snapshot_days": 1,
+  "is_indexable": true,
+  "first_seen_at": "2026-09-01T23:05:22.650Z",
+  "tracking_tier": "hot",
+  "last_fetched_date": "2026-09-02",
+  "stars_stagnant_days": 0
+}

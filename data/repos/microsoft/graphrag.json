@@ -14,8 +14,8 @@
     "llms",
     "rag"
   ],
-  "stars": 35759,
-  "forks": 3752,
+  "stars": 35775,
+  "forks": 3754,
   "watchers": null,
   "open_issues": 40,
   "created_at": "2024-03-27T17:57:52Z",
@@ -32,10 +32,10 @@
   "category": "llm",
   "flags": [],
   "usability_score": 100,
-  "snapshot_days": 1,
+  "snapshot_days": 2,
   "is_indexable": false,
   "first_seen_at": "2026-09-01T00:26:13.032Z",
   "tracking_tier": "hot",
-  "last_fetched_date": "2026-09-01",
+  "last_fetched_date": "2026-09-02",
   "stars_stagnant_days": 0
 }

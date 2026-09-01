@@ -1,0 +1,42 @@
+{
+  "id": "facebook/rocksdb",
+  "owner": "facebook",
+  "name": "rocksdb",
+  "description_en": "A library that provides an embeddable, persistent key-value store for fast storage.",
+  "human_note": null,
+  "language": "C++",
+  "topics": [
+    "database",
+    "storage-engine"
+  ],
+  "stars": 32035,
+  "forks": 6912,
+  "watchers": null,
+  "open_issues": 1627,
+  "created_at": "2012-11-30T06:16:18Z",
+  "pushed_at": "2026-09-01T22:58:08Z",
+  "is_archived": false,
+  "license_spdx": "GPL-2.0",
+  "license_category": "strong-copyleft",
+  "readme_excerpt": "RocksDB: A Persistent Key-Value Store for Flash and RAM Storage RocksDB is developed and maintained by Facebook Database Engineering Team. It is built on earlier work on LevelDB by Sanjay Ghemawat (sanjay@google.com) and Jeff Dean (jeff@google.com) This code is a library that forms the core building block for a fast key-value server, especially suited for storing data on flash drives. It has a Log-Structured-Merge-Database (LSM) design with flexible tradeoffs between Write-Amplification-Factor…",
+  "readme_length": 1689,
+  "has_japanese_readme": false,
+  "contributors_count": 1143,
+  "releases_count": 217,
+  "ossf_scorecard": null,
+  "category": "data",
+  "flags": [
+    {
+      "id": "copyleft",
+      "label": "自社サービス組込み注意",
+      "reason": "GPL-2.0 です。組み込んだ側のソース公開が必要になる場合があります。"
+    }
+  ],
+  "usability_score": 85,
+  "snapshot_days": 1,
+  "is_indexable": true,
+  "first_seen_at": "2026-09-01T23:05:22.650Z",
+  "tracking_tier": "hot",
+  "last_fetched_date": "2026-09-02",
+  "stars_stagnant_days": 0
+}

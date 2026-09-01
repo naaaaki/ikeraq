@@ -16,12 +16,12 @@
     "skills",
     "vibe-coding"
   ],
-  "stars": 51309,
-  "forks": 4902,
+  "stars": 51342,
+  "forks": 4905,
   "watchers": null,
-  "open_issues": 1492,
+  "open_issues": 1476,
   "created_at": "2024-05-24T01:56:26Z",
-  "pushed_at": "2026-08-31T17:19:11Z",
+  "pushed_at": "2026-09-01T22:19:34Z",
   "is_archived": false,
   "license_spdx": "AGPL-3.0",
   "license_category": "strong-copyleft",
@@ -40,10 +40,10 @@
     }
   ],
   "usability_score": 85,
-  "snapshot_days": 2,
+  "snapshot_days": 3,
   "is_indexable": true,
   "first_seen_at": "2026-08-30T23:15:18.749Z",
   "tracking_tier": "hot",
-  "last_fetched_date": "2026-09-01",
+  "last_fetched_date": "2026-09-02",
   "stars_stagnant_days": 0
 }

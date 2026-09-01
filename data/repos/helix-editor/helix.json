@@ -11,9 +11,9 @@
     "text-editor",
     "vim"
   ],
-  "stars": 46041,
+  "stars": 46054,
   "forks": 3715,
-  "watchers": 222,
+  "watchers": 225,
   "open_issues": 1634,
   "created_at": "2020-06-01T04:26:56Z",
   "pushed_at": "2026-08-25T23:26:07Z",
@@ -29,10 +29,10 @@
   "category": "dev-tool",
   "flags": [],
   "usability_score": 100,
-  "snapshot_days": 2,
+  "snapshot_days": 3,
   "is_indexable": false,
   "first_seen_at": "2026-08-30T23:15:18.750Z",
   "tracking_tier": "hot",
-  "last_fetched_date": "2026-09-01",
+  "last_fetched_date": "2026-09-02",
   "stars_stagnant_days": 0
 }

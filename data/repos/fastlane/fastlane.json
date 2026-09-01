@@ -17,10 +17,10 @@
     "ruby",
     "screenshots"
   ],
-  "stars": 42047,
+  "stars": 42044,
   "forks": 6025,
   "watchers": null,
-  "open_issues": 664,
+  "open_issues": 663,
   "created_at": "2014-12-02T17:00:38Z",
   "pushed_at": "2026-08-31T20:34:57Z",
   "is_archived": false,
@@ -35,10 +35,10 @@
   "category": "mobile",
   "flags": [],
   "usability_score": 100,
-  "snapshot_days": 2,
+  "snapshot_days": 3,
   "is_indexable": false,
   "first_seen_at": "2026-08-30T23:15:18.750Z",
   "tracking_tier": "hot",
-  "last_fetched_date": "2026-09-01",
-  "stars_stagnant_days": 0
+  "last_fetched_date": "2026-09-02",
+  "stars_stagnant_days": 1
 }

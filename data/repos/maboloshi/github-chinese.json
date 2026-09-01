@@ -1,0 +1,46 @@
+{
+  "id": "maboloshi/github-chinese",
+  "owner": "maboloshi",
+  "name": "github-chinese",
+  "description_en": "GitHub 汉化插件，GitHub 中文化界面。 (GitHub Translation To Chinese)",
+  "human_note": null,
+  "language": "JavaScript",
+  "topics": [
+    "github",
+    "greasyfork",
+    "macaque",
+    "tampermonkey",
+    "userscript",
+    "violentmonkey"
+  ],
+  "stars": 32005,
+  "forks": 1851,
+  "watchers": null,
+  "open_issues": 59,
+  "created_at": "2021-09-27T08:47:55Z",
+  "pushed_at": "2026-08-30T16:04:56Z",
+  "is_archived": false,
+  "license_spdx": "GPL-3.0",
+  "license_category": "strong-copyleft",
+  "readme_excerpt": "[GitHub 中文化插件][github-project-link] > 让 GitHub 界面全面中文化 | 源自 52cik/github-hans 简体中文 · 繁體中文 · [反馈问题][github-issues-link] [![GitHub stars][github-stars-shield]][github-stars-link] [![GitHub forks][github-forks-shield]][github-forks-link] [![GitHub issues][github-issues-shield]][github-issues-link] [![license GPL-3.0][github-license-shield]][github-license-link] [![GreasyFork installs][greasyFork-shield]][greasyFork-link] > [!warning] > 本项目从未发布至 GitCode，如您发现请截图并保留证据 目录树 TOC - 🌟 功能特性 - 🌐 兼容环境 - 💻…",
+  "readme_length": 20266,
+  "has_japanese_readme": false,
+  "contributors_count": 47,
+  "releases_count": 0,
+  "ossf_scorecard": null,
+  "category": "other",
+  "flags": [
+    {
+      "id": "copyleft",
+      "label": "自社サービス組込み注意",
+      "reason": "GPL-3.0 です。組み込んだ側のソース公開が必要になる場合があります。"
+    }
+  ],
+  "usability_score": 85,
+  "snapshot_days": 1,
+  "is_indexable": true,
+  "first_seen_at": "2026-09-01T23:05:22.650Z",
+  "tracking_tier": "hot",
+  "last_fetched_date": "2026-09-02",
+  "stars_stagnant_days": 0
+}

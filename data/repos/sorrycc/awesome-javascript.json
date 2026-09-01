@@ -1,0 +1,39 @@
+{
+  "id": "sorrycc/awesome-javascript",
+  "owner": "sorrycc",
+  "name": "awesome-javascript",
+  "description_en": "🐢 A collection of awesome browser-side  JavaScript libraries, resources and shiny things.",
+  "human_note": null,
+  "language": null,
+  "topics": [],
+  "stars": 35021,
+  "forks": 4552,
+  "watchers": null,
+  "open_issues": 22,
+  "created_at": "2014-07-01T15:59:02Z",
+  "pushed_at": "2026-09-01T22:25:59Z",
+  "is_archived": false,
+  "license_spdx": null,
+  "license_category": "none",
+  "readme_excerpt": "Awesome JavaScript A collection of awesome browser-side JavaScript libraries, resources and shiny things. Awesome JavaScript Package Managers Component management Loaders Transpilers Bundlers Minimizers Type Checkers Testing Frameworks QA Tools MVC Frameworks and Libraries Node-Powered CMS Frameworks Templating Engines Game Engines Articles/Posts Data Visualization Timeline Spreadsheet Editors Documentation Utilities Files Functional Programming Reactive Programming Data Structure Date String N…",
+  "readme_length": 101101,
+  "has_japanese_readme": false,
+  "contributors_count": 345,
+  "releases_count": 0,
+  "ossf_scorecard": null,
+  "category": "learning",
+  "flags": [
+    {
+      "id": "no_license",
+      "label": "利用条件不明",
+      "reason": "ライセンスが設定されていません。この場合は原則として全権利が留保され、利用できません。"
+    }
+  ],
+  "usability_score": 60,
+  "snapshot_days": 1,
+  "is_indexable": true,
+  "first_seen_at": "2026-09-01T23:05:22.650Z",
+  "tracking_tier": "hot",
+  "last_fetched_date": "2026-09-02",
+  "stars_stagnant_days": 0
+}

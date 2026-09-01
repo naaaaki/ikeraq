@@ -21,8 +21,8 @@
     "stats",
     "temperature"
   ],
-  "stars": 41546,
-  "forks": 1508,
+  "stars": 41564,
+  "forks": 1509,
   "watchers": null,
   "open_issues": 21,
   "created_at": "2019-05-29T19:24:56Z",
@@ -39,10 +39,10 @@
   "category": "other",
   "flags": [],
   "usability_score": 100,
-  "snapshot_days": 2,
+  "snapshot_days": 3,
   "is_indexable": false,
   "first_seen_at": "2026-08-30T23:15:18.750Z",
   "tracking_tier": "hot",
-  "last_fetched_date": "2026-09-01",
+  "last_fetched_date": "2026-09-02",
   "stars_stagnant_days": 0
 }

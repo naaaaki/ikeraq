@@ -5,13 +5,24 @@
   "description_en": "Your Personal AI super intelligence. A brain that builds a local-first memory of your life, a fantastic orchestrator of agent fleets and workflows, and a deep researcher.",
   "human_note": null,
   "language": "Rust",
-  "topics": [],
-  "stars": 39202,
-  "forks": 3855,
+  "topics": [
+    "agent-framework",
+    "ai-agents",
+    "artificial-intelligence",
+    "developer-tools",
+    "llm",
+    "local-first",
+    "multi-agent",
+    "open-source",
+    "rust",
+    "workflow-automation"
+  ],
+  "stars": 39294,
+  "forks": 3861,
   "watchers": null,
-  "open_issues": 349,
+  "open_issues": 312,
   "created_at": "2026-02-18T20:01:27Z",
-  "pushed_at": "2026-08-31T15:46:23Z",
+  "pushed_at": "2026-09-01T21:31:44Z",
   "is_archived": false,
   "license_spdx": "GPL-3.0",
   "license_category": "strong-copyleft",
@@ -21,7 +32,7 @@
   "contributors_count": 152,
   "releases_count": 56,
   "ossf_scorecard": null,
-  "category": "other",
+  "category": "ai-agent",
   "flags": [
     {
       "id": "copyleft",
@@ -30,10 +41,10 @@
     }
   ],
   "usability_score": 85,
-  "snapshot_days": 1,
+  "snapshot_days": 2,
   "is_indexable": true,
   "first_seen_at": "2026-09-01T00:26:13.031Z",
   "tracking_tier": "hot",
-  "last_fetched_date": "2026-09-01",
+  "last_fetched_date": "2026-09-02",
   "stars_stagnant_days": 0
 }

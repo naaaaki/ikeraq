@@ -23,12 +23,12 @@
     "typescript",
     "videos"
   ],
-  "stars": 113106,
-  "forks": 6784,
+  "stars": 113193,
+  "forks": 6798,
   "watchers": null,
-  "open_issues": 696,
+  "open_issues": 701,
   "created_at": "2022-02-03T15:56:27Z",
-  "pushed_at": "2026-08-31T19:51:37Z",
+  "pushed_at": "2026-09-01T21:51:31Z",
   "is_archived": false,
   "license_spdx": "AGPL-3.0",
   "license_category": "strong-copyleft",
@@ -47,10 +47,10 @@
     }
   ],
   "usability_score": 85,
-  "snapshot_days": 3,
+  "snapshot_days": 4,
   "is_indexable": true,
   "first_seen_at": "2026-08-29T15:46:21.820Z",
   "tracking_tier": "hot",
-  "last_fetched_date": "2026-09-01",
+  "last_fetched_date": "2026-09-02",
   "stars_stagnant_days": 0
 }

@@ -7,8 +7,8 @@
   "language": "Python",
   "topics": [],
   "stars": 56874,
-  "forks": 9697,
-  "watchers": 1346,
+  "forks": 9696,
+  "watchers": 1349,
   "open_issues": 386,
   "created_at": "2012-08-20T15:53:36Z",
   "pushed_at": "2026-08-24T07:23:27Z",
@@ -24,10 +24,10 @@
   "category": "other",
   "flags": [],
   "usability_score": 100,
-  "snapshot_days": 3,
+  "snapshot_days": 4,
   "is_indexable": false,
   "first_seen_at": "2026-08-29T23:02:08.747Z",
   "tracking_tier": "hot",
-  "last_fetched_date": "2026-09-01",
-  "stars_stagnant_days": 0
+  "last_fetched_date": "2026-09-02",
+  "stars_stagnant_days": 1
 }

@@ -16,10 +16,10 @@
     "ux",
     "validation"
   ],
-  "stars": 44843,
-  "forks": 2468,
+  "stars": 44841,
+  "forks": 2466,
   "watchers": null,
-  "open_issues": 7,
+  "open_issues": 8,
   "created_at": "2019-03-05T23:47:10Z",
   "pushed_at": "2026-08-31T11:09:46Z",
   "is_archived": false,
@@ -34,10 +34,10 @@
   "category": "web-frontend",
   "flags": [],
   "usability_score": 100,
-  "snapshot_days": 2,
+  "snapshot_days": 3,
   "is_indexable": false,
   "first_seen_at": "2026-08-30T23:15:18.750Z",
   "tracking_tier": "hot",
-  "last_fetched_date": "2026-09-01",
-  "stars_stagnant_days": 1
+  "last_fetched_date": "2026-09-02",
+  "stars_stagnant_days": 2
 }

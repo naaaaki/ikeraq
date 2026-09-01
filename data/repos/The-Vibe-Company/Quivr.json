@@ -27,10 +27,10 @@
     "typescript",
     "vector"
   ],
-  "stars": 39437,
-  "forks": 3727,
-  "watchers": null,
-  "open_issues": 34,
+  "stars": 39445,
+  "forks": 3726,
+  "watchers": 291,
+  "open_issues": 35,
   "created_at": "2023-05-12T23:53:30Z",
   "pushed_at": "2026-08-31T18:02:45Z",
   "is_archived": false,
@@ -45,10 +45,10 @@
   "category": "llm",
   "flags": [],
   "usability_score": 100,
-  "snapshot_days": 1,
+  "snapshot_days": 2,
   "is_indexable": false,
   "first_seen_at": "2026-09-01T00:26:13.031Z",
   "tracking_tier": "hot",
-  "last_fetched_date": "2026-09-01",
+  "last_fetched_date": "2026-09-02",
   "stars_stagnant_days": 0
 }

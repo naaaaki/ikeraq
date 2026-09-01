@@ -1,0 +1,41 @@
+{
+  "id": "anthropics/skills",
+  "owner": "anthropics",
+  "name": "skills",
+  "description_en": "Public repository for Agent Skills",
+  "human_note": null,
+  "language": "Python",
+  "topics": [
+    "agent-skills"
+  ],
+  "stars": 173016,
+  "forks": 20539,
+  "watchers": null,
+  "open_issues": 1197,
+  "created_at": "2025-09-22T15:53:31Z",
+  "pushed_at": "2026-09-01T18:30:41Z",
+  "is_archived": false,
+  "license_spdx": null,
+  "license_category": "none",
+  "readme_excerpt": "> Note: This repository contains Anthropic's implementation of skills for Claude. For information about the Agent Skills standard, see agentskills.io. Skills Skills are folders of instructions, scripts, and resources that Claude loads dynamically to improve performance on specialized tasks. Skills teach Claude how to complete specific tasks in a repeatable way, whether that's creating documents with your company's brand guidelines, analyzing data using your organization's specific workflows, or…",
+  "readme_length": 5552,
+  "has_japanese_readme": false,
+  "contributors_count": 16,
+  "releases_count": 0,
+  "ossf_scorecard": null,
+  "category": "ai-agent",
+  "flags": [
+    {
+      "id": "no_license",
+      "label": "利用条件不明",
+      "reason": "ライセンスが設定されていません。この場合は原則として全権利が留保され、利用できません。"
+    }
+  ],
+  "usability_score": 60,
+  "snapshot_days": 1,
+  "is_indexable": true,
+  "first_seen_at": "2026-09-01T23:05:22.649Z",
+  "tracking_tier": "hot",
+  "last_fetched_date": "2026-09-02",
+  "stars_stagnant_days": 0
+}

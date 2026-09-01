@@ -10,9 +10,9 @@
     "slides",
     "slideshow"
   ],
-  "stars": 72236,
+  "stars": 72241,
   "forks": 16984,
-  "watchers": 1619,
+  "watchers": 1622,
   "open_issues": 911,
   "created_at": "2011-06-07T18:54:22Z",
   "pushed_at": "2026-08-24T09:06:06Z",
@@ -28,10 +28,10 @@
   "category": "other",
   "flags": [],
   "usability_score": 100,
-  "snapshot_days": 3,
+  "snapshot_days": 4,
   "is_indexable": false,
   "first_seen_at": "2026-08-29T23:02:08.747Z",
   "tracking_tier": "hot",
-  "last_fetched_date": "2026-09-01",
-  "stars_stagnant_days": 1
+  "last_fetched_date": "2026-09-02",
+  "stars_stagnant_days": 0
 }

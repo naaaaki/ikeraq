@@ -17,12 +17,12 @@
     "rest-api",
     "websockets"
   ],
-  "stars": 39964,
+  "stars": 39970,
   "forks": 2364,
   "watchers": null,
-  "open_issues": 868,
+  "open_issues": 872,
   "created_at": "2016-04-23T03:54:26Z",
-  "pushed_at": "2026-08-31T13:29:23Z",
+  "pushed_at": "2026-09-01T17:46:32Z",
   "is_archived": false,
   "license_spdx": "Apache-2.0",
   "license_category": "permissive",
@@ -35,10 +35,10 @@
   "category": "web-frontend",
   "flags": [],
   "usability_score": 100,
-  "snapshot_days": 1,
+  "snapshot_days": 2,
   "is_indexable": false,
   "first_seen_at": "2026-09-01T00:26:13.031Z",
   "tracking_tier": "hot",
-  "last_fetched_date": "2026-09-01",
+  "last_fetched_date": "2026-09-02",
   "stars_stagnant_days": 0
 }

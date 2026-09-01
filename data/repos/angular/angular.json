@@ -15,11 +15,11 @@
     "web-performance"
   ],
   "stars": 101019,
-  "forks": 27457,
+  "forks": 27447,
   "watchers": null,
-  "open_issues": 1154,
+  "open_issues": 1142,
   "created_at": "2014-09-18T16:12:01Z",
-  "pushed_at": "2026-08-31T23:44:21Z",
+  "pushed_at": "2026-09-01T21:42:10Z",
   "is_archived": false,
   "license_spdx": "MIT",
   "license_category": "permissive",
@@ -32,10 +32,10 @@
   "category": "backend",
   "flags": [],
   "usability_score": 100,
-  "snapshot_days": 3,
+  "snapshot_days": 4,
   "is_indexable": false,
   "first_seen_at": "2026-08-29T15:46:21.821Z",
   "tracking_tier": "hot",
-  "last_fetched_date": "2026-09-01",
-  "stars_stagnant_days": 0
+  "last_fetched_date": "2026-09-02",
+  "stars_stagnant_days": 1
 }

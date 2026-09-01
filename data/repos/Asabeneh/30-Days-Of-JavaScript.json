@@ -27,10 +27,10 @@
     "webdevelopment",
     "website"
   ],
-  "stars": 46762,
-  "forks": 10466,
+  "stars": 46760,
+  "forks": 10464,
   "watchers": null,
-  "open_issues": 371,
+  "open_issues": 369,
   "created_at": "2019-12-23T14:07:40Z",
   "pushed_at": "2026-08-27T12:03:08Z",
   "is_archived": false,
@@ -51,10 +51,10 @@
     }
   ],
   "usability_score": 60,
-  "snapshot_days": 2,
+  "snapshot_days": 3,
   "is_indexable": true,
   "first_seen_at": "2026-08-30T23:15:18.749Z",
   "tracking_tier": "hot",
-  "last_fetched_date": "2026-09-01",
-  "stars_stagnant_days": 0
+  "last_fetched_date": "2026-09-02",
+  "stars_stagnant_days": 1
 }

@@ -1,0 +1,47 @@
+{
+  "id": "OWASP/CheatSheetSeries",
+  "owner": "OWASP",
+  "name": "CheatSheetSeries",
+  "description_en": "The OWASP Cheat Sheet Series was created to provide a concise collection of high value information on specific application security topics.",
+  "human_note": null,
+  "language": "Python",
+  "topics": [
+    "application-security",
+    "appsec",
+    "best-practices",
+    "cheatsheets",
+    "code",
+    "owasp",
+    "security"
+  ],
+  "stars": 33043,
+  "forks": 4607,
+  "watchers": null,
+  "open_issues": 62,
+  "created_at": "2018-12-21T14:26:43Z",
+  "pushed_at": "2026-09-01T08:43:16Z",
+  "is_archived": false,
+  "license_spdx": "CC-BY-SA-4.0",
+  "license_category": "strong-copyleft",
+  "readme_excerpt": "Welcome to the OWASP Cheat Sheet Series Welcome to the official repository for the Open Worldwide Application Security Project® (OWASP) Cheat Sheet Series project. The project focuses on providing good security practices for builders in order to secure their applications. In order to read the cheat sheets and reference them, use the project official website. The project details can be viewed on the OWASP main website without the cheat sheets. :triangularflagonpost: Markdown files are the workin…",
+  "readme_length": 4283,
+  "has_japanese_readme": false,
+  "contributors_count": 662,
+  "releases_count": 0,
+  "ossf_scorecard": null,
+  "category": "security",
+  "flags": [
+    {
+      "id": "copyleft",
+      "label": "自社サービス組込み注意",
+      "reason": "CC-BY-SA-4.0 です。組み込んだ側のソース公開が必要になる場合があります。"
+    }
+  ],
+  "usability_score": 85,
+  "snapshot_days": 1,
+  "is_indexable": true,
+  "first_seen_at": "2026-09-01T23:05:22.650Z",
+  "tracking_tier": "hot",
+  "last_fetched_date": "2026-09-02",
+  "stars_stagnant_days": 0
+}

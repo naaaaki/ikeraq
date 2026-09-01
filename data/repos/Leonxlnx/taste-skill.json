@@ -20,9 +20,9 @@
     "skills",
     "vibecoding"
   ],
-  "stars": 82897,
-  "forks": 5671,
-  "watchers": 274,
+  "stars": 83308,
+  "forks": 5700,
+  "watchers": 278,
   "open_issues": 59,
   "created_at": "2026-02-19T21:44:05Z",
   "pushed_at": "2026-08-24T15:23:56Z",
@@ -38,10 +38,10 @@
   "category": "ai-agent",
   "flags": [],
   "usability_score": 100,
-  "snapshot_days": 3,
+  "snapshot_days": 4,
   "is_indexable": false,
   "first_seen_at": "2026-08-29T15:46:21.821Z",
   "tracking_tier": "hot",
-  "last_fetched_date": "2026-09-01",
+  "last_fetched_date": "2026-09-02",
   "stars_stagnant_days": 0
 }

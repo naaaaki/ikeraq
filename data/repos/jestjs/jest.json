@@ -16,12 +16,12 @@
     "snapshot",
     "testing"
   ],
-  "stars": 45476,
-  "forks": 6734,
+  "stars": 45471,
+  "forks": 6731,
   "watchers": null,
-  "open_issues": 191,
+  "open_issues": 190,
   "created_at": "2013-12-10T00:18:04Z",
-  "pushed_at": "2026-08-31T20:56:23Z",
+  "pushed_at": "2026-09-01T22:53:47Z",
   "is_archived": false,
   "license_spdx": "MIT",
   "license_category": "permissive",
@@ -34,10 +34,10 @@
   "category": "dev-tool",
   "flags": [],
   "usability_score": 100,
-  "snapshot_days": 2,
+  "snapshot_days": 3,
   "is_indexable": false,
   "first_seen_at": "2026-08-30T23:15:18.750Z",
   "tracking_tier": "hot",
-  "last_fetched_date": "2026-09-01",
-  "stars_stagnant_days": 0
+  "last_fetched_date": "2026-09-02",
+  "stars_stagnant_days": 1
 }

@@ -12,12 +12,12 @@
     "go",
     "p2p"
   ],
-  "stars": 51328,
-  "forks": 22145,
+  "stars": 51326,
+  "forks": 22143,
   "watchers": null,
-  "open_issues": 430,
+  "open_issues": 428,
   "created_at": "2013-12-26T13:05:46Z",
-  "pushed_at": "2026-08-31T21:21:54Z",
+  "pushed_at": "2026-09-01T15:57:17Z",
   "is_archived": false,
   "license_spdx": "LGPL-3.0",
   "license_category": "weak-copyleft",
@@ -30,10 +30,10 @@
   "category": "other",
   "flags": [],
   "usability_score": 100,
-  "snapshot_days": 2,
+  "snapshot_days": 3,
   "is_indexable": false,
   "first_seen_at": "2026-08-30T23:15:18.749Z",
   "tracking_tier": "hot",
-  "last_fetched_date": "2026-09-01",
-  "stars_stagnant_days": 0
+  "last_fetched_date": "2026-09-02",
+  "stars_stagnant_days": 1
 }

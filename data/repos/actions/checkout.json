@@ -7,8 +7,8 @@
   "language": "TypeScript",
   "topics": [],
   "stars": 8832,
-  "forks": 2768,
-  "watchers": 211,
+  "forks": 2769,
+  "watchers": 214,
   "open_issues": 688,
   "created_at": "2019-07-19T17:15:33Z",
   "pushed_at": "2026-08-10T23:25:25Z",
@@ -24,10 +24,10 @@
   "category": "other",
   "flags": [],
   "usability_score": 100,
-  "snapshot_days": 3,
+  "snapshot_days": 4,
   "is_indexable": false,
   "first_seen_at": "2026-08-29T23:02:08.445Z",
   "tracking_tier": "hot",
-  "last_fetched_date": "2026-09-01",
-  "stars_stagnant_days": 0
+  "last_fetched_date": "2026-09-02",
+  "stars_stagnant_days": 1
 }

@@ -1,0 +1,49 @@
+{
+  "id": "jumpserver/jumpserver",
+  "owner": "jumpserver",
+  "name": "jumpserver",
+  "description_en": "JumpServer is an open-source Privileged Access Management (PAM) platform that provides DevOps and IT teams with on-demand and secure access to SSH, RDP, Kubernetes, Database and RemoteApp endpoints through a web browser.",
+  "human_note": null,
+  "language": "Python",
+  "topics": [
+    "bastion-host",
+    "cyberark",
+    "django",
+    "jumpserver",
+    "pam",
+    "python",
+    "ssh-server",
+    "teleport",
+    "terminal"
+  ],
+  "stars": 31485,
+  "forks": 5775,
+  "watchers": null,
+  "open_issues": 90,
+  "created_at": "2014-07-04T03:54:59Z",
+  "pushed_at": "2026-09-01T17:34:36Z",
+  "is_archived": false,
+  "license_spdx": "GPL-3.0",
+  "license_category": "strong-copyleft",
+  "readme_excerpt": "An open-source PAM platform (Bastion Host) [![][license-shield]][license-link] [![][docs-shield]][docs-link] [![][deepwiki-shield]][deepwiki-link] [![][discord-shield]][discord-link] [![][docker-shield]][docker-link] [![][github-release-shield]][github-release-link] [![][github-stars-shield]][github-stars-link] English · 中文(简体) · 中文(繁體) · 日本語 · Português (Brasil) · Español · Русский · 한국어 What is JumpServer? JumpServer is an open-source Privileged Access Management (PAM) platform that provides…",
+  "readme_length": 10889,
+  "has_japanese_readme": false,
+  "contributors_count": 190,
+  "releases_count": 269,
+  "ossf_scorecard": null,
+  "category": "dev-tool",
+  "flags": [
+    {
+      "id": "copyleft",
+      "label": "自社サービス組込み注意",
+      "reason": "GPL-3.0 です。組み込んだ側のソース公開が必要になる場合があります。"
+    }
+  ],
+  "usability_score": 85,
+  "snapshot_days": 1,
+  "is_indexable": true,
+  "first_seen_at": "2026-09-01T23:05:22.650Z",
+  "tracking_tier": "hot",
+  "last_fetched_date": "2026-09-02",
+  "stars_stagnant_days": 0
+}

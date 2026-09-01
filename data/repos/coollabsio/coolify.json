@@ -27,12 +27,12 @@
     "svelte",
     "svelte5"
   ],
-  "stars": 61256,
-  "forks": 5388,
+  "stars": 61296,
+  "forks": 5398,
   "watchers": null,
   "open_issues": 669,
   "created_at": "2021-01-25T20:54:01Z",
-  "pushed_at": "2026-08-31T21:12:46Z",
+  "pushed_at": "2026-09-01T19:54:25Z",
   "is_archived": false,
   "license_spdx": "Apache-2.0",
   "license_category": "permissive",
@@ -45,10 +45,10 @@
   "category": "infra",
   "flags": [],
   "usability_score": 100,
-  "snapshot_days": 3,
+  "snapshot_days": 4,
   "is_indexable": false,
   "first_seen_at": "2026-08-29T23:02:08.747Z",
   "tracking_tier": "hot",
-  "last_fetched_date": "2026-09-01",
+  "last_fetched_date": "2026-09-02",
   "stars_stagnant_days": 0
 }

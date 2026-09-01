@@ -24,10 +24,10 @@
     "skill",
     "workflow-automation"
   ],
-  "stars": 74158,
-  "forks": 8496,
+  "stars": 74227,
+  "forks": 8511,
   "watchers": 460,
-  "open_issues": 1368,
+  "open_issues": 1379,
   "created_at": "2025-10-17T07:15:01Z",
   "pushed_at": "2026-08-10T21:45:44Z",
   "is_archived": false,
@@ -48,10 +48,10 @@
     }
   ],
   "usability_score": 60,
-  "snapshot_days": 3,
+  "snapshot_days": 4,
   "is_indexable": true,
   "first_seen_at": "2026-08-29T23:02:07.860Z",
   "tracking_tier": "hot",
-  "last_fetched_date": "2026-09-01",
+  "last_fetched_date": "2026-09-02",
   "stars_stagnant_days": 0
 }
