@@ -53,7 +53,7 @@ export const HAS_AFFILIATE = false;
  *   下の文面は「Cookie を使わない」前提で書いてある。Cookie を使うツールに
  *   入れ替えるなら、Cookie の節も直す必要がある。
  */
-export const HAS_ANALYTICS = false;
+export const HAS_ANALYTICS = true;
 
 /** 使っている解析ツールの名前。HAS_ANALYTICS が true のときだけ意味を持つ */
 export const ANALYTICS_NAME = 'Cloudflare Web Analytics';
