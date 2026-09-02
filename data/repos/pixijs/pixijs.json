@@ -20,8 +20,8 @@
     "rendering-engine",
     "webgl"
   ],
-  "stars": 48102,
-  "forks": 5066,
+  "stars": 48107,
+  "forks": 5065,
   "watchers": null,
   "open_issues": 348,
   "created_at": "2013-01-21T22:40:50Z",
@@ -38,10 +38,10 @@
   "category": "web-frontend",
   "flags": [],
   "usability_score": 100,
-  "snapshot_days": 3,
+  "snapshot_days": 4,
   "is_indexable": false,
   "first_seen_at": "2026-08-30T23:15:18.749Z",
   "tracking_tier": "hot",
-  "last_fetched_date": "2026-09-02",
+  "last_fetched_date": "2026-09-03",
   "stars_stagnant_days": 0
 }

@@ -18,10 +18,10 @@
     "microsoft-foundry",
     "semantic-kernel"
   ],
-  "stars": 73702,
-  "forks": 24357,
-  "watchers": null,
-  "open_issues": 11,
+  "stars": 73763,
+  "forks": 24382,
+  "watchers": 572,
+  "open_issues": 12,
   "created_at": "2024-11-28T10:42:52Z",
   "pushed_at": "2026-08-27T09:55:57Z",
   "is_archived": false,
@@ -36,10 +36,10 @@
   "category": "ai-agent",
   "flags": [],
   "usability_score": 100,
-  "snapshot_days": 4,
+  "snapshot_days": 5,
   "is_indexable": false,
   "first_seen_at": "2026-08-29T23:02:08.747Z",
   "tracking_tier": "hot",
-  "last_fetched_date": "2026-09-02",
+  "last_fetched_date": "2026-09-03",
   "stars_stagnant_days": 0
 }

@@ -19,10 +19,10 @@
     "webgl",
     "worldview"
   ],
-  "stars": 15306,
-  "forks": 3073,
-  "watchers": 341,
-  "open_issues": 108,
+  "stars": 16075,
+  "forks": 3237,
+  "watchers": 377,
+  "open_issues": 111,
   "created_at": "2026-06-22T23:37:22Z",
   "pushed_at": "2026-09-01T19:42:55Z",
   "is_archived": false,
@@ -37,10 +37,10 @@
   "category": "security",
   "flags": [],
   "usability_score": 100,
-  "snapshot_days": 4,
+  "snapshot_days": 5,
   "is_indexable": true,
   "first_seen_at": "2026-08-29T15:46:17.498Z",
   "tracking_tier": "hot",
-  "last_fetched_date": "2026-09-02",
+  "last_fetched_date": "2026-09-03",
   "stars_stagnant_days": 0
 }

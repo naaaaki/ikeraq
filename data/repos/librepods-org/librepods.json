@@ -1,0 +1,50 @@
+{
+  "id": "librepods-org/librepods",
+  "owner": "librepods-org",
+  "name": "librepods",
+  "description_en": "AirPods liberated from Apple's ecosystem.",
+  "human_note": null,
+  "language": "Kotlin",
+  "topics": [
+    "accessiblity",
+    "airpods",
+    "android",
+    "battery-monitor",
+    "conversational-awareness",
+    "ear-detection",
+    "hearing-aid",
+    "hearing-aids",
+    "linux",
+    "reverse-engineering"
+  ],
+  "stars": 29676,
+  "forks": 1718,
+  "watchers": null,
+  "open_issues": 277,
+  "created_at": "2024-09-26T19:31:11Z",
+  "pushed_at": "2026-09-01T13:14:10Z",
+  "is_archived": false,
+  "license_spdx": "GPL-3.0",
+  "license_category": "strong-copyleft",
+  "readme_excerpt": "> [!WARNING] > librepods.org is not an official website of the LibrePods project. It inaccurately claims to be the official website of the project by claiming copyrights and using the LibrePods logo in the footer. And at the same time, they say that the project is not affiliated with the LibrePods project or its developers. > Please report any other such websites to me@kavish.xyz What is LibrePods? LibrePods allows you to use AirPods features that are exclusive to Apple devices. It implements t…",
+  "readme_length": 15300,
+  "has_japanese_readme": false,
+  "contributors_count": 56,
+  "releases_count": 34,
+  "ossf_scorecard": null,
+  "category": "mobile",
+  "flags": [
+    {
+      "id": "copyleft",
+      "label": "自社サービス組込み注意",
+      "reason": "GPL-3.0 です。組み込んだ側のソース公開が必要になる場合があります。"
+    }
+  ],
+  "usability_score": 85,
+  "snapshot_days": 1,
+  "is_indexable": true,
+  "first_seen_at": "2026-09-02T23:02:41.773Z",
+  "tracking_tier": "hot",
+  "last_fetched_date": "2026-09-03",
+  "stars_stagnant_days": 0
+}

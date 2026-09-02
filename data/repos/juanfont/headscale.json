@@ -11,12 +11,12 @@
     "tailscale-server",
     "wireguard"
   ],
-  "stars": 43456,
-  "forks": 2546,
+  "stars": 43494,
+  "forks": 2551,
   "watchers": null,
   "open_issues": 150,
   "created_at": "2020-06-21T09:21:05Z",
-  "pushed_at": "2026-08-29T16:30:43Z",
+  "pushed_at": "2026-09-02T11:34:04Z",
   "is_archived": false,
   "license_spdx": "BSD-3-Clause",
   "license_category": "permissive",
@@ -29,10 +29,10 @@
   "category": "backend",
   "flags": [],
   "usability_score": 100,
-  "snapshot_days": 3,
+  "snapshot_days": 4,
   "is_indexable": false,
   "first_seen_at": "2026-08-30T23:15:18.750Z",
   "tracking_tier": "hot",
-  "last_fetched_date": "2026-09-02",
+  "last_fetched_date": "2026-09-03",
   "stars_stagnant_days": 0
 }

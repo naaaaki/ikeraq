@@ -27,12 +27,12 @@
     "tldr",
     "windows"
   ],
-  "stars": 63556,
+  "stars": 63569,
   "forks": 5398,
   "watchers": null,
-  "open_issues": 311,
+  "open_issues": 312,
   "created_at": "2013-12-08T07:34:43Z",
-  "pushed_at": "2026-09-01T17:14:12Z",
+  "pushed_at": "2026-09-02T22:50:13Z",
   "is_archived": false,
   "license_spdx": "NOASSERTION",
   "license_category": "unknown",
@@ -45,10 +45,10 @@
   "category": "mobile",
   "flags": [],
   "usability_score": 100,
-  "snapshot_days": 4,
+  "snapshot_days": 5,
   "is_indexable": false,
   "first_seen_at": "2026-08-29T23:02:08.747Z",
   "tracking_tier": "hot",
-  "last_fetched_date": "2026-09-02",
+  "last_fetched_date": "2026-09-03",
   "stars_stagnant_days": 0
 }

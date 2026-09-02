@@ -16,10 +16,10 @@
     "vless",
     "vpn"
   ],
-  "stars": 50635,
-  "forks": 3194,
+  "stars": 50731,
+  "forks": 3199,
   "watchers": null,
-  "open_issues": 558,
+  "open_issues": 513,
   "created_at": "2023-08-15T07:47:22Z",
   "pushed_at": "2026-09-01T01:46:21Z",
   "is_archived": false,
@@ -40,10 +40,10 @@
     }
   ],
   "usability_score": 85,
-  "snapshot_days": 3,
+  "snapshot_days": 4,
   "is_indexable": true,
   "first_seen_at": "2026-08-30T23:15:18.749Z",
   "tracking_tier": "hot",
-  "last_fetched_date": "2026-09-02",
+  "last_fetched_date": "2026-09-03",
   "stars_stagnant_days": 0
 }

@@ -24,8 +24,8 @@
     "tiff",
     "webp"
   ],
-  "stars": 32624,
-  "forks": 1435,
+  "stars": 32625,
+  "forks": 1434,
   "watchers": null,
   "open_issues": 116,
   "created_at": "2013-08-19T20:24:24Z",
@@ -42,10 +42,10 @@
   "category": "backend",
   "flags": [],
   "usability_score": 100,
-  "snapshot_days": 1,
+  "snapshot_days": 2,
   "is_indexable": false,
   "first_seen_at": "2026-09-01T23:05:22.650Z",
   "tracking_tier": "hot",
-  "last_fetched_date": "2026-09-02",
+  "last_fetched_date": "2026-09-03",
   "stars_stagnant_days": 0
 }

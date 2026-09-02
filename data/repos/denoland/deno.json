@@ -11,12 +11,12 @@
     "rust",
     "typescript"
   ],
-  "stars": 108362,
+  "stars": 108369,
   "forks": 6368,
   "watchers": null,
-  "open_issues": 1540,
+  "open_issues": 1541,
   "created_at": "2018-05-15T01:34:26Z",
-  "pushed_at": "2026-09-01T17:00:19Z",
+  "pushed_at": "2026-09-02T22:58:18Z",
   "is_archived": false,
   "license_spdx": "MIT",
   "license_category": "permissive",
@@ -29,10 +29,10 @@
   "category": "other",
   "flags": [],
   "usability_score": 100,
-  "snapshot_days": 4,
+  "snapshot_days": 5,
   "is_indexable": false,
   "first_seen_at": "2026-08-29T15:46:21.821Z",
   "tracking_tier": "hot",
-  "last_fetched_date": "2026-09-02",
+  "last_fetched_date": "2026-09-03",
   "stars_stagnant_days": 0
 }

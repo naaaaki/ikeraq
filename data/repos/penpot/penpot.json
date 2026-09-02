@@ -14,12 +14,12 @@
     "ux-design",
     "ux-experience"
   ],
-  "stars": 59464,
-  "forks": 4040,
+  "stars": 59510,
+  "forks": 4044,
   "watchers": null,
   "open_issues": 773,
   "created_at": "2015-12-29T22:09:07Z",
-  "pushed_at": "2026-09-01T21:10:26Z",
+  "pushed_at": "2026-09-02T18:29:24Z",
   "is_archived": false,
   "license_spdx": "MPL-2.0",
   "license_category": "weak-copyleft",
@@ -32,10 +32,10 @@
   "category": "web-frontend",
   "flags": [],
   "usability_score": 100,
-  "snapshot_days": 4,
+  "snapshot_days": 5,
   "is_indexable": false,
   "first_seen_at": "2026-08-29T23:02:08.747Z",
   "tracking_tier": "hot",
-  "last_fetched_date": "2026-09-02",
+  "last_fetched_date": "2026-09-03",
   "stars_stagnant_days": 0
 }

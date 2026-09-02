@@ -16,12 +16,12 @@
     "offline",
     "pwa"
   ],
-  "stars": 39400,
-  "forks": 2632,
+  "stars": 39409,
+  "forks": 2634,
   "watchers": null,
   "open_issues": 217,
   "created_at": "2013-10-24T18:16:07Z",
-  "pushed_at": "2026-09-01T20:55:43Z",
+  "pushed_at": "2026-09-02T20:33:09Z",
   "is_archived": false,
   "license_spdx": "MPL-2.0",
   "license_category": "weak-copyleft",
@@ -34,10 +34,10 @@
   "category": "backend",
   "flags": [],
   "usability_score": 100,
-  "snapshot_days": 2,
+  "snapshot_days": 3,
   "is_indexable": false,
   "first_seen_at": "2026-09-01T00:26:13.031Z",
   "tracking_tier": "hot",
-  "last_fetched_date": "2026-09-02",
+  "last_fetched_date": "2026-09-03",
   "stars_stagnant_days": 0
 }

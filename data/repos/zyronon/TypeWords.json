@@ -1,0 +1,46 @@
+{
+  "id": "zyronon/TypeWords",
+  "owner": "zyronon",
+  "name": "TypeWords",
+  "description_en": "Practice English, one strike, one step forward; 练习英语，一次敲击，一点进步；",
+  "human_note": null,
+  "language": "Vue",
+  "topics": [
+    "english-learn",
+    "learn-english",
+    "memorizing-words",
+    "type-words",
+    "typing-practice",
+    "typingspeedtest"
+  ],
+  "stars": 9286,
+  "forks": 1128,
+  "watchers": 46,
+  "open_issues": 42,
+  "created_at": "2023-08-03T10:39:02Z",
+  "pushed_at": "2026-08-28T09:35:23Z",
+  "is_archived": false,
+  "license_spdx": "GPL-3.0",
+  "license_category": "strong-copyleft",
+  "readme_excerpt": "English | Español | Deutsch | Français | Português | Русский | Українська | 日本語 | 한국인 | ไทย | Tiếng Việt | Bahasa Indonesia | 繁體中文 | 简体中文 Learn English, one keystroke at a time; smarter memorization, more efficient learning - an open-source word and article practice tool Online Access Features Word Practice - Practice modes: Follow-along / Dictation / Self-test / Spelling from memory - Smart mode: Automatically calculates learning words based on memory curves, deepening memory through dictation…",
+  "readme_length": 4282,
+  "has_japanese_readme": false,
+  "contributors_count": 11,
+  "releases_count": 1,
+  "ossf_scorecard": null,
+  "category": "other",
+  "flags": [
+    {
+      "id": "copyleft",
+      "label": "自社サービス組込み注意",
+      "reason": "GPL-3.0 です。組み込んだ側のソース公開が必要になる場合があります。"
+    }
+  ],
+  "usability_score": 85,
+  "snapshot_days": 1,
+  "is_indexable": true,
+  "first_seen_at": "2026-09-02T23:02:40.892Z",
+  "tracking_tier": "hot",
+  "last_fetched_date": "2026-09-03",
+  "stars_stagnant_days": 0
+}

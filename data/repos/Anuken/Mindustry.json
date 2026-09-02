@@ -1,0 +1,50 @@
+{
+  "id": "Anuken/Mindustry",
+  "owner": "Anuken",
+  "name": "Mindustry",
+  "description_en": "The automation tower defense RTS",
+  "human_note": null,
+  "language": "Java",
+  "topics": [
+    "android",
+    "desktop",
+    "game",
+    "java",
+    "mindustry",
+    "mobile-game",
+    "multiplatform",
+    "rts",
+    "sandbox-game",
+    "tower-defense"
+  ],
+  "stars": 28815,
+  "forks": 3760,
+  "watchers": null,
+  "open_issues": 11,
+  "created_at": "2017-04-30T01:24:29Z",
+  "pushed_at": "2026-09-02T22:49:07Z",
+  "is_archived": false,
+  "license_spdx": "GPL-3.0",
+  "license_category": "strong-copyleft",
+  "readme_excerpt": "The automation tower defense RTS, written in Java. Trello Board Wiki Javadoc Contributing See CONTRIBUTING for general code style and PR guidelines. If you are a first-time contributor looking for features to implement or bugs to fix, see the issues tagged with 'candidate' in the Mindustry-Suggestions repostiory. Building Bleeding-edge builds are generated automatically for every commit. You can see them here. If you'd rather compile on your own, follow these instructions. First, make sure you…",
+  "readme_length": 4770,
+  "has_japanese_readme": false,
+  "contributors_count": 1067,
+  "releases_count": 197,
+  "ossf_scorecard": null,
+  "category": "mobile",
+  "flags": [
+    {
+      "id": "copyleft",
+      "label": "自社サービス組込み注意",
+      "reason": "GPL-3.0 です。組み込んだ側のソース公開が必要になる場合があります。"
+    }
+  ],
+  "usability_score": 85,
+  "snapshot_days": 1,
+  "is_indexable": true,
+  "first_seen_at": "2026-09-02T23:02:41.773Z",
+  "tracking_tier": "hot",
+  "last_fetched_date": "2026-09-03",
+  "stars_stagnant_days": 0
+}

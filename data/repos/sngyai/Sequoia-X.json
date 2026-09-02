@@ -1,0 +1,49 @@
+{
+  "id": "sngyai/Sequoia-X",
+  "owner": "sngyai",
+  "name": "Sequoia-X",
+  "description_en": "A股自动选股系统 — 多种技术形态自动扫描，收盘后自动运行并推送飞书",
+  "human_note": null,
+  "language": "Python",
+  "topics": [
+    "a-shares",
+    "akshare",
+    "baostock",
+    "pandas",
+    "python",
+    "stock-screening",
+    "ta-lib",
+    "trading",
+    "turtle-trade"
+  ],
+  "stars": 6020,
+  "forks": 1243,
+  "watchers": 104,
+  "open_issues": 22,
+  "created_at": "2018-07-20T16:33:48Z",
+  "pushed_at": "2026-07-10T23:17:43Z",
+  "is_archived": false,
+  "license_spdx": null,
+  "license_category": "none",
+  "readme_excerpt": "Sequoia-X: 王者回归 | The King Returns > A 股量化选股系统 V2 | A-Share Quantitative Stock Selection System V2 简介 | Introduction Sequoia-X V2 是面向 A 股市场的量化选股系统，基于现代 Python 工程化标准从零重构。 系统以 OOP 架构、向量化计算和增量数据更新为核心设计原则，每日收盘后自动选股并推送至飞书群。 数据层使用 baostock（免费、无需注册、无限流）拉取历史及增量日 K 数据（后复权）， 存储于本地 SQLite，彻底规避东方财富反爬问题。 两种运行模式 内置策略 | Strategies | 策略 | 说明 | | TurtleTrade | 海龟突破：20日新高 + 成交额过亿 + 阳线防诱多，按涨幅排序 | | MaVolume | 均线+放量突破 | | HighTightFlag | 高而窄的旗形整理突破 | | LimitUpShakeout | 涨停洗盘回踩确认 | | UptrendLimitDown | 上升趋势中的跌停反包 |…",
+  "readme_length": 2380,
+  "has_japanese_readme": false,
+  "contributors_count": 9,
+  "releases_count": 0,
+  "ossf_scorecard": null,
+  "category": "other",
+  "flags": [
+    {
+      "id": "no_license",
+      "label": "利用条件不明",
+      "reason": "ライセンスが設定されていません。この場合は原則として全権利が留保され、利用できません。"
+    }
+  ],
+  "usability_score": 60,
+  "snapshot_days": 1,
+  "is_indexable": true,
+  "first_seen_at": "2026-09-02T23:02:39.602Z",
+  "tracking_tier": "hot",
+  "last_fetched_date": "2026-09-03",
+  "stars_stagnant_days": 0
+}

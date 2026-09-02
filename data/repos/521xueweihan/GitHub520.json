@@ -1,0 +1,43 @@
+{
+  "id": "521xueweihan/GitHub520",
+  "owner": "521xueweihan",
+  "name": "GitHub520",
+  "description_en": ":kissing_heart: 让你“爱”上 GitHub，解决访问时图裂、加载慢的问题。（无需安装）",
+  "human_note": null,
+  "language": "Python",
+  "topics": [
+    "dns",
+    "github",
+    "hosts"
+  ],
+  "stars": 29549,
+  "forks": 2747,
+  "watchers": null,
+  "open_issues": 21,
+  "created_at": "2020-05-13T07:25:21Z",
+  "pushed_at": "2026-09-02T22:14:42Z",
+  "is_archived": false,
+  "license_spdx": null,
+  "license_category": "none",
+  "readme_excerpt": "GitHub520 😘 让你“爱”上 GitHub，解决访问时图裂、加载慢的问题。 > 💰服务器将于 2026-12-31 到期，续费需要 831 元/年 点击扫码赞助，感谢🙏 一、介绍 对 GitHub 说\"爱\"太难了：访问慢、图片加载不出来。 本项目无需安装任何程序，仅需 5 分钟。 通过修改本地 hosts 文件，试图解决： - GitHub 访问速度慢的问题 - GitHub 项目中的图片显示不出的问题 让你\"爱\"上 GitHub。 注： 本项目还处于测试阶段，仅在本机测试通过，如有问题欢迎提 issues 二、使用方法 下面的地址无需访问 GitHub 即可获取到最新的 hosts 内容： - 文件：https://raw.hellogithub.com/hosts - JSON：https://raw.hellogithub.com/hosts.json 2.1 手动方式 2.1.1 复制下面的内容 该内容会自动定时更新， 数据更新时间：2026-09-03T06:14:41+08:00 2.1.2 修改 hosts 文件 hosts 文件在每个系统的位置不一，详情…",
+  "readme_length": 6461,
+  "has_japanese_readme": false,
+  "contributors_count": 18,
+  "releases_count": 0,
+  "ossf_scorecard": null,
+  "category": "other",
+  "flags": [
+    {
+      "id": "no_license",
+      "label": "利用条件不明",
+      "reason": "ライセンスが設定されていません。この場合は原則として全権利が留保され、利用できません。"
+    }
+  ],
+  "usability_score": 60,
+  "snapshot_days": 1,
+  "is_indexable": true,
+  "first_seen_at": "2026-09-02T23:02:41.773Z",
+  "tracking_tier": "hot",
+  "last_fetched_date": "2026-09-03",
+  "stars_stagnant_days": 0
+}

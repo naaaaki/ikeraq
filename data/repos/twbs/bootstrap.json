@@ -14,8 +14,8 @@
     "sass",
     "scss"
   ],
-  "stars": 174697,
-  "forks": 78620,
+  "stars": 174709,
+  "forks": 78616,
   "watchers": null,
   "open_issues": 231,
   "created_at": "2011-07-29T21:19:00Z",
@@ -32,10 +32,10 @@
   "category": "web-frontend",
   "flags": [],
   "usability_score": 100,
-  "snapshot_days": 4,
+  "snapshot_days": 5,
   "is_indexable": false,
   "first_seen_at": "2026-08-29T15:46:21.820Z",
   "tracking_tier": "hot",
-  "last_fetched_date": "2026-09-02",
+  "last_fetched_date": "2026-09-03",
   "stars_stagnant_days": 0
 }

@@ -15,10 +15,10 @@
     "self-hosted",
     "tensorflow"
   ],
-  "stars": 40129,
+  "stars": 40130,
   "forks": 2319,
   "watchers": null,
-  "open_issues": 464,
+  "open_issues": 465,
   "created_at": "2018-01-27T12:00:15Z",
   "pushed_at": "2026-09-01T13:36:50Z",
   "is_archived": false,
@@ -33,10 +33,10 @@
   "category": "infra",
   "flags": [],
   "usability_score": 100,
-  "snapshot_days": 2,
+  "snapshot_days": 3,
   "is_indexable": false,
   "first_seen_at": "2026-09-01T00:26:13.031Z",
   "tracking_tier": "hot",
-  "last_fetched_date": "2026-09-02",
+  "last_fetched_date": "2026-09-03",
   "stars_stagnant_days": 0
 }

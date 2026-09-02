@@ -11,8 +11,8 @@
     "music-player",
     "vue"
   ],
-  "stars": 53251,
-  "forks": 6977,
+  "stars": 53273,
+  "forks": 6981,
   "watchers": 383,
   "open_issues": 1258,
   "created_at": "2019-08-14T14:31:08Z",
@@ -29,10 +29,10 @@
   "category": "web-frontend",
   "flags": [],
   "usability_score": 100,
-  "snapshot_days": 4,
+  "snapshot_days": 5,
   "is_indexable": false,
   "first_seen_at": "2026-08-29T23:02:08.747Z",
   "tracking_tier": "hot",
-  "last_fetched_date": "2026-09-02",
+  "last_fetched_date": "2026-09-03",
   "stars_stagnant_days": 0
 }

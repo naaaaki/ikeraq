@@ -1,0 +1,45 @@
+{
+  "id": "deskflow/deskflow",
+  "owner": "deskflow",
+  "name": "deskflow",
+  "description_en": "Share a single keyboard and mouse between multiple computers.",
+  "human_note": null,
+  "language": "C++",
+  "topics": [
+    "keyboard",
+    "keyboard-emulation",
+    "mouse",
+    "mouse-emulation",
+    "network"
+  ],
+  "stars": 28522,
+  "forks": 4829,
+  "watchers": null,
+  "open_issues": 202,
+  "created_at": "2014-10-12T23:18:57Z",
+  "pushed_at": "2026-09-02T16:57:23Z",
+  "is_archived": false,
+  "license_spdx": "GPL-2.0",
+  "license_category": "strong-copyleft",
+  "readme_excerpt": "Deskflow is a free and open source keyboard and mouse sharing app. Use the keyboard, mouse, or trackpad of one computer to control nearby computers, and work seamlessly between them. It's like a software KVM (but without the video). TLS encryption is enabled by default. Wayland is supported. Clipboard sharing is supported. > [!TIP] > Chat with us > - Main discussion on Matrix: #deskflow:matrix.org (Matrix clients) > - Discussion also happens on IRC: #deskflow or #deskflow-dev on Libera Chat > -…",
+  "readme_length": 11047,
+  "has_japanese_readme": false,
+  "contributors_count": 214,
+  "releases_count": 16,
+  "ossf_scorecard": null,
+  "category": "other",
+  "flags": [
+    {
+      "id": "copyleft",
+      "label": "自社サービス組込み注意",
+      "reason": "GPL-2.0 です。組み込んだ側のソース公開が必要になる場合があります。"
+    }
+  ],
+  "usability_score": 85,
+  "snapshot_days": 1,
+  "is_indexable": true,
+  "first_seen_at": "2026-09-02T23:02:41.773Z",
+  "tracking_tier": "hot",
+  "last_fetched_date": "2026-09-03",
+  "stars_stagnant_days": 0
+}

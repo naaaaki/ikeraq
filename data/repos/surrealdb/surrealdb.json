@@ -25,10 +25,10 @@
     "surrealdb",
     "web"
   ],
-  "stars": 32967,
-  "forks": 1355,
+  "stars": 32972,
+  "forks": 1356,
   "watchers": null,
-  "open_issues": 747,
+  "open_issues": 746,
   "created_at": "2021-12-09T15:03:29Z",
   "pushed_at": "2026-09-01T15:23:05Z",
   "is_archived": false,
@@ -43,10 +43,10 @@
   "category": "data",
   "flags": [],
   "usability_score": 100,
-  "snapshot_days": 1,
+  "snapshot_days": 2,
   "is_indexable": false,
   "first_seen_at": "2026-09-01T23:05:22.650Z",
   "tracking_tier": "hot",
-  "last_fetched_date": "2026-09-02",
+  "last_fetched_date": "2026-09-03",
   "stars_stagnant_days": 0
 }

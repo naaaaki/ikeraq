@@ -18,9 +18,9 @@
     "service-mesh",
     "web"
   ],
-  "stars": 41564,
-  "forks": 26379,
-  "watchers": null,
+  "stars": 41565,
+  "forks": 26378,
+  "watchers": 2958,
   "open_issues": 1032,
   "created_at": "2012-06-19T07:56:02Z",
   "pushed_at": "2026-08-27T02:12:02Z",
@@ -36,10 +36,10 @@
   "category": "backend",
   "flags": [],
   "usability_score": 100,
-  "snapshot_days": 3,
+  "snapshot_days": 4,
   "is_indexable": false,
   "first_seen_at": "2026-08-30T23:15:18.750Z",
   "tracking_tier": "hot",
-  "last_fetched_date": "2026-09-02",
+  "last_fetched_date": "2026-09-03",
   "stars_stagnant_days": 0
 }

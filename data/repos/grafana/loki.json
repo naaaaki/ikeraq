@@ -1,0 +1,46 @@
+{
+  "id": "grafana/loki",
+  "owner": "grafana",
+  "name": "loki",
+  "description_en": "Like Prometheus, but for logs.",
+  "human_note": null,
+  "language": "Go",
+  "topics": [
+    "cloudnative",
+    "grafana",
+    "hacktoberfest",
+    "logging",
+    "loki",
+    "prometheus"
+  ],
+  "stars": 28826,
+  "forks": 4102,
+  "watchers": null,
+  "open_issues": 1738,
+  "created_at": "2018-04-16T09:22:48Z",
+  "pushed_at": "2026-09-02T21:37:03Z",
+  "is_archived": false,
+  "license_spdx": "AGPL-3.0",
+  "license_category": "strong-copyleft",
+  "readme_excerpt": "Loki: like Prometheus, but for logs. Loki is a horizontally-scalable, highly-available, multi-tenant log aggregation system inspired by Prometheus. It is designed to be very cost effective and easy to operate. It does not index the contents of the logs, but rather a set of labels for each log stream. Compared to other log aggregation systems, Loki: - does not do full text indexing on logs. By storing compressed, unstructured logs and only indexing metadata, Loki is simpler to operate and cheape…",
+  "readme_length": 8779,
+  "has_japanese_readme": false,
+  "contributors_count": 1348,
+  "releases_count": 133,
+  "ossf_scorecard": null,
+  "category": "other",
+  "flags": [
+    {
+      "id": "copyleft",
+      "label": "自社サービス組込み注意",
+      "reason": "AGPL-3.0 です。組み込んだ側のソース公開が必要になる場合があります。"
+    }
+  ],
+  "usability_score": 85,
+  "snapshot_days": 1,
+  "is_indexable": true,
+  "first_seen_at": "2026-09-02T23:02:41.773Z",
+  "tracking_tier": "hot",
+  "last_fetched_date": "2026-09-03",
+  "stars_stagnant_days": 0
+}

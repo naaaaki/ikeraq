@@ -11,7 +11,7 @@
     "sample",
     "samples"
   ],
-  "stars": 45815,
+  "stars": 45816,
   "forks": 11855,
   "watchers": null,
   "open_issues": 224,
@@ -29,10 +29,10 @@
   "category": "mobile",
   "flags": [],
   "usability_score": 100,
-  "snapshot_days": 3,
+  "snapshot_days": 4,
   "is_indexable": false,
   "first_seen_at": "2026-08-30T23:15:18.750Z",
   "tracking_tier": "hot",
-  "last_fetched_date": "2026-09-02",
+  "last_fetched_date": "2026-09-03",
   "stars_stagnant_days": 0
 }

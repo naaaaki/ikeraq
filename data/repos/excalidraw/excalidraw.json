@@ -14,10 +14,10 @@
     "productivity",
     "whiteboard"
   ],
-  "stars": 130950,
-  "forks": 15106,
+  "stars": 131018,
+  "forks": 15119,
   "watchers": null,
-  "open_issues": 3430,
+  "open_issues": 3433,
   "created_at": "2020-01-02T01:04:43Z",
   "pushed_at": "2026-09-01T13:43:08Z",
   "is_archived": false,
@@ -32,10 +32,10 @@
   "category": "web-frontend",
   "flags": [],
   "usability_score": 100,
-  "snapshot_days": 4,
+  "snapshot_days": 5,
   "is_indexable": false,
   "first_seen_at": "2026-08-29T15:46:21.820Z",
   "tracking_tier": "hot",
-  "last_fetched_date": "2026-09-02",
+  "last_fetched_date": "2026-09-03",
   "stars_stagnant_days": 0
 }

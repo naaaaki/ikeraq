@@ -1,0 +1,39 @@
+{
+  "id": "BigPizzaV3/CodexPlusPlus",
+  "owner": "BigPizzaV3",
+  "name": "CodexPlusPlus",
+  "description_en": "An enhanced tool for CodexApp, striving to make Codex better to use and more comfortable 一个CodexApp的增强工具，努力让Codex变得更好用更舒服",
+  "human_note": null,
+  "language": "Rust",
+  "topics": [],
+  "stars": 30101,
+  "forks": 1907,
+  "watchers": null,
+  "open_issues": 1006,
+  "created_at": "2026-05-06T09:32:49Z",
+  "pushed_at": "2026-09-02T19:53:23Z",
+  "is_archived": false,
+  "license_spdx": "AGPL-3.0",
+  "license_category": "strong-copyleft",
+  "readme_excerpt": "Codex++ 中文 | English Codex++ 是面向 OpenAI Codex / ChatGPT 桌面应用的外部启动器与管理工具。它通过 Chromium DevTools Protocol 和本地辅助服务提供供应商切换、协议转换、会话管理与界面增强，不修改官方应用的 app.asar，也不向安装目录写入补丁文件。 快速使用 从 GitHub Releases 下载最新版安装包： - Windows：CodexPlusPlus--windows-x64-setup.exe - macOS Intel：CodexPlusPlus--macos-x64.dmg - macOS Apple Silicon：CodexPlusPlus--macos-arm64.dmg 安装后会有两个入口： - Codex++：静默启动官方桌面应用，并加载已保存的供应商配置与增强功能。 - Codex++ 管理工具：管理供应商、模型、工具插件、会话、增强功能、脚本、更新和诊断。 首次使用建议先打开管理工具，确认应用路径和运行状态，再配置供应商与增强功能，最后从 Codex++ 入口启动。Wind…",
+  "readme_length": 12720,
+  "has_japanese_readme": false,
+  "contributors_count": 91,
+  "releases_count": 74,
+  "ossf_scorecard": null,
+  "category": "other",
+  "flags": [
+    {
+      "id": "copyleft",
+      "label": "自社サービス組込み注意",
+      "reason": "AGPL-3.0 です。組み込んだ側のソース公開が必要になる場合があります。"
+    }
+  ],
+  "usability_score": 85,
+  "snapshot_days": 1,
+  "is_indexable": true,
+  "first_seen_at": "2026-09-02T23:02:41.773Z",
+  "tracking_tier": "hot",
+  "last_fetched_date": "2026-09-03",
+  "stars_stagnant_days": 0
+}

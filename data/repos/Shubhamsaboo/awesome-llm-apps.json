@@ -11,10 +11,10 @@
     "python",
     "rag"
   ],
-  "stars": 135631,
-  "forks": 19949,
+  "stars": 135774,
+  "forks": 19973,
   "watchers": null,
-  "open_issues": 6,
+  "open_issues": 4,
   "created_at": "2024-04-29T05:30:25Z",
   "pushed_at": "2026-08-31T04:54:57Z",
   "is_archived": false,
@@ -29,10 +29,10 @@
   "category": "ai-agent",
   "flags": [],
   "usability_score": 100,
-  "snapshot_days": 3,
+  "snapshot_days": 4,
   "is_indexable": false,
   "first_seen_at": "2026-08-30T23:15:18.749Z",
   "tracking_tier": "hot",
-  "last_fetched_date": "2026-09-02",
+  "last_fetched_date": "2026-09-03",
   "stars_stagnant_days": 0
 }

@@ -18,8 +18,8 @@
     "trojan",
     "v2ray"
   ],
-  "stars": 51166,
-  "forks": 8361,
+  "stars": 51601,
+  "forks": 8397,
   "watchers": null,
   "open_issues": 334,
   "created_at": "2015-01-14T00:34:25Z",
@@ -42,10 +42,10 @@
     }
   ],
   "usability_score": 60,
-  "snapshot_days": 3,
+  "snapshot_days": 4,
   "is_indexable": true,
   "first_seen_at": "2026-08-30T23:15:18.749Z",
   "tracking_tier": "hot",
-  "last_fetched_date": "2026-09-02",
+  "last_fetched_date": "2026-09-03",
   "stars_stagnant_days": 0
 }

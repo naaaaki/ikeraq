@@ -1,0 +1,45 @@
+{
+  "id": "python-telegram-bot/python-telegram-bot",
+  "owner": "python-telegram-bot",
+  "name": "python-telegram-bot",
+  "description_en": "We have made you a wrapper you can't refuse",
+  "human_note": null,
+  "language": "Python",
+  "topics": [
+    "bot",
+    "chatbot",
+    "framework",
+    "python",
+    "telegram"
+  ],
+  "stars": 29444,
+  "forks": 6143,
+  "watchers": null,
+  "open_issues": 37,
+  "created_at": "2015-07-07T15:30:39Z",
+  "pushed_at": "2026-09-01T22:44:34Z",
+  "is_archived": false,
+  "license_spdx": "GPL-3.0",
+  "license_category": "strong-copyleft",
+  "readme_excerpt": ".. image:: https://raw.githubusercontent.com/python-telegram-bot/logos/master/logo-text/png/ptb-logo-text768.png :align: center :target: https://python-telegram-bot.org :alt: python-telegram-bot Logo .. image:: https://img.shields.io/pypi/v/python-telegram-bot.svg :target: https://pypi.org/project/python-telegram-bot/ :alt: PyPi Package Version .. image:: https://img.shields.io/pypi/pyversions/python-telegram-bot.svg :target: https://pypi.org/project/python-telegram-bot/ :alt: Supported Python…",
+  "readme_length": 14191,
+  "has_japanese_readme": false,
+  "contributors_count": 212,
+  "releases_count": 133,
+  "ossf_scorecard": null,
+  "category": "backend",
+  "flags": [
+    {
+      "id": "copyleft",
+      "label": "自社サービス組込み注意",
+      "reason": "GPL-3.0 です。組み込んだ側のソース公開が必要になる場合があります。"
+    }
+  ],
+  "usability_score": 85,
+  "snapshot_days": 1,
+  "is_indexable": true,
+  "first_seen_at": "2026-09-02T23:02:41.773Z",
+  "tracking_tier": "hot",
+  "last_fetched_date": "2026-09-03",
+  "stars_stagnant_days": 0
+}

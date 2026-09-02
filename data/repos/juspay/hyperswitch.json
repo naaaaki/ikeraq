@@ -27,12 +27,12 @@
     "stripe",
     "works-with-react"
   ],
-  "stars": 43565,
-  "forks": 5107,
+  "stars": 43568,
+  "forks": 5112,
   "watchers": null,
-  "open_issues": 2134,
+  "open_issues": 2143,
   "created_at": "2022-10-17T11:18:28Z",
-  "pushed_at": "2026-09-01T22:47:47Z",
+  "pushed_at": "2026-09-02T22:36:33Z",
   "is_archived": false,
   "license_spdx": "Apache-2.0",
   "license_category": "permissive",
@@ -45,10 +45,10 @@
   "category": "web-frontend",
   "flags": [],
   "usability_score": 100,
-  "snapshot_days": 3,
+  "snapshot_days": 4,
   "is_indexable": false,
   "first_seen_at": "2026-08-30T23:15:18.750Z",
   "tracking_tier": "hot",
-  "last_fetched_date": "2026-09-02",
-  "stars_stagnant_days": 1
+  "last_fetched_date": "2026-09-03",
+  "stars_stagnant_days": 0
 }

@@ -15,12 +15,12 @@
     "typescript",
     "uml-diagrams"
   ],
-  "stars": 90031,
-  "forks": 9206,
+  "stars": 90046,
+  "forks": 9209,
   "watchers": null,
   "open_issues": 1761,
   "created_at": "2014-11-01T23:52:32Z",
-  "pushed_at": "2026-09-01T14:30:37Z",
+  "pushed_at": "2026-09-02T15:56:45Z",
   "is_archived": false,
   "license_spdx": "MIT",
   "license_category": "permissive",
@@ -33,10 +33,10 @@
   "category": "other",
   "flags": [],
   "usability_score": 100,
-  "snapshot_days": 4,
+  "snapshot_days": 5,
   "is_indexable": false,
   "first_seen_at": "2026-08-29T15:46:21.821Z",
   "tracking_tier": "hot",
-  "last_fetched_date": "2026-09-02",
+  "last_fetched_date": "2026-09-03",
   "stars_stagnant_days": 0
 }

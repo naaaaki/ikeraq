@@ -9,12 +9,12 @@
     "python",
     "shell"
   ],
-  "stars": 45057,
+  "stars": 45064,
   "forks": 3267,
   "watchers": null,
-  "open_issues": 54,
+  "open_issues": 55,
   "created_at": "2012-08-31T06:57:52Z",
-  "pushed_at": "2026-09-01T15:06:48Z",
+  "pushed_at": "2026-09-02T14:56:35Z",
   "is_archived": false,
   "license_spdx": "MIT",
   "license_category": "permissive",
@@ -27,10 +27,10 @@
   "category": "other",
   "flags": [],
   "usability_score": 100,
-  "snapshot_days": 3,
+  "snapshot_days": 4,
   "is_indexable": false,
   "first_seen_at": "2026-08-30T23:15:18.750Z",
   "tracking_tier": "hot",
-  "last_fetched_date": "2026-09-02",
+  "last_fetched_date": "2026-09-03",
   "stars_stagnant_days": 0
 }

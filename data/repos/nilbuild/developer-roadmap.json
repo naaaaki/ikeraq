@@ -25,10 +25,10 @@
     "software-architect-roadmap",
     "vue-roadmap"
   ],
-  "stars": 366088,
+  "stars": 366165,
   "forks": 44895,
   "watchers": null,
-  "open_issues": 7,
+  "open_issues": 11,
   "created_at": "2017-03-15T13:45:52Z",
   "pushed_at": "2026-09-01T16:42:50Z",
   "is_archived": false,
@@ -43,10 +43,10 @@
   "category": "infra",
   "flags": [],
   "usability_score": 100,
-  "snapshot_days": 1,
+  "snapshot_days": 2,
   "is_indexable": false,
   "first_seen_at": "2026-09-01T23:05:22.649Z",
   "tracking_tier": "hot",
-  "last_fetched_date": "2026-09-02",
+  "last_fetched_date": "2026-09-03",
   "stars_stagnant_days": 0
 }

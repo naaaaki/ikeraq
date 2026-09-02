@@ -15,8 +15,8 @@
     "v2ray",
     "vmess"
   ],
-  "stars": 46938,
-  "forks": 8811,
+  "stars": 46940,
+  "forks": 8810,
   "watchers": null,
   "open_issues": 16,
   "created_at": "2015-09-04T11:42:53Z",
@@ -33,10 +33,10 @@
   "category": "infra",
   "flags": [],
   "usability_score": 100,
-  "snapshot_days": 3,
+  "snapshot_days": 4,
   "is_indexable": false,
   "first_seen_at": "2026-08-30T23:15:18.749Z",
   "tracking_tier": "hot",
-  "last_fetched_date": "2026-09-02",
-  "stars_stagnant_days": 1
+  "last_fetched_date": "2026-09-03",
+  "stars_stagnant_days": 0
 }

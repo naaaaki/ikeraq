@@ -20,12 +20,12 @@
     "testing-tool",
     "vue-testing-library"
   ],
-  "stars": 51020,
-  "forks": 3654,
+  "stars": 51022,
+  "forks": 3652,
   "watchers": null,
-  "open_issues": 1063,
+  "open_issues": 1066,
   "created_at": "2015-03-04T00:46:28Z",
-  "pushed_at": "2026-09-01T20:05:50Z",
+  "pushed_at": "2026-09-02T17:47:28Z",
   "is_archived": false,
   "license_spdx": "MIT",
   "license_category": "permissive",
@@ -38,10 +38,10 @@
   "category": "web-frontend",
   "flags": [],
   "usability_score": 100,
-  "snapshot_days": 3,
+  "snapshot_days": 4,
   "is_indexable": false,
   "first_seen_at": "2026-08-30T23:15:18.749Z",
   "tracking_tier": "hot",
-  "last_fetched_date": "2026-09-02",
-  "stars_stagnant_days": 1
+  "last_fetched_date": "2026-09-03",
+  "stars_stagnant_days": 0
 }

@@ -16,12 +16,12 @@
     "trace",
     "trouble-shooting"
   ],
-  "stars": 37506,
-  "forks": 7644,
+  "stars": 37510,
+  "forks": 7645,
   "watchers": null,
   "open_issues": 483,
   "created_at": "2018-08-29T17:15:57Z",
-  "pushed_at": "2026-08-31T05:09:46Z",
+  "pushed_at": "2026-09-02T02:09:31Z",
   "is_archived": false,
   "license_spdx": "Apache-2.0",
   "license_category": "permissive",
@@ -34,10 +34,10 @@
   "category": "ai-agent",
   "flags": [],
   "usability_score": 100,
-  "snapshot_days": 2,
+  "snapshot_days": 3,
   "is_indexable": false,
   "first_seen_at": "2026-09-01T00:26:13.032Z",
   "tracking_tier": "hot",
-  "last_fetched_date": "2026-09-02",
+  "last_fetched_date": "2026-09-03",
   "stars_stagnant_days": 0
 }

@@ -17,10 +17,10 @@
     "nostr",
     "swift"
   ],
-  "stars": 36097,
-  "forks": 5722,
+  "stars": 36110,
+  "forks": 5724,
   "watchers": null,
-  "open_issues": 145,
+  "open_issues": 143,
   "created_at": "2025-07-04T14:34:38Z",
   "pushed_at": "2026-08-30T06:11:26Z",
   "is_archived": false,
@@ -35,10 +35,10 @@
   "category": "mobile",
   "flags": [],
   "usability_score": 100,
-  "snapshot_days": 2,
+  "snapshot_days": 3,
   "is_indexable": false,
   "first_seen_at": "2026-09-01T00:26:13.032Z",
   "tracking_tier": "hot",
-  "last_fetched_date": "2026-09-02",
+  "last_fetched_date": "2026-09-03",
   "stars_stagnant_days": 0
 }

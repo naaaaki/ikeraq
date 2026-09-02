@@ -12,8 +12,8 @@
     "python",
     "tesseract"
   ],
-  "stars": 34651,
-  "forks": 2404,
+  "stars": 34656,
+  "forks": 2403,
   "watchers": null,
   "open_issues": 97,
   "created_at": "2013-12-20T08:26:28Z",
@@ -30,10 +30,10 @@
   "category": "other",
   "flags": [],
   "usability_score": 100,
-  "snapshot_days": 2,
+  "snapshot_days": 3,
   "is_indexable": false,
   "first_seen_at": "2026-09-01T00:26:13.032Z",
   "tracking_tier": "hot",
-  "last_fetched_date": "2026-09-02",
+  "last_fetched_date": "2026-09-03",
   "stars_stagnant_days": 0
 }

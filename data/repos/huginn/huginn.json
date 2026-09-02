@@ -19,8 +19,8 @@
     "twitter-streaming",
     "webscraping"
   ],
-  "stars": 49876,
-  "forks": 4305,
+  "stars": 49879,
+  "forks": 4303,
   "watchers": null,
   "open_issues": 695,
   "created_at": "2013-03-10T06:00:31Z",
@@ -37,10 +37,10 @@
   "category": "ai-agent",
   "flags": [],
   "usability_score": 100,
-  "snapshot_days": 3,
+  "snapshot_days": 4,
   "is_indexable": false,
   "first_seen_at": "2026-08-30T23:15:18.749Z",
   "tracking_tier": "hot",
-  "last_fetched_date": "2026-09-02",
-  "stars_stagnant_days": 1
+  "last_fetched_date": "2026-09-03",
+  "stars_stagnant_days": 0
 }

@@ -26,12 +26,12 @@
     "video-processing",
     "yolo"
   ],
-  "stars": 49826,
-  "forks": 4748,
+  "stars": 49850,
+  "forks": 4751,
   "watchers": 310,
   "open_issues": 81,
   "created_at": "2022-11-28T14:08:44Z",
-  "pushed_at": "2026-09-01T22:17:45Z",
+  "pushed_at": "2026-09-02T22:29:00Z",
   "is_archived": false,
   "license_spdx": "MIT",
   "license_category": "permissive",
@@ -44,10 +44,10 @@
   "category": "learning",
   "flags": [],
   "usability_score": 100,
-  "snapshot_days": 3,
+  "snapshot_days": 4,
   "is_indexable": false,
   "first_seen_at": "2026-08-30T23:15:18.749Z",
   "tracking_tier": "hot",
-  "last_fetched_date": "2026-09-02",
+  "last_fetched_date": "2026-09-03",
   "stars_stagnant_days": 0
 }

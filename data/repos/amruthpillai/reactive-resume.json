@@ -17,10 +17,10 @@
     "self-hosted",
     "typescript"
   ],
-  "stars": 42059,
-  "forks": 4672,
+  "stars": 42108,
+  "forks": 4675,
   "watchers": null,
-  "open_issues": 121,
+  "open_issues": 123,
   "created_at": "2020-03-25T14:08:22Z",
   "pushed_at": "2026-08-28T20:24:25Z",
   "is_archived": false,
@@ -35,10 +35,10 @@
   "category": "ai-agent",
   "flags": [],
   "usability_score": 100,
-  "snapshot_days": 3,
+  "snapshot_days": 4,
   "is_indexable": false,
   "first_seen_at": "2026-08-30T23:15:18.750Z",
   "tracking_tier": "hot",
-  "last_fetched_date": "2026-09-02",
+  "last_fetched_date": "2026-09-03",
   "stars_stagnant_days": 0
 }
