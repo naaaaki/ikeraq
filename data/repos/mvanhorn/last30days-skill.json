@@ -27,10 +27,10 @@
     "web-search",
     "youtube"
   ],
-  "stars": 61009,
-  "forks": 5331,
+  "stars": 61149,
+  "forks": 5341,
   "watchers": null,
-  "open_issues": 167,
+  "open_issues": 169,
   "created_at": "2026-01-23T20:37:37Z",
   "pushed_at": "2026-09-02T15:33:27Z",
   "is_archived": false,
@@ -45,10 +45,10 @@
   "category": "llm",
   "flags": [],
   "usability_score": 100,
-  "snapshot_days": 5,
+  "snapshot_days": 6,
   "is_indexable": false,
   "first_seen_at": "2026-08-29T23:02:08.747Z",
   "tracking_tier": "hot",
-  "last_fetched_date": "2026-09-03",
+  "last_fetched_date": "2026-09-04",
   "stars_stagnant_days": 0
 }

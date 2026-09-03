@@ -1,0 +1,50 @@
+{
+  "id": "ByteByteGoHq/system-design-101",
+  "owner": "ByteByteGoHq",
+  "name": "system-design-101",
+  "description_en": "Explain complex systems using visuals and simple terms. Help you prepare for system design interviews.",
+  "human_note": null,
+  "language": null,
+  "topics": [
+    "aws",
+    "cloud-computing",
+    "coding-interviews",
+    "computer-science",
+    "interview-questions",
+    "software-architecture",
+    "software-development",
+    "software-engineering",
+    "system-design",
+    "system-design-interview"
+  ],
+  "stars": 88300,
+  "forks": 9820,
+  "watchers": 1069,
+  "open_issues": 67,
+  "created_at": "2023-09-18T20:52:03Z",
+  "pushed_at": "2025-04-04T17:30:30Z",
+  "is_archived": false,
+  "license_spdx": "NOASSERTION",
+  "license_category": "unknown",
+  "readme_excerpt": "【 👨🏻‍💻 YouTube 📮 Newsletter 】 System Design 101 Explain complex systems using visuals and simple terms. Whether you're preparing for a System Design Interview or you simply want to understand how systems work beneath the surface, we hope this repository will help you achieve that. Table of Contents API and Web Development Short/long polling, SSE, WebSocket Load Balancer Realistic Use Cases 5 HTTP Status Codes That Should Never Have Been Created How does gRPC work? How NAT Enabled the Intern…",
+  "readme_length": 45851,
+  "has_japanese_readme": false,
+  "contributors_count": 16,
+  "releases_count": 0,
+  "ossf_scorecard": null,
+  "category": "web-frontend",
+  "flags": [
+    {
+      "id": "stale",
+      "label": "メンテ停止の疑い",
+      "reason": "最終コミットから 517 日が経過しています（判定は 180 日以上）。"
+    }
+  ],
+  "usability_score": 70,
+  "snapshot_days": 1,
+  "is_indexable": true,
+  "first_seen_at": "2026-09-03T23:03:15.173Z",
+  "tracking_tier": "hot",
+  "last_fetched_date": "2026-09-04",
+  "stars_stagnant_days": 0
+}

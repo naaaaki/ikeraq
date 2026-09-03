@@ -22,8 +22,8 @@
     "mcp",
     "mindsdb"
   ],
-  "stars": 39685,
-  "forks": 6239,
+  "stars": 39691,
+  "forks": 6237,
   "watchers": null,
   "open_issues": 5,
   "created_at": "2018-08-02T17:56:45Z",
@@ -40,10 +40,10 @@
   "category": "ai-agent",
   "flags": [],
   "usability_score": 100,
-  "snapshot_days": 1,
+  "snapshot_days": 2,
   "is_indexable": false,
   "first_seen_at": "2026-09-02T23:02:41.773Z",
   "tracking_tier": "hot",
-  "last_fetched_date": "2026-09-03",
+  "last_fetched_date": "2026-09-04",
   "stars_stagnant_days": 0
 }

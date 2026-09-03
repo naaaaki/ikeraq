@@ -17,12 +17,12 @@
     "sort",
     "sorting-algorithms"
   ],
-  "stars": 66208,
-  "forks": 21255,
+  "stars": 66207,
+  "forks": 21257,
   "watchers": null,
-  "open_issues": 15,
+  "open_issues": 14,
   "created_at": "2016-07-16T10:21:02Z",
-  "pushed_at": "2026-09-02T21:44:13Z",
+  "pushed_at": "2026-09-03T06:01:20Z",
   "is_archived": false,
   "license_spdx": "MIT",
   "license_category": "permissive",
@@ -35,10 +35,10 @@
   "category": "other",
   "flags": [],
   "usability_score": 100,
-  "snapshot_days": 5,
+  "snapshot_days": 6,
   "is_indexable": false,
   "first_seen_at": "2026-08-29T23:02:08.747Z",
   "tracking_tier": "hot",
-  "last_fetched_date": "2026-09-03",
-  "stars_stagnant_days": 0
+  "last_fetched_date": "2026-09-04",
+  "stars_stagnant_days": 1
 }

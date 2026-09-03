@@ -15,8 +15,8 @@
     "touch",
     "touch-events"
   ],
-  "stars": 41900,
-  "forks": 9608,
+  "stars": 41902,
+  "forks": 9607,
   "watchers": null,
   "open_issues": 242,
   "created_at": "2012-03-14T19:11:45Z",
@@ -33,10 +33,10 @@
   "category": "mobile",
   "flags": [],
   "usability_score": 100,
-  "snapshot_days": 4,
+  "snapshot_days": 5,
   "is_indexable": false,
   "first_seen_at": "2026-08-30T23:15:18.750Z",
   "tracking_tier": "hot",
-  "last_fetched_date": "2026-09-03",
+  "last_fetched_date": "2026-09-04",
   "stars_stagnant_days": 0
 }

@@ -13,10 +13,10 @@
     "typescript",
     "uikit"
   ],
-  "stars": 31656,
-  "forks": 2362,
+  "stars": 31660,
+  "forks": 2363,
   "watchers": null,
-  "open_issues": 51,
+  "open_issues": 54,
   "created_at": "2021-01-07T14:02:19Z",
   "pushed_at": "2026-09-01T12:07:49Z",
   "is_archived": false,
@@ -31,10 +31,10 @@
   "category": "web-frontend",
   "flags": [],
   "usability_score": 100,
-  "snapshot_days": 2,
+  "snapshot_days": 3,
   "is_indexable": false,
   "first_seen_at": "2026-09-01T23:05:22.650Z",
   "tracking_tier": "hot",
-  "last_fetched_date": "2026-09-03",
+  "last_fetched_date": "2026-09-04",
   "stars_stagnant_days": 0
 }

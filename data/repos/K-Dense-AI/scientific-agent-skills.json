@@ -3,7 +3,7 @@
   "owner": "K-Dense-AI",
   "name": "scientific-agent-skills",
   "description_en": "Turn any AI agent into an AI Scientist. The #1 Agent Skills library for science, used by 190,000+ scientists worldwide. 165 ready-to-use validated skills plus 100+ scientific databases covering biology, chemistry, medicine, and drug discovery. Compatible with Cursor, Claude Code, Codex, Pi, Antigravity, and the open Agent Skills standard.",
-  "human_note": null,
+  "human_note": "## 見出しの一文\n\n科学のライブラリとデータベースへの「入り方」を、エージェントに先渡しする\n\n## どういうものか\n\n生物・化学・医学・物理・工学まわりの作業手順を、コーディングエージェント向けにまとめた163本のスキル集です。K-Dense 社が公開していて、Claude Code・Cursor・Codex・Gemini CLI など、Agent Skills の形式に対応した道具ならどれでも読み込めます。\n\n1本のスキルは、`SKILL.md` という説明書と、動かせるスクリプト、そのテストの組で出来ています。**エージェントに新しい能力を足すというより、既にある Python ライブラリや公開データベースへの入り方を先に渡しておく**、という性格のものです。シングルセルRNA-seq の Scanpy、化学構造の RDKit、材料の pymatgen、量子計算の Qiskit といった70以上のパッケージについて、どの関数をどの順で呼ぶか、どこでつまずくかが書かれています。\n\nまとまりが良いのが**データベース側**で、`database-lookup` という1本のスキルの下に PubChem・ChEMBL・UniProt・COSMIC・ClinicalTrials.gov・FDA・USPTO など78の公開データベースが束ねられています。API ごとの作法を毎回調べる部分が、ここで消えます。全体は CI で検証されるとされ、スキルの安全性スキャンも定期的に走る、と説明されています。\n\n## 図\n\n<figure>\n  <svg viewBox=\"0 0 800 450\" role=\"img\"\n       aria-label=\"研究者の問いが、エージェントとスキル集を通って、公開データベースと科学ライブラリに届き、出典と手順が残った結果になる流れの図。\">\n    <rect width=\"800\" height=\"450\" fill=\"#FFFFFF\"/>\n\n    <text x=\"400\" y=\"56\" text-anchor=\"middle\"\n          style=\"font-family: var(--jp); font-size: 28px; font-weight: 700; fill: #17160F;\">\n      エージェントに<tspan style=\"fill: #1E5A48;\">道の通し方</tspan>を先に持たせる\n    </text>\n\n    <!-- 問い -->\n    <rect x=\"36\" y=\"184\" width=\"126\" height=\"84\" rx=\"10\" fill=\"#FFFFFF\" stroke=\"#17160F\" stroke-width=\"2.5\"/>\n    <text x=\"99\" y=\"238\" text-anchor=\"middle\" style=\"font-family: var(--jp); font-size: 38px; font-weight: 700; fill: #17160F;\">？</text>\n\n    <path d=\"M174 226 H206\" stroke=\"#1E5A48\" stroke-width=\"4\" stroke-linecap=\"round\"/>\n    <path d=\"M206 215 l18 11 -18 11 z\" fill=\"#1E5A48\"/>\n\n    <!-- スキル集 -->\n    <rect x=\"236\" y=\"164\" width=\"150\" height=\"124\" rx=\"12\" fill=\"#1E5A48\"/>\n    <rect x=\"262\" y=\"190\" width=\"98\" height=\"10\" rx=\"5\" fill=\"#FFFFFF\" opacity=\".9\"/>\n    <rect x=\"262\" y=\"210\" width=\"98\" height=\"10\" rx=\"5\" fill=\"#FFFFFF\" opacity=\".65\"/>\n    <rect x=\"262\" y=\"230\" width=\"98\" height=\"10\" rx=\"5\" fill=\"#FFFFFF\" opacity=\".45\"/>\n    <text x=\"311\" y=\"272\" text-anchor=\"middle\" style=\"font-family: var(--jp); font-size: 17px; font-weight: 700; fill: #FFFFFF;\">163本</text>\n\n    <!-- 分岐 -->\n    <path d=\"M398 200 C 428 200, 430 164, 452 164\" fill=\"none\" stroke=\"#1E5A48\" stroke-width=\"4\" stroke-linecap=\"round\"/>\n    <path d=\"M452 153 l18 11 -18 11 z\" fill=\"#1E5A48\"/>\n    <path d=\"M398 252 C 428 252, 430 288, 452 288\" fill=\"none\" stroke=\"#1E5A48\" stroke-width=\"4\" stroke-linecap=\"round\"/>\n    <path d=\"M452 277 l18 11 -18 11 z\" fill=\"#1E5A48\"/>\n\n    <!-- データベース -->\n    <rect x=\"478\" y=\"126\" width=\"270\" height=\"76\" rx=\"10\" fill=\"#FFFFFF\" stroke=\"#17160F\" stroke-width=\"2.5\"/>\n    <text x=\"613\" y=\"158\" text-anchor=\"middle\" style=\"font-family: var(--jp); font-size: 18px; font-weight: 700; fill: #17160F;\">公開データベース 78</text>\n    <text x=\"613\" y=\"182\" text-anchor=\"middle\" style=\"font-family: var(--jp); font-size: 13px; fill: #6E6A5F;\">（PubChem・UniProt ほか）</text>\n\n    <!-- ライブラリ -->\n    <rect x=\"478\" y=\"250\" width=\"270\" height=\"76\" rx=\"10\" fill=\"#FFFFFF\" stroke=\"#17160F\" stroke-width=\"2.5\"/>\n    <text x=\"613\" y=\"282\" text-anchor=\"middle\" style=\"font-family: var(--jp); font-size: 18px; font-weight: 700; fill: #17160F;\">科学ライブラリ 70+</text>\n    <text x=\"613\" y=\"306\" text-anchor=\"middle\" style=\"font-family: var(--jp); font-size: 13px; fill: #6E6A5F;\">（RDKit・Scanpy ほか）</text>\n\n    <!-- ラベル -->\n    <text x=\"99\" y=\"300\" text-anchor=\"middle\" style=\"font-family: var(--jp); font-size: 19px; font-weight: 700; fill: #17160F;\">研究者の問い</text>\n    <text x=\"99\" y=\"322\" text-anchor=\"middle\" style=\"font-family: var(--jp); font-size: 15px; fill: #6E6A5F;\">（分野はまちまち）</text>\n\n    <text x=\"311\" y=\"318\" text-anchor=\"middle\" style=\"font-family: var(--jp); font-size: 19px; font-weight: 700; fill: #1E5A48;\">手順書</text>\n    <text x=\"311\" y=\"340\" text-anchor=\"middle\" style=\"font-family: var(--jp); font-size: 15px; fill: #6E6A5F;\">（どれをどう呼ぶか）</text>\n\n    <text x=\"400\" y=\"410\" text-anchor=\"middle\" style=\"font-family: var(--jp); font-size: 18px; fill: #514D45;\">\n      〜 詰まるのは道具の性能ではなく、その道具への入り方だった 〜\n    </text>\n  </svg>\n</figure>\n\nキャプション:\n\n真ん中の箱が足しているのは計算力ではなく、**下調べの時間**です。API の仕様を読み、呼び方を試し、動く形にするまでの往復が、ここで先に済んでいます。\n\n## どんなときに使うか\n\n### 分野の外側のデータに手を出したいとき\n\n自分の専門から少し離れたデータベースを触るとき、いちばん時間を取られるのは解析そのものではなく、**取ってくるまで**です。名前は知っているが叩いたことのない出典に、下調べなしで手を伸ばせます。\n\n### あとから経過を辿れる形で残したいとき\n\n途中の出力・引用元・判断を隠さず出すことが設計方針として書かれています。査読や再現の確認を前提にした作りなので、答えだけが返ってくる使い方とは向きが違います。\n\n## 注意点\n\n**入れる前に中身を読む前提の集まりです。** README には、スキルはコードを実行しエージェントの挙動に影響しうるので**インストールするものは自分で確認すること**、そして**一度に全部を入れないこと**が書かれています。163本をまとめて導入する使い方は、作者自身が想定していません。\n\n**ライセンスが1枚ではありません。** リポジトリ全体は MIT ですが、**スキルごとに別のライセンスが `SKILL.md` に書かれています。** 商用で使うなら、使う1本ずつを確認することになります。\n\n**臨床や規制の判断には使えません。** 臨床研究・変異解釈・規制対応まわりのスキルには、出力は研究用の下書きであって決定の根拠ではない、と明記されています。有資格者の確認を挟む前提で作られています。\n\nなお README が Python 3.13 以降を求めているのは**リポジトリ側の検証ツールを回すため**で、スキルを使う側の必要条件として書かれているわけではありません。必要な Python パッケージは各スキルの `SKILL.md` に個別に書かれています。データベース系のスキルはネット接続と、ものによっては API キーが要ります。",
   "language": "Python",
   "topics": [
     "agent-skills",
@@ -24,8 +24,8 @@
     "scientific-computing",
     "scientific-visualization"
   ],
-  "stars": 42079,
-  "forks": 3868,
+  "stars": 42372,
+  "forks": 3884,
   "watchers": null,
   "open_issues": 31,
   "created_at": "2025-10-19T20:54:15Z",
@@ -42,10 +42,10 @@
   "category": "ai-agent",
   "flags": [],
   "usability_score": 100,
-  "snapshot_days": 5,
-  "is_indexable": false,
+  "snapshot_days": 6,
+  "is_indexable": true,
   "first_seen_at": "2026-08-29T15:46:17.176Z",
   "tracking_tier": "hot",
-  "last_fetched_date": "2026-09-03",
+  "last_fetched_date": "2026-09-04",
   "stars_stagnant_days": 0
 }

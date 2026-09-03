@@ -16,12 +16,12 @@
     "python",
     "yapf"
   ],
-  "stars": 41830,
-  "forks": 2859,
+  "stars": 41829,
+  "forks": 2860,
   "watchers": null,
-  "open_issues": 317,
+  "open_issues": 305,
   "created_at": "2018-03-14T19:54:45Z",
-  "pushed_at": "2026-09-01T06:33:30Z",
+  "pushed_at": "2026-09-03T20:27:07Z",
   "is_archived": false,
   "license_spdx": "MIT",
   "license_category": "permissive",
@@ -34,10 +34,10 @@
   "category": "dev-tool",
   "flags": [],
   "usability_score": 100,
-  "snapshot_days": 3,
+  "snapshot_days": 4,
   "is_indexable": false,
   "first_seen_at": "2026-09-01T00:26:13.031Z",
   "tracking_tier": "hot",
-  "last_fetched_date": "2026-09-03",
-  "stars_stagnant_days": 0
+  "last_fetched_date": "2026-09-04",
+  "stars_stagnant_days": 1
 }

@@ -11,10 +11,10 @@
     "python",
     "star-rail-api"
   ],
-  "stars": 33744,
-  "forks": 4439,
+  "stars": 33773,
+  "forks": 4437,
   "watchers": null,
-  "open_issues": 501,
+  "open_issues": 500,
   "created_at": "2021-05-20T11:06:33Z",
   "pushed_at": "2026-09-02T16:58:26Z",
   "is_archived": false,
@@ -29,10 +29,10 @@
   "category": "backend",
   "flags": [],
   "usability_score": 100,
-  "snapshot_days": 2,
+  "snapshot_days": 3,
   "is_indexable": false,
   "first_seen_at": "2026-09-01T23:05:22.650Z",
   "tracking_tier": "hot",
-  "last_fetched_date": "2026-09-03",
+  "last_fetched_date": "2026-09-04",
   "stars_stagnant_days": 0
 }

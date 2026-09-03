@@ -15,12 +15,12 @@
     "pwa",
     "web"
   ],
-  "stars": 30729,
+  "stars": 30732,
   "forks": 9759,
   "watchers": null,
   "open_issues": 459,
   "created_at": "2016-03-08T01:03:11Z",
-  "pushed_at": "2026-09-02T19:33:44Z",
+  "pushed_at": "2026-09-03T03:33:48Z",
   "is_archived": false,
   "license_spdx": "Apache-2.0",
   "license_category": "permissive",
@@ -33,10 +33,10 @@
   "category": "dev-tool",
   "flags": [],
   "usability_score": 100,
-  "snapshot_days": 2,
+  "snapshot_days": 3,
   "is_indexable": false,
   "first_seen_at": "2026-09-01T23:05:22.650Z",
   "tracking_tier": "hot",
-  "last_fetched_date": "2026-09-03",
+  "last_fetched_date": "2026-09-04",
   "stars_stagnant_days": 0
 }

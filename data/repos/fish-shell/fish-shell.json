@@ -11,12 +11,12 @@
     "shell",
     "terminal"
   ],
-  "stars": 34112,
+  "stars": 34121,
   "forks": 2363,
   "watchers": null,
   "open_issues": 561,
   "created_at": "2012-05-10T03:00:55Z",
-  "pushed_at": "2026-09-02T18:00:21Z",
+  "pushed_at": "2026-09-03T16:51:42Z",
   "is_archived": false,
   "license_spdx": "NOASSERTION",
   "license_category": "unknown",
@@ -29,10 +29,10 @@
   "category": "dev-tool",
   "flags": [],
   "usability_score": 100,
-  "snapshot_days": 2,
+  "snapshot_days": 3,
   "is_indexable": false,
   "first_seen_at": "2026-09-01T23:05:22.650Z",
   "tracking_tier": "hot",
-  "last_fetched_date": "2026-09-03",
+  "last_fetched_date": "2026-09-04",
   "stars_stagnant_days": 0
 }

@@ -24,12 +24,12 @@
     "stream-processing",
     "video-processing"
   ],
-  "stars": 36821,
+  "stars": 36828,
   "forks": 6147,
   "watchers": null,
-  "open_issues": 552,
+  "open_issues": 550,
   "created_at": "2019-06-13T19:16:41Z",
-  "pushed_at": "2026-09-02T13:33:42Z",
+  "pushed_at": "2026-09-03T18:31:11Z",
   "is_archived": false,
   "license_spdx": "Apache-2.0",
   "license_category": "permissive",
@@ -42,10 +42,10 @@
   "category": "llm",
   "flags": [],
   "usability_score": 100,
-  "snapshot_days": 3,
+  "snapshot_days": 4,
   "is_indexable": false,
   "first_seen_at": "2026-09-01T00:26:13.032Z",
   "tracking_tier": "hot",
-  "last_fetched_date": "2026-09-03",
+  "last_fetched_date": "2026-09-04",
   "stars_stagnant_days": 0
 }

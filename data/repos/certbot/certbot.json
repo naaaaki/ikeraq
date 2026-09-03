@@ -13,10 +13,10 @@
     "letsencrypt",
     "python"
   ],
-  "stars": 33229,
-  "forks": 3509,
+  "stars": 33230,
+  "forks": 3511,
   "watchers": null,
-  "open_issues": 188,
+  "open_issues": 189,
   "created_at": "2014-11-12T02:52:20Z",
   "pushed_at": "2026-09-01T21:53:19Z",
   "is_archived": false,
@@ -31,10 +31,10 @@
   "category": "other",
   "flags": [],
   "usability_score": 100,
-  "snapshot_days": 2,
+  "snapshot_days": 3,
   "is_indexable": false,
   "first_seen_at": "2026-09-01T23:05:22.650Z",
   "tracking_tier": "hot",
-  "last_fetched_date": "2026-09-03",
+  "last_fetched_date": "2026-09-04",
   "stars_stagnant_days": 0
 }

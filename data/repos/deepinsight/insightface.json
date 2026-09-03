@@ -1,0 +1,50 @@
+{
+  "id": "deepinsight/insightface",
+  "owner": "deepinsight",
+  "name": "insightface",
+  "description_en": "State-of-the-art 2D and 3D Face Analysis Project",
+  "human_note": null,
+  "language": "Python",
+  "topics": [
+    "age-estimation",
+    "arcface",
+    "face-alignment",
+    "face-detection",
+    "face-recognition",
+    "mxnet",
+    "oneflow",
+    "paddlepaddle",
+    "pytorch",
+    "retinaface"
+  ],
+  "stars": 29635,
+  "forks": 6082,
+  "watchers": null,
+  "open_issues": 1270,
+  "created_at": "2017-09-01T00:36:51Z",
+  "pushed_at": "2026-09-03T12:19:10Z",
+  "is_archived": false,
+  "license_spdx": null,
+  "license_category": "none",
+  "readme_excerpt": "InsightFace: 2D and 3D Face Analysis Project InsightFace project is mainly maintained by Jia Guo and Jiankang Deng. For more information, please visit our website at https://insightface.ai InsightFace 1.0 Update InsightFace 1.0 focuses on easier local evaluation and desktop usage: - The default Python package no longer builds the optional C++/Cython face3d extension, reducing local compiler requirements. - Added InsightFace Evaluation Studio, a cross-platform GUI Demo for Windows, macOS, and Li…",
+  "readme_length": 16158,
+  "has_japanese_readme": false,
+  "contributors_count": 67,
+  "releases_count": 2,
+  "ossf_scorecard": null,
+  "category": "other",
+  "flags": [
+    {
+      "id": "no_license",
+      "label": "利用条件不明",
+      "reason": "ライセンスが設定されていません。この場合は原則として全権利が留保され、利用できません。"
+    }
+  ],
+  "usability_score": 60,
+  "snapshot_days": 1,
+  "is_indexable": true,
+  "first_seen_at": "2026-09-03T23:03:15.575Z",
+  "tracking_tier": "hot",
+  "last_fetched_date": "2026-09-04",
+  "stars_stagnant_days": 0
+}

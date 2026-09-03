@@ -1,0 +1,44 @@
+{
+  "id": "ycm-core/YouCompleteMe",
+  "owner": "ycm-core",
+  "name": "YouCompleteMe",
+  "description_en": "A code-completion engine for Vim",
+  "human_note": null,
+  "language": "Python",
+  "topics": [
+    "code-analysis",
+    "code-completion",
+    "semantic-engine",
+    "vim"
+  ],
+  "stars": 25893,
+  "forks": 2749,
+  "watchers": null,
+  "open_issues": 36,
+  "created_at": "2012-04-16T03:12:14Z",
+  "pushed_at": "2026-09-03T09:55:07Z",
+  "is_archived": false,
+  "license_spdx": "GPL-3.0",
+  "license_category": "strong-copyleft",
+  "readme_excerpt": "YouCompleteMe: a code-completion engine for Vim Help, Advice, Support Looking for help, advice, or support? Having problems getting YCM to work? First carefully read the installation instructions for your OS. We recommend you use the supplied install.py - the \"full\" installation guide is for rare, advanced use cases and most users should use install.py. If the server isn't starting and you're getting a \"YouCompleteMe unavailable\" error, check the [Troubleshooting][wiki-troubleshooting] guide. N…",
+  "readme_length": 151325,
+  "has_japanese_readme": false,
+  "contributors_count": 201,
+  "releases_count": 0,
+  "ossf_scorecard": null,
+  "category": "other",
+  "flags": [
+    {
+      "id": "copyleft",
+      "label": "自社サービス組込み注意",
+      "reason": "GPL-3.0 です。組み込んだ側のソース公開が必要になる場合があります。"
+    }
+  ],
+  "usability_score": 85,
+  "snapshot_days": 1,
+  "is_indexable": true,
+  "first_seen_at": "2026-09-03T23:03:15.575Z",
+  "tracking_tier": "hot",
+  "last_fetched_date": "2026-09-04",
+  "stars_stagnant_days": 0
+}

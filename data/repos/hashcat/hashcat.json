@@ -1,0 +1,48 @@
+{
+  "id": "hashcat/hashcat",
+  "owner": "hashcat",
+  "name": "hashcat",
+  "description_en": "World's fastest and most advanced password recovery utility",
+  "human_note": null,
+  "language": "C",
+  "topics": [
+    "c",
+    "cracking",
+    "cuda",
+    "gpgpu",
+    "hashcat",
+    "hashes",
+    "opencl",
+    "password"
+  ],
+  "stars": 26699,
+  "forks": 3548,
+  "watchers": null,
+  "open_issues": 360,
+  "created_at": "2015-12-04T14:46:51Z",
+  "pushed_at": "2026-09-03T17:44:45Z",
+  "is_archived": false,
+  "license_spdx": null,
+  "license_category": "none",
+  "readme_excerpt": "hashcat ## hashcat is a highly optimized password recovery platform for GPUs, CPUs, and large distributed systems. Features ### World's fastest password cracker World's first and only in-kernel rule engine Free and open source, under the MIT license Multi-OS: Linux, Windows and macOS Multi-backend: CUDA, HIP, Metal and OpenCL Multi-device: several devices, and mixed device types, in one system Multi-hash: cracks large numbers of hashes at once Over 590 hash modes, each written with performance…",
+  "readme_length": 4255,
+  "has_japanese_readme": false,
+  "contributors_count": 227,
+  "releases_count": 28,
+  "ossf_scorecard": null,
+  "category": "other",
+  "flags": [
+    {
+      "id": "no_license",
+      "label": "利用条件不明",
+      "reason": "ライセンスが設定されていません。この場合は原則として全権利が留保され、利用できません。"
+    }
+  ],
+  "usability_score": 60,
+  "snapshot_days": 1,
+  "is_indexable": true,
+  "first_seen_at": "2026-09-03T23:03:15.575Z",
+  "tracking_tier": "hot",
+  "last_fetched_date": "2026-09-04",
+  "stars_stagnant_days": 0
+}

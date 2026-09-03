@@ -4,7 +4,7 @@
   "name": "open-design",
   "description_en": "🎨 Best DeepSeek Harness Design Plugin. The open-source Claude Design alternative. 🖥️ Local-first desktop app. 🖼️ Your coding agent becomes the design engine: prototypes, landing pages, dashboards, slides, images & video — real files, HTML/PDF/PPTX/MP4 export. 🤖 Claude Code / Codex / Cursor / DeepSeek Harness / OpenCode & 20+ CLIs via BYOK.",
   "human_note": null,
-  "language": null,
+  "language": "TypeScript",
   "topics": [
     "agent-skills",
     "ai-design",
@@ -27,12 +27,12 @@
     "ui-generator",
     "vibe-coding"
   ],
-  "stars": 93619,
-  "forks": 10794,
+  "stars": 93878,
+  "forks": 10825,
   "watchers": null,
-  "open_issues": 924,
+  "open_issues": 935,
   "created_at": "2026-04-28T04:25:20Z",
-  "pushed_at": "2026-09-02T18:07:16Z",
+  "pushed_at": "2026-09-03T18:07:20Z",
   "is_archived": false,
   "license_spdx": "Apache-2.0",
   "license_category": "permissive",
@@ -45,10 +45,10 @@
   "category": "ai-agent",
   "flags": [],
   "usability_score": 100,
-  "snapshot_days": 5,
+  "snapshot_days": 6,
   "is_indexable": false,
   "first_seen_at": "2026-08-29T15:46:21.821Z",
   "tracking_tier": "hot",
-  "last_fetched_date": "2026-09-03",
+  "last_fetched_date": "2026-09-04",
   "stars_stagnant_days": 0
 }

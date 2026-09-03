@@ -10,8 +10,8 @@
     "chat",
     "llm"
   ],
-  "stars": 32955,
-  "forks": 6216,
+  "stars": 32984,
+  "forks": 6217,
   "watchers": null,
   "open_issues": 599,
   "created_at": "2023-02-09T10:19:24Z",
@@ -34,10 +34,10 @@
     }
   ],
   "usability_score": 85,
-  "snapshot_days": 2,
+  "snapshot_days": 3,
   "is_indexable": true,
   "first_seen_at": "2026-09-01T23:05:22.650Z",
   "tracking_tier": "hot",
-  "last_fetched_date": "2026-09-03",
+  "last_fetched_date": "2026-09-04",
   "stars_stagnant_days": 0
 }

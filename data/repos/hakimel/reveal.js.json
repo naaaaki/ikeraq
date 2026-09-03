@@ -10,7 +10,7 @@
     "slides",
     "slideshow"
   ],
-  "stars": 72241,
+  "stars": 72252,
   "forks": 16984,
   "watchers": 1622,
   "open_issues": 911,
@@ -28,10 +28,10 @@
   "category": "other",
   "flags": [],
   "usability_score": 100,
-  "snapshot_days": 5,
+  "snapshot_days": 6,
   "is_indexable": false,
   "first_seen_at": "2026-08-29T23:02:08.747Z",
   "tracking_tier": "hot",
-  "last_fetched_date": "2026-09-03",
-  "stars_stagnant_days": 1
+  "last_fetched_date": "2026-09-04",
+  "stars_stagnant_days": 0
 }

@@ -1,0 +1,51 @@
+{
+  "id": "yeasy/docker_practice",
+  "owner": "yeasy",
+  "name": "docker_practice",
+  "description_en": "最新Docker容器技术，从真实案例中学习最佳实践！| Learn and understand Docker&Container technologies, with real DevOps practice!",
+  "human_note": null,
+  "language": "Go",
+  "topics": [
+    "book",
+    "cloud-computing",
+    "container",
+    "devops",
+    "docker",
+    "kubernetes",
+    "linux",
+    "mesos",
+    "spark",
+    "swarm",
+    "virtualization"
+  ],
+  "stars": 26235,
+  "forks": 5784,
+  "watchers": null,
+  "open_issues": 0,
+  "created_at": "2014-09-05T04:06:39Z",
+  "pushed_at": "2026-09-02T18:47:08Z",
+  "is_archived": false,
+  "license_spdx": null,
+  "license_category": "none",
+  "readme_excerpt": "Docker 从入门到实践 > 从零开始，系统掌握 Docker 容器技术的核心概念、原理与实战技巧 关于本书 Docker 是个划时代的开源项目，它彻底释放了计算虚拟化的威力，极大提高了应用的维护效率，降低了云计算应用开发的成本！使用 Docker，可以让应用的部署、测试和分发都变得前所未有的高效和轻松！ 无论是应用开发者、运维人员、还是其他信息技术从业人员，都有必要认识和掌握 Docker，节约有限的生命。 本书既适用于具备基础 Linux 知识的 Docker 初学者，也希望可供理解原理和实现的高级用户参考。同时，书中给出的实践案例，可供在进行实际部署时借鉴。 内容特色 入门基础：第 1 ~ 6 章为基础内容，帮助深入理解 Docker 的基本概念（镜像、容器、仓库）和核心操作。 进阶应用：第 7 ~ 11 章涵盖 Dockerfile 指令详解、数据与网络管理、Buildx、Compose 等高级配置和管理操作。 深入原理：第 12 ~ 17 章介绍其底层实现技术，深入探讨容器编排体系 (Kubernetes、Etcd)，并延伸涉及容器与云计算及其他关键生态项目（Fedora…",
+  "readme_length": 4473,
+  "has_japanese_readme": false,
+  "contributors_count": 127,
+  "releases_count": 31,
+  "ossf_scorecard": null,
+  "category": "infra",
+  "flags": [
+    {
+      "id": "no_license",
+      "label": "利用条件不明",
+      "reason": "ライセンスが設定されていません。この場合は原則として全権利が留保され、利用できません。"
+    }
+  ],
+  "usability_score": 60,
+  "snapshot_days": 1,
+  "is_indexable": true,
+  "first_seen_at": "2026-09-03T23:03:15.575Z",
+  "tracking_tier": "hot",
+  "last_fetched_date": "2026-09-04",
+  "stars_stagnant_days": 0
+}

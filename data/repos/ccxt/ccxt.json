@@ -2,7 +2,7 @@
   "id": "ccxt/ccxt",
   "owner": "ccxt",
   "name": "ccxt",
-  "description_en": "A unified trading API with more than 100 crypto exchanges and prediction markets in JavaScript / TypeScript / Python / C# / PHP / Go / Java ",
+  "description_en": "A unified trading API with more than 100 crypto exchanges and prediction markets in JavaScript / TypeScript / Python / C# / PHP / Go / Java / Rust",
   "human_note": null,
   "language": "Python",
   "topics": [
@@ -26,12 +26,12 @@
     "trade",
     "trading"
   ],
-  "stars": 43841,
+  "stars": 43848,
   "forks": 8815,
   "watchers": null,
-  "open_issues": 850,
+  "open_issues": 848,
   "created_at": "2017-05-14T15:41:56Z",
-  "pushed_at": "2026-09-02T17:17:51Z",
+  "pushed_at": "2026-09-03T20:18:46Z",
   "is_archived": false,
   "license_spdx": "MIT",
   "license_category": "permissive",
@@ -44,10 +44,10 @@
   "category": "backend",
   "flags": [],
   "usability_score": 100,
-  "snapshot_days": 4,
+  "snapshot_days": 5,
   "is_indexable": false,
   "first_seen_at": "2026-08-30T23:15:18.750Z",
   "tracking_tier": "hot",
-  "last_fetched_date": "2026-09-03",
+  "last_fetched_date": "2026-09-04",
   "stars_stagnant_days": 0
 }

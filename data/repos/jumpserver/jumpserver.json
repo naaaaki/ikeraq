@@ -16,12 +16,12 @@
     "teleport",
     "terminal"
   ],
-  "stars": 31489,
+  "stars": 31492,
   "forks": 5777,
   "watchers": null,
-  "open_issues": 97,
+  "open_issues": 95,
   "created_at": "2014-07-04T03:54:59Z",
-  "pushed_at": "2026-09-02T10:21:36Z",
+  "pushed_at": "2026-09-03T10:57:40Z",
   "is_archived": false,
   "license_spdx": "GPL-3.0",
   "license_category": "strong-copyleft",
@@ -40,10 +40,10 @@
     }
   ],
   "usability_score": 85,
-  "snapshot_days": 2,
+  "snapshot_days": 3,
   "is_indexable": true,
   "first_seen_at": "2026-09-01T23:05:22.650Z",
   "tracking_tier": "hot",
-  "last_fetched_date": "2026-09-03",
+  "last_fetched_date": "2026-09-04",
   "stars_stagnant_days": 0
 }

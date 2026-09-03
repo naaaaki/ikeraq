@@ -1,0 +1,50 @@
+{
+  "id": "kovidgoyal/calibre",
+  "owner": "kovidgoyal",
+  "name": "calibre",
+  "description_en": "The official source code repository for the calibre ebook manager",
+  "human_note": null,
+  "language": "Python",
+  "topics": [
+    "calibre",
+    "ebook",
+    "ebook-formats",
+    "ebook-manager",
+    "ebook-reader",
+    "ebooks",
+    "epub",
+    "epub-generation",
+    "kindle",
+    "python"
+  ],
+  "stars": 25809,
+  "forks": 2665,
+  "watchers": null,
+  "open_issues": 6,
+  "created_at": "2013-05-28T10:03:23Z",
+  "pushed_at": "2026-09-03T07:53:40Z",
+  "is_archived": false,
+  "license_spdx": "GPL-3.0",
+  "license_category": "strong-copyleft",
+  "readme_excerpt": "calibre calibre is an e-book manager. It can view, convert, edit and catalog e-books in all of the major e-book formats. It can also talk to e-book reader devices. It can go out to the internet and fetch metadata for your books. It can download newspapers and convert them into e-books for convenient reading. It is cross platform, running on Linux, Windows and macOS. For more information, see the calibre About page. Screenshots Screenshots page Usage See the User Manual. Development Setting up a…",
+  "readme_length": 1938,
+  "has_japanese_readme": false,
+  "contributors_count": 479,
+  "releases_count": 353,
+  "ossf_scorecard": null,
+  "category": "other",
+  "flags": [
+    {
+      "id": "copyleft",
+      "label": "自社サービス組込み注意",
+      "reason": "GPL-3.0 です。組み込んだ側のソース公開が必要になる場合があります。"
+    }
+  ],
+  "usability_score": 85,
+  "snapshot_days": 1,
+  "is_indexable": true,
+  "first_seen_at": "2026-09-03T23:03:15.575Z",
+  "tracking_tier": "hot",
+  "last_fetched_date": "2026-09-04",
+  "stars_stagnant_days": 0
+}

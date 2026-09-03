@@ -25,7 +25,7 @@
     "tls-certificate",
     "zerossl"
   ],
-  "stars": 47573,
+  "stars": 47581,
   "forks": 5660,
   "watchers": null,
   "open_issues": 102,
@@ -49,10 +49,10 @@
     }
   ],
   "usability_score": 85,
-  "snapshot_days": 4,
+  "snapshot_days": 5,
   "is_indexable": true,
   "first_seen_at": "2026-08-30T23:15:18.749Z",
   "tracking_tier": "hot",
-  "last_fetched_date": "2026-09-03",
+  "last_fetched_date": "2026-09-04",
   "stars_stagnant_days": 0
 }

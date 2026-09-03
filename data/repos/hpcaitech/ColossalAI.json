@@ -19,8 +19,8 @@
     "model-parallelism",
     "pipeline-parallelism"
   ],
-  "stars": 41445,
-  "forks": 4498,
+  "stars": 41442,
+  "forks": 4495,
   "watchers": null,
   "open_issues": 504,
   "created_at": "2021-10-28T16:19:44Z",
@@ -37,10 +37,10 @@
   "category": "llm",
   "flags": [],
   "usability_score": 100,
-  "snapshot_days": 3,
+  "snapshot_days": 4,
   "is_indexable": false,
   "first_seen_at": "2026-09-01T00:26:13.031Z",
   "tracking_tier": "hot",
-  "last_fetched_date": "2026-09-03",
-  "stars_stagnant_days": 2
+  "last_fetched_date": "2026-09-04",
+  "stars_stagnant_days": 3
 }

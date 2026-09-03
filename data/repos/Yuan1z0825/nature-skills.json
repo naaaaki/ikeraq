@@ -10,12 +10,12 @@
     "nature",
     "nature-skills"
   ],
-  "stars": 38705,
-  "forks": 2139,
+  "stars": 38960,
+  "forks": 2142,
   "watchers": null,
   "open_issues": 0,
   "created_at": "2026-04-24T03:11:46Z",
-  "pushed_at": "2026-09-01T02:38:12Z",
+  "pushed_at": "2026-09-03T06:03:48Z",
   "is_archived": false,
   "license_spdx": "Apache-2.0",
   "license_category": "permissive",
@@ -28,10 +28,10 @@
   "category": "other",
   "flags": [],
   "usability_score": 100,
-  "snapshot_days": 3,
+  "snapshot_days": 4,
   "is_indexable": false,
   "first_seen_at": "2026-09-01T00:26:13.031Z",
   "tracking_tier": "hot",
-  "last_fetched_date": "2026-09-03",
+  "last_fetched_date": "2026-09-04",
   "stars_stagnant_days": 0
 }

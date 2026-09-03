@@ -25,10 +25,10 @@
     "systems",
     "web-development"
   ],
-  "stars": 83386,
-  "forks": 11474,
+  "stars": 83392,
+  "forks": 11478,
   "watchers": null,
-  "open_issues": 4,
+  "open_issues": 5,
   "created_at": "2016-10-21T17:02:11Z",
   "pushed_at": "2026-08-30T19:20:44Z",
   "is_archived": false,
@@ -49,10 +49,10 @@
     }
   ],
   "usability_score": 60,
-  "snapshot_days": 5,
+  "snapshot_days": 6,
   "is_indexable": true,
   "first_seen_at": "2026-08-29T15:46:21.821Z",
   "tracking_tier": "hot",
-  "last_fetched_date": "2026-09-03",
+  "last_fetched_date": "2026-09-04",
   "stars_stagnant_days": 0
 }

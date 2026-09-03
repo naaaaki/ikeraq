@@ -11,12 +11,12 @@
     "hacktoberfest",
     "help-wanted"
   ],
-  "stars": 38414,
+  "stars": 38417,
   "forks": 10953,
   "watchers": null,
-  "open_issues": 4141,
+  "open_issues": 4136,
   "created_at": "2014-03-11T06:09:42Z",
-  "pushed_at": "2026-09-02T22:35:44Z",
+  "pushed_at": "2026-09-03T22:24:21Z",
   "is_archived": false,
   "license_spdx": "MIT",
   "license_category": "permissive",
@@ -29,10 +29,10 @@
   "category": "other",
   "flags": [],
   "usability_score": 100,
-  "snapshot_days": 3,
+  "snapshot_days": 4,
   "is_indexable": false,
   "first_seen_at": "2026-09-01T00:26:13.031Z",
   "tracking_tier": "hot",
-  "last_fetched_date": "2026-09-03",
+  "last_fetched_date": "2026-09-04",
   "stars_stagnant_days": 0
 }

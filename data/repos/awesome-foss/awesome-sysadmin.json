@@ -16,8 +16,8 @@
     "sre",
     "sysadmin"
   ],
-  "stars": 35053,
-  "forks": 2098,
+  "stars": 35058,
+  "forks": 2099,
   "watchers": null,
   "open_issues": 0,
   "created_at": "2014-12-23T08:41:22Z",
@@ -34,10 +34,10 @@
   "category": "infra",
   "flags": [],
   "usability_score": 100,
-  "snapshot_days": 3,
+  "snapshot_days": 4,
   "is_indexable": false,
   "first_seen_at": "2026-09-01T00:26:13.032Z",
   "tracking_tier": "hot",
-  "last_fetched_date": "2026-09-03",
+  "last_fetched_date": "2026-09-04",
   "stars_stagnant_days": 0
 }

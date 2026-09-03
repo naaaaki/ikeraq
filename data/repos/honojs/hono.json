@@ -16,9 +16,9 @@
     "typescript",
     "web-framework"
   ],
-  "stars": 32068,
-  "forks": 1276,
-  "watchers": null,
+  "stars": 32084,
+  "forks": 1280,
+  "watchers": 92,
   "open_issues": 386,
   "created_at": "2021-12-14T20:05:30Z",
   "pushed_at": "2026-08-28T06:38:15Z",
@@ -34,10 +34,10 @@
   "category": "backend",
   "flags": [],
   "usability_score": 100,
-  "snapshot_days": 2,
+  "snapshot_days": 3,
   "is_indexable": false,
   "first_seen_at": "2026-09-01T23:05:22.650Z",
   "tracking_tier": "hot",
-  "last_fetched_date": "2026-09-03",
+  "last_fetched_date": "2026-09-04",
   "stars_stagnant_days": 0
 }

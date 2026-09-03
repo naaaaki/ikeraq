@@ -21,12 +21,12 @@
     "typeorm",
     "typescript"
   ],
-  "stars": 36644,
+  "stars": 36646,
   "forks": 6662,
   "watchers": null,
-  "open_issues": 622,
+  "open_issues": 625,
   "created_at": "2016-02-29T07:41:14Z",
-  "pushed_at": "2026-09-02T09:10:32Z",
+  "pushed_at": "2026-09-03T06:45:45Z",
   "is_archived": false,
   "license_spdx": "MIT",
   "license_category": "permissive",
@@ -39,10 +39,10 @@
   "category": "data",
   "flags": [],
   "usability_score": 100,
-  "snapshot_days": 3,
+  "snapshot_days": 4,
   "is_indexable": false,
   "first_seen_at": "2026-09-01T00:26:13.032Z",
   "tracking_tier": "hot",
-  "last_fetched_date": "2026-09-03",
+  "last_fetched_date": "2026-09-04",
   "stars_stagnant_days": 0
 }

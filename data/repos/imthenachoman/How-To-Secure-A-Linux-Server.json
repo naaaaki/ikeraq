@@ -1,0 +1,48 @@
+{
+  "id": "imthenachoman/How-To-Secure-A-Linux-Server",
+  "owner": "imthenachoman",
+  "name": "How-To-Secure-A-Linux-Server",
+  "description_en": "An evolving how-to guide for securing a Linux server.",
+  "human_note": null,
+  "language": null,
+  "topics": [
+    "cc-by-sa",
+    "hardening",
+    "hardening-steps",
+    "linux",
+    "linux-server",
+    "security",
+    "security-hardening",
+    "server"
+  ],
+  "stars": 31174,
+  "forks": 2102,
+  "watchers": null,
+  "open_issues": 35,
+  "created_at": "2019-02-09T06:44:37Z",
+  "pushed_at": "2026-09-03T20:14:15Z",
+  "is_archived": false,
+  "license_spdx": "CC-BY-SA-4.0",
+  "license_category": "strong-copyleft",
+  "readme_excerpt": "How To Secure A Linux Server An evolving how-to guide for securing a Linux server that, hopefully, also teaches you a little about security and why it matters. Table of Contents - Introduction - Guide Objective - Why Secure Your Server - Why Yet Another Guide - Other Guides - To Do / To Add - Guide Overview - About This Guide - My Use-Case - Editing Configuration Files - For The Lazy - Contributing - Before You Start - Identify Your Principles - Picking A Linux Distribution - Installing Linux -…",
+  "readme_length": 167323,
+  "has_japanese_readme": false,
+  "contributors_count": 39,
+  "releases_count": 0,
+  "ossf_scorecard": null,
+  "category": "security",
+  "flags": [
+    {
+      "id": "copyleft",
+      "label": "自社サービス組込み注意",
+      "reason": "CC-BY-SA-4.0 です。組み込んだ側のソース公開が必要になる場合があります。"
+    }
+  ],
+  "usability_score": 85,
+  "snapshot_days": 1,
+  "is_indexable": true,
+  "first_seen_at": "2026-09-03T23:03:15.575Z",
+  "tracking_tier": "hot",
+  "last_fetched_date": "2026-09-04",
+  "stars_stagnant_days": 0
+}

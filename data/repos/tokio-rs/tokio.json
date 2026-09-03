@@ -11,11 +11,11 @@
     "rust"
   ],
   "stars": 33059,
-  "forks": 3229,
+  "forks": 3230,
   "watchers": null,
-  "open_issues": 450,
+  "open_issues": 444,
   "created_at": "2016-09-09T22:31:36Z",
-  "pushed_at": "2026-08-31T16:52:27Z",
+  "pushed_at": "2026-09-03T13:25:48Z",
   "is_archived": false,
   "license_spdx": "MIT",
   "license_category": "permissive",
@@ -28,10 +28,10 @@
   "category": "infra",
   "flags": [],
   "usability_score": 100,
-  "snapshot_days": 2,
+  "snapshot_days": 3,
   "is_indexable": false,
   "first_seen_at": "2026-09-01T23:05:22.650Z",
   "tracking_tier": "hot",
-  "last_fetched_date": "2026-09-03",
-  "stars_stagnant_days": 0
+  "last_fetched_date": "2026-09-04",
+  "stars_stagnant_days": 1
 }

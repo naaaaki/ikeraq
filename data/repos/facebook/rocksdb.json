@@ -9,12 +9,12 @@
     "database",
     "storage-engine"
   ],
-  "stars": 32037,
-  "forks": 6914,
+  "stars": 32042,
+  "forks": 6916,
   "watchers": null,
-  "open_issues": 1628,
+  "open_issues": 1629,
   "created_at": "2012-11-30T06:16:18Z",
-  "pushed_at": "2026-09-02T16:10:36Z",
+  "pushed_at": "2026-09-03T17:46:31Z",
   "is_archived": false,
   "license_spdx": "GPL-2.0",
   "license_category": "strong-copyleft",
@@ -33,10 +33,10 @@
     }
   ],
   "usability_score": 85,
-  "snapshot_days": 2,
+  "snapshot_days": 3,
   "is_indexable": true,
   "first_seen_at": "2026-09-01T23:05:22.650Z",
   "tracking_tier": "hot",
-  "last_fetched_date": "2026-09-03",
+  "last_fetched_date": "2026-09-04",
   "stars_stagnant_days": 0
 }

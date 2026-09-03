@@ -1,0 +1,44 @@
+{
+  "id": "dwmkerr/hacker-laws",
+  "owner": "dwmkerr",
+  "name": "hacker-laws",
+  "description_en": "🧠 Laws, Theories, Principles and Patterns for developers and technologists.",
+  "human_note": null,
+  "language": "HTML",
+  "topics": [
+    "coding",
+    "computerscience",
+    "laws",
+    "principles"
+  ],
+  "stars": 27280,
+  "forks": 1564,
+  "watchers": null,
+  "open_issues": 153,
+  "created_at": "2018-01-25T03:46:34Z",
+  "pushed_at": "2026-09-02T15:25:24Z",
+  "is_archived": false,
+  "license_spdx": "CC-BY-SA-4.0",
+  "license_category": "strong-copyleft",
+  "readme_excerpt": "hacker-laws 🧠 Laws, Theories, Principles and Patterns for developers and technologists. - 📖 My new book Effective Shell (Online Version) on Amazon (Print/Kindle) - 🌍 Try hackerlaws.dev - 🧠 Check out my new project Terminal AI - ☕️ Like this project? Consider buying me a coffee with a one-off donation - 🎧 Listen to the podcast The Changelog - Laws for Hackers to Live By - 🌏 See the Translations: 🇧🇷 🇨🇳 🇫🇷 🇮🇹 🇱🇻 🇰🇷 🇷🇺 🇪🇸 🇹🇷 🇮🇩 🇯🇵 🇵🇱 🇻🇳 - Introduction - Laws - 90–9–1…",
+  "readme_length": 116793,
+  "has_japanese_readme": false,
+  "contributors_count": 108,
+  "releases_count": 9,
+  "ossf_scorecard": null,
+  "category": "other",
+  "flags": [
+    {
+      "id": "copyleft",
+      "label": "自社サービス組込み注意",
+      "reason": "CC-BY-SA-4.0 です。組み込んだ側のソース公開が必要になる場合があります。"
+    }
+  ],
+  "usability_score": 85,
+  "snapshot_days": 1,
+  "is_indexable": true,
+  "first_seen_at": "2026-09-03T23:03:15.575Z",
+  "tracking_tier": "hot",
+  "last_fetched_date": "2026-09-04",
+  "stars_stagnant_days": 0
+}

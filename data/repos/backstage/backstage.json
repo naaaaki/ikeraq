@@ -16,12 +16,12 @@
     "microservices",
     "self-service-portal"
   ],
-  "stars": 34307,
+  "stars": 34318,
   "forks": 7604,
   "watchers": null,
-  "open_issues": 417,
+  "open_issues": 424,
   "created_at": "2020-01-24T22:39:49Z",
-  "pushed_at": "2026-09-02T22:18:58Z",
+  "pushed_at": "2026-09-03T20:39:01Z",
   "is_archived": false,
   "license_spdx": "Apache-2.0",
   "license_category": "permissive",
@@ -34,10 +34,10 @@
   "category": "infra",
   "flags": [],
   "usability_score": 100,
-  "snapshot_days": 2,
+  "snapshot_days": 3,
   "is_indexable": false,
   "first_seen_at": "2026-09-01T23:05:22.650Z",
   "tracking_tier": "hot",
-  "last_fetched_date": "2026-09-03",
+  "last_fetched_date": "2026-09-04",
   "stars_stagnant_days": 0
 }

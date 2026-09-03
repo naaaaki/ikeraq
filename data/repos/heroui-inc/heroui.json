@@ -11,12 +11,12 @@
     "library",
     "reactjs"
   ],
-  "stars": 30535,
+  "stars": 30550,
   "forks": 2223,
   "watchers": null,
-  "open_issues": 33,
+  "open_issues": 34,
   "created_at": "2021-04-22T13:06:23Z",
-  "pushed_at": "2026-09-01T16:30:59Z",
+  "pushed_at": "2026-09-03T19:33:54Z",
   "is_archived": false,
   "license_spdx": "Apache-2.0",
   "license_category": "permissive",
@@ -29,10 +29,10 @@
   "category": "web-frontend",
   "flags": [],
   "usability_score": 100,
-  "snapshot_days": 2,
+  "snapshot_days": 3,
   "is_indexable": false,
   "first_seen_at": "2026-09-01T23:05:22.650Z",
   "tracking_tier": "hot",
-  "last_fetched_date": "2026-09-03",
+  "last_fetched_date": "2026-09-04",
   "stars_stagnant_days": 0
 }

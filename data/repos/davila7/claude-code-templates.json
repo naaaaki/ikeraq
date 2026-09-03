@@ -11,12 +11,12 @@
     "claude",
     "claude-code"
   ],
-  "stars": 30505,
-  "forks": 3455,
+  "stars": 30516,
+  "forks": 3454,
   "watchers": null,
   "open_issues": 238,
   "created_at": "2025-07-04T01:26:26Z",
-  "pushed_at": "2026-09-02T20:51:19Z",
+  "pushed_at": "2026-09-03T21:45:23Z",
   "is_archived": false,
   "license_spdx": "MIT",
   "license_category": "permissive",
@@ -29,10 +29,10 @@
   "category": "other",
   "flags": [],
   "usability_score": 100,
-  "snapshot_days": 2,
+  "snapshot_days": 3,
   "is_indexable": false,
   "first_seen_at": "2026-09-01T23:05:22.650Z",
   "tracking_tier": "hot",
-  "last_fetched_date": "2026-09-03",
+  "last_fetched_date": "2026-09-04",
   "stars_stagnant_days": 0
 }

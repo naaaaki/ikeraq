@@ -14,10 +14,10 @@
     "openai",
     "python"
   ],
-  "stars": 29146,
-  "forks": 4655,
+  "stars": 29180,
+  "forks": 4657,
   "watchers": null,
-  "open_issues": 72,
+  "open_issues": 79,
   "created_at": "2025-03-11T03:42:36Z",
   "pushed_at": "2026-09-02T00:50:20Z",
   "is_archived": false,
@@ -32,10 +32,10 @@
   "category": "ai-agent",
   "flags": [],
   "usability_score": 100,
-  "snapshot_days": 1,
+  "snapshot_days": 2,
   "is_indexable": false,
   "first_seen_at": "2026-09-02T23:02:41.773Z",
   "tracking_tier": "hot",
-  "last_fetched_date": "2026-09-03",
+  "last_fetched_date": "2026-09-04",
   "stars_stagnant_days": 0
 }

@@ -4,7 +4,7 @@
   "name": "AIHawk",
   "description_en": "Born as an AI web agent that applied to jobs in bulk. Becoming a general one: an agent you point at the web and tell what to do.",
   "human_note": null,
-  "language": null,
+  "language": "Python",
   "topics": [
     "anti-bot",
     "anti-detect-browser",
@@ -27,12 +27,12 @@
     "stealth",
     "web-scraping"
   ],
-  "stars": 30303,
-  "forks": 4645,
+  "stars": 30305,
+  "forks": 4644,
   "watchers": null,
-  "open_issues": 22,
+  "open_issues": 0,
   "created_at": "2024-08-04T12:15:06Z",
-  "pushed_at": "2026-09-02T20:37:05Z",
+  "pushed_at": "2026-09-03T22:43:45Z",
   "is_archived": false,
   "license_spdx": "MIT",
   "license_category": "permissive",
@@ -45,10 +45,10 @@
   "category": "infra",
   "flags": [],
   "usability_score": 100,
-  "snapshot_days": 1,
+  "snapshot_days": 2,
   "is_indexable": false,
   "first_seen_at": "2026-09-02T23:02:41.773Z",
   "tracking_tier": "hot",
-  "last_fetched_date": "2026-09-03",
+  "last_fetched_date": "2026-09-04",
   "stars_stagnant_days": 0
 }

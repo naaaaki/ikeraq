@@ -2,7 +2,7 @@
   "id": "openclaw/openclaw",
   "owner": "openclaw",
   "name": "openclaw",
-  "description_en": "Your own personal AI assistant. Any OS. Any Platform. The lobster way. 🦞 ",
+  "description_en": "The AI that really does things. Any OS. Any Platform. The lobster way. 🦞 ",
   "human_note": null,
   "language": "TypeScript",
   "topics": [
@@ -14,12 +14,12 @@
     "own-your-data",
     "personal"
   ],
-  "stars": 388655,
-  "forks": 81618,
+  "stars": 388776,
+  "forks": 81641,
   "watchers": null,
-  "open_issues": 6090,
+  "open_issues": 6180,
   "created_at": "2025-11-24T10:16:47Z",
-  "pushed_at": "2026-09-02T23:01:58Z",
+  "pushed_at": "2026-09-03T23:02:00Z",
   "is_archived": false,
   "license_spdx": "NOASSERTION",
   "license_category": "unknown",
@@ -32,10 +32,10 @@
   "category": "other",
   "flags": [],
   "usability_score": 100,
-  "snapshot_days": 5,
+  "snapshot_days": 6,
   "is_indexable": false,
   "first_seen_at": "2026-08-29T15:46:21.820Z",
   "tracking_tier": "hot",
-  "last_fetched_date": "2026-09-03",
+  "last_fetched_date": "2026-09-04",
   "stars_stagnant_days": 0
 }

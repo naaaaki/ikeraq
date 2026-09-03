@@ -14,12 +14,12 @@
     "slack",
     "wiki"
   ],
-  "stars": 40427,
+  "stars": 40439,
   "forks": 3536,
   "watchers": null,
-  "open_issues": 90,
+  "open_issues": 83,
   "created_at": "2016-05-22T21:31:47Z",
-  "pushed_at": "2026-09-02T20:27:07Z",
+  "pushed_at": "2026-09-03T15:32:42Z",
   "is_archived": false,
   "license_spdx": "NOASSERTION",
   "license_category": "unknown",
@@ -32,10 +32,10 @@
   "category": "infra",
   "flags": [],
   "usability_score": 100,
-  "snapshot_days": 3,
+  "snapshot_days": 4,
   "is_indexable": false,
   "first_seen_at": "2026-09-01T00:26:13.031Z",
   "tracking_tier": "hot",
-  "last_fetched_date": "2026-09-03",
+  "last_fetched_date": "2026-09-04",
   "stars_stagnant_days": 0
 }

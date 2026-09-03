@@ -2,7 +2,7 @@
   "id": "byoungd/up",
   "owner": "byoungd",
   "name": "up",
-  "description_en": "An advanced guide which might benefit you a lot 🎉 . 韩先凯的人生进阶指南 离谱的人生/人生进阶 离谱的英语学习指南/英语学习教程/英语学习/学英语",
+  "description_en": "An advanced guide which might benefit you a lot 🎉 . 韩先凯的人生进阶指南 人生进阶指南 离谱的人生 人生进阶 离谱的英语学习指南/英语学习教程/英语学习/学英语",
   "human_note": null,
   "language": "JavaScript",
   "topics": [
@@ -10,12 +10,12 @@
     "english-learning",
     "tutorial"
   ],
-  "stars": 62176,
-  "forks": 6301,
+  "stars": 62246,
+  "forks": 6304,
   "watchers": null,
-  "open_issues": 36,
+  "open_issues": 31,
   "created_at": "2017-05-30T07:18:52Z",
-  "pushed_at": "2026-09-02T16:46:59Z",
+  "pushed_at": "2026-09-03T08:47:32Z",
   "is_archived": false,
   "license_spdx": "NOASSERTION",
   "license_category": "unknown",
@@ -28,10 +28,10 @@
   "category": "learning",
   "flags": [],
   "usability_score": 100,
-  "snapshot_days": 5,
+  "snapshot_days": 6,
   "is_indexable": false,
   "first_seen_at": "2026-08-29T23:02:08.747Z",
   "tracking_tier": "hot",
-  "last_fetched_date": "2026-09-03",
+  "last_fetched_date": "2026-09-04",
   "stars_stagnant_days": 0
 }

@@ -27,12 +27,12 @@
     "voicestudio",
     "workflow"
   ],
-  "stars": 14621,
-  "forks": 2096,
-  "watchers": 72,
-  "open_issues": 7,
+  "stars": 16194,
+  "forks": 2199,
+  "watchers": 76,
+  "open_issues": 10,
   "created_at": "2026-04-09T21:40:26Z",
-  "pushed_at": "2026-09-02T11:02:23Z",
+  "pushed_at": "2026-09-03T21:56:54Z",
   "is_archived": false,
   "license_spdx": "AGPL-3.0",
   "license_category": "strong-copyleft",
@@ -51,10 +51,10 @@
     }
   ],
   "usability_score": 85,
-  "snapshot_days": 1,
+  "snapshot_days": 2,
   "is_indexable": true,
   "first_seen_at": "2026-09-02T23:02:39.395Z",
   "tracking_tier": "hot",
-  "last_fetched_date": "2026-09-03",
+  "last_fetched_date": "2026-09-04",
   "stars_stagnant_days": 0
 }

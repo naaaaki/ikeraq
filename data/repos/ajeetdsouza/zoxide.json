@@ -27,8 +27,8 @@
     "z",
     "zsh"
   ],
-  "stars": 39131,
-  "forks": 884,
+  "stars": 39149,
+  "forks": 885,
   "watchers": null,
   "open_issues": 141,
   "created_at": "2020-03-05T13:11:40Z",
@@ -45,10 +45,10 @@
   "category": "dev-tool",
   "flags": [],
   "usability_score": 100,
-  "snapshot_days": 3,
+  "snapshot_days": 4,
   "is_indexable": false,
   "first_seen_at": "2026-09-01T00:26:13.031Z",
   "tracking_tier": "hot",
-  "last_fetched_date": "2026-09-03",
+  "last_fetched_date": "2026-09-04",
   "stars_stagnant_days": 0
 }

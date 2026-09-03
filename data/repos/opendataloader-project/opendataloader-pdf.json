@@ -27,10 +27,10 @@
     "tables",
     "tagged-pdf"
   ],
-  "stars": 28902,
-  "forks": 2759,
+  "stars": 28923,
+  "forks": 2762,
   "watchers": null,
-  "open_issues": 88,
+  "open_issues": 89,
   "created_at": "2025-05-13T05:48:02Z",
   "pushed_at": "2026-09-01T06:03:00Z",
   "is_archived": false,
@@ -45,10 +45,10 @@
   "category": "llm",
   "flags": [],
   "usability_score": 100,
-  "snapshot_days": 1,
+  "snapshot_days": 2,
   "is_indexable": false,
   "first_seen_at": "2026-09-02T23:02:41.773Z",
   "tracking_tier": "hot",
-  "last_fetched_date": "2026-09-03",
+  "last_fetched_date": "2026-09-04",
   "stars_stagnant_days": 0
 }
