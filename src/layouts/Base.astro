@@ -74,12 +74,25 @@ const isCurrent = (href: string) => (href === '/' ? path === '/' : path.startsWi
 
     <link rel="alternate" type="application/rss+xml" title={siteName} href="/feed.xml" />
 
-    <!-- 表示より先に書体を取りに行かせる。日本語の書体は重いので、遅れると読み始めがずれる -->
+    <!--
+      表示より先に書体を取りに行かせる。日本語の書体は重いので、遅れると読み始めがずれる
+
+      ★ `display=optional` にしてある（`swap` ではない）。
+        `swap` だと、代替書体で一度描いてから本来の書体に差し替わる。日本語の書体は重く、
+        差し替わった瞬間にページ全体の行の高さが変わって、読んでいる場所が飛ぶ。
+        Cloudflare の Web Analytics で CLS の「悪い」が70%あり、原因の要素として
+        一覧の記事ブロック（`article.clickable`）が挙がっていた。これがその正体。
+
+        `optional` は「間に合わなければ今回は代替書体のままにする」という指定で、
+        途中の差し替えが起きない＝ズレない。取得した書体は次のページから使われる。
+        代わりに、初めて来た人の1ページ目だけ代替書体で出ることがある。
+        読みやすさ（文字が飛ばない）を、書体の見た目より優先した。
+    -->
     <link rel="preconnect" href="https://fonts.googleapis.com" />
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
     <link
       rel="stylesheet"
-      href="https://fonts.googleapis.com/css2?family=Newsreader:opsz,wght@6..72,400;6..72,500&family=Zen+Kaku+Gothic+New:wght@400;500;700&family=JetBrains+Mono:wght@400;500;600&display=swap"
+      href="https://fonts.googleapis.com/css2?family=Newsreader:opsz,wght@6..72,400;6..72,500&family=Zen+Kaku+Gothic+New:wght@400;500;700&family=JetBrains+Mono:wght@400;500;600&display=optional"
     />
 
     <slot name="head" />
