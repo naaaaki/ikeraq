@@ -11,3 +11,6 @@ dist/
 # デザインの生成物。元ファイル（.dc.html / canvas.json）だけを追跡する
 design/preview/
 design/*-design.html
+
+# 作業報告。サイトの中身ではないので追跡しない
+workreport/
