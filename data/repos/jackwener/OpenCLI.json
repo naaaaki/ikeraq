@@ -14,10 +14,10 @@
     "cli",
     "playwright"
   ],
-  "stars": 28948,
-  "forks": 2837,
+  "stars": 28974,
+  "forks": 2844,
   "watchers": null,
-  "open_issues": 225,
+  "open_issues": 228,
   "created_at": "2026-03-14T22:10:23Z",
   "pushed_at": "2026-08-30T17:36:26Z",
   "is_archived": false,
@@ -32,10 +32,10 @@
   "category": "ai-agent",
   "flags": [],
   "usability_score": 100,
-  "snapshot_days": 2,
+  "snapshot_days": 3,
   "is_indexable": false,
   "first_seen_at": "2026-09-02T23:02:41.773Z",
   "tracking_tier": "hot",
-  "last_fetched_date": "2026-09-04",
+  "last_fetched_date": "2026-09-05",
   "stars_stagnant_days": 0
 }

@@ -21,10 +21,10 @@
     "task-runner",
     "task-scheduler"
   ],
-  "stars": 28854,
-  "forks": 5148,
+  "stars": 28860,
+  "forks": 5149,
   "watchers": null,
-  "open_issues": 742,
+  "open_issues": 746,
   "created_at": "2009-04-24T11:31:24Z",
   "pushed_at": "2026-09-03T22:13:17Z",
   "is_archived": false,
@@ -39,10 +39,10 @@
   "category": "other",
   "flags": [],
   "usability_score": 100,
-  "snapshot_days": 2,
+  "snapshot_days": 3,
   "is_indexable": false,
   "first_seen_at": "2026-09-02T23:02:41.773Z",
   "tracking_tier": "hot",
-  "last_fetched_date": "2026-09-04",
-  "stars_stagnant_days": 1
+  "last_fetched_date": "2026-09-05",
+  "stars_stagnant_days": 0
 }

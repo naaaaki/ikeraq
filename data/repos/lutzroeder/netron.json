@@ -23,12 +23,12 @@
     "tensorflow-lite",
     "visualizer"
   ],
-  "stars": 33433,
-  "forks": 3181,
+  "stars": 33439,
+  "forks": 3184,
   "watchers": null,
   "open_issues": 18,
   "created_at": "2010-12-26T12:53:43Z",
-  "pushed_at": "2026-09-03T19:55:00Z",
+  "pushed_at": "2026-09-04T16:43:25Z",
   "is_archived": false,
   "license_spdx": "MIT",
   "license_category": "permissive",
@@ -41,10 +41,10 @@
   "category": "learning",
   "flags": [],
   "usability_score": 100,
-  "snapshot_days": 3,
+  "snapshot_days": 4,
   "is_indexable": false,
   "first_seen_at": "2026-09-01T23:05:22.650Z",
   "tracking_tier": "hot",
-  "last_fetched_date": "2026-09-04",
+  "last_fetched_date": "2026-09-05",
   "stars_stagnant_days": 0
 }

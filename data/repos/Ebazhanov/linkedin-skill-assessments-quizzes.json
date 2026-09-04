@@ -26,9 +26,9 @@
     "quiz-questions",
     "skills"
   ],
-  "stars": 28814,
-  "forks": 12896,
-  "watchers": null,
+  "stars": 28815,
+  "forks": 12895,
+  "watchers": 355,
   "open_issues": 20,
   "created_at": "2019-07-13T19:52:56Z",
   "pushed_at": "2026-08-29T17:24:40Z",
@@ -50,10 +50,10 @@
     }
   ],
   "usability_score": 85,
-  "snapshot_days": 2,
+  "snapshot_days": 3,
   "is_indexable": true,
   "first_seen_at": "2026-09-02T23:02:41.773Z",
   "tracking_tier": "hot",
-  "last_fetched_date": "2026-09-04",
+  "last_fetched_date": "2026-09-05",
   "stars_stagnant_days": 0
 }

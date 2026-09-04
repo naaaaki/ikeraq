@@ -21,12 +21,12 @@
     "vue3",
     "vuex"
   ],
-  "stars": 33356,
+  "stars": 33362,
   "forks": 8949,
   "watchers": null,
-  "open_issues": 68,
+  "open_issues": 71,
   "created_at": "2020-07-11T02:29:21Z",
-  "pushed_at": "2026-09-03T19:25:32Z",
+  "pushed_at": "2026-09-04T19:33:29Z",
   "is_archived": false,
   "license_spdx": "MIT",
   "license_category": "permissive",
@@ -39,10 +39,10 @@
   "category": "web-frontend",
   "flags": [],
   "usability_score": 100,
-  "snapshot_days": 3,
+  "snapshot_days": 4,
   "is_indexable": false,
   "first_seen_at": "2026-09-01T23:05:22.650Z",
   "tracking_tier": "hot",
-  "last_fetched_date": "2026-09-04",
+  "last_fetched_date": "2026-09-05",
   "stars_stagnant_days": 0
 }

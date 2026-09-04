@@ -14,12 +14,12 @@
     "version-manager",
     "windows"
   ],
-  "stars": 47554,
+  "stars": 47561,
   "forks": 3886,
   "watchers": null,
-  "open_issues": 4,
+  "open_issues": 3,
   "created_at": "2014-09-20T16:37:28Z",
-  "pushed_at": "2026-09-03T19:15:43Z",
+  "pushed_at": "2026-09-04T20:39:46Z",
   "is_archived": false,
   "license_spdx": null,
   "license_category": "none",
@@ -38,10 +38,10 @@
     }
   ],
   "usability_score": 60,
-  "snapshot_days": 5,
+  "snapshot_days": 6,
   "is_indexable": true,
   "first_seen_at": "2026-08-30T23:15:18.749Z",
   "tracking_tier": "hot",
-  "last_fetched_date": "2026-09-04",
+  "last_fetched_date": "2026-09-05",
   "stars_stagnant_days": 0
 }

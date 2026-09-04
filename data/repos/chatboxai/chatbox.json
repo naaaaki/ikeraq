@@ -19,12 +19,12 @@
     "ollama",
     "openai"
   ],
-  "stars": 41633,
-  "forks": 4224,
+  "stars": 41643,
+  "forks": 4225,
   "watchers": null,
-  "open_issues": 1262,
+  "open_issues": 1263,
   "created_at": "2023-03-06T12:22:15Z",
-  "pushed_at": "2026-09-02T12:30:47Z",
+  "pushed_at": "2026-09-04T01:49:58Z",
   "is_archived": false,
   "license_spdx": "GPL-3.0",
   "license_category": "strong-copyleft",
@@ -43,10 +43,10 @@
     }
   ],
   "usability_score": 85,
-  "snapshot_days": 4,
+  "snapshot_days": 5,
   "is_indexable": true,
   "first_seen_at": "2026-09-01T00:26:13.031Z",
   "tracking_tier": "hot",
-  "last_fetched_date": "2026-09-04",
-  "stars_stagnant_days": 1
+  "last_fetched_date": "2026-09-05",
+  "stars_stagnant_days": 0
 }

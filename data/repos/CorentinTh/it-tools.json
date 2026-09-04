@@ -18,8 +18,8 @@
     "vuejs",
     "website"
   ],
-  "stars": 40459,
-  "forks": 5384,
+  "stars": 40478,
+  "forks": 5389,
   "watchers": 171,
   "open_issues": 817,
   "created_at": "2020-04-05T11:50:24Z",
@@ -42,10 +42,10 @@
     }
   ],
   "usability_score": 85,
-  "snapshot_days": 4,
+  "snapshot_days": 5,
   "is_indexable": true,
   "first_seen_at": "2026-09-01T00:26:13.031Z",
   "tracking_tier": "hot",
-  "last_fetched_date": "2026-09-04",
+  "last_fetched_date": "2026-09-05",
   "stars_stagnant_days": 0
 }

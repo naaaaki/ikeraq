@@ -26,10 +26,10 @@
     "stl-containers",
     "ubjson"
   ],
-  "stars": 50524,
-  "forks": 7488,
+  "stars": 50541,
+  "forks": 7493,
   "watchers": null,
-  "open_issues": 144,
+  "open_issues": 147,
   "created_at": "2013-07-04T08:47:49Z",
   "pushed_at": "2026-09-03T18:36:04Z",
   "is_archived": false,
@@ -44,10 +44,10 @@
   "category": "other",
   "flags": [],
   "usability_score": 100,
-  "snapshot_days": 5,
+  "snapshot_days": 6,
   "is_indexable": false,
   "first_seen_at": "2026-08-30T23:15:18.749Z",
   "tracking_tier": "hot",
-  "last_fetched_date": "2026-09-04",
+  "last_fetched_date": "2026-09-05",
   "stars_stagnant_days": 0
 }

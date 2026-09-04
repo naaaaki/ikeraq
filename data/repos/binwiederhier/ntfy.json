@@ -14,10 +14,10 @@
     "push-notifications",
     "rest-api"
   ],
-  "stars": 33994,
+  "stars": 34017,
   "forks": 1584,
   "watchers": null,
-  "open_issues": 379,
+  "open_issues": 380,
   "created_at": "2021-10-23T19:25:32Z",
   "pushed_at": "2026-09-02T23:26:39Z",
   "is_archived": false,
@@ -32,10 +32,10 @@
   "category": "backend",
   "flags": [],
   "usability_score": 100,
-  "snapshot_days": 3,
+  "snapshot_days": 4,
   "is_indexable": false,
   "first_seen_at": "2026-09-01T23:05:22.650Z",
   "tracking_tier": "hot",
-  "last_fetched_date": "2026-09-04",
+  "last_fetched_date": "2026-09-05",
   "stars_stagnant_days": 0
 }

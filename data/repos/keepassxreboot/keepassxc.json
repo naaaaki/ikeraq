@@ -19,12 +19,12 @@
     "windows",
     "yubikey"
   ],
-  "stars": 28669,
-  "forks": 1900,
+  "stars": 28684,
+  "forks": 1903,
   "watchers": null,
   "open_issues": 908,
   "created_at": "2016-02-28T15:52:40Z",
-  "pushed_at": "2026-09-03T15:32:22Z",
+  "pushed_at": "2026-09-04T10:28:50Z",
   "is_archived": false,
   "license_spdx": "NOASSERTION",
   "license_category": "unknown",
@@ -37,10 +37,10 @@
   "category": "security",
   "flags": [],
   "usability_score": 100,
-  "snapshot_days": 2,
+  "snapshot_days": 3,
   "is_indexable": false,
   "first_seen_at": "2026-09-02T23:02:41.773Z",
   "tracking_tier": "hot",
-  "last_fetched_date": "2026-09-04",
+  "last_fetched_date": "2026-09-05",
   "stars_stagnant_days": 0
 }

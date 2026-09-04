@@ -13,10 +13,10 @@
     "kubernetes",
     "minikube"
   ],
-  "stars": 32098,
-  "forks": 5312,
+  "stars": 32099,
+  "forks": 5313,
   "watchers": null,
-  "open_issues": 560,
+  "open_issues": 562,
   "created_at": "2016-04-15T22:38:35Z",
   "pushed_at": "2026-09-03T10:33:52Z",
   "is_archived": false,
@@ -31,10 +31,10 @@
   "category": "infra",
   "flags": [],
   "usability_score": 100,
-  "snapshot_days": 3,
+  "snapshot_days": 4,
   "is_indexable": false,
   "first_seen_at": "2026-09-01T23:05:22.650Z",
   "tracking_tier": "hot",
-  "last_fetched_date": "2026-09-04",
+  "last_fetched_date": "2026-09-05",
   "stars_stagnant_days": 0
 }

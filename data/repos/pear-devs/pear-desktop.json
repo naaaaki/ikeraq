@@ -18,12 +18,12 @@
     "node",
     "windows"
   ],
-  "stars": 33357,
+  "stars": 33365,
   "forks": 1973,
   "watchers": null,
-  "open_issues": 665,
+  "open_issues": 668,
   "created_at": "2019-04-19T18:14:40Z",
-  "pushed_at": "2026-09-03T14:37:36Z",
+  "pushed_at": "2026-09-03T23:52:23Z",
   "is_archived": false,
   "license_spdx": "MIT",
   "license_category": "permissive",
@@ -36,10 +36,10 @@
   "category": "other",
   "flags": [],
   "usability_score": 100,
-  "snapshot_days": 3,
+  "snapshot_days": 4,
   "is_indexable": false,
   "first_seen_at": "2026-09-01T23:05:22.650Z",
   "tracking_tier": "hot",
-  "last_fetched_date": "2026-09-04",
+  "last_fetched_date": "2026-09-05",
   "stars_stagnant_days": 0
 }

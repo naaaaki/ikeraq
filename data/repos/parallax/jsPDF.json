@@ -8,7 +8,7 @@
   "topics": [
     "hacktoberfest"
   ],
-  "stars": 31299,
+  "stars": 31297,
   "forks": 4797,
   "watchers": null,
   "open_issues": 114,
@@ -26,10 +26,10 @@
   "category": "other",
   "flags": [],
   "usability_score": 100,
-  "snapshot_days": 3,
+  "snapshot_days": 4,
   "is_indexable": false,
   "first_seen_at": "2026-09-01T23:05:22.650Z",
   "tracking_tier": "hot",
-  "last_fetched_date": "2026-09-04",
-  "stars_stagnant_days": 0
+  "last_fetched_date": "2026-09-05",
+  "stars_stagnant_days": 1
 }

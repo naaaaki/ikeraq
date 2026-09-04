@@ -24,12 +24,12 @@
     "uppy",
     "webbrowser"
   ],
-  "stars": 30958,
+  "stars": 30962,
   "forks": 2108,
   "watchers": null,
-  "open_issues": 186,
+  "open_issues": 182,
   "created_at": "2015-11-16T12:32:33Z",
-  "pushed_at": "2026-09-03T22:25:57Z",
+  "pushed_at": "2026-09-04T12:03:41Z",
   "is_archived": false,
   "license_spdx": "MIT",
   "license_category": "permissive",
@@ -42,10 +42,10 @@
   "category": "other",
   "flags": [],
   "usability_score": 100,
-  "snapshot_days": 3,
+  "snapshot_days": 4,
   "is_indexable": false,
   "first_seen_at": "2026-09-01T23:05:22.650Z",
   "tracking_tier": "hot",
-  "last_fetched_date": "2026-09-04",
+  "last_fetched_date": "2026-09-05",
   "stars_stagnant_days": 0
 }

@@ -17,8 +17,8 @@
     "system-design",
     "system-design-interview"
   ],
-  "stars": 28431,
-  "forks": 3680,
+  "stars": 28449,
+  "forks": 3681,
   "watchers": null,
   "open_issues": 0,
   "created_at": "2024-02-15T12:36:21Z",
@@ -35,10 +35,10 @@
   "category": "web-frontend",
   "flags": [],
   "usability_score": 100,
-  "snapshot_days": 2,
+  "snapshot_days": 3,
   "is_indexable": false,
   "first_seen_at": "2026-09-02T23:02:41.773Z",
   "tracking_tier": "hot",
-  "last_fetched_date": "2026-09-04",
+  "last_fetched_date": "2026-09-05",
   "stars_stagnant_days": 0
 }

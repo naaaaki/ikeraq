@@ -16,8 +16,8 @@
     "virtual-machines",
     "vm"
   ],
-  "stars": 35338,
-  "forks": 1805,
+  "stars": 35351,
+  "forks": 1807,
   "watchers": null,
   "open_issues": 1109,
   "created_at": "2019-04-12T16:09:24Z",
@@ -34,10 +34,10 @@
   "category": "mobile",
   "flags": [],
   "usability_score": 100,
-  "snapshot_days": 4,
+  "snapshot_days": 5,
   "is_indexable": false,
   "first_seen_at": "2026-09-01T00:26:13.032Z",
   "tracking_tier": "hot",
-  "last_fetched_date": "2026-09-04",
+  "last_fetched_date": "2026-09-05",
   "stars_stagnant_days": 0
 }

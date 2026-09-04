@@ -21,8 +21,8 @@
     "typeorm",
     "typescript"
   ],
-  "stars": 36646,
-  "forks": 6662,
+  "stars": 36649,
+  "forks": 6664,
   "watchers": null,
   "open_issues": 625,
   "created_at": "2016-02-29T07:41:14Z",
@@ -39,10 +39,10 @@
   "category": "data",
   "flags": [],
   "usability_score": 100,
-  "snapshot_days": 4,
+  "snapshot_days": 5,
   "is_indexable": false,
   "first_seen_at": "2026-09-01T00:26:13.032Z",
   "tracking_tier": "hot",
-  "last_fetched_date": "2026-09-04",
+  "last_fetched_date": "2026-09-05",
   "stars_stagnant_days": 0
 }

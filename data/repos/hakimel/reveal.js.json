@@ -10,8 +10,8 @@
     "slides",
     "slideshow"
   ],
-  "stars": 72252,
-  "forks": 16984,
+  "stars": 72253,
+  "forks": 16986,
   "watchers": 1622,
   "open_issues": 911,
   "created_at": "2011-06-07T18:54:22Z",
@@ -28,10 +28,10 @@
   "category": "other",
   "flags": [],
   "usability_score": 100,
-  "snapshot_days": 6,
-  "is_indexable": false,
+  "snapshot_days": 7,
+  "is_indexable": true,
   "first_seen_at": "2026-08-29T23:02:08.747Z",
   "tracking_tier": "hot",
-  "last_fetched_date": "2026-09-04",
+  "last_fetched_date": "2026-09-05",
   "stars_stagnant_days": 0
 }

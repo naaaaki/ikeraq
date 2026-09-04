@@ -24,12 +24,12 @@
     "svg",
     "tailwindcss"
   ],
-  "stars": 39346,
-  "forks": 3218,
+  "stars": 39350,
+  "forks": 3219,
   "watchers": null,
   "open_issues": 239,
   "created_at": "2023-07-16T17:09:20Z",
-  "pushed_at": "2026-09-03T20:25:43Z",
+  "pushed_at": "2026-09-04T20:18:59Z",
   "is_archived": false,
   "license_spdx": "AGPL-3.0",
   "license_category": "strong-copyleft",
@@ -48,10 +48,10 @@
     }
   ],
   "usability_score": 85,
-  "snapshot_days": 4,
+  "snapshot_days": 5,
   "is_indexable": true,
   "first_seen_at": "2026-09-01T00:26:13.031Z",
   "tracking_tier": "hot",
-  "last_fetched_date": "2026-09-04",
+  "last_fetched_date": "2026-09-05",
   "stars_stagnant_days": 0
 }

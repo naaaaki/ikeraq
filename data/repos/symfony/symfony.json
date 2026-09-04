@@ -14,12 +14,12 @@
     "symfony",
     "symfony-bundle"
   ],
-  "stars": 31143,
+  "stars": 31144,
   "forks": 9863,
   "watchers": null,
-  "open_issues": 188,
+  "open_issues": 172,
   "created_at": "2010-01-04T14:21:21Z",
-  "pushed_at": "2026-09-03T19:40:36Z",
+  "pushed_at": "2026-09-04T12:29:45Z",
   "is_archived": false,
   "license_spdx": "MIT",
   "license_category": "permissive",
@@ -32,10 +32,10 @@
   "category": "backend",
   "flags": [],
   "usability_score": 100,
-  "snapshot_days": 3,
+  "snapshot_days": 4,
   "is_indexable": false,
   "first_seen_at": "2026-09-01T23:05:22.650Z",
   "tracking_tier": "hot",
-  "last_fetched_date": "2026-09-04",
-  "stars_stagnant_days": 1
+  "last_fetched_date": "2026-09-05",
+  "stars_stagnant_days": 0
 }

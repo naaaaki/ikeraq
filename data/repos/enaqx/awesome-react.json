@@ -17,12 +17,12 @@
     "tutorial",
     "typescript"
   ],
-  "stars": 74479,
-  "forks": 7629,
+  "stars": 74490,
+  "forks": 7627,
   "watchers": null,
-  "open_issues": 43,
+  "open_issues": 2,
   "created_at": "2014-08-06T05:31:44Z",
-  "pushed_at": "2026-09-03T21:56:36Z",
+  "pushed_at": "2026-09-04T01:13:20Z",
   "is_archived": false,
   "license_spdx": null,
   "license_category": "none",
@@ -41,10 +41,10 @@
     }
   ],
   "usability_score": 60,
-  "snapshot_days": 1,
+  "snapshot_days": 2,
   "is_indexable": true,
   "first_seen_at": "2026-09-03T23:03:15.574Z",
   "tracking_tier": "hot",
-  "last_fetched_date": "2026-09-04",
+  "last_fetched_date": "2026-09-05",
   "stars_stagnant_days": 0
 }

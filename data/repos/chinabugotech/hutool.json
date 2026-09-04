@@ -14,12 +14,12 @@
     "tool",
     "util"
   ],
-  "stars": 30267,
+  "stars": 30266,
   "forks": 7577,
   "watchers": null,
   "open_issues": 5,
   "created_at": "2014-04-13T07:23:51Z",
-  "pushed_at": "2026-09-01T07:30:33Z",
+  "pushed_at": "2026-09-04T03:13:30Z",
   "is_archived": false,
   "license_spdx": "MulanPSL-2.0",
   "license_category": "unknown",
@@ -32,10 +32,10 @@
   "category": "backend",
   "flags": [],
   "usability_score": 100,
-  "snapshot_days": 2,
+  "snapshot_days": 3,
   "is_indexable": false,
   "first_seen_at": "2026-09-02T23:02:41.773Z",
   "tracking_tier": "hot",
-  "last_fetched_date": "2026-09-04",
-  "stars_stagnant_days": 0
+  "last_fetched_date": "2026-09-05",
+  "stars_stagnant_days": 1
 }

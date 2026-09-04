@@ -27,10 +27,10 @@
     "threat-hunting",
     "threat-intelligence"
   ],
-  "stars": 32116,
-  "forks": 3874,
+  "stars": 32177,
+  "forks": 3883,
   "watchers": null,
-  "open_issues": 51,
+  "open_issues": 45,
   "created_at": "2026-02-25T09:47:50Z",
   "pushed_at": "2026-08-31T04:32:44Z",
   "is_archived": false,
@@ -45,10 +45,10 @@
   "category": "ai-agent",
   "flags": [],
   "usability_score": 100,
-  "snapshot_days": 3,
+  "snapshot_days": 4,
   "is_indexable": false,
   "first_seen_at": "2026-09-01T23:05:22.650Z",
   "tracking_tier": "hot",
-  "last_fetched_date": "2026-09-04",
+  "last_fetched_date": "2026-09-05",
   "stars_stagnant_days": 0
 }

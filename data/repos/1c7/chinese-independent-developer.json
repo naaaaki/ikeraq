@@ -10,7 +10,7 @@
     "indie",
     "indie-developer"
   ],
-  "stars": 61235,
+  "stars": 61244,
   "forks": 5359,
   "watchers": null,
   "open_issues": 3,
@@ -34,10 +34,10 @@
     }
   ],
   "usability_score": 60,
-  "snapshot_days": 6,
+  "snapshot_days": 7,
   "is_indexable": true,
   "first_seen_at": "2026-08-29T23:02:08.747Z",
   "tracking_tier": "hot",
-  "last_fetched_date": "2026-09-04",
+  "last_fetched_date": "2026-09-05",
   "stars_stagnant_days": 0
 }

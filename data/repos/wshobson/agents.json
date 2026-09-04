@@ -27,10 +27,10 @@
     "prompt-engineering",
     "subagents"
   ],
-  "stars": 39390,
-  "forks": 4200,
+  "stars": 39419,
+  "forks": 4203,
   "watchers": null,
-  "open_issues": 2,
+  "open_issues": 3,
   "created_at": "2025-07-24T23:28:14Z",
   "pushed_at": "2026-09-01T22:36:25Z",
   "is_archived": false,
@@ -45,10 +45,10 @@
   "category": "ai-agent",
   "flags": [],
   "usability_score": 100,
-  "snapshot_days": 4,
+  "snapshot_days": 5,
   "is_indexable": false,
   "first_seen_at": "2026-09-01T00:26:13.031Z",
   "tracking_tier": "hot",
-  "last_fetched_date": "2026-09-04",
+  "last_fetched_date": "2026-09-05",
   "stars_stagnant_days": 0
 }

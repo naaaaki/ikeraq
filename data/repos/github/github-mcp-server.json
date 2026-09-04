@@ -10,10 +10,10 @@
     "mcp",
     "mcp-server"
   ],
-  "stars": 32687,
-  "forks": 4892,
+  "stars": 32715,
+  "forks": 4900,
   "watchers": null,
-  "open_issues": 310,
+  "open_issues": 311,
   "created_at": "2025-03-04T16:42:04Z",
   "pushed_at": "2026-09-03T13:57:12Z",
   "is_archived": false,
@@ -28,10 +28,10 @@
   "category": "ai-agent",
   "flags": [],
   "usability_score": 100,
-  "snapshot_days": 3,
+  "snapshot_days": 4,
   "is_indexable": false,
   "first_seen_at": "2026-09-01T23:05:22.650Z",
   "tracking_tier": "hot",
-  "last_fetched_date": "2026-09-04",
+  "last_fetched_date": "2026-09-05",
   "stars_stagnant_days": 0
 }

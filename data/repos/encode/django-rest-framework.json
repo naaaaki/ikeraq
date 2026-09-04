@@ -11,7 +11,7 @@
     "python",
     "rest"
   ],
-  "stars": 30156,
+  "stars": 30157,
   "forks": 7085,
   "watchers": null,
   "open_issues": 58,
@@ -29,10 +29,10 @@
   "category": "backend",
   "flags": [],
   "usability_score": 100,
-  "snapshot_days": 2,
+  "snapshot_days": 3,
   "is_indexable": false,
   "first_seen_at": "2026-09-02T23:02:41.773Z",
   "tracking_tier": "hot",
-  "last_fetched_date": "2026-09-04",
+  "last_fetched_date": "2026-09-05",
   "stars_stagnant_days": 0
 }

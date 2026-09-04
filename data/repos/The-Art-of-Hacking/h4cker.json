@@ -27,10 +27,10 @@
     "vulnerability-identification",
     "vulnerability-management"
   ],
-  "stars": 29262,
-  "forks": 5347,
+  "stars": 29277,
+  "forks": 5352,
   "watchers": null,
-  "open_issues": 2,
+  "open_issues": 3,
   "created_at": "2017-06-19T17:11:19Z",
   "pushed_at": "2026-09-03T02:30:07Z",
   "is_archived": false,
@@ -45,10 +45,10 @@
   "category": "security",
   "flags": [],
   "usability_score": 100,
-  "snapshot_days": 2,
+  "snapshot_days": 3,
   "is_indexable": false,
   "first_seen_at": "2026-09-02T23:02:41.773Z",
   "tracking_tier": "hot",
-  "last_fetched_date": "2026-09-04",
+  "last_fetched_date": "2026-09-05",
   "stars_stagnant_days": 0
 }

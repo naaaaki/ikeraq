@@ -11,8 +11,8 @@
     "graphics",
     "javascript-applications"
   ],
-  "stars": 62923,
-  "forks": 5759,
+  "stars": 62941,
+  "forks": 5760,
   "watchers": null,
   "open_issues": 4,
   "created_at": "2017-05-25T20:58:42Z",
@@ -29,10 +29,10 @@
   "category": "game",
   "flags": [],
   "usability_score": 100,
-  "snapshot_days": 6,
-  "is_indexable": false,
+  "snapshot_days": 7,
+  "is_indexable": true,
   "first_seen_at": "2026-08-29T23:02:08.747Z",
   "tracking_tier": "hot",
-  "last_fetched_date": "2026-09-04",
+  "last_fetched_date": "2026-09-05",
   "stars_stagnant_days": 0
 }

@@ -12,12 +12,12 @@
     "poetry",
     "python"
   ],
-  "stars": 34296,
+  "stars": 34299,
   "forks": 2483,
   "watchers": null,
-  "open_issues": 571,
+  "open_issues": 567,
   "created_at": "2018-02-28T15:23:47Z",
-  "pushed_at": "2026-08-31T21:52:35Z",
+  "pushed_at": "2026-09-04T16:11:04Z",
   "is_archived": false,
   "license_spdx": "MIT",
   "license_category": "permissive",
@@ -30,10 +30,10 @@
   "category": "dev-tool",
   "flags": [],
   "usability_score": 100,
-  "snapshot_days": 3,
+  "snapshot_days": 4,
   "is_indexable": false,
   "first_seen_at": "2026-09-01T23:05:22.650Z",
   "tracking_tier": "hot",
-  "last_fetched_date": "2026-09-04",
+  "last_fetched_date": "2026-09-05",
   "stars_stagnant_days": 0
 }

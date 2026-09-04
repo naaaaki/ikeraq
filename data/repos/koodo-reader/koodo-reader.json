@@ -25,8 +25,8 @@
     "txt",
     "xml"
   ],
-  "stars": 28059,
-  "forks": 2095,
+  "stars": 28065,
+  "forks": 2098,
   "watchers": null,
   "open_issues": 271,
   "created_at": "2020-03-05T02:18:30Z",
@@ -49,10 +49,10 @@
     }
   ],
   "usability_score": 85,
-  "snapshot_days": 2,
+  "snapshot_days": 3,
   "is_indexable": true,
   "first_seen_at": "2026-09-02T23:02:41.773Z",
   "tracking_tier": "hot",
-  "last_fetched_date": "2026-09-04",
+  "last_fetched_date": "2026-09-05",
   "stars_stagnant_days": 0
 }

@@ -14,11 +14,11 @@
     "vuejs"
   ],
   "stars": 27732,
-  "forks": 19839,
+  "forks": 19837,
   "watchers": null,
-  "open_issues": 1181,
+  "open_issues": 1151,
   "created_at": "2020-07-21T06:51:19Z",
-  "pushed_at": "2026-09-03T12:31:56Z",
+  "pushed_at": "2026-09-04T02:52:06Z",
   "is_archived": false,
   "license_spdx": "MIT",
   "license_category": "permissive",
@@ -31,10 +31,10 @@
   "category": "web-frontend",
   "flags": [],
   "usability_score": 100,
-  "snapshot_days": 2,
+  "snapshot_days": 3,
   "is_indexable": false,
   "first_seen_at": "2026-09-02T23:02:41.773Z",
   "tracking_tier": "hot",
-  "last_fetched_date": "2026-09-04",
-  "stars_stagnant_days": 0
+  "last_fetched_date": "2026-09-05",
+  "stars_stagnant_days": 1
 }

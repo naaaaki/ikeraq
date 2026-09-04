@@ -15,7 +15,7 @@
     "tftp-server",
     "webdav-server"
   ],
-  "stars": 46493,
+  "stars": 46513,
   "forks": 1897,
   "watchers": null,
   "open_issues": 255,
@@ -33,10 +33,10 @@
   "category": "web-frontend",
   "flags": [],
   "usability_score": 100,
-  "snapshot_days": 4,
+  "snapshot_days": 5,
   "is_indexable": false,
   "first_seen_at": "2026-09-01T00:26:13.031Z",
   "tracking_tier": "hot",
-  "last_fetched_date": "2026-09-04",
+  "last_fetched_date": "2026-09-05",
   "stars_stagnant_days": 0
 }

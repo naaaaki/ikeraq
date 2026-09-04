@@ -19,11 +19,11 @@
     "typescript-parser"
   ],
   "stars": 34195,
-  "forks": 1552,
+  "forks": 1553,
   "watchers": null,
-  "open_issues": 416,
+  "open_issues": 417,
   "created_at": "2017-12-22T11:40:14Z",
-  "pushed_at": "2026-09-03T14:28:16Z",
+  "pushed_at": "2026-09-04T18:54:09Z",
   "is_archived": false,
   "license_spdx": "Apache-2.0",
   "license_category": "permissive",
@@ -36,10 +36,10 @@
   "category": "dev-tool",
   "flags": [],
   "usability_score": 100,
-  "snapshot_days": 3,
+  "snapshot_days": 4,
   "is_indexable": false,
   "first_seen_at": "2026-09-01T23:05:22.650Z",
   "tracking_tier": "hot",
-  "last_fetched_date": "2026-09-04",
-  "stars_stagnant_days": 0
+  "last_fetched_date": "2026-09-05",
+  "stars_stagnant_days": 1
 }

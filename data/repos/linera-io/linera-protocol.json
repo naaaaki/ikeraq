@@ -10,8 +10,8 @@
     "rust",
     "wasm"
   ],
-  "stars": 32144,
-  "forks": 2409,
+  "stars": 32145,
+  "forks": 2411,
   "watchers": null,
   "open_issues": 593,
   "created_at": "2021-12-19T04:09:21Z",
@@ -28,10 +28,10 @@
   "category": "other",
   "flags": [],
   "usability_score": 100,
-  "snapshot_days": 3,
+  "snapshot_days": 4,
   "is_indexable": false,
   "first_seen_at": "2026-09-01T23:05:22.650Z",
   "tracking_tier": "hot",
-  "last_fetched_date": "2026-09-04",
+  "last_fetched_date": "2026-09-05",
   "stars_stagnant_days": 0
 }
