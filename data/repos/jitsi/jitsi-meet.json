@@ -17,12 +17,12 @@
     "video-conferencing",
     "webrtc"
   ],
-  "stars": 29868,
-  "forks": 8022,
+  "stars": 29873,
+  "forks": 8021,
   "watchers": null,
   "open_issues": 143,
   "created_at": "2013-12-16T12:51:09Z",
-  "pushed_at": "2026-09-04T22:17:45Z",
+  "pushed_at": "2026-09-05T03:09:31Z",
   "is_archived": false,
   "license_spdx": "Apache-2.0",
   "license_category": "permissive",
@@ -35,10 +35,10 @@
   "category": "other",
   "flags": [],
   "usability_score": 100,
-  "snapshot_days": 3,
+  "snapshot_days": 4,
   "is_indexable": false,
   "first_seen_at": "2026-09-02T23:02:41.773Z",
   "tracking_tier": "hot",
-  "last_fetched_date": "2026-09-05",
+  "last_fetched_date": "2026-09-06",
   "stars_stagnant_days": 0
 }

@@ -11,10 +11,10 @@
     "electron",
     "mihomo"
   ],
-  "stars": 26258,
-  "forks": 2063,
+  "stars": 26271,
+  "forks": 2065,
   "watchers": null,
-  "open_issues": 264,
+  "open_issues": 267,
   "created_at": "2024-08-02T00:38:23Z",
   "pushed_at": "2026-09-03T13:47:31Z",
   "is_archived": false,
@@ -35,10 +35,10 @@
     }
   ],
   "usability_score": 85,
-  "snapshot_days": 2,
+  "snapshot_days": 3,
   "is_indexable": true,
   "first_seen_at": "2026-09-03T23:03:15.575Z",
   "tracking_tier": "hot",
-  "last_fetched_date": "2026-09-05",
+  "last_fetched_date": "2026-09-06",
   "stars_stagnant_days": 0
 }

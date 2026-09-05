@@ -18,10 +18,10 @@
     "seo-tools",
     "site-audit"
   ],
-  "stars": 17008,
-  "forks": 2115,
-  "watchers": 50,
-  "open_issues": 150,
+  "stars": 17268,
+  "forks": 2161,
+  "watchers": 51,
+  "open_issues": 147,
   "created_at": "2026-02-27T18:57:41Z",
   "pushed_at": "2026-09-03T15:54:34Z",
   "is_archived": false,
@@ -36,10 +36,10 @@
   "category": "ai-agent",
   "flags": [],
   "usability_score": 100,
-  "snapshot_days": 7,
+  "snapshot_days": 8,
   "is_indexable": true,
   "first_seen_at": "2026-08-29T23:02:08.146Z",
   "tracking_tier": "hot",
-  "last_fetched_date": "2026-09-05",
+  "last_fetched_date": "2026-09-06",
   "stars_stagnant_days": 0
 }

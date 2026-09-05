@@ -11,10 +11,10 @@
     "cli",
     "typescript"
   ],
-  "stars": 27020,
-  "forks": 11839,
+  "stars": 27019,
+  "forks": 11840,
   "watchers": null,
-  "open_issues": 259,
+  "open_issues": 260,
   "created_at": "2015-06-04T19:49:37Z",
   "pushed_at": "2026-09-04T17:17:18Z",
   "is_archived": false,
@@ -29,10 +29,10 @@
   "category": "dev-tool",
   "flags": [],
   "usability_score": 100,
-  "snapshot_days": 2,
+  "snapshot_days": 3,
   "is_indexable": false,
   "first_seen_at": "2026-09-03T23:03:15.575Z",
   "tracking_tier": "hot",
-  "last_fetched_date": "2026-09-05",
-  "stars_stagnant_days": 1
+  "last_fetched_date": "2026-09-06",
+  "stars_stagnant_days": 2
 }

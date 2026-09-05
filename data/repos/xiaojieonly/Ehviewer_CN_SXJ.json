@@ -22,10 +22,10 @@
     "java",
     "screenshot"
   ],
-  "stars": 26681,
-  "forks": 707,
+  "stars": 26710,
+  "forks": 708,
   "watchers": null,
-  "open_issues": 532,
+  "open_issues": 533,
   "created_at": "2020-11-09T06:14:31Z",
   "pushed_at": "2026-09-03T03:28:52Z",
   "is_archived": false,
@@ -40,10 +40,10 @@
   "category": "mobile",
   "flags": [],
   "usability_score": 100,
-  "snapshot_days": 2,
+  "snapshot_days": 3,
   "is_indexable": false,
   "first_seen_at": "2026-09-03T23:03:15.575Z",
   "tracking_tier": "hot",
-  "last_fetched_date": "2026-09-05",
+  "last_fetched_date": "2026-09-06",
   "stars_stagnant_days": 0
 }

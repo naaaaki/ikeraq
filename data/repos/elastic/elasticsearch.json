@@ -10,12 +10,12 @@
     "java",
     "search-engine"
   ],
-  "stars": 77892,
+  "stars": 77901,
   "forks": 26070,
   "watchers": null,
-  "open_issues": 6023,
+  "open_issues": 6035,
   "created_at": "2010-02-08T13:20:56Z",
-  "pushed_at": "2026-09-04T22:06:26Z",
+  "pushed_at": "2026-09-05T21:31:16Z",
   "is_archived": false,
   "license_spdx": "NOASSERTION",
   "license_category": "unknown",
@@ -28,10 +28,10 @@
   "category": "data",
   "flags": [],
   "usability_score": 100,
-  "snapshot_days": 7,
+  "snapshot_days": 8,
   "is_indexable": true,
   "first_seen_at": "2026-08-29T23:02:08.747Z",
   "tracking_tier": "hot",
-  "last_fetched_date": "2026-09-05",
+  "last_fetched_date": "2026-09-06",
   "stars_stagnant_days": 0
 }

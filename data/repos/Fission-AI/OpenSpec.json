@@ -17,10 +17,10 @@
     "spec-driven-development",
     "specification"
   ],
-  "stars": 67317,
-  "forks": 4629,
+  "stars": 67390,
+  "forks": 4637,
   "watchers": null,
-  "open_issues": 217,
+  "open_issues": 222,
   "created_at": "2025-08-05T10:37:45Z",
   "pushed_at": "2026-09-04T19:27:30Z",
   "is_archived": false,
@@ -35,10 +35,10 @@
   "category": "other",
   "flags": [],
   "usability_score": 100,
-  "snapshot_days": 7,
+  "snapshot_days": 8,
   "is_indexable": true,
   "first_seen_at": "2026-08-29T23:02:08.747Z",
   "tracking_tier": "hot",
-  "last_fetched_date": "2026-09-05",
+  "last_fetched_date": "2026-09-06",
   "stars_stagnant_days": 0
 }

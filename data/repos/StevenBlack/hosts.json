@@ -23,10 +23,10 @@
     "trojans",
     "unified-hosts"
   ],
-  "stars": 30994,
-  "forks": 2441,
+  "stars": 31001,
+  "forks": 2442,
   "watchers": null,
-  "open_issues": 155,
+  "open_issues": 156,
   "created_at": "2012-04-12T20:22:50Z",
   "pushed_at": "2026-09-04T13:43:50Z",
   "is_archived": false,
@@ -41,10 +41,10 @@
   "category": "security",
   "flags": [],
   "usability_score": 100,
-  "snapshot_days": 4,
+  "snapshot_days": 5,
   "is_indexable": false,
   "first_seen_at": "2026-09-01T23:05:22.650Z",
   "tracking_tier": "hot",
-  "last_fetched_date": "2026-09-05",
+  "last_fetched_date": "2026-09-06",
   "stars_stagnant_days": 0
 }

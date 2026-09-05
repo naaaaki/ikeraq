@@ -12,8 +12,8 @@
     "odm",
     "orm"
   ],
-  "stars": 27475,
-  "forks": 4036,
+  "stars": 27474,
+  "forks": 4035,
   "watchers": null,
   "open_issues": 170,
   "created_at": "2010-04-06T21:39:05Z",
@@ -30,10 +30,10 @@
   "category": "backend",
   "flags": [],
   "usability_score": 100,
-  "snapshot_days": 2,
+  "snapshot_days": 3,
   "is_indexable": false,
   "first_seen_at": "2026-09-03T23:03:15.575Z",
   "tracking_tier": "hot",
-  "last_fetched_date": "2026-09-05",
-  "stars_stagnant_days": 1
+  "last_fetched_date": "2026-09-06",
+  "stars_stagnant_days": 2
 }

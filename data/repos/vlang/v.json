@@ -11,12 +11,12 @@
     "programming-language",
     "v"
   ],
-  "stars": 37817,
-  "forks": 2268,
+  "stars": 37818,
+  "forks": 2270,
   "watchers": null,
-  "open_issues": 88,
+  "open_issues": 99,
   "created_at": "2019-02-08T02:57:06Z",
-  "pushed_at": "2026-09-04T22:49:12Z",
+  "pushed_at": "2026-09-05T22:22:10Z",
   "is_archived": false,
   "license_spdx": "MIT",
   "license_category": "permissive",
@@ -29,10 +29,10 @@
   "category": "dev-tool",
   "flags": [],
   "usability_score": 100,
-  "snapshot_days": 5,
+  "snapshot_days": 6,
   "is_indexable": false,
   "first_seen_at": "2026-09-01T00:26:13.031Z",
   "tracking_tier": "hot",
-  "last_fetched_date": "2026-09-05",
-  "stars_stagnant_days": 1
+  "last_fetched_date": "2026-09-06",
+  "stars_stagnant_days": 0
 }

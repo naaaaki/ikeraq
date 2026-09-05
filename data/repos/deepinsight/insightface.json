@@ -17,8 +17,8 @@
     "pytorch",
     "retinaface"
   ],
-  "stars": 29640,
-  "forks": 6084,
+  "stars": 29645,
+  "forks": 6085,
   "watchers": null,
   "open_issues": 1270,
   "created_at": "2017-09-01T00:36:51Z",
@@ -41,10 +41,10 @@
     }
   ],
   "usability_score": 60,
-  "snapshot_days": 2,
+  "snapshot_days": 3,
   "is_indexable": true,
   "first_seen_at": "2026-09-03T23:03:15.575Z",
   "tracking_tier": "hot",
-  "last_fetched_date": "2026-09-05",
+  "last_fetched_date": "2026-09-06",
   "stars_stagnant_days": 0
 }

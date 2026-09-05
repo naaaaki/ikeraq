@@ -19,8 +19,8 @@
     "windows-11",
     "winget"
   ],
-  "stars": 25988,
-  "forks": 917,
+  "stars": 26002,
+  "forks": 916,
   "watchers": null,
   "open_issues": 483,
   "created_at": "2021-06-15T12:57:58Z",
@@ -37,10 +37,10 @@
   "category": "dev-tool",
   "flags": [],
   "usability_score": 100,
-  "snapshot_days": 2,
+  "snapshot_days": 3,
   "is_indexable": false,
   "first_seen_at": "2026-09-03T23:03:15.575Z",
   "tracking_tier": "hot",
-  "last_fetched_date": "2026-09-05",
+  "last_fetched_date": "2026-09-06",
   "stars_stagnant_days": 0
 }

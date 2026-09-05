@@ -17,10 +17,10 @@
     "visual-studio",
     "windows"
   ],
-  "stars": 27435,
-  "forks": 7709,
+  "stars": 27438,
+  "forks": 7712,
   "watchers": null,
-  "open_issues": 1179,
+  "open_issues": 1184,
   "created_at": "2016-09-15T16:40:50Z",
   "pushed_at": "2026-09-04T06:31:25Z",
   "is_archived": false,
@@ -35,10 +35,10 @@
   "category": "other",
   "flags": [],
   "usability_score": 100,
-  "snapshot_days": 2,
+  "snapshot_days": 3,
   "is_indexable": false,
   "first_seen_at": "2026-09-03T23:03:15.575Z",
   "tracking_tier": "hot",
-  "last_fetched_date": "2026-09-05",
+  "last_fetched_date": "2026-09-06",
   "stars_stagnant_days": 0
 }

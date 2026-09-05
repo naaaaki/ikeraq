@@ -12,10 +12,10 @@
     "typescript",
     "vscode"
   ],
-  "stars": 46660,
-  "forks": 4119,
+  "stars": 46666,
+  "forks": 4120,
   "watchers": null,
-  "open_issues": 854,
+  "open_issues": 855,
   "created_at": "2016-06-07T16:56:31Z",
   "pushed_at": "2026-09-03T00:15:08Z",
   "is_archived": false,
@@ -30,10 +30,10 @@
   "category": "dev-tool",
   "flags": [],
   "usability_score": 100,
-  "snapshot_days": 6,
-  "is_indexable": false,
+  "snapshot_days": 7,
+  "is_indexable": true,
   "first_seen_at": "2026-08-30T23:15:18.749Z",
   "tracking_tier": "hot",
-  "last_fetched_date": "2026-09-05",
+  "last_fetched_date": "2026-09-06",
   "stars_stagnant_days": 0
 }

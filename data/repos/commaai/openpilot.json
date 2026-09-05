@@ -10,12 +10,12 @@
     "driver-assistance-systems",
     "robotics"
   ],
-  "stars": 63574,
-  "forks": 11332,
+  "stars": 63579,
+  "forks": 11336,
   "watchers": null,
   "open_issues": 142,
   "created_at": "2016-11-24T01:33:30Z",
-  "pushed_at": "2026-09-04T22:23:13Z",
+  "pushed_at": "2026-09-05T22:34:00Z",
   "is_archived": false,
   "license_spdx": "MIT",
   "license_category": "permissive",
@@ -28,10 +28,10 @@
   "category": "other",
   "flags": [],
   "usability_score": 100,
-  "snapshot_days": 7,
+  "snapshot_days": 8,
   "is_indexable": true,
   "first_seen_at": "2026-08-29T23:02:08.747Z",
   "tracking_tier": "hot",
-  "last_fetched_date": "2026-09-05",
+  "last_fetched_date": "2026-09-06",
   "stars_stagnant_days": 0
 }

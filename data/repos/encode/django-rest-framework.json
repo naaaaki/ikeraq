@@ -11,12 +11,12 @@
     "python",
     "rest"
   ],
-  "stars": 30157,
-  "forks": 7085,
+  "stars": 30163,
+  "forks": 7083,
   "watchers": null,
   "open_issues": 58,
   "created_at": "2011-03-02T17:13:56Z",
-  "pushed_at": "2026-09-03T16:07:55Z",
+  "pushed_at": "2026-09-05T10:56:10Z",
   "is_archived": false,
   "license_spdx": "NOASSERTION",
   "license_category": "unknown",
@@ -29,10 +29,10 @@
   "category": "backend",
   "flags": [],
   "usability_score": 100,
-  "snapshot_days": 3,
+  "snapshot_days": 4,
   "is_indexable": false,
   "first_seen_at": "2026-09-02T23:02:41.773Z",
   "tracking_tier": "hot",
-  "last_fetched_date": "2026-09-05",
+  "last_fetched_date": "2026-09-06",
   "stars_stagnant_days": 0
 }

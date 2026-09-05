@@ -11,8 +11,8 @@
     "flutter",
     "flutter-apps"
   ],
-  "stars": 90077,
-  "forks": 5020,
+  "stars": 90147,
+  "forks": 5023,
   "watchers": null,
   "open_issues": 1107,
   "created_at": "2022-12-16T00:46:07Z",
@@ -29,10 +29,10 @@
   "category": "mobile",
   "flags": [],
   "usability_score": 100,
-  "snapshot_days": 7,
+  "snapshot_days": 8,
   "is_indexable": true,
   "first_seen_at": "2026-08-29T15:46:21.821Z",
   "tracking_tier": "hot",
-  "last_fetched_date": "2026-09-05",
+  "last_fetched_date": "2026-09-06",
   "stars_stagnant_days": 0
 }

@@ -17,8 +17,8 @@
     "scraper",
     "selector"
   ],
-  "stars": 30475,
-  "forks": 1713,
+  "stars": 30477,
+  "forks": 1714,
   "watchers": null,
   "open_issues": 54,
   "created_at": "2011-10-09T04:23:20Z",
@@ -35,10 +35,10 @@
   "category": "other",
   "flags": [],
   "usability_score": 100,
-  "snapshot_days": 3,
+  "snapshot_days": 4,
   "is_indexable": false,
   "first_seen_at": "2026-09-02T23:02:41.773Z",
   "tracking_tier": "hot",
-  "last_fetched_date": "2026-09-05",
+  "last_fetched_date": "2026-09-06",
   "stars_stagnant_days": 0
 }

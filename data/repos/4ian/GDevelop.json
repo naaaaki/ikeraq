@@ -26,12 +26,12 @@
     "open-source",
     "vibe-coding"
   ],
-  "stars": 26205,
+  "stars": 26244,
   "forks": 1536,
   "watchers": null,
-  "open_issues": 630,
+  "open_issues": 629,
   "created_at": "2014-06-29T19:58:38Z",
-  "pushed_at": "2026-09-04T16:32:10Z",
+  "pushed_at": "2026-09-05T17:13:39Z",
   "is_archived": false,
   "license_spdx": "NOASSERTION",
   "license_category": "unknown",
@@ -44,10 +44,10 @@
   "category": "game",
   "flags": [],
   "usability_score": 100,
-  "snapshot_days": 2,
+  "snapshot_days": 3,
   "is_indexable": false,
   "first_seen_at": "2026-09-03T23:03:15.575Z",
   "tracking_tier": "hot",
-  "last_fetched_date": "2026-09-05",
+  "last_fetched_date": "2026-09-06",
   "stars_stagnant_days": 0
 }

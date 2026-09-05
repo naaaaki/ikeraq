@@ -11,8 +11,8 @@
     "vagrant",
     "virtualization"
   ],
-  "stars": 27205,
-  "forks": 4394,
+  "stars": 27206,
+  "forks": 4396,
   "watchers": null,
   "open_issues": 752,
   "created_at": "2010-01-21T08:34:27Z",
@@ -29,10 +29,10 @@
   "category": "dev-tool",
   "flags": [],
   "usability_score": 100,
-  "snapshot_days": 2,
+  "snapshot_days": 3,
   "is_indexable": false,
   "first_seen_at": "2026-09-03T23:03:15.575Z",
   "tracking_tier": "hot",
-  "last_fetched_date": "2026-09-05",
-  "stars_stagnant_days": 1
+  "last_fetched_date": "2026-09-06",
+  "stars_stagnant_days": 0
 }

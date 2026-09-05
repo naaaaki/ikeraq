@@ -16,10 +16,10 @@
     "multi-modal",
     "react-agent"
   ],
-  "stars": 30680,
-  "forks": 3447,
+  "stars": 30791,
+  "forks": 3453,
   "watchers": null,
-  "open_issues": 357,
+  "open_issues": 365,
   "created_at": "2024-01-12T03:41:59Z",
   "pushed_at": "2026-09-04T10:58:47Z",
   "is_archived": false,
@@ -34,10 +34,10 @@
   "category": "ai-agent",
   "flags": [],
   "usability_score": 100,
-  "snapshot_days": 3,
+  "snapshot_days": 4,
   "is_indexable": false,
   "first_seen_at": "2026-09-02T23:02:41.773Z",
   "tracking_tier": "hot",
-  "last_fetched_date": "2026-09-05",
+  "last_fetched_date": "2026-09-06",
   "stars_stagnant_days": 0
 }

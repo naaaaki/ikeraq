@@ -14,10 +14,10 @@
     "openai",
     "pdf"
   ],
-  "stars": 178163,
-  "forks": 13126,
+  "stars": 178333,
+  "forks": 13142,
   "watchers": null,
-  "open_issues": 686,
+  "open_issues": 652,
   "created_at": "2024-11-13T19:56:40Z",
   "pushed_at": "2026-09-04T17:04:58Z",
   "is_archived": false,
@@ -32,10 +32,10 @@
   "category": "other",
   "flags": [],
   "usability_score": 100,
-  "snapshot_days": 5,
+  "snapshot_days": 6,
   "is_indexable": false,
   "first_seen_at": "2026-09-01T00:26:13.031Z",
   "tracking_tier": "hot",
-  "last_fetched_date": "2026-09-05",
+  "last_fetched_date": "2026-09-06",
   "stars_stagnant_days": 0
 }

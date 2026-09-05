@@ -17,8 +17,8 @@
     "rest-api",
     "websockets"
   ],
-  "stars": 39987,
-  "forks": 2365,
+  "stars": 39990,
+  "forks": 2364,
   "watchers": null,
   "open_issues": 873,
   "created_at": "2016-04-23T03:54:26Z",
@@ -35,10 +35,10 @@
   "category": "web-frontend",
   "flags": [],
   "usability_score": 100,
-  "snapshot_days": 5,
+  "snapshot_days": 6,
   "is_indexable": false,
   "first_seen_at": "2026-09-01T00:26:13.031Z",
   "tracking_tier": "hot",
-  "last_fetched_date": "2026-09-05",
+  "last_fetched_date": "2026-09-06",
   "stars_stagnant_days": 0
 }

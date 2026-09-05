@@ -27,7 +27,7 @@
     "typo-tolerance",
     "vector-search"
   ],
-  "stars": 26511,
+  "stars": 26516,
   "forks": 968,
   "watchers": null,
   "open_issues": 876,
@@ -51,10 +51,10 @@
     }
   ],
   "usability_score": 85,
-  "snapshot_days": 2,
+  "snapshot_days": 3,
   "is_indexable": true,
   "first_seen_at": "2026-09-03T23:03:15.575Z",
   "tracking_tier": "hot",
-  "last_fetched_date": "2026-09-05",
+  "last_fetched_date": "2026-09-06",
   "stars_stagnant_days": 0
 }

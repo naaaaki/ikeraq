@@ -27,10 +27,10 @@
     "webdevelopment",
     "workflows"
   ],
-  "stars": 40812,
-  "forks": 4748,
+  "stars": 40817,
+  "forks": 4752,
   "watchers": null,
-  "open_issues": 4478,
+  "open_issues": 4475,
   "created_at": "2020-06-30T04:07:36Z",
   "pushed_at": "2026-09-04T17:45:23Z",
   "is_archived": false,
@@ -45,10 +45,10 @@
   "category": "infra",
   "flags": [],
   "usability_score": 100,
-  "snapshot_days": 6,
-  "is_indexable": false,
+  "snapshot_days": 7,
+  "is_indexable": true,
   "first_seen_at": "2026-08-30T23:15:18.750Z",
   "tracking_tier": "hot",
-  "last_fetched_date": "2026-09-05",
+  "last_fetched_date": "2026-09-06",
   "stars_stagnant_days": 0
 }

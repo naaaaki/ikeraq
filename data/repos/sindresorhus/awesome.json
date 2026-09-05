@@ -12,8 +12,8 @@
     "resources",
     "unicorns"
   ],
-  "stars": 503009,
-  "forks": 36711,
+  "stars": 503314,
+  "forks": 36732,
   "watchers": null,
   "open_issues": 106,
   "created_at": "2014-07-11T13:42:37Z",
@@ -30,10 +30,10 @@
   "category": "learning",
   "flags": [],
   "usability_score": 100,
-  "snapshot_days": 3,
+  "snapshot_days": 4,
   "is_indexable": false,
   "first_seen_at": "2026-09-02T23:02:41.772Z",
   "tracking_tier": "hot",
-  "last_fetched_date": "2026-09-05",
+  "last_fetched_date": "2026-09-06",
   "stars_stagnant_days": 0
 }

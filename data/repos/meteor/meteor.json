@@ -20,10 +20,10 @@
     "rpc",
     "zero-configuration"
   ],
-  "stars": 44810,
+  "stars": 44811,
   "forks": 5242,
   "watchers": null,
-  "open_issues": 335,
+  "open_issues": 336,
   "created_at": "2012-01-19T01:58:17Z",
   "pushed_at": "2026-09-04T14:48:28Z",
   "is_archived": false,
@@ -38,10 +38,10 @@
   "category": "web-frontend",
   "flags": [],
   "usability_score": 100,
-  "snapshot_days": 6,
-  "is_indexable": false,
+  "snapshot_days": 7,
+  "is_indexable": true,
   "first_seen_at": "2026-08-30T23:15:18.750Z",
   "tracking_tier": "hot",
-  "last_fetched_date": "2026-09-05",
+  "last_fetched_date": "2026-09-06",
   "stars_stagnant_days": 0
 }

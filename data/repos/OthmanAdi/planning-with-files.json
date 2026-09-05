@@ -27,12 +27,12 @@
     "planning",
     "session-recovery"
   ],
-  "stars": 26633,
-  "forks": 2219,
+  "stars": 26646,
+  "forks": 2220,
   "watchers": null,
   "open_issues": 8,
   "created_at": "2026-01-03T07:37:28Z",
-  "pushed_at": "2026-09-02T23:29:49Z",
+  "pushed_at": "2026-09-05T20:43:16Z",
   "is_archived": false,
   "license_spdx": "MIT",
   "license_category": "permissive",
@@ -45,10 +45,10 @@
   "category": "ai-agent",
   "flags": [],
   "usability_score": 100,
-  "snapshot_days": 2,
+  "snapshot_days": 3,
   "is_indexable": false,
   "first_seen_at": "2026-09-03T23:03:15.575Z",
   "tracking_tier": "hot",
-  "last_fetched_date": "2026-09-05",
+  "last_fetched_date": "2026-09-06",
   "stars_stagnant_days": 0
 }

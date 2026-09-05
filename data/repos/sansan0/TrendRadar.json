@@ -23,10 +23,10 @@
     "wechat",
     "wework"
   ],
-  "stars": 62035,
-  "forks": 24887,
+  "stars": 62048,
+  "forks": 24891,
   "watchers": null,
-  "open_issues": 57,
+  "open_issues": 58,
   "created_at": "2025-04-28T11:42:16Z",
   "pushed_at": "2026-09-03T12:34:00Z",
   "is_archived": false,
@@ -47,10 +47,10 @@
     }
   ],
   "usability_score": 85,
-  "snapshot_days": 2,
+  "snapshot_days": 3,
   "is_indexable": true,
   "first_seen_at": "2026-09-03T23:03:15.574Z",
   "tracking_tier": "hot",
-  "last_fetched_date": "2026-09-05",
+  "last_fetched_date": "2026-09-06",
   "stars_stagnant_days": 0
 }

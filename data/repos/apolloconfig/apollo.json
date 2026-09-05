@@ -13,7 +13,7 @@
     "spring-boot",
     "spring-cloud"
   ],
-  "stars": 29804,
+  "stars": 29805,
   "forks": 10161,
   "watchers": null,
   "open_issues": 159,
@@ -31,10 +31,10 @@
   "category": "backend",
   "flags": [],
   "usability_score": 100,
-  "snapshot_days": 3,
+  "snapshot_days": 4,
   "is_indexable": false,
   "first_seen_at": "2026-09-02T23:02:41.773Z",
   "tracking_tier": "hot",
-  "last_fetched_date": "2026-09-05",
-  "stars_stagnant_days": 2
+  "last_fetched_date": "2026-09-06",
+  "stars_stagnant_days": 0
 }

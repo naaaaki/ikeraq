@@ -17,7 +17,7 @@
     "kubernetes",
     "raft"
   ],
-  "stars": 52231,
+  "stars": 52234,
   "forks": 10488,
   "watchers": null,
   "open_issues": 342,
@@ -35,10 +35,10 @@
   "category": "infra",
   "flags": [],
   "usability_score": 100,
-  "snapshot_days": 7,
+  "snapshot_days": 8,
   "is_indexable": true,
   "first_seen_at": "2026-08-29T23:02:08.747Z",
   "tracking_tier": "hot",
-  "last_fetched_date": "2026-09-05",
+  "last_fetched_date": "2026-09-06",
   "stars_stagnant_days": 0
 }

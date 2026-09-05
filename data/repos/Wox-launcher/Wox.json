@@ -16,12 +16,12 @@
     "wox",
     "wox-launcher"
   ],
-  "stars": 27320,
-  "forks": 2432,
+  "stars": 27321,
+  "forks": 2433,
   "watchers": null,
-  "open_issues": 6,
+  "open_issues": 4,
   "created_at": "2013-12-19T15:49:32Z",
-  "pushed_at": "2026-09-04T14:07:29Z",
+  "pushed_at": "2026-09-05T15:56:10Z",
   "is_archived": false,
   "license_spdx": "GPL-3.0",
   "license_category": "strong-copyleft",
@@ -40,10 +40,10 @@
     }
   ],
   "usability_score": 85,
-  "snapshot_days": 2,
+  "snapshot_days": 3,
   "is_indexable": true,
   "first_seen_at": "2026-09-03T23:03:15.575Z",
   "tracking_tier": "hot",
-  "last_fetched_date": "2026-09-05",
+  "last_fetched_date": "2026-09-06",
   "stars_stagnant_days": 0
 }

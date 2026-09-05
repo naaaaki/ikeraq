@@ -15,10 +15,10 @@
     "typescript",
     "uml-diagrams"
   ],
-  "stars": 90078,
-  "forks": 9215,
+  "stars": 90091,
+  "forks": 9217,
   "watchers": null,
-  "open_issues": 1767,
+  "open_issues": 1768,
   "created_at": "2014-11-01T23:52:32Z",
   "pushed_at": "2026-09-04T14:20:53Z",
   "is_archived": false,
@@ -33,10 +33,10 @@
   "category": "other",
   "flags": [],
   "usability_score": 100,
-  "snapshot_days": 7,
+  "snapshot_days": 8,
   "is_indexable": true,
   "first_seen_at": "2026-08-29T15:46:21.821Z",
   "tracking_tier": "hot",
-  "last_fetched_date": "2026-09-05",
+  "last_fetched_date": "2026-09-06",
   "stars_stagnant_days": 0
 }

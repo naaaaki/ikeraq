@@ -16,12 +16,12 @@
     "model-context-protocol",
     "python"
   ],
-  "stars": 27527,
-  "forks": 2301,
+  "stars": 27537,
+  "forks": 2304,
   "watchers": null,
   "open_issues": 303,
   "created_at": "2024-11-30T01:47:40Z",
-  "pushed_at": "2026-09-04T21:38:04Z",
+  "pushed_at": "2026-09-05T03:20:10Z",
   "is_archived": false,
   "license_spdx": "Apache-2.0",
   "license_category": "permissive",
@@ -34,10 +34,10 @@
   "category": "ai-agent",
   "flags": [],
   "usability_score": 100,
-  "snapshot_days": 2,
+  "snapshot_days": 3,
   "is_indexable": false,
   "first_seen_at": "2026-09-03T23:03:15.575Z",
   "tracking_tier": "hot",
-  "last_fetched_date": "2026-09-05",
+  "last_fetched_date": "2026-09-06",
   "stars_stagnant_days": 0
 }

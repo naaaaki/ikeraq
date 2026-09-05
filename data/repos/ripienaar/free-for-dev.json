@@ -9,8 +9,8 @@
     "awesome-list",
     "free-for-developers"
   ],
-  "stars": 136574,
-  "forks": 14353,
+  "stars": 136649,
+  "forks": 14363,
   "watchers": null,
   "open_issues": 13,
   "created_at": "2015-03-18T21:06:26Z",
@@ -33,10 +33,10 @@
     }
   ],
   "usability_score": 60,
-  "snapshot_days": 7,
+  "snapshot_days": 8,
   "is_indexable": true,
   "first_seen_at": "2026-08-29T15:46:21.820Z",
   "tracking_tier": "hot",
-  "last_fetched_date": "2026-09-05",
+  "last_fetched_date": "2026-09-06",
   "stars_stagnant_days": 0
 }

@@ -12,8 +12,8 @@
     "openai",
     "sdk"
   ],
-  "stars": 28531,
-  "forks": 4755,
+  "stars": 28537,
+  "forks": 4757,
   "watchers": null,
   "open_issues": 282,
   "created_at": "2023-02-27T17:39:42Z",
@@ -30,10 +30,10 @@
   "category": "llm",
   "flags": [],
   "usability_score": 100,
-  "snapshot_days": 3,
+  "snapshot_days": 4,
   "is_indexable": false,
   "first_seen_at": "2026-09-02T23:02:41.773Z",
   "tracking_tier": "hot",
-  "last_fetched_date": "2026-09-05",
+  "last_fetched_date": "2026-09-06",
   "stars_stagnant_days": 0
 }

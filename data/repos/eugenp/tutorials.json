@@ -6,10 +6,10 @@
   "human_note": null,
   "language": "Java",
   "topics": [],
-  "stars": 37324,
-  "forks": 53277,
+  "stars": 37325,
+  "forks": 53274,
   "watchers": null,
-  "open_issues": 27,
+  "open_issues": 29,
   "created_at": "2013-04-29T18:26:36Z",
   "pushed_at": "2026-09-04T00:21:18Z",
   "is_archived": false,
@@ -24,10 +24,10 @@
   "category": "learning",
   "flags": [],
   "usability_score": 100,
-  "snapshot_days": 2,
+  "snapshot_days": 3,
   "is_indexable": false,
   "first_seen_at": "2026-09-03T23:03:15.575Z",
   "tracking_tier": "hot",
-  "last_fetched_date": "2026-09-05",
-  "stars_stagnant_days": 1
+  "last_fetched_date": "2026-09-06",
+  "stars_stagnant_days": 0
 }

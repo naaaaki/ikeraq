@@ -18,12 +18,12 @@
     "vulnerability-detection",
     "vulnerability-scanner"
   ],
-  "stars": 31023,
-  "forks": 3857,
+  "stars": 31032,
+  "forks": 3858,
   "watchers": null,
   "open_issues": 102,
   "created_at": "2020-04-03T18:47:11Z",
-  "pushed_at": "2026-09-04T14:17:38Z",
+  "pushed_at": "2026-09-05T01:15:37Z",
   "is_archived": false,
   "license_spdx": "MIT",
   "license_category": "permissive",
@@ -36,10 +36,10 @@
   "category": "security",
   "flags": [],
   "usability_score": 100,
-  "snapshot_days": 4,
+  "snapshot_days": 5,
   "is_indexable": false,
   "first_seen_at": "2026-09-01T23:05:22.650Z",
   "tracking_tier": "hot",
-  "last_fetched_date": "2026-09-05",
+  "last_fetched_date": "2026-09-06",
   "stars_stagnant_days": 0
 }

@@ -16,12 +16,12 @@
     "v8",
     "works-with-codespaces"
   ],
-  "stars": 122882,
+  "stars": 122899,
   "forks": 17462,
   "watchers": null,
-  "open_issues": 747,
+  "open_issues": 750,
   "created_at": "2013-04-12T01:47:36Z",
-  "pushed_at": "2026-09-04T22:48:50Z",
+  "pushed_at": "2026-09-05T22:31:54Z",
   "is_archived": false,
   "license_spdx": "MIT",
   "license_category": "permissive",
@@ -34,10 +34,10 @@
   "category": "web-frontend",
   "flags": [],
   "usability_score": 100,
-  "snapshot_days": 7,
+  "snapshot_days": 8,
   "is_indexable": true,
   "first_seen_at": "2026-08-29T15:46:21.820Z",
   "tracking_tier": "hot",
-  "last_fetched_date": "2026-09-05",
+  "last_fetched_date": "2026-09-06",
   "stars_stagnant_days": 0
 }

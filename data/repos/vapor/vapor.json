@@ -16,11 +16,11 @@
     "web-framework"
   ],
   "stars": 26191,
-  "forks": 1524,
+  "forks": 1525,
   "watchers": null,
-  "open_issues": 105,
+  "open_issues": 106,
   "created_at": "2016-01-18T22:37:52Z",
-  "pushed_at": "2026-09-02T19:16:00Z",
+  "pushed_at": "2026-09-05T08:24:43Z",
   "is_archived": false,
   "license_spdx": "MIT",
   "license_category": "permissive",
@@ -33,10 +33,10 @@
   "category": "backend",
   "flags": [],
   "usability_score": 100,
-  "snapshot_days": 2,
+  "snapshot_days": 3,
   "is_indexable": false,
   "first_seen_at": "2026-09-03T23:03:15.575Z",
   "tracking_tier": "hot",
-  "last_fetched_date": "2026-09-05",
-  "stars_stagnant_days": 0
+  "last_fetched_date": "2026-09-06",
+  "stars_stagnant_days": 1
 }

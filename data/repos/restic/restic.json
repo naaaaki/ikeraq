@@ -13,8 +13,8 @@
     "restic",
     "secure-by-default"
   ],
-  "stars": 35861,
-  "forks": 1863,
+  "stars": 35877,
+  "forks": 1865,
   "watchers": null,
   "open_issues": 588,
   "created_at": "2014-04-27T14:07:58Z",
@@ -31,10 +31,10 @@
   "category": "other",
   "flags": [],
   "usability_score": 100,
-  "snapshot_days": 5,
+  "snapshot_days": 6,
   "is_indexable": false,
   "first_seen_at": "2026-09-01T00:26:13.032Z",
   "tracking_tier": "hot",
-  "last_fetched_date": "2026-09-05",
+  "last_fetched_date": "2026-09-06",
   "stars_stagnant_days": 0
 }

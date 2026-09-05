@@ -14,11 +14,11 @@
     "prometheus"
   ],
   "stars": 28839,
-  "forks": 4100,
+  "forks": 4101,
   "watchers": null,
-  "open_issues": 1738,
+  "open_issues": 1741,
   "created_at": "2018-04-16T09:22:48Z",
-  "pushed_at": "2026-09-04T21:42:34Z",
+  "pushed_at": "2026-09-05T21:12:30Z",
   "is_archived": false,
   "license_spdx": "AGPL-3.0",
   "license_category": "strong-copyleft",
@@ -37,10 +37,10 @@
     }
   ],
   "usability_score": 85,
-  "snapshot_days": 3,
+  "snapshot_days": 4,
   "is_indexable": true,
   "first_seen_at": "2026-09-02T23:02:41.773Z",
   "tracking_tier": "hot",
-  "last_fetched_date": "2026-09-05",
-  "stars_stagnant_days": 0
+  "last_fetched_date": "2026-09-06",
+  "stars_stagnant_days": 1
 }

@@ -26,12 +26,12 @@
     "svg-editor",
     "vector-graphics"
   ],
-  "stars": 27119,
-  "forks": 1244,
+  "stars": 27130,
+  "forks": 1245,
   "watchers": null,
   "open_issues": 560,
   "created_at": "2020-04-26T07:29:29Z",
-  "pushed_at": "2026-09-04T13:37:22Z",
+  "pushed_at": "2026-09-05T20:11:37Z",
   "is_archived": false,
   "license_spdx": "Apache-2.0",
   "license_category": "permissive",
@@ -44,10 +44,10 @@
   "category": "web-frontend",
   "flags": [],
   "usability_score": 100,
-  "snapshot_days": 2,
+  "snapshot_days": 3,
   "is_indexable": false,
   "first_seen_at": "2026-09-03T23:03:15.575Z",
   "tracking_tier": "hot",
-  "last_fetched_date": "2026-09-05",
+  "last_fetched_date": "2026-09-06",
   "stars_stagnant_days": 0
 }

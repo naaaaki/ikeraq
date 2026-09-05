@@ -16,9 +16,9 @@
   "stars": 25890,
   "forks": 3219,
   "watchers": null,
-  "open_issues": 3348,
+  "open_issues": 3349,
   "created_at": "2014-11-07T20:49:31Z",
-  "pushed_at": "2026-09-04T22:16:31Z",
+  "pushed_at": "2026-09-05T12:30:10Z",
   "is_archived": false,
   "license_spdx": "Apache-2.0",
   "license_category": "permissive",
@@ -31,10 +31,10 @@
   "category": "infra",
   "flags": [],
   "usability_score": 100,
-  "snapshot_days": 2,
+  "snapshot_days": 3,
   "is_indexable": false,
   "first_seen_at": "2026-09-03T23:03:15.575Z",
   "tracking_tier": "hot",
-  "last_fetched_date": "2026-09-05",
-  "stars_stagnant_days": 0
+  "last_fetched_date": "2026-09-06",
+  "stars_stagnant_days": 1
 }

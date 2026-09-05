@@ -17,12 +17,12 @@
     "pdb",
     "unity"
   ],
-  "stars": 26013,
+  "stars": 26020,
   "forks": 3697,
   "watchers": null,
-  "open_issues": 176,
+  "open_issues": 170,
   "created_at": "2011-02-04T11:24:20Z",
-  "pushed_at": "2026-09-04T17:42:49Z",
+  "pushed_at": "2026-09-05T20:11:33Z",
   "is_archived": false,
   "license_spdx": "MIT",
   "license_category": "permissive",
@@ -35,10 +35,10 @@
   "category": "game",
   "flags": [],
   "usability_score": 100,
-  "snapshot_days": 2,
+  "snapshot_days": 3,
   "is_indexable": false,
   "first_seen_at": "2026-09-03T23:03:15.575Z",
   "tracking_tier": "hot",
-  "last_fetched_date": "2026-09-05",
+  "last_fetched_date": "2026-09-06",
   "stars_stagnant_days": 0
 }

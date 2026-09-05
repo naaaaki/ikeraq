@@ -13,10 +13,10 @@
     "switch-hosts",
     "switchhosts"
   ],
-  "stars": 27144,
-  "forks": 2673,
+  "stars": 27150,
+  "forks": 2674,
   "watchers": null,
-  "open_issues": 422,
+  "open_issues": 423,
   "created_at": "2011-09-02T09:38:09Z",
   "pushed_at": "2026-09-03T05:42:27Z",
   "is_archived": false,
@@ -31,10 +31,10 @@
   "category": "other",
   "flags": [],
   "usability_score": 100,
-  "snapshot_days": 2,
+  "snapshot_days": 3,
   "is_indexable": false,
   "first_seen_at": "2026-09-03T23:03:15.575Z",
   "tracking_tier": "hot",
-  "last_fetched_date": "2026-09-05",
+  "last_fetched_date": "2026-09-06",
   "stars_stagnant_days": 0
 }

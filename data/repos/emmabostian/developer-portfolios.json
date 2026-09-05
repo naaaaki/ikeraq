@@ -6,12 +6,12 @@
   "human_note": null,
   "language": "Python",
   "topics": [],
-  "stars": 26478,
+  "stars": 26491,
   "forks": 5171,
   "watchers": null,
   "open_issues": 2,
   "created_at": "2019-09-13T14:18:58Z",
-  "pushed_at": "2026-09-04T16:17:13Z",
+  "pushed_at": "2026-09-05T11:35:16Z",
   "is_archived": false,
   "license_spdx": null,
   "license_category": "none",
@@ -30,10 +30,10 @@
     }
   ],
   "usability_score": 60,
-  "snapshot_days": 2,
+  "snapshot_days": 3,
   "is_indexable": true,
   "first_seen_at": "2026-09-03T23:03:15.575Z",
   "tracking_tier": "hot",
-  "last_fetched_date": "2026-09-05",
+  "last_fetched_date": "2026-09-06",
   "stars_stagnant_days": 0
 }

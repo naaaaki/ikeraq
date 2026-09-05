@@ -13,7 +13,7 @@
     "php"
   ],
   "stars": 29511,
-  "forks": 4834,
+  "forks": 4835,
   "watchers": null,
   "open_issues": 154,
   "created_at": "2011-06-08T08:53:00Z",
@@ -30,10 +30,10 @@
   "category": "other",
   "flags": [],
   "usability_score": 100,
-  "snapshot_days": 3,
+  "snapshot_days": 4,
   "is_indexable": false,
   "first_seen_at": "2026-09-02T23:02:41.773Z",
   "tracking_tier": "hot",
-  "last_fetched_date": "2026-09-05",
-  "stars_stagnant_days": 1
+  "last_fetched_date": "2026-09-06",
+  "stars_stagnant_days": 2
 }

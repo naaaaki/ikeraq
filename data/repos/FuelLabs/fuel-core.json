@@ -9,12 +9,12 @@
     "blockchain",
     "fuel"
   ],
-  "stars": 56865,
-  "forks": 2860,
+  "stars": 56863,
+  "forks": 2859,
   "watchers": null,
-  "open_issues": 201,
+  "open_issues": 200,
   "created_at": "2020-08-27T21:12:14Z",
-  "pushed_at": "2026-08-30T00:34:30Z",
+  "pushed_at": "2026-09-05T07:47:57Z",
   "is_archived": false,
   "license_spdx": "NOASSERTION",
   "license_category": "unknown",
@@ -27,10 +27,10 @@
   "category": "other",
   "flags": [],
   "usability_score": 100,
-  "snapshot_days": 7,
+  "snapshot_days": 8,
   "is_indexable": true,
   "first_seen_at": "2026-08-29T23:02:08.747Z",
   "tracking_tier": "hot",
-  "last_fetched_date": "2026-09-05",
-  "stars_stagnant_days": 1
+  "last_fetched_date": "2026-09-06",
+  "stars_stagnant_days": 2
 }

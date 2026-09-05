@@ -17,7 +17,7 @@
   "stars": 31318,
   "forks": 3788,
   "watchers": null,
-  "open_issues": 1079,
+  "open_issues": 1080,
   "created_at": "2019-03-31T00:45:57Z",
   "pushed_at": "2026-09-01T08:55:20Z",
   "is_archived": false,
@@ -32,10 +32,10 @@
   "category": "learning",
   "flags": [],
   "usability_score": 100,
-  "snapshot_days": 4,
+  "snapshot_days": 5,
   "is_indexable": false,
   "first_seen_at": "2026-09-01T23:05:22.650Z",
   "tracking_tier": "hot",
-  "last_fetched_date": "2026-09-05",
-  "stars_stagnant_days": 0
+  "last_fetched_date": "2026-09-06",
+  "stars_stagnant_days": 1
 }

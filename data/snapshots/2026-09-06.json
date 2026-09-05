@@ -1,0 +1,9017 @@
+{
+  "date": "2026-09-06",
+  "generated_at": "2026-09-05T22:41:28.188Z",
+  "prev_snapshot_date": "2026-09-05",
+  "entries": [
+    {
+      "repo_id": "0xAX/linux-insides",
+      "stars": 33329,
+      "stars_delta": 124,
+      "stars_delta_raw": 124,
+      "forks": 3555,
+      "rank": 77,
+      "fetched": true
+    },
+    {
+      "repo_id": "1Panel-dev/1Panel",
+      "stars": 36812,
+      "stars_delta": 7,
+      "stars_delta_raw": 7,
+      "forks": 3338,
+      "rank": 591,
+      "fetched": true
+    },
+    {
+      "repo_id": "1c7/chinese-independent-developer",
+      "stars": 61251,
+      "stars_delta": 7,
+      "stars_delta_raw": 7,
+      "forks": 5360,
+      "rank": 592,
+      "fetched": true
+    },
+    {
+      "repo_id": "2dust/v2rayN",
+      "stars": 115509,
+      "stars_delta": 67,
+      "stars_delta_raw": 67,
+      "forks": 15845,
+      "rank": 130,
+      "fetched": true
+    },
+    {
+      "repo_id": "2dust/v2rayNG",
+      "stars": 62202,
+      "stars_delta": 57,
+      "stars_delta_raw": 57,
+      "forks": 8055,
+      "rank": 147,
+      "fetched": true
+    },
+    {
+      "repo_id": "3b1b/manim",
+      "stars": 93176,
+      "stars_delta": 117,
+      "stars_delta_raw": 117,
+      "forks": 7659,
+      "rank": 82,
+      "fetched": true
+    },
+    {
+      "repo_id": "4ian/GDevelop",
+      "stars": 26244,
+      "stars_delta": 39,
+      "stars_delta_raw": 39,
+      "forks": 1536,
+      "rank": 210,
+      "fetched": true
+    },
+    {
+      "repo_id": "521xueweihan/GitHub520",
+      "stars": 29588,
+      "stars_delta": 16,
+      "stars_delta_raw": 16,
+      "forks": 2744,
+      "rank": 392,
+      "fetched": true
+    },
+    {
+      "repo_id": "521xueweihan/HelloGitHub",
+      "stars": 174890,
+      "stars_delta": 152,
+      "stars_delta_raw": 152,
+      "forks": 12730,
+      "rank": 59,
+      "fetched": true
+    },
+    {
+      "repo_id": "666ghj/BettaFish",
+      "stars": 42165,
+      "stars_delta": 2,
+      "stars_delta_raw": 2,
+      "forks": 7623,
+      "rank": 791,
+      "fetched": true
+    },
+    {
+      "repo_id": "666ghj/MiroFish",
+      "stars": 71974,
+      "stars_delta": 12,
+      "stars_delta_raw": 12,
+      "forks": 11173,
+      "rank": 477,
+      "fetched": true
+    },
+    {
+      "repo_id": "78/xiaozhi-esp32",
+      "stars": 29637,
+      "stars_delta": 25,
+      "stars_delta_raw": 25,
+      "forks": 6864,
+      "rank": 296,
+      "fetched": true
+    },
+    {
+      "repo_id": "9001/copyparty",
+      "stars": 46520,
+      "stars_delta": 7,
+      "stars_delta_raw": 7,
+      "forks": 1897,
+      "rank": 593,
+      "fetched": true
+    },
+    {
+      "repo_id": "AdguardTeam/AdGuardHome",
+      "stars": 36699,
+      "stars_delta": 19,
+      "stars_delta_raw": 19,
+      "forks": 2506,
+      "rank": 346,
+      "fetched": true
+    },
+    {
+      "repo_id": "Alamofire/Alamofire",
+      "stars": 42425,
+      "stars_delta": -3,
+      "stars_delta_raw": -3,
+      "forks": 7661,
+      "rank": 988,
+      "fetched": true
+    },
+    {
+      "repo_id": "AlexsJones/llmfit",
+      "stars": 34931,
+      "stars_delta": 49,
+      "stars_delta_raw": 49,
+      "forks": 2195,
+      "rank": 170,
+      "fetched": true
+    },
+    {
+      "repo_id": "Alishahryar1/free-claude-code",
+      "stars": 53367,
+      "stars_delta": 240,
+      "stars_delta_raw": 240,
+      "forks": 8563,
+      "rank": 37,
+      "fetched": true
+    },
+    {
+      "repo_id": "AlistGo/alist",
+      "stars": 50145,
+      "stars_delta": 5,
+      "stars_delta_raw": 5,
+      "forks": 7936,
+      "rank": 675,
+      "fetched": true
+    },
+    {
+      "repo_id": "Anduin2017/HowToCook",
+      "stars": 102152,
+      "stars_delta": 9,
+      "stars_delta_raw": 9,
+      "forks": 11095,
+      "rank": 534,
+      "fetched": true
+    },
+    {
+      "repo_id": "Anil-matcha/Open-Generative-AI",
+      "stars": 27787,
+      "stars_delta": 64,
+      "stars_delta_raw": 64,
+      "forks": 4930,
+      "rank": 133,
+      "fetched": true
+    },
+    {
+      "repo_id": "Anuken/Mindustry",
+      "stars": 28849,
+      "stars_delta": 9,
+      "stars_delta_raw": 9,
+      "forks": 3759,
+      "rank": 535,
+      "fetched": true
+    },
+    {
+      "repo_id": "AppFlowy-IO/AppFlowy",
+      "stars": 76324,
+      "stars_delta": 48,
+      "stars_delta_raw": 48,
+      "forks": 5981,
+      "rank": 174,
+      "fetched": true
+    },
+    {
+      "repo_id": "ArchiveBox/ArchiveBox",
+      "stars": 28240,
+      "stars_delta": 7,
+      "stars_delta_raw": 7,
+      "forks": 1570,
+      "rank": 594,
+      "fetched": true
+    },
+    {
+      "repo_id": "Asabeneh/30-Days-Of-JavaScript",
+      "stars": 46768,
+      "stars_delta": 3,
+      "stars_delta_raw": 3,
+      "forks": 10462,
+      "rank": 756,
+      "fetched": true
+    },
+    {
+      "repo_id": "Asabeneh/30-Days-Of-Python",
+      "stars": 72903,
+      "stars_delta": 70,
+      "stars_delta_raw": 70,
+      "forks": 13348,
+      "rank": 126,
+      "fetched": true
+    },
+    {
+      "repo_id": "AstrBotDevs/AstrBot",
+      "stars": 40042,
+      "stars_delta": 30,
+      "stars_delta_raw": 30,
+      "forks": 2875,
+      "rank": 254,
+      "fetched": true
+    },
+    {
+      "repo_id": "AtsushiSakai/PythonRobotics",
+      "stars": 30450,
+      "stars_delta": 5,
+      "stars_delta_raw": 5,
+      "forks": 7403,
+      "rank": 676,
+      "fetched": true
+    },
+    {
+      "repo_id": "Automattic/mongoose",
+      "stars": 27474,
+      "stars_delta": -1,
+      "stars_delta_raw": -1,
+      "forks": 4035,
+      "rank": 943,
+      "fetched": true
+    },
+    {
+      "repo_id": "AvaloniaUI/Avalonia",
+      "stars": 31450,
+      "stars_delta": 0,
+      "stars_delta_raw": 0,
+      "forks": 2806,
+      "rank": 888,
+      "fetched": true
+    },
+    {
+      "repo_id": "AykutSarac/jsoncrack.com",
+      "stars": 44367,
+      "stars_delta": 4,
+      "stars_delta_raw": 4,
+      "forks": 3564,
+      "rank": 716,
+      "fetched": true
+    },
+    {
+      "repo_id": "BabylonJS/Babylon.js",
+      "stars": 26026,
+      "stars_delta": 9,
+      "stars_delta_raw": 9,
+      "forks": 3683,
+      "rank": 536,
+      "fetched": true
+    },
+    {
+      "repo_id": "BerriAI/litellm",
+      "stars": 58116,
+      "stars_delta": 64,
+      "stars_delta_raw": 64,
+      "forks": 11200,
+      "rank": 134,
+      "fetched": true
+    },
+    {
+      "repo_id": "BeyondDimension/SteamTools",
+      "stars": 26741,
+      "stars_delta": 11,
+      "stars_delta_raw": 11,
+      "forks": 1701,
+      "rank": 501,
+      "fetched": true
+    },
+    {
+      "repo_id": "BigPizzaV3/CodexPlusPlus",
+      "stars": 30256,
+      "stars_delta": 60,
+      "stars_delta_raw": 60,
+      "forks": 1926,
+      "rank": 142,
+      "fetched": true
+    },
+    {
+      "repo_id": "Budibase/budibase",
+      "stars": 28255,
+      "stars_delta": 2,
+      "stars_delta_raw": 2,
+      "forks": 2200,
+      "rank": 792,
+      "fetched": true
+    },
+    {
+      "repo_id": "ByteByteGoHq/system-design-101",
+      "stars": 88844,
+      "stars_delta": 117,
+      "stars_delta_raw": 117,
+      "forks": 9866,
+      "rank": 83,
+      "fetched": true
+    },
+    {
+      "repo_id": "Chalarangelo/30-seconds-of-code",
+      "stars": 128969,
+      "stars_delta": 22,
+      "stars_delta_raw": 22,
+      "forks": 12486,
+      "rank": 318,
+      "fetched": true
+    },
+    {
+      "repo_id": "CherryHQ/cherry-studio",
+      "stars": 51478,
+      "stars_delta": 40,
+      "stars_delta_raw": 40,
+      "forks": 4923,
+      "rank": 204,
+      "fetched": true
+    },
+    {
+      "repo_id": "ChrisTitusTech/winutil",
+      "stars": 61951,
+      "stars_delta": 56,
+      "stars_delta_raw": 56,
+      "forks": 3626,
+      "rank": 148,
+      "fetched": true
+    },
+    {
+      "repo_id": "ChromeDevTools/chrome-devtools-mcp",
+      "stars": 51056,
+      "stars_delta": 128,
+      "stars_delta_raw": 128,
+      "forks": 3578,
+      "rank": 72,
+      "fetched": true
+    },
+    {
+      "repo_id": "ClickHouse/ClickHouse",
+      "stars": 49661,
+      "stars_delta": 14,
+      "stars_delta_raw": 14,
+      "forks": 8912,
+      "rank": 428,
+      "fetched": true
+    },
+    {
+      "repo_id": "CloakHQ/CloakBrowser",
+      "stars": 31207,
+      "stars_delta": 35,
+      "stars_delta_raw": 35,
+      "forks": 2572,
+      "rank": 230,
+      "fetched": true
+    },
+    {
+      "repo_id": "ColorlibHQ/AdminLTE",
+      "stars": 45580,
+      "stars_delta": 3,
+      "stars_delta_raw": 3,
+      "forks": 18161,
+      "rank": 757,
+      "fetched": true
+    },
+    {
+      "repo_id": "Comfy-Org/ComfyUI",
+      "stars": 131648,
+      "stars_delta": 121,
+      "stars_delta_raw": 121,
+      "forks": 15521,
+      "rank": 79,
+      "fetched": true
+    },
+    {
+      "repo_id": "ComposioHQ/awesome-claude-skills",
+      "stars": 74540,
+      "stars_delta": 66,
+      "stars_delta_raw": 66,
+      "forks": 8578,
+      "rank": 131,
+      "fetched": true
+    },
+    {
+      "repo_id": "ComposioHQ/composio",
+      "stars": 30071,
+      "stars_delta": 20,
+      "stars_delta_raw": 20,
+      "forks": 4770,
+      "rank": 334,
+      "fetched": true
+    },
+    {
+      "repo_id": "CopilotKit/CopilotKit",
+      "stars": 37211,
+      "stars_delta": 6,
+      "stars_delta_raw": 6,
+      "forks": 4606,
+      "rank": 634,
+      "fetched": true
+    },
+    {
+      "repo_id": "CorentinTh/it-tools",
+      "stars": 40485,
+      "stars_delta": 7,
+      "stars_delta_raw": 7,
+      "forks": 5390,
+      "rank": 595,
+      "fetched": true
+    },
+    {
+      "repo_id": "Crosstalk-Solutions/project-nomad",
+      "stars": 36519,
+      "stars_delta": 14,
+      "stars_delta_raw": 14,
+      "forks": 3647,
+      "rank": 429,
+      "fetched": true
+    },
+    {
+      "repo_id": "D4Vinci/Scrapling",
+      "stars": 78560,
+      "stars_delta": 132,
+      "stars_delta_raw": 132,
+      "forks": 7907,
+      "rank": 69,
+      "fetched": true
+    },
+    {
+      "repo_id": "DIYgod/RSSHub",
+      "stars": 46039,
+      "stars_delta": 17,
+      "stars_delta_raw": 17,
+      "forks": 10194,
+      "rank": 377,
+      "fetched": true
+    },
+    {
+      "repo_id": "DataTalksClub/data-engineering-zoomcamp",
+      "stars": 45274,
+      "stars_delta": 15,
+      "stars_delta_raw": 15,
+      "forks": 8829,
+      "rank": 409,
+      "fetched": true
+    },
+    {
+      "repo_id": "DavidHDev/react-bits",
+      "stars": 46808,
+      "stars_delta": 42,
+      "stars_delta_raw": 42,
+      "forks": 2256,
+      "rank": 196,
+      "fetched": true
+    },
+    {
+      "repo_id": "DayuanJiang/next-ai-draw-io",
+      "stars": 35639,
+      "stars_delta": 25,
+      "stars_delta_raw": 25,
+      "forks": 3819,
+      "rank": 297,
+      "fetched": true
+    },
+    {
+      "repo_id": "DefinitelyTyped/DefinitelyTyped",
+      "stars": 51428,
+      "stars_delta": 4,
+      "stars_delta_raw": 4,
+      "forks": 30389,
+      "rank": 717,
+      "fetched": true
+    },
+    {
+      "repo_id": "DeusData/codebase-memory-mcp",
+      "stars": 42339,
+      "stars_delta": 114,
+      "stars_delta_raw": 114,
+      "forks": 3458,
+      "rank": 87,
+      "fetched": true
+    },
+    {
+      "repo_id": "Developer-Y/cs-video-courses",
+      "stars": 83420,
+      "stars_delta": 10,
+      "stars_delta_raw": 10,
+      "forks": 11480,
+      "rank": 517,
+      "fetched": true
+    },
+    {
+      "repo_id": "Devolutions/UniGetUI",
+      "stars": 26002,
+      "stars_delta": 14,
+      "stars_delta_raw": 14,
+      "forks": 916,
+      "rank": 430,
+      "fetched": true
+    },
+    {
+      "repo_id": "DioxusLabs/dioxus",
+      "stars": 38978,
+      "stars_delta": 6,
+      "stars_delta_raw": 6,
+      "forks": 1869,
+      "rank": 635,
+      "fetched": true
+    },
+    {
+      "repo_id": "Dokploy/dokploy",
+      "stars": 37112,
+      "stars_delta": 15,
+      "stars_delta_raw": 15,
+      "forks": 2946,
+      "rank": 410,
+      "fetched": true
+    },
+    {
+      "repo_id": "Ebazhanov/linkedin-skill-assessments-quizzes",
+      "stars": 28821,
+      "stars_delta": 6,
+      "stars_delta_raw": 6,
+      "forks": 12893,
+      "rank": 636,
+      "fetched": true
+    },
+    {
+      "repo_id": "EbookFoundation/free-programming-books",
+      "stars": 396030,
+      "stars_delta": 52,
+      "stars_delta_raw": 52,
+      "forks": 66739,
+      "rank": 160,
+      "fetched": true
+    },
+    {
+      "repo_id": "Egonex-AI/Understand-Anything",
+      "stars": 81602,
+      "stars_delta": 106,
+      "stars_delta_raw": 106,
+      "forks": 6863,
+      "rank": 95,
+      "fetched": true
+    },
+    {
+      "repo_id": "Eugeny/tabby",
+      "stars": 74344,
+      "stars_delta": 16,
+      "stars_delta_raw": 16,
+      "forks": 4236,
+      "rank": 393,
+      "fetched": true
+    },
+    {
+      "repo_id": "FFmpeg/FFmpeg",
+      "stars": 63978,
+      "stars_delta": 17,
+      "stars_delta_raw": 17,
+      "forks": 14232,
+      "rank": 378,
+      "fetched": true
+    },
+    {
+      "repo_id": "Fincept-Corporation/FinceptTerminal",
+      "stars": 31008,
+      "stars_delta": 51,
+      "stars_delta_raw": 51,
+      "forks": 4383,
+      "rank": 162,
+      "fetched": true
+    },
+    {
+      "repo_id": "Fission-AI/OpenSpec",
+      "stars": 67390,
+      "stars_delta": 73,
+      "stars_delta_raw": 73,
+      "forks": 4637,
+      "rank": 121,
+      "fetched": true
+    },
+    {
+      "repo_id": "Flowseal/zapret-discord-youtube",
+      "stars": 32916,
+      "stars_delta": 34,
+      "stars_delta_raw": 34,
+      "forks": 2517,
+      "rank": 232,
+      "fetched": true
+    },
+    {
+      "repo_id": "FreeCAD/FreeCAD",
+      "stars": 33296,
+      "stars_delta": 33,
+      "stars_delta_raw": 33,
+      "forks": 5994,
+      "rank": 234,
+      "fetched": true
+    },
+    {
+      "repo_id": "FuelLabs/fuel-core",
+      "stars": 56863,
+      "stars_delta": -2,
+      "stars_delta_raw": -2,
+      "forks": 2859,
+      "rank": 967,
+      "fetched": true
+    },
+    {
+      "repo_id": "FuelLabs/fuels-rs",
+      "stars": 43037,
+      "stars_delta": -1,
+      "stars_delta_raw": -1,
+      "forks": 1357,
+      "rank": 944,
+      "fetched": true
+    },
+    {
+      "repo_id": "FuelLabs/sway",
+      "stars": 61456,
+      "stars_delta": -3,
+      "stars_delta_raw": -3,
+      "forks": 5413,
+      "rank": 989,
+      "fetched": true
+    },
+    {
+      "repo_id": "Genesis-Embodied-AI/genesis-world",
+      "stars": 29882,
+      "stars_delta": 7,
+      "stars_delta_raw": 7,
+      "forks": 2852,
+      "rank": 596,
+      "fetched": true
+    },
+    {
+      "repo_id": "Genymobile/scrcpy",
+      "stars": 148959,
+      "stars_delta": 61,
+      "stars_delta_raw": 61,
+      "forks": 13690,
+      "rank": 139,
+      "fetched": true
+    },
+    {
+      "repo_id": "GitbookIO/gitbook",
+      "stars": 29023,
+      "stars_delta": 2,
+      "stars_delta_raw": 2,
+      "forks": 4046,
+      "rank": 793,
+      "fetched": true
+    },
+    {
+      "repo_id": "Gitlawb/openclaude",
+      "stars": 32707,
+      "stars_delta": 146,
+      "stars_delta_raw": 146,
+      "forks": 9063,
+      "rank": 63,
+      "fetched": true
+    },
+    {
+      "repo_id": "GoogleChrome/lighthouse",
+      "stars": 30738,
+      "stars_delta": 4,
+      "stars_delta_raw": 4,
+      "forks": 9760,
+      "rank": 718,
+      "fetched": true
+    },
+    {
+      "repo_id": "GoogleChromeLabs/squoosh",
+      "stars": 25824,
+      "stars_delta": 11,
+      "stars_delta_raw": 11,
+      "forks": 2156,
+      "rank": 502,
+      "fetched": true
+    },
+    {
+      "repo_id": "GopeedLab/gopeed",
+      "stars": 26104,
+      "stars_delta": 9,
+      "stars_delta_raw": 9,
+      "forks": 1695,
+      "rank": 537,
+      "fetched": true
+    },
+    {
+      "repo_id": "Graphify-Labs/graphify",
+      "stars": 115058,
+      "stars_delta": 305,
+      "stars_delta_raw": 305,
+      "forks": 11169,
+      "rank": 21,
+      "fetched": true
+    },
+    {
+      "repo_id": "GraphiteEditor/Graphite",
+      "stars": 27130,
+      "stars_delta": 11,
+      "stars_delta_raw": 11,
+      "forks": 1245,
+      "rank": 503,
+      "fetched": true
+    },
+    {
+      "repo_id": "GyulyVGC/sniffnet",
+      "stars": 41034,
+      "stars_delta": 8,
+      "stars_delta_raw": 8,
+      "forks": 1971,
+      "rank": 560,
+      "fetched": true
+    },
+    {
+      "repo_id": "HKUDS/DeepTutor",
+      "stars": 38824,
+      "stars_delta": 106,
+      "stars_delta_raw": 106,
+      "forks": 4883,
+      "rank": 96,
+      "fetched": true
+    },
+    {
+      "repo_id": "HKUDS/LightRAG",
+      "stars": 39418,
+      "stars_delta": 18,
+      "stars_delta_raw": 18,
+      "forks": 5548,
+      "rank": 360,
+      "fetched": true
+    },
+    {
+      "repo_id": "HKUDS/Vibe-Trading",
+      "stars": 32571,
+      "stars_delta": 124,
+      "stars_delta_raw": 124,
+      "forks": 5315,
+      "rank": 78,
+      "fetched": true
+    },
+    {
+      "repo_id": "HKUDS/nanobot",
+      "stars": 47736,
+      "stars_delta": 24,
+      "stars_delta_raw": 24,
+      "forks": 8426,
+      "rank": 303,
+      "fetched": true
+    },
+    {
+      "repo_id": "HeyPuter/puter",
+      "stars": 43410,
+      "stars_delta": 20,
+      "stars_delta_raw": 20,
+      "forks": 4047,
+      "rank": 335,
+      "fetched": true
+    },
+    {
+      "repo_id": "Hmbown/Codewhale",
+      "stars": 40916,
+      "stars_delta": 0,
+      "stars_delta_raw": 0,
+      "forks": 3545,
+      "rank": 889,
+      "fetched": true
+    },
+    {
+      "repo_id": "Homebrew/brew",
+      "stars": 49413,
+      "stars_delta": 15,
+      "stars_delta_raw": 15,
+      "forks": 11316,
+      "rank": 411,
+      "fetched": true
+    },
+    {
+      "repo_id": "HumanSignal/label-studio",
+      "stars": 28216,
+      "stars_delta": 13,
+      "stars_delta_raw": 13,
+      "forks": 3689,
+      "rank": 453,
+      "fetched": true
+    },
+    {
+      "repo_id": "Imbad0202/academic-research-skills",
+      "stars": 46419,
+      "stars_delta": 138,
+      "stars_delta_raw": 138,
+      "forks": 3647,
+      "rank": 67,
+      "fetched": true
+    },
+    {
+      "repo_id": "Infisical/infisical",
+      "stars": 29140,
+      "stars_delta": 23,
+      "stars_delta_raw": 23,
+      "forks": 2244,
+      "rank": 310,
+      "fetched": true
+    },
+    {
+      "repo_id": "ItzCrazyKns/Vane",
+      "stars": 36645,
+      "stars_delta": 21,
+      "stars_delta_raw": 21,
+      "forks": 4072,
+      "rank": 327,
+      "fetched": true
+    },
+    {
+      "repo_id": "JetBrains/go-modern-guidelines",
+      "stars": 3226,
+      "stars_delta": 53,
+      "stars_delta_raw": 53,
+      "forks": 96,
+      "rank": 156,
+      "fetched": true
+    },
+    {
+      "repo_id": "JetBrains/kotlin",
+      "stars": 53375,
+      "stars_delta": 6,
+      "stars_delta_raw": 6,
+      "forks": 6405,
+      "rank": 637,
+      "fetched": true
+    },
+    {
+      "repo_id": "Johnshall/Shadowrocket-ADBlock-Rules-Forever",
+      "stars": 29886,
+      "stars_delta": 28,
+      "stars_delta_raw": 28,
+      "forks": 1983,
+      "rank": 273,
+      "fetched": true
+    },
+    {
+      "repo_id": "JuliaLang/julia",
+      "stars": 49076,
+      "stars_delta": 6,
+      "stars_delta_raw": 6,
+      "forks": 5988,
+      "rank": 638,
+      "fetched": true
+    },
+    {
+      "repo_id": "JuliusBrussee/caveman",
+      "stars": 103797,
+      "stars_delta": 242,
+      "stars_delta_raw": 242,
+      "forks": 6010,
+      "rank": 36,
+      "fetched": true
+    },
+    {
+      "repo_id": "JustVugg/colibri",
+      "stars": 26866,
+      "stars_delta": 50,
+      "stars_delta_raw": 50,
+      "forks": 2950,
+      "rank": 165,
+      "fetched": true
+    },
+    {
+      "repo_id": "K-Dense-AI/scientific-agent-skills",
+      "stars": 42933,
+      "stars_delta": 311,
+      "stars_delta_raw": 311,
+      "forks": 3925,
+      "rank": 20,
+      "fetched": true
+    },
+    {
+      "repo_id": "KRTirtho/spotube",
+      "stars": 48932,
+      "stars_delta": 19,
+      "stars_delta_raw": 19,
+      "forks": 2272,
+      "rank": 347,
+      "fetched": true
+    },
+    {
+      "repo_id": "KeygraphHQ/shannon",
+      "stars": 47756,
+      "stars_delta": 23,
+      "stars_delta_raw": 23,
+      "forks": 5484,
+      "rank": 311,
+      "fetched": true
+    },
+    {
+      "repo_id": "Kilo-Org/kilocode",
+      "stars": 27189,
+      "stars_delta": 14,
+      "stars_delta_raw": 14,
+      "forks": 3122,
+      "rank": 431,
+      "fetched": true
+    },
+    {
+      "repo_id": "Kong/insomnia",
+      "stars": 39990,
+      "stars_delta": 3,
+      "stars_delta_raw": 3,
+      "forks": 2364,
+      "rank": 758,
+      "fetched": true
+    },
+    {
+      "repo_id": "Kong/kong",
+      "stars": 44090,
+      "stars_delta": 5,
+      "stars_delta_raw": 5,
+      "forks": 5206,
+      "rank": 677,
+      "fetched": true
+    },
+    {
+      "repo_id": "LadybirdBrowser/ladybird",
+      "stars": 66023,
+      "stars_delta": 17,
+      "stars_delta_raw": 17,
+      "forks": 3150,
+      "rank": 379,
+      "fetched": true
+    },
+    {
+      "repo_id": "Leaflet/Leaflet",
+      "stars": 45572,
+      "stars_delta": 1,
+      "stars_delta_raw": 1,
+      "forks": 6161,
+      "rank": 838,
+      "fetched": true
+    },
+    {
+      "repo_id": "Leonxlnx/taste-skill",
+      "stars": 84602,
+      "stars_delta": 259,
+      "stars_delta_raw": 259,
+      "forks": 5789,
+      "rank": 30,
+      "fetched": true
+    },
+    {
+      "repo_id": "Lightning-AI/pytorch-lightning",
+      "stars": 31318,
+      "stars_delta": 0,
+      "stars_delta_raw": 0,
+      "forks": 3788,
+      "rank": 890,
+      "fetched": true
+    },
+    {
+      "repo_id": "LizardByte/Sunshine",
+      "stars": 40894,
+      "stars_delta": 30,
+      "stars_delta_raw": 30,
+      "forks": 2085,
+      "rank": 255,
+      "fetched": true
+    },
+    {
+      "repo_id": "Loyalsoldier/clash-rules",
+      "stars": 28314,
+      "stars_delta": 16,
+      "stars_delta_raw": 16,
+      "forks": 2197,
+      "rank": 394,
+      "fetched": true
+    },
+    {
+      "repo_id": "MHSanaei/3x-ui",
+      "stars": 45938,
+      "stars_delta": 47,
+      "stars_delta_raw": 47,
+      "forks": 11085,
+      "rank": 179,
+      "fetched": true
+    },
+    {
+      "repo_id": "MadsLorentzen/ai-job-search",
+      "stars": 40890,
+      "stars_delta": 127,
+      "stars_delta_raw": 127,
+      "forks": 13947,
+      "rank": 74,
+      "fetched": true
+    },
+    {
+      "repo_id": "ManimCommunity/manim",
+      "stars": 40654,
+      "stars_delta": 22,
+      "stars_delta_raw": 22,
+      "forks": 3085,
+      "rank": 319,
+      "fetched": true
+    },
+    {
+      "repo_id": "MemPalace/mempalace",
+      "stars": 58857,
+      "stars_delta": 14,
+      "stars_delta_raw": 14,
+      "forks": 7545,
+      "rank": 432,
+      "fetched": true
+    },
+    {
+      "repo_id": "MetaCubeX/mihomo",
+      "stars": 33828,
+      "stars_delta": 25,
+      "stars_delta_raw": 25,
+      "forks": 4452,
+      "rank": 298,
+      "fetched": true
+    },
+    {
+      "repo_id": "Mintplex-Labs/anything-llm",
+      "stars": 65657,
+      "stars_delta": 34,
+      "stars_delta_raw": 34,
+      "forks": 7262,
+      "rank": 233,
+      "fetched": true
+    },
+    {
+      "repo_id": "Molunerfinn/PicGo",
+      "stars": 27146,
+      "stars_delta": 9,
+      "stars_delta_raw": 9,
+      "forks": 2326,
+      "rank": 538,
+      "fetched": true
+    },
+    {
+      "repo_id": "MonitorControl/MonitorControl",
+      "stars": 34110,
+      "stars_delta": 6,
+      "stars_delta_raw": 6,
+      "forks": 997,
+      "rank": 639,
+      "fetched": true
+    },
+    {
+      "repo_id": "NationalSecurityAgency/ghidra",
+      "stars": 74421,
+      "stars_delta": 43,
+      "stars_delta_raw": 43,
+      "forks": 8121,
+      "rank": 190,
+      "fetched": true
+    },
+    {
+      "repo_id": "NervJS/taro",
+      "stars": 37663,
+      "stars_delta": -2,
+      "stars_delta_raw": -2,
+      "forks": 4873,
+      "rank": 968,
+      "fetched": true
+    },
+    {
+      "repo_id": "NginxProxyManager/nginx-proxy-manager",
+      "stars": 34071,
+      "stars_delta": 5,
+      "stars_delta_raw": 5,
+      "forks": 3880,
+      "rank": 678,
+      "fetched": true
+    },
+    {
+      "repo_id": "NirDiamant/RAG_Techniques",
+      "stars": 29381,
+      "stars_delta": 8,
+      "stars_delta_raw": 8,
+      "forks": 3597,
+      "rank": 561,
+      "fetched": true
+    },
+    {
+      "repo_id": "NixOS/nixpkgs",
+      "stars": 26033,
+      "stars_delta": 5,
+      "stars_delta_raw": 5,
+      "forks": 20013,
+      "rank": 679,
+      "fetched": true
+    },
+    {
+      "repo_id": "NousResearch/hermes-agent",
+      "stars": 241972,
+      "stars_delta": 519,
+      "stars_delta_raw": 519,
+      "forks": 49709,
+      "rank": 11,
+      "fetched": true
+    },
+    {
+      "repo_id": "OAI/OpenAPI-Specification",
+      "stars": 31203,
+      "stars_delta": 1,
+      "stars_delta_raw": 1,
+      "forks": 9162,
+      "rank": 839,
+      "fetched": true
+    },
+    {
+      "repo_id": "OI-wiki/OI-wiki",
+      "stars": 26614,
+      "stars_delta": 2,
+      "stars_delta_raw": 2,
+      "forks": 4689,
+      "rank": 794,
+      "fetched": true
+    },
+    {
+      "repo_id": "OWASP/CheatSheetSeries",
+      "stars": 33086,
+      "stars_delta": 6,
+      "stars_delta_raw": 6,
+      "forks": 4613,
+      "rank": 640,
+      "fetched": true
+    },
+    {
+      "repo_id": "OpenAPITools/openapi-generator",
+      "stars": 26725,
+      "stars_delta": 2,
+      "stars_delta_raw": 2,
+      "forks": 7671,
+      "rank": 795,
+      "fetched": true
+    },
+    {
+      "repo_id": "OpenBMB/MiniCPM-V",
+      "stars": 26303,
+      "stars_delta": 6,
+      "stars_delta_raw": 6,
+      "forks": 2061,
+      "rank": 641,
+      "fetched": true
+    },
+    {
+      "repo_id": "OpenBMB/VoxCPM",
+      "stars": 36740,
+      "stars_delta": 39,
+      "stars_delta_raw": 39,
+      "forks": 4185,
+      "rank": 211,
+      "fetched": true
+    },
+    {
+      "repo_id": "OpenHands/OpenHands",
+      "stars": 86269,
+      "stars_delta": 89,
+      "stars_delta_raw": 89,
+      "forks": 11320,
+      "rank": 111,
+      "fetched": true
+    },
+    {
+      "repo_id": "OpenZeppelin/openzeppelin-contracts",
+      "stars": 27230,
+      "stars_delta": -1,
+      "stars_delta_raw": -1,
+      "forks": 12404,
+      "rank": 945,
+      "fetched": true
+    },
+    {
+      "repo_id": "Osmantic/ODS",
+      "stars": 6163,
+      "stars_delta": 33,
+      "stars_delta_raw": 33,
+      "forks": 885,
+      "rank": 235,
+      "fetched": true
+    },
+    {
+      "repo_id": "OthmanAdi/planning-with-files",
+      "stars": 26646,
+      "stars_delta": 13,
+      "stars_delta_raw": 13,
+      "forks": 2220,
+      "rank": 454,
+      "fetched": true
+    },
+    {
+      "repo_id": "OtterMind/Chat2DB",
+      "stars": 28079,
+      "stars_delta": 3,
+      "stars_delta_raw": 3,
+      "forks": 3028,
+      "rank": 759,
+      "fetched": true
+    },
+    {
+      "repo_id": "PDFMathTranslate/PDFMathTranslate",
+      "stars": 36720,
+      "stars_delta": 19,
+      "stars_delta_raw": 19,
+      "forks": 3301,
+      "rank": 348,
+      "fetched": true
+    },
+    {
+      "repo_id": "Panniantong/Agent-Reach",
+      "stars": 78232,
+      "stars_delta": 210,
+      "stars_delta_raw": 210,
+      "forks": 6747,
+      "rank": 40,
+      "fetched": true
+    },
+    {
+      "repo_id": "PostHog/posthog",
+      "stars": 39600,
+      "stars_delta": 12,
+      "stars_delta_raw": 12,
+      "forks": 3338,
+      "rank": 478,
+      "fetched": true
+    },
+    {
+      "repo_id": "PostgREST/postgrest",
+      "stars": 27639,
+      "stars_delta": 0,
+      "stars_delta_raw": 0,
+      "forks": 1227,
+      "rank": 891,
+      "fetched": true
+    },
+    {
+      "repo_id": "PowerShell/PowerShell",
+      "stars": 55258,
+      "stars_delta": 8,
+      "stars_delta_raw": 8,
+      "forks": 8450,
+      "rank": 562,
+      "fetched": true
+    },
+    {
+      "repo_id": "Predidit/Kazumi",
+      "stars": 29591,
+      "stars_delta": 28,
+      "stars_delta_raw": 28,
+      "forks": 880,
+      "rank": 274,
+      "fetched": true
+    },
+    {
+      "repo_id": "PrefectHQ/fastmcp",
+      "stars": 27537,
+      "stars_delta": 10,
+      "stars_delta_raw": 10,
+      "forks": 2304,
+      "rank": 518,
+      "fetched": true
+    },
+    {
+      "repo_id": "QuantumNous/new-api",
+      "stars": 47372,
+      "stars_delta": 61,
+      "stars_delta_raw": 61,
+      "forks": 11304,
+      "rank": 140,
+      "fetched": true
+    },
+    {
+      "repo_id": "QwenLM/qwen-code",
+      "stars": 27674,
+      "stars_delta": 17,
+      "stars_delta_raw": 17,
+      "forks": 2994,
+      "rank": 380,
+      "fetched": true
+    },
+    {
+      "repo_id": "RSSNext/Folo",
+      "stars": 38910,
+      "stars_delta": 2,
+      "stars_delta_raw": 2,
+      "forks": 2127,
+      "rank": 796,
+      "fetched": true
+    },
+    {
+      "repo_id": "Raphire/Win11Debloat",
+      "stars": 56749,
+      "stars_delta": 43,
+      "stars_delta_raw": 43,
+      "forks": 2419,
+      "rank": 191,
+      "fetched": true
+    },
+    {
+      "repo_id": "ReactiveX/RxJava",
+      "stars": 48204,
+      "stars_delta": 1,
+      "stars_delta_raw": 1,
+      "forks": 7587,
+      "rank": 840,
+      "fetched": true
+    },
+    {
+      "repo_id": "Redocly/redoc",
+      "stars": 25900,
+      "stars_delta": 0,
+      "stars_delta_raw": 0,
+      "forks": 2394,
+      "rank": 892,
+      "fetched": true
+    },
+    {
+      "repo_id": "RocketChat/Rocket.Chat",
+      "stars": 46086,
+      "stars_delta": 0,
+      "stars_delta_raw": 0,
+      "forks": 13848,
+      "rank": 893,
+      "fetched": true
+    },
+    {
+      "repo_id": "SagerNet/sing-box",
+      "stars": 37656,
+      "stars_delta": 29,
+      "stars_delta_raw": 29,
+      "forks": 4533,
+      "rank": 263,
+      "fetched": true
+    },
+    {
+      "repo_id": "SeleniumHQ/selenium",
+      "stars": 34468,
+      "stars_delta": 1,
+      "stars_delta_raw": 1,
+      "forks": 8721,
+      "rank": 841,
+      "fetched": true
+    },
+    {
+      "repo_id": "SerenityOS/serenity",
+      "stars": 33816,
+      "stars_delta": 1,
+      "stars_delta_raw": 1,
+      "forks": 3557,
+      "rank": 842,
+      "fetched": true
+    },
+    {
+      "repo_id": "ShareX/ShareX",
+      "stars": 39453,
+      "stars_delta": 6,
+      "stars_delta_raw": 6,
+      "forks": 3911,
+      "rank": 642,
+      "fetched": true
+    },
+    {
+      "repo_id": "Shubhamsaboo/awesome-llm-apps",
+      "stars": 136235,
+      "stars_delta": 163,
+      "stars_delta_raw": 163,
+      "forks": 20044,
+      "rank": 57,
+      "fetched": true
+    },
+    {
+      "repo_id": "SigNoz/signoz",
+      "stars": 32019,
+      "stars_delta": 7,
+      "stars_delta_raw": 7,
+      "forks": 2470,
+      "rank": 597,
+      "fetched": true
+    },
+    {
+      "repo_id": "Significant-Gravitas/AutoGPT",
+      "stars": 187163,
+      "stars_delta": 31,
+      "stars_delta_raw": 31,
+      "forks": 46042,
+      "rank": 245,
+      "fetched": true
+    },
+    {
+      "repo_id": "SillyTavern/SillyTavern",
+      "stars": 33044,
+      "stars_delta": 29,
+      "stars_delta_raw": 29,
+      "forks": 6225,
+      "rank": 264,
+      "fetched": true
+    },
+    {
+      "repo_id": "SimplifyJobs/Summer2027-Internships",
+      "stars": 47155,
+      "stars_delta": 20,
+      "stars_delta_raw": 20,
+      "forks": 3243,
+      "rank": 336,
+      "fetched": true
+    },
+    {
+      "repo_id": "Snailclimb/JavaGuide",
+      "stars": 158293,
+      "stars_delta": 15,
+      "stars_delta_raw": 15,
+      "forks": 46148,
+      "rank": 412,
+      "fetched": true
+    },
+    {
+      "repo_id": "Solido/awesome-flutter",
+      "stars": 61098,
+      "stars_delta": 4,
+      "stars_delta_raw": 4,
+      "forks": 6911,
+      "rank": 719,
+      "fetched": true
+    },
+    {
+      "repo_id": "StevenBlack/hosts",
+      "stars": 31001,
+      "stars_delta": 7,
+      "stars_delta_raw": 7,
+      "forks": 2442,
+      "rank": 598,
+      "fetched": true
+    },
+    {
+      "repo_id": "Stirling-Tools/Stirling-PDF",
+      "stars": 91357,
+      "stars_delta": 48,
+      "stars_delta_raw": 48,
+      "forks": 8290,
+      "rank": 175,
+      "fetched": true
+    },
+    {
+      "repo_id": "THU-MAIC/OpenMAIC",
+      "stars": 31910,
+      "stars_delta": 435,
+      "stars_delta_raw": 435,
+      "forks": 5236,
+      "rank": 14,
+      "fetched": true
+    },
+    {
+      "repo_id": "TanStack/query",
+      "stars": 50269,
+      "stars_delta": 2,
+      "stars_delta_raw": 2,
+      "forks": 4230,
+      "rank": 797,
+      "fetched": true
+    },
+    {
+      "repo_id": "TanStack/table",
+      "stars": 28409,
+      "stars_delta": 1,
+      "stars_delta_raw": 1,
+      "forks": 3573,
+      "rank": 843,
+      "fetched": true
+    },
+    {
+      "repo_id": "TauricResearch/TradingAgents",
+      "stars": 102612,
+      "stars_delta": 108,
+      "stars_delta_raw": 108,
+      "forks": 19782,
+      "rank": 92,
+      "fetched": true
+    },
+    {
+      "repo_id": "TeamNewPipe/NewPipe",
+      "stars": 39607,
+      "stars_delta": 13,
+      "stars_delta_raw": 13,
+      "forks": 3769,
+      "rank": 455,
+      "fetched": true
+    },
+    {
+      "repo_id": "TencentCloud/TencentDB-Agent-Memory",
+      "stars": 25973,
+      "stars_delta": 51,
+      "stars_delta_raw": 51,
+      "forks": 2422,
+      "rank": 163,
+      "fetched": true
+    },
+    {
+      "repo_id": "The-Art-of-Hacking/h4cker",
+      "stars": 29289,
+      "stars_delta": 12,
+      "stars_delta_raw": 12,
+      "forks": 5354,
+      "rank": 479,
+      "fetched": true
+    },
+    {
+      "repo_id": "The-Vibe-Company/quivr",
+      "stars": 39496,
+      "stars_delta": 1,
+      "stars_delta_raw": 1,
+      "forks": 3731,
+      "rank": 844,
+      "fetched": true
+    },
+    {
+      "repo_id": "TheAlgorithms/Java",
+      "stars": 66217,
+      "stars_delta": 5,
+      "stars_delta_raw": 5,
+      "forks": 21258,
+      "rank": 680,
+      "fetched": true
+    },
+    {
+      "repo_id": "TheAlgorithms/Python",
+      "stars": 224289,
+      "stars_delta": 31,
+      "stars_delta_raw": 31,
+      "forks": 51016,
+      "rank": 246,
+      "fetched": true
+    },
+    {
+      "repo_id": "ToolJet/ToolJet",
+      "stars": 40848,
+      "stars_delta": 4,
+      "stars_delta_raw": 4,
+      "forks": 5435,
+      "rank": 720,
+      "fetched": true
+    },
+    {
+      "repo_id": "TriliumNext/Trilium",
+      "stars": 37729,
+      "stars_delta": 17,
+      "stars_delta_raw": 17,
+      "forks": 2535,
+      "rank": 381,
+      "fetched": true
+    },
+    {
+      "repo_id": "TryGhost/Ghost",
+      "stars": 55177,
+      "stars_delta": 16,
+      "stars_delta_raw": 16,
+      "forks": 11939,
+      "rank": 395,
+      "fetched": true
+    },
+    {
+      "repo_id": "Unitech/pm2",
+      "stars": 43290,
+      "stars_delta": -3,
+      "stars_delta_raw": -3,
+      "forks": 2725,
+      "rank": 990,
+      "fetched": true
+    },
+    {
+      "repo_id": "VSCodium/vscodium",
+      "stars": 33131,
+      "stars_delta": 15,
+      "stars_delta_raw": 15,
+      "forks": 1860,
+      "rank": 413,
+      "fetched": true
+    },
+    {
+      "repo_id": "ValveSoftware/Proton",
+      "stars": 32730,
+      "stars_delta": -1,
+      "stars_delta_raw": -1,
+      "forks": 1595,
+      "rank": 946,
+      "fetched": true
+    },
+    {
+      "repo_id": "VectifyAI/PageIndex",
+      "stars": 35537,
+      "stars_delta": 18,
+      "stars_delta_raw": 18,
+      "forks": 3131,
+      "rank": 361,
+      "fetched": true
+    },
+    {
+      "repo_id": "VoltAgent/awesome-agent-skills",
+      "stars": 33787,
+      "stars_delta": 27,
+      "stars_delta_raw": 27,
+      "forks": 3574,
+      "rank": 284,
+      "fetched": true
+    },
+    {
+      "repo_id": "VoltAgent/awesome-openclaw-skills",
+      "stars": 52397,
+      "stars_delta": 12,
+      "stars_delta_raw": 12,
+      "forks": 5018,
+      "rank": 480,
+      "fetched": true
+    },
+    {
+      "repo_id": "Wei-Shaw/sub2api",
+      "stars": 40552,
+      "stars_delta": 100,
+      "stars_delta_raw": 100,
+      "forks": 8410,
+      "rank": 100,
+      "fetched": true
+    },
+    {
+      "repo_id": "WerWolv/ImHex",
+      "stars": 54709,
+      "stars_delta": 17,
+      "stars_delta_raw": 17,
+      "forks": 2451,
+      "rank": 382,
+      "fetched": true
+    },
+    {
+      "repo_id": "Wilfred/difftastic",
+      "stars": 25858,
+      "stars_delta": 3,
+      "stars_delta_raw": 3,
+      "forks": 514,
+      "rank": 760,
+      "fetched": true
+    },
+    {
+      "repo_id": "Wox-launcher/Wox",
+      "stars": 27321,
+      "stars_delta": 1,
+      "stars_delta_raw": 1,
+      "forks": 2433,
+      "rank": 845,
+      "fetched": true
+    },
+    {
+      "repo_id": "XIU2/TrackersListCollection",
+      "stars": 32081,
+      "stars_delta": 6,
+      "stars_delta_raw": 6,
+      "forks": 1783,
+      "rank": 643,
+      "fetched": true
+    },
+    {
+      "repo_id": "XTLS/Xray-core",
+      "stars": 41411,
+      "stars_delta": 15,
+      "stars_delta_raw": 15,
+      "forks": 5852,
+      "rank": 414,
+      "fetched": true
+    },
+    {
+      "repo_id": "Yeachan-Heo/oh-my-claudecode",
+      "stars": 39027,
+      "stars_delta": 17,
+      "stars_delta_raw": 17,
+      "forks": 3495,
+      "rank": 383,
+      "fetched": true
+    },
+    {
+      "repo_id": "Yeachan-Heo/oh-my-codex",
+      "stars": 32995,
+      "stars_delta": 13,
+      "stars_delta_raw": 13,
+      "forks": 2534,
+      "rank": 456,
+      "fetched": true
+    },
+    {
+      "repo_id": "Yuan1z0825/nature-skills",
+      "stars": 39392,
+      "stars_delta": 187,
+      "stars_delta_raw": 187,
+      "forks": 2156,
+      "rank": 47,
+      "fetched": true
+    },
+    {
+      "repo_id": "YunaiV/ruoyi-vue-pro",
+      "stars": 39139,
+      "stars_delta": 7,
+      "stars_delta_raw": 7,
+      "forks": 8458,
+      "rank": 599,
+      "fetched": true
+    },
+    {
+      "repo_id": "Zackriya-Solutions/meetily",
+      "stars": 30386,
+      "stars_delta": 40,
+      "stars_delta_raw": 40,
+      "forks": 3279,
+      "rank": 205,
+      "fetched": true
+    },
+    {
+      "repo_id": "ZhuLinsen/daily_stock_analysis",
+      "stars": 64665,
+      "stars_delta": 49,
+      "stars_delta_raw": 49,
+      "forks": 54196,
+      "rank": 171,
+      "fetched": true
+    },
+    {
+      "repo_id": "aaif-goose/goose",
+      "stars": 53941,
+      "stars_delta": 26,
+      "stars_delta_raw": 26,
+      "forks": 6184,
+      "rank": 290,
+      "fetched": true
+    },
+    {
+      "repo_id": "abhigyanpatwari/GitNexus",
+      "stars": 47052,
+      "stars_delta": 37,
+      "stars_delta_raw": 37,
+      "forks": 5153,
+      "rank": 217,
+      "fetched": true
+    },
+    {
+      "repo_id": "abiosoft/colima",
+      "stars": 30652,
+      "stars_delta": 14,
+      "stars_delta_raw": 14,
+      "forks": 607,
+      "rank": 433,
+      "fetched": true
+    },
+    {
+      "repo_id": "academic/awesome-datascience",
+      "stars": 29937,
+      "stars_delta": 3,
+      "stars_delta_raw": 3,
+      "forks": 6622,
+      "rank": 761,
+      "fetched": true
+    },
+    {
+      "repo_id": "acmesh-official/acme.sh",
+      "stars": 47590,
+      "stars_delta": 8,
+      "stars_delta_raw": 8,
+      "forks": 5661,
+      "rank": 563,
+      "fetched": true
+    },
+    {
+      "repo_id": "actions/checkout",
+      "stars": 8843,
+      "stars_delta": 2,
+      "stars_delta_raw": 2,
+      "forks": 2777,
+      "rank": 798,
+      "fetched": true
+    },
+    {
+      "repo_id": "actualbudget/actual",
+      "stars": 28573,
+      "stars_delta": 11,
+      "stars_delta_raw": 11,
+      "forks": 2954,
+      "rank": 504,
+      "fetched": true
+    },
+    {
+      "repo_id": "addyosmani/agent-skills",
+      "stars": 92439,
+      "stars_delta": 169,
+      "stars_delta_raw": 169,
+      "forks": 9852,
+      "rank": 56,
+      "fetched": true
+    },
+    {
+      "repo_id": "affaan-m/ECC",
+      "stars": 249809,
+      "stars_delta": 1358,
+      "stars_delta_raw": 1358,
+      "forks": 37605,
+      "rank": 2,
+      "fetched": true
+    },
+    {
+      "repo_id": "agalwood/Motrix",
+      "stars": 55172,
+      "stars_delta": 47,
+      "stars_delta_raw": 47,
+      "forks": 5020,
+      "rank": 180,
+      "fetched": true
+    },
+    {
+      "repo_id": "agentscope-ai/QwenPaw",
+      "stars": 34932,
+      "stars_delta": 42,
+      "stars_delta_raw": 42,
+      "forks": 3065,
+      "rank": 197,
+      "fetched": true
+    },
+    {
+      "repo_id": "agentscope-ai/agentscope",
+      "stars": 30791,
+      "stars_delta": 111,
+      "stars_delta_raw": 111,
+      "forks": 3453,
+      "rank": 88,
+      "fetched": true
+    },
+    {
+      "repo_id": "agno-agi/agno",
+      "stars": 42066,
+      "stars_delta": 14,
+      "stars_delta_raw": 14,
+      "forks": 5876,
+      "rank": 434,
+      "fetched": true
+    },
+    {
+      "repo_id": "ahujasid/blender-mcp",
+      "stars": 27053,
+      "stars_delta": 210,
+      "stars_delta_raw": 210,
+      "forks": 2533,
+      "rank": 41,
+      "fetched": true
+    },
+    {
+      "repo_id": "ai/nanoid",
+      "stars": 26959,
+      "stars_delta": -3,
+      "stars_delta_raw": -3,
+      "forks": 876,
+      "rank": 991,
+      "fetched": true
+    },
+    {
+      "repo_id": "airbnb/lottie-ios",
+      "stars": 26865,
+      "stars_delta": -1,
+      "stars_delta_raw": -1,
+      "forks": 3833,
+      "rank": 947,
+      "fetched": true
+    },
+    {
+      "repo_id": "aishwaryanr/awesome-generative-ai-guide",
+      "stars": 29267,
+      "stars_delta": 13,
+      "stars_delta_raw": 13,
+      "forks": 5922,
+      "rank": 457,
+      "fetched": true
+    },
+    {
+      "repo_id": "ajeetdsouza/zoxide",
+      "stars": 39180,
+      "stars_delta": 10,
+      "stars_delta_raw": 10,
+      "forks": 888,
+      "rank": 519,
+      "fetched": true
+    },
+    {
+      "repo_id": "alacritty/alacritty",
+      "stars": 65629,
+      "stars_delta": 6,
+      "stars_delta_raw": 6,
+      "forks": 3593,
+      "rank": 644,
+      "fetched": true
+    },
+    {
+      "repo_id": "alibaba/arthas",
+      "stars": 37517,
+      "stars_delta": 1,
+      "stars_delta_raw": 1,
+      "forks": 7646,
+      "rank": 846,
+      "fetched": true
+    },
+    {
+      "repo_id": "alibaba/nacos",
+      "stars": 33348,
+      "stars_delta": 3,
+      "stars_delta_raw": 3,
+      "forks": 13290,
+      "rank": 762,
+      "fetched": true
+    },
+    {
+      "repo_id": "alibaba/page-agent",
+      "stars": 28992,
+      "stars_delta": 8,
+      "stars_delta_raw": 8,
+      "forks": 2599,
+      "rank": 564,
+      "fetched": true
+    },
+    {
+      "repo_id": "alibaba/spring-cloud-alibaba",
+      "stars": 29168,
+      "stars_delta": 0,
+      "stars_delta_raw": 0,
+      "forks": 8481,
+      "rank": 894,
+      "fetched": true
+    },
+    {
+      "repo_id": "alpinejs/alpine",
+      "stars": 31905,
+      "stars_delta": 0,
+      "stars_delta_raw": 0,
+      "forks": 1387,
+      "rank": 895,
+      "fetched": true
+    },
+    {
+      "repo_id": "amruthpillai/reactive-resume",
+      "stars": 42219,
+      "stars_delta": 33,
+      "stars_delta_raw": 33,
+      "forks": 4691,
+      "rank": 236,
+      "fetched": true
+    },
+    {
+      "repo_id": "android/architecture-samples",
+      "stars": 45817,
+      "stars_delta": -2,
+      "stars_delta_raw": -2,
+      "forks": 11856,
+      "rank": 969,
+      "fetched": true
+    },
+    {
+      "repo_id": "angular/angular-cli",
+      "stars": 27019,
+      "stars_delta": -1,
+      "stars_delta_raw": -1,
+      "forks": 11840,
+      "rank": 948,
+      "fetched": true
+    },
+    {
+      "repo_id": "angular/angular",
+      "stars": 101008,
+      "stars_delta": -2,
+      "stars_delta_raw": -2,
+      "forks": 27444,
+      "rank": 970,
+      "fetched": true
+    },
+    {
+      "repo_id": "ankitects/anki",
+      "stars": 30340,
+      "stars_delta": 21,
+      "stars_delta_raw": 21,
+      "forks": 3187,
+      "rank": 328,
+      "fetched": true
+    },
+    {
+      "repo_id": "anomalyco/opencode",
+      "stars": 204651,
+      "stars_delta": 570,
+      "stars_delta_raw": 570,
+      "forks": 26698,
+      "rank": 9,
+      "fetched": true
+    },
+    {
+      "repo_id": "ansible/ansible",
+      "stars": 70592,
+      "stars_delta": 3,
+      "stars_delta_raw": 3,
+      "forks": 24344,
+      "rank": 763,
+      "fetched": true
+    },
+    {
+      "repo_id": "ant-design/ant-design-pro",
+      "stars": 38744,
+      "stars_delta": 5,
+      "stars_delta_raw": 5,
+      "forks": 8246,
+      "rank": 681,
+      "fetched": true
+    },
+    {
+      "repo_id": "ant-design/ant-design",
+      "stars": 99398,
+      "stars_delta": 10,
+      "stars_delta_raw": 10,
+      "forks": 54715,
+      "rank": 520,
+      "fetched": true
+    },
+    {
+      "repo_id": "anthropics/claude-code",
+      "stars": 144172,
+      "stars_delta": 84,
+      "stars_delta_raw": 84,
+      "forks": 23029,
+      "rank": 114,
+      "fetched": true
+    },
+    {
+      "repo_id": "anthropics/claude-cookbooks",
+      "stars": 52454,
+      "stars_delta": 21,
+      "stars_delta_raw": 21,
+      "forks": 6273,
+      "rank": 329,
+      "fetched": true
+    },
+    {
+      "repo_id": "anthropics/claude-plugins-official",
+      "stars": 35939,
+      "stars_delta": 31,
+      "stars_delta_raw": 31,
+      "forks": 4018,
+      "rank": 247,
+      "fetched": true
+    },
+    {
+      "repo_id": "anthropics/prompt-eng-interactive-tutorial",
+      "stars": 38073,
+      "stars_delta": 11,
+      "stars_delta_raw": 11,
+      "forks": 4207,
+      "rank": 505,
+      "fetched": true
+    },
+    {
+      "repo_id": "anthropics/skills",
+      "stars": 174538,
+      "stars_delta": 434,
+      "stars_delta_raw": 434,
+      "forks": 20670,
+      "rank": 15,
+      "fetched": true
+    },
+    {
+      "repo_id": "anuraghazra/github-readme-stats",
+      "stars": 79844,
+      "stars_delta": -2,
+      "stars_delta_raw": -2,
+      "forks": 37456,
+      "rank": 971,
+      "fetched": true
+    },
+    {
+      "repo_id": "apache/airflow",
+      "stars": 46747,
+      "stars_delta": 15,
+      "stars_delta_raw": 15,
+      "forks": 17771,
+      "rank": 415,
+      "fetched": true
+    },
+    {
+      "repo_id": "apache/dubbo",
+      "stars": 41565,
+      "stars_delta": 1,
+      "stars_delta_raw": 1,
+      "forks": 26377,
+      "rank": 847,
+      "fetched": true
+    },
+    {
+      "repo_id": "apache/echarts",
+      "stars": 67247,
+      "stars_delta": 4,
+      "stars_delta_raw": 4,
+      "forks": 19822,
+      "rank": 721,
+      "fetched": true
+    },
+    {
+      "repo_id": "apache/flink",
+      "stars": 26325,
+      "stars_delta": -2,
+      "stars_delta_raw": -2,
+      "forks": 14024,
+      "rank": 972,
+      "fetched": true
+    },
+    {
+      "repo_id": "apache/incubator-seata",
+      "stars": 25995,
+      "stars_delta": 0,
+      "stars_delta_raw": 0,
+      "forks": 8851,
+      "rank": 896,
+      "fetched": true
+    },
+    {
+      "repo_id": "apache/kafka",
+      "stars": 33673,
+      "stars_delta": 5,
+      "stars_delta_raw": 5,
+      "forks": 15483,
+      "rank": 682,
+      "fetched": true
+    },
+    {
+      "repo_id": "apache/spark",
+      "stars": 43950,
+      "stars_delta": 2,
+      "stars_delta_raw": 2,
+      "forks": 29370,
+      "rank": 799,
+      "fetched": true
+    },
+    {
+      "repo_id": "apache/superset",
+      "stars": 74656,
+      "stars_delta": 16,
+      "stars_delta_raw": 16,
+      "forks": 18233,
+      "rank": 396,
+      "fetched": true
+    },
+    {
+      "repo_id": "apolloconfig/apollo",
+      "stars": 29805,
+      "stars_delta": 1,
+      "stars_delta_raw": 1,
+      "forks": 10161,
+      "rank": 848,
+      "fetched": true
+    },
+    {
+      "repo_id": "apple/container",
+      "stars": 49701,
+      "stars_delta": 58,
+      "stars_delta_raw": 58,
+      "forks": 1783,
+      "rank": 144,
+      "fetched": true
+    },
+    {
+      "repo_id": "appsmithorg/appsmith",
+      "stars": 40817,
+      "stars_delta": 5,
+      "stars_delta_raw": 5,
+      "forks": 4752,
+      "rank": 683,
+      "fetched": true
+    },
+    {
+      "repo_id": "appwrite/appwrite",
+      "stars": 57297,
+      "stars_delta": 9,
+      "stars_delta_raw": 9,
+      "forks": 5695,
+      "rank": 539,
+      "fetched": true
+    },
+    {
+      "repo_id": "aquasecurity/trivy",
+      "stars": 37794,
+      "stars_delta": 11,
+      "stars_delta_raw": 11,
+      "forks": 660,
+      "rank": 506,
+      "fetched": true
+    },
+    {
+      "repo_id": "argotorg/solidity",
+      "stars": 25723,
+      "stars_delta": -1,
+      "stars_delta_raw": -1,
+      "forks": 6150,
+      "rank": 949,
+      "fetched": true
+    },
+    {
+      "repo_id": "aristocratos/btop",
+      "stars": 34413,
+      "stars_delta": 10,
+      "stars_delta_raw": 10,
+      "forks": 1141,
+      "rank": 521,
+      "fetched": true
+    },
+    {
+      "repo_id": "aseprite/aseprite",
+      "stars": 39236,
+      "stars_delta": 23,
+      "stars_delta_raw": 23,
+      "forks": 8880,
+      "rank": 312,
+      "fetched": true
+    },
+    {
+      "repo_id": "asgeirtj/system_prompts_leaks",
+      "stars": 64229,
+      "stars_delta": 54,
+      "stars_delta_raw": 54,
+      "forks": 10538,
+      "rank": 153,
+      "fetched": true
+    },
+    {
+      "repo_id": "astral-sh/ruff",
+      "stars": 49504,
+      "stars_delta": 23,
+      "stars_delta_raw": 23,
+      "forks": 2389,
+      "rank": 313,
+      "fetched": true
+    },
+    {
+      "repo_id": "astral-sh/uv",
+      "stars": 89497,
+      "stars_delta": 45,
+      "stars_delta_raw": 45,
+      "forks": 3544,
+      "rank": 185,
+      "fetched": true
+    },
+    {
+      "repo_id": "atuinsh/atuin",
+      "stars": 31544,
+      "stars_delta": 13,
+      "stars_delta_raw": 13,
+      "forks": 957,
+      "rank": 458,
+      "fetched": true
+    },
+    {
+      "repo_id": "authelia/authelia",
+      "stars": 28806,
+      "stars_delta": 9,
+      "stars_delta_raw": 9,
+      "forks": 1477,
+      "rank": 540,
+      "fetched": true
+    },
+    {
+      "repo_id": "avelino/awesome-go",
+      "stars": 183261,
+      "stars_delta": 97,
+      "stars_delta_raw": 97,
+      "forks": 13546,
+      "rank": 105,
+      "fetched": true
+    },
+    {
+      "repo_id": "averygan/reclip",
+      "stars": 8735,
+      "stars_delta": 27,
+      "stars_delta_raw": 27,
+      "forks": 1397,
+      "rank": 285,
+      "fetched": true
+    },
+    {
+      "repo_id": "awesome-foss/awesome-sysadmin",
+      "stars": 35077,
+      "stars_delta": 6,
+      "stars_delta_raw": 6,
+      "forks": 2102,
+      "rank": 645,
+      "fetched": true
+    },
+    {
+      "repo_id": "awesome-selfhosted/awesome-selfhosted",
+      "stars": 317354,
+      "stars_delta": 184,
+      "stars_delta_raw": 184,
+      "forks": 14929,
+      "rank": 51,
+      "fetched": true
+    },
+    {
+      "repo_id": "awesomedata/awesome-public-datasets",
+      "stars": 78820,
+      "stars_delta": 9,
+      "stars_delta_raw": 9,
+      "forks": 11832,
+      "rank": 541,
+      "fetched": true
+    },
+    {
+      "repo_id": "axios/axios",
+      "stars": 109190,
+      "stars_delta": -2,
+      "stars_delta_raw": -2,
+      "forks": 11834,
+      "rank": 973,
+      "fetched": true
+    },
+    {
+      "repo_id": "ayghri/i-have-adhd",
+      "stars": 27213,
+      "stars_delta": 107,
+      "stars_delta_raw": 107,
+      "forks": 1705,
+      "rank": 94,
+      "fetched": true
+    },
+    {
+      "repo_id": "babel/babel",
+      "stars": 43992,
+      "stars_delta": 2,
+      "stars_delta_raw": 2,
+      "forks": 6004,
+      "rank": 800,
+      "fetched": true
+    },
+    {
+      "repo_id": "backstage/backstage",
+      "stars": 34340,
+      "stars_delta": 11,
+      "stars_delta_raw": 11,
+      "forks": 7608,
+      "rank": 507,
+      "fetched": true
+    },
+    {
+      "repo_id": "badges/shields",
+      "stars": 27161,
+      "stars_delta": 1,
+      "stars_delta_raw": 1,
+      "forks": 5619,
+      "rank": 849,
+      "fetched": true
+    },
+    {
+      "repo_id": "bagisto/bagisto",
+      "stars": 28091,
+      "stars_delta": 0,
+      "stars_delta_raw": 0,
+      "forks": 3277,
+      "rank": 897,
+      "fetched": true
+    },
+    {
+      "repo_id": "bannedbook/fanqiang",
+      "stars": 53006,
+      "stars_delta": 254,
+      "stars_delta_raw": 254,
+      "forks": 8538,
+      "rank": 31,
+      "fetched": true
+    },
+    {
+      "repo_id": "bazelbuild/bazel",
+      "stars": 25809,
+      "stars_delta": 5,
+      "stars_delta_raw": 5,
+      "forks": 4589,
+      "rank": 684,
+      "fetched": true
+    },
+    {
+      "repo_id": "beego/beego",
+      "stars": 32422,
+      "stars_delta": 0,
+      "stars_delta_raw": 0,
+      "forks": 5578,
+      "rank": 898,
+      "fetched": true
+    },
+    {
+      "repo_id": "better-auth/better-auth",
+      "stars": 29837,
+      "stars_delta": 12,
+      "stars_delta_raw": 12,
+      "forks": 2878,
+      "rank": 481,
+      "fetched": true
+    },
+    {
+      "repo_id": "bevyengine/bevy",
+      "stars": 48055,
+      "stars_delta": 11,
+      "stars_delta_raw": 11,
+      "forks": 4809,
+      "rank": 508,
+      "fetched": true
+    },
+    {
+      "repo_id": "bigskysoftware/htmx",
+      "stars": 49352,
+      "stars_delta": 6,
+      "stars_delta_raw": 6,
+      "forks": 1653,
+      "rank": 646,
+      "fetched": true
+    },
+    {
+      "repo_id": "bilawalsidhu/gods-eye-view",
+      "stars": 17981,
+      "stars_delta": 502,
+      "stars_delta_raw": 502,
+      "forks": 3637,
+      "rank": 13,
+      "fetched": true
+    },
+    {
+      "repo_id": "binarywang/WxJava",
+      "stars": 33069,
+      "stars_delta": 2,
+      "stars_delta_raw": 2,
+      "forks": 9060,
+      "rank": 801,
+      "fetched": true
+    },
+    {
+      "repo_id": "binwiederhier/ntfy",
+      "stars": 34047,
+      "stars_delta": 30,
+      "stars_delta_raw": 30,
+      "forks": 1587,
+      "rank": 256,
+      "fetched": true
+    },
+    {
+      "repo_id": "bitcoin/bitcoin",
+      "stars": 90112,
+      "stars_delta": 15,
+      "stars_delta_raw": 15,
+      "forks": 39385,
+      "rank": 416,
+      "fetched": true
+    },
+    {
+      "repo_id": "blackmatrix7/ios_rule_script",
+      "stars": 27784,
+      "stars_delta": 7,
+      "stars_delta_raw": 7,
+      "forks": 4057,
+      "rank": 600,
+      "fetched": true
+    },
+    {
+      "repo_id": "blader/humanizer",
+      "stars": 43430,
+      "stars_delta": 775,
+      "stars_delta_raw": 775,
+      "forks": 3643,
+      "rank": 6,
+      "fetched": true
+    },
+    {
+      "repo_id": "blakeblackshear/frigate",
+      "stars": 35649,
+      "stars_delta": 14,
+      "stars_delta_raw": 14,
+      "forks": 3570,
+      "rank": 435,
+      "fetched": true
+    },
+    {
+      "repo_id": "block/buzz",
+      "stars": 32200,
+      "stars_delta": 54,
+      "stars_delta_raw": 54,
+      "forks": 4168,
+      "rank": 154,
+      "fetched": true
+    },
+    {
+      "repo_id": "bmad-code-org/BMAD-METHOD",
+      "stars": 52709,
+      "stars_delta": 28,
+      "stars_delta_raw": 28,
+      "forks": 5981,
+      "rank": 275,
+      "fetched": true
+    },
+    {
+      "repo_id": "bojieli/ai-agent-book",
+      "stars": 44840,
+      "stars_delta": 128,
+      "stars_delta_raw": 128,
+      "forks": 4957,
+      "rank": 73,
+      "fetched": true
+    },
+    {
+      "repo_id": "browser-use/browser-use",
+      "stars": 112392,
+      "stars_delta": 106,
+      "stars_delta_raw": 106,
+      "forks": 12371,
+      "rank": 97,
+      "fetched": true
+    },
+    {
+      "repo_id": "browser-use/video-use",
+      "stars": 24148,
+      "stars_delta": 130,
+      "stars_delta_raw": 130,
+      "forks": 2938,
+      "rank": 70,
+      "fetched": true
+    },
+    {
+      "repo_id": "bumptech/glide",
+      "stars": 35023,
+      "stars_delta": 2,
+      "stars_delta_raw": 2,
+      "forks": 6178,
+      "rank": 802,
+      "fetched": true
+    },
+    {
+      "repo_id": "byoungd/up",
+      "stars": 62323,
+      "stars_delta": 28,
+      "stars_delta_raw": 28,
+      "forks": 6310,
+      "rank": 276,
+      "fetched": true
+    },
+    {
+      "repo_id": "bytedance/deer-flow",
+      "stars": 81422,
+      "stars_delta": 55,
+      "stars_delta_raw": 55,
+      "forks": 11229,
+      "rank": 151,
+      "fetched": true
+    },
+    {
+      "repo_id": "caddyserver/caddy",
+      "stars": 75509,
+      "stars_delta": 19,
+      "stars_delta_raw": 19,
+      "forks": 4942,
+      "rank": 349,
+      "fetched": true
+    },
+    {
+      "repo_id": "calcom/cal.diy",
+      "stars": 48186,
+      "stars_delta": 36,
+      "stars_delta_raw": 36,
+      "forks": 15020,
+      "rank": 225,
+      "fetched": true
+    },
+    {
+      "repo_id": "can1357/oh-my-pi",
+      "stars": 29681,
+      "stars_delta": 181,
+      "stars_delta_raw": 181,
+      "forks": 3016,
+      "rank": 52,
+      "fetched": true
+    },
+    {
+      "repo_id": "carbon-language/carbon-lang",
+      "stars": 33879,
+      "stars_delta": -1,
+      "stars_delta_raw": -1,
+      "forks": 1718,
+      "rank": 950,
+      "fetched": true
+    },
+    {
+      "repo_id": "career-ops-hq/career-ops",
+      "stars": 70233,
+      "stars_delta": 88,
+      "stars_delta_raw": 88,
+      "forks": 13298,
+      "rank": 112,
+      "fetched": true
+    },
+    {
+      "repo_id": "casey/just",
+      "stars": 35654,
+      "stars_delta": 14,
+      "stars_delta_raw": 14,
+      "forks": 839,
+      "rank": 436,
+      "fetched": true
+    },
+    {
+      "repo_id": "cathrynlavery/diagram-design",
+      "stars": 31651,
+      "stars_delta": 770,
+      "stars_delta_raw": 770,
+      "forks": 2039,
+      "rank": 7,
+      "fetched": true
+    },
+    {
+      "repo_id": "ccxt/ccxt",
+      "stars": 43875,
+      "stars_delta": 8,
+      "stars_delta_raw": 8,
+      "forks": 8819,
+      "rank": 565,
+      "fetched": true
+    },
+    {
+      "repo_id": "celery/celery",
+      "stars": 28864,
+      "stars_delta": 4,
+      "stars_delta_raw": 4,
+      "forks": 5150,
+      "rank": 722,
+      "fetched": true
+    },
+    {
+      "repo_id": "certbot/certbot",
+      "stars": 33233,
+      "stars_delta": 3,
+      "stars_delta_raw": 3,
+      "forks": 3510,
+      "rank": 764,
+      "fetched": true
+    },
+    {
+      "repo_id": "chakra-ui/chakra-ui",
+      "stars": 40627,
+      "stars_delta": 5,
+      "stars_delta_raw": 5,
+      "forks": 3639,
+      "rank": 685,
+      "fetched": true
+    },
+    {
+      "repo_id": "charmbracelet/bubbletea",
+      "stars": 44812,
+      "stars_delta": 12,
+      "stars_delta_raw": 12,
+      "forks": 1309,
+      "rank": 482,
+      "fetched": true
+    },
+    {
+      "repo_id": "charmbracelet/crush",
+      "stars": 27924,
+      "stars_delta": 16,
+      "stars_delta_raw": 16,
+      "forks": 2226,
+      "rank": 397,
+      "fetched": true
+    },
+    {
+      "repo_id": "charmbracelet/glow",
+      "stars": 27197,
+      "stars_delta": 8,
+      "stars_delta_raw": 8,
+      "forks": 761,
+      "rank": 566,
+      "fetched": true
+    },
+    {
+      "repo_id": "chatboxai/chatbox",
+      "stars": 41657,
+      "stars_delta": 14,
+      "stars_delta_raw": 14,
+      "forks": 4227,
+      "rank": 437,
+      "fetched": true
+    },
+    {
+      "repo_id": "chatwoot/chatwoot",
+      "stars": 36523,
+      "stars_delta": 23,
+      "stars_delta_raw": 23,
+      "forks": 8822,
+      "rank": 314,
+      "fetched": true
+    },
+    {
+      "repo_id": "checkstyle/checkstyle",
+      "stars": 9542,
+      "stars_delta": 12,
+      "stars_delta_raw": 12,
+      "forks": 4218,
+      "rank": 483,
+      "fetched": true
+    },
+    {
+      "repo_id": "cheeriojs/cheerio",
+      "stars": 30477,
+      "stars_delta": 2,
+      "stars_delta_raw": 2,
+      "forks": 1714,
+      "rank": 803,
+      "fetched": true
+    },
+    {
+      "repo_id": "chen08209/FlClash",
+      "stars": 51006,
+      "stars_delta": 75,
+      "stars_delta_raw": 75,
+      "forks": 3214,
+      "rank": 118,
+      "fetched": true
+    },
+    {
+      "repo_id": "chenglou/pretext",
+      "stars": 50194,
+      "stars_delta": 18,
+      "stars_delta_raw": 18,
+      "forks": 2730,
+      "rank": 362,
+      "fetched": true
+    },
+    {
+      "repo_id": "chinabugotech/hutool",
+      "stars": 30269,
+      "stars_delta": 3,
+      "stars_delta_raw": 3,
+      "forks": 7576,
+      "rank": 765,
+      "fetched": true
+    },
+    {
+      "repo_id": "chroma-core/chroma",
+      "stars": 29230,
+      "stars_delta": 4,
+      "stars_delta_raw": 4,
+      "forks": 2486,
+      "rank": 723,
+      "fetched": true
+    },
+    {
+      "repo_id": "cjpais/Handy",
+      "stars": 31063,
+      "stars_delta": 48,
+      "stars_delta_raw": 48,
+      "forks": 2812,
+      "rank": 176,
+      "fetched": true
+    },
+    {
+      "repo_id": "clash-verge-rev/clash-verge-rev",
+      "stars": 142446,
+      "stars_delta": 227,
+      "stars_delta_raw": 227,
+      "forks": 10247,
+      "rank": 38,
+      "fetched": true
+    },
+    {
+      "repo_id": "cli/cli",
+      "stars": 46161,
+      "stars_delta": 11,
+      "stars_delta_raw": 11,
+      "forks": 8972,
+      "rank": 509,
+      "fetched": true
+    },
+    {
+      "repo_id": "cline/cline",
+      "stars": 67526,
+      "stars_delta": 45,
+      "stars_delta_raw": 45,
+      "forks": 7289,
+      "rank": 186,
+      "fetched": true
+    },
+    {
+      "repo_id": "cmderdev/cmder",
+      "stars": 27001,
+      "stars_delta": -3,
+      "stars_delta_raw": -3,
+      "forks": 2074,
+      "rank": 992,
+      "fetched": true
+    },
+    {
+      "repo_id": "cockroachdb/cockroach",
+      "stars": 32442,
+      "stars_delta": 8,
+      "stars_delta_raw": 8,
+      "forks": 4102,
+      "rank": 567,
+      "fetched": true
+    },
+    {
+      "repo_id": "code-yeongyu/oh-my-openagent",
+      "stars": 68728,
+      "stars_delta": 32,
+      "stars_delta_raw": 32,
+      "forks": 5643,
+      "rank": 239,
+      "fetched": true
+    },
+    {
+      "repo_id": "coder/code-server",
+      "stars": 79204,
+      "stars_delta": 18,
+      "stars_delta_raw": 18,
+      "forks": 6843,
+      "rank": 363,
+      "fetched": true
+    },
+    {
+      "repo_id": "codex-team/editor.js",
+      "stars": 31928,
+      "stars_delta": -1,
+      "stars_delta_raw": -1,
+      "forks": 2248,
+      "rank": 951,
+      "fetched": true
+    },
+    {
+      "repo_id": "colbymchenry/codegraph",
+      "stars": 69741,
+      "stars_delta": 111,
+      "stars_delta_raw": 111,
+      "forks": 4449,
+      "rank": 89,
+      "fetched": true
+    },
+    {
+      "repo_id": "colinhacks/zod",
+      "stars": 43846,
+      "stars_delta": 12,
+      "stars_delta_raw": 12,
+      "forks": 2177,
+      "rank": 484,
+      "fetched": true
+    },
+    {
+      "repo_id": "commaai/openpilot",
+      "stars": 63579,
+      "stars_delta": 5,
+      "stars_delta_raw": 5,
+      "forks": 11336,
+      "rank": 686,
+      "fetched": true
+    },
+    {
+      "repo_id": "community-scripts/ProxmoxVE",
+      "stars": 29501,
+      "stars_delta": 8,
+      "stars_delta_raw": 8,
+      "forks": 2864,
+      "rank": 568,
+      "fetched": true
+    },
+    {
+      "repo_id": "composer/composer",
+      "stars": 29511,
+      "stars_delta": 0,
+      "stars_delta_raw": 0,
+      "forks": 4835,
+      "rank": 899,
+      "fetched": true
+    },
+    {
+      "repo_id": "conductor-oss/conductor",
+      "stars": 32184,
+      "stars_delta": 4,
+      "stars_delta_raw": 4,
+      "forks": 1005,
+      "rank": 724,
+      "fetched": true
+    },
+    {
+      "repo_id": "continuedev/continue",
+      "stars": 35779,
+      "stars_delta": 15,
+      "stars_delta_raw": 15,
+      "forks": 5334,
+      "rank": 417,
+      "fetched": true
+    },
+    {
+      "repo_id": "coollabsio/coolify",
+      "stars": 61457,
+      "stars_delta": 41,
+      "stars_delta_raw": 41,
+      "forks": 5414,
+      "rank": 202,
+      "fetched": true
+    },
+    {
+      "repo_id": "coolsnowwolf/lede",
+      "stars": 31587,
+      "stars_delta": 0,
+      "stars_delta_raw": 0,
+      "forks": 19180,
+      "rank": 900,
+      "fetched": true
+    },
+    {
+      "repo_id": "coreyhaines31/marketingskills",
+      "stars": 47089,
+      "stars_delta": 196,
+      "stars_delta_raw": 196,
+      "forks": 7340,
+      "rank": 44,
+      "fetched": true
+    },
+    {
+      "repo_id": "corsairdev/corsair",
+      "stars": 11331,
+      "stars_delta": -8,
+      "stars_delta_raw": -8,
+      "forks": 571,
+      "rank": 1000,
+      "fetched": true
+    },
+    {
+      "repo_id": "crewAIInc/crewAI",
+      "stars": 58122,
+      "stars_delta": 32,
+      "stars_delta_raw": 32,
+      "forks": 8352,
+      "rank": 240,
+      "fetched": true
+    },
+    {
+      "repo_id": "curl/curl",
+      "stars": 42761,
+      "stars_delta": 8,
+      "stars_delta_raw": 8,
+      "forks": 7340,
+      "rank": 569,
+      "fetched": true
+    },
+    {
+      "repo_id": "cursor/plugins",
+      "stars": 6924,
+      "stars_delta": 64,
+      "stars_delta_raw": 64,
+      "forks": 578,
+      "rank": 135,
+      "fetched": true
+    },
+    {
+      "repo_id": "cypress-io/cypress",
+      "stars": 51028,
+      "stars_delta": 5,
+      "stars_delta_raw": 5,
+      "forks": 3653,
+      "rank": 687,
+      "fetched": true
+    },
+    {
+      "repo_id": "dandavison/delta",
+      "stars": 32090,
+      "stars_delta": 9,
+      "stars_delta_raw": 9,
+      "forks": 568,
+      "rank": 542,
+      "fetched": true
+    },
+    {
+      "repo_id": "dani-garcia/vaultwarden",
+      "stars": 66892,
+      "stars_delta": 43,
+      "stars_delta_raw": 43,
+      "forks": 3186,
+      "rank": 192,
+      "fetched": true
+    },
+    {
+      "repo_id": "danielmiessler/Fabric",
+      "stars": 43834,
+      "stars_delta": 15,
+      "stars_delta_raw": 15,
+      "forks": 4253,
+      "rank": 418,
+      "fetched": true
+    },
+    {
+      "repo_id": "danielmiessler/SecLists",
+      "stars": 73298,
+      "stars_delta": 17,
+      "stars_delta_raw": 17,
+      "forks": 25106,
+      "rank": 384,
+      "fetched": true
+    },
+    {
+      "repo_id": "danny-avila/LibreChat",
+      "stars": 42845,
+      "stars_delta": 21,
+      "stars_delta_raw": 21,
+      "forks": 8871,
+      "rank": 330,
+      "fetched": true
+    },
+    {
+      "repo_id": "dapr/dapr",
+      "stars": 26075,
+      "stars_delta": 5,
+      "stars_delta_raw": 5,
+      "forks": 2145,
+      "rank": 688,
+      "fetched": true
+    },
+    {
+      "repo_id": "datalab-to/marker",
+      "stars": 39533,
+      "stars_delta": 5,
+      "stars_delta_raw": 5,
+      "forks": 2850,
+      "rank": 689,
+      "fetched": true
+    },
+    {
+      "repo_id": "date-fns/date-fns",
+      "stars": 36644,
+      "stars_delta": -3,
+      "stars_delta_raw": -3,
+      "forks": 2001,
+      "rank": 993,
+      "fetched": true
+    },
+    {
+      "repo_id": "davila7/claude-code-templates",
+      "stars": 30542,
+      "stars_delta": 11,
+      "stars_delta_raw": 11,
+      "forks": 3463,
+      "rank": 510,
+      "fetched": true
+    },
+    {
+      "repo_id": "dbeaver/dbeaver",
+      "stars": 51671,
+      "stars_delta": 7,
+      "stars_delta_raw": 7,
+      "forks": 4372,
+      "rank": 601,
+      "fetched": true
+    },
+    {
+      "repo_id": "dcloudio/uni-app",
+      "stars": 41600,
+      "stars_delta": 1,
+      "stars_delta_raw": 1,
+      "forks": 3712,
+      "rank": 850,
+      "fetched": true
+    },
+    {
+      "repo_id": "debpalash/VoiceStudio",
+      "stars": 18922,
+      "stars_delta": 1057,
+      "stars_delta_raw": 1057,
+      "forks": 2431,
+      "rank": 4,
+      "fetched": true
+    },
+    {
+      "repo_id": "decolua/9router",
+      "stars": 27178,
+      "stars_delta": 81,
+      "stars_delta_raw": 81,
+      "forks": 4997,
+      "rank": 117,
+      "fetched": true
+    },
+    {
+      "repo_id": "deepinsight/insightface",
+      "stars": 29645,
+      "stars_delta": 5,
+      "stars_delta_raw": 5,
+      "forks": 6085,
+      "rank": 690,
+      "fetched": true
+    },
+    {
+      "repo_id": "deepseek-ai/deepseek-harness",
+      "stars": 213104,
+      "stars_delta": 902,
+      "stars_delta_raw": 902,
+      "forks": 25041,
+      "rank": 5,
+      "fetched": true
+    },
+    {
+      "repo_id": "deepset-ai/haystack",
+      "stars": 26425,
+      "stars_delta": 8,
+      "stars_delta_raw": 8,
+      "forks": 3086,
+      "rank": 570,
+      "fetched": true
+    },
+    {
+      "repo_id": "deepspeedai/DeepSpeed",
+      "stars": 43065,
+      "stars_delta": 1,
+      "stars_delta_raw": 1,
+      "forks": 4964,
+      "rank": 851,
+      "fetched": true
+    },
+    {
+      "repo_id": "denoland/deno",
+      "stars": 108382,
+      "stars_delta": 14,
+      "stars_delta_raw": 14,
+      "forks": 6372,
+      "rank": 438,
+      "fetched": true
+    },
+    {
+      "repo_id": "derailed/k9s",
+      "stars": 34512,
+      "stars_delta": 4,
+      "stars_delta_raw": 4,
+      "forks": 2278,
+      "rank": 725,
+      "fetched": true
+    },
+    {
+      "repo_id": "deskflow/deskflow",
+      "stars": 28602,
+      "stars_delta": 27,
+      "stars_delta_raw": 27,
+      "forks": 4842,
+      "rank": 286,
+      "fetched": true
+    },
+    {
+      "repo_id": "dgtlmoon/changedetection.io",
+      "stars": 33630,
+      "stars_delta": 33,
+      "stars_delta_raw": 33,
+      "forks": 2004,
+      "rank": 237,
+      "fetched": true
+    },
+    {
+      "repo_id": "diegosouzapw/OmniRoute",
+      "stars": 61610,
+      "stars_delta": 365,
+      "stars_delta_raw": 365,
+      "forks": 8580,
+      "rank": 17,
+      "fetched": true
+    },
+    {
+      "repo_id": "directus/directus",
+      "stars": 37767,
+      "stars_delta": 25,
+      "stars_delta_raw": 25,
+      "forks": 4929,
+      "rank": 299,
+      "fetched": true
+    },
+    {
+      "repo_id": "discordjs/discord.js",
+      "stars": 26808,
+      "stars_delta": 1,
+      "stars_delta_raw": 1,
+      "forks": 4068,
+      "rank": 852,
+      "fetched": true
+    },
+    {
+      "repo_id": "discourse/discourse",
+      "stars": 47789,
+      "stars_delta": -3,
+      "stars_delta_raw": -3,
+      "forks": 9011,
+      "rank": 994,
+      "fetched": true
+    },
+    {
+      "repo_id": "django/django",
+      "stars": 89939,
+      "stars_delta": 2,
+      "stars_delta_raw": 2,
+      "forks": 34236,
+      "rank": 804,
+      "fetched": true
+    },
+    {
+      "repo_id": "dkhamsing/open-source-ios-apps",
+      "stars": 51984,
+      "stars_delta": 4,
+      "stars_delta_raw": 4,
+      "forks": 6060,
+      "rank": 726,
+      "fetched": true
+    },
+    {
+      "repo_id": "dmlc/xgboost",
+      "stars": 28736,
+      "stars_delta": 3,
+      "stars_delta_raw": 3,
+      "forks": 8892,
+      "rank": 766,
+      "fetched": true
+    },
+    {
+      "repo_id": "docker/awesome-compose",
+      "stars": 46237,
+      "stars_delta": 4,
+      "stars_delta_raw": 4,
+      "forks": 8308,
+      "rank": 727,
+      "fetched": true
+    },
+    {
+      "repo_id": "docker/compose",
+      "stars": 38117,
+      "stars_delta": 2,
+      "stars_delta_raw": 2,
+      "forks": 5801,
+      "rank": 805,
+      "fetched": true
+    },
+    {
+      "repo_id": "dockur/windows",
+      "stars": 53171,
+      "stars_delta": 7,
+      "stars_delta_raw": 7,
+      "forks": 4740,
+      "rank": 602,
+      "fetched": true
+    },
+    {
+      "repo_id": "docling-project/docling",
+      "stars": 66043,
+      "stars_delta": 37,
+      "stars_delta_raw": 37,
+      "forks": 4753,
+      "rank": 218,
+      "fetched": true
+    },
+    {
+      "repo_id": "docsifyjs/docsify",
+      "stars": 31499,
+      "stars_delta": 2,
+      "stars_delta_raw": 2,
+      "forks": 5794,
+      "rank": 806,
+      "fetched": true
+    },
+    {
+      "repo_id": "dokku/dokku",
+      "stars": 32122,
+      "stars_delta": -1,
+      "stars_delta_raw": -1,
+      "forks": 2072,
+      "rank": 952,
+      "fetched": true
+    },
+    {
+      "repo_id": "doocs/advanced-java",
+      "stars": 79095,
+      "stars_delta": 0,
+      "stars_delta_raw": 0,
+      "forks": 19160,
+      "rank": 901,
+      "fetched": true
+    },
+    {
+      "repo_id": "doocs/leetcode",
+      "stars": 36550,
+      "stars_delta": 4,
+      "stars_delta_raw": 4,
+      "forks": 9496,
+      "rank": 728,
+      "fetched": true
+    },
+    {
+      "repo_id": "dotnet/aspnetcore",
+      "stars": 38424,
+      "stars_delta": 4,
+      "stars_delta_raw": 4,
+      "forks": 10952,
+      "rank": 729,
+      "fetched": true
+    },
+    {
+      "repo_id": "dragonflydb/dragonfly",
+      "stars": 31424,
+      "stars_delta": 24,
+      "stars_delta_raw": 24,
+      "forks": 1255,
+      "rank": 304,
+      "fetched": true
+    },
+    {
+      "repo_id": "drawdb-io/drawdb",
+      "stars": 39353,
+      "stars_delta": 3,
+      "stars_delta_raw": 3,
+      "forks": 3220,
+      "rank": 767,
+      "fetched": true
+    },
+    {
+      "repo_id": "drizzle-team/drizzle-orm",
+      "stars": 35686,
+      "stars_delta": 6,
+      "stars_delta_raw": 6,
+      "forks": 1583,
+      "rank": 647,
+      "fetched": true
+    },
+    {
+      "repo_id": "duckdb/duckdb",
+      "stars": 41016,
+      "stars_delta": 19,
+      "stars_delta_raw": 19,
+      "forks": 3721,
+      "rank": 350,
+      "fetched": true
+    },
+    {
+      "repo_id": "dwmkerr/hacker-laws",
+      "stars": 27280,
+      "stars_delta": 0,
+      "stars_delta_raw": 0,
+      "forks": 1564,
+      "rank": 902,
+      "fetched": true
+    },
+    {
+      "repo_id": "earendil-works/pi",
+      "stars": 102114,
+      "stars_delta": 284,
+      "stars_delta_raw": 284,
+      "forks": 12733,
+      "rank": 24,
+      "fetched": true
+    },
+    {
+      "repo_id": "elastic/elasticsearch",
+      "stars": 77901,
+      "stars_delta": 9,
+      "stars_delta_raw": 9,
+      "forks": 26070,
+      "rank": 543,
+      "fetched": true
+    },
+    {
+      "repo_id": "elder-plinius/CL4R1T4S",
+      "stars": 49032,
+      "stars_delta": 68,
+      "stars_delta_raw": 68,
+      "forks": 10091,
+      "rank": 129,
+      "fetched": true
+    },
+    {
+      "repo_id": "electron/electron",
+      "stars": 122899,
+      "stars_delta": 17,
+      "stars_delta_raw": 17,
+      "forks": 17462,
+      "rank": 385,
+      "fetched": true
+    },
+    {
+      "repo_id": "element-plus/element-plus",
+      "stars": 27730,
+      "stars_delta": -2,
+      "stars_delta_raw": -2,
+      "forks": 19837,
+      "rank": 974,
+      "fetched": true
+    },
+    {
+      "repo_id": "elixir-lang/elixir",
+      "stars": 26627,
+      "stars_delta": 1,
+      "stars_delta_raw": 1,
+      "forks": 3684,
+      "rank": 853,
+      "fetched": true
+    },
+    {
+      "repo_id": "emilk/egui",
+      "stars": 30435,
+      "stars_delta": 9,
+      "stars_delta_raw": 9,
+      "forks": 2126,
+      "rank": 544,
+      "fetched": true
+    },
+    {
+      "repo_id": "emmabostian/developer-portfolios",
+      "stars": 26491,
+      "stars_delta": 13,
+      "stars_delta_raw": 13,
+      "forks": 5171,
+      "rank": 459,
+      "fetched": true
+    },
+    {
+      "repo_id": "emscripten-core/emscripten",
+      "stars": 27595,
+      "stars_delta": 0,
+      "stars_delta_raw": 0,
+      "forks": 3544,
+      "rank": 903,
+      "fetched": true
+    },
+    {
+      "repo_id": "enaqx/awesome-react",
+      "stars": 74498,
+      "stars_delta": 8,
+      "stars_delta_raw": 8,
+      "forks": 7628,
+      "rank": 571,
+      "fetched": true
+    },
+    {
+      "repo_id": "encode/django-rest-framework",
+      "stars": 30163,
+      "stars_delta": 6,
+      "stars_delta_raw": 6,
+      "forks": 7083,
+      "rank": 648,
+      "fetched": true
+    },
+    {
+      "repo_id": "ente/ente",
+      "stars": 28676,
+      "stars_delta": 15,
+      "stars_delta_raw": 15,
+      "forks": 1785,
+      "rank": 419,
+      "fetched": true
+    },
+    {
+      "repo_id": "envoyproxy/envoy",
+      "stars": 28861,
+      "stars_delta": 3,
+      "stars_delta_raw": 3,
+      "forks": 5592,
+      "rank": 768,
+      "fetched": true
+    },
+    {
+      "repo_id": "esengine/DeepSeek-Reasonix",
+      "stars": 35409,
+      "stars_delta": 13,
+      "stars_delta_raw": 13,
+      "forks": 2368,
+      "rank": 460,
+      "fetched": true
+    },
+    {
+      "repo_id": "eslint/eslint",
+      "stars": 27495,
+      "stars_delta": 0,
+      "stars_delta_raw": 0,
+      "forks": 5176,
+      "rank": 904,
+      "fetched": true
+    },
+    {
+      "repo_id": "etcd-io/etcd",
+      "stars": 52234,
+      "stars_delta": 3,
+      "stars_delta_raw": 3,
+      "forks": 10488,
+      "rank": 769,
+      "fetched": true
+    },
+    {
+      "repo_id": "ethereum/go-ethereum",
+      "stars": 51327,
+      "stars_delta": 1,
+      "stars_delta_raw": 1,
+      "forks": 22141,
+      "rank": 854,
+      "fetched": true
+    },
+    {
+      "repo_id": "eugenp/tutorials",
+      "stars": 37325,
+      "stars_delta": 1,
+      "stars_delta_raw": 1,
+      "forks": 53274,
+      "rank": 855,
+      "fetched": true
+    },
+    {
+      "repo_id": "every-app/open-seo",
+      "stars": 17268,
+      "stars_delta": 260,
+      "stars_delta_raw": 260,
+      "forks": 2161,
+      "rank": 29,
+      "fetched": true
+    },
+    {
+      "repo_id": "excalidraw/excalidraw",
+      "stars": 131213,
+      "stars_delta": 38,
+      "stars_delta_raw": 38,
+      "forks": 15155,
+      "rank": 215,
+      "fetched": true
+    },
+    {
+      "repo_id": "exelban/stats",
+      "stars": 41616,
+      "stars_delta": 5,
+      "stars_delta_raw": 5,
+      "forks": 1513,
+      "rank": 691,
+      "fetched": true
+    },
+    {
+      "repo_id": "exo-explore/exo",
+      "stars": 47268,
+      "stars_delta": 14,
+      "stars_delta_raw": 14,
+      "forks": 3496,
+      "rank": 439,
+      "fetched": true
+    },
+    {
+      "repo_id": "expo/expo",
+      "stars": 52058,
+      "stars_delta": 17,
+      "stars_delta_raw": 17,
+      "forks": 13810,
+      "rank": 386,
+      "fetched": true
+    },
+    {
+      "repo_id": "expressjs/express",
+      "stars": 69419,
+      "stars_delta": 1,
+      "stars_delta_raw": 1,
+      "forks": 24914,
+      "rank": 856,
+      "fetched": true
+    },
+    {
+      "repo_id": "f/prompts.chat",
+      "stars": 169418,
+      "stars_delta": 98,
+      "stars_delta_raw": 98,
+      "forks": 21795,
+      "rank": 103,
+      "fetched": true
+    },
+    {
+      "repo_id": "facebook/docusaurus",
+      "stars": 66178,
+      "stars_delta": 3,
+      "stars_delta_raw": 3,
+      "forks": 10024,
+      "rank": 770,
+      "fetched": true
+    },
+    {
+      "repo_id": "facebook/folly",
+      "stars": 30530,
+      "stars_delta": 2,
+      "stars_delta_raw": 2,
+      "forks": 5873,
+      "rank": 807,
+      "fetched": true
+    },
+    {
+      "repo_id": "facebook/rocksdb",
+      "stars": 32058,
+      "stars_delta": 6,
+      "stars_delta_raw": 6,
+      "forks": 6918,
+      "rank": 649,
+      "fetched": true
+    },
+    {
+      "repo_id": "facebook/zstd",
+      "stars": 27711,
+      "stars_delta": 12,
+      "stars_delta_raw": 12,
+      "forks": 2582,
+      "rank": 485,
+      "fetched": true
+    },
+    {
+      "repo_id": "facebookresearch/faiss",
+      "stars": 40857,
+      "stars_delta": 4,
+      "stars_delta_raw": 4,
+      "forks": 4516,
+      "rank": 730,
+      "fetched": true
+    },
+    {
+      "repo_id": "facefusion/facefusion",
+      "stars": 29786,
+      "stars_delta": 13,
+      "stars_delta_raw": 13,
+      "forks": 4859,
+      "rank": 461,
+      "fetched": true
+    },
+    {
+      "repo_id": "fanmingming/live",
+      "stars": 28394,
+      "stars_delta": 0,
+      "stars_delta_raw": 0,
+      "forks": 4215,
+      "rank": 905,
+      "fetched": true
+    },
+    {
+      "repo_id": "farion1231/cc-switch",
+      "stars": 131209,
+      "stars_delta": 127,
+      "stars_delta_raw": 127,
+      "forks": 9028,
+      "rank": 75,
+      "fetched": true
+    },
+    {
+      "repo_id": "fastai/fastai",
+      "stars": 28133,
+      "stars_delta": 1,
+      "stars_delta_raw": 1,
+      "forks": 7639,
+      "rank": 857,
+      "fetched": true
+    },
+    {
+      "repo_id": "fastapi/fastapi",
+      "stars": 102098,
+      "stars_delta": 19,
+      "stars_delta_raw": 19,
+      "forks": 9854,
+      "rank": 351,
+      "fetched": true
+    },
+    {
+      "repo_id": "fastapi/full-stack-fastapi-template",
+      "stars": 45411,
+      "stars_delta": 23,
+      "stars_delta_raw": 23,
+      "forks": 9031,
+      "rank": 315,
+      "fetched": true
+    },
+    {
+      "repo_id": "fastify/fastify",
+      "stars": 37096,
+      "stars_delta": 5,
+      "stars_delta_raw": 5,
+      "forks": 3017,
+      "rank": 692,
+      "fetched": true
+    },
+    {
+      "repo_id": "fastlane/fastlane",
+      "stars": 42063,
+      "stars_delta": 7,
+      "stars_delta_raw": 7,
+      "forks": 6025,
+      "rank": 603,
+      "fetched": true
+    },
+    {
+      "repo_id": "fatedier/frp",
+      "stars": 109225,
+      "stars_delta": 19,
+      "stars_delta_raw": 19,
+      "forks": 15208,
+      "rank": 352,
+      "fetched": true
+    },
+    {
+      "repo_id": "feder-cr/AIHawk",
+      "stars": 30313,
+      "stars_delta": 4,
+      "stars_delta_raw": 4,
+      "forks": 4647,
+      "rank": 731,
+      "fetched": true
+    },
+    {
+      "repo_id": "fffaraz/awesome-cpp",
+      "stars": 73140,
+      "stars_delta": 18,
+      "stars_delta_raw": 18,
+      "forks": 8335,
+      "rank": 364,
+      "fetched": true
+    },
+    {
+      "repo_id": "filamentphp/filament",
+      "stars": 31994,
+      "stars_delta": 9,
+      "stars_delta_raw": 9,
+      "forks": 4198,
+      "rank": 545,
+      "fetched": true
+    },
+    {
+      "repo_id": "files-community/Files",
+      "stars": 44898,
+      "stars_delta": 14,
+      "stars_delta_raw": 14,
+      "forks": 2857,
+      "rank": 440,
+      "fetched": true
+    },
+    {
+      "repo_id": "fingerprintjs/fingerprintjs",
+      "stars": 28417,
+      "stars_delta": 2,
+      "stars_delta_raw": 2,
+      "forks": 2619,
+      "rank": 808,
+      "fetched": true
+    },
+    {
+      "repo_id": "firecracker-microvm/firecracker",
+      "stars": 36556,
+      "stars_delta": 17,
+      "stars_delta_raw": 17,
+      "forks": 2603,
+      "rank": 387,
+      "fetched": true
+    },
+    {
+      "repo_id": "firecrawl/firecrawl",
+      "stars": 176884,
+      "stars_delta": 379,
+      "stars_delta_raw": 379,
+      "forks": 9670,
+      "rank": 16,
+      "fetched": true
+    },
+    {
+      "repo_id": "firecrawl/pdf-inspector",
+      "stars": 18859,
+      "stars_delta": 45,
+      "stars_delta_raw": 45,
+      "forks": 1263,
+      "rank": 187,
+      "fetched": true
+    },
+    {
+      "repo_id": "firstcontributions/first-contributions",
+      "stars": 55827,
+      "stars_delta": 7,
+      "stars_delta_raw": 7,
+      "forks": 108916,
+      "rank": 604,
+      "fetched": true
+    },
+    {
+      "repo_id": "fish-shell/fish-shell",
+      "stars": 34139,
+      "stars_delta": 11,
+      "stars_delta_raw": 11,
+      "forks": 2365,
+      "rank": 511,
+      "fetched": true
+    },
+    {
+      "repo_id": "flameshot-org/flameshot",
+      "stars": 30780,
+      "stars_delta": 5,
+      "stars_delta_raw": 5,
+      "forks": 2007,
+      "rank": 693,
+      "fetched": true
+    },
+    {
+      "repo_id": "flutter/flutter",
+      "stars": 178793,
+      "stars_delta": 20,
+      "stars_delta_raw": 20,
+      "forks": 31063,
+      "rank": 337,
+      "fetched": true
+    },
+    {
+      "repo_id": "fmtlib/fmt",
+      "stars": 25566,
+      "stars_delta": 111,
+      "stars_delta_raw": 111,
+      "forks": 3042,
+      "rank": 90,
+      "fetched": true
+    },
+    {
+      "repo_id": "frappe/erpnext",
+      "stars": 38920,
+      "stars_delta": 33,
+      "stars_delta_raw": 33,
+      "forks": 12715,
+      "rank": 238,
+      "fetched": true
+    },
+    {
+      "repo_id": "freeCodeCamp/devdocs",
+      "stars": 39416,
+      "stars_delta": -1,
+      "stars_delta_raw": -1,
+      "forks": 2637,
+      "rank": 953,
+      "fetched": true
+    },
+    {
+      "repo_id": "freeCodeCamp/freeCodeCamp",
+      "stars": 455051,
+      "stars_delta": 42,
+      "stars_delta_raw": 42,
+      "forks": 46128,
+      "rank": 198,
+      "fetched": true
+    },
+    {
+      "repo_id": "freestylefly/awesome-gpt-image-2",
+      "stars": 28157,
+      "stars_delta": 136,
+      "stars_delta_raw": 136,
+      "forks": 2708,
+      "rank": 68,
+      "fetched": true
+    },
+    {
+      "repo_id": "freqtrade/freqtrade",
+      "stars": 54048,
+      "stars_delta": 29,
+      "stars_delta_raw": 29,
+      "forks": 11210,
+      "rank": 265,
+      "fetched": true
+    },
+    {
+      "repo_id": "fyne-io/fyne",
+      "stars": 28679,
+      "stars_delta": 2,
+      "stars_delta_raw": 2,
+      "forks": 1547,
+      "rank": 809,
+      "fetched": true
+    },
+    {
+      "repo_id": "garrytan/gbrain",
+      "stars": 29621,
+      "stars_delta": 30,
+      "stars_delta_raw": 30,
+      "forks": 4420,
+      "rank": 257,
+      "fetched": true
+    },
+    {
+      "repo_id": "garrytan/gstack",
+      "stars": 131546,
+      "stars_delta": 187,
+      "stars_delta_raw": 187,
+      "forks": 19721,
+      "rank": 48,
+      "fetched": true
+    },
+    {
+      "repo_id": "gastownhall/beads",
+      "stars": 26925,
+      "stars_delta": 27,
+      "stars_delta_raw": 27,
+      "forks": 1821,
+      "rank": 287,
+      "fetched": true
+    },
+    {
+      "repo_id": "gatsbyjs/gatsby",
+      "stars": 55936,
+      "stars_delta": 0,
+      "stars_delta_raw": 0,
+      "forks": 10125,
+      "rank": 906,
+      "fetched": true
+    },
+    {
+      "repo_id": "gchq/CyberChef",
+      "stars": 35755,
+      "stars_delta": 7,
+      "stars_delta_raw": 7,
+      "forks": 4135,
+      "rank": 605,
+      "fetched": true
+    },
+    {
+      "repo_id": "geekcomputers/Python",
+      "stars": 35321,
+      "stars_delta": 0,
+      "stars_delta_raw": 0,
+      "forks": 12944,
+      "rank": 907,
+      "fetched": true
+    },
+    {
+      "repo_id": "gethomepage/homepage",
+      "stars": 32426,
+      "stars_delta": 13,
+      "stars_delta_raw": 13,
+      "forks": 2094,
+      "rank": 462,
+      "fetched": true
+    },
+    {
+      "repo_id": "getredash/redash",
+      "stars": 28781,
+      "stars_delta": 0,
+      "stars_delta_raw": 0,
+      "forks": 4627,
+      "rank": 908,
+      "fetched": true
+    },
+    {
+      "repo_id": "getsentry/sentry",
+      "stars": 44732,
+      "stars_delta": 1,
+      "stars_delta_raw": 1,
+      "forks": 4835,
+      "rank": 858,
+      "fetched": true
+    },
+    {
+      "repo_id": "getzep/graphiti",
+      "stars": 30616,
+      "stars_delta": 22,
+      "stars_delta_raw": 22,
+      "forks": 3109,
+      "rank": 320,
+      "fetched": true
+    },
+    {
+      "repo_id": "ggml-org/llama.cpp",
+      "stars": 127166,
+      "stars_delta": 98,
+      "stars_delta_raw": 98,
+      "forks": 22811,
+      "rank": 104,
+      "fetched": true
+    },
+    {
+      "repo_id": "ggml-org/whisper.cpp",
+      "stars": 53466,
+      "stars_delta": 18,
+      "stars_delta_raw": 18,
+      "forks": 6133,
+      "rank": 365,
+      "fetched": true
+    },
+    {
+      "repo_id": "ghostty-org/ghostty",
+      "stars": 60746,
+      "stars_delta": 30,
+      "stars_delta_raw": 30,
+      "forks": 3394,
+      "rank": 258,
+      "fetched": true
+    },
+    {
+      "repo_id": "git/git",
+      "stars": 62999,
+      "stars_delta": 16,
+      "stars_delta_raw": 16,
+      "forks": 28347,
+      "rank": 398,
+      "fetched": true
+    },
+    {
+      "repo_id": "github/awesome-copilot",
+      "stars": 38666,
+      "stars_delta": 22,
+      "stars_delta_raw": 22,
+      "forks": 4890,
+      "rank": 321,
+      "fetched": true
+    },
+    {
+      "repo_id": "github/github-mcp-server",
+      "stars": 32737,
+      "stars_delta": 22,
+      "stars_delta_raw": 22,
+      "forks": 4904,
+      "rank": 322,
+      "fetched": true
+    },
+    {
+      "repo_id": "github/gitignore",
+      "stars": 175613,
+      "stars_delta": 18,
+      "stars_delta_raw": 18,
+      "forks": 82224,
+      "rank": 366,
+      "fetched": true
+    },
+    {
+      "repo_id": "github/spec-kit",
+      "stars": 133609,
+      "stars_delta": 115,
+      "stars_delta_raw": 115,
+      "forks": 12025,
+      "rank": 85,
+      "fetched": true
+    },
+    {
+      "repo_id": "gitroomhq/postiz-app",
+      "stars": 35480,
+      "stars_delta": 22,
+      "stars_delta_raw": 22,
+      "forks": 6762,
+      "rank": 323,
+      "fetched": true
+    },
+    {
+      "repo_id": "gkd-kit/gkd",
+      "stars": 41483,
+      "stars_delta": 36,
+      "stars_delta_raw": 36,
+      "forks": 1962,
+      "rank": 226,
+      "fetched": true
+    },
+    {
+      "repo_id": "glanceapp/glance",
+      "stars": 36863,
+      "stars_delta": 15,
+      "stars_delta_raw": 15,
+      "forks": 1445,
+      "rank": 420,
+      "fetched": true
+    },
+    {
+      "repo_id": "go-gitea/gitea",
+      "stars": 57835,
+      "stars_delta": 8,
+      "stars_delta_raw": 8,
+      "forks": 7108,
+      "rank": 572,
+      "fetched": true
+    },
+    {
+      "repo_id": "godotengine/godot",
+      "stars": 116651,
+      "stars_delta": 47,
+      "stars_delta_raw": 47,
+      "forks": 26609,
+      "rank": 181,
+      "fetched": true
+    },
+    {
+      "repo_id": "gofiber/fiber",
+      "stars": 40128,
+      "stars_delta": 4,
+      "stars_delta_raw": 4,
+      "forks": 2026,
+      "rank": 732,
+      "fetched": true
+    },
+    {
+      "repo_id": "gogs/gogs",
+      "stars": 47805,
+      "stars_delta": 0,
+      "stars_delta_raw": 0,
+      "forks": 5073,
+      "rank": 909,
+      "fetched": true
+    },
+    {
+      "repo_id": "goharbor/harbor",
+      "stars": 29315,
+      "stars_delta": 5,
+      "stars_delta_raw": 5,
+      "forks": 5330,
+      "rank": 694,
+      "fetched": true
+    },
+    {
+      "repo_id": "gohugoio/hugo",
+      "stars": 89710,
+      "stars_delta": 12,
+      "stars_delta_raw": 12,
+      "forks": 8367,
+      "rank": 486,
+      "fetched": true
+    },
+    {
+      "repo_id": "golang/go",
+      "stars": 137526,
+      "stars_delta": 15,
+      "stars_delta_raw": 15,
+      "forks": 19343,
+      "rank": 421,
+      "fetched": true
+    },
+    {
+      "repo_id": "google/comprehensive-rust",
+      "stars": 33348,
+      "stars_delta": 1,
+      "stars_delta_raw": 1,
+      "forks": 2072,
+      "rank": 859,
+      "fetched": true
+    },
+    {
+      "repo_id": "google/googletest",
+      "stars": 39491,
+      "stars_delta": 1,
+      "stars_delta_raw": 1,
+      "forks": 10888,
+      "rank": 860,
+      "fetched": true
+    },
+    {
+      "repo_id": "google/guava",
+      "stars": 51894,
+      "stars_delta": -1,
+      "stars_delta_raw": -1,
+      "forks": 11193,
+      "rank": 954,
+      "fetched": true
+    },
+    {
+      "repo_id": "google/langextract",
+      "stars": 38543,
+      "stars_delta": 5,
+      "stars_delta_raw": 5,
+      "forks": 2706,
+      "rank": 695,
+      "fetched": true
+    },
+    {
+      "repo_id": "google/material-design-icons",
+      "stars": 53881,
+      "stars_delta": 7,
+      "stars_delta_raw": 7,
+      "forks": 9745,
+      "rank": 606,
+      "fetched": true
+    },
+    {
+      "repo_id": "google-ai-edge/mediapipe",
+      "stars": 36849,
+      "stars_delta": 8,
+      "stars_delta_raw": 8,
+      "forks": 6152,
+      "rank": 573,
+      "fetched": true
+    },
+    {
+      "repo_id": "google-gemini/gemini-cli",
+      "stars": 106821,
+      "stars_delta": 6,
+      "stars_delta_raw": 6,
+      "forks": 14531,
+      "rank": 650,
+      "fetched": true
+    },
+    {
+      "repo_id": "google-research/google-research",
+      "stars": 38693,
+      "stars_delta": 2,
+      "stars_delta_raw": 2,
+      "forks": 8463,
+      "rank": 810,
+      "fetched": true
+    },
+    {
+      "repo_id": "google-research/timesfm",
+      "stars": 31291,
+      "stars_delta": 265,
+      "stars_delta_raw": 265,
+      "forks": 2991,
+      "rank": 28,
+      "fetched": true
+    },
+    {
+      "repo_id": "gorhill/uBlock",
+      "stars": 67586,
+      "stars_delta": 14,
+      "stars_delta_raw": 14,
+      "forks": 4330,
+      "rank": 441,
+      "fetched": true
+    },
+    {
+      "repo_id": "gradio-app/gradio",
+      "stars": 43477,
+      "stars_delta": 7,
+      "stars_delta_raw": 7,
+      "forks": 3585,
+      "rank": 607,
+      "fetched": true
+    },
+    {
+      "repo_id": "grafana/grafana",
+      "stars": 76593,
+      "stars_delta": 7,
+      "stars_delta_raw": 7,
+      "forks": 14703,
+      "rank": 608,
+      "fetched": true
+    },
+    {
+      "repo_id": "grafana/k6",
+      "stars": 31395,
+      "stars_delta": 5,
+      "stars_delta_raw": 5,
+      "forks": 1619,
+      "rank": 696,
+      "fetched": true
+    },
+    {
+      "repo_id": "grafana/loki",
+      "stars": 28839,
+      "stars_delta": 0,
+      "stars_delta_raw": 0,
+      "forks": 4101,
+      "rank": 910,
+      "fetched": true
+    },
+    {
+      "repo_id": "grpc/grpc",
+      "stars": 45297,
+      "stars_delta": 3,
+      "stars_delta_raw": 3,
+      "forks": 11376,
+      "rank": 771,
+      "fetched": true
+    },
+    {
+      "repo_id": "h5bp/html5-boilerplate",
+      "stars": 57611,
+      "stars_delta": 0,
+      "stars_delta_raw": 0,
+      "forks": 12261,
+      "rank": 911,
+      "fetched": true
+    },
+    {
+      "repo_id": "hacksider/Deep-Live-Cam",
+      "stars": 96505,
+      "stars_delta": 19,
+      "stars_delta_raw": 19,
+      "forks": 14085,
+      "rank": 353,
+      "fetched": true
+    },
+    {
+      "repo_id": "hagezi/dns-blocklists",
+      "stars": 25971,
+      "stars_delta": 23,
+      "stars_delta_raw": 23,
+      "forks": 795,
+      "rank": 316,
+      "fetched": true
+    },
+    {
+      "repo_id": "hakimel/reveal.js",
+      "stars": 72259,
+      "stars_delta": 6,
+      "stars_delta_raw": 6,
+      "forks": 16988,
+      "rank": 651,
+      "fetched": true
+    },
+    {
+      "repo_id": "halfrost/LeetCode-Go",
+      "stars": 33801,
+      "stars_delta": 1,
+      "stars_delta_raw": 1,
+      "forks": 5710,
+      "rank": 861,
+      "fetched": true
+    },
+    {
+      "repo_id": "halo-dev/halo",
+      "stars": 39678,
+      "stars_delta": 8,
+      "stars_delta_raw": 8,
+      "forks": 10333,
+      "rank": 574,
+      "fetched": true
+    },
+    {
+      "repo_id": "handsomestWei/patent-disclosure-skill",
+      "stars": 7468,
+      "stars_delta": 103,
+      "stars_delta_raw": 103,
+      "forks": 821,
+      "rank": 99,
+      "fetched": true
+    },
+    {
+      "repo_id": "harness/harness",
+      "stars": 38243,
+      "stars_delta": 6,
+      "stars_delta_raw": 6,
+      "forks": 3381,
+      "rank": 652,
+      "fetched": true
+    },
+    {
+      "repo_id": "harry0703/MoneyPrinterTurbo",
+      "stars": 120846,
+      "stars_delta": 274,
+      "stars_delta_raw": 274,
+      "forks": 18564,
+      "rank": 27,
+      "fetched": true
+    },
+    {
+      "repo_id": "harvard-edge/cs249r_book",
+      "stars": 28149,
+      "stars_delta": 13,
+      "stars_delta_raw": 13,
+      "forks": 3568,
+      "rank": 463,
+      "fetched": true
+    },
+    {
+      "repo_id": "hashcat/hashcat",
+      "stars": 26709,
+      "stars_delta": 3,
+      "stars_delta_raw": 3,
+      "forks": 3547,
+      "rank": 772,
+      "fetched": true
+    },
+    {
+      "repo_id": "hashicorp/consul",
+      "stars": 30058,
+      "stars_delta": 4,
+      "stars_delta_raw": 4,
+      "forks": 4620,
+      "rank": 733,
+      "fetched": true
+    },
+    {
+      "repo_id": "hashicorp/terraform",
+      "stars": 49616,
+      "stars_delta": 4,
+      "stars_delta_raw": 4,
+      "forks": 10630,
+      "rank": 734,
+      "fetched": true
+    },
+    {
+      "repo_id": "hashicorp/vagrant",
+      "stars": 27206,
+      "stars_delta": 1,
+      "stars_delta_raw": 1,
+      "forks": 4396,
+      "rank": 862,
+      "fetched": true
+    },
+    {
+      "repo_id": "hashicorp/vault",
+      "stars": 36210,
+      "stars_delta": 1,
+      "stars_delta_raw": 1,
+      "forks": 4751,
+      "rank": 863,
+      "fetched": true
+    },
+    {
+      "repo_id": "headroomlabs-ai/headroom",
+      "stars": 69034,
+      "stars_delta": 91,
+      "stars_delta_raw": 91,
+      "forks": 5354,
+      "rank": 109,
+      "fetched": true
+    },
+    {
+      "repo_id": "hehonghui/awesome-english-ebooks",
+      "stars": 35938,
+      "stars_delta": 39,
+      "stars_delta_raw": 39,
+      "forks": 2999,
+      "rank": 212,
+      "fetched": true
+    },
+    {
+      "repo_id": "helix-editor/helix",
+      "stars": 46092,
+      "stars_delta": 9,
+      "stars_delta_raw": 9,
+      "forks": 3724,
+      "rank": 546,
+      "fetched": true
+    },
+    {
+      "repo_id": "helm/helm",
+      "stars": 30218,
+      "stars_delta": 1,
+      "stars_delta_raw": 1,
+      "forks": 7781,
+      "rank": 864,
+      "fetched": true
+    },
+    {
+      "repo_id": "herdrdev/herdr",
+      "stars": 35543,
+      "stars_delta": 196,
+      "stars_delta_raw": 196,
+      "forks": 2607,
+      "rank": 45,
+      "fetched": true
+    },
+    {
+      "repo_id": "heroui-inc/heroui",
+      "stars": 30574,
+      "stars_delta": 11,
+      "stars_delta_raw": 11,
+      "forks": 2221,
+      "rank": 512,
+      "fetched": true
+    },
+    {
+      "repo_id": "hesreallyhim/awesome-claude-code",
+      "stars": 53562,
+      "stars_delta": 44,
+      "stars_delta_raw": 44,
+      "forks": 4669,
+      "rank": 189,
+      "fetched": true
+    },
+    {
+      "repo_id": "hexojs/hexo",
+      "stars": 41763,
+      "stars_delta": -2,
+      "stars_delta_raw": -2,
+      "forks": 39,
+      "rank": 975,
+      "fetched": true
+    },
+    {
+      "repo_id": "heygen-com/hyperframes",
+      "stars": 44155,
+      "stars_delta": 174,
+      "stars_delta_raw": 174,
+      "forks": 4227,
+      "rank": 54,
+      "fetched": true
+    },
+    {
+      "repo_id": "hiyouga/LlamaFactory",
+      "stars": 74590,
+      "stars_delta": 13,
+      "stars_delta_raw": 13,
+      "forks": 9140,
+      "rank": 464,
+      "fetched": true
+    },
+    {
+      "repo_id": "home-assistant/core",
+      "stars": 90259,
+      "stars_delta": 21,
+      "stars_delta_raw": 21,
+      "forks": 38511,
+      "rank": 331,
+      "fetched": true
+    },
+    {
+      "repo_id": "honojs/hono",
+      "stars": 32100,
+      "stars_delta": 8,
+      "stars_delta_raw": 8,
+      "forks": 1287,
+      "rank": 575,
+      "fetched": true
+    },
+    {
+      "repo_id": "hoppscotch/hoppscotch",
+      "stars": 80210,
+      "stars_delta": 8,
+      "stars_delta_raw": 8,
+      "forks": 6087,
+      "rank": 576,
+      "fetched": true
+    },
+    {
+      "repo_id": "hpcaitech/ColossalAI",
+      "stars": 41444,
+      "stars_delta": 1,
+      "stars_delta_raw": 1,
+      "forks": 4496,
+      "rank": 865,
+      "fetched": true
+    },
+    {
+      "repo_id": "huggingface/diffusers",
+      "stars": 34449,
+      "stars_delta": 5,
+      "stars_delta_raw": 5,
+      "forks": 7302,
+      "rank": 697,
+      "fetched": true
+    },
+    {
+      "repo_id": "huggingface/lerobot",
+      "stars": 27245,
+      "stars_delta": 31,
+      "stars_delta_raw": 31,
+      "forks": 5583,
+      "rank": 248,
+      "fetched": true
+    },
+    {
+      "repo_id": "huggingface/pytorch-image-models",
+      "stars": 37129,
+      "stars_delta": 3,
+      "stars_delta_raw": 3,
+      "forks": 5195,
+      "rank": 773,
+      "fetched": true
+    },
+    {
+      "repo_id": "huggingface/transformers",
+      "stars": 164833,
+      "stars_delta": 40,
+      "stars_delta_raw": 40,
+      "forks": 34454,
+      "rank": 206,
+      "fetched": true
+    },
+    {
+      "repo_id": "huginn/huginn",
+      "stars": 49900,
+      "stars_delta": 4,
+      "stars_delta_raw": 4,
+      "forks": 4302,
+      "rank": 735,
+      "fetched": true
+    },
+    {
+      "repo_id": "hugohe3/ppt-master",
+      "stars": 52208,
+      "stars_delta": 190,
+      "stars_delta_raw": 190,
+      "forks": 4180,
+      "rank": 46,
+      "fetched": true
+    },
+    {
+      "repo_id": "hwdsl2/setup-ipsec-vpn",
+      "stars": 28430,
+      "stars_delta": 4,
+      "stars_delta_raw": 4,
+      "forks": 6518,
+      "rank": 736,
+      "fetched": true
+    },
+    {
+      "repo_id": "hyprwm/Hyprland",
+      "stars": 38429,
+      "stars_delta": 22,
+      "stars_delta_raw": 22,
+      "forks": 1976,
+      "rank": 324,
+      "fetched": true
+    },
+    {
+      "repo_id": "iOfficeAI/AionUi",
+      "stars": 32596,
+      "stars_delta": 29,
+      "stars_delta_raw": 29,
+      "forks": 3355,
+      "rank": 266,
+      "fetched": true
+    },
+    {
+      "repo_id": "iOfficeAI/OfficeCLI",
+      "stars": 30023,
+      "stars_delta": 187,
+      "stars_delta_raw": 187,
+      "forks": 2053,
+      "rank": 49,
+      "fetched": true
+    },
+    {
+      "repo_id": "iamkun/dayjs",
+      "stars": 48662,
+      "stars_delta": -2,
+      "stars_delta_raw": -2,
+      "forks": 2470,
+      "rank": 976,
+      "fetched": true
+    },
+    {
+      "repo_id": "ianstormtaylor/slate",
+      "stars": 31752,
+      "stars_delta": -1,
+      "stars_delta_raw": -1,
+      "forks": 3304,
+      "rank": 955,
+      "fetched": true
+    },
+    {
+      "repo_id": "iced-rs/iced",
+      "stars": 31435,
+      "stars_delta": 2,
+      "stars_delta_raw": 2,
+      "forks": 1657,
+      "rank": 811,
+      "fetched": true
+    },
+    {
+      "repo_id": "icsharpcode/ILSpy",
+      "stars": 26020,
+      "stars_delta": 7,
+      "stars_delta_raw": 7,
+      "forks": 3697,
+      "rank": 609,
+      "fetched": true
+    },
+    {
+      "repo_id": "iina/iina",
+      "stars": 46221,
+      "stars_delta": 12,
+      "stars_delta_raw": 12,
+      "forks": 2913,
+      "rank": 487,
+      "fetched": true
+    },
+    {
+      "repo_id": "iluwatar/java-design-patterns",
+      "stars": 94656,
+      "stars_delta": 5,
+      "stars_delta_raw": 5,
+      "forks": 27384,
+      "rank": 698,
+      "fetched": true
+    },
+    {
+      "repo_id": "immich-app/immich",
+      "stars": 113482,
+      "stars_delta": 55,
+      "stars_delta_raw": 55,
+      "forks": 6819,
+      "rank": 152,
+      "fetched": true
+    },
+    {
+      "repo_id": "immutable-js/immutable-js",
+      "stars": 33035,
+      "stars_delta": 0,
+      "stars_delta_raw": 0,
+      "forks": 1859,
+      "rank": 912,
+      "fetched": true
+    },
+    {
+      "repo_id": "imthenachoman/How-To-Secure-A-Linux-Server",
+      "stars": 31244,
+      "stars_delta": 9,
+      "stars_delta_raw": 9,
+      "forks": 2109,
+      "rank": 547,
+      "fetched": true
+    },
+    {
+      "repo_id": "infiniflow/ragflow",
+      "stars": 90103,
+      "stars_delta": 50,
+      "stars_delta_raw": 50,
+      "forks": 10626,
+      "rank": 166,
+      "fetched": true
+    },
+    {
+      "repo_id": "influxdata/influxdb",
+      "stars": 31734,
+      "stars_delta": 3,
+      "stars_delta_raw": 3,
+      "forks": 3716,
+      "rank": 774,
+      "fetched": true
+    },
+    {
+      "repo_id": "inkonchain/docs",
+      "stars": 36509,
+      "stars_delta": 0,
+      "stars_delta_raw": 0,
+      "forks": 478,
+      "rank": 913,
+      "fetched": true
+    },
+    {
+      "repo_id": "invoke-ai/InvokeAI",
+      "stars": 28145,
+      "stars_delta": 11,
+      "stars_delta_raw": 11,
+      "forks": 2970,
+      "rank": 513,
+      "fetched": true
+    },
+    {
+      "repo_id": "ionic-team/ionic-framework",
+      "stars": 52644,
+      "stars_delta": 0,
+      "stars_delta_raw": 0,
+      "forks": 13312,
+      "rank": 914,
+      "fetched": true
+    },
+    {
+      "repo_id": "iptv-org/iptv",
+      "stars": 137726,
+      "stars_delta": 116,
+      "stars_delta_raw": 116,
+      "forks": 8000,
+      "rank": 84,
+      "fetched": true
+    },
+    {
+      "repo_id": "istio/istio",
+      "stars": 38371,
+      "stars_delta": 0,
+      "stars_delta_raw": 0,
+      "forks": 8375,
+      "rank": 915,
+      "fetched": true
+    },
+    {
+      "repo_id": "iv-org/invidious",
+      "stars": 24261,
+      "stars_delta": 31,
+      "stars_delta_raw": 31,
+      "forks": 2714,
+      "rank": 249,
+      "fetched": true
+    },
+    {
+      "repo_id": "jackwener/OpenCLI",
+      "stars": 29000,
+      "stars_delta": 26,
+      "stars_delta_raw": 26,
+      "forks": 2849,
+      "rank": 291,
+      "fetched": true
+    },
+    {
+      "repo_id": "janhq/jan",
+      "stars": 44365,
+      "stars_delta": 25,
+      "stars_delta_raw": 25,
+      "forks": 3010,
+      "rank": 300,
+      "fetched": true
+    },
+    {
+      "repo_id": "jarrodwatts/claude-hud",
+      "stars": 27837,
+      "stars_delta": 6,
+      "stars_delta_raw": 6,
+      "forks": 1291,
+      "rank": 653,
+      "fetched": true
+    },
+    {
+      "repo_id": "jax-ml/jax",
+      "stars": 36256,
+      "stars_delta": 1,
+      "stars_delta_raw": 1,
+      "forks": 3759,
+      "rank": 866,
+      "fetched": true
+    },
+    {
+      "repo_id": "jaywcjlove/awesome-mac",
+      "stars": 112531,
+      "stars_delta": 71,
+      "stars_delta_raw": 71,
+      "forks": 8678,
+      "rank": 122,
+      "fetched": true
+    },
+    {
+      "repo_id": "jdx/mise",
+      "stars": 33509,
+      "stars_delta": 29,
+      "stars_delta_raw": 29,
+      "forks": 1422,
+      "rank": 267,
+      "fetched": true
+    },
+    {
+      "repo_id": "jeecgboot/JeecgBoot",
+      "stars": 47638,
+      "stars_delta": 10,
+      "stars_delta_raw": 10,
+      "forks": 16180,
+      "rank": 522,
+      "fetched": true
+    },
+    {
+      "repo_id": "jellyfin/jellyfin",
+      "stars": 56559,
+      "stars_delta": 22,
+      "stars_delta_raw": 22,
+      "forks": 5408,
+      "rank": 325,
+      "fetched": true
+    },
+    {
+      "repo_id": "jenkinsci/jenkins",
+      "stars": 26530,
+      "stars_delta": 0,
+      "stars_delta_raw": 0,
+      "forks": 9828,
+      "rank": 916,
+      "fetched": true
+    },
+    {
+      "repo_id": "jesseduffield/lazygit",
+      "stars": 82031,
+      "stars_delta": 36,
+      "stars_delta_raw": 36,
+      "forks": 3025,
+      "rank": 227,
+      "fetched": true
+    },
+    {
+      "repo_id": "jestjs/jest",
+      "stars": 45475,
+      "stars_delta": 2,
+      "stars_delta_raw": 2,
+      "forks": 6732,
+      "rank": 812,
+      "fetched": true
+    },
+    {
+      "repo_id": "jgm/pandoc",
+      "stars": 46154,
+      "stars_delta": 12,
+      "stars_delta_raw": 12,
+      "forks": 3958,
+      "rank": 488,
+      "fetched": true
+    },
+    {
+      "repo_id": "jgraph/drawio-desktop",
+      "stars": 62956,
+      "stars_delta": 15,
+      "stars_delta_raw": 15,
+      "forks": 5759,
+      "rank": 422,
+      "fetched": true
+    },
+    {
+      "repo_id": "jingyaogong/minimind",
+      "stars": 58770,
+      "stars_delta": 251,
+      "stars_delta_raw": 251,
+      "forks": 7634,
+      "rank": 32,
+      "fetched": true
+    },
+    {
+      "repo_id": "jitsi/jitsi-meet",
+      "stars": 29873,
+      "stars_delta": 5,
+      "stars_delta_raw": 5,
+      "forks": 8021,
+      "rank": 699,
+      "fetched": true
+    },
+    {
+      "repo_id": "jj-vcs/jj",
+      "stars": 31414,
+      "stars_delta": 19,
+      "stars_delta_raw": 19,
+      "forks": 1202,
+      "rank": 354,
+      "fetched": true
+    },
+    {
+      "repo_id": "jondot/awesome-react-native",
+      "stars": 35692,
+      "stars_delta": -2,
+      "stars_delta_raw": -2,
+      "forks": 4035,
+      "rank": 977,
+      "fetched": true
+    },
+    {
+      "repo_id": "josephmisiti/awesome-machine-learning",
+      "stars": 74259,
+      "stars_delta": 1,
+      "stars_delta_raw": 1,
+      "forks": 15637,
+      "rank": 867,
+      "fetched": true
+    },
+    {
+      "repo_id": "jqlang/jq",
+      "stars": 35553,
+      "stars_delta": 1,
+      "stars_delta_raw": 1,
+      "forks": 1834,
+      "rank": 868,
+      "fetched": true
+    },
+    {
+      "repo_id": "jquery/jquery",
+      "stars": 59783,
+      "stars_delta": 2,
+      "stars_delta_raw": 2,
+      "forks": 20375,
+      "rank": 813,
+      "fetched": true
+    },
+    {
+      "repo_id": "juanfont/headscale",
+      "stars": 43581,
+      "stars_delta": 25,
+      "stars_delta_raw": 25,
+      "forks": 2558,
+      "rank": 301,
+      "fetched": true
+    },
+    {
+      "repo_id": "jumpserver/jumpserver",
+      "stars": 31501,
+      "stars_delta": 3,
+      "stars_delta_raw": 3,
+      "forks": 5777,
+      "rank": 775,
+      "fetched": true
+    },
+    {
+      "repo_id": "junegunn/fzf",
+      "stars": 82831,
+      "stars_delta": 13,
+      "stars_delta_raw": 13,
+      "forks": 2862,
+      "rank": 465,
+      "fetched": true
+    },
+    {
+      "repo_id": "juspay/hyperswitch",
+      "stars": 43584,
+      "stars_delta": 6,
+      "stars_delta_raw": 6,
+      "forks": 5117,
+      "rank": 654,
+      "fetched": true
+    },
+    {
+      "repo_id": "k1tbyte/Wand-Enhancer",
+      "stars": 25078,
+      "stars_delta": 357,
+      "stars_delta_raw": 357,
+      "forks": 63349,
+      "rank": 18,
+      "fetched": true
+    },
+    {
+      "repo_id": "k3s-io/k3s",
+      "stars": 33888,
+      "stars_delta": 4,
+      "stars_delta_raw": 4,
+      "forks": 2717,
+      "rank": 737,
+      "fetched": true
+    },
+    {
+      "repo_id": "karakeep-app/karakeep",
+      "stars": 28837,
+      "stars_delta": 35,
+      "stars_delta_raw": 35,
+      "forks": 1486,
+      "rank": 231,
+      "fetched": true
+    },
+    {
+      "repo_id": "keepassxreboot/keepassxc",
+      "stars": 28687,
+      "stars_delta": 3,
+      "stars_delta_raw": 3,
+      "forks": 1906,
+      "rank": 776,
+      "fetched": true
+    },
+    {
+      "repo_id": "keras-team/keras",
+      "stars": 64281,
+      "stars_delta": 2,
+      "stars_delta_raw": 2,
+      "forks": 19775,
+      "rank": 814,
+      "fetched": true
+    },
+    {
+      "repo_id": "kestra-io/kestra",
+      "stars": 27995,
+      "stars_delta": 4,
+      "stars_delta_raw": 4,
+      "forks": 2976,
+      "rank": 738,
+      "fetched": true
+    },
+    {
+      "repo_id": "keycloak/keycloak",
+      "stars": 36617,
+      "stars_delta": 12,
+      "stars_delta_raw": 12,
+      "forks": 8896,
+      "rank": 489,
+      "fetched": true
+    },
+    {
+      "repo_id": "koajs/koa",
+      "stars": 35690,
+      "stars_delta": 0,
+      "stars_delta_raw": 0,
+      "forks": 3225,
+      "rank": 917,
+      "fetched": true
+    },
+    {
+      "repo_id": "koala73/worldmonitor",
+      "stars": 85621,
+      "stars_delta": 54,
+      "stars_delta_raw": 54,
+      "forks": 12925,
+      "rank": 155,
+      "fetched": true
+    },
+    {
+      "repo_id": "koodo-reader/koodo-reader",
+      "stars": 28074,
+      "stars_delta": 9,
+      "stars_delta_raw": 9,
+      "forks": 2101,
+      "rank": 548,
+      "fetched": true
+    },
+    {
+      "repo_id": "koreader/koreader",
+      "stars": 29509,
+      "stars_delta": 19,
+      "stars_delta_raw": 19,
+      "forks": 1901,
+      "rank": 355,
+      "fetched": true
+    },
+    {
+      "repo_id": "kovidgoyal/calibre",
+      "stars": 25823,
+      "stars_delta": 4,
+      "stars_delta_raw": 4,
+      "forks": 2668,
+      "rank": 739,
+      "fetched": true
+    },
+    {
+      "repo_id": "kovidgoyal/kitty",
+      "stars": 34770,
+      "stars_delta": 10,
+      "stars_delta_raw": 10,
+      "forks": 1495,
+      "rank": 523,
+      "fetched": true
+    },
+    {
+      "repo_id": "kubernetes/kubernetes",
+      "stars": 126377,
+      "stars_delta": 26,
+      "stars_delta_raw": 26,
+      "forks": 44011,
+      "rank": 292,
+      "fetched": true
+    },
+    {
+      "repo_id": "kubernetes/minikube",
+      "stars": 32101,
+      "stars_delta": 2,
+      "stars_delta_raw": 2,
+      "forks": 5316,
+      "rank": 815,
+      "fetched": true
+    },
+    {
+      "repo_id": "labring/FastGPT",
+      "stars": 29580,
+      "stars_delta": 8,
+      "stars_delta_raw": 8,
+      "forks": 7298,
+      "rank": 577,
+      "fetched": true
+    },
+    {
+      "repo_id": "labstack/echo",
+      "stars": 32693,
+      "stars_delta": 1,
+      "stars_delta_raw": 1,
+      "forks": 2361,
+      "rank": 869,
+      "fetched": true
+    },
+    {
+      "repo_id": "langchain-ai/deepagents",
+      "stars": 29036,
+      "stars_delta": 43,
+      "stars_delta_raw": 43,
+      "forks": 4076,
+      "rank": 193,
+      "fetched": true
+    },
+    {
+      "repo_id": "langchain-ai/langchain",
+      "stars": 145715,
+      "stars_delta": 61,
+      "stars_delta_raw": 61,
+      "forks": 24332,
+      "rank": 141,
+      "fetched": true
+    },
+    {
+      "repo_id": "langchain-ai/langgraph",
+      "stars": 41101,
+      "stars_delta": 37,
+      "stars_delta_raw": 37,
+      "forks": 6944,
+      "rank": 219,
+      "fetched": true
+    },
+    {
+      "repo_id": "langflow-ai/langflow",
+      "stars": 154298,
+      "stars_delta": 40,
+      "stars_delta_raw": 40,
+      "forks": 10027,
+      "rank": 207,
+      "fetched": true
+    },
+    {
+      "repo_id": "langfuse/langfuse",
+      "stars": 34235,
+      "stars_delta": 28,
+      "stars_delta_raw": 28,
+      "forks": 3709,
+      "rank": 277,
+      "fetched": true
+    },
+    {
+      "repo_id": "langgenius/dify",
+      "stars": 154531,
+      "stars_delta": 62,
+      "stars_delta_raw": 62,
+      "forks": 24424,
+      "rank": 138,
+      "fetched": true
+    },
+    {
+      "repo_id": "lapce/lapce",
+      "stars": 38824,
+      "stars_delta": 4,
+      "stars_delta_raw": 4,
+      "forks": 1321,
+      "rank": 740,
+      "fetched": true
+    },
+    {
+      "repo_id": "laravel/framework",
+      "stars": 34900,
+      "stars_delta": 5,
+      "stars_delta_raw": 5,
+      "forks": 11971,
+      "rank": 700,
+      "fetched": true
+    },
+    {
+      "repo_id": "laravel/laravel",
+      "stars": 84936,
+      "stars_delta": 2,
+      "stars_delta_raw": 2,
+      "forks": 24891,
+      "rank": 816,
+      "fetched": true
+    },
+    {
+      "repo_id": "laurent22/joplin",
+      "stars": 56248,
+      "stars_delta": 8,
+      "stars_delta_raw": 8,
+      "forks": 6268,
+      "rank": 578,
+      "fetched": true
+    },
+    {
+      "repo_id": "layui/layui",
+      "stars": 30572,
+      "stars_delta": 0,
+      "stars_delta_raw": 0,
+      "forks": 7360,
+      "rank": 918,
+      "fetched": true
+    },
+    {
+      "repo_id": "lbjlaq/Antigravity-Manager",
+      "stars": 31046,
+      "stars_delta": 30,
+      "stars_delta_raw": 30,
+      "forks": 3338,
+      "rank": 259,
+      "fetched": true
+    },
+    {
+      "repo_id": "lerna/lerna",
+      "stars": 36055,
+      "stars_delta": 1,
+      "stars_delta_raw": 1,
+      "forks": 2264,
+      "rank": 870,
+      "fetched": true
+    },
+    {
+      "repo_id": "lfnovo/open-notebook",
+      "stars": 38258,
+      "stars_delta": 56,
+      "stars_delta_raw": 56,
+      "forks": 4436,
+      "rank": 149,
+      "fetched": true
+    },
+    {
+      "repo_id": "librepods-org/librepods",
+      "stars": 29719,
+      "stars_delta": 10,
+      "stars_delta_raw": 10,
+      "forks": 1723,
+      "rank": 524,
+      "fetched": true
+    },
+    {
+      "repo_id": "libuv/libuv",
+      "stars": 27158,
+      "stars_delta": -1,
+      "stars_delta_raw": -1,
+      "forks": 3929,
+      "rank": 956,
+      "fetched": true
+    },
+    {
+      "repo_id": "lightpanda-io/browser",
+      "stars": 34477,
+      "stars_delta": 49,
+      "stars_delta_raw": 49,
+      "forks": 1631,
+      "rank": 172,
+      "fetched": true
+    },
+    {
+      "repo_id": "linera-io/linera-protocol",
+      "stars": 32146,
+      "stars_delta": 1,
+      "stars_delta_raw": 1,
+      "forks": 2413,
+      "rank": 871,
+      "fetched": true
+    },
+    {
+      "repo_id": "lissy93/dashy",
+      "stars": 26392,
+      "stars_delta": 5,
+      "stars_delta_raw": 5,
+      "forks": 1933,
+      "rank": 701,
+      "fetched": true
+    },
+    {
+      "repo_id": "lissy93/web-check",
+      "stars": 34678,
+      "stars_delta": 7,
+      "stars_delta_raw": 7,
+      "forks": 2841,
+      "rank": 610,
+      "fetched": true
+    },
+    {
+      "repo_id": "livekit/agents",
+      "stars": 14024,
+      "stars_delta": 9,
+      "stars_delta_raw": 9,
+      "forks": 3692,
+      "rank": 549,
+      "fetched": true
+    },
+    {
+      "repo_id": "llvm/llvm-project",
+      "stars": 40130,
+      "stars_delta": 32,
+      "stars_delta_raw": 32,
+      "forks": 18550,
+      "rank": 241,
+      "fetched": true
+    },
+    {
+      "repo_id": "lobehub/lobehub",
+      "stars": 82249,
+      "stars_delta": 8,
+      "stars_delta_raw": 8,
+      "forks": 15858,
+      "rank": 579,
+      "fetched": true
+    },
+    {
+      "repo_id": "localsend/localsend",
+      "stars": 90147,
+      "stars_delta": 70,
+      "stars_delta_raw": 70,
+      "forks": 5023,
+      "rank": 127,
+      "fetched": true
+    },
+    {
+      "repo_id": "logseq/logseq",
+      "stars": 44787,
+      "stars_delta": 15,
+      "stars_delta_raw": 15,
+      "forks": 2799,
+      "rank": 423,
+      "fetched": true
+    },
+    {
+      "repo_id": "louislam/uptime-kuma",
+      "stars": 91021,
+      "stars_delta": 39,
+      "stars_delta_raw": 39,
+      "forks": 8340,
+      "rank": 213,
+      "fetched": true
+    },
+    {
+      "repo_id": "lovell/sharp",
+      "stars": 32634,
+      "stars_delta": 4,
+      "stars_delta_raw": 4,
+      "forks": 1434,
+      "rank": 741,
+      "fetched": true
+    },
+    {
+      "repo_id": "luongnv89/claude-howto",
+      "stars": 41371,
+      "stars_delta": 15,
+      "stars_delta_raw": 15,
+      "forks": 5065,
+      "rank": 424,
+      "fetched": true
+    },
+    {
+      "repo_id": "lutzroeder/netron",
+      "stars": 33441,
+      "stars_delta": 2,
+      "stars_delta_raw": 2,
+      "forks": 3184,
+      "rank": 817,
+      "fetched": true
+    },
+    {
+      "repo_id": "lyogavin/airllm",
+      "stars": 33741,
+      "stars_delta": 42,
+      "stars_delta_raw": 42,
+      "forks": 3550,
+      "rank": 199,
+      "fetched": true
+    },
+    {
+      "repo_id": "lysine-dev/okhttp",
+      "stars": 47060,
+      "stars_delta": -1,
+      "stars_delta_raw": -1,
+      "forks": 9294,
+      "rank": 957,
+      "fetched": true
+    },
+    {
+      "repo_id": "lysine-dev/retrofit",
+      "stars": 43935,
+      "stars_delta": -1,
+      "stars_delta_raw": -1,
+      "forks": 7339,
+      "rank": 958,
+      "fetched": true
+    },
+    {
+      "repo_id": "lyswhut/lx-music-desktop",
+      "stars": 53341,
+      "stars_delta": 18,
+      "stars_delta_raw": 18,
+      "forks": 6984,
+      "rank": 367,
+      "fetched": true
+    },
+    {
+      "repo_id": "maboloshi/github-chinese",
+      "stars": 32245,
+      "stars_delta": 53,
+      "stars_delta_raw": 53,
+      "forks": 1863,
+      "rank": 157,
+      "fetched": true
+    },
+    {
+      "repo_id": "magnitudedev/magnitude",
+      "stars": 3168,
+      "stars_delta": 739,
+      "stars_delta_raw": 739,
+      "forks": 227,
+      "rank": 8,
+      "fetched": true
+    },
+    {
+      "repo_id": "majd/ipatool",
+      "stars": 10913,
+      "stars_delta": 53,
+      "stars_delta_raw": 53,
+      "forks": 910,
+      "rank": 158,
+      "fetched": true
+    },
+    {
+      "repo_id": "makeplane/plane",
+      "stars": 58934,
+      "stars_delta": 38,
+      "stars_delta_raw": 38,
+      "forks": 5648,
+      "rank": 216,
+      "fetched": true
+    },
+    {
+      "repo_id": "manaflow-ai/cmux",
+      "stars": 26820,
+      "stars_delta": 29,
+      "stars_delta_raw": 29,
+      "forks": 2316,
+      "rank": 268,
+      "fetched": true
+    },
+    {
+      "repo_id": "mantinedev/mantine",
+      "stars": 31667,
+      "stars_delta": 1,
+      "stars_delta_raw": 1,
+      "forks": 2366,
+      "rank": 872,
+      "fetched": true
+    },
+    {
+      "repo_id": "marin-community/marin",
+      "stars": 3438,
+      "stars_delta": 37,
+      "stars_delta_raw": 37,
+      "forks": 277,
+      "rank": 220,
+      "fetched": true
+    },
+    {
+      "repo_id": "markedjs/marked",
+      "stars": 37121,
+      "stars_delta": 3,
+      "stars_delta_raw": 3,
+      "forks": 3700,
+      "rank": 777,
+      "fetched": true
+    },
+    {
+      "repo_id": "marktext/marktext",
+      "stars": 61063,
+      "stars_delta": 27,
+      "stars_delta_raw": 27,
+      "forks": 4528,
+      "rank": 288,
+      "fetched": true
+    },
+    {
+      "repo_id": "marmelab/react-admin",
+      "stars": 26923,
+      "stars_delta": 2,
+      "stars_delta_raw": 2,
+      "forks": 5468,
+      "rank": 818,
+      "fetched": true
+    },
+    {
+      "repo_id": "mastodon/mastodon",
+      "stars": 50270,
+      "stars_delta": 5,
+      "stars_delta_raw": 5,
+      "forks": 7492,
+      "rank": 702,
+      "fetched": true
+    },
+    {
+      "repo_id": "mastra-ai/mastra",
+      "stars": 27725,
+      "stars_delta": 20,
+      "stars_delta_raw": 20,
+      "forks": 2736,
+      "rank": 338,
+      "fetched": true
+    },
+    {
+      "repo_id": "matteocrippa/awesome-swift",
+      "stars": 26241,
+      "stars_delta": 1,
+      "stars_delta_raw": 1,
+      "forks": 3142,
+      "rank": 873,
+      "fetched": true
+    },
+    {
+      "repo_id": "mattermost/mattermost",
+      "stars": 38993,
+      "stars_delta": 7,
+      "stars_delta_raw": 7,
+      "forks": 8969,
+      "rank": 611,
+      "fetched": true
+    },
+    {
+      "repo_id": "mattpocock/skills",
+      "stars": 252495,
+      "stars_delta": 2239,
+      "stars_delta_raw": 2239,
+      "forks": 21311,
+      "rank": 1,
+      "fetched": true
+    },
+    {
+      "repo_id": "mbadolato/iTerm2-Color-Schemes",
+      "stars": 27177,
+      "stars_delta": 0,
+      "stars_delta_raw": 0,
+      "forks": 6515,
+      "rank": 919,
+      "fetched": true
+    },
+    {
+      "repo_id": "medusajs/medusa",
+      "stars": 36150,
+      "stars_delta": 6,
+      "stars_delta_raw": 6,
+      "forks": 5189,
+      "rank": 655,
+      "fetched": true
+    },
+    {
+      "repo_id": "meilisearch/meilisearch",
+      "stars": 59190,
+      "stars_delta": 14,
+      "stars_delta_raw": 14,
+      "forks": 2698,
+      "rank": 442,
+      "fetched": true
+    },
+    {
+      "repo_id": "mem0ai/mem0",
+      "stars": 64746,
+      "stars_delta": 37,
+      "stars_delta_raw": 37,
+      "forks": 7582,
+      "rank": 221,
+      "fetched": true
+    },
+    {
+      "repo_id": "mermaid-js/mermaid",
+      "stars": 90091,
+      "stars_delta": 13,
+      "stars_delta_raw": 13,
+      "forks": 9217,
+      "rank": 466,
+      "fetched": true
+    },
+    {
+      "repo_id": "metabase/metabase",
+      "stars": 49097,
+      "stars_delta": 2,
+      "stars_delta_raw": 2,
+      "forks": 6793,
+      "rank": 819,
+      "fetched": true
+    },
+    {
+      "repo_id": "meteor/meteor",
+      "stars": 44811,
+      "stars_delta": 1,
+      "stars_delta_raw": 1,
+      "forks": 5242,
+      "rank": 874,
+      "fetched": true
+    },
+    {
+      "repo_id": "micro-editor/micro",
+      "stars": 29520,
+      "stars_delta": 2,
+      "stars_delta_raw": 2,
+      "forks": 1359,
+      "rank": 820,
+      "fetched": true
+    },
+    {
+      "repo_id": "microsoft/Data-Science-For-Beginners",
+      "stars": 36852,
+      "stars_delta": 6,
+      "stars_delta_raw": 6,
+      "forks": 7461,
+      "rank": 656,
+      "fetched": true
+    },
+    {
+      "repo_id": "microsoft/ML-For-Beginners",
+      "stars": 90164,
+      "stars_delta": 28,
+      "stars_delta_raw": 28,
+      "forks": 22187,
+      "rank": 278,
+      "fetched": true
+    },
+    {
+      "repo_id": "microsoft/PowerToys",
+      "stars": 138430,
+      "stars_delta": 41,
+      "stars_delta_raw": 41,
+      "forks": 8552,
+      "rank": 203,
+      "fetched": true
+    },
+    {
+      "repo_id": "microsoft/TypeScript",
+      "stars": 110906,
+      "stars_delta": 14,
+      "stars_delta_raw": 14,
+      "forks": 13804,
+      "rank": 443,
+      "fetched": true
+    },
+    {
+      "repo_id": "microsoft/VibeVoice",
+      "stars": 53719,
+      "stars_delta": 29,
+      "stars_delta_raw": 29,
+      "forks": 6072,
+      "rank": 269,
+      "fetched": true
+    },
+    {
+      "repo_id": "microsoft/WSL",
+      "stars": 33622,
+      "stars_delta": 6,
+      "stars_delta_raw": 6,
+      "forks": 1810,
+      "rank": 657,
+      "fetched": true
+    },
+    {
+      "repo_id": "microsoft/ai-agents-for-beginners",
+      "stars": 73996,
+      "stars_delta": 51,
+      "stars_delta_raw": 51,
+      "forks": 24434,
+      "rank": 164,
+      "fetched": true
+    },
+    {
+      "repo_id": "microsoft/generative-ai-for-beginners",
+      "stars": 119209,
+      "stars_delta": 48,
+      "stars_delta_raw": 48,
+      "forks": 62785,
+      "rank": 177,
+      "fetched": true
+    },
+    {
+      "repo_id": "microsoft/graphrag",
+      "stars": 35851,
+      "stars_delta": 9,
+      "stars_delta_raw": 9,
+      "forks": 3768,
+      "rank": 550,
+      "fetched": true
+    },
+    {
+      "repo_id": "microsoft/markitdown",
+      "stars": 178333,
+      "stars_delta": 170,
+      "stars_delta_raw": 170,
+      "forks": 13142,
+      "rank": 55,
+      "fetched": true
+    },
+    {
+      "repo_id": "microsoft/monaco-editor",
+      "stars": 46666,
+      "stars_delta": 6,
+      "stars_delta_raw": 6,
+      "forks": 4120,
+      "rank": 658,
+      "fetched": true
+    },
+    {
+      "repo_id": "microsoft/playwright-mcp",
+      "stars": 36833,
+      "stars_delta": 30,
+      "stars_delta_raw": 30,
+      "forks": 3101,
+      "rank": 260,
+      "fetched": true
+    },
+    {
+      "repo_id": "microsoft/playwright",
+      "stars": 95676,
+      "stars_delta": 36,
+      "stars_delta_raw": 36,
+      "forks": 6386,
+      "rank": 228,
+      "fetched": true
+    },
+    {
+      "repo_id": "microsoft/qlib",
+      "stars": 48321,
+      "stars_delta": 31,
+      "stars_delta_raw": 31,
+      "forks": 7646,
+      "rank": 250,
+      "fetched": true
+    },
+    {
+      "repo_id": "microsoft/semantic-kernel",
+      "stars": 28537,
+      "stars_delta": 6,
+      "stars_delta_raw": 6,
+      "forks": 4757,
+      "rank": 659,
+      "fetched": true
+    },
+    {
+      "repo_id": "microsoft/terminal",
+      "stars": 104811,
+      "stars_delta": 16,
+      "stars_delta_raw": 16,
+      "forks": 9577,
+      "rank": 399,
+      "fetched": true
+    },
+    {
+      "repo_id": "microsoft/typescript-go",
+      "stars": 26212,
+      "stars_delta": -2,
+      "stars_delta_raw": -2,
+      "forks": 1137,
+      "rank": 978,
+      "fetched": true
+    },
+    {
+      "repo_id": "microsoft/vcpkg",
+      "stars": 27438,
+      "stars_delta": 3,
+      "stars_delta_raw": 3,
+      "forks": 7712,
+      "rank": 778,
+      "fetched": true
+    },
+    {
+      "repo_id": "microsoft/vscode",
+      "stars": 190914,
+      "stars_delta": 56,
+      "stars_delta_raw": 56,
+      "forks": 41992,
+      "rank": 150,
+      "fetched": true
+    },
+    {
+      "repo_id": "microsoft/winget-cli",
+      "stars": 26387,
+      "stars_delta": 0,
+      "stars_delta_raw": 0,
+      "forks": 1792,
+      "rank": 920,
+      "fetched": true
+    },
+    {
+      "repo_id": "mifi/lossless-cut",
+      "stars": 43469,
+      "stars_delta": 14,
+      "stars_delta_raw": 14,
+      "forks": 2149,
+      "rank": 444,
+      "fetched": true
+    },
+    {
+      "repo_id": "mihomo-party-org/clash-party",
+      "stars": 26271,
+      "stars_delta": 13,
+      "stars_delta_raw": 13,
+      "forks": 2065,
+      "rank": 467,
+      "fetched": true
+    },
+    {
+      "repo_id": "milvus-io/milvus",
+      "stars": 45984,
+      "stars_delta": 9,
+      "stars_delta_raw": 9,
+      "forks": 4230,
+      "rank": 551,
+      "fetched": true
+    },
+    {
+      "repo_id": "mindsdb/mindshub",
+      "stars": 39698,
+      "stars_delta": 4,
+      "stars_delta_raw": 4,
+      "forks": 6238,
+      "rank": 742,
+      "fetched": true
+    },
+    {
+      "repo_id": "mitmproxy/mitmproxy",
+      "stars": 44924,
+      "stars_delta": 10,
+      "stars_delta_raw": 10,
+      "forks": 4714,
+      "rank": 525,
+      "fetched": true
+    },
+    {
+      "repo_id": "ml-explore/mlx",
+      "stars": 28311,
+      "stars_delta": 5,
+      "stars_delta_raw": 5,
+      "forks": 2229,
+      "rank": 703,
+      "fetched": true
+    },
+    {
+      "repo_id": "mlflow/mlflow",
+      "stars": 27821,
+      "stars_delta": 5,
+      "stars_delta_raw": 5,
+      "forks": 6256,
+      "rank": 704,
+      "fetched": true
+    },
+    {
+      "repo_id": "moby/moby",
+      "stars": 72038,
+      "stars_delta": 0,
+      "stars_delta_raw": 0,
+      "forks": 19232,
+      "rank": 921,
+      "fetched": true
+    },
+    {
+      "repo_id": "modelcontextprotocol/servers",
+      "stars": 90101,
+      "stars_delta": 21,
+      "stars_delta_raw": 21,
+      "forks": 11566,
+      "rank": 332,
+      "fetched": true
+    },
+    {
+      "repo_id": "modular/modular",
+      "stars": 29560,
+      "stars_delta": 18,
+      "stars_delta_raw": 18,
+      "forks": 3153,
+      "rank": 368,
+      "fetched": true
+    },
+    {
+      "repo_id": "moeru-ai/airi",
+      "stars": 48808,
+      "stars_delta": 20,
+      "stars_delta_raw": 20,
+      "forks": 4832,
+      "rank": 339,
+      "fetched": true
+    },
+    {
+      "repo_id": "moment/moment",
+      "stars": 47917,
+      "stars_delta": 2,
+      "stars_delta_raw": 2,
+      "forks": 6972,
+      "rank": 821,
+      "fetched": true
+    },
+    {
+      "repo_id": "mongodb/mongo",
+      "stars": 28528,
+      "stars_delta": 2,
+      "stars_delta_raw": 2,
+      "forks": 5799,
+      "rank": 822,
+      "fetched": true
+    },
+    {
+      "repo_id": "motiondivision/motion",
+      "stars": 33498,
+      "stars_delta": 10,
+      "stars_delta_raw": 10,
+      "forks": 1350,
+      "rank": 526,
+      "fetched": true
+    },
+    {
+      "repo_id": "mozilla/pdf.js",
+      "stars": 53836,
+      "stars_delta": 8,
+      "stars_delta_raw": 8,
+      "forks": 10663,
+      "rank": 580,
+      "fetched": true
+    },
+    {
+      "repo_id": "mpv-player/mpv",
+      "stars": 36854,
+      "stars_delta": 9,
+      "stars_delta_raw": 9,
+      "forks": 3512,
+      "rank": 552,
+      "fetched": true
+    },
+    {
+      "repo_id": "mrdoob/three.js",
+      "stars": 115159,
+      "stars_delta": 40,
+      "stars_delta_raw": 40,
+      "forks": 36527,
+      "rank": 208,
+      "fetched": true
+    },
+    {
+      "repo_id": "msitarzewski/agency-agents",
+      "stars": 150232,
+      "stars_delta": 151,
+      "stars_delta_raw": 151,
+      "forks": 24217,
+      "rank": 61,
+      "fetched": true
+    },
+    {
+      "repo_id": "mudler/LocalAI",
+      "stars": 48882,
+      "stars_delta": 19,
+      "stars_delta_raw": 19,
+      "forks": 4419,
+      "rank": 356,
+      "fetched": true
+    },
+    {
+      "repo_id": "mui/material-ui",
+      "stars": 99014,
+      "stars_delta": 2,
+      "stars_delta_raw": 2,
+      "forks": 32561,
+      "rank": 823,
+      "fetched": true
+    },
+    {
+      "repo_id": "mukul975/Anthropic-Cybersecurity-Skills",
+      "stars": 32242,
+      "stars_delta": 65,
+      "stars_delta_raw": 65,
+      "forks": 3891,
+      "rank": 132,
+      "fetched": true
+    },
+    {
+      "repo_id": "multica-ai/multica",
+      "stars": 48999,
+      "stars_delta": 108,
+      "stars_delta_raw": 108,
+      "forks": 6330,
+      "rank": 93,
+      "fetched": true
+    },
+    {
+      "repo_id": "musistudio/claude-code-router",
+      "stars": 37092,
+      "stars_delta": 13,
+      "stars_delta_raw": 13,
+      "forks": 3118,
+      "rank": 468,
+      "fetched": true
+    },
+    {
+      "repo_id": "mvanhorn/last30days-skill",
+      "stars": 61322,
+      "stars_delta": 71,
+      "stars_delta_raw": 71,
+      "forks": 5357,
+      "rank": 123,
+      "fetched": true
+    },
+    {
+      "repo_id": "n8n-io/n8n",
+      "stars": 203475,
+      "stars_delta": 109,
+      "stars_delta_raw": 109,
+      "forks": 60566,
+      "rank": 91,
+      "fetched": true
+    },
+    {
+      "repo_id": "nanocoai/nanoclaw",
+      "stars": 30703,
+      "stars_delta": 2,
+      "stars_delta_raw": 2,
+      "forks": 12857,
+      "rank": 824,
+      "fetched": true
+    },
+    {
+      "repo_id": "nautechsystems/nautilus_trader",
+      "stars": 28410,
+      "stars_delta": 36,
+      "stars_delta_raw": 36,
+      "forks": 3696,
+      "rank": 229,
+      "fetched": true
+    },
+    {
+      "repo_id": "neovim/neovim",
+      "stars": 102143,
+      "stars_delta": 20,
+      "stars_delta_raw": 20,
+      "forks": 7079,
+      "rank": 340,
+      "fetched": true
+    },
+    {
+      "repo_id": "nestjs/nest",
+      "stars": 76579,
+      "stars_delta": 5,
+      "stars_delta_raw": 5,
+      "forks": 8552,
+      "rank": 705,
+      "fetched": true
+    },
+    {
+      "repo_id": "netbirdio/netbird",
+      "stars": 28935,
+      "stars_delta": 27,
+      "stars_delta_raw": 27,
+      "forks": 1656,
+      "rank": 289,
+      "fetched": true
+    },
+    {
+      "repo_id": "netdata/netdata",
+      "stars": 80436,
+      "stars_delta": 4,
+      "stars_delta_raw": 4,
+      "forks": 6622,
+      "rank": 743,
+      "fetched": true
+    },
+    {
+      "repo_id": "netty/netty",
+      "stars": 35044,
+      "stars_delta": -1,
+      "stars_delta_raw": -1,
+      "forks": 16268,
+      "rank": 959,
+      "fetched": true
+    },
+    {
+      "repo_id": "nextcloud/server",
+      "stars": 36725,
+      "stars_delta": 10,
+      "stars_delta_raw": 10,
+      "forks": 5156,
+      "rank": 527,
+      "fetched": true
+    },
+    {
+      "repo_id": "nextlevelbuilder/ui-ux-pro-max-skill",
+      "stars": 125272,
+      "stars_delta": 248,
+      "stars_delta_raw": 248,
+      "forks": 13408,
+      "rank": 33,
+      "fetched": true
+    },
+    {
+      "repo_id": "nexu-io/open-design",
+      "stars": 94281,
+      "stars_delta": 203,
+      "stars_delta_raw": 203,
+      "forks": 10883,
+      "rank": 42,
+      "fetched": true
+    },
+    {
+      "repo_id": "nginx/nginx",
+      "stars": 31580,
+      "stars_delta": 7,
+      "stars_delta_raw": 7,
+      "forks": 8305,
+      "rank": 612,
+      "fetched": true
+    },
+    {
+      "repo_id": "ngosang/trackerslist",
+      "stars": 55049,
+      "stars_delta": 13,
+      "stars_delta_raw": 13,
+      "forks": 6589,
+      "rank": 469,
+      "fetched": true
+    },
+    {
+      "repo_id": "nicolargo/glances",
+      "stars": 33530,
+      "stars_delta": 7,
+      "stars_delta_raw": 7,
+      "forks": 1802,
+      "rank": 613,
+      "fetched": true
+    },
+    {
+      "repo_id": "nilbuild/developer-roadmap",
+      "stars": 366376,
+      "stars_delta": 64,
+      "stars_delta_raw": 64,
+      "forks": 44902,
+      "rank": 136,
+      "fetched": true
+    },
+    {
+      "repo_id": "nlohmann/json",
+      "stars": 50545,
+      "stars_delta": 4,
+      "stars_delta_raw": 4,
+      "forks": 7495,
+      "rank": 744,
+      "fetched": true
+    },
+    {
+      "repo_id": "nocodb/nocodb",
+      "stars": 64851,
+      "stars_delta": 20,
+      "stars_delta_raw": 20,
+      "forks": 5030,
+      "rank": 341,
+      "fetched": true
+    },
+    {
+      "repo_id": "nodejs/node",
+      "stars": 120650,
+      "stars_delta": 24,
+      "stars_delta_raw": 24,
+      "forks": 36671,
+      "rank": 305,
+      "fetched": true
+    },
+    {
+      "repo_id": "nolimits4web/swiper",
+      "stars": 41900,
+      "stars_delta": -2,
+      "stars_delta_raw": -2,
+      "forks": 9605,
+      "rank": 979,
+      "fetched": true
+    },
+    {
+      "repo_id": "notepad-plus-plus/notepad-plus-plus",
+      "stars": 29238,
+      "stars_delta": 8,
+      "stars_delta_raw": 8,
+      "forks": 5352,
+      "rank": 581,
+      "fetched": true
+    },
+    {
+      "repo_id": "novuhq/novu",
+      "stars": 39774,
+      "stars_delta": 14,
+      "stars_delta_raw": 14,
+      "forks": 4469,
+      "rank": 445,
+      "fetched": true
+    },
+    {
+      "repo_id": "nrwl/nx",
+      "stars": 29311,
+      "stars_delta": 7,
+      "stars_delta_raw": 7,
+      "forks": 3009,
+      "rank": 614,
+      "fetched": true
+    },
+    {
+      "repo_id": "numpy/numpy",
+      "stars": 32662,
+      "stars_delta": 10,
+      "stars_delta_raw": 10,
+      "forks": 12716,
+      "rank": 528,
+      "fetched": true
+    },
+    {
+      "repo_id": "nushell/nushell",
+      "stars": 40418,
+      "stars_delta": 5,
+      "stars_delta_raw": 5,
+      "forks": 2242,
+      "rank": 706,
+      "fetched": true
+    },
+    {
+      "repo_id": "nuxt/nuxt",
+      "stars": 60819,
+      "stars_delta": 2,
+      "stars_delta_raw": 2,
+      "forks": 5809,
+      "rank": 825,
+      "fetched": true
+    },
+    {
+      "repo_id": "nvm-sh/nvm",
+      "stars": 94902,
+      "stars_delta": 71,
+      "stars_delta_raw": 71,
+      "forks": 10423,
+      "rank": 124,
+      "fetched": true
+    },
+    {
+      "repo_id": "nvm-windows/nvm",
+      "stars": 47575,
+      "stars_delta": 14,
+      "stars_delta_raw": 14,
+      "forks": 3889,
+      "rank": 446,
+      "fetched": true
+    },
+    {
+      "repo_id": "obra/superpowers",
+      "stars": 282085,
+      "stars_delta": 293,
+      "stars_delta_raw": 293,
+      "forks": 25263,
+      "rank": 23,
+      "fetched": true
+    },
+    {
+      "repo_id": "obsproject/obs-studio",
+      "stars": 75855,
+      "stars_delta": 37,
+      "stars_delta_raw": 37,
+      "forks": 10044,
+      "rank": 222,
+      "fetched": true
+    },
+    {
+      "repo_id": "ocornut/imgui",
+      "stars": 76084,
+      "stars_delta": 16,
+      "stars_delta_raw": 16,
+      "forks": 12041,
+      "rank": 400,
+      "fetched": true
+    },
+    {
+      "repo_id": "ocrmypdf/OCRmyPDF",
+      "stars": 34679,
+      "stars_delta": 7,
+      "stars_delta_raw": 7,
+      "forks": 2404,
+      "rank": 615,
+      "fetched": true
+    },
+    {
+      "repo_id": "odoo/odoo",
+      "stars": 54180,
+      "stars_delta": 16,
+      "stars_delta_raw": 16,
+      "forks": 33627,
+      "rank": 401,
+      "fetched": true
+    },
+    {
+      "repo_id": "odysseus-dev/odysseus",
+      "stars": 86878,
+      "stars_delta": 31,
+      "stars_delta_raw": 31,
+      "forks": 806,
+      "rank": 251,
+      "fetched": true
+    },
+    {
+      "repo_id": "ohmyzsh/ohmyzsh",
+      "stars": 189555,
+      "stars_delta": 3,
+      "stars_delta_raw": 3,
+      "forks": 26575,
+      "rank": 779,
+      "fetched": true
+    },
+    {
+      "repo_id": "oldj/SwitchHosts",
+      "stars": 27150,
+      "stars_delta": 6,
+      "stars_delta_raw": 6,
+      "forks": 2674,
+      "rank": 660,
+      "fetched": true
+    },
+    {
+      "repo_id": "ollama/ollama",
+      "stars": 180250,
+      "stars_delta": 92,
+      "stars_delta_raw": 92,
+      "forks": 17714,
+      "rank": 108,
+      "fetched": true
+    },
+    {
+      "repo_id": "omacom/omarchy",
+      "stars": 38298,
+      "stars_delta": 277,
+      "stars_delta_raw": 277,
+      "forks": 4086,
+      "rank": 26,
+      "fetched": true
+    },
+    {
+      "repo_id": "onyx-dot-app/onyx",
+      "stars": 31935,
+      "stars_delta": 3,
+      "stars_delta_raw": 3,
+      "forks": 4401,
+      "rank": 780,
+      "fetched": true
+    },
+    {
+      "repo_id": "open-webui/open-webui",
+      "stars": 151056,
+      "stars_delta": 100,
+      "stars_delta_raw": 100,
+      "forks": 22078,
+      "rank": 101,
+      "fetched": true
+    },
+    {
+      "repo_id": "openai/codex",
+      "stars": 121742,
+      "stars_delta": 202,
+      "stars_delta_raw": 202,
+      "forks": 18678,
+      "rank": 43,
+      "fetched": true
+    },
+    {
+      "repo_id": "openai/openai-agents-python",
+      "stars": 29211,
+      "stars_delta": 14,
+      "stars_delta_raw": 14,
+      "forks": 4664,
+      "rank": 447,
+      "fetched": true
+    },
+    {
+      "repo_id": "openai/openai-cookbook",
+      "stars": 75768,
+      "stars_delta": 20,
+      "stars_delta_raw": 20,
+      "forks": 12805,
+      "rank": 342,
+      "fetched": true
+    },
+    {
+      "repo_id": "openai/openai-python",
+      "stars": 31554,
+      "stars_delta": 3,
+      "stars_delta_raw": 3,
+      "forks": 5171,
+      "rank": 781,
+      "fetched": true
+    },
+    {
+      "repo_id": "openai/whisper",
+      "stars": 108525,
+      "stars_delta": 84,
+      "stars_delta_raw": 84,
+      "forks": 13149,
+      "rank": 115,
+      "fetched": true
+    },
+    {
+      "repo_id": "openclaw/openclaw",
+      "stars": 388970,
+      "stars_delta": 106,
+      "stars_delta_raw": 106,
+      "forks": 81726,
+      "rank": 98,
+      "fetched": true
+    },
+    {
+      "repo_id": "opencv/opencv",
+      "stars": 90722,
+      "stars_delta": 8,
+      "stars_delta_raw": 8,
+      "forks": 56979,
+      "rank": 582,
+      "fetched": true
+    },
+    {
+      "repo_id": "opendatalab/MinerU",
+      "stars": 79265,
+      "stars_delta": 100,
+      "stars_delta_raw": 100,
+      "forks": 6638,
+      "rank": 102,
+      "fetched": true
+    },
+    {
+      "repo_id": "opendataloader-project/opendataloader-pdf",
+      "stars": 28957,
+      "stars_delta": 30,
+      "stars_delta_raw": 30,
+      "forks": 2766,
+      "rank": 261,
+      "fetched": true
+    },
+    {
+      "repo_id": "openssl/openssl",
+      "stars": 30753,
+      "stars_delta": 3,
+      "stars_delta_raw": 3,
+      "forks": 11444,
+      "rank": 782,
+      "fetched": true
+    },
+    {
+      "repo_id": "opentofu/opentofu",
+      "stars": 30088,
+      "stars_delta": 28,
+      "stars_delta_raw": 28,
+      "forks": 1355,
+      "rank": 279,
+      "fetched": true
+    },
+    {
+      "repo_id": "openwrt/openwrt",
+      "stars": 28285,
+      "stars_delta": 12,
+      "stars_delta_raw": 12,
+      "forks": 12903,
+      "rank": 490,
+      "fetched": true
+    },
+    {
+      "repo_id": "oraios/serena",
+      "stars": 28875,
+      "stars_delta": 49,
+      "stars_delta_raw": 49,
+      "forks": 1960,
+      "rank": 173,
+      "fetched": true
+    },
+    {
+      "repo_id": "outline/outline",
+      "stars": 40468,
+      "stars_delta": 9,
+      "stars_delta_raw": 9,
+      "forks": 3543,
+      "rank": 553,
+      "fetched": true
+    },
+    {
+      "repo_id": "oven-sh/bun",
+      "stars": 95891,
+      "stars_delta": 12,
+      "stars_delta_raw": 12,
+      "forks": 5038,
+      "rank": 491,
+      "fetched": true
+    },
+    {
+      "repo_id": "p-e-w/heretic",
+      "stars": 30588,
+      "stars_delta": 142,
+      "stars_delta_raw": 142,
+      "forks": 3381,
+      "rank": 66,
+      "fetched": true
+    },
+    {
+      "repo_id": "pacifio/atlas",
+      "stars": 3239,
+      "stars_delta": 47,
+      "stars_delta_raw": 47,
+      "forks": 206,
+      "rank": 182,
+      "fetched": true
+    },
+    {
+      "repo_id": "pandas-dev/pandas",
+      "stars": 49645,
+      "stars_delta": 9,
+      "stars_delta_raw": 9,
+      "forks": 20331,
+      "rank": 554,
+      "fetched": true
+    },
+    {
+      "repo_id": "paperclipai/paperclip",
+      "stars": 80067,
+      "stars_delta": 48,
+      "stars_delta_raw": 48,
+      "forks": 14698,
+      "rank": 178,
+      "fetched": true
+    },
+    {
+      "repo_id": "paperless-ngx/paperless-ngx",
+      "stars": 44874,
+      "stars_delta": 21,
+      "stars_delta_raw": 21,
+      "forks": 3085,
+      "rank": 333,
+      "fetched": true
+    },
+    {
+      "repo_id": "papers-we-love/papers-we-love",
+      "stars": 109477,
+      "stars_delta": 26,
+      "stars_delta_raw": 26,
+      "forks": 6425,
+      "rank": 293,
+      "fetched": true
+    },
+    {
+      "repo_id": "parallax/jsPDF",
+      "stars": 31295,
+      "stars_delta": -2,
+      "stars_delta_raw": -2,
+      "forks": 4797,
+      "rank": 980,
+      "fetched": true
+    },
+    {
+      "repo_id": "parcel-bundler/parcel",
+      "stars": 44024,
+      "stars_delta": -1,
+      "stars_delta_raw": -1,
+      "forks": 2287,
+      "rank": 960,
+      "fetched": true
+    },
+    {
+      "repo_id": "patchy631/ai-engineering-hub",
+      "stars": 37337,
+      "stars_delta": 6,
+      "stars_delta_raw": 6,
+      "forks": 6152,
+      "rank": 661,
+      "fetched": true
+    },
+    {
+      "repo_id": "pathwaycom/pathway",
+      "stars": 62338,
+      "stars_delta": -5,
+      "stars_delta_raw": -5,
+      "forks": 1686,
+      "rank": 999,
+      "fetched": true
+    },
+    {
+      "repo_id": "payloadcms/payload",
+      "stars": 44589,
+      "stars_delta": 17,
+      "stars_delta_raw": 17,
+      "forks": 4126,
+      "rank": 388,
+      "fetched": true
+    },
+    {
+      "repo_id": "pbakaus/impeccable",
+      "stars": 65831,
+      "stars_delta": 227,
+      "stars_delta_raw": 227,
+      "forks": 4044,
+      "rank": 39,
+      "fetched": true
+    },
+    {
+      "repo_id": "pcottle/learnGitBranching",
+      "stars": 34000,
+      "stars_delta": 5,
+      "stars_delta_raw": 5,
+      "forks": 6024,
+      "rank": 707,
+      "fetched": true
+    },
+    {
+      "repo_id": "pear-devs/pear-desktop",
+      "stars": 33380,
+      "stars_delta": 15,
+      "stars_delta_raw": 15,
+      "forks": 1972,
+      "rank": 425,
+      "fetched": true
+    },
+    {
+      "repo_id": "penpot/penpot",
+      "stars": 59636,
+      "stars_delta": 52,
+      "stars_delta_raw": 52,
+      "forks": 4067,
+      "rank": 161,
+      "fetched": true
+    },
+    {
+      "repo_id": "permissionlesstech/bitchat",
+      "stars": 36140,
+      "stars_delta": 7,
+      "stars_delta_raw": 7,
+      "forks": 5729,
+      "rank": 616,
+      "fetched": true
+    },
+    {
+      "repo_id": "photoprism/photoprism",
+      "stars": 40147,
+      "stars_delta": 6,
+      "stars_delta_raw": 6,
+      "forks": 2322,
+      "rank": 662,
+      "fetched": true
+    },
+    {
+      "repo_id": "php/php-src",
+      "stars": 40364,
+      "stars_delta": 2,
+      "stars_delta_raw": 2,
+      "forks": 8142,
+      "rank": 826,
+      "fetched": true
+    },
+    {
+      "repo_id": "pi-hole/pi-hole",
+      "stars": 60762,
+      "stars_delta": 15,
+      "stars_delta_raw": 15,
+      "forks": 3304,
+      "rank": 426,
+      "fetched": true
+    },
+    {
+      "repo_id": "pingcap/tidb",
+      "stars": 40490,
+      "stars_delta": 2,
+      "stars_delta_raw": 2,
+      "forks": 6236,
+      "rank": 827,
+      "fetched": true
+    },
+    {
+      "repo_id": "pixijs/pixijs",
+      "stars": 48121,
+      "stars_delta": 3,
+      "stars_delta_raw": 3,
+      "forks": 5066,
+      "rank": 783,
+      "fetched": true
+    },
+    {
+      "repo_id": "plausible/analytics",
+      "stars": 28899,
+      "stars_delta": 28,
+      "stars_delta_raw": 28,
+      "forks": 1840,
+      "rank": 280,
+      "fetched": true
+    },
+    {
+      "repo_id": "pmndrs/react-spring",
+      "stars": 29142,
+      "stars_delta": 0,
+      "stars_delta_raw": 0,
+      "forks": 1217,
+      "rank": 922,
+      "fetched": true
+    },
+    {
+      "repo_id": "pmndrs/react-three-fiber",
+      "stars": 32115,
+      "stars_delta": 31,
+      "stars_delta_raw": 31,
+      "forks": 1955,
+      "rank": 252,
+      "fetched": true
+    },
+    {
+      "repo_id": "pmndrs/zustand",
+      "stars": 58642,
+      "stars_delta": -2,
+      "stars_delta_raw": -2,
+      "forks": 2188,
+      "rank": 981,
+      "fetched": true
+    },
+    {
+      "repo_id": "pnpm/pnpm",
+      "stars": 36427,
+      "stars_delta": 18,
+      "stars_delta_raw": 18,
+      "forks": 1693,
+      "rank": 369,
+      "fetched": true
+    },
+    {
+      "repo_id": "pocketbase/pocketbase",
+      "stars": 60954,
+      "stars_delta": 7,
+      "stars_delta_raw": 7,
+      "forks": 3672,
+      "rank": 617,
+      "fetched": true
+    },
+    {
+      "repo_id": "podman-container-tools/podman",
+      "stars": 32785,
+      "stars_delta": 14,
+      "stars_delta_raw": 14,
+      "forks": 3358,
+      "rank": 448,
+      "fetched": true
+    },
+    {
+      "repo_id": "pola-rs/polars",
+      "stars": 39659,
+      "stars_delta": 12,
+      "stars_delta_raw": 12,
+      "forks": 3083,
+      "rank": 492,
+      "fetched": true
+    },
+    {
+      "repo_id": "pollen-robotics/microduck_rl",
+      "stars": 1770,
+      "stars_delta": 42,
+      "stars_delta_raw": 42,
+      "forks": 356,
+      "rank": 200,
+      "fetched": true
+    },
+    {
+      "repo_id": "portainer/portainer",
+      "stars": 38439,
+      "stars_delta": 8,
+      "stars_delta_raw": 8,
+      "forks": 2892,
+      "rank": 583,
+      "fetched": true
+    },
+    {
+      "repo_id": "postcss/postcss",
+      "stars": 28978,
+      "stars_delta": 0,
+      "stars_delta_raw": 0,
+      "forks": 1641,
+      "rank": 923,
+      "fetched": true
+    },
+    {
+      "repo_id": "pppscn/SmsForwarder",
+      "stars": 27850,
+      "stars_delta": 8,
+      "stars_delta_raw": 8,
+      "forks": 3408,
+      "rank": 584,
+      "fetched": true
+    },
+    {
+      "repo_id": "practical-tutorials/project-based-learning",
+      "stars": 282208,
+      "stars_delta": 121,
+      "stars_delta_raw": 121,
+      "forks": 36147,
+      "rank": 80,
+      "fetched": true
+    },
+    {
+      "repo_id": "preactjs/preact",
+      "stars": 38851,
+      "stars_delta": 2,
+      "stars_delta_raw": 2,
+      "forks": 2052,
+      "rank": 828,
+      "fetched": true
+    },
+    {
+      "repo_id": "prettier/prettier",
+      "stars": 52240,
+      "stars_delta": 0,
+      "stars_delta_raw": 0,
+      "forks": 4995,
+      "rank": 924,
+      "fetched": true
+    },
+    {
+      "repo_id": "prisma/orm",
+      "stars": 47606,
+      "stars_delta": 6,
+      "stars_delta_raw": 6,
+      "forks": 2535,
+      "rank": 663,
+      "fetched": true
+    },
+    {
+      "repo_id": "projectdiscovery/nuclei",
+      "stars": 31032,
+      "stars_delta": 9,
+      "stars_delta_raw": 9,
+      "forks": 3858,
+      "rank": 555,
+      "fetched": true
+    },
+    {
+      "repo_id": "prometheus/prometheus",
+      "stars": 65959,
+      "stars_delta": 13,
+      "stars_delta_raw": 13,
+      "forks": 10824,
+      "rank": 470,
+      "fetched": true
+    },
+    {
+      "repo_id": "protocolbuffers/protobuf",
+      "stars": 71999,
+      "stars_delta": 0,
+      "stars_delta_raw": 0,
+      "forks": 16269,
+      "rank": 925,
+      "fetched": true
+    },
+    {
+      "repo_id": "psf/black",
+      "stars": 41828,
+      "stars_delta": 0,
+      "stars_delta_raw": 0,
+      "forks": 2861,
+      "rank": 926,
+      "fetched": true
+    },
+    {
+      "repo_id": "psf/requests",
+      "stars": 54282,
+      "stars_delta": 5,
+      "stars_delta_raw": 5,
+      "forks": 10125,
+      "rank": 708,
+      "fetched": true
+    },
+    {
+      "repo_id": "public-apis/public-apis",
+      "stars": 475866,
+      "stars_delta": 558,
+      "stars_delta_raw": 558,
+      "forks": 52565,
+      "rank": 10,
+      "fetched": true
+    },
+    {
+      "repo_id": "punkpeye/awesome-mcp-servers",
+      "stars": 94325,
+      "stars_delta": 179,
+      "stars_delta_raw": 179,
+      "forks": 15702,
+      "rank": 53,
+      "fetched": true
+    },
+    {
+      "repo_id": "puppeteer/puppeteer",
+      "stars": 95550,
+      "stars_delta": 6,
+      "stars_delta_raw": 6,
+      "forks": 9580,
+      "rank": 664,
+      "fetched": true
+    },
+    {
+      "repo_id": "pydantic/pydantic",
+      "stars": 28721,
+      "stars_delta": 6,
+      "stars_delta_raw": 6,
+      "forks": 2922,
+      "rank": 665,
+      "fetched": true
+    },
+    {
+      "repo_id": "pyenv/pyenv",
+      "stars": 45080,
+      "stars_delta": 4,
+      "stars_delta_raw": 4,
+      "forks": 3271,
+      "rank": 745,
+      "fetched": true
+    },
+    {
+      "repo_id": "python/cpython",
+      "stars": 75990,
+      "stars_delta": 10,
+      "stars_delta_raw": 10,
+      "forks": 35337,
+      "rank": 529,
+      "fetched": true
+    },
+    {
+      "repo_id": "python-poetry/poetry",
+      "stars": 34299,
+      "stars_delta": 0,
+      "stars_delta_raw": 0,
+      "forks": 2484,
+      "rank": 927,
+      "fetched": true
+    },
+    {
+      "repo_id": "python-telegram-bot/python-telegram-bot",
+      "stars": 29444,
+      "stars_delta": -2,
+      "stars_delta_raw": -2,
+      "forks": 6145,
+      "rank": 982,
+      "fetched": true
+    },
+    {
+      "repo_id": "pytorch/pytorch",
+      "stars": 102776,
+      "stars_delta": 16,
+      "stars_delta_raw": 16,
+      "forks": 29119,
+      "rank": 402,
+      "fetched": true
+    },
+    {
+      "repo_id": "qarmin/czkawka",
+      "stars": 33243,
+      "stars_delta": 12,
+      "stars_delta_raw": 12,
+      "forks": 1156,
+      "rank": 493,
+      "fetched": true
+    },
+    {
+      "repo_id": "qbittorrent/qBittorrent",
+      "stars": 39938,
+      "stars_delta": 24,
+      "stars_delta_raw": 24,
+      "forks": 4858,
+      "rank": 306,
+      "fetched": true
+    },
+    {
+      "repo_id": "qdrant/qdrant",
+      "stars": 34400,
+      "stars_delta": 11,
+      "stars_delta_raw": 11,
+      "forks": 2642,
+      "rank": 514,
+      "fetched": true
+    },
+    {
+      "repo_id": "quasarframework/quasar",
+      "stars": 27206,
+      "stars_delta": -1,
+      "stars_delta_raw": -1,
+      "forks": 3681,
+      "rank": 961,
+      "fetched": true
+    },
+    {
+      "repo_id": "rails/rails",
+      "stars": 58753,
+      "stars_delta": 1,
+      "stars_delta_raw": 1,
+      "forks": 22396,
+      "rank": 875,
+      "fetched": true
+    },
+    {
+      "repo_id": "rancher/rancher",
+      "stars": 25890,
+      "stars_delta": 0,
+      "stars_delta_raw": 0,
+      "forks": 3219,
+      "rank": 928,
+      "fetched": true
+    },
+    {
+      "repo_id": "rapid7/metasploit-framework",
+      "stars": 38945,
+      "stars_delta": 1,
+      "stars_delta_raw": 1,
+      "forks": 14954,
+      "rank": 876,
+      "fetched": true
+    },
+    {
+      "repo_id": "rasbt/LLMs-from-scratch",
+      "stars": 104388,
+      "stars_delta": 43,
+      "stars_delta_raw": 43,
+      "forks": 15976,
+      "rank": 194,
+      "fetched": true
+    },
+    {
+      "repo_id": "ray-project/ray",
+      "stars": 43711,
+      "stars_delta": 10,
+      "stars_delta_raw": 10,
+      "forks": 8002,
+      "rank": 530,
+      "fetched": true
+    },
+    {
+      "repo_id": "raysan5/raylib",
+      "stars": 34601,
+      "stars_delta": 15,
+      "stars_delta_raw": 15,
+      "forks": 3270,
+      "rank": 427,
+      "fetched": true
+    },
+    {
+      "repo_id": "rclone/rclone",
+      "stars": 59581,
+      "stars_delta": 30,
+      "stars_delta_raw": 30,
+      "forks": 5366,
+      "rank": 262,
+      "fetched": true
+    },
+    {
+      "repo_id": "react/react-native",
+      "stars": 126506,
+      "stars_delta": 8,
+      "stars_delta_raw": 8,
+      "forks": 25238,
+      "rank": 585,
+      "fetched": true
+    },
+    {
+      "repo_id": "react/react",
+      "stars": 249110,
+      "stars_delta": 32,
+      "stars_delta_raw": 32,
+      "forks": 51284,
+      "rank": 242,
+      "fetched": true
+    },
+    {
+      "repo_id": "react-hook-form/react-hook-form",
+      "stars": 44848,
+      "stars_delta": -1,
+      "stars_delta_raw": -1,
+      "forks": 2469,
+      "rank": 962,
+      "fetched": true
+    },
+    {
+      "repo_id": "realworld-apps/realworld",
+      "stars": 84194,
+      "stars_delta": 7,
+      "stars_delta_raw": 7,
+      "forks": 7657,
+      "rank": 618,
+      "fetched": true
+    },
+    {
+      "repo_id": "recharts/recharts",
+      "stars": 27543,
+      "stars_delta": 3,
+      "stars_delta_raw": 3,
+      "forks": 1982,
+      "rank": 784,
+      "fetched": true
+    },
+    {
+      "repo_id": "redis/redis",
+      "stars": 76209,
+      "stars_delta": 14,
+      "stars_delta_raw": 14,
+      "forks": 24782,
+      "rank": 449,
+      "fetched": true
+    },
+    {
+      "repo_id": "refined-github/refined-github",
+      "stars": 32067,
+      "stars_delta": 12,
+      "stars_delta_raw": 12,
+      "forks": 1891,
+      "rank": 494,
+      "fetched": true
+    },
+    {
+      "repo_id": "reflex-dev/reflex",
+      "stars": 28882,
+      "stars_delta": 6,
+      "stars_delta_raw": 6,
+      "forks": 1776,
+      "rank": 666,
+      "fetched": true
+    },
+    {
+      "repo_id": "remix-run/react-router",
+      "stars": 56577,
+      "stars_delta": 0,
+      "stars_delta_raw": 0,
+      "forks": 10911,
+      "rank": 929,
+      "fetched": true
+    },
+    {
+      "repo_id": "remix-run/remix",
+      "stars": 33357,
+      "stars_delta": 2,
+      "stars_delta_raw": 2,
+      "forks": 2795,
+      "rank": 829,
+      "fetched": true
+    },
+    {
+      "repo_id": "remoteintech/remote-jobs",
+      "stars": 40782,
+      "stars_delta": 0,
+      "stars_delta_raw": 0,
+      "forks": 3958,
+      "rank": 930,
+      "fetched": true
+    },
+    {
+      "repo_id": "remotion-dev/remotion",
+      "stars": 58396,
+      "stars_delta": 75,
+      "stars_delta_raw": 75,
+      "forks": 4448,
+      "rank": 119,
+      "fetched": true
+    },
+    {
+      "repo_id": "requarks/wiki",
+      "stars": 28846,
+      "stars_delta": 1,
+      "stars_delta_raw": 1,
+      "forks": 3307,
+      "rank": 877,
+      "fetched": true
+    },
+    {
+      "repo_id": "restic/restic",
+      "stars": 35877,
+      "stars_delta": 16,
+      "stars_delta_raw": 16,
+      "forks": 1865,
+      "rank": 403,
+      "fetched": true
+    },
+    {
+      "repo_id": "ripienaar/free-for-dev",
+      "stars": 136649,
+      "stars_delta": 75,
+      "stars_delta_raw": 75,
+      "forks": 14363,
+      "rank": 120,
+      "fetched": true
+    },
+    {
+      "repo_id": "roboflow/supervision",
+      "stars": 49888,
+      "stars_delta": 7,
+      "stars_delta_raw": 7,
+      "forks": 4758,
+      "rank": 619,
+      "fetched": true
+    },
+    {
+      "repo_id": "rohitg00/agentmemory",
+      "stars": 28065,
+      "stars_delta": 50,
+      "stars_delta_raw": 50,
+      "forks": 2426,
+      "rank": 167,
+      "fetched": true
+    },
+    {
+      "repo_id": "rohitg00/ai-engineering-from-scratch",
+      "stars": 52480,
+      "stars_delta": 71,
+      "stars_delta_raw": 71,
+      "forks": 9132,
+      "rank": 125,
+      "fetched": true
+    },
+    {
+      "repo_id": "rollup/rollup",
+      "stars": 26308,
+      "stars_delta": 0,
+      "stars_delta_raw": 0,
+      "forks": 1771,
+      "rank": 931,
+      "fetched": true
+    },
+    {
+      "repo_id": "router-for-me/CLIProxyAPI",
+      "stars": 50584,
+      "stars_delta": 144,
+      "stars_delta_raw": 144,
+      "forks": 7692,
+      "rank": 64,
+      "fetched": true
+    },
+    {
+      "repo_id": "rtk-ai/rtk",
+      "stars": 78907,
+      "stars_delta": 316,
+      "stars_delta_raw": 316,
+      "forks": 4990,
+      "rank": 19,
+      "fetched": true
+    },
+    {
+      "repo_id": "ruanyf/weekly",
+      "stars": 102026,
+      "stars_delta": 42,
+      "stars_delta_raw": 42,
+      "forks": 4390,
+      "rank": 201,
+      "fetched": true
+    },
+    {
+      "repo_id": "run-llama/llama_index",
+      "stars": 52030,
+      "stars_delta": 7,
+      "stars_delta_raw": 7,
+      "forks": 8084,
+      "rank": 620,
+      "fetched": true
+    },
+    {
+      "repo_id": "rust-lang/rust",
+      "stars": 117475,
+      "stars_delta": 23,
+      "stars_delta_raw": 23,
+      "forks": 15526,
+      "rank": 317,
+      "fetched": true
+    },
+    {
+      "repo_id": "rust-lang/rustlings",
+      "stars": 64047,
+      "stars_delta": 6,
+      "stars_delta_raw": 6,
+      "forks": 11254,
+      "rank": 667,
+      "fetched": true
+    },
+    {
+      "repo_id": "rust-unofficial/awesome-rust",
+      "stars": 59207,
+      "stars_delta": 17,
+      "stars_delta_raw": 17,
+      "forks": 3594,
+      "rank": 389,
+      "fetched": true
+    },
+    {
+      "repo_id": "rustdesk/rustdesk",
+      "stars": 122699,
+      "stars_delta": 93,
+      "stars_delta_raw": 93,
+      "forks": 18855,
+      "rank": 107,
+      "fetched": true
+    },
+    {
+      "repo_id": "rustfs/rustfs",
+      "stars": 31758,
+      "stars_delta": 13,
+      "stars_delta_raw": 13,
+      "forks": 1418,
+      "rank": 471,
+      "fetched": true
+    },
+    {
+      "repo_id": "ruvnet/RuView",
+      "stars": 92551,
+      "stars_delta": 47,
+      "stars_delta_raw": 47,
+      "forks": 12279,
+      "rank": 183,
+      "fetched": true
+    },
+    {
+      "repo_id": "ruvnet/ruflo",
+      "stars": 70676,
+      "stars_delta": 187,
+      "stars_delta_raw": 187,
+      "forks": 8413,
+      "rank": 50,
+      "fetched": true
+    },
+    {
+      "repo_id": "rxhanson/Rectangle",
+      "stars": 29832,
+      "stars_delta": 8,
+      "stars_delta_raw": 8,
+      "forks": 984,
+      "rank": 586,
+      "fetched": true
+    },
+    {
+      "repo_id": "ryanoasis/nerd-fonts",
+      "stars": 64528,
+      "stars_delta": 14,
+      "stars_delta_raw": 14,
+      "forks": 3955,
+      "rank": 450,
+      "fetched": true
+    },
+    {
+      "repo_id": "saadeghi/daisyui",
+      "stars": 42301,
+      "stars_delta": 8,
+      "stars_delta_raw": 8,
+      "forks": 1678,
+      "rank": 587,
+      "fetched": true
+    },
+    {
+      "repo_id": "sahat/hackathon-starter",
+      "stars": 35251,
+      "stars_delta": 0,
+      "stars_delta_raw": 0,
+      "forks": 8120,
+      "rank": 932,
+      "fetched": true
+    },
+    {
+      "repo_id": "sansan0/TrendRadar",
+      "stars": 62048,
+      "stars_delta": 13,
+      "stars_delta_raw": 13,
+      "forks": 24891,
+      "rank": 472,
+      "fetched": true
+    },
+    {
+      "repo_id": "santifer/career-ops",
+      "stars": 70233,
+      "stars_delta": 88,
+      "stars_delta_raw": 88,
+      "forks": 13298,
+      "rank": 113,
+      "fetched": true
+    },
+    {
+      "repo_id": "schollz/croc",
+      "stars": 40241,
+      "stars_delta": 12,
+      "stars_delta_raw": 12,
+      "forks": 1614,
+      "rank": 495,
+      "fetched": true
+    },
+    {
+      "repo_id": "scikit-learn/scikit-learn",
+      "stars": 67164,
+      "stars_delta": 4,
+      "stars_delta_raw": 4,
+      "forks": 27362,
+      "rank": 746,
+      "fetched": true
+    },
+    {
+      "repo_id": "scrapy/scrapy",
+      "stars": 64206,
+      "stars_delta": 7,
+      "stars_delta_raw": 7,
+      "forks": 11942,
+      "rank": 621,
+      "fetched": true
+    },
+    {
+      "repo_id": "searxng/searxng",
+      "stars": 36567,
+      "stars_delta": 39,
+      "stars_delta_raw": 39,
+      "forks": 3338,
+      "rank": 214,
+      "fetched": true
+    },
+    {
+      "repo_id": "seaweedfs/seaweedfs",
+      "stars": 34482,
+      "stars_delta": 18,
+      "stars_delta_raw": 18,
+      "forks": 2988,
+      "rank": 370,
+      "fetched": true
+    },
+    {
+      "repo_id": "select2/select2",
+      "stars": 25904,
+      "stars_delta": -1,
+      "stars_delta_raw": -1,
+      "forks": 6131,
+      "rank": 963,
+      "fetched": true
+    },
+    {
+      "repo_id": "sequelize/sequelize",
+      "stars": 30367,
+      "stars_delta": -2,
+      "stars_delta_raw": -2,
+      "forks": 4341,
+      "rank": 983,
+      "fetched": true
+    },
+    {
+      "repo_id": "serverless/serverless",
+      "stars": 46917,
+      "stars_delta": -2,
+      "stars_delta_raw": -2,
+      "forks": 5717,
+      "rank": 984,
+      "fetched": true
+    },
+    {
+      "repo_id": "servo/servo",
+      "stars": 37925,
+      "stars_delta": 8,
+      "stars_delta_raw": 8,
+      "forks": 3787,
+      "rank": 588,
+      "fetched": true
+    },
+    {
+      "repo_id": "sgl-project/sglang",
+      "stars": 35507,
+      "stars_delta": 32,
+      "stars_delta_raw": 32,
+      "forks": 8577,
+      "rank": 243,
+      "fetched": true
+    },
+    {
+      "repo_id": "shadcn-ui/ui",
+      "stars": 123104,
+      "stars_delta": 69,
+      "stars_delta_raw": 69,
+      "forks": 10112,
+      "rank": 128,
+      "fetched": true
+    },
+    {
+      "repo_id": "shadps4-emu/shadPS4",
+      "stars": 32736,
+      "stars_delta": 9,
+      "stars_delta_raw": 9,
+      "forks": 2495,
+      "rank": 556,
+      "fetched": true
+    },
+    {
+      "repo_id": "shanraisshan/claude-code-best-practice",
+      "stars": 65629,
+      "stars_delta": 16,
+      "stars_delta_raw": 16,
+      "forks": 6531,
+      "rank": 404,
+      "fetched": true
+    },
+    {
+      "repo_id": "shap/shap",
+      "stars": 25728,
+      "stars_delta": 1,
+      "stars_delta_raw": 1,
+      "forks": 3742,
+      "rank": 878,
+      "fetched": true
+    },
+    {
+      "repo_id": "shareAI-lab/learn-claude-code",
+      "stars": 76124,
+      "stars_delta": 59,
+      "stars_delta_raw": 59,
+      "forks": 12257,
+      "rank": 143,
+      "fetched": true
+    },
+    {
+      "repo_id": "sharkdp/bat",
+      "stars": 60375,
+      "stars_delta": 4,
+      "stars_delta_raw": 4,
+      "forks": 1640,
+      "rank": 747,
+      "fetched": true
+    },
+    {
+      "repo_id": "sharkdp/fd",
+      "stars": 44320,
+      "stars_delta": 12,
+      "stars_delta_raw": 12,
+      "forks": 1126,
+      "rank": 496,
+      "fetched": true
+    },
+    {
+      "repo_id": "sherlock-project/sherlock",
+      "stars": 90990,
+      "stars_delta": 53,
+      "stars_delta_raw": 53,
+      "forks": 10690,
+      "rank": 159,
+      "fetched": true
+    },
+    {
+      "repo_id": "sickn33/agentic-awesome-skills",
+      "stars": 46024,
+      "stars_delta": 43,
+      "stars_delta_raw": 43,
+      "forks": 6725,
+      "rank": 195,
+      "fetched": true
+    },
+    {
+      "repo_id": "signalapp/Signal-Android",
+      "stars": 29296,
+      "stars_delta": 2,
+      "stars_delta_raw": 2,
+      "forks": 6872,
+      "rank": 830,
+      "fetched": true
+    },
+    {
+      "repo_id": "simple-icons/simple-icons",
+      "stars": 25795,
+      "stars_delta": 5,
+      "stars_delta_raw": 5,
+      "forks": 3154,
+      "rank": 709,
+      "fetched": true
+    },
+    {
+      "repo_id": "simstudioai/sim",
+      "stars": 29551,
+      "stars_delta": 8,
+      "stars_delta_raw": 8,
+      "forks": 3807,
+      "rank": 589,
+      "fetched": true
+    },
+    {
+      "repo_id": "sindresorhus/awesome-nodejs",
+      "stars": 66716,
+      "stars_delta": 7,
+      "stars_delta_raw": 7,
+      "forks": 6232,
+      "rank": 622,
+      "fetched": true
+    },
+    {
+      "repo_id": "sindresorhus/awesome",
+      "stars": 503314,
+      "stars_delta": 305,
+      "stars_delta_raw": 305,
+      "forks": 36732,
+      "rank": 22,
+      "fetched": true
+    },
+    {
+      "repo_id": "sipeed/picoclaw",
+      "stars": 29938,
+      "stars_delta": 0,
+      "stars_delta_raw": 0,
+      "forks": 4463,
+      "rank": 933,
+      "fetched": true
+    },
+    {
+      "repo_id": "siyuan-note/siyuan",
+      "stars": 46183,
+      "stars_delta": 17,
+      "stars_delta_raw": 17,
+      "forks": 2983,
+      "rank": 390,
+      "fetched": true
+    },
+    {
+      "repo_id": "skylot/jadx",
+      "stars": 50356,
+      "stars_delta": 12,
+      "stars_delta_raw": 12,
+      "forks": 5750,
+      "rank": 497,
+      "fetched": true
+    },
+    {
+      "repo_id": "slidevjs/slidev",
+      "stars": 48424,
+      "stars_delta": 5,
+      "stars_delta_raw": 5,
+      "forks": 2171,
+      "rank": 710,
+      "fetched": true
+    },
+    {
+      "repo_id": "sngyai/Sequoia-X",
+      "stars": 6726,
+      "stars_delta": 91,
+      "stars_delta_raw": 91,
+      "forks": 1358,
+      "rank": 110,
+      "fetched": true
+    },
+    {
+      "repo_id": "socketio/socket.io",
+      "stars": 63212,
+      "stars_delta": 4,
+      "stars_delta_raw": 4,
+      "forks": 10307,
+      "rank": 748,
+      "fetched": true
+    },
+    {
+      "repo_id": "soimort/you-get",
+      "stars": 56878,
+      "stars_delta": 3,
+      "stars_delta_raw": 3,
+      "forks": 9696,
+      "rank": 785,
+      "fetched": true
+    },
+    {
+      "repo_id": "solidjs/solid",
+      "stars": 35962,
+      "stars_delta": 4,
+      "stars_delta_raw": 4,
+      "forks": 1103,
+      "rank": 749,
+      "fetched": true
+    },
+    {
+      "repo_id": "sorrycc/awesome-javascript",
+      "stars": 35022,
+      "stars_delta": 1,
+      "stars_delta_raw": 1,
+      "forks": 4548,
+      "rank": 879,
+      "fetched": true
+    },
+    {
+      "repo_id": "soxoj/maigret",
+      "stars": 37315,
+      "stars_delta": 18,
+      "stars_delta_raw": 18,
+      "forks": 2905,
+      "rank": 371,
+      "fetched": true
+    },
+    {
+      "repo_id": "spring-projects/spring-boot",
+      "stars": 81416,
+      "stars_delta": 8,
+      "stars_delta_raw": 8,
+      "forks": 42088,
+      "rank": 590,
+      "fetched": true
+    },
+    {
+      "repo_id": "spring-projects/spring-framework",
+      "stars": 60228,
+      "stars_delta": 5,
+      "stars_delta_raw": 5,
+      "forks": 38766,
+      "rank": 711,
+      "fetched": true
+    },
+    {
+      "repo_id": "sqlmapproject/sqlmap",
+      "stars": 38365,
+      "stars_delta": 4,
+      "stars_delta_raw": 4,
+      "forks": 6355,
+      "rank": 750,
+      "fetched": true
+    },
+    {
+      "repo_id": "square/leakcanary",
+      "stars": 29989,
+      "stars_delta": 0,
+      "stars_delta_raw": 0,
+      "forks": 3992,
+      "rank": 934,
+      "fetched": true
+    },
+    {
+      "repo_id": "squidfunk/mkdocs-material",
+      "stars": 27389,
+      "stars_delta": 7,
+      "stars_delta_raw": 7,
+      "forks": 4144,
+      "rank": 623,
+      "fetched": true
+    },
+    {
+      "repo_id": "srbhr/Resume-Matcher",
+      "stars": 28335,
+      "stars_delta": 2,
+      "stars_delta_raw": 2,
+      "forks": 5016,
+      "rank": 831,
+      "fetched": true
+    },
+    {
+      "repo_id": "stablyai/orca",
+      "stars": 62213,
+      "stars_delta": 513,
+      "stars_delta_raw": 513,
+      "forks": 4149,
+      "rank": 12,
+      "fetched": true
+    },
+    {
+      "repo_id": "stanfordnlp/dspy",
+      "stars": 37794,
+      "stars_delta": 18,
+      "stars_delta_raw": 18,
+      "forks": 3289,
+      "rank": 372,
+      "fetched": true
+    },
+    {
+      "repo_id": "starship/starship",
+      "stars": 59796,
+      "stars_delta": 18,
+      "stars_delta_raw": 18,
+      "forks": 2653,
+      "rank": 373,
+      "fetched": true
+    },
+    {
+      "repo_id": "statelyai/xstate",
+      "stars": 30092,
+      "stars_delta": 0,
+      "stars_delta_raw": 0,
+      "forks": 1387,
+      "rank": 935,
+      "fetched": true
+    },
+    {
+      "repo_id": "storybookjs/storybook",
+      "stars": 91017,
+      "stars_delta": 7,
+      "stars_delta_raw": 7,
+      "forks": 10439,
+      "rank": 624,
+      "fetched": true
+    },
+    {
+      "repo_id": "strapi/strapi",
+      "stars": 73073,
+      "stars_delta": 3,
+      "stars_delta_raw": 3,
+      "forks": 9859,
+      "rank": 786,
+      "fetched": true
+    },
+    {
+      "repo_id": "streamlit/streamlit",
+      "stars": 45694,
+      "stars_delta": 5,
+      "stars_delta_raw": 5,
+      "forks": 4375,
+      "rank": 712,
+      "fetched": true
+    },
+    {
+      "repo_id": "stretchr/testify",
+      "stars": 26203,
+      "stars_delta": 1,
+      "stars_delta_raw": 1,
+      "forks": 1917,
+      "rank": 880,
+      "fetched": true
+    },
+    {
+      "repo_id": "styled-components/styled-components",
+      "stars": 41123,
+      "stars_delta": 0,
+      "stars_delta_raw": 0,
+      "forks": 2687,
+      "rank": 936,
+      "fetched": true
+    },
+    {
+      "repo_id": "sudheerj/reactjs-interview-questions",
+      "stars": 44772,
+      "stars_delta": 0,
+      "stars_delta_raw": 0,
+      "forks": 10382,
+      "rank": 937,
+      "fetched": true
+    },
+    {
+      "repo_id": "supabase/supabase",
+      "stars": 108877,
+      "stars_delta": 31,
+      "stars_delta_raw": 31,
+      "forks": 13707,
+      "rank": 253,
+      "fetched": true
+    },
+    {
+      "repo_id": "superlinked/sie",
+      "stars": 3215,
+      "stars_delta": 7,
+      "stars_delta_raw": 7,
+      "forks": 303,
+      "rank": 625,
+      "fetched": true
+    },
+    {
+      "repo_id": "supermemoryai/supermemory",
+      "stars": 29236,
+      "stars_delta": 6,
+      "stars_delta_raw": 6,
+      "forks": 2557,
+      "rank": 668,
+      "fetched": true
+    },
+    {
+      "repo_id": "surrealdb/surrealdb",
+      "stars": 32990,
+      "stars_delta": 10,
+      "stars_delta_raw": 10,
+      "forks": 1355,
+      "rank": 531,
+      "fetched": true
+    },
+    {
+      "repo_id": "sveltejs/svelte",
+      "stars": 88044,
+      "stars_delta": 6,
+      "stars_delta_raw": 6,
+      "forks": 5235,
+      "rank": 669,
+      "fetched": true
+    },
+    {
+      "repo_id": "swagger-api/swagger-ui",
+      "stars": 28999,
+      "stars_delta": -3,
+      "stars_delta_raw": -3,
+      "forks": 9257,
+      "rank": 995,
+      "fetched": true
+    },
+    {
+      "repo_id": "swc-project/swc",
+      "stars": 34196,
+      "stars_delta": 1,
+      "stars_delta_raw": 1,
+      "forks": 1553,
+      "rank": 881,
+      "fetched": true
+    },
+    {
+      "repo_id": "swiftlang/swift",
+      "stars": 70323,
+      "stars_delta": 2,
+      "stars_delta_raw": 2,
+      "forks": 10810,
+      "rank": 832,
+      "fetched": true
+    },
+    {
+      "repo_id": "swisskyrepo/PayloadsAllTheThings",
+      "stars": 80666,
+      "stars_delta": 29,
+      "stars_delta_raw": 29,
+      "forks": 17346,
+      "rank": 270,
+      "fetched": true
+    },
+    {
+      "repo_id": "sxyazi/yazi",
+      "stars": 41959,
+      "stars_delta": 18,
+      "stars_delta_raw": 18,
+      "forks": 1007,
+      "rank": 374,
+      "fetched": true
+    },
+    {
+      "repo_id": "symfony/symfony",
+      "stars": 31146,
+      "stars_delta": 2,
+      "stars_delta_raw": 2,
+      "forks": 9864,
+      "rank": 833,
+      "fetched": true
+    },
+    {
+      "repo_id": "syncthing/syncthing",
+      "stars": 88318,
+      "stars_delta": 20,
+      "stars_delta_raw": 20,
+      "forks": 5452,
+      "rank": 343,
+      "fetched": true
+    },
+    {
+      "repo_id": "systemdesign42/system-design-academy",
+      "stars": 28467,
+      "stars_delta": 18,
+      "stars_delta_raw": 18,
+      "forks": 3685,
+      "rank": 375,
+      "fetched": true
+    },
+    {
+      "repo_id": "tabler/tabler",
+      "stars": 41629,
+      "stars_delta": 6,
+      "stars_delta_raw": 6,
+      "forks": 4424,
+      "rank": 670,
+      "fetched": true
+    },
+    {
+      "repo_id": "tailscale/tailcat",
+      "stars": 6357,
+      "stars_delta": 129,
+      "stars_delta_raw": 129,
+      "forks": 244,
+      "rank": 71,
+      "fetched": true
+    },
+    {
+      "repo_id": "tailscale/tailscale",
+      "stars": 36147,
+      "stars_delta": 25,
+      "stars_delta_raw": 25,
+      "forks": 3168,
+      "rank": 302,
+      "fetched": true
+    },
+    {
+      "repo_id": "tailwindlabs/tailwindcss",
+      "stars": 97450,
+      "stars_delta": 7,
+      "stars_delta_raw": 7,
+      "forks": 5603,
+      "rank": 626,
+      "fetched": true
+    },
+    {
+      "repo_id": "tashfeenahmed/freellmapi",
+      "stars": 24421,
+      "stars_delta": 144,
+      "stars_delta_raw": 144,
+      "forks": 3338,
+      "rank": 65,
+      "fetched": true
+    },
+    {
+      "repo_id": "tauri-apps/tauri",
+      "stars": 110830,
+      "stars_delta": 16,
+      "stars_delta_raw": 16,
+      "forks": 3917,
+      "rank": 405,
+      "fetched": true
+    },
+    {
+      "repo_id": "telegramdesktop/tdesktop",
+      "stars": 32833,
+      "stars_delta": 4,
+      "stars_delta_raw": 4,
+      "forks": 7175,
+      "rank": 751,
+      "fetched": true
+    },
+    {
+      "repo_id": "tensorflow/models",
+      "stars": 77659,
+      "stars_delta": -2,
+      "stars_delta_raw": -2,
+      "forks": 44853,
+      "rank": 985,
+      "fetched": true
+    },
+    {
+      "repo_id": "tensorflow/tensorflow",
+      "stars": 198862,
+      "stars_delta": 32,
+      "stars_delta_raw": 32,
+      "forks": 76265,
+      "rank": 244,
+      "fetched": true
+    },
+    {
+      "repo_id": "termux/termux-app",
+      "stars": 60377,
+      "stars_delta": 58,
+      "stars_delta_raw": 58,
+      "forks": 7445,
+      "rank": 145,
+      "fetched": true
+    },
+    {
+      "repo_id": "tesseract-ocr/tesseract",
+      "stars": 76350,
+      "stars_delta": 7,
+      "stars_delta_raw": 7,
+      "forks": 10791,
+      "rank": 627,
+      "fetched": true
+    },
+    {
+      "repo_id": "thedotmack/claude-mem",
+      "stars": 93292,
+      "stars_delta": 95,
+      "stars_delta_raw": 95,
+      "forks": 8193,
+      "rank": 106,
+      "fetched": true
+    },
+    {
+      "repo_id": "tinygrad/tinygrad",
+      "stars": 33553,
+      "stars_delta": 4,
+      "stars_delta_raw": 4,
+      "forks": 4308,
+      "rank": 752,
+      "fetched": true
+    },
+    {
+      "repo_id": "tinyhumansai/openhuman",
+      "stars": 39447,
+      "stars_delta": 26,
+      "stars_delta_raw": 26,
+      "forks": 3894,
+      "rank": 294,
+      "fetched": true
+    },
+    {
+      "repo_id": "tirth8205/code-review-graph",
+      "stars": 31201,
+      "stars_delta": 24,
+      "stars_delta_raw": 24,
+      "forks": 2842,
+      "rank": 307,
+      "fetched": true
+    },
+    {
+      "repo_id": "tj/commander.js",
+      "stars": 28386,
+      "stars_delta": 0,
+      "stars_delta_raw": 0,
+      "forks": 1775,
+      "rank": 938,
+      "fetched": true
+    },
+    {
+      "repo_id": "tldr-pages/tldr",
+      "stars": 63595,
+      "stars_delta": 6,
+      "stars_delta_raw": 6,
+      "forks": 5403,
+      "rank": 671,
+      "fetched": true
+    },
+    {
+      "repo_id": "tldraw/tldraw",
+      "stars": 50153,
+      "stars_delta": 13,
+      "stars_delta_raw": 13,
+      "forks": 3499,
+      "rank": 473,
+      "fetched": true
+    },
+    {
+      "repo_id": "tmux/tmux",
+      "stars": 49078,
+      "stars_delta": 17,
+      "stars_delta_raw": 17,
+      "forks": 2872,
+      "rank": 391,
+      "fetched": true
+    },
+    {
+      "repo_id": "toeverything/AFFiNE",
+      "stars": 72216,
+      "stars_delta": 24,
+      "stars_delta_raw": 24,
+      "forks": 5231,
+      "rank": 308,
+      "fetched": true
+    },
+    {
+      "repo_id": "tokio-rs/axum",
+      "stars": 27027,
+      "stars_delta": 7,
+      "stars_delta_raw": 7,
+      "forks": 1473,
+      "rank": 628,
+      "fetched": true
+    },
+    {
+      "repo_id": "tokio-rs/tokio",
+      "stars": 33075,
+      "stars_delta": 6,
+      "stars_delta_raw": 6,
+      "forks": 3236,
+      "rank": 672,
+      "fetched": true
+    },
+    {
+      "repo_id": "topjohnwu/Magisk",
+      "stars": 62610,
+      "stars_delta": 24,
+      "stars_delta_raw": 24,
+      "forks": 18506,
+      "rank": 309,
+      "fetched": true
+    },
+    {
+      "repo_id": "topoteretes/cognee",
+      "stars": 30495,
+      "stars_delta": 20,
+      "stars_delta_raw": 20,
+      "forks": 3003,
+      "rank": 344,
+      "fetched": true
+    },
+    {
+      "repo_id": "torvalds/linux",
+      "stars": 246756,
+      "stars_delta": 125,
+      "stars_delta_raw": 125,
+      "forks": 64336,
+      "rank": 76,
+      "fetched": true
+    },
+    {
+      "repo_id": "tqdm/tqdm",
+      "stars": 31306,
+      "stars_delta": 1,
+      "stars_delta_raw": 1,
+      "forks": 1499,
+      "rank": 882,
+      "fetched": true
+    },
+    {
+      "repo_id": "traefik/traefik",
+      "stars": 64752,
+      "stars_delta": 10,
+      "stars_delta_raw": 10,
+      "forks": 6185,
+      "rank": 532,
+      "fetched": true
+    },
+    {
+      "repo_id": "trailofbits/algo",
+      "stars": 30364,
+      "stars_delta": 1,
+      "stars_delta_raw": 1,
+      "forks": 2366,
+      "rank": 883,
+      "fetched": true
+    },
+    {
+      "repo_id": "transloadit/uppy",
+      "stars": 30962,
+      "stars_delta": 0,
+      "stars_delta_raw": 0,
+      "forks": 2107,
+      "rank": 939,
+      "fetched": true
+    },
+    {
+      "repo_id": "tree-sitter/tree-sitter",
+      "stars": 26871,
+      "stars_delta": 9,
+      "stars_delta_raw": 9,
+      "forks": 2863,
+      "rank": 557,
+      "fetched": true
+    },
+    {
+      "repo_id": "trpc/trpc",
+      "stars": 40580,
+      "stars_delta": 0,
+      "stars_delta_raw": 0,
+      "forks": 1660,
+      "rank": 940,
+      "fetched": true
+    },
+    {
+      "repo_id": "trufflesecurity/trufflehog",
+      "stars": 27694,
+      "stars_delta": 7,
+      "stars_delta_raw": 7,
+      "forks": 2565,
+      "rank": 629,
+      "fetched": true
+    },
+    {
+      "repo_id": "tt-a1i/archify",
+      "stars": 49355,
+      "stars_delta": 1357,
+      "stars_delta_raw": 1357,
+      "forks": 3204,
+      "rank": 3,
+      "fetched": true
+    },
+    {
+      "repo_id": "tw93/Mole",
+      "stars": 66315,
+      "stars_delta": 115,
+      "stars_delta_raw": 115,
+      "forks": 2330,
+      "rank": 86,
+      "fetched": true
+    },
+    {
+      "repo_id": "tw93/Pake",
+      "stars": 61302,
+      "stars_delta": 19,
+      "stars_delta_raw": 19,
+      "forks": 12615,
+      "rank": 357,
+      "fetched": true
+    },
+    {
+      "repo_id": "twbs/bootstrap",
+      "stars": 174726,
+      "stars_delta": 7,
+      "stars_delta_raw": 7,
+      "forks": 78611,
+      "rank": 630,
+      "fetched": true
+    },
+    {
+      "repo_id": "twentyhq/twenty",
+      "stars": 56301,
+      "stars_delta": 50,
+      "stars_delta_raw": 50,
+      "forks": 8936,
+      "rank": 168,
+      "fetched": true
+    },
+    {
+      "repo_id": "typeorm/typeorm",
+      "stars": 36647,
+      "stars_delta": -2,
+      "stars_delta_raw": -2,
+      "forks": 6666,
+      "rank": 986,
+      "fetched": true
+    },
+    {
+      "repo_id": "typesense/typesense",
+      "stars": 26516,
+      "stars_delta": 5,
+      "stars_delta_raw": 5,
+      "forks": 968,
+      "rank": 713,
+      "fetched": true
+    },
+    {
+      "repo_id": "typst/typst",
+      "stars": 55863,
+      "stars_delta": 19,
+      "stars_delta_raw": 19,
+      "forks": 1705,
+      "rank": 358,
+      "fetched": true
+    },
+    {
+      "repo_id": "ueberdosis/tiptap",
+      "stars": 38279,
+      "stars_delta": 6,
+      "stars_delta_raw": 6,
+      "forks": 3105,
+      "rank": 673,
+      "fetched": true
+    },
+    {
+      "repo_id": "ultralytics/ultralytics",
+      "stars": 61314,
+      "stars_delta": 19,
+      "stars_delta_raw": 19,
+      "forks": 11710,
+      "rank": 359,
+      "fetched": true
+    },
+    {
+      "repo_id": "ultralytics/yolov5",
+      "stars": 57970,
+      "stars_delta": 3,
+      "stars_delta_raw": 3,
+      "forks": 17469,
+      "rank": 787,
+      "fetched": true
+    },
+    {
+      "repo_id": "umami-software/umami",
+      "stars": 38618,
+      "stars_delta": 14,
+      "stars_delta_raw": 14,
+      "forks": 7962,
+      "rank": 451,
+      "fetched": true
+    },
+    {
+      "repo_id": "unclecode/crawl4ai",
+      "stars": 81578,
+      "stars_delta": 283,
+      "stars_delta_raw": 283,
+      "forks": 8414,
+      "rank": 25,
+      "fetched": true
+    },
+    {
+      "repo_id": "ungoogled-software/ungoogled-chromium",
+      "stars": 27610,
+      "stars_delta": 2,
+      "stars_delta_raw": 2,
+      "forks": 1242,
+      "rank": 834,
+      "fetched": true
+    },
+    {
+      "repo_id": "unslothai/unsloth",
+      "stars": 75675,
+      "stars_delta": 50,
+      "stars_delta_raw": 50,
+      "forks": 6879,
+      "rank": 169,
+      "fetched": true
+    },
+    {
+      "repo_id": "upstash/context7",
+      "stars": 61670,
+      "stars_delta": 45,
+      "stars_delta_raw": 45,
+      "forks": 2973,
+      "rank": 188,
+      "fetched": true
+    },
+    {
+      "repo_id": "usebruno/bruno",
+      "stars": 46772,
+      "stars_delta": 7,
+      "stars_delta_raw": 7,
+      "forks": 2849,
+      "rank": 631,
+      "fetched": true
+    },
+    {
+      "repo_id": "usememos/memos",
+      "stars": 62784,
+      "stars_delta": 11,
+      "stars_delta_raw": 11,
+      "forks": 4720,
+      "rank": 515,
+      "fetched": true
+    },
+    {
+      "repo_id": "usestrix/strix",
+      "stars": 60734,
+      "stars_delta": 158,
+      "stars_delta_raw": 158,
+      "forks": 6640,
+      "rank": 58,
+      "fetched": true
+    },
+    {
+      "repo_id": "utmapp/UTM",
+      "stars": 35360,
+      "stars_delta": 9,
+      "stars_delta_raw": 9,
+      "forks": 1807,
+      "rank": 558,
+      "fetched": true
+    },
+    {
+      "repo_id": "v2ray/v2ray-core",
+      "stars": 46934,
+      "stars_delta": -3,
+      "stars_delta_raw": -3,
+      "forks": 8806,
+      "rank": 996,
+      "fetched": true
+    },
+    {
+      "repo_id": "valkey-io/valkey",
+      "stars": 27138,
+      "stars_delta": 4,
+      "stars_delta_raw": 4,
+      "forks": 1307,
+      "rank": 753,
+      "fetched": true
+    },
+    {
+      "repo_id": "vapor/vapor",
+      "stars": 26191,
+      "stars_delta": 0,
+      "stars_delta_raw": 0,
+      "forks": 1525,
+      "rank": 941,
+      "fetched": true
+    },
+    {
+      "repo_id": "vbenjs/vue-vben-admin",
+      "stars": 33366,
+      "stars_delta": 4,
+      "stars_delta_raw": 4,
+      "forks": 8950,
+      "rank": 754,
+      "fetched": true
+    },
+    {
+      "repo_id": "veggiemonk/awesome-docker",
+      "stars": 36785,
+      "stars_delta": 5,
+      "stars_delta_raw": 5,
+      "forks": 3362,
+      "rank": 714,
+      "fetched": true
+    },
+    {
+      "repo_id": "vercel/ai",
+      "stars": 26592,
+      "stars_delta": 13,
+      "stars_delta_raw": 13,
+      "forks": 5079,
+      "rank": 474,
+      "fetched": true
+    },
+    {
+      "repo_id": "vercel/next.js",
+      "stars": 142116,
+      "stars_delta": 20,
+      "stars_delta_raw": 20,
+      "forks": 31871,
+      "rank": 345,
+      "fetched": true
+    },
+    {
+      "repo_id": "vercel/swr",
+      "stars": 32472,
+      "stars_delta": -3,
+      "stars_delta_raw": -3,
+      "forks": 1380,
+      "rank": 997,
+      "fetched": true
+    },
+    {
+      "repo_id": "vercel/turborepo",
+      "stars": 31061,
+      "stars_delta": 3,
+      "stars_delta_raw": 3,
+      "forks": 2436,
+      "rank": 788,
+      "fetched": true
+    },
+    {
+      "repo_id": "vercel-labs/agent-browser",
+      "stars": 42007,
+      "stars_delta": 46,
+      "stars_delta_raw": 46,
+      "forks": 2801,
+      "rank": 184,
+      "fetched": true
+    },
+    {
+      "repo_id": "vercel-labs/agent-skills",
+      "stars": 30876,
+      "stars_delta": 37,
+      "stars_delta_raw": 37,
+      "forks": 2739,
+      "rank": 223,
+      "fetched": true
+    },
+    {
+      "repo_id": "vercel-labs/portless",
+      "stars": 12166,
+      "stars_delta": 40,
+      "stars_delta_raw": 40,
+      "forks": 399,
+      "rank": 209,
+      "fetched": true
+    },
+    {
+      "repo_id": "vernesong/OpenClash",
+      "stars": 27372,
+      "stars_delta": 16,
+      "stars_delta_raw": 16,
+      "forks": 4017,
+      "rank": 406,
+      "fetched": true
+    },
+    {
+      "repo_id": "vim/vim",
+      "stars": 40859,
+      "stars_delta": 7,
+      "stars_delta_raw": 7,
+      "forks": 6138,
+      "rank": 632,
+      "fetched": true
+    },
+    {
+      "repo_id": "vinta/awesome-python",
+      "stars": 318522,
+      "stars_delta": 244,
+      "stars_delta_raw": 244,
+      "forks": 28638,
+      "rank": 34,
+      "fetched": true
+    },
+    {
+      "repo_id": "virattt/ai-hedge-fund",
+      "stars": 63249,
+      "stars_delta": 11,
+      "stars_delta_raw": 11,
+      "forks": 11110,
+      "rank": 516,
+      "fetched": true
+    },
+    {
+      "repo_id": "virgiliojr94/book-to-skill",
+      "stars": 28673,
+      "stars_delta": 150,
+      "stars_delta_raw": 150,
+      "forks": 2979,
+      "rank": 62,
+      "fetched": true
+    },
+    {
+      "repo_id": "vitejs/vite",
+      "stars": 82697,
+      "stars_delta": 12,
+      "stars_delta_raw": 12,
+      "forks": 8702,
+      "rank": 498,
+      "fetched": true
+    },
+    {
+      "repo_id": "vlang/v",
+      "stars": 37818,
+      "stars_delta": 1,
+      "stars_delta_raw": 1,
+      "forks": 2270,
+      "rank": 884,
+      "fetched": true
+    },
+    {
+      "repo_id": "vllm-project/vllm",
+      "stars": 91038,
+      "stars_delta": 58,
+      "stars_delta_raw": 58,
+      "forks": 21753,
+      "rank": 146,
+      "fetched": true
+    },
+    {
+      "repo_id": "vnpy/vnpy",
+      "stars": 45140,
+      "stars_delta": 26,
+      "stars_delta_raw": 26,
+      "forks": 12435,
+      "rank": 295,
+      "fetched": true
+    },
+    {
+      "repo_id": "volcengine/OpenViking",
+      "stars": 35659,
+      "stars_delta": 152,
+      "stars_delta_raw": 152,
+      "forks": 2719,
+      "rank": 60,
+      "fetched": true
+    },
+    {
+      "repo_id": "vsouza/awesome-ios",
+      "stars": 53275,
+      "stars_delta": 3,
+      "stars_delta_raw": 3,
+      "forks": 7004,
+      "rank": 789,
+      "fetched": true
+    },
+    {
+      "repo_id": "vuejs/core",
+      "stars": 54302,
+      "stars_delta": 4,
+      "stars_delta_raw": 4,
+      "forks": 9189,
+      "rank": 755,
+      "fetched": true
+    },
+    {
+      "repo_id": "vuetifyjs/vuetify",
+      "stars": 41038,
+      "stars_delta": 0,
+      "stars_delta_raw": 0,
+      "forks": 7125,
+      "rank": 942,
+      "fetched": true
+    },
+    {
+      "repo_id": "wailsapp/wails",
+      "stars": 36155,
+      "stars_delta": 12,
+      "stars_delta_raw": 12,
+      "forks": 1836,
+      "rank": 499,
+      "fetched": true
+    },
+    {
+      "repo_id": "walter201230/Python",
+      "stars": 27642,
+      "stars_delta": 16,
+      "stars_delta_raw": 16,
+      "forks": 5550,
+      "rank": 407,
+      "fetched": true
+    },
+    {
+      "repo_id": "warpdotdev/warp",
+      "stars": 64820,
+      "stars_delta": 18,
+      "stars_delta_raw": 18,
+      "forks": 5510,
+      "rank": 376,
+      "fetched": true
+    },
+    {
+      "repo_id": "waydabber/BetterDisplay",
+      "stars": 33506,
+      "stars_delta": 13,
+      "stars_delta_raw": 13,
+      "forks": 637,
+      "rank": 475,
+      "fetched": true
+    },
+    {
+      "repo_id": "webpack/webpack",
+      "stars": 65963,
+      "stars_delta": 2,
+      "stars_delta_raw": 2,
+      "forks": 9549,
+      "rank": 835,
+      "fetched": true
+    },
+    {
+      "repo_id": "webtorrent/webtorrent",
+      "stars": 31383,
+      "stars_delta": -4,
+      "stars_delta_raw": -4,
+      "forks": 2915,
+      "rank": 998,
+      "fetched": true
+    },
+    {
+      "repo_id": "wezterm/wezterm",
+      "stars": 28769,
+      "stars_delta": 13,
+      "stars_delta_raw": 13,
+      "forks": 1711,
+      "rank": 476,
+      "fetched": true
+    },
+    {
+      "repo_id": "wg-easy/wg-easy",
+      "stars": 26862,
+      "stars_delta": 10,
+      "stars_delta_raw": 10,
+      "forks": 2568,
+      "rank": 533,
+      "fetched": true
+    },
+    {
+      "repo_id": "wilsonfreitas/awesome-quant",
+      "stars": 29447,
+      "stars_delta": 12,
+      "stars_delta_raw": 12,
+      "forks": 3952,
+      "rank": 500,
+      "fetched": true
+    },
+    {
+      "repo_id": "withastro/astro",
+      "stars": 62325,
+      "stars_delta": 28,
+      "stars_delta_raw": 28,
+      "forks": 3773,
+      "rank": 281,
+      "fetched": true
+    },
+    {
+      "repo_id": "workweave/router",
+      "stars": 3931,
+      "stars_delta": 82,
+      "stars_delta_raw": 82,
+      "forks": 111,
+      "rank": 116,
+      "fetched": true
+    },
+    {
+      "repo_id": "wshobson/agents",
+      "stars": 39447,
+      "stars_delta": 28,
+      "stars_delta_raw": 28,
+      "forks": 4204,
+      "rank": 282,
+      "fetched": true
+    },
+    {
+      "repo_id": "x64dbg/x64dbg",
+      "stars": 49410,
+      "stars_delta": 9,
+      "stars_delta_raw": 9,
+      "forks": 2838,
+      "rank": 559,
+      "fetched": true
+    },
+    {
+      "repo_id": "xai-org/grok-build",
+      "stars": 26492,
+      "stars_delta": 22,
+      "stars_delta_raw": 22,
+      "forks": 4978,
+      "rank": 326,
+      "fetched": true
+    },
+    {
+      "repo_id": "xai-org/x-algorithm",
+      "stars": 32716,
+      "stars_delta": 63,
+      "stars_delta_raw": 63,
+      "forks": 5363,
+      "rank": 137,
+      "fetched": true
+    },
+    {
+      "repo_id": "xiaojieonly/Ehviewer_CN_SXJ",
+      "stars": 26710,
+      "stars_delta": 29,
+      "stars_delta_raw": 29,
+      "forks": 708,
+      "rank": 271,
+      "fetched": true
+    },
+    {
+      "repo_id": "xtekky/gpt4free",
+      "stars": 66640,
+      "stars_delta": 1,
+      "stars_delta_raw": 1,
+      "forks": 13510,
+      "rank": 885,
+      "fetched": true
+    },
+    {
+      "repo_id": "xyflow/xyflow",
+      "stars": 38272,
+      "stars_delta": 6,
+      "stars_delta_raw": 6,
+      "forks": 2522,
+      "rank": 674,
+      "fetched": true
+    },
+    {
+      "repo_id": "yamadashy/repomix",
+      "stars": 28208,
+      "stars_delta": 14,
+      "stars_delta_raw": 14,
+      "forks": 1515,
+      "rank": 452,
+      "fetched": true
+    },
+    {
+      "repo_id": "ycm-core/YouCompleteMe",
+      "stars": 25892,
+      "stars_delta": -1,
+      "stars_delta_raw": -1,
+      "forks": 2751,
+      "rank": 964,
+      "fetched": true
+    },
+    {
+      "repo_id": "yeasy/docker_practice",
+      "stars": 26234,
+      "stars_delta": -2,
+      "stars_delta_raw": -2,
+      "forks": 5783,
+      "rank": 987,
+      "fetched": true
+    },
+    {
+      "repo_id": "yewstack/yew",
+      "stars": 32792,
+      "stars_delta": -1,
+      "stars_delta_raw": -1,
+      "forks": 1453,
+      "rank": 965,
+      "fetched": true
+    },
+    {
+      "repo_id": "yt-dlp/yt-dlp",
+      "stars": 189205,
+      "stars_delta": 243,
+      "stars_delta_raw": 243,
+      "forks": 16398,
+      "rank": 35,
+      "fetched": true
+    },
+    {
+      "repo_id": "yuliskov/SmartTube",
+      "stars": 32625,
+      "stars_delta": 28,
+      "stars_delta_raw": 28,
+      "forks": 1999,
+      "rank": 283,
+      "fetched": true
+    },
+    {
+      "repo_id": "zed-industries/zed",
+      "stars": 89808,
+      "stars_delta": 37,
+      "stars_delta_raw": 37,
+      "forks": 10470,
+      "rank": 224,
+      "fetched": true
+    },
+    {
+      "repo_id": "zellij-org/zellij",
+      "stars": 35291,
+      "stars_delta": 7,
+      "stars_delta_raw": 7,
+      "forks": 1429,
+      "rank": 633,
+      "fetched": true
+    },
+    {
+      "repo_id": "zen-browser/desktop",
+      "stars": 44268,
+      "stars_delta": 2,
+      "stars_delta_raw": 2,
+      "forks": 1735,
+      "rank": 836,
+      "fetched": true
+    },
+    {
+      "repo_id": "zeroclaw-labs/zeroclaw",
+      "stars": 32733,
+      "stars_delta": 2,
+      "stars_delta_raw": 2,
+      "forks": 4932,
+      "rank": 837,
+      "fetched": true
+    },
+    {
+      "repo_id": "zeromicro/go-zero",
+      "stars": 33308,
+      "stars_delta": 3,
+      "stars_delta_raw": 3,
+      "forks": 4316,
+      "rank": 790,
+      "fetched": true
+    },
+    {
+      "repo_id": "zhaoxuya520/reverse-skill",
+      "stars": 34692,
+      "stars_delta": 120,
+      "stars_delta_raw": 120,
+      "forks": 4722,
+      "rank": 81,
+      "fetched": true
+    },
+    {
+      "repo_id": "zhayujie/CowAgent",
+      "stars": 46785,
+      "stars_delta": 1,
+      "stars_delta_raw": 1,
+      "forks": 10338,
+      "rank": 886,
+      "fetched": true
+    },
+    {
+      "repo_id": "zhongyang219/TrafficMonitor",
+      "stars": 46046,
+      "stars_delta": 16,
+      "stars_delta_raw": 16,
+      "forks": 3789,
+      "rank": 408,
+      "fetched": true
+    },
+    {
+      "repo_id": "zulip/zulip",
+      "stars": 25845,
+      "stars_delta": 5,
+      "stars_delta_raw": 5,
+      "forks": 10192,
+      "rank": 715,
+      "fetched": true
+    },
+    {
+      "repo_id": "zxing/zxing",
+      "stars": 34082,
+      "stars_delta": -1,
+      "stars_delta_raw": -1,
+      "forks": 9435,
+      "rank": 966,
+      "fetched": true
+    },
+    {
+      "repo_id": "zylon-ai/private-gpt",
+      "stars": 57492,
+      "stars_delta": 1,
+      "stars_delta_raw": 1,
+      "forks": 7611,
+      "rank": 887,
+      "fetched": true
+    },
+    {
+      "repo_id": "zyronon/TypeWords",
+      "stars": 9624,
+      "stars_delta": 29,
+      "stars_delta_raw": 29,
+      "forks": 1153,
+      "rank": 272,
+      "fetched": true
+    }
+  ],
+  "new_repo_ids": [],
+  "stats": {
+    "entry_count": 1000,
+    "new_count": 0,
+    "fetched_count": 1000,
+    "skipped_count": 0,
+    "deferred_count": 0,
+    "trending_ok": true,
+    "duration_sec": 138
+  }
+}

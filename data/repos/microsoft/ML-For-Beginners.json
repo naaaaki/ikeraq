@@ -19,8 +19,8 @@
     "scikit-learn",
     "scikit-learn-python"
   ],
-  "stars": 90136,
-  "forks": 22182,
+  "stars": 90164,
+  "forks": 22187,
   "watchers": null,
   "open_issues": 15,
   "created_at": "2021-03-03T01:34:05Z",
@@ -37,10 +37,10 @@
   "category": "learning",
   "flags": [],
   "usability_score": 100,
-  "snapshot_days": 3,
+  "snapshot_days": 4,
   "is_indexable": false,
   "first_seen_at": "2026-09-02T23:02:41.772Z",
   "tracking_tier": "hot",
-  "last_fetched_date": "2026-09-05",
+  "last_fetched_date": "2026-09-06",
   "stars_stagnant_days": 0
 }

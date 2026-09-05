@@ -2,7 +2,7 @@
   "id": "stablyai/orca",
   "owner": "stablyai",
   "name": "orca",
-  "description_en": "Orca is the ADE for working with a fleet of parallel agents. Run any coding agent with your own subscription. Available on desktop, mobile and VPS.",
+  "description_en": "Orca is the ADE for working with a fleet of parallel agents. Run any coding agent with your own subscription. Available on desktop, mobile and remote runtime.",
   "human_note": "## 見出しの一文\n\n同じ課題を複数のエージェントに同時にやらせて、勝った一つだけを取り込む\n\n## どういうものか\n\n複数のコーディングエージェントをまとめて動かすためのデスクトップアプリです。Claude Code、Codex、Copilot など30以上の CLI エージェントを対象にしていて、どれか一つに寄せるのではなく、**同じ課題を何本か並べて走らせることを前提に作られています。**\n\n仕掛けの中心は **git の worktree** です。エージェントごとに別々の作業ツリーを割り当てるので、同じリポジトリの同じファイルを同時に触らせても、互いを踏みません。走り終わったら差分を並べて見比べ、良かったものを一つ選んでマージする、という流れになります。差分にはコメントを付けられるので、「ここだけ直して」と同じツリーへ戻すこともできます。\n\n周りには開発中に画面を離れずに済むための道具が揃っています。WebGL で描くターミナル、UI を要素単位で調べられる Chromium の内蔵ブラウザ、GitHub と Linear の連携、SSH 経由でリモートのマシンにエージェントを走らせる機能、そして進み具合を外から見るためのスマホアプリです。macOS・Windows・Linux 版があり、CLI からも操作できます。\n\n## 図\n\n<figure>\n  <svg viewBox=\"0 0 800 450\" role=\"img\"\n       aria-label=\"ひとつの課題が3つのエージェントに分かれ、それぞれ独立した git worktree の中で作業し、出てきた3つの差分を見比べて1つだけをマージする流れの図。\">\n    <rect width=\"800\" height=\"450\" fill=\"#FFFFFF\"/>\n\n    <text x=\"400\" y=\"56\" text-anchor=\"middle\"\n          style=\"font-family: var(--jp); font-size: 28px; font-weight: 700; fill: #17160F;\">\n      ひとつの課題を<tspan style=\"fill: #1E5A48;\">並べて走らせ</tspan>、勝った一つを取る\n    </text>\n\n    <!-- 課題 -->\n    <rect x=\"40\" y=\"188\" width=\"118\" height=\"76\" rx=\"10\" fill=\"#FFFFFF\" stroke=\"#17160F\" stroke-width=\"2.5\"/>\n    <rect x=\"64\" y=\"212\" width=\"70\" height=\"8\" rx=\"4\" fill=\"#17160F\" opacity=\".22\"/>\n    <rect x=\"64\" y=\"230\" width=\"46\" height=\"8\" rx=\"4\" fill=\"#17160F\" opacity=\".22\"/>\n\n    <!-- 分岐 -->\n    <path d=\"M170 226 C 200 226, 200 138, 232 138\" fill=\"none\" stroke=\"#1E5A48\" stroke-width=\"4\" stroke-linecap=\"round\"/>\n    <path d=\"M232 127 l18 11 -18 11 z\" fill=\"#1E5A48\"/>\n    <path d=\"M170 226 H232\" stroke=\"#1E5A48\" stroke-width=\"4\" stroke-linecap=\"round\"/>\n    <path d=\"M232 215 l18 11 -18 11 z\" fill=\"#1E5A48\"/>\n    <path d=\"M170 226 C 200 226, 200 314, 232 314\" fill=\"none\" stroke=\"#1E5A48\" stroke-width=\"4\" stroke-linecap=\"round\"/>\n    <path d=\"M232 303 l18 11 -18 11 z\" fill=\"#1E5A48\"/>\n\n    <!-- 3つの worktree -->\n    <rect x=\"262\" y=\"106\" width=\"196\" height=\"64\" rx=\"10\" fill=\"#FFFFFF\" stroke=\"#17160F\" stroke-width=\"2.5\"/>\n    <circle cx=\"292\" cy=\"138\" r=\"11\" fill=\"#1E5A48\"/>\n    <text x=\"380\" y=\"144\" text-anchor=\"middle\" style=\"font-family: var(--mono); font-size: 17px; fill: #17160F;\">worktree A</text>\n\n    <rect x=\"262\" y=\"194\" width=\"196\" height=\"64\" rx=\"10\" fill=\"#FFFFFF\" stroke=\"#1E5A48\" stroke-width=\"3\"/>\n    <circle cx=\"292\" cy=\"226\" r=\"11\" fill=\"#1E5A48\"/>\n    <text x=\"380\" y=\"232\" text-anchor=\"middle\" style=\"font-family: var(--mono); font-size: 17px; fill: #17160F;\">worktree B</text>\n\n    <rect x=\"262\" y=\"282\" width=\"196\" height=\"64\" rx=\"10\" fill=\"#FFFFFF\" stroke=\"#17160F\" stroke-width=\"2.5\"/>\n    <circle cx=\"292\" cy=\"314\" r=\"11\" fill=\"#1E5A48\"/>\n    <text x=\"380\" y=\"320\" text-anchor=\"middle\" style=\"font-family: var(--mono); font-size: 17px; fill: #17160F;\">worktree C</text>\n\n    <!-- 合流 -->\n    <path d=\"M470 138 C 506 138, 506 226, 540 226\" fill=\"none\" stroke=\"#17160F\" stroke-width=\"3\" stroke-linecap=\"round\" opacity=\".28\"/>\n    <path d=\"M470 314 C 506 314, 506 226, 540 226\" fill=\"none\" stroke=\"#17160F\" stroke-width=\"3\" stroke-linecap=\"round\" opacity=\".28\"/>\n    <path d=\"M470 226 H540\" stroke=\"#1E5A48\" stroke-width=\"4\" stroke-linecap=\"round\"/>\n    <path d=\"M540 215 l18 11 -18 11 z\" fill=\"#1E5A48\"/>\n\n    <!-- 見比べて取り込む -->\n    <rect x=\"574\" y=\"182\" width=\"186\" height=\"88\" rx=\"12\" fill=\"#1E5A48\"/>\n    <text x=\"667\" y=\"222\" text-anchor=\"middle\" style=\"font-family: var(--jp); font-size: 20px; font-weight: 700; fill: #FFFFFF;\">差分を見比べて</text>\n    <text x=\"667\" y=\"248\" text-anchor=\"middle\" style=\"font-family: var(--jp); font-size: 20px; font-weight: 700; fill: #FFFFFF;\">1つをマージ</text>\n\n    <!-- ラベル -->\n    <text x=\"99\" y=\"304\" text-anchor=\"middle\" style=\"font-family: var(--jp); font-size: 19px; font-weight: 700; fill: #17160F;\">課題</text>\n    <text x=\"99\" y=\"326\" text-anchor=\"middle\" style=\"font-family: var(--jp); font-size: 15px; fill: #6E6A5F;\">（1つ）</text>\n\n    <text x=\"360\" y=\"380\" text-anchor=\"middle\" style=\"font-family: var(--jp); font-size: 19px; font-weight: 700; fill: #17160F;\">エージェント3体</text>\n    <text x=\"360\" y=\"402\" text-anchor=\"middle\" style=\"font-family: var(--jp); font-size: 15px; fill: #6E6A5F;\">（作業ツリーが別なので踏み合わない）</text>\n\n    <text x=\"667\" y=\"304\" text-anchor=\"middle\" style=\"font-family: var(--jp); font-size: 15px; fill: #6E6A5F;\">（残りは捨てる）</text>\n\n    <text x=\"400\" y=\"434\" text-anchor=\"middle\" style=\"font-family: var(--jp); font-size: 18px; fill: #514D45;\">\n      〜 どれが当たるか分からないなら、当ててから選ぶ 〜\n    </text>\n  </svg>\n</figure>\n\nキャプション:\n\n3本走らせて2本を捨てる作りです。**無駄が出ることを承知のうえで、待ち時間を短くしている**——そこが、1本ずつ試して直す進め方との一番の違いです。\n\n## どんなときに使うか\n\n### どのエージェントに投げるか毎回迷っているとき\n\nモデルや道具ごとに得意が違うので、投げ先を決め打ちすると外したときに丸ごとやり直しになります。並べて走らせれば、選ぶ判断を**結果を見たあと**に回せます。\n\n### エージェントを走らせている間、席を離れたいとき\n\n長く走る作業をしかけて放置し、スマホから様子を見る、という使い方が想定されています。SSH でリモートのマシンに走らせる機能もあるので、手元のノートPCを閉じても止まらない構成にできます。\n\n## 注意点\n\n**費用は素直に増えます。** 3本並べれば、API の料金もマシンの負荷も3本ぶんです。捨てる前提の作りなので、使う側が「何本まで並べるか」を決めることになります。\n\n**デスクトップアプリです。** 手元にインストールして使うもので、ブラウザで完結する類のものではありません。走らせるエージェントの契約と認証は、それぞれ別途必要になります。\n\n**まだ新しい道具です。** 対応エージェント30以上、内蔵ブラウザ、スマホアプリ、と守備範囲が広く、そのぶん個々の作り込みの深さは実際に触って確かめる必要があります。ライセンスは MIT です。",
   "language": "TypeScript",
   "topics": [
@@ -25,12 +25,12 @@
     "worktrees",
     "yc-backed"
   ],
-  "stars": 61700,
-  "forks": 4131,
+  "stars": 62213,
+  "forks": 4149,
   "watchers": null,
-  "open_issues": 5277,
+  "open_issues": 5348,
   "created_at": "2026-03-17T03:28:57Z",
-  "pushed_at": "2026-09-04T22:49:36Z",
+  "pushed_at": "2026-09-05T22:40:03Z",
   "is_archived": false,
   "license_spdx": "MIT",
   "license_category": "permissive",
@@ -43,10 +43,10 @@
   "category": "ai-agent",
   "flags": [],
   "usability_score": 100,
-  "snapshot_days": 7,
+  "snapshot_days": 8,
   "is_indexable": true,
   "first_seen_at": "2026-08-29T23:02:08.747Z",
   "tracking_tier": "hot",
-  "last_fetched_date": "2026-09-05",
+  "last_fetched_date": "2026-09-06",
   "stars_stagnant_days": 0
 }

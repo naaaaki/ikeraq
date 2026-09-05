@@ -27,7 +27,7 @@
     "security-testing",
     "security-tools"
   ],
-  "stars": 47733,
+  "stars": 47756,
   "forks": 5484,
   "watchers": null,
   "open_issues": 17,
@@ -51,10 +51,10 @@
     }
   ],
   "usability_score": 85,
-  "snapshot_days": 6,
+  "snapshot_days": 7,
   "is_indexable": true,
   "first_seen_at": "2026-08-30T23:15:18.749Z",
   "tracking_tier": "hot",
-  "last_fetched_date": "2026-09-05",
+  "last_fetched_date": "2026-09-06",
   "stars_stagnant_days": 0
 }

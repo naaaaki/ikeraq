@@ -15,8 +15,8 @@
     "trading",
     "vnpy"
   ],
-  "stars": 45114,
-  "forks": 12434,
+  "stars": 45140,
+  "forks": 12435,
   "watchers": null,
   "open_issues": 34,
   "created_at": "2015-03-02T03:36:58Z",
@@ -33,10 +33,10 @@
   "category": "other",
   "flags": [],
   "usability_score": 100,
-  "snapshot_days": 6,
-  "is_indexable": false,
+  "snapshot_days": 7,
+  "is_indexable": true,
   "first_seen_at": "2026-08-30T23:15:18.750Z",
   "tracking_tier": "hot",
-  "last_fetched_date": "2026-09-05",
+  "last_fetched_date": "2026-09-06",
   "stars_stagnant_days": 0
 }

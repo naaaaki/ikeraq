@@ -22,8 +22,8 @@
     "udp-proxy-server",
     "web-server"
   ],
-  "stars": 31573,
-  "forks": 8303,
+  "stars": 31580,
+  "forks": 8305,
   "watchers": null,
   "open_issues": 463,
   "created_at": "2015-06-23T10:26:27Z",
@@ -40,10 +40,10 @@
   "category": "security",
   "flags": [],
   "usability_score": 100,
-  "snapshot_days": 4,
+  "snapshot_days": 5,
   "is_indexable": false,
   "first_seen_at": "2026-09-01T23:05:22.650Z",
   "tracking_tier": "hot",
-  "last_fetched_date": "2026-09-05",
+  "last_fetched_date": "2026-09-06",
   "stars_stagnant_days": 0
 }

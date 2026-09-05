@@ -26,12 +26,12 @@
     "workflow-automation",
     "workflow-engine"
   ],
-  "stars": 28253,
-  "forks": 2199,
+  "stars": 28255,
+  "forks": 2200,
   "watchers": null,
   "open_issues": 282,
   "created_at": "2019-06-07T11:03:41Z",
-  "pushed_at": "2026-09-04T17:24:17Z",
+  "pushed_at": "2026-09-05T20:39:45Z",
   "is_archived": false,
   "license_spdx": "NOASSERTION",
   "license_category": "unknown",
@@ -44,10 +44,10 @@
   "category": "data",
   "flags": [],
   "usability_score": 100,
-  "snapshot_days": 3,
+  "snapshot_days": 4,
   "is_indexable": false,
   "first_seen_at": "2026-09-02T23:02:41.773Z",
   "tracking_tier": "hot",
-  "last_fetched_date": "2026-09-05",
-  "stars_stagnant_days": 1
+  "last_fetched_date": "2026-09-06",
+  "stars_stagnant_days": 0
 }

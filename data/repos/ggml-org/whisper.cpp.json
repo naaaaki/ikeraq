@@ -13,10 +13,10 @@
     "transformer",
     "whisper"
   ],
-  "stars": 53448,
-  "forks": 6127,
+  "stars": 53466,
+  "forks": 6133,
   "watchers": null,
-  "open_issues": 1242,
+  "open_issues": 1243,
   "created_at": "2022-09-25T18:26:37Z",
   "pushed_at": "2026-09-04T15:36:11Z",
   "is_archived": false,
@@ -31,10 +31,10 @@
   "category": "llm",
   "flags": [],
   "usability_score": 100,
-  "snapshot_days": 7,
+  "snapshot_days": 8,
   "is_indexable": true,
   "first_seen_at": "2026-08-29T23:02:08.747Z",
   "tracking_tier": "hot",
-  "last_fetched_date": "2026-09-05",
+  "last_fetched_date": "2026-09-06",
   "stars_stagnant_days": 0
 }

@@ -14,10 +14,10 @@
     "read-it-later",
     "self-hosted"
   ],
-  "stars": 28802,
-  "forks": 1483,
+  "stars": 28837,
+  "forks": 1486,
   "watchers": null,
-  "open_issues": 705,
+  "open_issues": 706,
   "created_at": "2024-02-06T12:28:31Z",
   "pushed_at": "2026-08-31T22:52:10Z",
   "is_archived": false,
@@ -38,10 +38,10 @@
     }
   ],
   "usability_score": 85,
-  "snapshot_days": 3,
+  "snapshot_days": 4,
   "is_indexable": true,
   "first_seen_at": "2026-09-02T23:02:41.773Z",
   "tracking_tier": "hot",
-  "last_fetched_date": "2026-09-05",
+  "last_fetched_date": "2026-09-06",
   "stars_stagnant_days": 0
 }
