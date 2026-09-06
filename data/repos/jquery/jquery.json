@@ -8,8 +8,8 @@
   "topics": [
     "jquery"
   ],
-  "stars": 59783,
-  "forks": 20375,
+  "stars": 59782,
+  "forks": 20376,
   "watchers": null,
   "open_issues": 104,
   "created_at": "2009-04-03T15:20:14Z",
@@ -26,10 +26,10 @@
   "category": "other",
   "flags": [],
   "usability_score": 100,
-  "snapshot_days": 6,
-  "is_indexable": false,
+  "snapshot_days": 7,
+  "is_indexable": true,
   "first_seen_at": "2026-09-01T00:26:13.031Z",
   "tracking_tier": "hot",
-  "last_fetched_date": "2026-09-06",
-  "stars_stagnant_days": 0
+  "last_fetched_date": "2026-09-07",
+  "stars_stagnant_days": 1
 }

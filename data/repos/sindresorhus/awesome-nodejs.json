@@ -13,10 +13,10 @@
     "node",
     "nodejs"
   ],
-  "stars": 66716,
-  "forks": 6232,
+  "stars": 66723,
+  "forks": 6233,
   "watchers": null,
-  "open_issues": 26,
+  "open_issues": 25,
   "created_at": "2014-07-11T13:35:34Z",
   "pushed_at": "2026-09-02T02:11:34Z",
   "is_archived": false,
@@ -31,10 +31,10 @@
   "category": "learning",
   "flags": [],
   "usability_score": 100,
-  "snapshot_days": 4,
+  "snapshot_days": 5,
   "is_indexable": false,
   "first_seen_at": "2026-09-02T23:02:41.773Z",
   "tracking_tier": "hot",
-  "last_fetched_date": "2026-09-06",
+  "last_fetched_date": "2026-09-07",
   "stars_stagnant_days": 0
 }

@@ -13,10 +13,10 @@
     "wemod",
     "wpf"
   ],
-  "stars": 25078,
-  "forks": 63349,
+  "stars": 25439,
+  "forks": 64338,
   "watchers": null,
-  "open_issues": 60,
+  "open_issues": 62,
   "created_at": "2024-11-17T20:02:10Z",
   "pushed_at": "2026-09-05T19:28:46Z",
   "is_archived": false,
@@ -31,10 +31,10 @@
   "category": "other",
   "flags": [],
   "usability_score": 100,
-  "snapshot_days": 6,
-  "is_indexable": false,
+  "snapshot_days": 7,
+  "is_indexable": true,
   "first_seen_at": "2026-09-01T00:26:12.447Z",
   "tracking_tier": "hot",
-  "last_fetched_date": "2026-09-06",
+  "last_fetched_date": "2026-09-07",
   "stars_stagnant_days": 0
 }

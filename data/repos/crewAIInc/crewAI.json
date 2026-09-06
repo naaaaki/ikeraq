@@ -12,10 +12,10 @@
     "aiagentframework",
     "llms"
   ],
-  "stars": 58122,
-  "forks": 8352,
+  "stars": 58160,
+  "forks": 8360,
   "watchers": null,
-  "open_issues": 741,
+  "open_issues": 747,
   "created_at": "2023-10-27T03:26:59Z",
   "pushed_at": "2026-09-04T20:26:09Z",
   "is_archived": false,
@@ -30,10 +30,10 @@
   "category": "ai-agent",
   "flags": [],
   "usability_score": 100,
-  "snapshot_days": 8,
+  "snapshot_days": 9,
   "is_indexable": true,
   "first_seen_at": "2026-08-29T23:02:08.747Z",
   "tracking_tier": "hot",
-  "last_fetched_date": "2026-09-06",
+  "last_fetched_date": "2026-09-07",
   "stars_stagnant_days": 0
 }

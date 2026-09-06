@@ -12,8 +12,8 @@
     "spring-physics",
     "springs"
   ],
-  "stars": 29142,
-  "forks": 1217,
+  "stars": 29146,
+  "forks": 1218,
   "watchers": null,
   "open_issues": 75,
   "created_at": "2018-03-07T15:39:32Z",
@@ -30,10 +30,10 @@
   "category": "web-frontend",
   "flags": [],
   "usability_score": 100,
-  "snapshot_days": 4,
+  "snapshot_days": 5,
   "is_indexable": false,
   "first_seen_at": "2026-09-02T23:02:41.773Z",
   "tracking_tier": "hot",
-  "last_fetched_date": "2026-09-06",
-  "stars_stagnant_days": 2
+  "last_fetched_date": "2026-09-07",
+  "stars_stagnant_days": 0
 }

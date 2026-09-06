@@ -15,12 +15,12 @@
     "velociraptors",
     "windows"
   ],
-  "stars": 27158,
+  "stars": 27159,
   "forks": 3929,
   "watchers": null,
-  "open_issues": 232,
+  "open_issues": 234,
   "created_at": "2013-11-30T00:29:56Z",
-  "pushed_at": "2026-09-01T21:38:52Z",
+  "pushed_at": "2026-09-06T06:56:09Z",
   "is_archived": false,
   "license_spdx": "MIT",
   "license_category": "permissive",
@@ -33,10 +33,10 @@
   "category": "infra",
   "flags": [],
   "usability_score": 100,
-  "snapshot_days": 3,
+  "snapshot_days": 4,
   "is_indexable": false,
   "first_seen_at": "2026-09-03T23:03:15.575Z",
   "tracking_tier": "hot",
-  "last_fetched_date": "2026-09-06",
-  "stars_stagnant_days": 1
+  "last_fetched_date": "2026-09-07",
+  "stars_stagnant_days": 0
 }

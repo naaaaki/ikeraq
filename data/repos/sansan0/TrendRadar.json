@@ -23,8 +23,8 @@
     "wechat",
     "wework"
   ],
-  "stars": 62048,
-  "forks": 24891,
+  "stars": 62072,
+  "forks": 24894,
   "watchers": null,
   "open_issues": 58,
   "created_at": "2025-04-28T11:42:16Z",
@@ -47,10 +47,10 @@
     }
   ],
   "usability_score": 85,
-  "snapshot_days": 3,
+  "snapshot_days": 4,
   "is_indexable": true,
   "first_seen_at": "2026-09-03T23:03:15.574Z",
   "tracking_tier": "hot",
-  "last_fetched_date": "2026-09-06",
+  "last_fetched_date": "2026-09-07",
   "stars_stagnant_days": 0
 }

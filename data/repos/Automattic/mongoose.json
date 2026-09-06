@@ -12,10 +12,10 @@
     "odm",
     "orm"
   ],
-  "stars": 27474,
-  "forks": 4035,
+  "stars": 27473,
+  "forks": 4036,
   "watchers": null,
-  "open_issues": 170,
+  "open_issues": 169,
   "created_at": "2010-04-06T21:39:05Z",
   "pushed_at": "2026-09-04T18:31:49Z",
   "is_archived": false,
@@ -30,10 +30,10 @@
   "category": "backend",
   "flags": [],
   "usability_score": 100,
-  "snapshot_days": 3,
+  "snapshot_days": 4,
   "is_indexable": false,
   "first_seen_at": "2026-09-03T23:03:15.575Z",
   "tracking_tier": "hot",
-  "last_fetched_date": "2026-09-06",
-  "stars_stagnant_days": 2
+  "last_fetched_date": "2026-09-07",
+  "stars_stagnant_days": 3
 }

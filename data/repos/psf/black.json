@@ -16,10 +16,10 @@
     "python",
     "yapf"
   ],
-  "stars": 41828,
-  "forks": 2861,
+  "stars": 41829,
+  "forks": 2862,
   "watchers": null,
-  "open_issues": 305,
+  "open_issues": 308,
   "created_at": "2018-03-14T19:54:45Z",
   "pushed_at": "2026-09-04T06:33:00Z",
   "is_archived": false,
@@ -34,10 +34,10 @@
   "category": "dev-tool",
   "flags": [],
   "usability_score": 100,
-  "snapshot_days": 6,
-  "is_indexable": false,
+  "snapshot_days": 7,
+  "is_indexable": true,
   "first_seen_at": "2026-09-01T00:26:13.031Z",
   "tracking_tier": "hot",
-  "last_fetched_date": "2026-09-06",
-  "stars_stagnant_days": 3
+  "last_fetched_date": "2026-09-07",
+  "stars_stagnant_days": 0
 }

@@ -15,8 +15,8 @@
     "hacktoberfest",
     "tui"
   ],
-  "stars": 44812,
-  "forks": 1309,
+  "stars": 44820,
+  "forks": 1310,
   "watchers": null,
   "open_issues": 213,
   "created_at": "2020-01-10T21:04:03Z",
@@ -33,10 +33,10 @@
   "category": "dev-tool",
   "flags": [],
   "usability_score": 100,
-  "snapshot_days": 6,
-  "is_indexable": false,
+  "snapshot_days": 7,
+  "is_indexable": true,
   "first_seen_at": "2026-09-01T00:26:13.031Z",
   "tracking_tier": "hot",
-  "last_fetched_date": "2026-09-06",
+  "last_fetched_date": "2026-09-07",
   "stars_stagnant_days": 0
 }

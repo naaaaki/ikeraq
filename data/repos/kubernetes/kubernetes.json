@@ -11,10 +11,10 @@
     "go",
     "kubernetes"
   ],
-  "stars": 126377,
-  "forks": 44011,
+  "stars": 126441,
+  "forks": 44030,
   "watchers": null,
-  "open_issues": 3053,
+  "open_issues": 3065,
   "created_at": "2014-06-06T22:56:04Z",
   "pushed_at": "2026-09-04T23:38:21Z",
   "is_archived": false,
@@ -29,10 +29,10 @@
   "category": "infra",
   "flags": [],
   "usability_score": 100,
-  "snapshot_days": 8,
+  "snapshot_days": 9,
   "is_indexable": true,
   "first_seen_at": "2026-08-29T15:46:21.820Z",
   "tracking_tier": "hot",
-  "last_fetched_date": "2026-09-06",
+  "last_fetched_date": "2026-09-07",
   "stars_stagnant_days": 0
 }

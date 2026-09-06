@@ -15,8 +15,8 @@
     "terminal",
     "web"
   ],
-  "stars": 33530,
-  "forks": 1802,
+  "stars": 33531,
+  "forks": 1804,
   "watchers": null,
   "open_issues": 101,
   "created_at": "2011-12-04T08:49:15Z",
@@ -33,10 +33,10 @@
   "category": "infra",
   "flags": [],
   "usability_score": 100,
-  "snapshot_days": 5,
+  "snapshot_days": 6,
   "is_indexable": false,
   "first_seen_at": "2026-09-01T23:05:22.650Z",
   "tracking_tier": "hot",
-  "last_fetched_date": "2026-09-06",
+  "last_fetched_date": "2026-09-07",
   "stars_stagnant_days": 0
 }

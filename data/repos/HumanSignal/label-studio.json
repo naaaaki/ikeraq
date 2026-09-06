@@ -27,12 +27,12 @@
     "text-annotation",
     "yolo"
   ],
-  "stars": 28216,
-  "forks": 3689,
+  "stars": 28222,
+  "forks": 3690,
   "watchers": null,
   "open_issues": 938,
   "created_at": "2019-06-19T02:00:44Z",
-  "pushed_at": "2026-09-04T14:31:40Z",
+  "pushed_at": "2026-09-06T13:02:17Z",
   "is_archived": false,
   "license_spdx": "Apache-2.0",
   "license_category": "permissive",
@@ -45,10 +45,10 @@
   "category": "learning",
   "flags": [],
   "usability_score": 100,
-  "snapshot_days": 4,
+  "snapshot_days": 5,
   "is_indexable": false,
   "first_seen_at": "2026-09-02T23:02:41.773Z",
   "tracking_tier": "hot",
-  "last_fetched_date": "2026-09-06",
+  "last_fetched_date": "2026-09-07",
   "stars_stagnant_days": 0
 }

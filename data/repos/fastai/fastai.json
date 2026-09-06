@@ -15,8 +15,8 @@
     "python",
     "pytorch"
   ],
-  "stars": 28133,
-  "forks": 7639,
+  "stars": 28132,
+  "forks": 7638,
   "watchers": null,
   "open_issues": 268,
   "created_at": "2017-09-09T17:43:36Z",
@@ -33,10 +33,10 @@
   "category": "learning",
   "flags": [],
   "usability_score": 100,
-  "snapshot_days": 4,
+  "snapshot_days": 5,
   "is_indexable": false,
   "first_seen_at": "2026-09-02T23:02:41.773Z",
   "tracking_tier": "hot",
-  "last_fetched_date": "2026-09-06",
-  "stars_stagnant_days": 0
+  "last_fetched_date": "2026-09-07",
+  "stars_stagnant_days": 1
 }

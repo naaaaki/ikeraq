@@ -2,7 +2,7 @@
   "id": "asgeirtj/system_prompts_leaks",
   "owner": "asgeirtj",
   "name": "system_prompts_leaks",
-  "description_en": "Extracted system prompts from Anthropic - Claude Fable 5, Opus 5, Claude Design, Claude Code. OpenAI - ChatGPT GPT-5.6-Sol, Codex. Google - Gemini 3.5 Flash, 3.1 Pro, Antigravity. xAI - Grok, Cursor, Copilot, VS Code, Perplexity, and more. Updated regularly.",
+  "description_en": "Extracted system prompts from Anthropic - Claude Fable 5.1, Opus 5, Claude Design, Claude Code. OpenAI - ChatGPT GPT-6-Astra, Codex. Google - Gemini 3.8 Flash, 3.1 Pro, Antigravity. xAI - Grok, Grok Bot, Cursor, Kimi and more! Updated regularly.",
   "human_note": null,
   "language": "JavaScript",
   "topics": [
@@ -27,12 +27,12 @@
     "system-prompt",
     "system-prompts"
   ],
-  "stars": 64229,
-  "forks": 10538,
+  "stars": 64282,
+  "forks": 10543,
   "watchers": null,
   "open_issues": 50,
   "created_at": "2025-05-03T02:43:56Z",
-  "pushed_at": "2026-09-05T20:28:32Z",
+  "pushed_at": "2026-09-06T05:49:05Z",
   "is_archived": false,
   "license_spdx": "CC0-1.0",
   "license_category": "permissive",
@@ -45,10 +45,10 @@
   "category": "ai-agent",
   "flags": [],
   "usability_score": 100,
-  "snapshot_days": 8,
+  "snapshot_days": 9,
   "is_indexable": true,
   "first_seen_at": "2026-08-29T23:02:08.747Z",
   "tracking_tier": "hot",
-  "last_fetched_date": "2026-09-06",
+  "last_fetched_date": "2026-09-07",
   "stars_stagnant_days": 0
 }

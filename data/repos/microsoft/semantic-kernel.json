@@ -12,10 +12,10 @@
     "openai",
     "sdk"
   ],
-  "stars": 28537,
+  "stars": 28536,
   "forks": 4757,
   "watchers": null,
-  "open_issues": 282,
+  "open_issues": 284,
   "created_at": "2023-02-27T17:39:42Z",
   "pushed_at": "2026-09-04T10:30:54Z",
   "is_archived": false,
@@ -30,10 +30,10 @@
   "category": "llm",
   "flags": [],
   "usability_score": 100,
-  "snapshot_days": 4,
+  "snapshot_days": 5,
   "is_indexable": false,
   "first_seen_at": "2026-09-02T23:02:41.773Z",
   "tracking_tier": "hot",
-  "last_fetched_date": "2026-09-06",
-  "stars_stagnant_days": 0
+  "last_fetched_date": "2026-09-07",
+  "stars_stagnant_days": 1
 }

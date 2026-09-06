@@ -13,8 +13,8 @@
     "switch-hosts",
     "switchhosts"
   ],
-  "stars": 27150,
-  "forks": 2674,
+  "stars": 27154,
+  "forks": 2675,
   "watchers": null,
   "open_issues": 423,
   "created_at": "2011-09-02T09:38:09Z",
@@ -31,10 +31,10 @@
   "category": "other",
   "flags": [],
   "usability_score": 100,
-  "snapshot_days": 3,
+  "snapshot_days": 4,
   "is_indexable": false,
   "first_seen_at": "2026-09-03T23:03:15.575Z",
   "tracking_tier": "hot",
-  "last_fetched_date": "2026-09-06",
+  "last_fetched_date": "2026-09-07",
   "stars_stagnant_days": 0
 }

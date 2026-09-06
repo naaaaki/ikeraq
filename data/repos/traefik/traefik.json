@@ -21,10 +21,10 @@
     "traefik",
     "zookeeper"
   ],
-  "stars": 64752,
-  "forks": 6185,
+  "stars": 64763,
+  "forks": 6188,
   "watchers": null,
-  "open_issues": 905,
+  "open_issues": 909,
   "created_at": "2015-09-13T19:04:02Z",
   "pushed_at": "2026-09-04T13:20:07Z",
   "is_archived": false,
@@ -39,10 +39,10 @@
   "category": "infra",
   "flags": [],
   "usability_score": 100,
-  "snapshot_days": 8,
+  "snapshot_days": 9,
   "is_indexable": true,
   "first_seen_at": "2026-08-29T23:02:08.747Z",
   "tracking_tier": "hot",
-  "last_fetched_date": "2026-09-06",
+  "last_fetched_date": "2026-09-07",
   "stars_stagnant_days": 0
 }

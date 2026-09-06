@@ -10,10 +10,10 @@
     "claude-code",
     "coding"
   ],
-  "stars": 26925,
-  "forks": 1821,
+  "stars": 26952,
+  "forks": 1829,
   "watchers": null,
-  "open_issues": 966,
+  "open_issues": 987,
   "created_at": "2025-10-12T03:09:46Z",
   "pushed_at": "2026-09-05T15:25:49Z",
   "is_archived": false,
@@ -28,10 +28,10 @@
   "category": "ai-agent",
   "flags": [],
   "usability_score": 100,
-  "snapshot_days": 3,
+  "snapshot_days": 4,
   "is_indexable": false,
   "first_seen_at": "2026-09-03T23:03:15.575Z",
   "tracking_tier": "hot",
-  "last_fetched_date": "2026-09-06",
+  "last_fetched_date": "2026-09-07",
   "stars_stagnant_days": 0
 }

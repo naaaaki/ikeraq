@@ -22,12 +22,12 @@
     "valkey",
     "vector-search"
   ],
-  "stars": 31424,
+  "stars": 31438,
   "forks": 1255,
   "watchers": null,
-  "open_issues": 299,
+  "open_issues": 298,
   "created_at": "2021-12-11T10:00:42Z",
-  "pushed_at": "2026-09-05T21:39:46Z",
+  "pushed_at": "2026-09-06T17:34:05Z",
   "is_archived": false,
   "license_spdx": "NOASSERTION",
   "license_category": "unknown",
@@ -40,10 +40,10 @@
   "category": "data",
   "flags": [],
   "usability_score": 100,
-  "snapshot_days": 5,
+  "snapshot_days": 6,
   "is_indexable": false,
   "first_seen_at": "2026-09-01T23:05:22.650Z",
   "tracking_tier": "hot",
-  "last_fetched_date": "2026-09-06",
+  "last_fetched_date": "2026-09-07",
   "stars_stagnant_days": 0
 }

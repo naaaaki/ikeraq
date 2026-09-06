@@ -14,8 +14,8 @@
     "service-mesh",
     "vault"
   ],
-  "stars": 30058,
-  "forks": 4620,
+  "stars": 30059,
+  "forks": 4621,
   "watchers": null,
   "open_issues": 1422,
   "created_at": "2013-11-04T22:15:27Z",
@@ -32,10 +32,10 @@
   "category": "infra",
   "flags": [],
   "usability_score": 100,
-  "snapshot_days": 4,
+  "snapshot_days": 5,
   "is_indexable": false,
   "first_seen_at": "2026-09-02T23:02:41.773Z",
   "tracking_tier": "hot",
-  "last_fetched_date": "2026-09-06",
+  "last_fetched_date": "2026-09-07",
   "stars_stagnant_days": 0
 }

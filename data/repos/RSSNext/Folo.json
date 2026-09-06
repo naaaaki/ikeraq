@@ -12,12 +12,12 @@
     "rss-reader",
     "rsshub"
   ],
-  "stars": 38910,
-  "forks": 2127,
+  "stars": 38915,
+  "forks": 2126,
   "watchers": null,
   "open_issues": 395,
   "created_at": "2024-04-08T03:23:35Z",
-  "pushed_at": "2026-09-03T10:55:33Z",
+  "pushed_at": "2026-09-06T03:07:45Z",
   "is_archived": false,
   "license_spdx": "AGPL-3.0",
   "license_category": "strong-copyleft",
@@ -36,10 +36,10 @@
     }
   ],
   "usability_score": 85,
-  "snapshot_days": 6,
+  "snapshot_days": 7,
   "is_indexable": true,
   "first_seen_at": "2026-09-01T00:26:13.031Z",
   "tracking_tier": "hot",
-  "last_fetched_date": "2026-09-06",
+  "last_fetched_date": "2026-09-07",
   "stars_stagnant_days": 0
 }

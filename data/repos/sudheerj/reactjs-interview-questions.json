@@ -20,9 +20,9 @@
     "reactjs",
     "redux"
   ],
-  "stars": 44772,
+  "stars": 44779,
   "forks": 10382,
-  "watchers": null,
+  "watchers": 632,
   "open_issues": 9,
   "created_at": "2018-05-31T17:17:01Z",
   "pushed_at": "2026-08-31T15:47:27Z",
@@ -38,10 +38,10 @@
   "category": "web-frontend",
   "flags": [],
   "usability_score": 100,
-  "snapshot_days": 7,
+  "snapshot_days": 8,
   "is_indexable": true,
   "first_seen_at": "2026-08-30T23:15:18.750Z",
   "tracking_tier": "hot",
-  "last_fetched_date": "2026-09-06",
-  "stars_stagnant_days": 1
+  "last_fetched_date": "2026-09-07",
+  "stars_stagnant_days": 0
 }

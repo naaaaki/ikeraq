@@ -26,8 +26,8 @@
     "workflow-automation",
     "workflow-engine"
   ],
-  "stars": 28255,
-  "forks": 2200,
+  "stars": 28259,
+  "forks": 2201,
   "watchers": null,
   "open_issues": 282,
   "created_at": "2019-06-07T11:03:41Z",
@@ -44,10 +44,10 @@
   "category": "data",
   "flags": [],
   "usability_score": 100,
-  "snapshot_days": 4,
+  "snapshot_days": 5,
   "is_indexable": false,
   "first_seen_at": "2026-09-02T23:02:41.773Z",
   "tracking_tier": "hot",
-  "last_fetched_date": "2026-09-06",
+  "last_fetched_date": "2026-09-07",
   "stars_stagnant_days": 0
 }

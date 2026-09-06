@@ -10,12 +10,12 @@
     "guide",
     "tutorial"
   ],
-  "stars": 41371,
-  "forks": 5065,
+  "stars": 41392,
+  "forks": 5068,
   "watchers": 189,
   "open_issues": 29,
   "created_at": "2025-11-07T22:59:34Z",
-  "pushed_at": "2026-09-02T08:35:12Z",
+  "pushed_at": "2026-09-06T09:04:15Z",
   "is_archived": false,
   "license_spdx": "MIT",
   "license_category": "permissive",
@@ -28,10 +28,10 @@
   "category": "learning",
   "flags": [],
   "usability_score": 100,
-  "snapshot_days": 7,
+  "snapshot_days": 8,
   "is_indexable": true,
   "first_seen_at": "2026-08-30T23:15:18.750Z",
   "tracking_tier": "hot",
-  "last_fetched_date": "2026-09-06",
+  "last_fetched_date": "2026-09-07",
   "stars_stagnant_days": 0
 }
