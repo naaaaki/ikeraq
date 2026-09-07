@@ -9,7 +9,7 @@
  */
 import '../styles/global.css';
 import { HAS_AFFILIATE } from '../lib/site.js';
-import { getSiteData, hallOfFameItems } from '../lib/content.js';
+import { getSiteData, trendItems } from '../lib/content.js';
 
 interface Props {
   title: string;
@@ -31,19 +31,19 @@ const { title, description, noindex = false, canonical, wide = false, compact = 
 
 const siteName = 'Ikeraq';
 // トップだけ読み仮名を入れる。`Ikeraq` は「イケラック」等と読まれうるため（SPEC §1.0）
-const pageTitle = title === siteName ? `${siteName}（イケラク） — 新しい技術が、わかる。` : `${title} | ${siteName}`;
+const pageTitle = title === siteName ? `${siteName} — 新しい技術が、わかる。` : `${title} | ${siteName}`;
 const canonicalUrl = canonical ?? new URL(Astro.url.pathname, Astro.site).href;
 
-const hasHallOfFame = hallOfFameItems(await getSiteData()).length > 0;
+const hasTrend = trendItems(await getSiteData()).length > 0;
 
 /**
  * ★ 作っていないページはここに並べない。
  *   「今週のまとめ」「ニュースレター」は素材と受け口ができてから足す
  */
 const NAV = [
-  { href: '/', label: '今日' },
+  { href: '/', label: '今日のトレンド' },
   // ★0件のあいだは出さない。空のページに着くのが、初めて来た人の最初の体験になるため
-  ...(hasHallOfFame ? [{ href: '/hall-of-fame/', label: '殿堂入り' }] : []),
+  ...(hasTrend ? [{ href: '/trend/', label: 'トレンド' }] : []),
   { href: '/category/', label: 'カテゴリ' },
   // ★このサイトが GitHub より先に答えられる問い。埋もれさせない
   { href: '/license/', label: '商用利用' },
@@ -187,7 +187,7 @@ const isCurrent = (href: string) => (href === '/' ? path === '/' : path.startsWi
           <div class="display" style="font-size: 20px; margin-bottom: 12px;">Ikeraq</div>
           <!-- ★免責。ここを削らないこと（SPEC §8）。警告は「疑い」までしか言わない -->
           <p style="margin: 0; font-size: 12px; line-height: 1.95; color: var(--ink3);">
-            紹介文は編集部が書いています。スター数やライセンスなどの数値は GitHub
+            紹介文は AI で日本語にまとめています。スター数やライセンスなどの数値は GitHub
             から取得したもの、警告は決まった条件による自動判定です。警告は「疑い」であり、断定するものではありません。紹介しているリポジトリの動作を保証するものでもありません。技術選定の最終判断は、必ず原典をご確認ください。
           </p>
         </div>

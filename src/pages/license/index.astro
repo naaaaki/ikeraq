@@ -23,15 +23,15 @@ const groups = LICENSE_GROUPS.map((group) => ({
   count: licenseGroupItems(site, group).length,
 })).filter((g) => g.count > 0);
 
-const description = `追跡している ${num(site.repos.length)} 件のリポジトリを、ライセンスの区分で分けています。商用に使いやすいもの・自社サービスへの組込みに注意が必要なもの・利用条件が確認できないもの。`;
+const description = `GitHub を毎日検索して集めた ${num(site.repos.length)} 件を、ライセンスの区分で分けています。商用に使いやすいもの・自社サービスへの組込みに注意が必要なもの・利用条件が確認できないもの。`;
 ---
 
-<Base title="ライセンスで選ぶ" description={description}>
+<Base title="商用利用で選ぶ" description={description}>
   <main id="main" style="flex: 1; min-width: 0;">
     <div style="padding: 44px 0 28px;">
-      <h1 class="display" style="margin: 0; font-size: 34px; line-height: 1.2;">ライセンスで選ぶ</h1>
+      <h1 class="display" style="margin: 0; font-size: 34px; line-height: 1.2;">商用利用で選ぶ</h1>
       <p class="meta" style="margin: 12px 0 0; font-size: 13px; line-height: 1.9; max-width: 620px;">
-        追跡している{num(site.repos.length)}件を、ライセンスの区分でまとめています。
+        毎日 GitHub から集めている{num(site.repos.length)}件を、ライセンスの区分でまとめています。
         GitHub が返すライセンス情報から機械的に分けているだけで、法律の助言ではありません。
         実際に使うときは、必ずリポジトリ本体のライセンス原文を読んでください。
       </p>

@@ -2,7 +2,7 @@
 /**
  * このサイトについて（SPEC §8）
  *
- * ★ 誰が書いているか・何を機械がやっているかを、はっきり分けて書く。
+ * ★ 紹介文のこと・何を機械がやっていることを、はっきり分けて書く。
  *   ここが曖昧なサイトは、警告の重みまで疑われる。
  */
 import Base from '../../layouts/Base.astro';
@@ -16,7 +16,7 @@ const site = await getSiteData();
 
 <Base
   title="このサイトについて"
-  description="Ikeraq は、GitHub で注目されているリポジトリを日本語で紹介するサイトです。誰が書いているか、何を機械が判定しているかをまとめています。"
+  description="Ikeraq は、GitHub で注目されているリポジトリを日本語で紹介するサイトです。何をどう集めて、何を機械が判定しているかをまとめています。"
   wide
   compact
 >
@@ -30,28 +30,30 @@ const site = await getSiteData();
     </div>
 
     <section class="block">
-      <h2 class="sec">何をしているサイトか</h2>
+      <h2 class="sec">このサイトがしていること</h2>
       <div class="prose">
         <p>
           GitHub で注目を集めているリポジトリを集めて、そのうち調べたものに<b>日本語の紹介文</b>を付けています。
           英語の説明を訳しただけのものは載せません。何をするものか、どういうときに効くのかを、読んで分かる形で書きます。
         </p>
         <p>
-          いま<b>{num(site.repos.length)}件</b>のリポジトリを追いかけていて、そのうち<b>{num(site.noteCount)}件</b
-          >に紹介文があります。スター数の記録は<b>{num(site.snapshotCount)}日分</b>たまっています。
+          毎日 GitHub から集めているのは<b>{num(site.repos.length)}件</b>です。顔ぶれは毎日入れ替わります。
+          このうち<b>{num(site.noteCount)}件</b>に紹介文があり、スター数の記録は<b
+            >{num(site.snapshotCount)}日分</b
+          >たまっています。
         </p>
       </div>
     </section>
 
     <section class="block">
-      <h2 class="sec">誰が書いているか</h2>
+      <h2 class="sec">紹介文について</h2>
       <div class="prose">
         <p>
-          <b>紹介文は人が書いています。</b>調べる過程で AI を使うことはありますが、公開前に必ず運営者が読んで確認しています。
-          全件を自動で生成して並べる、ということはしていません。数を増やすことより、書いた内容に責任が持てることを優先しています。
+          <b>README や公開されている情報をもとに、AI で日本語にまとめています。</b>英語の説明をそのまま訳すのではなく、
+          何をするものか、どんなときに使うかまで日本語で書き起こしています。
         </p>
         <p>
-          そのため、<b>紹介文は全てのリポジトリには付きません。</b>付いていないページは、GitHub
+          そのため、<b>紹介文があるのは、一部のリポジトリだけです。</b>付いていないページは、GitHub
           から取得した数値と、当サイトが記録しているスター数の推移だけを載せています。
         </p>
       </div>
@@ -76,7 +78,7 @@ const site = await getSiteData();
     </section>
 
     <section class="block">
-      <h2 class="sec">警告とスコアについて</h2>
+      <h2 class="sec">警告について</h2>
       <div class="prose">
         <p>
           ライセンスやメンテ状況などの判断材料は、決まった条件で<b>機械的に付けています。</b>
