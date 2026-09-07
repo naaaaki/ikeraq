@@ -14,9 +14,11 @@ import type { GetStaticPaths } from 'astro';
 import Base from '../../../layouts/Base.astro';
 import RepoLink from '../../../components/RepoLink.astro';
 import GithubLink from '../../../components/GithubLink.astro';
+import ShareX from '../../../components/ShareX.astro';
 import StarChart from '../../../components/StarChart.astro';
 import Mascot from '../../../components/Mascot.astro';
 import { getSiteData, type RepoView } from '../../../lib/content.js';
+import { SITE_OPERATOR } from '../../../lib/site.js';
 import {
   categoryLabel,
   languageColor,
@@ -172,7 +174,7 @@ const article = note
       url: canonical,
       datePublished: note.updated ?? undefined,
       dateModified: note.updated ?? undefined,
-      author: { '@type': 'Organization', name: 'Ikeraq 編集部' },
+      author: { '@type': 'Person', name: SITE_OPERATOR },
       publisher: { '@type': 'Organization', name: 'Ikeraq' },
     }
   : null;
@@ -181,8 +183,10 @@ const article = note
 const jsonld = (value: unknown) => JSON.stringify(value).replace(/</g, '\\u003c');
 
 const noteCredit = note
-  ? `この記事は編集部が書きました${note.updated ? `（${note.updated}）` : ''}。`
-  : 'このページは自動で作られています。';
+  ? note.updated
+    ? `この記事の更新日は ${note.updated} です。`
+    : ''
+  : 'このページにはまだ紹介文がありません。以下は取得した数値の記録です。';
 ---
 
 <Base title={pageTitle} description={description} noindex={!repo.is_indexable} canonical={canonical} wide compact>
@@ -299,8 +303,8 @@ const noteCredit = note
                 使い方
               </h2>
               <p class="meta" style="margin: 0; line-height: 1.9;">
-                この記事には手順を載せていません。実際に動かせたものだけ書く決まりにしています。
-                <a href="/about/">記事の作り方</a>
+                実際に動かせたものだけ手順を書く決まりにしているため、この記事には載せていません。
+                <a href="/about/">この決まりについて</a>
               </p>
             </section>
           )
@@ -338,10 +342,6 @@ const noteCredit = note
               ))
             }
           </div>
-          <p class="meta" style="margin: 16px 0 0; line-height: 1.9;">
-            数値は GitHub から取得したものです。どの条件で警告が付くかは<a href="/about/criteria/">判定の条件</a
-            >に公開しています。
-          </p>
         </section>
 
         {
@@ -365,19 +365,23 @@ const noteCredit = note
           )
         }
 
+        {/*
+          ★ 共有ボタンは記事を読み終えた位置に置く。冒頭に置くと、読む前に押すことになる。
+            紹介文が無いページには出さない。数値の記録だけのページを勧める理由がない。
+        */}
+        {note && leadText && (
+          <div style="display: flex; align-items: center; gap: 12px; flex-wrap: wrap; padding-top: 8px;">
+            <ShareX text={leadText} url={canonical} id={repo.id} />
+            <span class="meta">この記事がよかったら</span>
+          </div>
+        )}
+
         {/* ★出典と免責。削らないこと（SPEC §8） */}
         <p class="meta" style="line-height: 1.95; border-top: 1px solid var(--rule); padding-top: 22px;">
           {noteCredit}
           内容は公開されている README と GitHub のデータに基づいています。
-          {
-            note && !hasHowTo && (
-              <b style="font-weight: 500; color: var(--ink2);">
-                まだ実際には動かしていないため、「使い方」の節はありません。
-              </b>
-            )
-          }
-          数値は GitHub から取得したもの、警告は<a href="/about/criteria/">公開している条件</a
-          >による自動判定です。事実誤認を見つけた場合はお知らせください。
+          数値は GitHub から取得したもの、警告は<a href="/about/criteria/">判定の基準</a
+          >にある条件での自動判定です。事実誤認を見つけた場合はお知らせください。
         </p>
       </div>
     </main>
@@ -416,7 +420,7 @@ const noteCredit = note
       </section>
 
       <section>
-        <div class="label" style="padding-bottom: 12px; border-bottom: 1px solid var(--rule2);">そのほかの数字</div>
+        <div class="label" style="padding-bottom: 12px; border-bottom: 1px solid var(--rule2);">そのほかの指標</div>
         <div style="padding-top: 4px;">
           <div class="kv"><span>Fork</span><b>{num(repo.forks)}</b></div>
           {repo.watchers !== null && <div class="kv"><span>Watch</span><b>{num(repo.watchers)}</b></div>}

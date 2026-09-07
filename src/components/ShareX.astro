@@ -1,0 +1,41 @@
+---
+/**
+ * X で共有するボタン
+ *
+ * ★ 公式のスクリプトを読み込まない。ただのリンク1本で同じことができる。
+ *   公式の埋め込みは外部 JS を読むので、表示が遅くなり（SPEC §12.2 は LCP 2.5秒未満）、
+ *   押していない読者の閲覧まで X 側に伝わる。プライバシーポリシーの前提も変わる。
+ *
+ * ★ 文面はこちらで用意する。読者が消して書き直せる状態で渡す。
+ *   ハッシュタグは付けない。付けると宣伝色が出て、そのまま投稿されにくい。
+ */
+interface Props {
+  /** 投稿に載せる一言。紹介文の「見出しの一文」を渡す */
+  text: string;
+  /** 共有するページの絶対 URL */
+  url: string;
+  /** owner/name */
+  id: string;
+}
+const { text, url, id } = Astro.props;
+
+/** 「見出しの一文（owner/name）」の形。長い一文でも、URL は X 側で短縮される */
+const body = `${text}（${id}）`;
+const href = `https://x.com/intent/post?text=${encodeURIComponent(body)}&url=${encodeURIComponent(url)}`;
+---
+
+<a
+  class="chip"
+  href={href}
+  target="_blank"
+  rel="noopener noreferrer"
+  aria-label={`${id} の紹介を X で共有する（新しいタブ）`}
+  style="gap: 7px;"
+>
+  <svg viewBox="0 0 24 24" width="13" height="13" fill="currentColor" aria-hidden="true" focusable="false">
+    <path
+      d="M18.244 2.25h3.308l-7.227 8.26 8.502 11.24H16.17l-5.214-6.817L4.99 21.75H1.68l7.73-8.835L1.254 2.25H8.08l4.713 6.231zm-1.161 17.52h1.833L7.084 4.126H5.117z"
+    ></path>
+  </svg>
+  <span>X で共有</span>
+</a>

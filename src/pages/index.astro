@@ -10,6 +10,7 @@ import Sidebar from '../components/Sidebar.astro';
 import RepoRow from '../components/RepoRow.astro';
 import RepoLink from '../components/RepoLink.astro';
 import GithubLink from '../components/GithubLink.astro';
+import StarGrowth from '../components/StarGrowth.astro';
 import { byMomentum, byNoteFirst, getSiteData } from '../lib/content.js';
 import { jaDate, languageColor, licenseLabel, num, repoUrl } from '../lib/format.js';
 import { plainText, renderMarkdown, splitSections } from '../lib/note.js';
@@ -19,6 +20,16 @@ const site = await getSiteData();
 const date = site.latestDate ?? todayJST();
 
 const sorted = [...site.repos].sort(byMomentum);
+
+/**
+ * ピックアップの「今日の伸び ◯位」用。
+ *
+ * ★ 順位は取得できたものだけで数える。見ていない日の古い数値を混ぜると、
+ *   順位そのものが嘘になる（collect.ts の採番と同じ規則にそろえる）。
+ * ★ 増えていないもの（0以下）は数えない。数えると「伸びています」と言えなくなる。
+ */
+const ranked = sorted.filter((v) => v.delta !== null && v.delta > 0);
+const rankOf = new Map(ranked.map((v, i) => [v.repo.id, i + 1]));
 
 /** ピックアップは紹介文を書いたものだけ。最大3件（structure-proposal） */
 const pickupItems = sorted.filter((v) => v.note !== null).slice(0, 3);
@@ -43,7 +54,7 @@ const LIST_LIMIT = 24;
 const listed = rest.slice(0, LIST_LIMIT);
 const remaining = rest.length - listed.length;
 
-const description = `GitHub で注目されているリポジトリを日本語で紹介しています。${jaDate(date)}に伸びているリポジトリの一覧と、編集部が書いた紹介文。`;
+const description = `GitHub で注目されているリポジトリを日本語で紹介しています。${jaDate(date)}に伸びているリポジトリの一覧と、日本語の紹介文を載せています。`;
 
 /**
  * トップの構造化データ。
@@ -97,13 +108,17 @@ const jsonld = (value: unknown) => JSON.stringify(value).replace(/</g, '\u003c')
           <div class="section-head" style="padding-bottom: 4px;">
             <span class="label">今日のピックアップ</span>
             <span class="fill" />
-            <span class="meta">編集部が書いています</span>
           </div>
 
           {pickups.map(({ item, lead, intro }) => {
             const lic = licenseLabel(item.repo);
             return (
               <article class="clickable" style="padding: 26px 0 30px; border-bottom: 1px solid var(--rule);">
+                {/*
+                  ★ 名前より前に置く。新聞の肩見出しと同じ位置。
+                    大きさではなく「先頭にある」ことで強さを作る。
+                */}
+                <StarGrowth rank={rankOf.get(item.repo.id) ?? null} rankTotal={ranked.length} />
                 <div style="margin-bottom: 10px;">
                   <RepoLink id={item.repo.id} size={21} href={repoUrl(item.repo.id)} stretch />
                 </div>
@@ -152,7 +167,7 @@ const jsonld = (value: unknown) => JSON.stringify(value).replace(/</g, '\u003c')
             <span class="label">{pickups.length > 0 ? 'そのほか、今日伸びているリポジトリ' : '今日伸びているリポジトリ'}</span>
             <span class="fill" />
             <span class="meta">
-              {rest.some((v) => v.note !== null) ? '紹介文つきが先頭' : '増加の多い順'} · {num(rest.length)}件
+              {rest.some((v) => v.note !== null) ? '紹介文のあるものが先 · 増加の多い順' : '増加の多い順'} · {num(rest.length)}件
             </span>
           </div>
 
@@ -185,7 +200,7 @@ const jsonld = (value: unknown) => JSON.stringify(value).replace(/</g, '\u003c')
       ) : (
         pickups.length === 0 && (
           <div class="callout" style="margin-top: 24px;">
-            まだ収集したデータがありません。収集が始まると、ここに伸びているリポジトリが並びます。
+            まだデータがありません。集まりしだい、伸びているリポジトリがここに並びます。
           </div>
         )
       )
