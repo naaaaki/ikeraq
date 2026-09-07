@@ -25,7 +25,7 @@ import { buildReadmeExcerpt } from './lib/readme.js';
 import { fetchTrending } from './lib/trending.js';
 import { notify } from './lib/notify.js';
 import { addDays, daysBetween, todayJST } from './lib/date.js';
-import { decideTier, shouldFetchToday, evictable, TRACKING_LIMIT } from './lib/tier.js';
+import { decideTier, shouldFetchToday, evictable, TRACKING_LIMIT, trackingCapacity } from './lib/tier.js';
 import { newRepository } from './lib/repository.js';
 import {
   loadAllRepos,
@@ -128,7 +128,7 @@ async function main() {
    *   条件は「休眠層かつ90日以上停滞」に限定し、必ずログに残す（SPEC §10.4）。
    */
   const makeRoom = (): boolean => {
-    if (repos.size < TRACKING_LIMIT) return true;
+    if (repos.size < trackingCapacity(repos.values())) return true;
     const victim = [...repos.values()]
       .filter(evictable)
       .sort((a, b) => b.stars_stagnant_days - a.stars_stagnant_days)[0];
@@ -183,7 +183,8 @@ async function main() {
   }
   if (roomExhausted) {
     console.warn(
-      `[collect] 追跡上限 ${TRACKING_LIMIT} 件に到達し、押し出せる休眠リポジトリもありません。` +
+      `[collect] 追跡上限 ${trackingCapacity(repos.values())} 件（発見枠 ${TRACKING_LIMIT} ＋ 紹介文つき）に到達し、` +
+        `押し出せる休眠リポジトリもありません。` +
         `新規の追加を打ち切ります（SPEC §10.4 の上限見直しを検討してください）`
     );
   }

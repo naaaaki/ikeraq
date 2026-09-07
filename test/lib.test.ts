@@ -11,6 +11,7 @@ import { addDays, daysBetween, toDateStringJST } from '../scripts/lib/date.js';
 import { categorizeLicense } from '../scripts/lib/license.js';
 import { buildReadmeExcerpt, README_EXCERPT_MAX } from '../scripts/lib/readme.js';
 import { parseTrendingHtml } from '../scripts/lib/trending.js';
+import type { Repository } from '../src/types.js';
 import {
   GitHubClient,
   RequestBudgetExceededError,
@@ -18,7 +19,14 @@ import {
   createLimiter,
   mapLimited,
 } from '../scripts/lib/github.js';
-import { SEED_LIMIT, TRACKING_LIMIT, evictable, shouldFetchToday } from '../scripts/lib/tier.js';
+import {
+  DORMANT_DAYS,
+  SEED_LIMIT,
+  TRACKING_LIMIT,
+  evictable,
+  shouldFetchToday,
+  trackingCapacity,
+} from '../scripts/lib/tier.js';
 import { newRepository } from '../scripts/lib/repository.js';
 import { saveRepo } from '../scripts/lib/storage.js';
 
@@ -274,4 +282,30 @@ test('watchers は個別取得するまで null（スター数を流用しない
 test('リポジトリIDの形式が不正なら保存しない', async () => {
   await assert.rejects(() => saveRepo({ ...newRepository(sampleGh), id: 'broken' }), /形式が不正/);
   await assert.rejects(() => saveRepo({ ...newRepository(sampleGh), id: '../etc/passwd' }), /形式が不正/);
+});
+
+// ---------------------------------------------------------------------------
+// 追跡枠と押し出し（D-013）
+// ---------------------------------------------------------------------------
+
+/** 押し出し判定に効くのは3つだけ。ほかは埋めない */
+function evictTarget(over: Partial<Repository> = {}): Repository {
+  return {
+    tracking_tier: 'dormant',
+    stars_stagnant_days: DORMANT_DAYS,
+    human_note: null,
+    ...over,
+  } as unknown as Repository;
+}
+
+test('紹介文を書いたものは、90日停滞していても押し出さない（D-013）', () => {
+  assert.equal(evictable(evictTarget()), true, '紹介文が無ければ押し出せる');
+  assert.equal(evictable(evictTarget({ human_note: '## 見出しの一文\n\nてすと' })), false);
+});
+
+test('追跡枠は「発見枠 + 紹介文の本数」で広がる（記事が増えても発見が細らない）', () => {
+  const noted = (n: number) => Array.from({ length: n }, () => evictTarget({ human_note: 'あり' }));
+  const plain = (n: number) => Array.from({ length: n }, () => evictTarget());
+  assert.equal(trackingCapacity(plain(500)), TRACKING_LIMIT, '紹介文が無ければ発見枠のまま');
+  assert.equal(trackingCapacity([...plain(500), ...noted(150)]), TRACKING_LIMIT + 150);
 });
