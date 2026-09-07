@@ -170,7 +170,7 @@ src/
 | `/category/` `/category/{c}/` | カテゴリ |
 | `/lang/{language}/` | 言語別 |
 | `/japanese/` | 日本語 README があるものだけ |
-| `/hall-of-fame/` | 殿堂入り。上位50位に3日以上入ったもの |
+| `/trend/` | トレンド。スター数とフォーク数の両方で上位100位に入っているもの（D-011 / 改名は D-012） |
 | `/about/` `/about/criteria/` | サイトについて／判定の基準（`docs/criteria.md` をそのまま出す） |
 | `/feed.xml` | RSS。紹介文を書いたものだけ流す |
 

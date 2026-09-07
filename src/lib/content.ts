@@ -27,8 +27,12 @@ export interface RepoView {
   /** スター数の推移。{ date, stars }。実際に取得した日だけ入る */
   history: { date: string; stars: number }[];
   /**
-   * トレンド上位に入った日数。殿堂入りの判定に使う。
-   * ★ 記録した日数がそのまま効くので、追跡を止めた期間は永久に取り戻せない（SPEC §10.4）
+   * トレンド上位に入った日数。
+   *
+   * ★ いまはどのページにも出していない。集計だけ続けている。
+   *   「トレンド」ページの判定に使っていたが、D-011 で累積（スター×フォーク）に変えた。
+   * ★ それでも数え続けるのは、記録した日数がそのまま効くため。
+   *   追跡を止めた期間は永久に取り戻せない（SPEC §10.4）。将来の週次まとめで使う。
    */
   trendDays: number;
 }
@@ -47,13 +51,23 @@ export interface SiteData {
 }
 
 /**
- * 「その日のトレンド上位」とみなす順位。
- * 殿堂入りは「たまたま1日伸びた」ではなく「何度も上位に入った」を示すページなので、
- * ここを緩めると意味が消える
+ * 「その日の上位」とみなす順位。trendDays（何日上位に入ったか）の集計に使う。
+ *
+ * ★「トレンド」ページの判定には使っていない（D-011）。いまはどのページにも
+ *   出していないが、毎日の記録は後から作り直せないので、集計だけ続けている。
  */
-export const TREND_RANK = 50;
-/** 殿堂入りの条件。上位に入った日数がこれ以上 */
-export const HALL_OF_FAME_DAYS = 3;
+export const DAILY_TOP_RANK = 50;
+
+/**
+ * 「トレンド」ページに載せる条件。スターとフォークの、それぞれの順位がこれ以内。
+ *
+ * ★ 足し算にしない。スターは数十万、フォークは数万で桁がひとつ違うため、
+ *   合計で並べるとフォークがほとんど効かず、スターだけの順位とほぼ同じになる
+ *   （実測：上位30件のうち27件が一致）。「両方の上位に入っていること」を条件に
+ *   すると、スターは高いがフォークが極端に少ないもの（読まれただけのリンク集など）
+ *   が落ちて、条件として意味を持つ。
+ */
+export const TREND_TOP = 100;
 
 let cache: Promise<SiteData> | null = null;
 
@@ -82,7 +96,7 @@ async function build(): Promise<SiteData> {
       const list = history.get(entry.repo_id) ?? [];
       list.push({ date: snap.date, stars: entry.stars });
       history.set(entry.repo_id, list);
-      if (entry.rank !== null && entry.rank <= TREND_RANK) {
+      if (entry.rank !== null && entry.rank <= DAILY_TOP_RANK) {
         trendDays.set(entry.repo_id, (trendDays.get(entry.repo_id) ?? 0) + 1);
       }
     }
@@ -170,16 +184,53 @@ export function countBy<T>(items: T[], key: (item: T) => string | null): { key: 
 }
 
 /**
- * 殿堂入りに該当するもの。
+ * 「トレンド」ページに載せるもの。スターとフォークの両方で上位に入っているもの。
+ *
+ * ★「今日のトレンド」（トップ）が1日の伸びを見るのに対して、こちらは積み上がった
+ *   大きさを見る。同じ「トレンド」でも、見ている軸が違う。
  *
  * ★ 判定を2か所に書かない。ヘッダーの出し分けと一覧が同じ規則を使う。
- *   条件を満たすものが0件のあいだ、ヘッダーは「殿堂入り」を出さない
+ *   条件を満たすものが0件のあいだ、ヘッダーに「トレンド」を出さない
  *   （押しても空のページに着くだけで、初めて来た人の印象を落とすため）。
+ *
+ * ★ 毎日の順位（trendDays）は使わない。あちらは「いま伸びているか」であって、
+ *   積み上げてきた大きさではない。追跡を始めた時期が早いものほど有利になる
+ *   （順位をつける母数が日ごとに違うため）。
  */
-export function hallOfFameItems(site: SiteData): RepoView[] {
+export function trendItems(site: SiteData): RepoView[] {
+  /**
+   * ★ 母数が上限そのものに近いと、追跡している全部が「上位100位」になり、
+   *   スター200程度のものまで定番として並ぶ。データを入れ直した直後に必ず起きる。
+   *   0件を返せばヘッダーからも消えるので、既存の出し分けにそのまま乗る。
+   */
+  if (site.repos.length < TREND_TOP * 2) return [];
+
+  const topBy = (key: 'stars' | 'forks') =>
+    new Set(
+      [...site.repos]
+        .filter((v) => Number.isFinite(v.repo[key]))
+        .sort((a, b) => b.repo[key] - a.repo[key])
+        .slice(0, TREND_TOP)
+        .map((v) => v.repo.id)
+    );
+
+  const byStars = topBy('stars');
+  const byForks = topBy('forks');
+
+  /**
+   * ★ 並びに byNoteFirst を使わない。あれは2番目の鍵が「今日の伸び」なので、
+   *   「伸びではなく積み上がった大きさ」を見るこのページと正面から食い違う。
+   *   実際、スター47万の public-apis が7位、angular が最下位付近に来ていた。
+   *   紹介文を先に固めるところだけ同じにして、そのあとはスターの多い順にする。
+   */
   return site.repos
-    .filter((v) => v.trendDays >= HALL_OF_FAME_DAYS)
-    .sort((a, b) => b.trendDays - a.trendDays || b.repo.stars - a.repo.stars);
+    .filter((v) => byStars.has(v.repo.id) && byForks.has(v.repo.id))
+    .sort((a, b) => {
+      const an = a.note ? 0 : 1;
+      const bn = b.note ? 0 : 1;
+      if (an !== bn) return an - bn;
+      return b.repo.stars - a.repo.stars;
+    });
 }
 
 /**

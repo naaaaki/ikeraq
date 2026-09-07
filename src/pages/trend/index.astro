@@ -1,0 +1,41 @@
+---
+/**
+ * トレンド（structure-proposal「追加」）
+ *
+ * ★ トップの「今日のトレンド」が1日の伸びを見るのに対して、こちらは
+ *   積み上がった大きさを見る。同じ「トレンド」でも軸が違う。
+ *
+ * ★ もとは「殿堂入り」という名前だった。やめた理由は D-012。
+ *   一度入ったら残る仕組みではないこと、24日前に作られたものも入ること、
+ *   そもそも追跡している1,000件の中の話であることが、言葉と合わなかった。
+ *
+ * ★ 条件の「理由」を書かない。書いた説明が実際の結果と逆だった（D-012）。
+ *   確かめていない因果を、判定基準のページに書かないこと。
+ */
+import ListPage from '../../layouts/ListPage.astro';
+import { getSiteData, trendItems, TREND_TOP } from '../../lib/content.js';
+import { num } from '../../lib/format.js';
+
+const site = await getSiteData();
+const items = trendItems(site);
+const noteCount = items.filter((v) => v.note !== null).length;
+/**
+ * ★ 母数と、その集め方を必ず書く。「上位100位」とだけ書くと GitHub 全体の順位と
+ *   読まれる。また「追跡している1,000件」とだけ書くと、固定された1,000件だと
+ *   受け取られる。実際は毎日の検索で入れ替わる（D-013）。
+ *   判定の根拠を隠さないのがこのサイトの前提（CLAUDE.md「守ること」#3）。
+ */
+const tracked = site.repos.length;
+---
+
+<ListPage
+  title="トレンド"
+  heading="トレンド"
+  description={`GitHub を毎日検索して集めた${num(tracked)}件の中から、スター数とフォーク数がどちらも上位${TREND_TOP}位のリポジトリを並べています。GitHub 全体の順位ではありません。`}
+  lede={`スターとフォークが、どちらも上位${TREND_TOP}位のリポジトリです。今日どれだけ伸びたかではなく、これまでに積み上がった数で選んでいます。対象は、毎日 GitHub から集めている${num(tracked)}件です。スターが200以上で、新しくできたもの、または更新が続いているものを集めています。顔ぶれは毎日入れ替わります。`}
+  items={items}
+  label="スターもフォークも上位のリポジトリ"
+  note={noteCount > 0 ? `紹介文のあるものが先 · スターの多い順 · ${num(items.length)}件` : `スターの多い順 · ${num(items.length)}件`}
+  empty="条件を満たすリポジトリがまだありません。集めた件数が増えると出てきます。"
+  noindex={items.length === 0}
+/>
