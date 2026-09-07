@@ -20,10 +20,10 @@
     "shell",
     "statusline"
   ],
-  "stars": 64536,
-  "forks": 3956,
+  "stars": 64545,
+  "forks": 3957,
   "watchers": null,
-  "open_issues": 21,
+  "open_issues": 20,
   "created_at": "2014-12-05T04:31:17Z",
   "pushed_at": "2026-09-05T16:32:47Z",
   "is_archived": false,
@@ -38,10 +38,10 @@
   "category": "learning",
   "flags": [],
   "usability_score": 100,
-  "snapshot_days": 6,
-  "is_indexable": false,
+  "snapshot_days": 7,
+  "is_indexable": true,
   "first_seen_at": "2026-09-01T23:05:22.650Z",
   "tracking_tier": "hot",
-  "last_fetched_date": "2026-09-07",
+  "last_fetched_date": "2026-09-08",
   "stars_stagnant_days": 0
 }

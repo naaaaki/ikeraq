@@ -15,7 +15,7 @@
     "ui",
     "wysiwyg"
   ],
-  "stars": 31930,
+  "stars": 31933,
   "forks": 2248,
   "watchers": 249,
   "open_issues": 703,
@@ -33,10 +33,10 @@
   "category": "web-frontend",
   "flags": [],
   "usability_score": 100,
-  "snapshot_days": 6,
-  "is_indexable": false,
+  "snapshot_days": 7,
+  "is_indexable": true,
   "first_seen_at": "2026-09-01T23:05:22.650Z",
   "tracking_tier": "hot",
-  "last_fetched_date": "2026-09-07",
+  "last_fetched_date": "2026-09-08",
   "stars_stagnant_days": 0
 }

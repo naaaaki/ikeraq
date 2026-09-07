@@ -13,10 +13,10 @@
     "solidjs",
     "webdav"
   ],
-  "stars": 50147,
-  "forks": 7937,
+  "stars": 50151,
+  "forks": 7936,
   "watchers": null,
-  "open_issues": 566,
+  "open_issues": 567,
   "created_at": "2020-12-23T17:40:29Z",
   "pushed_at": "2026-09-03T07:15:00Z",
   "is_archived": false,
@@ -37,10 +37,10 @@
     }
   ],
   "usability_score": 85,
-  "snapshot_days": 7,
+  "snapshot_days": 8,
   "is_indexable": true,
   "first_seen_at": "2026-09-01T00:26:13.031Z",
   "tracking_tier": "hot",
-  "last_fetched_date": "2026-09-07",
+  "last_fetched_date": "2026-09-08",
   "stars_stagnant_days": 0
 }

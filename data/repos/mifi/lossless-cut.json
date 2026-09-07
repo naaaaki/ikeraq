@@ -17,12 +17,12 @@
     "video-editor",
     "video-files"
   ],
-  "stars": 43497,
-  "forks": 2151,
+  "stars": 43544,
+  "forks": 2154,
   "watchers": null,
-  "open_issues": 301,
+  "open_issues": 298,
   "created_at": "2016-10-30T10:49:56Z",
-  "pushed_at": "2026-09-03T10:26:44Z",
+  "pushed_at": "2026-09-07T11:39:53Z",
   "is_archived": false,
   "license_spdx": "GPL-2.0",
   "license_category": "strong-copyleft",
@@ -41,10 +41,10 @@
     }
   ],
   "usability_score": 85,
-  "snapshot_days": 6,
+  "snapshot_days": 7,
   "is_indexable": true,
   "first_seen_at": "2026-09-01T23:05:22.650Z",
   "tracking_tier": "hot",
-  "last_fetched_date": "2026-09-07",
+  "last_fetched_date": "2026-09-08",
   "stars_stagnant_days": 0
 }

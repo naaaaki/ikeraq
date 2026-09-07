@@ -19,7 +19,7 @@
     "static-analysis",
     "tree-sitter"
   ],
-  "stars": 31223,
+  "stars": 31239,
   "forks": 2843,
   "watchers": 103,
   "open_issues": 142,
@@ -37,10 +37,10 @@
   "category": "ai-agent",
   "flags": [],
   "usability_score": 100,
-  "snapshot_days": 6,
-  "is_indexable": false,
+  "snapshot_days": 7,
+  "is_indexable": true,
   "first_seen_at": "2026-09-01T23:05:22.650Z",
   "tracking_tier": "hot",
-  "last_fetched_date": "2026-09-07",
+  "last_fetched_date": "2026-09-08",
   "stars_stagnant_days": 0
 }

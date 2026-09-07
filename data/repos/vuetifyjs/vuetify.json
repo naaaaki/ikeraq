@@ -26,7 +26,7 @@
     "vuetify",
     "vuetifyjs"
   ],
-  "stars": 41039,
+  "stars": 41038,
   "forks": 7125,
   "watchers": null,
   "open_issues": 392,
@@ -44,10 +44,10 @@
   "category": "web-frontend",
   "flags": [],
   "usability_score": 100,
-  "snapshot_days": 8,
+  "snapshot_days": 9,
   "is_indexable": true,
   "first_seen_at": "2026-08-30T23:15:18.750Z",
   "tracking_tier": "hot",
-  "last_fetched_date": "2026-09-07",
-  "stars_stagnant_days": 0
+  "last_fetched_date": "2026-09-08",
+  "stars_stagnant_days": 1
 }

@@ -19,12 +19,12 @@
     "twitter-streaming",
     "webscraping"
   ],
-  "stars": 49904,
+  "stars": 49920,
   "forks": 4301,
   "watchers": null,
   "open_issues": 694,
   "created_at": "2013-03-10T06:00:31Z",
-  "pushed_at": "2026-09-05T03:24:44Z",
+  "pushed_at": "2026-09-07T10:07:03Z",
   "is_archived": false,
   "license_spdx": "MIT",
   "license_category": "permissive",
@@ -37,10 +37,10 @@
   "category": "ai-agent",
   "flags": [],
   "usability_score": 100,
-  "snapshot_days": 8,
+  "snapshot_days": 9,
   "is_indexable": true,
   "first_seen_at": "2026-08-30T23:15:18.749Z",
   "tracking_tier": "hot",
-  "last_fetched_date": "2026-09-07",
+  "last_fetched_date": "2026-09-08",
   "stars_stagnant_days": 0
 }

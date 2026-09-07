@@ -27,9 +27,9 @@
     "typescript",
     "vector"
   ],
-  "stars": 39499,
+  "stars": 39498,
   "forks": 3731,
-  "watchers": 292,
+  "watchers": 291,
   "open_issues": 37,
   "created_at": "2023-05-12T23:53:30Z",
   "pushed_at": "2026-08-31T18:02:45Z",
@@ -45,10 +45,10 @@
   "category": "llm",
   "flags": [],
   "usability_score": 100,
-  "snapshot_days": 6,
-  "is_indexable": false,
+  "snapshot_days": 7,
+  "is_indexable": true,
   "first_seen_at": "2026-09-01T23:05:22.650Z",
   "tracking_tier": "hot",
-  "last_fetched_date": "2026-09-07",
-  "stars_stagnant_days": 0
+  "last_fetched_date": "2026-09-08",
+  "stars_stagnant_days": 1
 }

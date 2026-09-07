@@ -25,9 +25,9 @@
   "stars": 37663,
   "forks": 4873,
   "watchers": null,
-  "open_issues": 1602,
+  "open_issues": 1603,
   "created_at": "2018-04-08T09:32:26Z",
-  "pushed_at": "2026-09-02T05:11:35Z",
+  "pushed_at": "2026-09-07T13:35:06Z",
   "is_archived": false,
   "license_spdx": "NOASSERTION",
   "license_category": "unknown",
@@ -40,10 +40,10 @@
   "category": "web-frontend",
   "flags": [],
   "usability_score": 100,
-  "snapshot_days": 7,
+  "snapshot_days": 8,
   "is_indexable": true,
   "first_seen_at": "2026-09-01T00:26:13.032Z",
   "tracking_tier": "hot",
-  "last_fetched_date": "2026-09-07",
-  "stars_stagnant_days": 3
+  "last_fetched_date": "2026-09-08",
+  "stars_stagnant_days": 4
 }

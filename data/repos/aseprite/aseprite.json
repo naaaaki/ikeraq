@@ -22,12 +22,12 @@
     "tile-editor",
     "tilemap-editor"
   ],
-  "stars": 39266,
-  "forks": 8895,
+  "stars": 39290,
+  "forks": 8905,
   "watchers": null,
-  "open_issues": 1995,
+  "open_issues": 1993,
   "created_at": "2014-08-19T23:44:50Z",
-  "pushed_at": "2026-09-04T22:01:42Z",
+  "pushed_at": "2026-09-07T21:41:20Z",
   "is_archived": false,
   "license_spdx": null,
   "license_category": "none",
@@ -46,10 +46,10 @@
     }
   ],
   "usability_score": 60,
-  "snapshot_days": 7,
+  "snapshot_days": 8,
   "is_indexable": true,
   "first_seen_at": "2026-09-01T00:26:13.031Z",
   "tracking_tier": "hot",
-  "last_fetched_date": "2026-09-07",
+  "last_fetched_date": "2026-09-08",
   "stars_stagnant_days": 0
 }
