@@ -1,0 +1,43 @@
+{
+  "id": "faif/python-patterns",
+  "owner": "faif",
+  "name": "python-patterns",
+  "description_en": "A collection of design patterns/idioms in Python",
+  "human_note": null,
+  "language": "Python",
+  "topics": [
+    "design-patterns",
+    "idioms",
+    "python"
+  ],
+  "stars": 42968,
+  "forks": 6989,
+  "watchers": null,
+  "open_issues": 12,
+  "created_at": "2012-06-06T21:02:35Z",
+  "pushed_at": "2026-09-04T14:36:32Z",
+  "is_archived": false,
+  "license_spdx": null,
+  "license_category": "none",
+  "readme_excerpt": "python-patterns A collection of design patterns and idioms in Python. Remember that each pattern has its own trade-offs. And you need to pay attention more to why you're choosing a certain pattern than to how to implement it. Creational Patterns > Patterns that deal with object creation — abstracting and controlling how instances are made. | Pattern | Description | |:-------:| ----------- | | abstractfactory | use a generic function with specific factories | | borg | a singleton with shared-sta…",
+  "readme_length": 12241,
+  "has_japanese_readme": false,
+  "contributors_count": 151,
+  "releases_count": 0,
+  "ossf_scorecard": null,
+  "category": "web-frontend",
+  "flags": [
+    {
+      "id": "no_license",
+      "label": "利用条件不明",
+      "reason": "ライセンスが設定されていません。この場合は原則として全権利が留保され、利用できません。"
+    }
+  ],
+  "usability_score": 60,
+  "snapshot_days": 1,
+  "is_indexable": true,
+  "first_seen_at": "2026-09-07T23:19:48.975Z",
+  "tracking_tier": "hot",
+  "last_fetched_date": "2026-09-08",
+  "stars_stagnant_days": 0
+}

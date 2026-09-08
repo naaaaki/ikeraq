@@ -10,12 +10,12 @@
     "rust",
     "wasm"
   ],
-  "stars": 32150,
+  "stars": 32149,
   "forks": 2413,
   "watchers": null,
   "open_issues": 593,
   "created_at": "2021-12-19T04:09:21Z",
-  "pushed_at": "2026-09-03T17:42:42Z",
+  "pushed_at": "2026-09-07T18:05:42Z",
   "is_archived": false,
   "license_spdx": "Apache-2.0",
   "license_category": "permissive",
@@ -28,10 +28,10 @@
   "category": "other",
   "flags": [],
   "usability_score": 100,
-  "snapshot_days": 6,
-  "is_indexable": false,
+  "snapshot_days": 7,
+  "is_indexable": true,
   "first_seen_at": "2026-09-01T23:05:22.650Z",
   "tracking_tier": "hot",
-  "last_fetched_date": "2026-09-07",
-  "stars_stagnant_days": 0
+  "last_fetched_date": "2026-09-08",
+  "stars_stagnant_days": 1
 }

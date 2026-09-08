@@ -20,9 +20,9 @@
     "swift-language",
     "swift-library"
   ],
-  "stars": 26240,
+  "stars": 26242,
   "forks": 3142,
-  "watchers": null,
+  "watchers": 875,
   "open_issues": 12,
   "created_at": "2014-07-10T14:04:09Z",
   "pushed_at": "2026-09-01T05:37:47Z",
@@ -38,10 +38,10 @@
   "category": "mobile",
   "flags": [],
   "usability_score": 100,
-  "snapshot_days": 4,
+  "snapshot_days": 5,
   "is_indexable": false,
   "first_seen_at": "2026-09-03T23:03:15.575Z",
   "tracking_tier": "hot",
-  "last_fetched_date": "2026-09-07",
-  "stars_stagnant_days": 1
+  "last_fetched_date": "2026-09-08",
+  "stars_stagnant_days": 0
 }

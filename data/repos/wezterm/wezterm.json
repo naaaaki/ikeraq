@@ -13,10 +13,10 @@
     "terminal-emulator",
     "terminal-emulators"
   ],
-  "stars": 28789,
-  "forks": 1713,
+  "stars": 28802,
+  "forks": 1714,
   "watchers": null,
-  "open_issues": 1841,
+  "open_issues": 1844,
   "created_at": "2018-02-07T05:35:46Z",
   "pushed_at": "2026-09-06T08:19:28Z",
   "is_archived": false,
@@ -31,10 +31,10 @@
   "category": "dev-tool",
   "flags": [],
   "usability_score": 100,
-  "snapshot_days": 5,
+  "snapshot_days": 6,
   "is_indexable": false,
   "first_seen_at": "2026-09-02T23:02:41.773Z",
   "tracking_tier": "hot",
-  "last_fetched_date": "2026-09-07",
+  "last_fetched_date": "2026-09-08",
   "stars_stagnant_days": 0
 }

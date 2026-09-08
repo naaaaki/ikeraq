@@ -14,10 +14,10 @@
     "sass",
     "scss"
   ],
-  "stars": 174733,
-  "forks": 78614,
+  "stars": 174738,
+  "forks": 78618,
   "watchers": null,
-  "open_issues": 233,
+  "open_issues": 235,
   "created_at": "2011-07-29T21:19:00Z",
   "pushed_at": "2026-09-06T05:49:50Z",
   "is_archived": false,
@@ -32,10 +32,10 @@
   "category": "web-frontend",
   "flags": [],
   "usability_score": 100,
-  "snapshot_days": 9,
+  "snapshot_days": 10,
   "is_indexable": true,
   "first_seen_at": "2026-08-29T15:46:21.820Z",
   "tracking_tier": "hot",
-  "last_fetched_date": "2026-09-07",
+  "last_fetched_date": "2026-09-08",
   "stars_stagnant_days": 0
 }

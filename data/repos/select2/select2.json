@@ -11,12 +11,12 @@
     "jquery",
     "select2"
   ],
-  "stars": 25903,
-  "forks": 6131,
-  "watchers": null,
+  "stars": 25904,
+  "forks": 6130,
+  "watchers": 692,
   "open_issues": 137,
   "created_at": "2012-03-04T18:43:12Z",
-  "pushed_at": "2026-09-01T18:42:15Z",
+  "pushed_at": "2026-09-07T17:43:41Z",
   "is_archived": false,
   "license_spdx": "MIT",
   "license_category": "permissive",
@@ -29,10 +29,10 @@
   "category": "other",
   "flags": [],
   "usability_score": 100,
-  "snapshot_days": 4,
+  "snapshot_days": 5,
   "is_indexable": false,
   "first_seen_at": "2026-09-03T23:03:15.575Z",
   "tracking_tier": "hot",
-  "last_fetched_date": "2026-09-07",
-  "stars_stagnant_days": 3
+  "last_fetched_date": "2026-09-08",
+  "stars_stagnant_days": 0
 }

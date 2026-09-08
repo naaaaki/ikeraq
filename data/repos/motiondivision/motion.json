@@ -13,8 +13,8 @@
     "reactanimations",
     "spring"
   ],
-  "stars": 33511,
-  "forks": 1351,
+  "stars": 33524,
+  "forks": 1349,
   "watchers": null,
   "open_issues": 108,
   "created_at": "2018-11-16T09:48:38Z",
@@ -31,10 +31,10 @@
   "category": "web-frontend",
   "flags": [],
   "usability_score": 100,
-  "snapshot_days": 6,
-  "is_indexable": false,
+  "snapshot_days": 7,
+  "is_indexable": true,
   "first_seen_at": "2026-09-01T23:05:22.650Z",
   "tracking_tier": "hot",
-  "last_fetched_date": "2026-09-07",
+  "last_fetched_date": "2026-09-08",
   "stars_stagnant_days": 0
 }

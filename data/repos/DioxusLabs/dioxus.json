@@ -20,10 +20,10 @@
     "wasm",
     "web"
   ],
-  "stars": 38988,
-  "forks": 1871,
+  "stars": 38991,
+  "forks": 1876,
   "watchers": null,
-  "open_issues": 765,
+  "open_issues": 771,
   "created_at": "2021-01-15T01:57:26Z",
   "pushed_at": "2026-09-04T00:17:01Z",
   "is_archived": false,
@@ -38,10 +38,10 @@
   "category": "web-frontend",
   "flags": [],
   "usability_score": 100,
-  "snapshot_days": 7,
+  "snapshot_days": 8,
   "is_indexable": true,
   "first_seen_at": "2026-09-01T00:26:13.031Z",
   "tracking_tier": "hot",
-  "last_fetched_date": "2026-09-07",
+  "last_fetched_date": "2026-09-08",
   "stars_stagnant_days": 0
 }

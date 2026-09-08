@@ -16,11 +16,11 @@
     "sql"
   ],
   "stars": 43956,
-  "forks": 29370,
+  "forks": 29369,
   "watchers": null,
-  "open_issues": 503,
+  "open_issues": 506,
   "created_at": "2014-02-25T08:00:08Z",
-  "pushed_at": "2026-09-06T20:01:02Z",
+  "pushed_at": "2026-09-07T20:02:54Z",
   "is_archived": false,
   "license_spdx": "Apache-2.0",
   "license_category": "permissive",
@@ -33,10 +33,10 @@
   "category": "data",
   "flags": [],
   "usability_score": 100,
-  "snapshot_days": 8,
+  "snapshot_days": 9,
   "is_indexable": true,
   "first_seen_at": "2026-08-30T23:15:18.750Z",
   "tracking_tier": "hot",
-  "last_fetched_date": "2026-09-07",
-  "stars_stagnant_days": 0
+  "last_fetched_date": "2026-09-08",
+  "stars_stagnant_days": 1
 }

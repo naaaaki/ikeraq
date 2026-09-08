@@ -24,10 +24,10 @@
     "virtual",
     "xdr"
   ],
-  "stars": 33523,
+  "stars": 33538,
   "forks": 638,
   "watchers": 88,
-  "open_issues": 252,
+  "open_issues": 250,
   "created_at": "2021-10-24T08:32:56Z",
   "pushed_at": "2026-08-31T20:05:50Z",
   "is_archived": false,
@@ -48,10 +48,10 @@
     }
   ],
   "usability_score": 60,
-  "snapshot_days": 6,
+  "snapshot_days": 7,
   "is_indexable": true,
   "first_seen_at": "2026-09-01T23:05:22.650Z",
   "tracking_tier": "hot",
-  "last_fetched_date": "2026-09-07",
+  "last_fetched_date": "2026-09-08",
   "stars_stagnant_days": 0
 }

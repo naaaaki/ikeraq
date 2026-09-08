@@ -27,12 +27,12 @@
     "tutorial",
     "typescript"
   ],
-  "stars": 52585,
-  "forks": 9167,
+  "stars": 52786,
+  "forks": 9212,
   "watchers": 333,
   "open_issues": 104,
   "created_at": "2026-03-18T18:38:02Z",
-  "pushed_at": "2026-09-06T19:56:17Z",
+  "pushed_at": "2026-09-07T11:42:35Z",
   "is_archived": false,
   "license_spdx": "MIT",
   "license_category": "permissive",
@@ -45,10 +45,10 @@
   "category": "ai-agent",
   "flags": [],
   "usability_score": 100,
-  "snapshot_days": 8,
+  "snapshot_days": 9,
   "is_indexable": true,
   "first_seen_at": "2026-08-30T23:15:18.749Z",
   "tracking_tier": "hot",
-  "last_fetched_date": "2026-09-07",
+  "last_fetched_date": "2026-09-08",
   "stars_stagnant_days": 0
 }

@@ -2,7 +2,7 @@
   "id": "nuxt/nuxt",
   "owner": "nuxt",
   "name": "nuxt",
-  "description_en": "the full-stack Vue framework",
+  "description_en": "The full-stack Vue framework.",
   "human_note": null,
   "language": "TypeScript",
   "topics": [
@@ -20,12 +20,12 @@
     "universal",
     "vue"
   ],
-  "stars": 60825,
-  "forks": 5807,
+  "stars": 60826,
+  "forks": 5808,
   "watchers": null,
-  "open_issues": 496,
+  "open_issues": 480,
   "created_at": "2016-10-26T11:18:47Z",
-  "pushed_at": "2026-09-06T22:28:25Z",
+  "pushed_at": "2026-09-07T23:06:59Z",
   "is_archived": false,
   "license_spdx": "MIT",
   "license_category": "permissive",
@@ -38,10 +38,10 @@
   "category": "web-frontend",
   "flags": [],
   "usability_score": 100,
-  "snapshot_days": 9,
+  "snapshot_days": 10,
   "is_indexable": true,
   "first_seen_at": "2026-08-29T23:02:08.747Z",
   "tracking_tier": "hot",
-  "last_fetched_date": "2026-09-07",
+  "last_fetched_date": "2026-09-08",
   "stars_stagnant_days": 0
 }

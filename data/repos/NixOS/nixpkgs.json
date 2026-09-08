@@ -12,12 +12,12 @@
     "nixos",
     "nixpkgs"
   ],
-  "stars": 26040,
+  "stars": 26048,
   "forks": 20025,
   "watchers": null,
-  "open_issues": 21216,
+  "open_issues": 21220,
   "created_at": "2012-06-04T02:49:46Z",
-  "pushed_at": "2026-09-06T22:45:16Z",
+  "pushed_at": "2026-09-07T23:14:51Z",
   "is_archived": false,
   "license_spdx": "MIT",
   "license_category": "permissive",
@@ -30,10 +30,10 @@
   "category": "other",
   "flags": [],
   "usability_score": 100,
-  "snapshot_days": 4,
+  "snapshot_days": 5,
   "is_indexable": false,
   "first_seen_at": "2026-09-03T23:03:15.575Z",
   "tracking_tier": "hot",
-  "last_fetched_date": "2026-09-07",
+  "last_fetched_date": "2026-09-08",
   "stars_stagnant_days": 0
 }

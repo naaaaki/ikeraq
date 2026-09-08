@@ -26,10 +26,10 @@
     "vim",
     "windows"
   ],
-  "stars": 41987,
+  "stars": 42025,
   "forks": 1010,
-  "watchers": null,
-  "open_issues": 69,
+  "watchers": 103,
+  "open_issues": 72,
   "created_at": "2023-07-08T11:45:55Z",
   "pushed_at": "2026-09-01T19:46:13Z",
   "is_archived": false,
@@ -44,10 +44,10 @@
   "category": "mobile",
   "flags": [],
   "usability_score": 100,
-  "snapshot_days": 8,
+  "snapshot_days": 9,
   "is_indexable": true,
   "first_seen_at": "2026-08-30T23:15:18.750Z",
   "tracking_tier": "hot",
-  "last_fetched_date": "2026-09-07",
+  "last_fetched_date": "2026-09-08",
   "stars_stagnant_days": 0
 }

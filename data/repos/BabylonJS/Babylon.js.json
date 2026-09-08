@@ -19,10 +19,10 @@
     "webvr",
     "webxr"
   ],
-  "stars": 26031,
-  "forks": 3684,
+  "stars": 26036,
+  "forks": 3685,
   "watchers": null,
-  "open_issues": 21,
+  "open_issues": 25,
   "created_at": "2013-06-27T20:40:42Z",
   "pushed_at": "2026-09-04T19:36:50Z",
   "is_archived": false,
@@ -37,10 +37,10 @@
   "category": "game",
   "flags": [],
   "usability_score": 100,
-  "snapshot_days": 4,
+  "snapshot_days": 5,
   "is_indexable": false,
   "first_seen_at": "2026-09-03T23:03:15.575Z",
   "tracking_tier": "hot",
-  "last_fetched_date": "2026-09-07",
+  "last_fetched_date": "2026-09-08",
   "stars_stagnant_days": 0
 }
