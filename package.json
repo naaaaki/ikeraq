@@ -8,6 +8,7 @@
     "node": ">=20.11"
   },
   "scripts": {
+    "sync": "git pull --rebase --autostash",
     "seed": "tsx --env-file-if-exists=.env scripts/seed.ts",
     "note": "tsx --env-file-if-exists=.env scripts/note.ts",
     "evaluate": "tsx --env-file-if-exists=.env scripts/evaluate.ts",
