@@ -1,0 +1,39 @@
+{
+  "id": "multica-ai/andrej-karpathy-skills",
+  "owner": "multica-ai",
+  "name": "andrej-karpathy-skills",
+  "description_en": "A single CLAUDE.md file to improve Claude Code behavior, derived from Andrej Karpathy's observations on LLM coding pitfalls.",
+  "human_note": null,
+  "language": null,
+  "topics": [],
+  "stars": 211421,
+  "forks": 21469,
+  "watchers": 1229,
+  "open_issues": 129,
+  "created_at": "2026-01-27T03:53:13Z",
+  "pushed_at": "2026-04-20T10:05:04Z",
+  "is_archived": false,
+  "license_spdx": null,
+  "license_category": "none",
+  "readme_excerpt": "Karpathy-Inspired Claude Code Guidelines > Check out my new project Multica — an open-source platform for running and managing coding agents with reusable skills. > Follow me on X: https://x.com/jiayuanjy A single CLAUDE.md file to improve Claude Code behavior, derived from Andrej Karpathy's observations on LLM coding pitfalls. English | 简体中文 The Problems From Andrej's post: > \"The models make wrong assumptions on your behalf and just run along with them without checking. They don't manage thei…",
+  "readme_length": 6162,
+  "has_japanese_readme": false,
+  "contributors_count": 7,
+  "releases_count": 0,
+  "ossf_scorecard": null,
+  "category": "other",
+  "flags": [
+    {
+      "id": "no_license",
+      "label": "利用条件不明",
+      "reason": "ライセンスが設定されていません。この場合は原則として全権利が留保され、利用できません。"
+    }
+  ],
+  "usability_score": 60,
+  "snapshot_days": 1,
+  "is_indexable": true,
+  "first_seen_at": "2026-09-08T23:15:15.239Z",
+  "tracking_tier": "hot",
+  "last_fetched_date": "2026-09-09",
+  "stars_stagnant_days": 0
+}

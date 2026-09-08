@@ -4,7 +4,7 @@
   "name": "ccxt",
   "description_en": "A unified trading API with more than 100 crypto exchanges and prediction markets in JavaScript / TypeScript / Python / C# / PHP / Go / Java / Rust",
   "human_note": null,
-  "language": "Python",
+  "language": "Rust",
   "topics": [
     "altcoin",
     "api",
@@ -26,12 +26,12 @@
     "trade",
     "trading"
   ],
-  "stars": 43910,
-  "forks": 8825,
+  "stars": 43924,
+  "forks": 8829,
   "watchers": null,
-  "open_issues": 853,
+  "open_issues": 848,
   "created_at": "2017-05-14T15:41:56Z",
-  "pushed_at": "2026-09-07T17:21:40Z",
+  "pushed_at": "2026-09-08T22:15:37Z",
   "is_archived": false,
   "license_spdx": "MIT",
   "license_category": "permissive",
@@ -44,10 +44,10 @@
   "category": "backend",
   "flags": [],
   "usability_score": 100,
-  "snapshot_days": 9,
+  "snapshot_days": 10,
   "is_indexable": true,
   "first_seen_at": "2026-08-30T23:15:18.750Z",
   "tracking_tier": "hot",
-  "last_fetched_date": "2026-09-08",
+  "last_fetched_date": "2026-09-09",
   "stars_stagnant_days": 0
 }

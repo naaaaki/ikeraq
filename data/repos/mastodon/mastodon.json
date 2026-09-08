@@ -16,12 +16,12 @@
     "social-web",
     "webfinger"
   ],
-  "stars": 50280,
+  "stars": 50286,
   "forks": 7492,
   "watchers": null,
-  "open_issues": 4528,
+  "open_issues": 4530,
   "created_at": "2016-02-22T15:01:25Z",
-  "pushed_at": "2026-09-07T19:12:45Z",
+  "pushed_at": "2026-09-08T18:05:23Z",
   "is_archived": false,
   "license_spdx": "AGPL-3.0",
   "license_category": "strong-copyleft",
@@ -40,10 +40,10 @@
     }
   ],
   "usability_score": 85,
-  "snapshot_days": 9,
+  "snapshot_days": 10,
   "is_indexable": true,
   "first_seen_at": "2026-08-30T23:15:18.749Z",
   "tracking_tier": "hot",
-  "last_fetched_date": "2026-09-08",
+  "last_fetched_date": "2026-09-09",
   "stars_stagnant_days": 0
 }

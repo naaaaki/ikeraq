@@ -27,10 +27,10 @@
     "skills",
     "webui"
   ],
-  "stars": 32657,
-  "forks": 3358,
+  "stars": 32689,
+  "forks": 3367,
   "watchers": null,
-  "open_issues": 880,
+  "open_issues": 884,
   "created_at": "2025-08-07T10:29:51Z",
   "pushed_at": "2026-09-07T13:05:47Z",
   "is_archived": false,
@@ -45,10 +45,10 @@
   "category": "ai-agent",
   "flags": [],
   "usability_score": 100,
-  "snapshot_days": 7,
+  "snapshot_days": 8,
   "is_indexable": true,
   "first_seen_at": "2026-09-01T23:05:22.650Z",
   "tracking_tier": "hot",
-  "last_fetched_date": "2026-09-08",
+  "last_fetched_date": "2026-09-09",
   "stars_stagnant_days": 0
 }

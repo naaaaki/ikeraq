@@ -14,12 +14,12 @@
     "service-mesh",
     "vault"
   ],
-  "stars": 30059,
+  "stars": 30060,
   "forks": 4620,
   "watchers": null,
-  "open_issues": 1427,
+  "open_issues": 1425,
   "created_at": "2013-11-04T22:15:27Z",
-  "pushed_at": "2026-09-07T21:13:49Z",
+  "pushed_at": "2026-09-08T17:14:35Z",
   "is_archived": false,
   "license_spdx": "NOASSERTION",
   "license_category": "unknown",
@@ -32,10 +32,10 @@
   "category": "infra",
   "flags": [],
   "usability_score": 100,
-  "snapshot_days": 6,
-  "is_indexable": false,
+  "snapshot_days": 7,
+  "is_indexable": true,
   "first_seen_at": "2026-09-02T23:02:41.773Z",
   "tracking_tier": "hot",
-  "last_fetched_date": "2026-09-08",
-  "stars_stagnant_days": 1
+  "last_fetched_date": "2026-09-09",
+  "stars_stagnant_days": 0
 }

@@ -23,10 +23,10 @@
     "yolo",
     "yolov5"
   ],
-  "stars": 57974,
-  "forks": 17466,
+  "stars": 57981,
+  "forks": 17464,
   "watchers": 381,
-  "open_issues": 31,
+  "open_issues": 30,
   "created_at": "2020-05-18T03:45:11Z",
   "pushed_at": "2026-09-01T16:10:58Z",
   "is_archived": false,
@@ -47,10 +47,10 @@
     }
   ],
   "usability_score": 85,
-  "snapshot_days": 10,
+  "snapshot_days": 11,
   "is_indexable": true,
   "first_seen_at": "2026-08-29T23:02:08.747Z",
   "tracking_tier": "hot",
-  "last_fetched_date": "2026-09-08",
+  "last_fetched_date": "2026-09-09",
   "stars_stagnant_days": 0
 }

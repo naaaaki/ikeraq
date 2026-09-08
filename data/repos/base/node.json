@@ -1,0 +1,39 @@
+{
+  "id": "base/node",
+  "owner": "base",
+  "name": "node",
+  "description_en": "Everything required to run your own Base node",
+  "human_note": null,
+  "language": "Shell",
+  "topics": [],
+  "stars": 68391,
+  "forks": 3261,
+  "watchers": null,
+  "open_issues": 0,
+  "created_at": "2023-02-01T13:55:02Z",
+  "pushed_at": "2026-09-08T20:01:17Z",
+  "is_archived": true,
+  "license_spdx": "MIT",
+  "license_category": "permissive",
+  "readme_excerpt": "> [!CAUTION] > # This repository is archived > Use releases from base/base for all new installations and upgrades. Development and releases have moved to base/base; this repository is no longer maintained. Base Node Base is a secure, low-cost, developer-friendly Ethereum L2 built on Optimism's OP Stack. This repository contains a Docker build for running a Base node with base-reth-node and base-consensus. Quick Start 1. Ensure you have an Ethereum L1 full node RPC and beacon endpoint available.…",
+  "readme_length": 4077,
+  "has_japanese_readme": false,
+  "contributors_count": 84,
+  "releases_count": 86,
+  "ossf_scorecard": null,
+  "category": "other",
+  "flags": [
+    {
+      "id": "archived",
+      "label": "アーカイブ済み",
+      "reason": "作者がアーカイブしています。新しい変更は入りません。"
+    }
+  ],
+  "usability_score": 50,
+  "snapshot_days": 1,
+  "is_indexable": true,
+  "first_seen_at": "2026-09-08T23:15:15.921Z",
+  "tracking_tier": "hot",
+  "last_fetched_date": "2026-09-09",
+  "stars_stagnant_days": 0
+}

@@ -11,12 +11,12 @@
     "peer-to-peer",
     "synchronization"
   ],
-  "stars": 88372,
-  "forks": 5456,
+  "stars": 88401,
+  "forks": 5457,
   "watchers": 1053,
   "open_issues": 382,
   "created_at": "2013-11-26T09:48:21Z",
-  "pushed_at": "2026-09-07T03:52:23Z",
+  "pushed_at": "2026-09-08T07:22:07Z",
   "is_archived": false,
   "license_spdx": "MPL-2.0",
   "license_category": "weak-copyleft",
@@ -29,10 +29,10 @@
   "category": "other",
   "flags": [],
   "usability_score": 100,
-  "snapshot_days": 10,
+  "snapshot_days": 11,
   "is_indexable": true,
   "first_seen_at": "2026-08-29T15:46:21.821Z",
   "tracking_tier": "hot",
-  "last_fetched_date": "2026-09-08",
+  "last_fetched_date": "2026-09-09",
   "stars_stagnant_days": 0
 }

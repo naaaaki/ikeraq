@@ -27,7 +27,7 @@
     "wget",
     "youtube-dl"
   ],
-  "stars": 28250,
+  "stars": 28255,
   "forks": 1571,
   "watchers": null,
   "open_issues": 160,
@@ -45,10 +45,10 @@
   "category": "infra",
   "flags": [],
   "usability_score": 100,
-  "snapshot_days": 6,
-  "is_indexable": false,
+  "snapshot_days": 7,
+  "is_indexable": true,
   "first_seen_at": "2026-09-02T23:02:41.773Z",
   "tracking_tier": "hot",
-  "last_fetched_date": "2026-09-08",
+  "last_fetched_date": "2026-09-09",
   "stars_stagnant_days": 0
 }

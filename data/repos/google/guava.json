@@ -9,12 +9,12 @@
     "guava",
     "java"
   ],
-  "stars": 51896,
-  "forks": 11192,
+  "stars": 51897,
+  "forks": 11193,
   "watchers": null,
-  "open_issues": 756,
+  "open_issues": 753,
   "created_at": "2014-05-29T16:23:17Z",
-  "pushed_at": "2026-09-06T15:53:39Z",
+  "pushed_at": "2026-09-08T21:13:29Z",
   "is_archived": false,
   "license_spdx": "Apache-2.0",
   "license_category": "permissive",
@@ -27,10 +27,10 @@
   "category": "other",
   "flags": [],
   "usability_score": 100,
-  "snapshot_days": 9,
+  "snapshot_days": 10,
   "is_indexable": true,
   "first_seen_at": "2026-08-30T23:15:18.749Z",
   "tracking_tier": "hot",
-  "last_fetched_date": "2026-09-08",
-  "stars_stagnant_days": 1
+  "last_fetched_date": "2026-09-09",
+  "stars_stagnant_days": 0
 }

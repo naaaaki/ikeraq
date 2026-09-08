@@ -17,10 +17,10 @@
     "outofmemory",
     "outofmemoryerror"
   ],
-  "stars": 29991,
-  "forks": 3992,
+  "stars": 29993,
+  "forks": 3993,
   "watchers": 978,
-  "open_issues": 132,
+  "open_issues": 133,
   "created_at": "2015-04-29T23:54:16Z",
   "pushed_at": "2026-08-31T14:51:18Z",
   "is_archived": false,
@@ -35,10 +35,10 @@
   "category": "mobile",
   "flags": [],
   "usability_score": 100,
-  "snapshot_days": 6,
-  "is_indexable": false,
+  "snapshot_days": 7,
+  "is_indexable": true,
   "first_seen_at": "2026-09-02T23:02:41.773Z",
   "tracking_tier": "hot",
-  "last_fetched_date": "2026-09-08",
+  "last_fetched_date": "2026-09-09",
   "stars_stagnant_days": 0
 }

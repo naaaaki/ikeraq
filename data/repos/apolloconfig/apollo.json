@@ -14,9 +14,9 @@
     "spring-cloud"
   ],
   "stars": 29803,
-  "forks": 10158,
+  "forks": 10157,
   "watchers": null,
-  "open_issues": 157,
+  "open_issues": 158,
   "created_at": "2016-03-04T10:24:23Z",
   "pushed_at": "2026-09-06T11:37:17Z",
   "is_archived": false,
@@ -31,10 +31,10 @@
   "category": "backend",
   "flags": [],
   "usability_score": 100,
-  "snapshot_days": 6,
-  "is_indexable": false,
+  "snapshot_days": 7,
+  "is_indexable": true,
   "first_seen_at": "2026-09-02T23:02:41.773Z",
   "tracking_tier": "hot",
-  "last_fetched_date": "2026-09-08",
-  "stars_stagnant_days": 2
+  "last_fetched_date": "2026-09-09",
+  "stars_stagnant_days": 3
 }

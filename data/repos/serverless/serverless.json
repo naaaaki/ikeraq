@@ -16,12 +16,12 @@
     "serverless-architectures",
     "serverless-framework"
   ],
-  "stars": 46918,
-  "forks": 5719,
+  "stars": 46915,
+  "forks": 5718,
   "watchers": null,
-  "open_issues": 1218,
+  "open_issues": 1219,
   "created_at": "2015-04-21T03:48:40Z",
-  "pushed_at": "2026-09-07T19:55:24Z",
+  "pushed_at": "2026-09-08T20:10:57Z",
   "is_archived": false,
   "license_spdx": "NOASSERTION",
   "license_category": "unknown",
@@ -34,10 +34,10 @@
   "category": "backend",
   "flags": [],
   "usability_score": 100,
-  "snapshot_days": 9,
+  "snapshot_days": 10,
   "is_indexable": true,
   "first_seen_at": "2026-08-30T23:15:18.749Z",
   "tracking_tier": "hot",
-  "last_fetched_date": "2026-09-08",
-  "stars_stagnant_days": 1
+  "last_fetched_date": "2026-09-09",
+  "stars_stagnant_days": 2
 }

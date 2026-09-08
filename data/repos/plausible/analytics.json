@@ -27,12 +27,12 @@
     "website-stats",
     "website-tracking"
   ],
-  "stars": 28951,
-  "forks": 1846,
+  "stars": 28973,
+  "forks": 1850,
   "watchers": null,
-  "open_issues": 59,
+  "open_issues": 54,
   "created_at": "2018-12-04T22:33:36Z",
-  "pushed_at": "2026-09-07T16:39:21Z",
+  "pushed_at": "2026-09-08T20:16:00Z",
   "is_archived": false,
   "license_spdx": "AGPL-3.0",
   "license_category": "strong-copyleft",
@@ -51,10 +51,10 @@
     }
   ],
   "usability_score": 85,
-  "snapshot_days": 6,
+  "snapshot_days": 7,
   "is_indexable": true,
   "first_seen_at": "2026-09-02T23:02:41.773Z",
   "tracking_tier": "hot",
-  "last_fetched_date": "2026-09-08",
+  "last_fetched_date": "2026-09-09",
   "stars_stagnant_days": 0
 }

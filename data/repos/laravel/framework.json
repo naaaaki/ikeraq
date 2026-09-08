@@ -11,11 +11,11 @@
     "php"
   ],
   "stars": 34900,
-  "forks": 11976,
+  "forks": 11981,
   "watchers": null,
   "open_issues": 95,
   "created_at": "2013-01-10T21:27:28Z",
-  "pushed_at": "2026-09-07T19:32:14Z",
+  "pushed_at": "2026-09-08T14:31:07Z",
   "is_archived": false,
   "license_spdx": "MIT",
   "license_category": "permissive",
@@ -28,10 +28,10 @@
   "category": "backend",
   "flags": [],
   "usability_score": 100,
-  "snapshot_days": 8,
+  "snapshot_days": 9,
   "is_indexable": true,
   "first_seen_at": "2026-09-01T00:26:13.032Z",
   "tracking_tier": "hot",
-  "last_fetched_date": "2026-09-08",
-  "stars_stagnant_days": 2
+  "last_fetched_date": "2026-09-09",
+  "stars_stagnant_days": 3
 }

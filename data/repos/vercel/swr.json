@@ -20,7 +20,7 @@
     "swr",
     "vercel"
   ],
-  "stars": 32474,
+  "stars": 32475,
   "forks": 1382,
   "watchers": null,
   "open_issues": 220,
@@ -38,10 +38,10 @@
   "category": "web-frontend",
   "flags": [],
   "usability_score": 100,
-  "snapshot_days": 6,
-  "is_indexable": false,
+  "snapshot_days": 7,
+  "is_indexable": true,
   "first_seen_at": "2026-09-02T23:02:41.773Z",
   "tracking_tier": "hot",
-  "last_fetched_date": "2026-09-08",
-  "stars_stagnant_days": 1
+  "last_fetched_date": "2026-09-09",
+  "stars_stagnant_days": 0
 }

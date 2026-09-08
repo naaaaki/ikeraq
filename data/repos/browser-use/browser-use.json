@@ -14,10 +14,10 @@
     "playwright",
     "python"
   ],
-  "stars": 112938,
-  "forks": 12457,
+  "stars": 113454,
+  "forks": 12486,
   "watchers": null,
-  "open_issues": 401,
+  "open_issues": 416,
   "created_at": "2024-10-31T16:00:56Z",
   "pushed_at": "2026-09-07T19:55:36Z",
   "is_archived": false,
@@ -32,10 +32,10 @@
   "category": "ai-agent",
   "flags": [],
   "usability_score": 100,
-  "snapshot_days": 10,
+  "snapshot_days": 11,
   "is_indexable": true,
   "first_seen_at": "2026-08-29T15:46:21.820Z",
   "tracking_tier": "hot",
-  "last_fetched_date": "2026-09-08",
+  "last_fetched_date": "2026-09-09",
   "stars_stagnant_days": 0
 }

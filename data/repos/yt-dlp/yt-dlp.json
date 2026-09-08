@@ -14,10 +14,10 @@
     "youtube-downloader",
     "yt-dlp"
   ],
-  "stars": 189660,
-  "forks": 16462,
-  "watchers": 941,
-  "open_issues": 2635,
+  "stars": 189856,
+  "forks": 16464,
+  "watchers": 938,
+  "open_issues": 2643,
   "created_at": "2020-10-26T04:22:55Z",
   "pushed_at": "2026-08-30T13:58:45Z",
   "is_archived": false,
@@ -32,10 +32,10 @@
   "category": "dev-tool",
   "flags": [],
   "usability_score": 100,
-  "snapshot_days": 10,
+  "snapshot_days": 11,
   "is_indexable": true,
   "first_seen_at": "2026-08-29T15:46:21.820Z",
   "tracking_tier": "hot",
-  "last_fetched_date": "2026-09-08",
+  "last_fetched_date": "2026-09-09",
   "stars_stagnant_days": 0
 }

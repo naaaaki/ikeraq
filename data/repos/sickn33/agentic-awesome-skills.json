@@ -2,7 +2,7 @@
   "id": "sickn33/agentic-awesome-skills",
   "owner": "sickn33",
   "name": "agentic-awesome-skills",
-  "description_en": "AAS Core is the local, agent-first control plane for complete catalog discovery, agent-owned selection, stack validation, and planning, backed by 2,100+ agentic skills. Includes CLI, local MCP, catalog, plugins, and Workbench.",
+  "description_en": "AAS Core is the local, agent-first control plane for complete catalog discovery, agent-owned selection, stack validation, and planning, backed by 2,115+ agentic skills. Includes CLI, local MCP, catalog, plugins, and Workbench.",
   "human_note": null,
   "language": "Python",
   "topics": [
@@ -27,12 +27,12 @@
     "mcp",
     "skill-library"
   ],
-  "stars": 46118,
-  "forks": 6738,
+  "stars": 46165,
+  "forks": 6740,
   "watchers": null,
-  "open_issues": 3,
+  "open_issues": 0,
   "created_at": "2026-01-14T17:48:09Z",
-  "pushed_at": "2026-09-07T07:23:33Z",
+  "pushed_at": "2026-09-08T17:24:31Z",
   "is_archived": false,
   "license_spdx": "MIT",
   "license_category": "permissive",
@@ -45,10 +45,10 @@
   "category": "ai-agent",
   "flags": [],
   "usability_score": 100,
-  "snapshot_days": 9,
+  "snapshot_days": 10,
   "is_indexable": true,
   "first_seen_at": "2026-08-30T23:15:18.750Z",
   "tracking_tier": "hot",
-  "last_fetched_date": "2026-09-08",
+  "last_fetched_date": "2026-09-09",
   "stars_stagnant_days": 0
 }

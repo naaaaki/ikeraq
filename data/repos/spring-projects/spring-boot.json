@@ -11,12 +11,12 @@
     "spring",
     "spring-boot"
   ],
-  "stars": 81424,
-  "forks": 42094,
+  "stars": 81417,
+  "forks": 42086,
   "watchers": null,
-  "open_issues": 481,
+  "open_issues": 478,
   "created_at": "2012-10-19T15:02:57Z",
-  "pushed_at": "2026-09-07T14:09:44Z",
+  "pushed_at": "2026-09-08T19:53:18Z",
   "is_archived": false,
   "license_spdx": "Apache-2.0",
   "license_category": "permissive",
@@ -29,10 +29,10 @@
   "category": "backend",
   "flags": [],
   "usability_score": 100,
-  "snapshot_days": 10,
+  "snapshot_days": 11,
   "is_indexable": true,
   "first_seen_at": "2026-08-29T15:46:21.821Z",
   "tracking_tier": "hot",
-  "last_fetched_date": "2026-09-08",
-  "stars_stagnant_days": 0
+  "last_fetched_date": "2026-09-09",
+  "stars_stagnant_days": 1
 }

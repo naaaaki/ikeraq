@@ -14,8 +14,8 @@
     "shap",
     "shapley"
   ],
-  "stars": 25731,
-  "forks": 3740,
+  "stars": 25729,
+  "forks": 3741,
   "watchers": null,
   "open_issues": 983,
   "created_at": "2016-11-22T19:17:08Z",
@@ -32,10 +32,10 @@
   "category": "learning",
   "flags": [],
   "usability_score": 100,
-  "snapshot_days": 5,
+  "snapshot_days": 6,
   "is_indexable": false,
   "first_seen_at": "2026-09-03T23:03:15.575Z",
   "tracking_tier": "hot",
-  "last_fetched_date": "2026-09-08",
-  "stars_stagnant_days": 0
+  "last_fetched_date": "2026-09-09",
+  "stars_stagnant_days": 1
 }

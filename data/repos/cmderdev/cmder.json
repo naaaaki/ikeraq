@@ -18,7 +18,7 @@
     "ssh-agent",
     "windows"
   ],
-  "stars": 27000,
+  "stars": 27002,
   "forks": 2073,
   "watchers": 555,
   "open_issues": 67,
@@ -36,10 +36,10 @@
   "category": "ai-agent",
   "flags": [],
   "usability_score": 100,
-  "snapshot_days": 5,
+  "snapshot_days": 6,
   "is_indexable": false,
   "first_seen_at": "2026-09-03T23:03:15.575Z",
   "tracking_tier": "hot",
-  "last_fetched_date": "2026-09-08",
-  "stars_stagnant_days": 4
+  "last_fetched_date": "2026-09-09",
+  "stars_stagnant_days": 0
 }

@@ -8,12 +8,12 @@
   "topics": [
     "ggml"
   ],
-  "stars": 127409,
-  "forks": 22884,
+  "stars": 127531,
+  "forks": 22913,
   "watchers": null,
-  "open_issues": 2464,
+  "open_issues": 2448,
   "created_at": "2023-03-10T18:58:00Z",
-  "pushed_at": "2026-09-07T23:16:59Z",
+  "pushed_at": "2026-09-08T20:34:52Z",
   "is_archived": false,
   "license_spdx": "MIT",
   "license_category": "permissive",
@@ -26,10 +26,10 @@
   "category": "other",
   "flags": [],
   "usability_score": 100,
-  "snapshot_days": 10,
+  "snapshot_days": 11,
   "is_indexable": true,
   "first_seen_at": "2026-08-29T15:46:21.820Z",
   "tracking_tier": "hot",
-  "last_fetched_date": "2026-09-08",
+  "last_fetched_date": "2026-09-09",
   "stars_stagnant_days": 0
 }

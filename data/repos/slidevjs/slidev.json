@@ -13,7 +13,7 @@
     "vue",
     "vueuse"
   ],
-  "stars": 48452,
+  "stars": 48486,
   "forks": 2177,
   "watchers": 172,
   "open_issues": 231,
@@ -31,10 +31,10 @@
   "category": "web-frontend",
   "flags": [],
   "usability_score": 100,
-  "snapshot_days": 9,
+  "snapshot_days": 10,
   "is_indexable": true,
   "first_seen_at": "2026-08-30T23:15:18.749Z",
   "tracking_tier": "hot",
-  "last_fetched_date": "2026-09-08",
+  "last_fetched_date": "2026-09-09",
   "stars_stagnant_days": 0
 }
