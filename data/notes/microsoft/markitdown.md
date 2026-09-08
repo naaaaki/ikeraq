@@ -1,0 +1,82 @@
+---
+updated: 2026-09-08
+image:
+image_alt:
+---
+
+<!-- ============================================================
+  microsoft/markitdown
+  https://github.com/microsoft/markitdown
+  Python tool for converting files and office documents to Markdown.
+  Python / MIT / スター 181,202
+  topics: autogen, autogen-extension, langchain, markdown, microsoft-office, openai, pdf
+============================================================ -->
+
+
+## 見出しの一文
+
+WordもPDFも音声も、AIに読ませる前に Markdown へ揃える
+
+
+## どういうものか
+
+AIに資料を読ませようとすると、最初に詰まるのはファイル形式のばらつきだ。手元にあるのは Word・Excel・PowerPoint・PDF・画像・音声で、そのままでは文字として渡せない。MarkItDown は、こうしたファイルを **Markdown という一種類の文字の形に変換する** Python の道具。README が挙げている対応元は、PDF、PowerPoint、Word、Excel、画像（撮影日時などの付帯情報と、写っている文字の読み取り）、音声（付帯情報と書き起こし）、HTML、CSV・JSON・XML、ZIP（中身をたどる）、YouTube のURL、EPub など。
+
+狙いは見た目の再現ではなく、**構造を残すこと**にある。README は、見出し・箇条書き・表・リンクといった文書の骨格を Markdown として保つことを重視していると書いており、同時に「出力は人が読むためではなく、テキスト解析のツールに渡すためのもので、高い忠実さが要る変換には向かないかもしれない」とも明記している。ここを取り違えると期待が外れる。なぜ Markdown なのかの説明も添えられていて、ほぼ素の文字に近いのに構造を表せること、主要なLLMが Markdown を自然に扱うこと、トークンの効率がよいことが理由として挙がっている。
+
+呼び出し方は2通り。コマンドで `markitdown` にファイルを渡す形と、Python から `MarkItDown` を呼ぶ形で、コマンドのほうは標準入力からも受け取れる。Docker で動かす手順も添えられている。第三者が作るプラグインの仕組みもあり、こちらは既定で無効になっていて、使うときに明示して有効にする。
+
+
+## 図
+
+<svg viewBox="0 0 800 450" role="img" aria-label="さまざまな形式のファイルが MarkItDown を通って Markdown になり、AIやテキスト解析のツールに渡る流れ図。MarkItDown の中では、見出し・箇条書き・表・リンクといった構造を残し、見た目の再現は捨てることが示されている。" style="width: 100%; height: auto; display: block; font-family: var(--jp);">
+  <defs>
+    <marker id="mid-arrow" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="6" markerHeight="6" orient="auto-start-reverse">
+      <path d="M0,0 L10,5 L0,10 z" fill="#1E5A48" />
+    </marker>
+  </defs>
+  <rect width="800" height="450" fill="#FFFFFF" />
+  <text x="400" y="58" text-anchor="middle" font-size="27" font-weight="700" fill="#17160F">ばらばらの形式を、<tspan fill="#1E5A48">一種類の文字</tspan>に揃える</text>
+  <rect x="20" y="148" width="176" height="140" rx="8" fill="none" stroke="#17160F" stroke-opacity="0.28" stroke-width="1.5" />
+  <text x="108" y="186" text-anchor="middle" font-size="16" font-weight="700" fill="#17160F">手元のファイル</text>
+  <text x="108" y="216" text-anchor="middle" font-size="12.5" fill="#17160F" fill-opacity="0.78">Word・Excel・PDF</text>
+  <text x="108" y="240" text-anchor="middle" font-size="12.5" fill="#17160F" fill-opacity="0.78">画像・音声・HTML</text>
+  <text x="108" y="264" text-anchor="middle" font-size="12.5" fill="#17160F" fill-opacity="0.78">ZIP・YouTubeのURL</text>
+  <line x1="196" y1="218" x2="240" y2="218" stroke="#1E5A48" stroke-width="4" marker-end="url(#mid-arrow)" />
+  <rect x="248" y="132" width="256" height="172" rx="8" fill="none" stroke="#1E5A48" stroke-width="2" />
+  <text x="376" y="170" text-anchor="middle" font-size="17" font-weight="700" fill="#1E5A48">MarkItDown</text>
+  <text x="376" y="204" text-anchor="middle" font-size="13" fill="#17160F" fill-opacity="0.82">残す … 見出し・箇条書き</text>
+  <text x="376" y="228" text-anchor="middle" font-size="13" fill="#17160F" fill-opacity="0.82">　　　 表・リンク</text>
+  <text x="376" y="258" text-anchor="middle" font-size="13" fill="#17160F" fill-opacity="0.82">捨てる … 見た目の再現</text>
+  <text x="376" y="288" text-anchor="middle" font-size="11.5" fill="#17160F" fill-opacity="0.72">（形式ごとに必要な部品を足す）</text>
+  <line x1="504" y1="218" x2="548" y2="218" stroke="#1E5A48" stroke-width="4" marker-end="url(#mid-arrow)" />
+  <rect x="556" y="148" width="224" height="140" rx="8" fill="none" stroke="#17160F" stroke-opacity="0.28" stroke-width="1.5" />
+  <text x="668" y="192" text-anchor="middle" font-size="16" font-weight="700" fill="#17160F">Markdown</text>
+  <text x="668" y="224" text-anchor="middle" font-size="12.5" fill="#17160F" fill-opacity="0.78">AI・検索・解析ツールが</text>
+  <text x="668" y="248" text-anchor="middle" font-size="12.5" fill="#17160F" fill-opacity="0.78">そのまま読める形</text>
+  <text x="400" y="384" text-anchor="middle" font-size="13.5" fill="#17160F" fill-opacity="0.72">行き先は機械。人が読むための、体裁を保った変換とは別の道具になる</text>
+</svg>
+
+キャプション: 揃えているのは「機械が読める形」であって、元の書類の見た目ではない。レイアウトが崩れることを問題と感じる用途なら、そもそも向いていない。
+
+
+## どんなときに使うか
+
+### 手元の資料をまとめてAIに読ませたいとき
+
+提案書がPowerPoint、見積がExcel、契約書がPDF、という状態のまま渡す方法はない。全部を同じ形にしてから渡せば、あとの処理は文字を扱うだけになる。**入口を一本にするための道具**だと考えると分かりやすい。
+
+### 検索や分類の下ごしらえをしたいとき
+
+社内の書類を検索できるようにする、分類する、要約する。どれも最初に「文字にする」工程が要る。表や見出しが残っていれば、そのあとで章ごとに切る・表だけ抜く、といった扱いもしやすくなる。
+
+
+## 注意点
+
+**信用できない入力をそのまま渡さない。** README は冒頭と末尾の両方で警告していて、MarkItDown は実行しているプロセスの権限でファイルやネットワークにアクセスする、と書かれている。`convert()` は手元のファイルもURLもバイト列も受け取れる広い入口なので、外から来た値を扱うときは、**用途に合った狭い関数**（手元のファイルだけなら `convert_local()` など）を選ぶよう勧めている。サーバー側で動かす場合ほど効いてくる。
+
+**高い忠実さの変換には向かない、と作者自身が書いている。** 出力はテキスト解析のツールに渡すためのもの、というのが README の位置づけ。人が読む配布物を作り直す用途で当てにすると、期待とずれる。
+
+**形式ごとに部品が分かれている。** `[all]` で全部入れるか、`[pdf, docx, pptx]` のように選んで入れるかを決める必要がある。音声の書き起こしやYouTubeの字幕取得も、そのための追加指定がある。Azure の文書解析サービスを使う経路は精度が上がる代わりに、**変換1回ごとに課金される**と明記されている。
+
+**この置き場所の役割は限定されている。** README は、Webサーバー・API・画面つきアプリの追加は受け付けない（別のプロジェクトとして作ってほしい）と明言している。ライブラリとコマンドとして使うものであって、そのまま社内サービスになるものではない。ライセンスは MIT。ただし Microsoft の商標の扱いには別途ガイドラインがある。
