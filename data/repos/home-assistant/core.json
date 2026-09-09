@@ -15,12 +15,12 @@
     "python",
     "raspberry-pi"
   ],
-  "stars": 90332,
+  "stars": 90350,
   "forks": 38537,
   "watchers": null,
-  "open_issues": 3477,
+  "open_issues": 3531,
   "created_at": "2013-09-17T07:29:48Z",
-  "pushed_at": "2026-09-08T23:09:55Z",
+  "pushed_at": "2026-09-09T22:53:22Z",
   "is_archived": false,
   "license_spdx": "Apache-2.0",
   "license_category": "permissive",
@@ -33,10 +33,10 @@
   "category": "dev-tool",
   "flags": [],
   "usability_score": 100,
-  "snapshot_days": 11,
+  "snapshot_days": 12,
   "is_indexable": true,
   "first_seen_at": "2026-08-29T15:46:21.821Z",
   "tracking_tier": "hot",
-  "last_fetched_date": "2026-09-09",
+  "last_fetched_date": "2026-09-10",
   "stars_stagnant_days": 0
 }

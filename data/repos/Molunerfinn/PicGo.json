@@ -25,8 +25,8 @@
     "vue",
     "weibo"
   ],
-  "stars": 27157,
-  "forks": 2326,
+  "stars": 27160,
+  "forks": 2327,
   "watchers": 181,
   "open_issues": 27,
   "created_at": "2017-12-12T08:39:44Z",
@@ -43,10 +43,10 @@
   "category": "web-frontend",
   "flags": [],
   "usability_score": 100,
-  "snapshot_days": 6,
-  "is_indexable": false,
+  "snapshot_days": 7,
+  "is_indexable": true,
   "first_seen_at": "2026-09-03T23:03:15.575Z",
   "tracking_tier": "hot",
-  "last_fetched_date": "2026-09-09",
-  "stars_stagnant_days": 1
+  "last_fetched_date": "2026-09-10",
+  "stars_stagnant_days": 0
 }

@@ -23,10 +23,10 @@
     "robotics",
     "slam"
   ],
-  "stars": 30468,
-  "forks": 7404,
+  "stars": 30477,
+  "forks": 7402,
   "watchers": null,
-  "open_issues": 55,
+  "open_issues": 54,
   "created_at": "2016-03-21T09:34:43Z",
   "pushed_at": "2026-09-07T20:02:50Z",
   "is_archived": false,
@@ -41,10 +41,10 @@
   "category": "other",
   "flags": [],
   "usability_score": 100,
-  "snapshot_days": 7,
+  "snapshot_days": 8,
   "is_indexable": true,
   "first_seen_at": "2026-09-02T23:02:41.773Z",
   "tracking_tier": "hot",
-  "last_fetched_date": "2026-09-09",
+  "last_fetched_date": "2026-09-10",
   "stars_stagnant_days": 0
 }

@@ -15,7 +15,7 @@
     "security-hardening",
     "server"
   ],
-  "stars": 31365,
+  "stars": 31377,
   "forks": 2117,
   "watchers": null,
   "open_issues": 32,
@@ -39,10 +39,10 @@
     }
   ],
   "usability_score": 85,
-  "snapshot_days": 6,
+  "snapshot_days": 7,
   "is_indexable": true,
   "first_seen_at": "2026-09-03T23:03:15.575Z",
   "tracking_tier": "hot",
-  "last_fetched_date": "2026-09-09",
+  "last_fetched_date": "2026-09-10",
   "stars_stagnant_days": 0
 }

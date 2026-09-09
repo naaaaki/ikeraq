@@ -15,12 +15,12 @@
     "stripe",
     "typescript"
   ],
-  "stars": 29873,
+  "stars": 29891,
   "forks": 2890,
   "watchers": null,
-  "open_issues": 726,
+  "open_issues": 723,
   "created_at": "2024-05-19T21:40:04Z",
-  "pushed_at": "2026-09-08T19:01:52Z",
+  "pushed_at": "2026-09-09T12:03:34Z",
   "is_archived": false,
   "license_spdx": "MIT",
   "license_category": "permissive",
@@ -33,10 +33,10 @@
   "category": "other",
   "flags": [],
   "usability_score": 100,
-  "snapshot_days": 7,
+  "snapshot_days": 8,
   "is_indexable": true,
   "first_seen_at": "2026-09-02T23:02:41.773Z",
   "tracking_tier": "hot",
-  "last_fetched_date": "2026-09-09",
+  "last_fetched_date": "2026-09-10",
   "stars_stagnant_days": 0
 }

@@ -27,10 +27,10 @@
     "system-design",
     "text-to-diagram"
   ],
-  "stars": 54648,
-  "forks": 3580,
+  "stars": 56022,
+  "forks": 3655,
   "watchers": 107,
-  "open_issues": 140,
+  "open_issues": 146,
   "created_at": "2026-04-15T05:27:37Z",
   "pushed_at": "2026-09-08T20:33:06Z",
   "is_archived": false,
@@ -45,10 +45,10 @@
   "category": "ai-agent",
   "flags": [],
   "usability_score": 100,
-  "snapshot_days": 12,
+  "snapshot_days": 13,
   "is_indexable": true,
   "first_seen_at": "2026-08-29T00:00:00Z",
   "tracking_tier": "hot",
-  "last_fetched_date": "2026-09-09",
+  "last_fetched_date": "2026-09-10",
   "stars_stagnant_days": 0
 }

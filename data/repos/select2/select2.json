@@ -11,7 +11,7 @@
     "jquery",
     "select2"
   ],
-  "stars": 25903,
+  "stars": 25902,
   "forks": 6130,
   "watchers": 692,
   "open_issues": 137,
@@ -29,10 +29,10 @@
   "category": "other",
   "flags": [],
   "usability_score": 100,
-  "snapshot_days": 6,
-  "is_indexable": false,
+  "snapshot_days": 7,
+  "is_indexable": true,
   "first_seen_at": "2026-09-03T23:03:15.575Z",
   "tracking_tier": "hot",
-  "last_fetched_date": "2026-09-09",
-  "stars_stagnant_days": 1
+  "last_fetched_date": "2026-09-10",
+  "stars_stagnant_days": 2
 }

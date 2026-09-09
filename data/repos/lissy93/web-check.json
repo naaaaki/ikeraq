@@ -12,8 +12,8 @@
     "security-tools",
     "sysadmin"
   ],
-  "stars": 34710,
-  "forks": 2842,
+  "stars": 34717,
+  "forks": 2843,
   "watchers": 180,
   "open_issues": 31,
   "created_at": "2023-06-25T14:32:11Z",
@@ -30,10 +30,10 @@
   "category": "security",
   "flags": [],
   "usability_score": 100,
-  "snapshot_days": 9,
+  "snapshot_days": 10,
   "is_indexable": true,
   "first_seen_at": "2026-09-01T00:26:13.032Z",
   "tracking_tier": "hot",
-  "last_fetched_date": "2026-09-09",
+  "last_fetched_date": "2026-09-10",
   "stars_stagnant_days": 0
 }

@@ -1,0 +1,39 @@
+{
+  "id": "liquidslr/system-design-notes",
+  "owner": "liquidslr",
+  "name": "system-design-notes",
+  "description_en": "Notes of the book System Desgin Interview - An Insider's Guide",
+  "human_note": null,
+  "language": null,
+  "topics": [],
+  "stars": 17958,
+  "forks": 3402,
+  "watchers": 142,
+  "open_issues": 5,
+  "created_at": "2024-12-24T01:19:44Z",
+  "pushed_at": "2026-08-12T22:22:21Z",
+  "is_archived": false,
+  "license_spdx": null,
+  "license_category": "none",
+  "readme_excerpt": "System Design Interview - An Insider's Guide (Vol 1 and 2) These notes are based on the System Design Interview books - Vol 1 and Vol 2 2nd Ed Check the notes here: https://pagefy.io/system-design/system-design-interview-by-alex-xu Note: These notes are a work in progress. Chapter 1 - Scale From Zero To Millions Of Users Chapter 2 - Back-of-the-envelope Estimation Chapter 3 - A Framework For System Design Interviews Chapter 4 - Design A Rate Limiter Chapter 5 - Design Consistent Hashing Chapter…",
+  "readme_length": 5763,
+  "has_japanese_readme": false,
+  "contributors_count": 4,
+  "releases_count": 0,
+  "ossf_scorecard": null,
+  "category": "other",
+  "flags": [
+    {
+      "id": "no_license",
+      "label": "利用条件不明",
+      "reason": "ライセンスが設定されていません。この場合は原則として全権利が留保され、利用できません。"
+    }
+  ],
+  "usability_score": 60,
+  "snapshot_days": 1,
+  "is_indexable": true,
+  "first_seen_at": "2026-09-09T22:59:39.542Z",
+  "tracking_tier": "hot",
+  "last_fetched_date": "2026-09-10",
+  "stars_stagnant_days": 0
+}

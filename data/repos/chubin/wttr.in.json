@@ -14,7 +14,7 @@
     "weather-app",
     "weather-information"
   ],
-  "stars": 30500,
+  "stars": 30505,
   "forks": 1267,
   "watchers": null,
   "open_issues": 331,
@@ -32,10 +32,10 @@
   "category": "dev-tool",
   "flags": [],
   "usability_score": 100,
-  "snapshot_days": 2,
+  "snapshot_days": 3,
   "is_indexable": false,
   "first_seen_at": "2026-09-07T23:19:48.976Z",
   "tracking_tier": "hot",
-  "last_fetched_date": "2026-09-09",
+  "last_fetched_date": "2026-09-10",
   "stars_stagnant_days": 0
 }

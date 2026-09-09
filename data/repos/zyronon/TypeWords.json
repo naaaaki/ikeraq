@@ -13,12 +13,12 @@
     "typing-practice",
     "typingspeedtest"
   ],
-  "stars": 9739,
-  "forks": 1163,
+  "stars": 9821,
+  "forks": 1173,
   "watchers": 47,
   "open_issues": 43,
   "created_at": "2023-08-03T10:39:02Z",
-  "pushed_at": "2026-09-08T13:09:05Z",
+  "pushed_at": "2026-09-09T08:40:12Z",
   "is_archived": false,
   "license_spdx": "GPL-3.0",
   "license_category": "strong-copyleft",
@@ -37,10 +37,10 @@
     }
   ],
   "usability_score": 85,
-  "snapshot_days": 7,
+  "snapshot_days": 8,
   "is_indexable": true,
   "first_seen_at": "2026-09-02T23:02:40.892Z",
   "tracking_tier": "hot",
-  "last_fetched_date": "2026-09-09",
+  "last_fetched_date": "2026-09-10",
   "stars_stagnant_days": 0
 }

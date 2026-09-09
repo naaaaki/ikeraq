@@ -10,8 +10,8 @@
     "tampermonkey",
     "userscript"
   ],
-  "stars": 30426,
-  "forks": 1797,
+  "stars": 30436,
+  "forks": 1799,
   "watchers": null,
   "open_issues": 491,
   "created_at": "2018-07-16T07:48:06Z",
@@ -28,10 +28,10 @@
   "category": "other",
   "flags": [],
   "usability_score": 100,
-  "snapshot_days": 2,
+  "snapshot_days": 3,
   "is_indexable": false,
   "first_seen_at": "2026-09-07T23:19:48.976Z",
   "tracking_tier": "hot",
-  "last_fetched_date": "2026-09-09",
+  "last_fetched_date": "2026-09-10",
   "stars_stagnant_days": 0
 }

@@ -16,10 +16,10 @@
     "virtual-machines",
     "vm"
   ],
-  "stars": 35399,
-  "forks": 1809,
+  "stars": 35414,
+  "forks": 1810,
   "watchers": 388,
-  "open_issues": 1112,
+  "open_issues": 1113,
   "created_at": "2019-04-12T16:09:24Z",
   "pushed_at": "2026-09-02T05:14:37Z",
   "is_archived": false,
@@ -34,10 +34,10 @@
   "category": "mobile",
   "flags": [],
   "usability_score": 100,
-  "snapshot_days": 9,
+  "snapshot_days": 10,
   "is_indexable": true,
   "first_seen_at": "2026-09-01T00:26:13.032Z",
   "tracking_tier": "hot",
-  "last_fetched_date": "2026-09-09",
+  "last_fetched_date": "2026-09-10",
   "stars_stagnant_days": 0
 }

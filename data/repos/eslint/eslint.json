@@ -12,12 +12,12 @@
     "linter",
     "static-code-analysis"
   ],
-  "stars": 27496,
-  "forks": 5172,
+  "stars": 27495,
+  "forks": 5174,
   "watchers": null,
-  "open_issues": 128,
+  "open_issues": 127,
   "created_at": "2013-06-29T23:59:48Z",
-  "pushed_at": "2026-09-08T21:01:47Z",
+  "pushed_at": "2026-09-09T18:08:40Z",
   "is_archived": false,
   "license_spdx": "MIT",
   "license_category": "permissive",
@@ -30,10 +30,10 @@
   "category": "dev-tool",
   "flags": [],
   "usability_score": 100,
-  "snapshot_days": 7,
+  "snapshot_days": 8,
   "is_indexable": true,
   "first_seen_at": "2026-09-02T23:02:41.773Z",
   "tracking_tier": "hot",
-  "last_fetched_date": "2026-09-09",
-  "stars_stagnant_days": 1
+  "last_fetched_date": "2026-09-10",
+  "stars_stagnant_days": 2
 }

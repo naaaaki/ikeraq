@@ -11,12 +11,12 @@
     "web-application",
     "web-development"
   ],
-  "stars": 33357,
-  "forks": 2795,
+  "stars": 33355,
+  "forks": 2796,
   "watchers": null,
-  "open_issues": 45,
+  "open_issues": 47,
   "created_at": "2020-10-26T19:57:28Z",
-  "pushed_at": "2026-09-08T23:07:41Z",
+  "pushed_at": "2026-09-09T21:40:13Z",
   "is_archived": false,
   "license_spdx": "MIT",
   "license_category": "permissive",
@@ -29,10 +29,10 @@
   "category": "other",
   "flags": [],
   "usability_score": 100,
-  "snapshot_days": 8,
+  "snapshot_days": 9,
   "is_indexable": true,
   "first_seen_at": "2026-09-01T23:05:22.650Z",
   "tracking_tier": "hot",
-  "last_fetched_date": "2026-09-09",
-  "stars_stagnant_days": 2
+  "last_fetched_date": "2026-09-10",
+  "stars_stagnant_days": 3
 }

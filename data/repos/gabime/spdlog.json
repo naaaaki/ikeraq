@@ -12,8 +12,8 @@
     "logging",
     "spdlog"
   ],
-  "stars": 29584,
-  "forks": 5398,
+  "stars": 29586,
+  "forks": 5395,
   "watchers": null,
   "open_issues": 47,
   "created_at": "2014-11-01T01:28:53Z",
@@ -30,10 +30,10 @@
   "category": "other",
   "flags": [],
   "usability_score": 100,
-  "snapshot_days": 2,
+  "snapshot_days": 3,
   "is_indexable": false,
   "first_seen_at": "2026-09-07T23:19:48.976Z",
   "tracking_tier": "hot",
-  "last_fetched_date": "2026-09-09",
-  "stars_stagnant_days": 1
+  "last_fetched_date": "2026-09-10",
+  "stars_stagnant_days": 0
 }

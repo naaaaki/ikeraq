@@ -14,10 +14,10 @@
     "owasp",
     "security"
   ],
-  "stars": 33123,
-  "forks": 4618,
+  "stars": 33131,
+  "forks": 4617,
   "watchers": null,
-  "open_issues": 61,
+  "open_issues": 62,
   "created_at": "2018-12-21T14:26:43Z",
   "pushed_at": "2026-09-08T03:59:39Z",
   "is_archived": false,
@@ -38,10 +38,10 @@
     }
   ],
   "usability_score": 85,
-  "snapshot_days": 8,
+  "snapshot_days": 9,
   "is_indexable": true,
   "first_seen_at": "2026-09-01T23:05:22.650Z",
   "tracking_tier": "hot",
-  "last_fetched_date": "2026-09-09",
+  "last_fetched_date": "2026-09-10",
   "stars_stagnant_days": 0
 }

@@ -27,12 +27,12 @@
     "usability",
     "ux"
   ],
-  "stars": 36759,
-  "forks": 5159,
+  "stars": 36761,
+  "forks": 5162,
   "watchers": null,
-  "open_issues": 3637,
+  "open_issues": 3653,
   "created_at": "2016-06-02T07:44:14Z",
-  "pushed_at": "2026-09-08T23:06:08Z",
+  "pushed_at": "2026-09-09T21:58:20Z",
   "is_archived": false,
   "license_spdx": "AGPL-3.0",
   "license_category": "strong-copyleft",
@@ -51,10 +51,10 @@
     }
   ],
   "usability_score": 85,
-  "snapshot_days": 9,
+  "snapshot_days": 10,
   "is_indexable": true,
   "first_seen_at": "2026-09-01T00:26:13.032Z",
   "tracking_tier": "hot",
-  "last_fetched_date": "2026-09-09",
+  "last_fetched_date": "2026-09-10",
   "stars_stagnant_days": 0
 }

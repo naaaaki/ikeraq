@@ -17,11 +17,11 @@
     "web"
   ],
   "stars": 95563,
-  "forks": 9573,
+  "forks": 9571,
   "watchers": null,
-  "open_issues": 259,
+  "open_issues": 257,
   "created_at": "2017-05-09T22:16:13Z",
-  "pushed_at": "2026-09-08T15:29:25Z",
+  "pushed_at": "2026-09-09T16:25:33Z",
   "is_archived": false,
   "license_spdx": "Apache-2.0",
   "license_category": "permissive",
@@ -34,10 +34,10 @@
   "category": "dev-tool",
   "flags": [],
   "usability_score": 100,
-  "snapshot_days": 11,
+  "snapshot_days": 12,
   "is_indexable": true,
   "first_seen_at": "2026-08-29T15:46:21.821Z",
   "tracking_tier": "hot",
-  "last_fetched_date": "2026-09-09",
-  "stars_stagnant_days": 1
+  "last_fetched_date": "2026-09-10",
+  "stars_stagnant_days": 2
 }

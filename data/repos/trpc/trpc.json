@@ -13,9 +13,9 @@
     "react",
     "typescript"
   ],
-  "stars": 40588,
-  "forks": 1662,
-  "watchers": null,
+  "stars": 40591,
+  "forks": 1663,
+  "watchers": 106,
   "open_issues": 278,
   "created_at": "2020-07-18T01:17:11Z",
   "pushed_at": "2026-09-03T22:13:01Z",
@@ -31,10 +31,10 @@
   "category": "web-frontend",
   "flags": [],
   "usability_score": 100,
-  "snapshot_days": 9,
+  "snapshot_days": 10,
   "is_indexable": true,
   "first_seen_at": "2026-09-01T00:26:13.031Z",
   "tracking_tier": "hot",
-  "last_fetched_date": "2026-09-09",
-  "stars_stagnant_days": 1
+  "last_fetched_date": "2026-09-10",
+  "stars_stagnant_days": 0
 }

@@ -10,12 +10,12 @@
     "language",
     "rust"
   ],
-  "stars": 118015,
-  "forks": 15546,
+  "stars": 117989,
+  "forks": 15544,
   "watchers": null,
-  "open_issues": 12613,
+  "open_issues": 12620,
   "created_at": "2010-06-16T20:39:03Z",
-  "pushed_at": "2026-09-08T21:08:39Z",
+  "pushed_at": "2026-09-09T21:01:51Z",
   "is_archived": false,
   "license_spdx": "Apache-2.0",
   "license_category": "permissive",
@@ -28,10 +28,10 @@
   "category": "dev-tool",
   "flags": [],
   "usability_score": 100,
-  "snapshot_days": 11,
+  "snapshot_days": 12,
   "is_indexable": true,
   "first_seen_at": "2026-08-29T15:46:21.820Z",
   "tracking_tier": "hot",
-  "last_fetched_date": "2026-09-09",
-  "stars_stagnant_days": 0
+  "last_fetched_date": "2026-09-10",
+  "stars_stagnant_days": 1
 }

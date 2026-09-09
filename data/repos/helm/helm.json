@@ -13,11 +13,11 @@
     "kubernetes"
   ],
   "stars": 30228,
-  "forks": 7783,
+  "forks": 7785,
   "watchers": null,
-  "open_issues": 458,
+  "open_issues": 461,
   "created_at": "2015-10-06T01:07:32Z",
-  "pushed_at": "2026-09-08T12:03:45Z",
+  "pushed_at": "2026-09-09T22:31:01Z",
   "is_archived": false,
   "license_spdx": "Apache-2.0",
   "license_category": "permissive",
@@ -30,10 +30,10 @@
   "category": "infra",
   "flags": [],
   "usability_score": 100,
-  "snapshot_days": 7,
+  "snapshot_days": 8,
   "is_indexable": true,
   "first_seen_at": "2026-09-02T23:02:41.773Z",
   "tracking_tier": "hot",
-  "last_fetched_date": "2026-09-09",
-  "stars_stagnant_days": 0
+  "last_fetched_date": "2026-09-10",
+  "stars_stagnant_days": 1
 }

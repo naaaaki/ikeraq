@@ -27,8 +27,8 @@
     "reverse-proxy",
     "serverless"
   ],
-  "stars": 44105,
-  "forks": 5208,
+  "stars": 44114,
+  "forks": 5210,
   "watchers": null,
   "open_issues": 194,
   "created_at": "2014-11-17T23:56:08Z",
@@ -45,10 +45,10 @@
   "category": "ai-agent",
   "flags": [],
   "usability_score": 100,
-  "snapshot_days": 6,
-  "is_indexable": false,
+  "snapshot_days": 7,
+  "is_indexable": true,
   "first_seen_at": "2026-09-03T23:03:15.574Z",
   "tracking_tier": "hot",
-  "last_fetched_date": "2026-09-09",
+  "last_fetched_date": "2026-09-10",
   "stars_stagnant_days": 0
 }

@@ -12,8 +12,8 @@
     "python",
     "statistics"
   ],
-  "stars": 67218,
-  "forks": 27377,
+  "stars": 67217,
+  "forks": 27378,
   "watchers": null,
   "open_issues": 2153,
   "created_at": "2010-08-17T09:43:38Z",
@@ -30,10 +30,10 @@
   "category": "learning",
   "flags": [],
   "usability_score": 100,
-  "snapshot_days": 11,
+  "snapshot_days": 12,
   "is_indexable": true,
   "first_seen_at": "2026-08-29T23:02:08.747Z",
   "tracking_tier": "hot",
-  "last_fetched_date": "2026-09-09",
-  "stars_stagnant_days": 0
+  "last_fetched_date": "2026-09-10",
+  "stars_stagnant_days": 1
 }

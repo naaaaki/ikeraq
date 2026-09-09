@@ -21,8 +21,8 @@
     "semantic-search",
     "transformers"
   ],
-  "stars": 119421,
-  "forks": 62880,
+  "stars": 119455,
+  "forks": 62907,
   "watchers": 1007,
   "open_issues": 28,
   "created_at": "2023-06-19T16:28:59Z",
@@ -39,10 +39,10 @@
   "category": "llm",
   "flags": [],
   "usability_score": 100,
-  "snapshot_days": 11,
+  "snapshot_days": 12,
   "is_indexable": true,
   "first_seen_at": "2026-08-29T15:46:21.820Z",
   "tracking_tier": "hot",
-  "last_fetched_date": "2026-09-09",
+  "last_fetched_date": "2026-09-10",
   "stars_stagnant_days": 0
 }
