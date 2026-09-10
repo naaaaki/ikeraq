@@ -19,12 +19,12 @@
     "vulkan",
     "windows"
   ],
-  "stars": 32772,
-  "forks": 2505,
+  "stars": 32785,
+  "forks": 2509,
   "watchers": null,
-  "open_issues": 219,
+  "open_issues": 223,
   "created_at": "2022-10-24T09:48:37Z",
-  "pushed_at": "2026-09-09T11:42:14Z",
+  "pushed_at": "2026-09-10T06:51:50Z",
   "is_archived": false,
   "license_spdx": "GPL-2.0",
   "license_category": "strong-copyleft",
@@ -43,10 +43,10 @@
     }
   ],
   "usability_score": 85,
-  "snapshot_days": 9,
+  "snapshot_days": 10,
   "is_indexable": true,
   "first_seen_at": "2026-09-01T23:05:22.650Z",
   "tracking_tier": "hot",
-  "last_fetched_date": "2026-09-10",
+  "last_fetched_date": "2026-09-11",
   "stars_stagnant_days": 0
 }

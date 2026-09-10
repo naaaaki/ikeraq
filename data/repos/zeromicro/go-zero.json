@@ -27,7 +27,7 @@
     "spec-driven-development",
     "web-framework"
   ],
-  "stars": 33314,
+  "stars": 33319,
   "forks": 4315,
   "watchers": null,
   "open_issues": 252,
@@ -45,10 +45,10 @@
   "category": "backend",
   "flags": [],
   "usability_score": 100,
-  "snapshot_days": 9,
+  "snapshot_days": 10,
   "is_indexable": true,
   "first_seen_at": "2026-09-01T23:05:22.650Z",
   "tracking_tier": "hot",
-  "last_fetched_date": "2026-09-10",
-  "stars_stagnant_days": 1
+  "last_fetched_date": "2026-09-11",
+  "stars_stagnant_days": 0
 }

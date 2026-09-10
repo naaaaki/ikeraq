@@ -13,9 +13,9 @@
     "static-site-generator",
     "typescript"
   ],
-  "stars": 41763,
-  "forks": 40,
-  "watchers": 786,
+  "stars": 41761,
+  "forks": 41,
+  "watchers": 785,
   "open_issues": 75,
   "created_at": "2012-09-23T15:17:08Z",
   "pushed_at": "2026-08-29T09:36:32Z",
@@ -31,10 +31,10 @@
   "category": "backend",
   "flags": [],
   "usability_score": 100,
-  "snapshot_days": 11,
+  "snapshot_days": 12,
   "is_indexable": true,
   "first_seen_at": "2026-08-30T23:15:18.750Z",
   "tracking_tier": "hot",
-  "last_fetched_date": "2026-09-10",
-  "stars_stagnant_days": 3
+  "last_fetched_date": "2026-09-11",
+  "stars_stagnant_days": 4
 }

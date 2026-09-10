@@ -17,12 +17,12 @@
     "kubernetes",
     "raft"
   ],
-  "stars": 52236,
-  "forks": 10490,
+  "stars": 52242,
+  "forks": 10492,
   "watchers": null,
-  "open_issues": 355,
+  "open_issues": 343,
   "created_at": "2013-07-06T21:57:21Z",
-  "pushed_at": "2026-09-09T16:27:02Z",
+  "pushed_at": "2026-09-10T21:30:04Z",
   "is_archived": false,
   "license_spdx": "Apache-2.0",
   "license_category": "permissive",
@@ -35,10 +35,10 @@
   "category": "infra",
   "flags": [],
   "usability_score": 100,
-  "snapshot_days": 12,
+  "snapshot_days": 13,
   "is_indexable": true,
   "first_seen_at": "2026-08-29T23:02:08.747Z",
   "tracking_tier": "hot",
-  "last_fetched_date": "2026-09-10",
-  "stars_stagnant_days": 1
+  "last_fetched_date": "2026-09-11",
+  "stars_stagnant_days": 0
 }

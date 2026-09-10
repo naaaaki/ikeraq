@@ -18,8 +18,8 @@
     "python",
     "structured-data"
   ],
-  "stars": 38557,
-  "forks": 2705,
+  "stars": 38564,
+  "forks": 2704,
   "watchers": 173,
   "open_issues": 130,
   "created_at": "2025-07-08T20:46:06Z",
@@ -36,10 +36,10 @@
   "category": "llm",
   "flags": [],
   "usability_score": 100,
-  "snapshot_days": 10,
+  "snapshot_days": 11,
   "is_indexable": true,
   "first_seen_at": "2026-09-01T00:26:13.031Z",
   "tracking_tier": "hot",
-  "last_fetched_date": "2026-09-10",
+  "last_fetched_date": "2026-09-11",
   "stars_stagnant_days": 0
 }

@@ -11,12 +11,12 @@
     "language",
     "programming-language"
   ],
-  "stars": 137993,
-  "forks": 19346,
+  "stars": 138406,
+  "forks": 19352,
   "watchers": null,
-  "open_issues": 10156,
+  "open_issues": 10165,
   "created_at": "2014-08-19T04:33:40Z",
-  "pushed_at": "2026-09-09T22:20:31Z",
+  "pushed_at": "2026-09-10T19:23:37Z",
   "is_archived": false,
   "license_spdx": "BSD-3-Clause",
   "license_category": "permissive",
@@ -29,10 +29,10 @@
   "category": "other",
   "flags": [],
   "usability_score": 100,
-  "snapshot_days": 12,
+  "snapshot_days": 13,
   "is_indexable": true,
   "first_seen_at": "2026-08-29T15:46:21.820Z",
   "tracking_tier": "hot",
-  "last_fetched_date": "2026-09-10",
-  "stars_stagnant_days": 1
+  "last_fetched_date": "2026-09-11",
+  "stars_stagnant_days": 0
 }

@@ -20,12 +20,12 @@
     "version-manager",
     "zsh"
   ],
-  "stars": 95051,
+  "stars": 95063,
   "forks": 10440,
   "watchers": null,
-  "open_issues": 387,
+  "open_issues": 384,
   "created_at": "2010-04-15T17:47:47Z",
-  "pushed_at": "2026-09-09T05:25:01Z",
+  "pushed_at": "2026-09-10T22:12:50Z",
   "is_archived": false,
   "license_spdx": "MIT",
   "license_category": "permissive",
@@ -38,10 +38,10 @@
   "category": "backend",
   "flags": [],
   "usability_score": 100,
-  "snapshot_days": 7,
+  "snapshot_days": 8,
   "is_indexable": true,
   "first_seen_at": "2026-09-03T23:03:15.574Z",
   "tracking_tier": "hot",
-  "last_fetched_date": "2026-09-10",
+  "last_fetched_date": "2026-09-11",
   "stars_stagnant_days": 0
 }

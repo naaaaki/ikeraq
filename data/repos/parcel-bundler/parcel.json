@@ -18,7 +18,7 @@
     "modules",
     "web"
   ],
-  "stars": 44023,
+  "stars": 44022,
   "forks": 2284,
   "watchers": null,
   "open_issues": 607,
@@ -36,10 +36,10 @@
   "category": "web-frontend",
   "flags": [],
   "usability_score": 100,
-  "snapshot_days": 11,
+  "snapshot_days": 12,
   "is_indexable": true,
   "first_seen_at": "2026-08-30T23:15:18.750Z",
   "tracking_tier": "hot",
-  "last_fetched_date": "2026-09-10",
-  "stars_stagnant_days": 3
+  "last_fetched_date": "2026-09-11",
+  "stars_stagnant_days": 4
 }

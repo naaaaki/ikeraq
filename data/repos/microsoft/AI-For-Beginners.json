@@ -17,9 +17,9 @@
     "nlp",
     "rnn"
   ],
-  "stars": 68315,
-  "forks": 13175,
-  "watchers": null,
+  "stars": 68351,
+  "forks": 13185,
+  "watchers": 655,
   "open_issues": 7,
   "created_at": "2021-03-03T16:27:36Z",
   "pushed_at": "2026-09-04T17:34:23Z",
@@ -35,10 +35,10 @@
   "category": "learning",
   "flags": [],
   "usability_score": 100,
-  "snapshot_days": 3,
+  "snapshot_days": 4,
   "is_indexable": false,
   "first_seen_at": "2026-09-07T23:19:48.975Z",
   "tracking_tier": "hot",
-  "last_fetched_date": "2026-09-10",
+  "last_fetched_date": "2026-09-11",
   "stars_stagnant_days": 0
 }

@@ -4,18 +4,18 @@
   "name": "chinese-independent-developer",
   "description_en": "👩🏿‍💻👨🏾‍💻👩🏼‍💻👨🏽‍💻👩🏻‍💻中国独立开发者项目列表 -- 分享大家都在做什么",
   "human_note": null,
-  "language": "Python",
+  "language": null,
   "topics": [
     "china",
     "indie",
     "indie-developer"
   ],
-  "stars": 61352,
-  "forks": 5374,
+  "stars": 61380,
+  "forks": 5378,
   "watchers": null,
-  "open_issues": 2,
+  "open_issues": 1,
   "created_at": "2017-09-21T11:08:23Z",
-  "pushed_at": "2026-09-09T15:05:09Z",
+  "pushed_at": "2026-09-10T21:04:25Z",
   "is_archived": false,
   "license_spdx": null,
   "license_category": "none",
@@ -34,10 +34,10 @@
     }
   ],
   "usability_score": 60,
-  "snapshot_days": 12,
+  "snapshot_days": 13,
   "is_indexable": true,
   "first_seen_at": "2026-08-29T23:02:08.747Z",
   "tracking_tier": "hot",
-  "last_fetched_date": "2026-09-10",
+  "last_fetched_date": "2026-09-11",
   "stars_stagnant_days": 0
 }

@@ -26,12 +26,12 @@
     "sql",
     "tidb"
   ],
-  "stars": 40504,
+  "stars": 40509,
   "forks": 6240,
   "watchers": null,
-  "open_issues": 6951,
+  "open_issues": 6976,
   "created_at": "2015-09-06T04:01:52Z",
-  "pushed_at": "2026-09-09T22:31:41Z",
+  "pushed_at": "2026-09-10T19:25:51Z",
   "is_archived": false,
   "license_spdx": "Apache-2.0",
   "license_category": "permissive",
@@ -44,10 +44,10 @@
   "category": "ai-agent",
   "flags": [],
   "usability_score": 100,
-  "snapshot_days": 10,
+  "snapshot_days": 11,
   "is_indexable": true,
   "first_seen_at": "2026-09-01T00:26:13.031Z",
   "tracking_tier": "hot",
-  "last_fetched_date": "2026-09-10",
+  "last_fetched_date": "2026-09-11",
   "stars_stagnant_days": 0
 }

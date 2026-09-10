@@ -10,12 +10,12 @@
     "idioms",
     "python"
   ],
-  "stars": 42972,
-  "forks": 6989,
+  "stars": 42974,
+  "forks": 6991,
   "watchers": null,
-  "open_issues": 12,
+  "open_issues": 15,
   "created_at": "2012-06-06T21:02:35Z",
-  "pushed_at": "2026-09-04T14:36:32Z",
+  "pushed_at": "2026-09-10T09:10:08Z",
   "is_archived": false,
   "license_spdx": null,
   "license_category": "none",
@@ -34,10 +34,10 @@
     }
   ],
   "usability_score": 60,
-  "snapshot_days": 3,
+  "snapshot_days": 4,
   "is_indexable": true,
   "first_seen_at": "2026-09-07T23:19:48.975Z",
   "tracking_tier": "hot",
-  "last_fetched_date": "2026-09-10",
-  "stars_stagnant_days": 1
+  "last_fetched_date": "2026-09-11",
+  "stars_stagnant_days": 0
 }

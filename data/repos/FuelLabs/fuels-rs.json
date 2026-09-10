@@ -6,10 +6,10 @@
   "human_note": null,
   "language": "Rust",
   "topics": [],
-  "stars": 43032,
-  "forks": 1357,
+  "stars": 43031,
+  "forks": 1358,
   "watchers": 126,
-  "open_issues": 73,
+  "open_issues": 74,
   "created_at": "2021-10-31T22:33:54Z",
   "pushed_at": "2026-08-29T12:24:43Z",
   "is_archived": false,
@@ -24,10 +24,10 @@
   "category": "other",
   "flags": [],
   "usability_score": 100,
-  "snapshot_days": 11,
+  "snapshot_days": 12,
   "is_indexable": true,
   "first_seen_at": "2026-08-30T23:15:18.750Z",
   "tracking_tier": "hot",
-  "last_fetched_date": "2026-09-10",
-  "stars_stagnant_days": 6
+  "last_fetched_date": "2026-09-11",
+  "stars_stagnant_days": 7
 }

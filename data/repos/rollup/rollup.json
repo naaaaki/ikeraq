@@ -6,12 +6,12 @@
   "human_note": null,
   "language": "JavaScript",
   "topics": [],
-  "stars": 26308,
+  "stars": 26306,
   "forks": 1774,
   "watchers": null,
   "open_issues": 609,
   "created_at": "2015-05-14T22:26:28Z",
-  "pushed_at": "2026-09-07T05:07:59Z",
+  "pushed_at": "2026-09-10T04:53:40Z",
   "is_archived": false,
   "license_spdx": "NOASSERTION",
   "license_category": "unknown",
@@ -24,10 +24,10 @@
   "category": "other",
   "flags": [],
   "usability_score": 100,
-  "snapshot_days": 7,
+  "snapshot_days": 8,
   "is_indexable": true,
   "first_seen_at": "2026-09-03T23:03:15.575Z",
   "tracking_tier": "hot",
-  "last_fetched_date": "2026-09-10",
-  "stars_stagnant_days": 3
+  "last_fetched_date": "2026-09-11",
+  "stars_stagnant_days": 4
 }

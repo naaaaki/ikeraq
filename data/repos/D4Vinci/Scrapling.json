@@ -27,10 +27,10 @@
     "webscraping",
     "xpath"
   ],
-  "stars": 79672,
-  "forks": 8013,
-  "watchers": 281,
-  "open_issues": 15,
+  "stars": 79992,
+  "forks": 8058,
+  "watchers": 291,
+  "open_issues": 17,
   "created_at": "2024-10-13T20:29:53Z",
   "pushed_at": "2026-09-04T12:33:28Z",
   "is_archived": false,
@@ -45,10 +45,10 @@
   "category": "ai-agent",
   "flags": [],
   "usability_score": 100,
-  "snapshot_days": 12,
+  "snapshot_days": 13,
   "is_indexable": true,
   "first_seen_at": "2026-08-29T23:02:08.747Z",
   "tracking_tier": "hot",
-  "last_fetched_date": "2026-09-10",
+  "last_fetched_date": "2026-09-11",
   "stars_stagnant_days": 0
 }

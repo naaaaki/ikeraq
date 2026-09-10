@@ -12,8 +12,8 @@
     "life",
     "work"
   ],
-  "stars": 43872,
-  "forks": 4256,
+  "stars": 43880,
+  "forks": 4257,
   "watchers": null,
   "open_issues": 69,
   "created_at": "2024-01-03T23:18:31Z",
@@ -30,10 +30,10 @@
   "category": "other",
   "flags": [],
   "usability_score": 100,
-  "snapshot_days": 11,
+  "snapshot_days": 12,
   "is_indexable": true,
   "first_seen_at": "2026-08-30T23:15:18.750Z",
   "tracking_tier": "hot",
-  "last_fetched_date": "2026-09-10",
+  "last_fetched_date": "2026-09-11",
   "stars_stagnant_days": 0
 }

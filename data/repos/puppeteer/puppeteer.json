@@ -16,8 +16,8 @@
     "testing",
     "web"
   ],
-  "stars": 95563,
-  "forks": 9571,
+  "stars": 95566,
+  "forks": 9570,
   "watchers": null,
   "open_issues": 257,
   "created_at": "2017-05-09T22:16:13Z",
@@ -34,10 +34,10 @@
   "category": "dev-tool",
   "flags": [],
   "usability_score": 100,
-  "snapshot_days": 12,
+  "snapshot_days": 13,
   "is_indexable": true,
   "first_seen_at": "2026-08-29T15:46:21.821Z",
   "tracking_tier": "hot",
-  "last_fetched_date": "2026-09-10",
-  "stars_stagnant_days": 2
+  "last_fetched_date": "2026-09-11",
+  "stars_stagnant_days": 0
 }

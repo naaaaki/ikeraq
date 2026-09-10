@@ -12,7 +12,7 @@
     "parser",
     "postcss"
   ],
-  "stars": 28974,
+  "stars": 28972,
   "forks": 1640,
   "watchers": null,
   "open_issues": 24,
@@ -30,10 +30,10 @@
   "category": "web-frontend",
   "flags": [],
   "usability_score": 100,
-  "snapshot_days": 7,
+  "snapshot_days": 8,
   "is_indexable": true,
   "first_seen_at": "2026-09-03T23:03:15.575Z",
   "tracking_tier": "hot",
-  "last_fetched_date": "2026-09-10",
-  "stars_stagnant_days": 6
+  "last_fetched_date": "2026-09-11",
+  "stars_stagnant_days": 7
 }

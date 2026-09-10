@@ -13,10 +13,10 @@
     "qwen",
     "rust"
   ],
-  "stars": 68275,
-  "forks": 5884,
+  "stars": 68294,
+  "forks": 5882,
   "watchers": null,
-  "open_issues": 1,
+  "open_issues": 2,
   "created_at": "2023-07-14T07:10:44Z",
   "pushed_at": "2026-09-09T04:59:04Z",
   "is_archived": false,
@@ -31,10 +31,10 @@
   "category": "ai-agent",
   "flags": [],
   "usability_score": 100,
-  "snapshot_days": 3,
+  "snapshot_days": 4,
   "is_indexable": false,
   "first_seen_at": "2026-09-07T23:19:48.975Z",
   "tracking_tier": "hot",
-  "last_fetched_date": "2026-09-10",
+  "last_fetched_date": "2026-09-11",
   "stars_stagnant_days": 0
 }

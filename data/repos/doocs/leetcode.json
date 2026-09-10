@@ -15,7 +15,7 @@
     "leetcode",
     "python3"
   ],
-  "stars": 36571,
+  "stars": 36579,
   "forks": 9494,
   "watchers": null,
   "open_issues": 0,
@@ -39,10 +39,10 @@
     }
   ],
   "usability_score": 85,
-  "snapshot_days": 10,
+  "snapshot_days": 11,
   "is_indexable": true,
   "first_seen_at": "2026-09-01T00:26:13.032Z",
   "tracking_tier": "hot",
-  "last_fetched_date": "2026-09-10",
+  "last_fetched_date": "2026-09-11",
   "stars_stagnant_days": 0
 }

@@ -10,10 +10,10 @@
     "codex",
     "marketing"
   ],
-  "stars": 49232,
-  "forks": 7521,
+  "stars": 49429,
+  "forks": 7534,
   "watchers": null,
-  "open_issues": 108,
+  "open_issues": 110,
   "created_at": "2026-01-15T19:45:23Z",
   "pushed_at": "2026-09-05T04:48:10Z",
   "is_archived": false,
@@ -28,10 +28,10 @@
   "category": "other",
   "flags": [],
   "usability_score": 100,
-  "snapshot_days": 11,
+  "snapshot_days": 12,
   "is_indexable": true,
   "first_seen_at": "2026-08-30T23:15:18.749Z",
   "tracking_tier": "hot",
-  "last_fetched_date": "2026-09-10",
+  "last_fetched_date": "2026-09-11",
   "stars_stagnant_days": 0
 }

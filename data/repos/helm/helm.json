@@ -12,8 +12,8 @@
     "helm",
     "kubernetes"
   ],
-  "stars": 30228,
-  "forks": 7785,
+  "stars": 30232,
+  "forks": 7784,
   "watchers": null,
   "open_issues": 461,
   "created_at": "2015-10-06T01:07:32Z",
@@ -30,10 +30,10 @@
   "category": "infra",
   "flags": [],
   "usability_score": 100,
-  "snapshot_days": 8,
+  "snapshot_days": 9,
   "is_indexable": true,
   "first_seen_at": "2026-09-02T23:02:41.773Z",
   "tracking_tier": "hot",
-  "last_fetched_date": "2026-09-10",
-  "stars_stagnant_days": 1
+  "last_fetched_date": "2026-09-11",
+  "stars_stagnant_days": 0
 }

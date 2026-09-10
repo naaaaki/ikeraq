@@ -10,12 +10,12 @@
     "laravel",
     "php"
   ],
-  "stars": 34901,
+  "stars": 34904,
   "forks": 11981,
   "watchers": null,
-  "open_issues": 98,
+  "open_issues": 100,
   "created_at": "2013-01-10T21:27:28Z",
-  "pushed_at": "2026-09-09T19:51:23Z",
+  "pushed_at": "2026-09-10T15:11:37Z",
   "is_archived": false,
   "license_spdx": "MIT",
   "license_category": "permissive",
@@ -28,10 +28,10 @@
   "category": "backend",
   "flags": [],
   "usability_score": 100,
-  "snapshot_days": 10,
+  "snapshot_days": 11,
   "is_indexable": true,
   "first_seen_at": "2026-09-01T00:26:13.032Z",
   "tracking_tier": "hot",
-  "last_fetched_date": "2026-09-10",
+  "last_fetched_date": "2026-09-11",
   "stars_stagnant_days": 0
 }

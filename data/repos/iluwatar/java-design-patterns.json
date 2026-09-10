@@ -15,10 +15,10 @@
     "snippets-collection",
     "snippets-library"
   ],
-  "stars": 94677,
+  "stars": 94684,
   "forks": 27379,
-  "watchers": 3676,
-  "open_issues": 129,
+  "watchers": 3675,
+  "open_issues": 130,
   "created_at": "2014-08-09T16:45:18Z",
   "pushed_at": "2026-08-31T22:43:02Z",
   "is_archived": false,
@@ -33,10 +33,10 @@
   "category": "web-frontend",
   "flags": [],
   "usability_score": 100,
-  "snapshot_days": 12,
+  "snapshot_days": 13,
   "is_indexable": true,
   "first_seen_at": "2026-08-29T15:46:21.821Z",
   "tracking_tier": "hot",
-  "last_fetched_date": "2026-09-10",
+  "last_fetched_date": "2026-09-11",
   "stars_stagnant_days": 0
 }

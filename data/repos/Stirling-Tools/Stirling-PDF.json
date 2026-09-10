@@ -20,12 +20,12 @@
     "pdfmerger",
     "self-hosted"
   ],
-  "stars": 91616,
-  "forks": 8304,
+  "stars": 91683,
+  "forks": 8314,
   "watchers": null,
   "open_issues": 635,
   "created_at": "2023-01-27T18:22:42Z",
-  "pushed_at": "2026-09-09T22:20:31Z",
+  "pushed_at": "2026-09-10T22:50:42Z",
   "is_archived": false,
   "license_spdx": "NOASSERTION",
   "license_category": "unknown",
@@ -38,10 +38,10 @@
   "category": "infra",
   "flags": [],
   "usability_score": 100,
-  "snapshot_days": 12,
+  "snapshot_days": 13,
   "is_indexable": true,
   "first_seen_at": "2026-08-29T15:46:21.821Z",
   "tracking_tier": "hot",
-  "last_fetched_date": "2026-09-10",
+  "last_fetched_date": "2026-09-11",
   "stars_stagnant_days": 0
 }
