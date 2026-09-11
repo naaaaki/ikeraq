@@ -1,0 +1,93 @@
+---
+updated: 2026-09-11
+image:
+image_alt:
+---
+
+<!-- ============================================================
+  ayghri/i-have-adhd
+  https://github.com/ayghri/i-have-adhd
+  A skill to stop your coding agent from burying the answer. ADHD-friendly output.
+  Python / MIT / スター 38,134
+  topics: adhd, claude-, claude-code-plugin, claude-skills, developer-tools, productivity
+============================================================ -->
+
+
+## 見出しの一文
+
+AIの返事の1行目を「次にやること」にして、読み飛ばしても迷わなくする
+
+
+## どういうものか
+
+コーディングエージェントの返事は長くなりがちだ。「いい質問ですね」から始まり、状況の整理、関係しそうな話、ついでの提案が続き、肝心の「で、何をすればいいのか」は途中に埋もれる。i-have-adhd は、この**返事の組み立て方そのもの**を書き換えるスキル。中身は1枚の指示書で、エージェントに読み込ませると、以降の返事がその決まりに沿った形で出てくるようになる。名前は ADHD だが、README の冒頭には「診断は要らない」とある。
+
+決まりは10個あり、どれも「人は画面から消えた情報を覚えていられない」「分かったことと手を動かすことの間には段差がある」「最初の一歩が小さくないと始められない」といった前提から組み立てられている。具体的には、**1行目にコマンドやファイルの場所など手を動かせるものを置く**、複数の手順は番号を振って1手ずつに切る、**最後は2分以内にできる一手で締める**、本題以外の話は後回しにして別に提案する、毎回「5つ中3つ目まで終わった」と現在地を書き直す、所要時間は「少し」ではなく「15分」のように数字で言う、エラーは慰めの言葉を抜いて原因と直し方だけを書く、並べる項目は5つまで、前置き・振り返り・社交辞令は書かない、といったもの。送る前には「最初と最後の行だけ読んで、次に何をするかと何が起きたかが分かるか」を自分で確かめるよう求めている。
+
+一度呼び出すと、話題が変わってもその会話の間ずっと効き続け、「普通に戻して」と言われたときだけ元の書き方に戻る。ただし決まりを破ってよい場面も書かれていて、説明そのものを求められたとき、ファイル削除や強制プッシュのような戻せない操作の前、同じ不具合で3回つまずいたとき、質問の意図が本当に曖昧なときは、いつもの短さより確認や説明を優先する。Claude Code のプラグインとして入れるほか、Codex・Cursor・Gemini などにも対応している。
+
+
+## 図
+
+<svg viewBox="0 0 800 430" role="img" aria-label="i-have-adhd の働きを表した図。左に、前置き・状況の整理・ついでの話が続き、やることが途中に埋もれている普段の返事がある。中央の i-have-adhd（10の決まり）を通ると、右の返事になる。右の返事は、1行目に次の一手、中ほどに番号つきの手順、最後に2分でできる一手が並んでいる。下に「最初と最後の行だけ読めば、次に何をするかが分かる」と添えられている。" style="width: 100%; height: auto; display: block; font-family: var(--jp);">
+  <defs>
+    <marker id="adhd-arrow" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="6" markerHeight="6" orient="auto-start-reverse">
+      <path d="M0,0 L10,5 L0,10 z" fill="#1E5A48" />
+    </marker>
+  </defs>
+  <rect width="800" height="430" fill="#FFFFFF" />
+  <text x="400" y="54" text-anchor="middle" font-size="27" font-weight="700" fill="#17160F">答えを<tspan fill="#1E5A48">1行目</tspan>に、締めは次の一手</text>
+
+  <rect x="20" y="110" width="220" height="210" rx="8" fill="none" stroke="#17160F" stroke-opacity="0.28" stroke-width="1.5" stroke-dasharray="5 4" />
+  <text x="130" y="144" text-anchor="middle" font-size="16" font-weight="700" fill="#17160F">いつもの返事</text>
+  <text x="130" y="166" text-anchor="middle" font-size="11.5" fill="#17160F" fill-opacity="0.72">（答えが埋もれる）</text>
+  <text x="44" y="198" font-size="12.5" fill="#17160F" fill-opacity="0.6">いい質問ですね…</text>
+  <text x="44" y="222" font-size="12.5" fill="#17160F" fill-opacity="0.6">状況を整理すると…</text>
+  <text x="44" y="246" font-size="12.5" fill="#17160F" font-weight="700">やること</text>
+  <text x="44" y="270" font-size="12.5" fill="#17160F" fill-opacity="0.6">ついでに言うと…</text>
+  <text x="44" y="294" font-size="12.5" fill="#17160F" fill-opacity="0.6">お役に立てば幸いです</text>
+
+  <line x1="240" y1="215" x2="290" y2="215" stroke="#1E5A48" stroke-width="4" marker-end="url(#adhd-arrow)" />
+
+  <rect x="298" y="150" width="200" height="130" rx="8" fill="none" stroke="#1E5A48" stroke-width="2" />
+  <text x="398" y="196" text-anchor="middle" font-size="18" font-weight="700" fill="#1E5A48">i-have-adhd</text>
+  <text x="398" y="222" text-anchor="middle" font-size="11.5" fill="#17160F" fill-opacity="0.72">（10の決まり）</text>
+  <text x="398" y="252" text-anchor="middle" font-size="12" fill="#17160F" fill-opacity="0.85">会話の間ずっと効く</text>
+
+  <line x1="498" y1="215" x2="548" y2="215" stroke="#1E5A48" stroke-width="4" marker-end="url(#adhd-arrow)" />
+
+  <rect x="556" y="110" width="224" height="210" rx="8" fill="none" stroke="#17160F" stroke-opacity="0.28" stroke-width="1.5" />
+  <text x="668" y="144" text-anchor="middle" font-size="16" font-weight="700" fill="#17160F">書き換えた返事</text>
+  <text x="668" y="166" text-anchor="middle" font-size="11.5" fill="#17160F" fill-opacity="0.72">（そのまま動ける）</text>
+  <text x="580" y="200" font-size="12.5" fill="#1E5A48" font-weight="700">次の一手（1行目）</text>
+  <text x="580" y="228" font-size="12.5" fill="#17160F" fill-opacity="0.85">1. ファイルを開く</text>
+  <text x="580" y="250" font-size="12.5" fill="#17160F" fill-opacity="0.85">2. 関数を差し替える</text>
+  <text x="580" y="272" font-size="12.5" fill="#17160F" fill-opacity="0.85">3. テストを流す</text>
+  <text x="580" y="302" font-size="12.5" fill="#1E5A48" font-weight="700">2分でできる一手（締め）</text>
+
+  <text x="400" y="386" text-anchor="middle" font-size="13.5" fill="#17160F" fill-opacity="0.72">最初と最後の行だけ読めば、次に何をするかが分かる形にそろえる</text>
+</svg>
+
+キャプション: 変わるのは中身ではなく**並び順**。同じ内容でも、やることが先頭と末尾に来るだけで、読み飛ばしても手が止まらなくなる。
+
+
+## どんなときに使うか
+
+### エージェントの長い返事を、毎回スクロールして探しているとき
+
+作業の合間に返事を読むと、どこに「やること」が書いてあるのか探すだけで気が散る。1行目と最後の行を見れば動けるようになるので、**読み込む量そのものが減る**。
+
+### 何ステップもある作業で、今どこまで進んだか見失いがちなとき
+
+毎回「5つ中3つ目まで終わった、次はこれ」と現在地を書き直す決まりがあるので、席を外して戻ってきても、**前の返事までさかのぼらずに続きが分かる**。
+
+
+## 注意点
+
+**じっくり理由を知りたい人には物足りない。** 背景の説明や別の選択肢の比較は、頼まない限り出てこなくなる。説明を求めればきちんと答える決まりにはなっているが、「全体像を掴んでから動きたい」という進め方の人には、毎回頼み直す手間のほうが大きくなりうる。
+
+**エージェント側の指示が優先される。** Claude Code などの中で使う場合、道具ごとにもともと入っている指示のほうが、このスキルより上に置かれるとスキル自身が書いている。すべての返事が決まりどおりの形になるとは限らない。
+
+**既定は「呼び出したときだけ」。** 常に効かせる設定も用意されているが、そうすると長い説明がほしい場面でも毎回短い形で返ってくる。どちらで使うかは、自分の作業の中身で決めたい。決まりを自分好みに変えたい場合は、リポジトリを複製して指示書を書き換える方式になっている。
+
+ライセンスは MIT。

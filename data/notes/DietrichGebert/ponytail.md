@@ -1,0 +1,97 @@
+---
+updated: 2026-09-11
+image:
+image_alt:
+---
+
+<!-- ============================================================
+  DietrichGebert/ponytail
+  https://github.com/DietrichGebert/ponytail
+  Makes your AI agent think like the laziest senior dev in the room. The best code is the code you never wrote.
+  JavaScript / MIT / スター 134,658
+============================================================ -->
+
+
+## 見出しの一文
+
+AIに「書かずに済むか」を先に考えさせ、頼んでいないコードを増やさない
+
+
+## どういうものか
+
+コーディングエージェントに機能を頼むと、たいてい頼んだ以上のものが返ってくる。日付を選ぶ欄がほしいだけなのに、外部ライブラリを入れ、包むための部品を作り、見た目の調整まで足してくる。ponytail はこの「作りすぎ」を止めるための決まりごと一式で、エージェントが**コードを書き始める前に、書かずに済む道を順番に確かめさせる**。先の例なら、ブラウザに最初からある日付入力で終わる。
+
+中心にあるのは7段の確認の順番だ。**そもそも要るのか → すでにコードの中にあるか → 標準ライブラリにあるか → ブラウザなど実行環境の機能にあるか → もう入れてある依存パッケージにあるか → 1行で済むか**、と上から問い、どれにも当たらなかったときにだけ最小限を書く。一方で、削ってはいけないものも決めてある。外から入ってくる値の検査、データを守るためのエラー処理、セキュリティ、アクセシビリティ、それに頼まれたものは、どの段でも省かない。手を抜いて済ませた箇所には印のコメントを残し、何を諦めたか・どう直せばよいかを書かせるので、あとから探し出せる。何を作らなかったのか、なぜかを利用者に説明させるのも決まりの一つだ。
+
+中身の本体は文章の決まりなので、形を変えて多くの道具に配られている。Claude Code・Codex・Gemini CLI・OpenCode などにはプラグインとして入り、強さを lite／full／ultra／off の4段で切り替えられるほか、いまの差分から作りすぎを探す、リポジトリ全体を点検する、といったコマンドが付く。Cursor・Windsurf・Cline・Aider などには、常に効く決まりのファイルとして置く形になる。作者は効果の計測結果も公開しており、いま載っている Claude Haiku 4.5 での試験（FastAPI の雛形を実際に編集させる12の課題）では、書かれる行数が半分以下になったとしている。
+
+
+## 図
+
+<svg viewBox="0 0 800 450" role="img" aria-label="ponytail の仕組みの図。左に依頼（例：日付を選ぶ欄がほしい）があり、緑の矢印で中央の確認の順番に入る。中央には上から、そもそも要るか、もうコードにあるか、標準ライブラリにあるか、実行環境の機能にあるか、入れてある依存にあるか、1行で済むか、の6段と、最後に最小限を書く段が並ぶ。そこから右の答え（例：ブラウザ標準の日付入力）へ矢印が出る。下には、どの段でも削らないものとして入力の検査・エラー処理・セキュリティ・アクセシビリティが書かれている。" style="width: 100%; height: auto; display: block; font-family: var(--jp);">
+  <defs>
+    <marker id="pt-arrow" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="6" markerHeight="6" orient="auto-start-reverse">
+      <path d="M0,0 L10,5 L0,10 z" fill="#1E5A48" />
+    </marker>
+  </defs>
+  <rect width="800" height="450" fill="#FFFFFF" />
+  <text x="400" y="52" text-anchor="middle" font-size="27" font-weight="700" fill="#17160F">書く前に、<tspan fill="#1E5A48">書かずに済むか</tspan>を上から確かめる</text>
+
+  <rect x="24" y="160" width="176" height="110" rx="8" fill="none" stroke="#17160F" stroke-opacity="0.28" stroke-width="1.5" stroke-dasharray="5 4" />
+  <text x="112" y="194" text-anchor="middle" font-size="16" font-weight="700" fill="#17160F">依頼</text>
+  <text x="112" y="218" text-anchor="middle" font-size="11.5" fill="#17160F" fill-opacity="0.72">（例）</text>
+  <text x="112" y="244" text-anchor="middle" font-size="12.5" fill="#17160F" fill-opacity="0.85">日付を選ぶ欄がほしい</text>
+
+  <line x1="200" y1="215" x2="244" y2="215" stroke="#1E5A48" stroke-width="4" marker-end="url(#pt-arrow)" />
+
+  <rect x="252" y="86" width="300" height="30" rx="4" fill="none" stroke="#17160F" stroke-opacity="0.3" />
+  <text x="402" y="106" text-anchor="middle" font-size="12.5" fill="#17160F" fill-opacity="0.85">1　そもそも要るか</text>
+  <rect x="252" y="122" width="300" height="30" rx="4" fill="none" stroke="#17160F" stroke-opacity="0.3" />
+  <text x="402" y="142" text-anchor="middle" font-size="12.5" fill="#17160F" fill-opacity="0.85">2　もうコードの中にあるか</text>
+  <rect x="252" y="158" width="300" height="30" rx="4" fill="none" stroke="#17160F" stroke-opacity="0.3" />
+  <text x="402" y="178" text-anchor="middle" font-size="12.5" fill="#17160F" fill-opacity="0.85">3　標準ライブラリにあるか</text>
+  <rect x="252" y="194" width="300" height="30" rx="4" fill="none" stroke="#1E5A48" stroke-width="2" />
+  <text x="402" y="214" text-anchor="middle" font-size="12.5" font-weight="700" fill="#1E5A48">4　実行環境の機能にあるか</text>
+  <rect x="252" y="230" width="300" height="30" rx="4" fill="none" stroke="#17160F" stroke-opacity="0.3" />
+  <text x="402" y="250" text-anchor="middle" font-size="12.5" fill="#17160F" fill-opacity="0.85">5　入れてある依存にあるか</text>
+  <rect x="252" y="266" width="300" height="30" rx="4" fill="none" stroke="#17160F" stroke-opacity="0.3" />
+  <text x="402" y="286" text-anchor="middle" font-size="12.5" fill="#17160F" fill-opacity="0.85">6　1行で済むか</text>
+  <rect x="252" y="302" width="300" height="30" rx="4" fill="none" stroke="#17160F" stroke-opacity="0.3" stroke-dasharray="4 3" />
+  <text x="402" y="322" text-anchor="middle" font-size="12.5" fill="#17160F" fill-opacity="0.72">どれでもなければ、最小限を書く</text>
+
+  <line x1="552" y1="209" x2="596" y2="209" stroke="#1E5A48" stroke-width="4" marker-end="url(#pt-arrow)" />
+
+  <rect x="604" y="154" width="176" height="110" rx="8" fill="none" stroke="#1E5A48" stroke-width="2" />
+  <text x="692" y="188" text-anchor="middle" font-size="16" font-weight="700" fill="#1E5A48">いちばん短い答え</text>
+  <text x="692" y="212" text-anchor="middle" font-size="11.5" fill="#17160F" fill-opacity="0.72">（例）</text>
+  <text x="692" y="238" text-anchor="middle" font-size="12.5" fill="#17160F" fill-opacity="0.85">ブラウザ標準の日付入力</text>
+
+  <rect x="120" y="354" width="560" height="34" rx="4" fill="none" stroke="#17160F" stroke-opacity="0.28" stroke-width="1.5" />
+  <text x="400" y="376" text-anchor="middle" font-size="12.5" fill="#17160F" fill-opacity="0.85"><tspan font-weight="700" fill="#1E5A48">どの段でも削らない：</tspan>入力の検査・エラー処理・セキュリティ・アクセシビリティ</text>
+
+  <text x="400" y="424" text-anchor="middle" font-size="13.5" fill="#17160F" fill-opacity="0.72">手を抜いた箇所には印を残させるので、あとで直すべき場所が埋もれない</text>
+</svg>
+
+キャプション: 減らしているのは**書く量**であって、守りではない。最初に当たった段で止まるので、上の段で済むものほど短くなる。
+
+
+## どんなときに使うか
+
+### AIが頼んだ以上のものを作ってきて、読むのに疲れているとき
+
+小さな修正のたびに新しいファイルや依存パッケージが増え、差分を確かめるだけで時間が溶ける。書く前に「既存のもので済まないか」を確かめさせるので、**レビューする量そのものが減る**。何を作らなかったかも説明させるため、足りないと思えば自分で頼み直せる。
+
+### すでに育ったリポジトリの「作りすぎ」を洗い出したいとき
+
+プラグインとして入れた場合は、いまの差分やリポジトリ全体を点検させるコマンドがある。新しく書く分を抑えるだけでなく、**すでにある過剰な部分を見つける**側にも使える。
+
+
+## 注意点
+
+**「短いほど良い」が合わない場面もある。** 将来の拡張を見越してあらかじめ骨組みを作っておきたい、チームの決まった書き方に揃えたい、といった方針とはぶつかりやすい。そうした場合は強さを lite に下げるか、頼むときに意図を明示する必要がある。
+
+**公表されている効果は作者自身の計測である。** Claude のモデルを使い、題材を決めて測った数字で、削減幅は作りすぎの罠がある課題ほど大きく、もともと短く済む課題ではほとんど差が出ないと作者自身も書いている。自分の案件で同じだけ減るとは限らない。
+
+**Claude Code と Codex で自動の仕掛けまで使うには Node.js が要る。** 起動時に決まりを差し込む仕組みなどが Node.js で動くため。決まりのファイルとして置くだけなら不要。外したあとに設定ファイルなどが少し残る点も README に書かれている。
+
+ライセンスは MIT。
