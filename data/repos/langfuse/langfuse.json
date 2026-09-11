@@ -2,7 +2,7 @@
   "id": "langfuse/langfuse",
   "owner": "langfuse",
   "name": "langfuse",
-  "description_en": "🪢 Open source AI engineering platform: LLM evals, observability, metrics, prompt management, playground, datasets. Integrates with OpenTelemetry, LangChain, OpenAI SDK, LiteLLM, and more. 🍊YC W23 ",
+  "description_en": "🪢 Open source agent evals & observability: Trace, evaluate, and improve LLM applications with one open platform.",
   "human_note": null,
   "language": "TypeScript",
   "topics": [
@@ -26,12 +26,12 @@
     "self-hosted",
     "ycombinator"
   ],
-  "stars": 34447,
-  "forks": 3750,
+  "stars": 34487,
+  "forks": 3758,
   "watchers": null,
-  "open_issues": 925,
+  "open_issues": 919,
   "created_at": "2023-05-18T17:47:09Z",
-  "pushed_at": "2026-09-10T22:31:07Z",
+  "pushed_at": "2026-09-11T22:55:48Z",
   "is_archived": false,
   "license_spdx": "NOASSERTION",
   "license_category": "unknown",
@@ -44,10 +44,10 @@
   "category": "llm",
   "flags": [],
   "usability_score": 100,
-  "snapshot_days": 10,
+  "snapshot_days": 11,
   "is_indexable": true,
   "first_seen_at": "2026-09-01T23:05:22.650Z",
   "tracking_tier": "hot",
-  "last_fetched_date": "2026-09-11",
+  "last_fetched_date": "2026-09-12",
   "stars_stagnant_days": 0
 }

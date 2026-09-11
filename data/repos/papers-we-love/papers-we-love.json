@@ -14,9 +14,9 @@
     "read-papers",
     "theory"
   ],
-  "stars": 109625,
-  "forks": 6426,
-  "watchers": 3122,
+  "stars": 109647,
+  "forks": 6425,
+  "watchers": 3123,
   "open_issues": 4,
   "created_at": "2013-12-15T14:31:41Z",
   "pushed_at": "2026-08-31T16:58:20Z",
@@ -38,10 +38,10 @@
     }
   ],
   "usability_score": 60,
-  "snapshot_days": 13,
+  "snapshot_days": 14,
   "is_indexable": true,
   "first_seen_at": "2026-08-29T15:46:21.821Z",
   "tracking_tier": "hot",
-  "last_fetched_date": "2026-09-11",
+  "last_fetched_date": "2026-09-12",
   "stars_stagnant_days": 0
 }

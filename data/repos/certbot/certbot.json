@@ -13,7 +13,7 @@
     "letsencrypt",
     "python"
   ],
-  "stars": 33232,
+  "stars": 33233,
   "forks": 3510,
   "watchers": 738,
   "open_issues": 184,
@@ -31,10 +31,10 @@
   "category": "other",
   "flags": [],
   "usability_score": 100,
-  "snapshot_days": 10,
+  "snapshot_days": 11,
   "is_indexable": true,
   "first_seen_at": "2026-09-01T23:05:22.650Z",
   "tracking_tier": "hot",
-  "last_fetched_date": "2026-09-11",
+  "last_fetched_date": "2026-09-12",
   "stars_stagnant_days": 0
 }

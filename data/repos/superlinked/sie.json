@@ -27,10 +27,10 @@
     "splade",
     "vector-search"
   ],
-  "stars": 3265,
-  "forks": 308,
+  "stars": 3268,
+  "forks": 312,
   "watchers": 43,
-  "open_issues": 16,
+  "open_issues": 17,
   "created_at": "2023-11-07T10:45:53Z",
   "pushed_at": "2026-09-10T07:43:29Z",
   "is_archived": false,
@@ -45,10 +45,10 @@
   "category": "llm",
   "flags": [],
   "usability_score": 100,
-  "snapshot_days": 9,
+  "snapshot_days": 10,
   "is_indexable": true,
   "first_seen_at": "2026-09-02T23:02:39.890Z",
   "tracking_tier": "hot",
-  "last_fetched_date": "2026-09-11",
+  "last_fetched_date": "2026-09-12",
   "stars_stagnant_days": 0
 }

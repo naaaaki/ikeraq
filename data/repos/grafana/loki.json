@@ -13,12 +13,12 @@
     "loki",
     "prometheus"
   ],
-  "stars": 28865,
+  "stars": 28873,
   "forks": 4108,
   "watchers": null,
-  "open_issues": 1619,
+  "open_issues": 1622,
   "created_at": "2018-04-16T09:22:48Z",
-  "pushed_at": "2026-09-10T21:35:36Z",
+  "pushed_at": "2026-09-11T22:30:15Z",
   "is_archived": false,
   "license_spdx": "AGPL-3.0",
   "license_category": "strong-copyleft",
@@ -37,10 +37,10 @@
     }
   ],
   "usability_score": 85,
-  "snapshot_days": 9,
+  "snapshot_days": 10,
   "is_indexable": true,
   "first_seen_at": "2026-09-02T23:02:41.773Z",
   "tracking_tier": "hot",
-  "last_fetched_date": "2026-09-11",
+  "last_fetched_date": "2026-09-12",
   "stars_stagnant_days": 0
 }

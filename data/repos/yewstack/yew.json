@@ -20,12 +20,12 @@
     "web-framework",
     "webworkers"
   ],
-  "stars": 32798,
-  "forks": 1453,
+  "stars": 32802,
+  "forks": 1452,
   "watchers": null,
   "open_issues": 119,
   "created_at": "2017-12-16T14:19:02Z",
-  "pushed_at": "2026-09-10T03:11:29Z",
+  "pushed_at": "2026-09-11T03:20:35Z",
   "is_archived": false,
   "license_spdx": "Apache-2.0",
   "license_category": "permissive",
@@ -38,10 +38,10 @@
   "category": "backend",
   "flags": [],
   "usability_score": 100,
-  "snapshot_days": 10,
+  "snapshot_days": 11,
   "is_indexable": true,
   "first_seen_at": "2026-09-01T23:05:22.650Z",
   "tracking_tier": "hot",
-  "last_fetched_date": "2026-09-11",
+  "last_fetched_date": "2026-09-12",
   "stars_stagnant_days": 0
 }

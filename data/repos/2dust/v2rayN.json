@@ -18,12 +18,12 @@
     "xray",
     "xtls"
   ],
-  "stars": 115851,
-  "forks": 15884,
+  "stars": 115932,
+  "forks": 15894,
   "watchers": null,
-  "open_issues": 14,
+  "open_issues": 13,
   "created_at": "2019-07-30T03:47:24Z",
-  "pushed_at": "2026-09-10T11:07:24Z",
+  "pushed_at": "2026-09-11T12:06:10Z",
   "is_archived": false,
   "license_spdx": "GPL-3.0",
   "license_category": "strong-copyleft",
@@ -42,10 +42,10 @@
     }
   ],
   "usability_score": 85,
-  "snapshot_days": 13,
+  "snapshot_days": 14,
   "is_indexable": true,
   "first_seen_at": "2026-08-29T15:46:21.820Z",
   "tracking_tier": "hot",
-  "last_fetched_date": "2026-09-11",
+  "last_fetched_date": "2026-09-12",
   "stars_stagnant_days": 0
 }

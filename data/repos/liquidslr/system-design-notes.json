@@ -6,9 +6,9 @@
   "human_note": null,
   "language": null,
   "topics": [],
-  "stars": 18734,
-  "forks": 3479,
-  "watchers": 142,
+  "stars": 19290,
+  "forks": 3538,
+  "watchers": 144,
   "open_issues": 8,
   "created_at": "2024-12-24T01:19:44Z",
   "pushed_at": "2026-08-12T22:22:21Z",
@@ -30,10 +30,10 @@
     }
   ],
   "usability_score": 60,
-  "snapshot_days": 2,
+  "snapshot_days": 3,
   "is_indexable": true,
   "first_seen_at": "2026-09-09T22:59:39.542Z",
   "tracking_tier": "hot",
-  "last_fetched_date": "2026-09-11",
+  "last_fetched_date": "2026-09-12",
   "stars_stagnant_days": 0
 }

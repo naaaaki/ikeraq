@@ -2,7 +2,7 @@
   "id": "ruvnet/ruflo",
   "owner": "ruvnet",
   "name": "ruflo",
-  "description_en": "🌊 The original agent meta-harness. Deploy intelligent multi-player swarms, coordinate autonomous workflows, and build conversational AI systems. Features adaptive memory, self-learning intelligence, RAG integration, and native Claude Code / Codex / Hermes and many more Integrated",
+  "description_en": "🌊 The original agent harness. Deploy intelligent multi-player swarms, coordinate autonomous workflows, and build conversational AI systems. Features adaptive memory, self-learning intelligence, federation, vector RAG integration, and native Claude Code / Codex / Hermes and many more Integrated",
   "human_note": null,
   "language": "TypeScript",
   "topics": [
@@ -27,12 +27,12 @@
     "swarm-intelligence",
     "typescript"
   ],
-  "stars": 71978,
-  "forks": 8512,
+  "stars": 72130,
+  "forks": 8534,
   "watchers": null,
-  "open_issues": 974,
+  "open_issues": 981,
   "created_at": "2025-06-02T21:24:20Z",
-  "pushed_at": "2026-09-10T22:27:25Z",
+  "pushed_at": "2026-09-11T22:11:44Z",
   "is_archived": false,
   "license_spdx": "MIT",
   "license_category": "permissive",
@@ -45,10 +45,10 @@
   "category": "ai-agent",
   "flags": [],
   "usability_score": 100,
-  "snapshot_days": 13,
+  "snapshot_days": 14,
   "is_indexable": true,
   "first_seen_at": "2026-08-29T23:02:08.747Z",
   "tracking_tier": "hot",
-  "last_fetched_date": "2026-09-11",
+  "last_fetched_date": "2026-09-12",
   "stars_stagnant_days": 0
 }

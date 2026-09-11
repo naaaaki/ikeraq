@@ -16,8 +16,8 @@
     "trade",
     "trading-bot"
   ],
-  "stars": 54243,
-  "forks": 11251,
+  "stars": 54276,
+  "forks": 11257,
   "watchers": null,
   "open_issues": 29,
   "created_at": "2017-05-17T23:48:53Z",
@@ -40,10 +40,10 @@
     }
   ],
   "usability_score": 85,
-  "snapshot_days": 13,
+  "snapshot_days": 14,
   "is_indexable": true,
   "first_seen_at": "2026-08-29T23:02:08.747Z",
   "tracking_tier": "hot",
-  "last_fetched_date": "2026-09-11",
+  "last_fetched_date": "2026-09-12",
   "stars_stagnant_days": 0
 }

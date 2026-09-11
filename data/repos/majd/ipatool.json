@@ -24,10 +24,10 @@
     "swift",
     "tool"
   ],
-  "stars": 11047,
-  "forks": 922,
+  "stars": 11081,
+  "forks": 928,
   "watchers": 78,
-  "open_issues": 34,
+  "open_issues": 35,
   "created_at": "2021-05-22T08:27:21Z",
   "pushed_at": "2026-09-03T22:34:14Z",
   "is_archived": false,
@@ -42,10 +42,10 @@
   "category": "security",
   "flags": [],
   "usability_score": 100,
-  "snapshot_days": 12,
+  "snapshot_days": 13,
   "is_indexable": true,
   "first_seen_at": "2026-08-30T23:15:17.600Z",
   "tracking_tier": "hot",
-  "last_fetched_date": "2026-09-11",
+  "last_fetched_date": "2026-09-12",
   "stars_stagnant_days": 0
 }

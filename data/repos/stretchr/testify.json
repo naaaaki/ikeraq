@@ -14,7 +14,7 @@
     "testing",
     "toolkit"
   ],
-  "stars": 26201,
+  "stars": 26204,
   "forks": 1911,
   "watchers": 196,
   "open_issues": 377,
@@ -32,10 +32,10 @@
   "category": "dev-tool",
   "flags": [],
   "usability_score": 100,
-  "snapshot_days": 8,
+  "snapshot_days": 9,
   "is_indexable": true,
   "first_seen_at": "2026-09-03T23:03:15.575Z",
   "tracking_tier": "hot",
-  "last_fetched_date": "2026-09-11",
-  "stars_stagnant_days": 3
+  "last_fetched_date": "2026-09-12",
+  "stars_stagnant_days": 0
 }

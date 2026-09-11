@@ -2,7 +2,7 @@
   "id": "run-llama/llama_index",
   "owner": "run-llama",
   "name": "llama_index",
-  "description_en": "LlamaIndex is the leading document agent and OCR platform",
+  "description_en": "LlamaIndex is the document processing platform for AI",
   "human_note": null,
   "language": "Python",
   "topics": [
@@ -17,12 +17,12 @@
     "rag",
     "vector-database"
   ],
-  "stars": 52118,
-  "forks": 8106,
+  "stars": 52129,
+  "forks": 8114,
   "watchers": null,
-  "open_issues": 746,
+  "open_issues": 747,
   "created_at": "2022-11-02T04:24:54Z",
-  "pushed_at": "2026-09-10T04:02:24Z",
+  "pushed_at": "2026-09-11T18:09:01Z",
   "is_archived": false,
   "license_spdx": "MIT",
   "license_category": "permissive",
@@ -35,10 +35,10 @@
   "category": "ai-agent",
   "flags": [],
   "usability_score": 100,
-  "snapshot_days": 12,
+  "snapshot_days": 13,
   "is_indexable": true,
   "first_seen_at": "2026-08-30T23:15:18.749Z",
   "tracking_tier": "hot",
-  "last_fetched_date": "2026-09-11",
+  "last_fetched_date": "2026-09-12",
   "stars_stagnant_days": 0
 }

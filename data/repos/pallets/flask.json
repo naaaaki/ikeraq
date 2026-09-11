@@ -14,8 +14,8 @@
     "werkzeug",
     "wsgi"
   ],
-  "stars": 74266,
-  "forks": 16976,
+  "stars": 74274,
+  "forks": 16981,
   "watchers": null,
   "open_issues": 4,
   "created_at": "2010-04-06T11:11:59Z",
@@ -32,10 +32,10 @@
   "category": "backend",
   "flags": [],
   "usability_score": 100,
-  "snapshot_days": 3,
+  "snapshot_days": 4,
   "is_indexable": false,
   "first_seen_at": "2026-09-08T23:15:15.921Z",
   "tracking_tier": "hot",
-  "last_fetched_date": "2026-09-11",
+  "last_fetched_date": "2026-09-12",
   "stars_stagnant_days": 0
 }

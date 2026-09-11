@@ -19,12 +19,12 @@
     "textbook",
     "tinyml"
   ],
-  "stars": 28176,
+  "stars": 28183,
   "forks": 3557,
   "watchers": null,
-  "open_issues": 24,
+  "open_issues": 25,
   "created_at": "2023-09-06T19:31:06Z",
-  "pushed_at": "2026-09-10T21:31:37Z",
+  "pushed_at": "2026-09-11T18:31:16Z",
   "is_archived": false,
   "license_spdx": "NOASSERTION",
   "license_category": "unknown",
@@ -37,10 +37,10 @@
   "category": "mobile",
   "flags": [],
   "usability_score": 100,
-  "snapshot_days": 9,
+  "snapshot_days": 10,
   "is_indexable": true,
   "first_seen_at": "2026-09-02T23:02:41.773Z",
   "tracking_tier": "hot",
-  "last_fetched_date": "2026-09-11",
+  "last_fetched_date": "2026-09-12",
   "stars_stagnant_days": 0
 }

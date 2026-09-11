@@ -27,7 +27,7 @@
     "vue"
   ],
   "stars": 28422,
-  "forks": 3571,
+  "forks": 3572,
   "watchers": 179,
   "open_issues": 64,
   "created_at": "2016-10-20T17:25:08Z",
@@ -44,10 +44,10 @@
   "category": "web-frontend",
   "flags": [],
   "usability_score": 100,
-  "snapshot_days": 9,
+  "snapshot_days": 10,
   "is_indexable": true,
   "first_seen_at": "2026-09-02T23:02:41.773Z",
   "tracking_tier": "hot",
-  "last_fetched_date": "2026-09-11",
-  "stars_stagnant_days": 0
+  "last_fetched_date": "2026-09-12",
+  "stars_stagnant_days": 1
 }

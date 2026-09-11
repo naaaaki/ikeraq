@@ -26,8 +26,8 @@
     "video-generation",
     "video-production"
   ],
-  "stars": 57044,
-  "forks": 7181,
+  "stars": 57304,
+  "forks": 7208,
   "watchers": null,
   "open_issues": 317,
   "created_at": "2026-03-29T15:23:22Z",
@@ -50,10 +50,10 @@
     }
   ],
   "usability_score": 85,
-  "snapshot_days": 4,
+  "snapshot_days": 5,
   "is_indexable": true,
   "first_seen_at": "2026-09-07T23:19:48.975Z",
   "tracking_tier": "hot",
-  "last_fetched_date": "2026-09-11",
+  "last_fetched_date": "2026-09-12",
   "stars_stagnant_days": 0
 }

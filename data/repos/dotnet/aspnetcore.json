@@ -12,11 +12,11 @@
     "help-wanted"
   ],
   "stars": 38436,
-  "forks": 10937,
+  "forks": 10938,
   "watchers": null,
-  "open_issues": 4154,
+  "open_issues": 4158,
   "created_at": "2014-03-11T06:09:42Z",
-  "pushed_at": "2026-09-10T22:13:11Z",
+  "pushed_at": "2026-09-11T22:57:28Z",
   "is_archived": false,
   "license_spdx": "MIT",
   "license_category": "permissive",
@@ -29,10 +29,10 @@
   "category": "other",
   "flags": [],
   "usability_score": 100,
-  "snapshot_days": 11,
+  "snapshot_days": 12,
   "is_indexable": true,
   "first_seen_at": "2026-09-01T00:26:13.031Z",
   "tracking_tier": "hot",
-  "last_fetched_date": "2026-09-11",
-  "stars_stagnant_days": 0
+  "last_fetched_date": "2026-09-12",
+  "stars_stagnant_days": 1
 }

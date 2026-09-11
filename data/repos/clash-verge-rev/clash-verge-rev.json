@@ -4,7 +4,7 @@
   "name": "clash-verge-rev",
   "description_en": "A modern GUI client based on Tauri, designed to run in Windows, macOS and Linux for tailored proxy experience",
   "human_note": null,
-  "language": "TypeScript",
+  "language": "Rust",
   "topics": [
     "clash",
     "clash-meta",
@@ -15,12 +15,12 @@
     "tauri-app",
     "windows"
   ],
-  "stars": 143630,
-  "forks": 10340,
+  "stars": 143851,
+  "forks": 10357,
   "watchers": null,
-  "open_issues": 419,
+  "open_issues": 422,
   "created_at": "2023-11-21T18:24:03Z",
-  "pushed_at": "2026-09-10T17:50:12Z",
+  "pushed_at": "2026-09-11T21:34:37Z",
   "is_archived": false,
   "license_spdx": "GPL-3.0",
   "license_category": "strong-copyleft",
@@ -39,10 +39,10 @@
     }
   ],
   "usability_score": 85,
-  "snapshot_days": 13,
+  "snapshot_days": 14,
   "is_indexable": true,
   "first_seen_at": "2026-08-29T15:46:21.820Z",
   "tracking_tier": "hot",
-  "last_fetched_date": "2026-09-11",
+  "last_fetched_date": "2026-09-12",
   "stars_stagnant_days": 0
 }

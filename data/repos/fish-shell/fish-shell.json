@@ -11,10 +11,10 @@
     "shell",
     "terminal"
   ],
-  "stars": 34168,
+  "stars": 34178,
   "forks": 2365,
   "watchers": null,
-  "open_issues": 570,
+  "open_issues": 573,
   "created_at": "2012-05-10T03:00:55Z",
   "pushed_at": "2026-09-09T14:52:19Z",
   "is_archived": false,
@@ -29,10 +29,10 @@
   "category": "dev-tool",
   "flags": [],
   "usability_score": 100,
-  "snapshot_days": 10,
+  "snapshot_days": 11,
   "is_indexable": true,
   "first_seen_at": "2026-09-01T23:05:22.650Z",
   "tracking_tier": "hot",
-  "last_fetched_date": "2026-09-11",
+  "last_fetched_date": "2026-09-12",
   "stars_stagnant_days": 0
 }

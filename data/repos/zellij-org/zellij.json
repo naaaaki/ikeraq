@@ -10,7 +10,7 @@
     "terminal",
     "workspace"
   ],
-  "stars": 35368,
+  "stars": 35381,
   "forks": 1437,
   "watchers": 116,
   "open_issues": 1915,
@@ -28,10 +28,10 @@
   "category": "dev-tool",
   "flags": [],
   "usability_score": 100,
-  "snapshot_days": 11,
+  "snapshot_days": 12,
   "is_indexable": true,
   "first_seen_at": "2026-09-01T00:26:13.032Z",
   "tracking_tier": "hot",
-  "last_fetched_date": "2026-09-11",
+  "last_fetched_date": "2026-09-12",
   "stars_stagnant_days": 0
 }

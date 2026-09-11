@@ -14,10 +14,10 @@
     "tailwindcss",
     "utility-classes"
   ],
-  "stars": 97496,
-  "forks": 5602,
+  "stars": 97505,
+  "forks": 5609,
   "watchers": null,
-  "open_issues": 64,
+  "open_issues": 68,
   "created_at": "2017-10-06T14:59:14Z",
   "pushed_at": "2026-09-08T17:15:40Z",
   "is_archived": false,
@@ -32,10 +32,10 @@
   "category": "web-frontend",
   "flags": [],
   "usability_score": 100,
-  "snapshot_days": 11,
+  "snapshot_days": 12,
   "is_indexable": true,
   "first_seen_at": "2026-09-01T00:26:13.031Z",
   "tracking_tier": "hot",
-  "last_fetched_date": "2026-09-11",
+  "last_fetched_date": "2026-09-12",
   "stars_stagnant_days": 0
 }
