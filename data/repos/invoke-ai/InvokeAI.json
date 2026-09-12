@@ -20,9 +20,9 @@
     "txt2img",
     "windows"
   ],
-  "stars": 28191,
-  "forks": 2970,
-  "watchers": null,
+  "stars": 28200,
+  "forks": 2969,
+  "watchers": 211,
   "open_issues": 378,
   "created_at": "2022-08-17T01:04:27Z",
   "pushed_at": "2026-09-06T18:55:55Z",
@@ -38,10 +38,10 @@
   "category": "other",
   "flags": [],
   "usability_score": 100,
-  "snapshot_days": 10,
+  "snapshot_days": 11,
   "is_indexable": true,
   "first_seen_at": "2026-09-02T23:02:41.773Z",
   "tracking_tier": "hot",
-  "last_fetched_date": "2026-09-12",
+  "last_fetched_date": "2026-09-13",
   "stars_stagnant_days": 0
 }

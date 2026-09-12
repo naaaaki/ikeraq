@@ -20,12 +20,12 @@
     "windows",
     "youtube"
   ],
-  "stars": 61388,
-  "forks": 12630,
+  "stars": 61396,
+  "forks": 12636,
   "watchers": null,
-  "open_issues": 4,
+  "open_issues": 3,
   "created_at": "2022-10-14T09:32:57Z",
-  "pushed_at": "2026-09-10T11:54:58Z",
+  "pushed_at": "2026-09-12T05:56:41Z",
   "is_archived": false,
   "license_spdx": "GPL-3.0",
   "license_category": "strong-copyleft",
@@ -44,10 +44,10 @@
     }
   ],
   "usability_score": 85,
-  "snapshot_days": 14,
+  "snapshot_days": 15,
   "is_indexable": true,
   "first_seen_at": "2026-08-29T23:02:08.747Z",
   "tracking_tier": "hot",
-  "last_fetched_date": "2026-09-12",
+  "last_fetched_date": "2026-09-13",
   "stars_stagnant_days": 0
 }

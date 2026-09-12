@@ -11,8 +11,8 @@
     "nodejs",
     "server"
   ],
-  "stars": 69453,
-  "forks": 24969,
+  "stars": 69452,
+  "forks": 24971,
   "watchers": 1714,
   "open_issues": 230,
   "created_at": "2009-06-26T18:56:01Z",
@@ -29,10 +29,10 @@
   "category": "backend",
   "flags": [],
   "usability_score": 100,
-  "snapshot_days": 11,
+  "snapshot_days": 12,
   "is_indexable": true,
   "first_seen_at": "2026-09-01T23:05:22.650Z",
   "tracking_tier": "hot",
-  "last_fetched_date": "2026-09-12",
-  "stars_stagnant_days": 0
+  "last_fetched_date": "2026-09-13",
+  "stars_stagnant_days": 1
 }

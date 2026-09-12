@@ -27,12 +27,12 @@
     "trading-strategies",
     "yahoo-finance"
   ],
-  "stars": 29541,
-  "forks": 3980,
+  "stars": 29553,
+  "forks": 3984,
   "watchers": null,
-  "open_issues": 66,
+  "open_issues": 60,
   "created_at": "2015-09-30T09:53:49Z",
-  "pushed_at": "2026-09-11T01:14:21Z",
+  "pushed_at": "2026-09-12T22:41:56Z",
   "is_archived": false,
   "license_spdx": null,
   "license_category": "none",
@@ -51,10 +51,10 @@
     }
   ],
   "usability_score": 60,
-  "snapshot_days": 10,
+  "snapshot_days": 11,
   "is_indexable": true,
   "first_seen_at": "2026-09-02T23:02:41.773Z",
   "tracking_tier": "hot",
-  "last_fetched_date": "2026-09-12",
+  "last_fetched_date": "2026-09-13",
   "stars_stagnant_days": 0
 }

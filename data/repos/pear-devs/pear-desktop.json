@@ -18,8 +18,8 @@
     "node",
     "windows"
   ],
-  "stars": 33450,
-  "forks": 1981,
+  "stars": 33457,
+  "forks": 1980,
   "watchers": null,
   "open_issues": 680,
   "created_at": "2019-04-19T18:14:40Z",
@@ -36,10 +36,10 @@
   "category": "other",
   "flags": [],
   "usability_score": 100,
-  "snapshot_days": 11,
+  "snapshot_days": 12,
   "is_indexable": true,
   "first_seen_at": "2026-09-01T23:05:22.650Z",
   "tracking_tier": "hot",
-  "last_fetched_date": "2026-09-12",
+  "last_fetched_date": "2026-09-13",
   "stars_stagnant_days": 0
 }

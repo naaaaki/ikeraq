@@ -24,12 +24,12 @@
     "seaweedfs",
     "tiered-file-system"
   ],
-  "stars": 34595,
+  "stars": 34607,
   "forks": 2998,
   "watchers": null,
-  "open_issues": 767,
+  "open_issues": 762,
   "created_at": "2014-07-14T16:41:37Z",
-  "pushed_at": "2026-09-11T18:54:10Z",
+  "pushed_at": "2026-09-12T21:37:37Z",
   "is_archived": false,
   "license_spdx": "Apache-2.0",
   "license_category": "permissive",
@@ -42,10 +42,10 @@
   "category": "infra",
   "flags": [],
   "usability_score": 100,
-  "snapshot_days": 11,
+  "snapshot_days": 12,
   "is_indexable": true,
   "first_seen_at": "2026-09-01T23:05:22.650Z",
   "tracking_tier": "hot",
-  "last_fetched_date": "2026-09-12",
+  "last_fetched_date": "2026-09-13",
   "stars_stagnant_days": 0
 }

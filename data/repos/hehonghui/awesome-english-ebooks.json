@@ -13,7 +13,7 @@
     "new-yorker",
     "pdf"
   ],
-  "stars": 36233,
+  "stars": 36270,
   "forks": 3029,
   "watchers": null,
   "open_issues": 0,
@@ -37,10 +37,10 @@
     }
   ],
   "usability_score": 60,
-  "snapshot_days": 12,
+  "snapshot_days": 13,
   "is_indexable": true,
   "first_seen_at": "2026-09-01T00:26:13.032Z",
   "tracking_tier": "hot",
-  "last_fetched_date": "2026-09-12",
+  "last_fetched_date": "2026-09-13",
   "stars_stagnant_days": 0
 }

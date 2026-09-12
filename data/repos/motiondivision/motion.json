@@ -13,12 +13,12 @@
     "reactanimations",
     "spring"
   ],
-  "stars": 33564,
+  "stars": 33584,
   "forks": 1353,
   "watchers": 125,
-  "open_issues": 112,
+  "open_issues": 113,
   "created_at": "2018-11-16T09:48:38Z",
-  "pushed_at": "2026-09-11T21:03:44Z",
+  "pushed_at": "2026-09-12T20:18:35Z",
   "is_archived": false,
   "license_spdx": "MIT",
   "license_category": "permissive",
@@ -31,10 +31,10 @@
   "category": "web-frontend",
   "flags": [],
   "usability_score": 100,
-  "snapshot_days": 11,
+  "snapshot_days": 12,
   "is_indexable": true,
   "first_seen_at": "2026-09-01T23:05:22.650Z",
   "tracking_tier": "hot",
-  "last_fetched_date": "2026-09-12",
+  "last_fetched_date": "2026-09-13",
   "stars_stagnant_days": 0
 }

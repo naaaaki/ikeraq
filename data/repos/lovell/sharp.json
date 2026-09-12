@@ -24,10 +24,10 @@
     "tiff",
     "webp"
   ],
-  "stars": 32656,
-  "forks": 1435,
+  "stars": 32657,
+  "forks": 1437,
   "watchers": null,
-  "open_issues": 120,
+  "open_issues": 122,
   "created_at": "2013-08-19T20:24:24Z",
   "pushed_at": "2026-09-07T13:43:14Z",
   "is_archived": false,
@@ -42,10 +42,10 @@
   "category": "backend",
   "flags": [],
   "usability_score": 100,
-  "snapshot_days": 11,
+  "snapshot_days": 12,
   "is_indexable": true,
   "first_seen_at": "2026-09-01T23:05:22.650Z",
   "tracking_tier": "hot",
-  "last_fetched_date": "2026-09-12",
+  "last_fetched_date": "2026-09-13",
   "stars_stagnant_days": 0
 }

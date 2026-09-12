@@ -15,7 +15,7 @@
     "slate",
     "text-editor"
   ],
-  "stars": 31749,
+  "stars": 31748,
   "forks": 3302,
   "watchers": 294,
   "open_issues": 654,
@@ -33,10 +33,10 @@
   "category": "web-frontend",
   "flags": [],
   "usability_score": 100,
-  "snapshot_days": 11,
+  "snapshot_days": 12,
   "is_indexable": true,
   "first_seen_at": "2026-09-01T23:05:22.650Z",
   "tracking_tier": "hot",
-  "last_fetched_date": "2026-09-12",
-  "stars_stagnant_days": 5
+  "last_fetched_date": "2026-09-13",
+  "stars_stagnant_days": 6
 }

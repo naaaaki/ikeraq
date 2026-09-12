@@ -15,9 +15,9 @@
     "javascript"
   ],
   "stars": 43991,
-  "forks": 5990,
+  "forks": 5989,
   "watchers": null,
-  "open_issues": 773,
+  "open_issues": 774,
   "created_at": "2014-09-28T13:38:23Z",
   "pushed_at": "2026-09-11T11:41:53Z",
   "is_archived": false,
@@ -32,10 +32,10 @@
   "category": "dev-tool",
   "flags": [],
   "usability_score": 100,
-  "snapshot_days": 13,
+  "snapshot_days": 14,
   "is_indexable": true,
   "first_seen_at": "2026-08-30T23:15:18.750Z",
   "tracking_tier": "hot",
-  "last_fetched_date": "2026-09-12",
-  "stars_stagnant_days": 1
+  "last_fetched_date": "2026-09-13",
+  "stars_stagnant_days": 2
 }

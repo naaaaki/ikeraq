@@ -16,7 +16,7 @@
     "snapshot",
     "testing"
   ],
-  "stars": 45460,
+  "stars": 45457,
   "forks": 6726,
   "watchers": null,
   "open_issues": 193,
@@ -34,10 +34,10 @@
   "category": "dev-tool",
   "flags": [],
   "usability_score": 100,
-  "snapshot_days": 13,
+  "snapshot_days": 14,
   "is_indexable": true,
   "first_seen_at": "2026-08-30T23:15:18.750Z",
   "tracking_tier": "hot",
-  "last_fetched_date": "2026-09-12",
-  "stars_stagnant_days": 4
+  "last_fetched_date": "2026-09-13",
+  "stars_stagnant_days": 5
 }

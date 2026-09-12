@@ -27,12 +27,12 @@
     "vision",
     "webui"
   ],
-  "stars": 43046,
-  "forks": 8933,
+  "stars": 43073,
+  "forks": 8937,
   "watchers": null,
   "open_issues": 736,
   "created_at": "2023-02-12T01:06:52Z",
-  "pushed_at": "2026-09-11T22:24:23Z",
+  "pushed_at": "2026-09-12T22:51:10Z",
   "is_archived": false,
   "license_spdx": "MIT",
   "license_category": "permissive",
@@ -45,10 +45,10 @@
   "category": "ai-agent",
   "flags": [],
   "usability_score": 100,
-  "snapshot_days": 13,
+  "snapshot_days": 14,
   "is_indexable": true,
   "first_seen_at": "2026-08-30T23:15:18.750Z",
   "tracking_tier": "hot",
-  "last_fetched_date": "2026-09-12",
+  "last_fetched_date": "2026-09-13",
   "stars_stagnant_days": 0
 }

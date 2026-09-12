@@ -17,12 +17,12 @@
     "wiretrustee",
     "zero-trust-network-access"
   ],
-  "stars": 29129,
-  "forks": 1670,
+  "stars": 29149,
+  "forks": 1674,
   "watchers": null,
   "open_issues": 1506,
   "created_at": "2021-04-14T12:27:20Z",
-  "pushed_at": "2026-09-11T17:06:40Z",
+  "pushed_at": "2026-09-12T17:59:47Z",
   "is_archived": false,
   "license_spdx": "NOASSERTION",
   "license_category": "unknown",
@@ -35,10 +35,10 @@
   "category": "infra",
   "flags": [],
   "usability_score": 100,
-  "snapshot_days": 10,
+  "snapshot_days": 11,
   "is_indexable": true,
   "first_seen_at": "2026-09-02T23:02:41.773Z",
   "tracking_tier": "hot",
-  "last_fetched_date": "2026-09-12",
+  "last_fetched_date": "2026-09-13",
   "stars_stagnant_days": 0
 }

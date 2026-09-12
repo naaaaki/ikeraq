@@ -18,9 +18,9 @@
     "modules",
     "web"
   ],
-  "stars": 44022,
+  "stars": 44021,
   "forks": 2284,
-  "watchers": null,
+  "watchers": 447,
   "open_issues": 607,
   "created_at": "2017-08-07T16:36:47Z",
   "pushed_at": "2026-09-06T13:12:08Z",
@@ -36,10 +36,10 @@
   "category": "web-frontend",
   "flags": [],
   "usability_score": 100,
-  "snapshot_days": 13,
+  "snapshot_days": 14,
   "is_indexable": true,
   "first_seen_at": "2026-08-30T23:15:18.750Z",
   "tracking_tier": "hot",
-  "last_fetched_date": "2026-09-12",
-  "stars_stagnant_days": 5
+  "last_fetched_date": "2026-09-13",
+  "stars_stagnant_days": 6
 }

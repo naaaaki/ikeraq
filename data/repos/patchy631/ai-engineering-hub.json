@@ -13,7 +13,7 @@
     "mcp",
     "rag"
   ],
-  "stars": 37486,
+  "stars": 37505,
   "forks": 6186,
   "watchers": 464,
   "open_issues": 124,
@@ -31,10 +31,10 @@
   "category": "ai-agent",
   "flags": [],
   "usability_score": 100,
-  "snapshot_days": 12,
+  "snapshot_days": 13,
   "is_indexable": true,
   "first_seen_at": "2026-09-01T00:26:13.032Z",
   "tracking_tier": "hot",
-  "last_fetched_date": "2026-09-12",
+  "last_fetched_date": "2026-09-13",
   "stars_stagnant_days": 0
 }

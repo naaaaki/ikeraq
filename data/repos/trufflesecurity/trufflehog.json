@@ -19,12 +19,12 @@
     "trufflehog",
     "verification"
   ],
-  "stars": 27799,
-  "forks": 2576,
+  "stars": 27845,
+  "forks": 2579,
   "watchers": null,
   "open_issues": 557,
   "created_at": "2016-12-31T05:08:12Z",
-  "pushed_at": "2026-09-11T22:47:26Z",
+  "pushed_at": "2026-09-12T00:33:51Z",
   "is_archived": false,
   "license_spdx": "AGPL-3.0",
   "license_category": "strong-copyleft",
@@ -43,10 +43,10 @@
     }
   ],
   "usability_score": 85,
-  "snapshot_days": 10,
+  "snapshot_days": 11,
   "is_indexable": true,
   "first_seen_at": "2026-09-02T23:02:41.773Z",
   "tracking_tier": "hot",
-  "last_fetched_date": "2026-09-12",
+  "last_fetched_date": "2026-09-13",
   "stars_stagnant_days": 0
 }

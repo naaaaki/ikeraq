@@ -2,7 +2,7 @@
   "id": "shadcn-ui/ui",
   "owner": "shadcn-ui",
   "name": "ui",
-  "description_en": "A set of beautifully-designed, accessible components and a code distribution platform. Works with your favorite frameworks. Open Source. Open Code.",
+  "description_en": "Composable, accessible components with thoughtful defaults. Build your own component library with code you can customize, extend, and make your own.",
   "human_note": null,
   "language": "TypeScript",
   "topics": [
@@ -20,12 +20,12 @@
     "ui",
     "vite"
   ],
-  "stars": 123591,
-  "forks": 10147,
+  "stars": 123655,
+  "forks": 10156,
   "watchers": null,
-  "open_issues": 1979,
+  "open_issues": 1844,
   "created_at": "2023-01-04T12:43:27Z",
-  "pushed_at": "2026-09-11T09:00:12Z",
+  "pushed_at": "2026-09-12T13:26:36Z",
   "is_archived": false,
   "license_spdx": "MIT",
   "license_category": "permissive",
@@ -44,10 +44,10 @@
     }
   ],
   "usability_score": 90,
-  "snapshot_days": 14,
+  "snapshot_days": 15,
   "is_indexable": true,
   "first_seen_at": "2026-08-29T15:46:21.820Z",
   "tracking_tier": "hot",
-  "last_fetched_date": "2026-09-12",
+  "last_fetched_date": "2026-09-13",
   "stars_stagnant_days": 0
 }

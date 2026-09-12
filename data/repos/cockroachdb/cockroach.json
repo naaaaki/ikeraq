@@ -14,9 +14,9 @@
     "sql"
   ],
   "stars": 32452,
-  "forks": 4104,
+  "forks": 4106,
   "watchers": 660,
-  "open_issues": 8423,
+  "open_issues": 8448,
   "created_at": "2014-02-06T00:18:47Z",
   "pushed_at": "2026-09-08T22:57:43Z",
   "is_archived": false,
@@ -31,10 +31,10 @@
   "category": "data",
   "flags": [],
   "usability_score": 100,
-  "snapshot_days": 10,
+  "snapshot_days": 11,
   "is_indexable": true,
   "first_seen_at": "2026-09-02T23:02:41.773Z",
   "tracking_tier": "hot",
-  "last_fetched_date": "2026-09-12",
-  "stars_stagnant_days": 0
+  "last_fetched_date": "2026-09-13",
+  "stars_stagnant_days": 1
 }

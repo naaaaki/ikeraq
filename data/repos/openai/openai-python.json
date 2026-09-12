@@ -9,7 +9,7 @@
     "openai",
     "python"
   ],
-  "stars": 31619,
+  "stars": 31620,
   "forks": 5188,
   "watchers": null,
   "open_issues": 388,
@@ -27,10 +27,10 @@
   "category": "other",
   "flags": [],
   "usability_score": 100,
-  "snapshot_days": 11,
+  "snapshot_days": 12,
   "is_indexable": true,
   "first_seen_at": "2026-09-01T23:05:22.650Z",
   "tracking_tier": "hot",
-  "last_fetched_date": "2026-09-12",
+  "last_fetched_date": "2026-09-13",
   "stars_stagnant_days": 0
 }
