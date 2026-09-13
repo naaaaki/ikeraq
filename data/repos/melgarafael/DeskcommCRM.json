@@ -3,7 +3,7 @@
   "owner": "melgarafael",
   "name": "DeskcommCRM",
   "description_en": "Open-source AI sales OS — self-hosted CRM with native AI agents + WhatsApp (WAHA). Open alternative to Kommo, Octadesk & Intercom for any business that sells by chat. MCP-ready, multi-tenant, LGPD.",
-  "human_note": null,
+  "human_note": "<!-- ============================================================\n  melgarafael/DeskcommCRM\n  https://github.com/melgarafael/DeskcommCRM\n  Open-source AI sales OS — self-hosted CRM with native AI agents + WhatsApp (WAHA).\n  TypeScript / MIT / スター 2,067\n============================================================ -->\n\n\n## 見出しの一文\n\nチャットで売る商売の一式を、月額のサービスから自分のサーバーへ移す\n\n\n## どういうものか\n\nWhatsApp での接客と商談を扱う CRM を、自分で借りた VPS に1コマンドで立てるためのもの。Next.js 16 と Supabase（Postgres + 認証 + ストレージ）で作られている。ブラジル発のプロジェクトで、README もポルトガル語が正（英語・スペイン語版もある）。名前は「Desk（机）＋ comm（商い）」から来ていて、**売る仕事の全部を1つの机の上に載せる**、という説明になっている。Kommo や Intercom のような月額サービスの置き換えを狙っていて、有料版や機能制限付きの版は無い、と作者は書いている（ただし WhatsApp のつなぎ先は別。後述する）。\n\n普通の CRM と違うのは、AI エージェントが「使われる機能」ではなく「操作する側」に置かれていること。組織ごとにあらかじめ読ませた資料を参照し、対応中に自分で決められた手順を実行し、見込みの度合いを判定して商談の段階を動かし、手に負えないと判断したら人間へ引き継ぐ。引き継ぎは記録に残る。担当者の欄に AI をそのまま割り当てられるほか、組織ごとに使った金額の上限を決められる。解決した会話を新しい知識に変える仕組みや、AI が自分への改善案を出してきて人が承認してから反映する画面も用意されている。CRM 側の機能は内部向けの MCP サーバーとしても出ている。外部のエージェントを挿して操作させる形（公開 MCP）のほうは、README では「次にやること」に置かれていて、まだ出ていない。\n\nつなぎ方は2通り。QR コードを読ませて自分の番号をつなぐ方法（WAHA を使う。送信の間隔を散らす、時間帯を区切るといった凍結対策が入っている）と、Meta の公式 Cloud API を使う方法がある。自動化は「いつ／もし／ならば」の形のルールで組む。作ったルールは**必ず停止した状態で生まれ**、人が確認してから動きだす。内部では、出来事をいったん `event_log` というテーブルに積み、1分おきに動く処理がそれを流す作りになっている。データベースのトリガーから直接 HTTP を呼ばない、という方針が明記されている。\n\n\n## 図\n\n<svg viewBox=\"0 0 800 450\" role=\"img\" aria-label=\"見出しに「お客からの連絡を、AI が受けて、人が引き取る」とある図。「WhatsApp（お客からの連絡）」から「AI エージェント（答える・見込みを見分ける）」へ進み、そこから二つに分かれる。一つは「そのまま進める（ファネルの段階を動かす）」、もう一つは「人へ引き継ぐ（誰がいつ受けたか残る）」。「出来事はいったん記録に積み、1分おきの処理が自動化を動かす」と添えてある。下に「置き場所は自分の VPS。データも WhatsApp の番号も手元に残る」とある。\" style=\"width: 100%; height: auto; display: block; font-family: var(--jp);\">\n  <defs>\n    <marker id=\"dk-arrow\" viewBox=\"0 0 10 10\" refX=\"9\" refY=\"5\" markerWidth=\"6\" markerHeight=\"6\" orient=\"auto-start-reverse\">\n      <path d=\"M0,0 L10,5 L0,10 z\" fill=\"#1E5A48\" />\n    </marker>\n  </defs>\n  <rect width=\"800\" height=\"450\" fill=\"#FFFFFF\" />\n  <text x=\"400\" y=\"58\" text-anchor=\"middle\" font-size=\"27\" font-weight=\"700\" fill=\"#17160F\">お客からの連絡を、<tspan fill=\"#1E5A48\">AI が受けて</tspan>、人が引き取る</text>\n\n  <rect x=\"40\" y=\"170\" width=\"185\" height=\"100\" rx=\"8\" fill=\"none\" stroke=\"#17160F\" stroke-opacity=\"0.22\" stroke-width=\"1.5\" />\n  <text x=\"132\" y=\"212\" text-anchor=\"middle\" font-size=\"17\" font-weight=\"700\" fill=\"#17160F\">WhatsApp</text>\n  <text x=\"132\" y=\"236\" text-anchor=\"middle\" font-size=\"11.5\" fill=\"#17160F\" fill-opacity=\"0.55\">（お客からの連絡）</text>\n\n  <line x1=\"225\" y1=\"220\" x2=\"283\" y2=\"220\" stroke=\"#1E5A48\" stroke-width=\"4\" marker-end=\"url(#dk-arrow)\" />\n\n  <rect x=\"291\" y=\"170\" width=\"200\" height=\"100\" rx=\"8\" fill=\"none\" stroke=\"#1E5A48\" stroke-width=\"2\" />\n  <text x=\"391\" y=\"212\" text-anchor=\"middle\" font-size=\"17\" font-weight=\"700\" fill=\"#17160F\">AI エージェント</text>\n  <text x=\"391\" y=\"236\" text-anchor=\"middle\" font-size=\"11.5\" fill=\"#17160F\" fill-opacity=\"0.55\">（答える・見込みを見分ける）</text>\n\n  <path d=\"M491,200 L529,200 L529,148 L557,148\" fill=\"none\" stroke=\"#1E5A48\" stroke-width=\"4\" marker-end=\"url(#dk-arrow)\" />\n  <path d=\"M491,240 L529,240 L529,292 L557,292\" fill=\"none\" stroke=\"#1E5A48\" stroke-width=\"4\" marker-end=\"url(#dk-arrow)\" />\n\n  <rect x=\"565\" y=\"108\" width=\"195\" height=\"80\" rx=\"8\" fill=\"none\" stroke=\"#17160F\" stroke-opacity=\"0.22\" stroke-width=\"1.5\" />\n  <text x=\"662\" y=\"142\" text-anchor=\"middle\" font-size=\"16\" font-weight=\"700\" fill=\"#17160F\">そのまま進める</text>\n  <text x=\"662\" y=\"165\" text-anchor=\"middle\" font-size=\"11.5\" fill=\"#17160F\" fill-opacity=\"0.55\">（ファネルの段階を動かす）</text>\n\n  <rect x=\"565\" y=\"252\" width=\"195\" height=\"80\" rx=\"8\" fill=\"none\" stroke=\"#17160F\" stroke-opacity=\"0.22\" stroke-width=\"1.5\" />\n  <text x=\"662\" y=\"286\" text-anchor=\"middle\" font-size=\"16\" font-weight=\"700\" fill=\"#17160F\">人へ引き継ぐ</text>\n  <text x=\"662\" y=\"309\" text-anchor=\"middle\" font-size=\"11.5\" fill=\"#17160F\" fill-opacity=\"0.55\">（誰がいつ受けたか残る）</text>\n\n  <text x=\"330\" y=\"330\" text-anchor=\"middle\" font-size=\"12.5\" fill=\"#17160F\" fill-opacity=\"0.7\">出来事はいったん記録に積み、1分おきの処理が自動化を動かす</text>\n\n  <text x=\"400\" y=\"412\" text-anchor=\"middle\" font-size=\"13.5\" fill=\"#17160F\" fill-opacity=\"0.7\">置き場所は自分の VPS。データも WhatsApp の番号も手元に残る</text>\n</svg>\n\nキャプション: AI を問い合わせ窓口に足すのではなく、**CRM を動かす側に置いている**。人が出るのは、AI が引き継ぐと判断したところから。\n\n\n## どんなときに使うか\n\n### チャットでの商談が、担当者の頭の中にしか無いとき\n\nやり取りが個人のアプリの中で完結していると、誰がどこまで話したかが外から見えない。いったん CRM に通すと、会話・段階・担当・引き継ぎが同じ場所に残る。担当の割り振りと引き継ぎが記録に残るので、誰がいつ受けたかを後から追える。\n\n### 顧客のやり取りを、外のサービスに預けたくないとき\n\n自分の VPS に立てる前提で作られていて、データベースも AI の鍵も自分で用意する。README には、ホストした人がそのデータの管理者になる（ブラジルの個人情報保護法 LGPD での責任者は開発元ではない）とはっきり書いてある。預け先を減らす代わりに、責任はこちらに来る。\n\n\n## 注意点\n\n**日本の商習慣とは前提が違う。** 中心にあるのは WhatsApp で、ブラジルの法規制（LGPD）と商習慣に合わせて作られている。国内でそのまま使う道具というより、**チャットでの商談を業務システムに載せる設計例**として見るほうが近い。\n\n**WhatsApp のつなぎ方に、有料の部品が絡む。** 技術仕様書のほうは WAHA の有料版（WAHA Plus）を前提に書かれている一方、インストーラが既定で入れるのは無料版のイメージだった。設定ファイルのコメントにも「無料版は Webhook に署名しないので、署名の必須化をオンにすると受信が止まる」と書かれている。どこまで無料で足りるかは、使う機能によって変わる。\n\n**自分で運用する覚悟が要る。** サポートはコミュニティのみで、SLA は無いと明記されている。更新は自動ではなく、押すか実行するかで自分で当てる。サーバーの維持とバックアップも自分の仕事になる。\n\n**README の導入リンクは提携リンク。** 推奨されているホスティング事業者へのリンクは提携によるものだと、README 自身が断っている。読むときはそこを差し引いておくほうがいい。\n\n**まだ若い。** 2026年4月に公開され、リリースは20回以上、参加者は30人台。未解決のものは issue とプルリクエスト合わせて120件あまり。ライセンスは MIT で、商用利用も含めて制約は緩い。",
   "language": "TypeScript",
   "topics": [
     "ai",
@@ -27,10 +27,10 @@
     "whatsapp",
     "whatsapp-api"
   ],
-  "stars": 1776,
-  "forks": 548,
-  "watchers": 14,
-  "open_issues": 120,
+  "stars": 2161,
+  "forks": 587,
+  "watchers": 15,
+  "open_issues": 130,
   "created_at": "2026-04-28T20:00:33Z",
   "pushed_at": "2026-09-12T19:40:07Z",
   "is_archived": false,
@@ -45,10 +45,10 @@
   "category": "ai-agent",
   "flags": [],
   "usability_score": 100,
-  "snapshot_days": 2,
-  "is_indexable": false,
+  "snapshot_days": 3,
+  "is_indexable": true,
   "first_seen_at": "2026-09-11T23:02:10.132Z",
   "tracking_tier": "hot",
-  "last_fetched_date": "2026-09-13",
+  "last_fetched_date": "2026-09-14",
   "stars_stagnant_days": 0
 }

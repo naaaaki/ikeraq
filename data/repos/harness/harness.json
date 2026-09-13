@@ -19,8 +19,8 @@
     "hacktoberfest",
     "scm"
   ],
-  "stars": 38333,
-  "forks": 3391,
+  "stars": 38341,
+  "forks": 3392,
   "watchers": null,
   "open_issues": 108,
   "created_at": "2014-02-07T07:54:44Z",
@@ -37,10 +37,10 @@
   "category": "infra",
   "flags": [],
   "usability_score": 100,
-  "snapshot_days": 13,
+  "snapshot_days": 14,
   "is_indexable": true,
   "first_seen_at": "2026-09-01T00:26:13.031Z",
   "tracking_tier": "hot",
-  "last_fetched_date": "2026-09-13",
+  "last_fetched_date": "2026-09-14",
   "stars_stagnant_days": 0
 }

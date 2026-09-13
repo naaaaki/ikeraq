@@ -18,10 +18,10 @@
     "org-mode",
     "pkm"
   ],
-  "stars": 44877,
-  "forks": 2806,
+  "stars": 44889,
+  "forks": 2809,
   "watchers": null,
-  "open_issues": 942,
+  "open_issues": 947,
   "created_at": "2020-05-23T00:06:06Z",
   "pushed_at": "2026-09-11T16:41:32Z",
   "is_archived": false,
@@ -42,10 +42,10 @@
     }
   ],
   "usability_score": 85,
-  "snapshot_days": 14,
+  "snapshot_days": 15,
   "is_indexable": true,
   "first_seen_at": "2026-08-30T23:15:18.750Z",
   "tracking_tier": "hot",
-  "last_fetched_date": "2026-09-13",
+  "last_fetched_date": "2026-09-14",
   "stars_stagnant_days": 0
 }

@@ -16,8 +16,8 @@
     "sidecar",
     "state-management"
   ],
-  "stars": 26095,
-  "forks": 2146,
+  "stars": 26096,
+  "forks": 2147,
   "watchers": null,
   "open_issues": 444,
   "created_at": "2019-06-19T00:49:06Z",
@@ -34,10 +34,10 @@
   "category": "infra",
   "flags": [],
   "usability_score": 100,
-  "snapshot_days": 10,
+  "snapshot_days": 11,
   "is_indexable": true,
   "first_seen_at": "2026-09-03T23:03:15.575Z",
   "tracking_tier": "hot",
-  "last_fetched_date": "2026-09-13",
-  "stars_stagnant_days": 1
+  "last_fetched_date": "2026-09-14",
+  "stars_stagnant_days": 0
 }

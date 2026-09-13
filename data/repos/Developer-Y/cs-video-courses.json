@@ -25,7 +25,7 @@
     "systems",
     "web-development"
   ],
-  "stars": 83480,
+  "stars": 83490,
   "forks": 11485,
   "watchers": 2014,
   "open_issues": 4,
@@ -49,10 +49,10 @@
     }
   ],
   "usability_score": 60,
-  "snapshot_days": 15,
+  "snapshot_days": 16,
   "is_indexable": true,
   "first_seen_at": "2026-08-29T15:46:21.821Z",
   "tracking_tier": "hot",
-  "last_fetched_date": "2026-09-13",
+  "last_fetched_date": "2026-09-14",
   "stars_stagnant_days": 0
 }

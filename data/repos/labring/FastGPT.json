@@ -18,11 +18,11 @@
     "workflow"
   ],
   "stars": 29636,
-  "forks": 7310,
+  "forks": 7312,
   "watchers": null,
-  "open_issues": 176,
+  "open_issues": 175,
   "created_at": "2023-02-23T16:53:25Z",
-  "pushed_at": "2026-09-12T13:55:58Z",
+  "pushed_at": "2026-09-13T11:40:47Z",
   "is_archived": false,
   "license_spdx": "NOASSERTION",
   "license_category": "unknown",
@@ -35,10 +35,10 @@
   "category": "ai-agent",
   "flags": [],
   "usability_score": 100,
-  "snapshot_days": 11,
+  "snapshot_days": 12,
   "is_indexable": true,
   "first_seen_at": "2026-09-02T23:02:41.773Z",
   "tracking_tier": "hot",
-  "last_fetched_date": "2026-09-13",
-  "stars_stagnant_days": 0
+  "last_fetched_date": "2026-09-14",
+  "stars_stagnant_days": 1
 }

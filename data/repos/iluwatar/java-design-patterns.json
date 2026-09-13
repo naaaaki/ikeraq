@@ -15,12 +15,12 @@
     "snippets-collection",
     "snippets-library"
   ],
-  "stars": 94689,
-  "forks": 27377,
+  "stars": 94688,
+  "forks": 27376,
   "watchers": 3675,
-  "open_issues": 133,
+  "open_issues": 128,
   "created_at": "2014-08-09T16:45:18Z",
-  "pushed_at": "2026-08-31T22:43:02Z",
+  "pushed_at": "2026-09-13T06:53:54Z",
   "is_archived": false,
   "license_spdx": "NOASSERTION",
   "license_category": "unknown",
@@ -33,10 +33,10 @@
   "category": "web-frontend",
   "flags": [],
   "usability_score": 100,
-  "snapshot_days": 15,
+  "snapshot_days": 16,
   "is_indexable": true,
   "first_seen_at": "2026-08-29T15:46:21.821Z",
   "tracking_tier": "hot",
-  "last_fetched_date": "2026-09-13",
-  "stars_stagnant_days": 0
+  "last_fetched_date": "2026-09-14",
+  "stars_stagnant_days": 1
 }

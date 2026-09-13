@@ -11,11 +11,11 @@
     "wasm"
   ],
   "stars": 32142,
-  "forks": 2414,
+  "forks": 2415,
   "watchers": null,
-  "open_issues": 596,
+  "open_issues": 594,
   "created_at": "2021-12-19T04:09:21Z",
-  "pushed_at": "2026-09-12T14:41:56Z",
+  "pushed_at": "2026-09-13T19:43:07Z",
   "is_archived": false,
   "license_spdx": "Apache-2.0",
   "license_category": "permissive",
@@ -28,10 +28,10 @@
   "category": "other",
   "flags": [],
   "usability_score": 100,
-  "snapshot_days": 12,
+  "snapshot_days": 13,
   "is_indexable": true,
   "first_seen_at": "2026-09-01T23:05:22.650Z",
   "tracking_tier": "hot",
-  "last_fetched_date": "2026-09-13",
-  "stars_stagnant_days": 6
+  "last_fetched_date": "2026-09-14",
+  "stars_stagnant_days": 7
 }

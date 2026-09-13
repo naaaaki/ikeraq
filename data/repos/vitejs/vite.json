@@ -12,10 +12,10 @@
     "hmr",
     "vite"
   ],
-  "stars": 82799,
-  "forks": 8737,
+  "stars": 82813,
+  "forks": 8736,
   "watchers": null,
-  "open_issues": 762,
+  "open_issues": 763,
   "created_at": "2020-04-21T05:03:57Z",
   "pushed_at": "2026-09-12T14:02:08Z",
   "is_archived": false,
@@ -30,10 +30,10 @@
   "category": "web-frontend",
   "flags": [],
   "usability_score": 100,
-  "snapshot_days": 15,
+  "snapshot_days": 16,
   "is_indexable": true,
   "first_seen_at": "2026-08-29T15:46:21.821Z",
   "tracking_tier": "hot",
-  "last_fetched_date": "2026-09-13",
+  "last_fetched_date": "2026-09-14",
   "stars_stagnant_days": 0
 }

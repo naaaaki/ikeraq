@@ -25,8 +25,8 @@
     "vector-similarity",
     "vector-store"
   ],
-  "stars": 46075,
-  "forks": 4248,
+  "stars": 46091,
+  "forks": 4252,
   "watchers": null,
   "open_issues": 1428,
   "created_at": "2019-09-16T06:43:43Z",
@@ -43,10 +43,10 @@
   "category": "llm",
   "flags": [],
   "usability_score": 100,
-  "snapshot_days": 14,
+  "snapshot_days": 15,
   "is_indexable": true,
   "first_seen_at": "2026-08-30T23:15:18.750Z",
   "tracking_tier": "hot",
-  "last_fetched_date": "2026-09-13",
+  "last_fetched_date": "2026-09-14",
   "stars_stagnant_days": 0
 }

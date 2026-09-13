@@ -27,10 +27,10 @@
     "security-testing",
     "security-tools"
   ],
-  "stars": 47950,
-  "forks": 5495,
+  "stars": 47978,
+  "forks": 5496,
   "watchers": null,
-  "open_issues": 18,
+  "open_issues": 19,
   "created_at": "2025-09-27T01:51:47Z",
   "pushed_at": "2026-09-08T21:04:43Z",
   "is_archived": false,
@@ -51,10 +51,10 @@
     }
   ],
   "usability_score": 85,
-  "snapshot_days": 14,
+  "snapshot_days": 15,
   "is_indexable": true,
   "first_seen_at": "2026-08-30T23:15:18.749Z",
   "tracking_tier": "hot",
-  "last_fetched_date": "2026-09-13",
+  "last_fetched_date": "2026-09-14",
   "stars_stagnant_days": 0
 }

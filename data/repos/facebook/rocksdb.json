@@ -9,10 +9,10 @@
     "database",
     "storage-engine"
   ],
-  "stars": 32091,
+  "stars": 32095,
   "forks": 6926,
   "watchers": null,
-  "open_issues": 1639,
+  "open_issues": 1643,
   "created_at": "2012-11-30T06:16:18Z",
   "pushed_at": "2026-09-11T23:41:37Z",
   "is_archived": false,
@@ -33,10 +33,10 @@
     }
   ],
   "usability_score": 85,
-  "snapshot_days": 12,
+  "snapshot_days": 13,
   "is_indexable": true,
   "first_seen_at": "2026-09-01T23:05:22.650Z",
   "tracking_tier": "hot",
-  "last_fetched_date": "2026-09-13",
+  "last_fetched_date": "2026-09-14",
   "stars_stagnant_days": 0
 }

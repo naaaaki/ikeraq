@@ -16,12 +16,12 @@
     "presentation",
     "publishing"
   ],
-  "stars": 46253,
-  "forks": 3971,
+  "stars": 46263,
+  "forks": 3972,
   "watchers": null,
-  "open_issues": 1042,
+  "open_issues": 1041,
   "created_at": "2010-03-20T20:34:23Z",
-  "pushed_at": "2026-09-12T18:12:45Z",
+  "pushed_at": "2026-09-13T19:12:09Z",
   "is_archived": false,
   "license_spdx": "GPL-2.0",
   "license_category": "strong-copyleft",
@@ -40,10 +40,10 @@
     }
   ],
   "usability_score": 85,
-  "snapshot_days": 14,
+  "snapshot_days": 15,
   "is_indexable": true,
   "first_seen_at": "2026-08-30T23:15:18.749Z",
   "tracking_tier": "hot",
-  "last_fetched_date": "2026-09-13",
+  "last_fetched_date": "2026-09-14",
   "stars_stagnant_days": 0
 }

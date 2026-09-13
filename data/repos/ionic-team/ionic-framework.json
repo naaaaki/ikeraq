@@ -25,8 +25,8 @@
     "web",
     "webcomponents"
   ],
-  "stars": 52659,
-  "forks": 13304,
+  "stars": 52663,
+  "forks": 13303,
   "watchers": null,
   "open_issues": 596,
   "created_at": "2013-08-20T23:06:02Z",
@@ -43,10 +43,10 @@
   "category": "web-frontend",
   "flags": [],
   "usability_score": 100,
-  "snapshot_days": 15,
+  "snapshot_days": 16,
   "is_indexable": true,
   "first_seen_at": "2026-08-29T23:02:08.747Z",
   "tracking_tier": "hot",
-  "last_fetched_date": "2026-09-13",
-  "stars_stagnant_days": 1
+  "last_fetched_date": "2026-09-14",
+  "stars_stagnant_days": 0
 }

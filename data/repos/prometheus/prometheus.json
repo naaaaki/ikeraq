@@ -14,10 +14,10 @@
     "prometheus",
     "time-series"
   ],
-  "stars": 66055,
-  "forks": 10837,
+  "stars": 66057,
+  "forks": 10840,
   "watchers": null,
-  "open_issues": 888,
+  "open_issues": 894,
   "created_at": "2012-11-24T11:14:12Z",
   "pushed_at": "2026-09-11T14:00:07Z",
   "is_archived": false,
@@ -32,10 +32,10 @@
   "category": "infra",
   "flags": [],
   "usability_score": 100,
-  "snapshot_days": 15,
+  "snapshot_days": 16,
   "is_indexable": true,
   "first_seen_at": "2026-08-29T23:02:08.747Z",
   "tracking_tier": "hot",
-  "last_fetched_date": "2026-09-13",
+  "last_fetched_date": "2026-09-14",
   "stars_stagnant_days": 0
 }

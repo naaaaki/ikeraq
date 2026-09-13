@@ -2,7 +2,7 @@
   "id": "majd/ipatool",
   "owner": "majd",
   "name": "ipatool",
-  "description_en": "Command-line tool that allows searching and downloading app packages (known as ipa files) for iOS, iPadOS, tvOS, and visionOS from the App Store.",
+  "description_en": "Command-line tool that allows you to search for iOS, iPadOS, tvOS, visionOS, and macOS apps on the App Store, and download .ipa or macOS .pkg app packages.",
   "human_note": null,
   "language": "Go",
   "topics": [
@@ -22,14 +22,15 @@
     "reverse-engineering",
     "security",
     "swift",
-    "tool"
+    "tool",
+    "visionos"
   ],
-  "stars": 11095,
-  "forks": 931,
+  "stars": 11107,
+  "forks": 932,
   "watchers": 77,
-  "open_issues": 35,
+  "open_issues": 11,
   "created_at": "2021-05-22T08:27:21Z",
-  "pushed_at": "2026-09-03T22:34:14Z",
+  "pushed_at": "2026-09-13T21:52:30Z",
   "is_archived": false,
   "license_spdx": "MIT",
   "license_category": "permissive",
@@ -42,10 +43,10 @@
   "category": "security",
   "flags": [],
   "usability_score": 100,
-  "snapshot_days": 14,
+  "snapshot_days": 15,
   "is_indexable": true,
   "first_seen_at": "2026-08-30T23:15:17.600Z",
   "tracking_tier": "hot",
-  "last_fetched_date": "2026-09-13",
+  "last_fetched_date": "2026-09-14",
   "stars_stagnant_days": 0
 }

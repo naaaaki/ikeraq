@@ -11,10 +11,10 @@
     "notepad-official",
     "windows"
   ],
-  "stars": 29296,
-  "forks": 5363,
+  "stars": 29299,
+  "forks": 5364,
   "watchers": null,
-  "open_issues": 2920,
+  "open_issues": 2921,
   "created_at": "2015-03-28T00:05:08Z",
   "pushed_at": "2026-09-12T17:35:18Z",
   "is_archived": false,
@@ -29,10 +29,10 @@
   "category": "dev-tool",
   "flags": [],
   "usability_score": 100,
-  "snapshot_days": 11,
+  "snapshot_days": 12,
   "is_indexable": true,
   "first_seen_at": "2026-09-02T23:02:41.773Z",
   "tracking_tier": "hot",
-  "last_fetched_date": "2026-09-13",
+  "last_fetched_date": "2026-09-14",
   "stars_stagnant_days": 0
 }

@@ -10,7 +10,7 @@
     "idioms",
     "python"
   ],
-  "stars": 42980,
+  "stars": 42984,
   "forks": 6991,
   "watchers": null,
   "open_issues": 12,
@@ -34,10 +34,10 @@
     }
   ],
   "usability_score": 60,
-  "snapshot_days": 6,
+  "snapshot_days": 7,
   "is_indexable": true,
   "first_seen_at": "2026-09-07T23:19:48.975Z",
   "tracking_tier": "hot",
-  "last_fetched_date": "2026-09-13",
+  "last_fetched_date": "2026-09-14",
   "stars_stagnant_days": 0
 }
