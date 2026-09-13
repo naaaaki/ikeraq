@@ -6,13 +6,13 @@ image_alt:
 
 ## 見出しの一文
 
-AIには構造だけ考えさせて、図そのものは機械が組み立てる
+配置までAIに決めさせて、絵にする工程だけ機械で固める
 
 ## どういうものか
 
 Claude Code や Cursor などのコーディングエージェントに追加して使う「スキル」です。会話の中で「このリポジトリの構成を図にして」と頼むと呼び出され、アーキテクチャ図やシーケンス図が出てきます。
 
-面白いのは**役割の分け方**です。エージェントが書くのは、型の決まった JSON だけ。どこに何を置くか、線をどう引くかといった見た目の部分は、Archify 側が機械的に組み立てます。作者は「エージェントは型付きの中間表現を作る。Archify がそれを決定的に HTML/SVG へコンパイルする」と説明しています。
+面白いのは**役割の分け方**です。エージェントが書くのは、型の決まった JSON。ただし「構造だけ」ではありません。階層、間隔、線の引き回し、どこを強調するか——見た目の判断まで、エージェントが JSON に書き込みます。汎用の自動レイアウトに任せない、というのが作者の立場です。Archify 側の仕事は、その JSON を検証して、決まった手順どおりに HTML/SVG へ変換すること。作者は「エージェントは型付きの中間表現を作る。Archify がそれを決定的に HTML/SVG へコンパイルする」と説明しています。
 
 出てくるのは、それ1つで開ける HTML ファイルが1枚です。配色はダークとライトの両方があり、PNG・SVG・WebM で書き出せます。図を組み立てる前にスキーマやレイアウトの検証を通す作りになっています。
 
@@ -20,12 +20,12 @@ Claude Code や Cursor などのコーディングエージェントに追加し
 
 <figure>
   <svg viewBox="0 0 800 450" role="img"
-       aria-label="エージェントが型付きJSONを書き、Archifyがそれを検証してHTML1枚に組み立てる流れの図。見た目を決める工程はエージェント側にない。">
+       aria-label="見出しに「配置までJSONに書く。絵にするのは機械の仕事」とある図。左から右へ4つが矢印でつながっている。「エージェント（構造と配置を決める）」、破線で囲まれた「型付きJSON（見た目の判断も入る）」、チェック印の付いた「Archify（検証して組み立てる）」、そして「HTML（1枚で完結）」。下に、同じJSONからは、毎回同じHTMLが出る、と添えられている。">
     <rect width="800" height="450" fill="#FFFFFF"/>
 
     <text x="400" y="64" text-anchor="middle"
           style="font-family: var(--jp); font-size: 31px; font-weight: 700; fill: #17160F;">
-      AIが書くのは<tspan style="fill: #1E5A48;">JSONまで</tspan>。絵にするのは機械の仕事
+      <tspan style="fill: #1E5A48;">配置まで</tspan>JSONに書く。絵にするのは機械の仕事
     </text>
 
     <!-- エージェント -->
@@ -61,10 +61,10 @@ Claude Code や Cursor などのコーディングエージェントに追加し
 
     <!-- ラベル -->
     <text x="126" y="288" text-anchor="middle" style="font-family: var(--jp); font-size: 19px; font-weight: 700; fill: #17160F;">エージェント</text>
-    <text x="126" y="310" text-anchor="middle" style="font-family: var(--jp); font-size: 15px; fill: #6E6A5F;">（構造を考える）</text>
+    <text x="126" y="310" text-anchor="middle" style="font-family: var(--jp); font-size: 15px; fill: #6E6A5F;">（構造と配置を決める）</text>
 
     <text x="324" y="288" text-anchor="middle" style="font-family: var(--jp); font-size: 19px; font-weight: 700; fill: #17160F;">型付きJSON</text>
-    <text x="324" y="310" text-anchor="middle" style="font-family: var(--jp); font-size: 15px; fill: #6E6A5F;">（ここまでがAIの仕事）</text>
+    <text x="324" y="310" text-anchor="middle" style="font-family: var(--jp); font-size: 15px; fill: #6E6A5F;">（見た目の判断も入る）</text>
 
     <text x="534" y="288" text-anchor="middle" style="font-family: var(--mono); font-size: 19px; font-weight: 500; fill: #1E5A48;">Archify</text>
     <text x="534" y="310" text-anchor="middle" style="font-family: var(--jp); font-size: 15px; fill: #6E6A5F;">（検証して組み立てる）</text>
@@ -73,14 +73,14 @@ Claude Code や Cursor などのコーディングエージェントに追加し
     <text x="709" y="310" text-anchor="middle" style="font-family: var(--jp); font-size: 15px; fill: #6E6A5F;">（1枚で完結）</text>
 
     <text x="400" y="390" text-anchor="middle" style="font-family: var(--jp); font-size: 18px; fill: #514D45;">
-      〜 見た目を決める工程が、AIの手から外れている 〜
+      〜 同じJSONからは、毎回同じHTMLが出る 〜
     </text>
   </svg>
 </figure>
 
 キャプション:
 
-見た目を決める工程がエージェントの手から外れているので、同じ構造からは毎回同じ図が出る、という作りです。「頼むたびに違う図が出る」を避けたい人向けの設計です。
+決まっているのは **JSON から先**です。同じ JSON からは毎回同じ HTML が出ます。逆に、図の形そのものはエージェントが決めるので、頼み方が変わればそちらは変わります。
 
 ## どんなときに使うか
 
@@ -90,12 +90,12 @@ Claude Code や Cursor などのコーディングエージェントに追加し
 
 ### 変更の前後を、レビューで並べて見せたいとき
 
-構成が変わる変更をレビューに出すとき、差分だけを見ても全体がどう変わったのか伝わりません。Before / After の比較が用意されているので、そこを見せる使い方ができます。
+構成が変わる変更をレビューに出すとき、差分だけを見ても全体がどう変わったのか伝わりません。Before / Delta / After の比較が用意されていて、追加・削除・変更・移動・線の引き直しを事実として並べてくれます。ただし出るのはそこまでで、影響やリスク、マージして安全かの判断はしないと明記されています。
 
 ## 注意点
 
 **やらないことが明記されています。** README には、Mermaid の自動読み取り、汎用の自動レイアウト、ホスティングでの共有、画面上での編集が「いまのところ意図的に対象外」と書かれています。既存の Mermaid をそのまま流し込みたい、という用途には向きません。
 
-**まだ新しいプロジェクトです。** 公開から4か月半で、リリースは16回。開発の速度が速い分、JSON の書き方や設定が変わる可能性があります。エージェントのスキルという形なので、使っているエージェント側の仕様変更にも影響を受けます。
+**まだ新しいプロジェクトです。** 公開から5か月で、リリースは十数回。開発の速度が速い分、JSON の書き方や設定が変わる可能性があります。エージェントのスキルという形なので、使っているエージェント側の仕様変更にも影響を受けます。
 
 ライセンスは MIT で、商用利用の妨げになる条項はありません。

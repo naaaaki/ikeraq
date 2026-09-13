@@ -1,5 +1,5 @@
 ---
-updated: 2026-09-12
+updated: 2026-09-13
 image:
 image_alt:
 ---
@@ -20,16 +20,16 @@ image_alt:
 
 ## どういうものか
 
-Scrapling は Python のスクレイピング一式。ページを取ってくる部分、HTML から値を抜く部分、リンクをたどって巡回する部分が、ひとつの中に入っている。名前にある「適応（adaptive）」が指しているのは、**サイトの作りが変わって指定が外れたときに、要素を探し直す仕組み**のことだ。
+Scrapling は Python のスクレイピング一式。ページを取ってくる部分、HTML から値を抜く部分、リンクをたどって巡回する部分が、ひとつの中に入っている。説明文にある「適応（adaptive）」が指しているのは、**サイトの作りが変わって指定が外れたときに、要素を探し直す仕組み**のことだ。
 
-普通のスクレイパーは、`div.price` のような**場所の指定**で値を取る。だから相手がデザインを直してクラス名が変わった途端、何も取れなくなる。しかも多くの場合、例外ではなく「空っぽ」で返るので、壊れたことにしばらく気づかない。Scrapling は値を取るときに、その要素そのものの特徴（タグ、属性、周りとの位置関係、中の文字）を控えておく。次に走らせて指定が空振りしたら、控えた特徴に似た要素をページ全体から探し当てる。README はこれを「intelligent similarity algorithms」と呼んでいる。
+普通のスクレイパーは、`div.price` のような**場所の指定**で値を取る。だから相手がデザインを直してクラス名が変わった途端、何も取れなくなる。しかも多くの場合、例外ではなく「空っぽ」で返るので、壊れたことにしばらく気づかない。Scrapling には、値を取るときに**その要素の特徴を控えておく**指定がある。次に走らせて指定が空振りしたときは、控えた特徴に似た要素をページ全体から探し当てる。README はこれを「intelligent similarity algorithms」と呼んでいる。どちらも既定で動くわけではない。取得する側で adaptive を有効にしたうえで、控えるとき（`auto_save`）と探し直すとき（`adaptive`）にそれぞれ指定する形になっている。
 
-取得の口は3つある。素の HTTP で取る `Fetcher`、検知をかわす方向に振った `StealthyFetcher`（README は Cloudflare Turnstile への対応を挙げている）、Playwright で実際のブラウザを動かす `DynamicFetcher`。書き換えるのは1行なので、軽い方法から始めて、駄目なときだけ重い方に寄せられる。巡回のほうは Scrapy に似た `Spider` の形で、相手の応答の速さを見て1ドメインごとの間隔を自動で調整する仕組み（AutoThrottle）、途中で止めて再開するための記録、robots.txt の尊重が入っている。出力は JSON / JSONL / CSV / XML。MCP サーバとしても動くので、エージェントから呼ぶこともできる。
+取得の口は、用途で3通りに分けてある（非同期版とセッション版が別にある）。HTTP で取る `Fetcher`（TLSの指紋をまねる、HTTP/3 を使うといった細工も込み）、検知をかわす方向に振った `StealthyFetcher`（README は Cloudflare Turnstile への対応を挙げている）、Playwright で実際のブラウザを動かす `DynamicFetcher`。軽い方法で済むページはそのまま回し、駄目なページだけ重い方に回す、という組み方ができる。巡回のほうは Scrapy に似た `Spider` の形で、相手の応答の速さを見て1ドメインごとの間隔を自動で調整する仕組み（AutoThrottle）、途中で止めて再開するための記録、robots.txt に従わせる指定（任意）が入っている。組み込みの書き出しは JSON / JSONL / CSV / XML。MCP サーバとしても動くので、エージェントから呼ぶこともできる。
 
 
 ## 図
 
-<svg viewBox="0 0 800 430" role="img" aria-label="Scrapling の適応の図。左に「1回目」の箱があり、値を取ると同時にその要素の特徴（タグ・属性・位置・文字）を控えると書かれている。中央に「サイトが変わる」の箱があり、クラス名が price から cost に変わった例が描かれ、普通のスクレイパーはここで空になると添えられている。右に「2回目」の箱があり、指定が空振りしたら控えた特徴に似た要素を探し、取り直すと書かれている。中央から右へ向かう矢印に「空振り」と書かれている。下に、壊れたことに気づかないまま空のデータが溜まるのを防ぐと添えられている。" style="width: 100%; height: auto; display: block; font-family: var(--jp);">
+<svg viewBox="0 0 800 430" role="img" aria-label="見出しに「指定が外れたら、似ている要素を探し直す」とある図。左に「1回目（取れている状態）」の箱があり、div.price から取る、同時にその要素の特徴を控えておく、控える指定が要ると書かれている。左から中央へ矢印が伸びる。中央に「サイトが変わる（相手の都合・予告なし）」の箱があり、div.price が div.cost に変わったと書かれ、普通はここで空になると添えられている。中央から右へ向かう矢印には「空振り」と書かれている。右に「2回目（探し直す）」の箱があり、控えた特徴に似た要素をページ全体から見つけて取り直す、セレクタは同じまま（※ 探し直す指定が要る）と書かれている。下に、止まるのではなく「空のまま動き続ける」のが、スクレイパーのいちばん厄介な壊れ方だと添えられている。" style="width: 100%; height: auto; display: block; font-family: var(--jp);">
   <defs>
     <marker id="sc-arrow" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="6" markerHeight="6" orient="auto-start-reverse">
       <path d="M0,0 L10,5 L0,10 z" fill="#1E5A48" />
@@ -44,7 +44,7 @@ Scrapling は Python のスクレイピング一式。ページを取ってく�
   <text x="131" y="212" text-anchor="middle" font-size="13" fill="#17160F" fill-opacity="0.85">div.price から取る</text>
   <text x="131" y="248" text-anchor="middle" font-size="13" fill="#1E5A48" font-weight="700">同時に、その要素の</text>
   <text x="131" y="270" text-anchor="middle" font-size="13" fill="#1E5A48" font-weight="700">特徴を控えておく</text>
-  <text x="131" y="296" text-anchor="middle" font-size="11.5" fill="#17160F" fill-opacity="0.72">タグ・属性・位置・文字</text>
+  <text x="131" y="296" text-anchor="middle" font-size="11.5" fill="#17160F" fill-opacity="0.72">※ 控える指定が要る</text>
 
   <line x1="242" y1="216" x2="282" y2="216" stroke="#1E5A48" stroke-width="4" marker-end="url(#sc-arrow)" />
 
@@ -65,7 +65,7 @@ Scrapling は Python のスクレイピング一式。ページを取ってく�
   <text x="669" y="212" text-anchor="middle" font-size="13" fill="#17160F" fill-opacity="0.85">控えた特徴に</text>
   <text x="669" y="234" text-anchor="middle" font-size="13" fill="#17160F" fill-opacity="0.85">似た要素をページ全体から</text>
   <text x="669" y="270" text-anchor="middle" font-size="13" fill="#1E5A48" font-weight="700">見つけて取り直す</text>
-  <text x="669" y="296" text-anchor="middle" font-size="11.5" fill="#17160F" fill-opacity="0.72">指定の書き換えは要らない</text>
+  <text x="669" y="296" text-anchor="middle" font-size="11.5" fill="#17160F" fill-opacity="0.72">セレクタは同じまま（※ 探し直す指定が要る）</text>
 
   <text x="400" y="380" text-anchor="middle" font-size="13.5" fill="#17160F" fill-opacity="0.72">止まるのではなく「空のまま動き続ける」のが、スクレイパーのいちばん厄介な壊れ方</text>
 </svg>
@@ -81,7 +81,7 @@ Scrapling は Python のスクレイピング一式。ページを取ってく�
 
 ### 軽い取得で始めて、駄目なときだけブラウザに寄せたいとき
 
-`Fetcher` と `DynamicFetcher` は同じ使い方で入れ替わる。最初からブラウザを立てずに済むので、**動いたページはそのまま安く回して**、動かなかったページだけ重い方法に切り替えられる。
+取得の方法が分かれているので、最初からブラウザを立てる必要がない。**動いたページはそのまま安く回して**、動かなかったページだけ重い方法に切り替えられる。
 
 
 ## 注意点
@@ -90,6 +90,6 @@ Scrapling は Python のスクレイピング一式。ページを取ってく�
 
 **検知をかわす機能が入っている。** 使う相手の利用規約と robots.txt の確認は使う側の責任になる。README 自身も、教育・研究目的であること、サイトの規約と robots.txt を尊重することを明記している。
 
-**インストールが2段階。** `pip install scrapling` だけだと解析部分しか入らず、取得部分を import すると `ModuleNotFoundError` になる。取得まで使うなら `pip install "scrapling[fetchers]"` に加えて `scrapling install` でブラウザ側を入れる。README によれば Python 3.10 以上が要る。
+**用途ごとに追加のインストールが要る。** `pip install scrapling` だけだと解析部分しか入らず、取得と巡回の部分（`scrapling.fetchers` と `scrapling.spiders`）を import すると `ModuleNotFoundError` になる。取得と巡回を使うなら `pip install "scrapling[fetchers]"`（README は spiders もこれで足りると書いている） に加えて `scrapling install` でブラウザ側を入れる。売りに挙げた MCP サーバはさらに別で、`pip install "scrapling[ai]"` が要る。README によれば Python 3.10 以上が要る。
 
 ライセンスは BSD-3-Clause。商用利用も含めて扱いやすい部類だが、再配布時に著作権表示を残す条件が付く。
