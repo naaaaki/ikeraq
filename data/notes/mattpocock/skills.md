@@ -10,7 +10,7 @@ image_alt:
 
 ## どういうものか
 
-Claude Code や Codex のようなコーディングエージェントに読ませる、**手順書の詰め合わせ**です。TypeScript の教材で知られる Matt Pocock 氏によるもので、engineering 系と productivity 系を合わせて20本あまりが入っています。1本1本は Markdown の指示書で、コードではありません。
+Claude Code や Codex のようなコーディングエージェントに読ませる、**手順書の詰め合わせ**です。TypeScript の教材で知られる Matt Pocock 氏によるもので、engineering 系と productivity 系を合わせて25本が入っています（ほかに作りかけのものと雑多なものの置き場もあります）。1本1本は Markdown の指示書で、コードではありません。
 
 収録されているものは、**呼び出し方で2種類に分かれます。** 人が `/grill-me` `/to-spec` `/tdd` のように名前を指定して起動するもの（依頼を問い詰める、仕様に落とす、テストを先に書く、といった段取りを担当する）と、エージェントが必要と判断したときに自分で読みにいくもの（バグの切り分け方、ドメインのモデリング、コードレビューの観点といった「作法」を担当する）です。前者が流れを決め、後者がその中の細かい判断を支えます。
 
@@ -20,7 +20,7 @@ Claude Code や Codex のようなコーディングエージェントに読ま�
 
 <figure>
   <svg viewBox="0 0 800 450" role="img"
-       aria-label="ぼんやりした依頼が、問い詰める工程を通って仕様とチケットになり、そこから実装に渡る流れの図。左から順に、依頼、grill（問い詰める）、to-spec と to-tickets（形にする）、implement と tdd（作る）の4つが緑の矢印でつながっている。">
+       aria-label="ぼんやりした依頼が、問い詰める工程を通って仕様とチケットになり、そこから実装に渡る流れの図。左から順に、依頼、grill（問い詰める）、to-spec と to-tickets（形にする）、implement（作る）の4つが緑の矢印でつながっている。下に「〜 手戻りは、書いたコードの中ではなく、依頼の曖昧さから生まれる 〜」とある。">
     <rect width="800" height="450" fill="#FFFFFF"/>
 
     <text x="400" y="58" text-anchor="middle"
@@ -68,7 +68,7 @@ Claude Code や Codex のようなコーディングエージェントに読ま�
     <text x="548" y="312" text-anchor="middle" style="font-family: var(--mono); font-size: 19px; font-weight: 500; fill: #17160F;">/to-spec → /to-tickets</text>
     <text x="548" y="334" text-anchor="middle" style="font-family: var(--jp); font-size: 15px; fill: #6E6A5F;">（読み返せる形にする）</text>
 
-    <text x="736" y="312" text-anchor="middle" style="font-family: var(--mono); font-size: 19px; font-weight: 500; fill: #1E5A48;">/tdd</text>
+    <text x="736" y="312" text-anchor="middle" style="font-family: var(--mono); font-size: 19px; font-weight: 500; fill: #1E5A48;">/implement</text>
     <text x="736" y="334" text-anchor="middle" style="font-family: var(--jp); font-size: 15px; fill: #6E6A5F;">（作る）</text>
 
     <text x="400" y="404" text-anchor="middle" style="font-family: var(--jp); font-size: 18px; fill: #514D45;">

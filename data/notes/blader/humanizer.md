@@ -28,7 +28,7 @@ AIが書いた文章の癖を、言っている内容は変えずに抜く
 
 ## 図
 
-<svg viewBox="0 0 800 450" role="img" aria-label="原文に癖の印をつけ、書き直し、25の型と元の主張の両方に照らし合わせてから清書するまでの4段階の流れ図。照らし合わせの段は書き直しの段へ戻る矢印を持つ。" style="width: 100%; height: auto; display: block; font-family: var(--jp);">
+<svg viewBox="0 0 800 450" role="img" aria-label="見出しに「直す前に、癖に印をつける」とある図。左から順に、印をつける（強い癖から順に）、書き直す（構成は動かしてよい）、照らし合わせる（25の型と、元の主張の両方に）、清書する（言っている内容は変えない）の4段が矢印でつながる。下に「足りない事実はでっち上げず、書き手に聞き返す」とある。" style="width: 100%; height: auto; display: block; font-family: var(--jp);">
   <defs>
     <marker id="hum-arrow" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="6" markerHeight="6" orient="auto-start-reverse">
       <path d="M0,0 L10,5 L0,10 z" fill="#1E5A48" />
@@ -50,14 +50,12 @@ AIが書いた文章の癖を、言っている内容は変えずに抜く
   <text x="524" y="186" text-anchor="middle" font-size="16" font-weight="700" fill="#1E5A48">照らし合わせる</text>
   <text x="524" y="210" text-anchor="middle" font-size="11.5" fill="#17160F" fill-opacity="0.7">（25の型と、</text>
   <text x="524" y="228" text-anchor="middle" font-size="11.5" fill="#17160F" fill-opacity="0.7">元の主張の両方に）</text>
-  <path d="M524 244 L524 288 L309 288 L309 246" fill="none" stroke="#1E5A48" stroke-width="4" stroke-dasharray="8 7" marker-end="url(#hum-arrow)" />
-  <text x="416" y="312" text-anchor="middle" font-size="11.5" fill="#17160F" fill-opacity="0.7">残っていれば、書き直しに戻る</text>
   <line x1="612" y1="195" x2="652" y2="195" stroke="#1E5A48" stroke-width="4" marker-end="url(#hum-arrow)" />
   <rect x="660" y="146" width="116" height="98" rx="8" fill="none" stroke="#17160F" stroke-opacity="0.22" stroke-width="1.5" />
   <text x="718" y="186" text-anchor="middle" font-size="16" font-weight="700" fill="#17160F">清書する</text>
   <text x="718" y="210" text-anchor="middle" font-size="11.5" fill="#17160F" fill-opacity="0.7">（言っている内容</text>
   <text x="718" y="228" text-anchor="middle" font-size="11.5" fill="#17160F" fill-opacity="0.7">は変えない）</text>
-  <text x="400" y="384" text-anchor="middle" font-size="13.5" fill="#17160F" fill-opacity="0.7">足りない事実はでっち上げず、書き手に聞き返す。だから「書き直し」で止まる</text>
+  <text x="400" y="384" text-anchor="middle" font-size="13.5" fill="#17160F" fill-opacity="0.7">足りない事実はでっち上げず、書き手に聞き返す</text>
 </svg>
 
 キャプション: 印をつける段が先にあるのが要点。どこが引っかかるのかを言葉にしてから直すので、「なんとなく整えた文」にならずに済む。
@@ -66,7 +64,7 @@ AIが書いた文章の癖を、言っている内容は変えずに抜く
 
 ### 下書きはAIに任せたが、そのままでは出せないとき
 
-内容は合っているのに、読むと機械が書いたと分かってしまう。書き直しを頼むと今度は中身が変わる — という往復に、型と手順を与えたものになる。**事実を足さないという縛りがあるぶん、直したあとの確認が軽くなる。**
+内容は合っているのに、読むと機械が書いたと分かってしまう。書き直しを頼むと今度は中身が変わる — という往復に、型と手順を与えたものになる。**事実を足さないという縛りがあるぶん、どこを確かめればよいかが絞れる。**
 
 ### 自分の書き癖を点検したいとき
 
@@ -75,7 +73,7 @@ AIが書いた文章の癖を、言っている内容は変えずに抜く
 
 ## 注意点
 
-**AI検出をすり抜けるための道具ではない。** 書かれている狙いは、読んで引っかからない文章にすること。検出器に対して何かを保証するものではないし、README にも検出への言及はない。
+**AI検出をすり抜けるための道具としては書かれていない。** 書かれている狙いは、読んで引っかからない文章にすること。検出器に対して何かを保証するものではない。README の変更履歴には、3.0.0 で `ai-detection` という語をパッケージから外した、と1行ある。理由までは書かれていない。
 
 **型の例は英語の文で示されている。** 下敷きの Wikipedia の文書も、`SKILL.md` に並ぶ実例も英語。日本語の文章に同じように効くかどうかは、**当サイトでは確かめていない**。日本語で使う場合は、まず短い文で様子を見たほうがよい。
 
