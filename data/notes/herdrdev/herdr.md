@@ -28,7 +28,7 @@ image_alt:
 
 ## 図
 
-<svg viewBox="0 0 800 420" role="img" aria-label="herdr の仕組みの図。左に手元の端末（表示するだけ）があり、閉じても切れてもよいと書かれている。中央に裏で動き続けるサーバーがあり、ワークスペース・タブ・ペインの3段と、working・blocked・idle の状態表示を抱えている。右にコーディングエージェント本体が並び、動き続けると書かれている。矢印は端末からサーバー、サーバーからエージェントへ向かい、下に「止まっているのはどれか、が常に見えている」と添えられている。" style="width: 100%; height: auto; display: block; font-family: var(--jp);">
+<svg viewBox="0 0 800 420" role="img" aria-label="見出しに「端末は見るだけ、抱えているのは裏のサーバー」とある図。左に「手元の端末（表示するだけ）」があり、閉じてよい、SSHが切れてよい、別の端末から繋ぎ直す と書かれている。中央は「裏で動き続けるサーバー」で、ワークスペース → タブ → ペイン、working・blocked・idle、ペインごとに状態を持つ、エージェント側からも操作できる と並ぶ。右は「エージェント本体（そのまま動かす）」で、Claude Code / Codex、Cursor / OpenCode ほか、走り続ける と書かれている。下に「置き換えではなく「端末を預かる」設計なので、いま使っているエージェントをそのまま乗せられる」とある。" style="width: 100%; height: auto; display: block; font-family: var(--jp);">
   <defs>
     <marker id="hd-arrow" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="6" markerHeight="6" orient="auto-start-reverse">
       <path d="M0,0 L10,5 L0,10 z" fill="#1E5A48" />
