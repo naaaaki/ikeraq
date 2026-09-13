@@ -106,7 +106,7 @@ const facts: Fact[] = [
   repo.releases_count !== null ? { v: num(repo.releases_count), u: '回', k: 'リリースの回数です' } : null,
   repo.contributors_count !== null ? { v: num(repo.contributors_count), u: '人', k: '開発に参加した人数です' } : null,
   { v: String(ago.days), u: '日前', k: '最後のコミットです' },
-  { v: num(repo.open_issues), u: '件', k: '未解決のまま残っている Issue の数です' },
+  { v: num(repo.open_issues), u: '件', k: '未解決の Issue とプルリクエストの合計です（GitHub はこの2つを同じ数に含めます）' },
   // ★記録日数はここに出さない。同じことをサイドバーのスター推移が示していて、二重になる
 ].filter((f): f is Fact => f !== null);
 
@@ -424,7 +424,7 @@ const noteCredit = note
         <div style="padding-top: 4px;">
           <div class="kv"><span>Fork</span><b>{num(repo.forks)}</b></div>
           {repo.watchers !== null && <div class="kv"><span>Watch</span><b>{num(repo.watchers)}</b></div>}
-          <div class="kv"><span>未解決の Issue</span><b>{num(repo.open_issues)}</b></div>
+          <div class="kv"><span>未解決の Issue / PR</span><b>{num(repo.open_issues)}</b></div>
           {repo.contributors_count !== null && <div class="kv"><span>コントリビュータ</span><b>{num(repo.contributors_count)}</b></div>}
           {repo.releases_count !== null && <div class="kv"><span>リリース</span><b>{num(repo.releases_count)}</b></div>}
         </div>
