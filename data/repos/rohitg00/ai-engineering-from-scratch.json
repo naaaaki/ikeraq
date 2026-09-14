@@ -27,8 +27,8 @@
     "tutorial",
     "typescript"
   ],
-  "stars": 54451,
-  "forks": 9525,
+  "stars": 54580,
+  "forks": 9548,
   "watchers": 350,
   "open_issues": 113,
   "created_at": "2026-03-18T18:38:02Z",
@@ -45,10 +45,10 @@
   "category": "ai-agent",
   "flags": [],
   "usability_score": 100,
-  "snapshot_days": 15,
+  "snapshot_days": 16,
   "is_indexable": true,
   "first_seen_at": "2026-08-30T23:15:18.749Z",
   "tracking_tier": "hot",
-  "last_fetched_date": "2026-09-14",
+  "last_fetched_date": "2026-09-15",
   "stars_stagnant_days": 0
 }

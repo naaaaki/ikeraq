@@ -21,12 +21,12 @@
     "universal",
     "vercel"
   ],
-  "stars": 142276,
+  "stars": 142314,
   "forks": 31905,
   "watchers": null,
-  "open_issues": 3366,
+  "open_issues": 3358,
   "created_at": "2016-10-05T23:32:51Z",
-  "pushed_at": "2026-09-13T22:32:12Z",
+  "pushed_at": "2026-09-14T23:42:10Z",
   "is_archived": false,
   "license_spdx": "MIT",
   "license_category": "permissive",
@@ -39,10 +39,10 @@
   "category": "web-frontend",
   "flags": [],
   "usability_score": 100,
-  "snapshot_days": 16,
+  "snapshot_days": 17,
   "is_indexable": true,
   "first_seen_at": "2026-08-29T15:46:21.820Z",
   "tracking_tier": "hot",
-  "last_fetched_date": "2026-09-14",
+  "last_fetched_date": "2026-09-15",
   "stars_stagnant_days": 0
 }

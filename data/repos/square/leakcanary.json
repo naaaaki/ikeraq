@@ -17,7 +17,7 @@
     "outofmemory",
     "outofmemoryerror"
   ],
-  "stars": 29996,
+  "stars": 29995,
   "forks": 3993,
   "watchers": 977,
   "open_issues": 133,
@@ -35,10 +35,10 @@
   "category": "mobile",
   "flags": [],
   "usability_score": 100,
-  "snapshot_days": 12,
+  "snapshot_days": 13,
   "is_indexable": true,
   "first_seen_at": "2026-09-02T23:02:41.773Z",
   "tracking_tier": "hot",
-  "last_fetched_date": "2026-09-14",
-  "stars_stagnant_days": 2
+  "last_fetched_date": "2026-09-15",
+  "stars_stagnant_days": 3
 }

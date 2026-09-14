@@ -27,8 +27,8 @@
     "typescript",
     "x402"
   ],
-  "stars": 2665,
-  "forks": 322,
+  "stars": 2718,
+  "forks": 331,
   "watchers": 25,
   "open_issues": 29,
   "created_at": "2026-01-26T15:08:42Z",
@@ -45,10 +45,10 @@
   "category": "other",
   "flags": [],
   "usability_score": 100,
-  "snapshot_days": 3,
+  "snapshot_days": 4,
   "is_indexable": false,
   "first_seen_at": "2026-09-11T23:02:10.365Z",
   "tracking_tier": "hot",
-  "last_fetched_date": "2026-09-14",
+  "last_fetched_date": "2026-09-15",
   "stars_stagnant_days": 0
 }

@@ -11,10 +11,10 @@
     "dex",
     "java"
   ],
-  "stars": 50457,
-  "forks": 5749,
+  "stars": 50463,
+  "forks": 5752,
   "watchers": null,
-  "open_issues": 445,
+  "open_issues": 446,
   "created_at": "2013-03-18T17:08:21Z",
   "pushed_at": "2026-09-12T18:25:15Z",
   "is_archived": false,
@@ -29,10 +29,10 @@
   "category": "mobile",
   "flags": [],
   "usability_score": 100,
-  "snapshot_days": 15,
+  "snapshot_days": 16,
   "is_indexable": true,
   "first_seen_at": "2026-08-30T23:15:18.749Z",
   "tracking_tier": "hot",
-  "last_fetched_date": "2026-09-14",
+  "last_fetched_date": "2026-09-15",
   "stars_stagnant_days": 0
 }

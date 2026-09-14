@@ -20,8 +20,8 @@
     "ui",
     "vite"
   ],
-  "stars": 123690,
-  "forks": 10159,
+  "stars": 123771,
+  "forks": 10168,
   "watchers": null,
   "open_issues": 1844,
   "created_at": "2023-01-04T12:43:27Z",
@@ -44,10 +44,10 @@
     }
   ],
   "usability_score": 90,
-  "snapshot_days": 16,
+  "snapshot_days": 17,
   "is_indexable": true,
   "first_seen_at": "2026-08-29T15:46:21.820Z",
   "tracking_tier": "hot",
-  "last_fetched_date": "2026-09-14",
+  "last_fetched_date": "2026-09-15",
   "stars_stagnant_days": 0
 }

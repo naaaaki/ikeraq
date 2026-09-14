@@ -3,7 +3,7 @@
   "owner": "Panniantong",
   "name": "Agent-Reach",
   "description_en": "Give your AI agent eyes to see the entire internet. Read & search Twitter, Reddit, YouTube, GitHub, Bilibili, XiaoHongShu — one CLI, zero API fees.",
-  "human_note": null,
+  "human_note": "<!-- ============================================================\n  Panniantong/Agent-Reach\n  https://github.com/Panniantong/Agent-Reach\n  Python / MIT / スター 80,000台\n  topics: agent-infrastructure, ai-agent, cli, mcp, web-scraper\n============================================================ -->\n\n\n## 見出しの一文\n\nエージェントにネットを読ませる道具を、選んで・入れて・点検するまでやる\n\n\n## どういうものか\n\nAgent Reach は、手元の AI エージェント（Claude Code などのコマンドラインで動くもの）に、ウェブや SNS を読む力を持たせるための CLI です。ふつうエージェントは、コードを書いたり文書を直したりはできても、「この YouTube の動画は何を言っているか」「Reddit に同じ不具合の報告はあるか」と頼まれると止まります。有料の API、ログインが要るページ、弾かれる IP。その一つひとつを自分で調べて設定する作業を、まとめて肩代わりするのがこの道具です。\n\n面白いのは、**Agent Reach 自身は読んでいない**ところです。README はこれを「能力層（capability layer）」と呼び、担当は**選定・インストール・点検・振り分け**だけで、読み取りそのものはエージェントが上流のツールを直接呼んで行う、と説明しています。あいだに包む層を作らない、という設計です。\n\nそのため、プラットフォームごとの中身は「**第一候補と代替の順番リスト**」になっています。Twitter なら twitter-cli、それが駄目なら OpenCLI、という並びです。`agent-reach doctor` を打つと、いまどの経路が通っていて、どこが詰まっているかが出ます。README は、2026年6月に yt-dlp が B站（ビリビリ）側の規制で通らなくなったとき、bili-cli に切り替えて利用者の操作はゼロで済んだ、という例を挙げています。接続方法が世代交代しても、リストの順番を入れ替えるだけで済ませる、という考え方です。\n\n\n## 図\n\n<svg viewBox=\"0 0 800 450\" role=\"img\" aria-label=\"見出しに「読む道具は、その都度選び直す」とある図。左に「エージェント（手元のCLI）」の箱があり、「この動画の中身を教えて」と頼む、とある。矢印で中央の「Agent Reach（選ぶ・入れる・点検する）」に進み、候補を上から順に試す、実際に通った1つに決める、と書かれている。矢印で右の「上流のツール（実際に読むのはこちら）」に進み、yt-dlp、gh、Jina Reader、bili-cli ほかが並ぶ。下に「経路が1つ塞がれても、次の候補に入れ替わる」とある。\" style=\"width: 100%; height: auto; display: block; font-family: var(--jp);\">\n  <defs>\n    <marker id=\"ar-arrow\" viewBox=\"0 0 10 10\" refX=\"9\" refY=\"5\" markerWidth=\"6\" markerHeight=\"6\" orient=\"auto-start-reverse\">\n      <path d=\"M0,0 L10,5 L0,10 z\" fill=\"#1E5A48\" />\n    </marker>\n  </defs>\n  <rect width=\"800\" height=\"450\" fill=\"#FFFFFF\" />\n  <text x=\"400\" y=\"56\" text-anchor=\"middle\" font-size=\"27\" font-weight=\"700\" fill=\"#17160F\">読む道具は、<tspan fill=\"#1E5A48\">その都度選び直す</tspan></text>\n\n  <rect x=\"20\" y=\"130\" width=\"222\" height=\"200\" rx=\"8\" fill=\"none\" stroke=\"#17160F\" stroke-opacity=\"0.28\" stroke-width=\"1.5\" stroke-dasharray=\"5 4\" />\n  <text x=\"131\" y=\"176\" text-anchor=\"middle\" font-size=\"17\" font-weight=\"700\" fill=\"#17160F\">エージェント</text>\n  <text x=\"131\" y=\"200\" text-anchor=\"middle\" font-size=\"11.5\" fill=\"#17160F\" fill-opacity=\"0.72\">（手元のCLI）</text>\n  <text x=\"131\" y=\"250\" text-anchor=\"middle\" font-size=\"13\" fill=\"#17160F\" fill-opacity=\"0.85\">「この動画の</text>\n  <text x=\"131\" y=\"274\" text-anchor=\"middle\" font-size=\"13\" fill=\"#17160F\" fill-opacity=\"0.85\">中身を教えて」</text>\n  <text x=\"131\" y=\"304\" text-anchor=\"middle\" font-size=\"12\" fill=\"#17160F\" fill-opacity=\"0.72\">と頼む</text>\n\n  <line x1=\"242\" y1=\"220\" x2=\"282\" y2=\"220\" stroke=\"#1E5A48\" stroke-width=\"4\" marker-end=\"url(#ar-arrow)\" />\n\n  <rect x=\"289\" y=\"130\" width=\"222\" height=\"200\" rx=\"8\" fill=\"none\" stroke=\"#1E5A48\" stroke-width=\"2\" />\n  <text x=\"400\" y=\"176\" text-anchor=\"middle\" font-size=\"17\" font-weight=\"700\" fill=\"#1E5A48\">Agent Reach</text>\n  <text x=\"400\" y=\"200\" text-anchor=\"middle\" font-size=\"11.5\" fill=\"#17160F\" fill-opacity=\"0.72\">（選ぶ・入れる・点検する）</text>\n  <text x=\"400\" y=\"250\" text-anchor=\"middle\" font-size=\"13\" fill=\"#17160F\" fill-opacity=\"0.85\">候補を上から順に試す</text>\n  <text x=\"400\" y=\"288\" text-anchor=\"middle\" font-size=\"13\" font-weight=\"700\" fill=\"#1E5A48\">実際に通った1つに決める</text>\n\n  <line x1=\"511\" y1=\"220\" x2=\"551\" y2=\"220\" stroke=\"#1E5A48\" stroke-width=\"4\" marker-end=\"url(#ar-arrow)\" />\n\n  <rect x=\"558\" y=\"130\" width=\"222\" height=\"200\" rx=\"8\" fill=\"none\" stroke=\"#17160F\" stroke-opacity=\"0.28\" stroke-width=\"1.5\" />\n  <text x=\"669\" y=\"176\" text-anchor=\"middle\" font-size=\"17\" font-weight=\"700\" fill=\"#17160F\">上流のツール</text>\n  <text x=\"669\" y=\"200\" text-anchor=\"middle\" font-size=\"11.5\" fill=\"#17160F\" fill-opacity=\"0.72\">（実際に読むのはこちら）</text>\n  <text x=\"669\" y=\"244\" text-anchor=\"middle\" font-size=\"13\" fill=\"#17160F\" fill-opacity=\"0.85\">yt-dlp ／ gh</text>\n  <text x=\"669\" y=\"270\" text-anchor=\"middle\" font-size=\"13\" fill=\"#17160F\" fill-opacity=\"0.85\">Jina Reader</text>\n  <text x=\"669\" y=\"296\" text-anchor=\"middle\" font-size=\"13\" fill=\"#17160F\" fill-opacity=\"0.85\">bili-cli ほか</text>\n\n  <text x=\"400\" y=\"392\" text-anchor=\"middle\" font-size=\"13.5\" fill=\"#17160F\" fill-opacity=\"0.72\">経路が1つ塞がれても、次の候補に入れ替わる</text>\n</svg>\n\nキャプション: 読む力そのものを作り直すのではなく、**すでにある道具のどれを今日使うか**を決める位置にいる。塞がれるのが前提の相手だからこそ、この置き方になっている。\n\n\n## どんなときに使うか\n\n### エージェントの環境を作り直すたび、同じ設定を踏み直しているとき\n\n機械を変えた、新しいエージェントに乗り換えた、というたびに「Twitter は何で読むんだったか」を思い出すところから始まります。**選定そのものが更新されていく**ので、前に調べた結論が今日も正しいとは限りません。そこを引き受けてもらう道具です。\n\n### 読めなくなった原因が、どこにあるか分からないとき\n\nエージェントが「取得できませんでした」と返したとき、鍵が切れたのか、相手に弾かれたのか、ツールが停止したのかは区別がつきません。`agent-reach doctor` は経路ごとに状態と直し方を出します。\n\n\n## 注意点\n\n**ログインが要るプラットフォームは、渡すものの重さが違います。** Reddit・Facebook・Instagram・小紅書（RED）と、Twitter の検索は、ログイン済みの状態か Cookie が要ります。Cookie はログイン権限そのものです。README 自身が**専用のサブアカウントを使うこと**を勧めていて、スクリプト経由の呼び出しが検知されて凍結される可能性にも触れています。主アカウントで試す道具ではありません。\n\n**設定なしで使える経路として README が並べているのは6つです。** ウェブページ、GitHub の公開リポジトリ、YouTube、B站の検索、全網検索（Exa、鍵は不要）、RSS。ただし `agent-reach install` は既定では環境を確かめるだけで、実際に入れて設定するのは `--system` を明示したときだ、とも書かれています。いっぽう上に挙げたログインが要るものは、すべて追加の手当てが必要です。Reddit については「匿名で読む経路はもう無い」と README がはっきり書いています。\n\n**対象の重心が中国語圏にあります。** 小紅書、B站、V2EX、雪球（株式）が並ぶ構成で、日本から使うと価値のある窓口は絞られます。README は中国語が本体ですが、`docs/README_ja.md` に日本語版が置かれています。\n\n**PyPI に同じ名前のパッケージがありますが、別物です。** README が名指しで注意しています。入れるならこのリポジトリから入れることになります。\n\nライセンスは MIT です。",
   "language": "Python",
   "topics": [
     "agent-infrastructure",
@@ -24,10 +24,10 @@
     "xiaohongshu",
     "youtube-transcript"
   ],
-  "stars": 80446,
-  "forks": 7001,
-  "watchers": 288,
-  "open_issues": 133,
+  "stars": 81212,
+  "forks": 7073,
+  "watchers": 291,
+  "open_issues": 135,
   "created_at": "2026-02-24T02:10:24Z",
   "pushed_at": "2026-09-01T08:09:58Z",
   "is_archived": false,
@@ -42,10 +42,10 @@
   "category": "ai-agent",
   "flags": [],
   "usability_score": 100,
-  "snapshot_days": 16,
+  "snapshot_days": 17,
   "is_indexable": true,
   "first_seen_at": "2026-08-29T23:02:08.747Z",
   "tracking_tier": "hot",
-  "last_fetched_date": "2026-09-14",
+  "last_fetched_date": "2026-09-15",
   "stars_stagnant_days": 0
 }

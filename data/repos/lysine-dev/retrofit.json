@@ -9,7 +9,7 @@
     "android",
     "java"
   ],
-  "stars": 43938,
+  "stars": 43934,
   "forks": 7339,
   "watchers": null,
   "open_issues": 173,
@@ -27,10 +27,10 @@
   "category": "mobile",
   "flags": [],
   "usability_score": 100,
-  "snapshot_days": 15,
+  "snapshot_days": 16,
   "is_indexable": true,
   "first_seen_at": "2026-08-30T23:15:18.750Z",
   "tracking_tier": "hot",
-  "last_fetched_date": "2026-09-14",
-  "stars_stagnant_days": 1
+  "last_fetched_date": "2026-09-15",
+  "stars_stagnant_days": 2
 }

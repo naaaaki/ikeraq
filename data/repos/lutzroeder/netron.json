@@ -23,7 +23,7 @@
     "tensorflow-lite",
     "visualizer"
   ],
-  "stars": 33480,
+  "stars": 33486,
   "forks": 3186,
   "watchers": null,
   "open_issues": 18,
@@ -41,10 +41,10 @@
   "category": "learning",
   "flags": [],
   "usability_score": 100,
-  "snapshot_days": 13,
+  "snapshot_days": 14,
   "is_indexable": true,
   "first_seen_at": "2026-09-01T23:05:22.650Z",
   "tracking_tier": "hot",
-  "last_fetched_date": "2026-09-14",
+  "last_fetched_date": "2026-09-15",
   "stars_stagnant_days": 0
 }

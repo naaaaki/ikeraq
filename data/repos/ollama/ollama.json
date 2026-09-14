@@ -2,7 +2,7 @@
   "id": "ollama/ollama",
   "owner": "ollama",
   "name": "ollama",
-  "description_en": "Get up and running with Kimi-K2.6, GLM-5.2, MiniMax, DeepSeek, gpt-oss, Qwen, Gemma and other models.",
+  "description_en": "Get up and running with Kimi, GLM, MiniMax, DeepSeek, gpt-oss, Qwen, Gemma and other models.",
   "human_note": null,
   "language": "Go",
   "topics": [
@@ -22,12 +22,12 @@
     "ollama",
     "qwen"
   ],
-  "stars": 180831,
-  "forks": 17840,
+  "stars": 180959,
+  "forks": 17867,
   "watchers": null,
-  "open_issues": 3993,
+  "open_issues": 4002,
   "created_at": "2023-06-26T19:39:32Z",
-  "pushed_at": "2026-09-11T21:44:45Z",
+  "pushed_at": "2026-09-14T20:34:47Z",
   "is_archived": false,
   "license_spdx": "MIT",
   "license_category": "permissive",
@@ -40,10 +40,10 @@
   "category": "llm",
   "flags": [],
   "usability_score": 100,
-  "snapshot_days": 16,
+  "snapshot_days": 17,
   "is_indexable": true,
   "first_seen_at": "2026-08-29T15:46:21.820Z",
   "tracking_tier": "hot",
-  "last_fetched_date": "2026-09-14",
+  "last_fetched_date": "2026-09-15",
   "stars_stagnant_days": 0
 }

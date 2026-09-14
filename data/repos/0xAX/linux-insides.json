@@ -10,12 +10,12 @@
     "linux-insides",
     "linux-kernel"
   ],
-  "stars": 33492,
+  "stars": 33494,
   "forks": 3563,
   "watchers": null,
-  "open_issues": 23,
+  "open_issues": 24,
   "created_at": "2015-01-03T18:44:57Z",
-  "pushed_at": "2026-09-09T18:58:35Z",
+  "pushed_at": "2026-09-14T07:24:09Z",
   "is_archived": false,
   "license_spdx": "NOASSERTION",
   "license_category": "unknown",
@@ -28,10 +28,10 @@
   "category": "other",
   "flags": [],
   "usability_score": 100,
-  "snapshot_days": 13,
+  "snapshot_days": 14,
   "is_indexable": true,
   "first_seen_at": "2026-09-01T23:05:22.650Z",
   "tracking_tier": "hot",
-  "last_fetched_date": "2026-09-14",
+  "last_fetched_date": "2026-09-15",
   "stars_stagnant_days": 0
 }

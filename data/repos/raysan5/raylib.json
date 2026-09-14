@@ -26,12 +26,12 @@
     "webassembly",
     "win32"
   ],
-  "stars": 34703,
-  "forks": 3287,
+  "stars": 34722,
+  "forks": 3290,
   "watchers": null,
   "open_issues": 13,
   "created_at": "2013-10-24T15:46:04Z",
-  "pushed_at": "2026-09-13T20:55:43Z",
+  "pushed_at": "2026-09-14T18:08:37Z",
   "is_archived": false,
   "license_spdx": "Zlib",
   "license_category": "permissive",
@@ -44,10 +44,10 @@
   "category": "mobile",
   "flags": [],
   "usability_score": 100,
-  "snapshot_days": 14,
+  "snapshot_days": 15,
   "is_indexable": true,
   "first_seen_at": "2026-09-01T00:26:13.032Z",
   "tracking_tier": "hot",
-  "last_fetched_date": "2026-09-14",
+  "last_fetched_date": "2026-09-15",
   "stars_stagnant_days": 0
 }

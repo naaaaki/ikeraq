@@ -15,9 +15,9 @@
     "web-performance"
   ],
   "stars": 101003,
-  "forks": 27451,
+  "forks": 27453,
   "watchers": null,
-  "open_issues": 1167,
+  "open_issues": 1177,
   "created_at": "2014-09-18T16:12:01Z",
   "pushed_at": "2026-09-13T21:20:30Z",
   "is_archived": false,
@@ -32,10 +32,10 @@
   "category": "backend",
   "flags": [],
   "usability_score": 100,
-  "snapshot_days": 16,
+  "snapshot_days": 17,
   "is_indexable": true,
   "first_seen_at": "2026-08-29T15:46:21.821Z",
   "tracking_tier": "hot",
-  "last_fetched_date": "2026-09-14",
-  "stars_stagnant_days": 0
+  "last_fetched_date": "2026-09-15",
+  "stars_stagnant_days": 1
 }

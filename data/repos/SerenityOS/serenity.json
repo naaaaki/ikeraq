@@ -14,12 +14,12 @@
     "os",
     "unix"
   ],
-  "stars": 33826,
+  "stars": 33836,
   "forks": 3544,
   "watchers": null,
-  "open_issues": 742,
+  "open_issues": 739,
   "created_at": "2018-12-02T19:28:41Z",
-  "pushed_at": "2026-09-12T12:05:59Z",
+  "pushed_at": "2026-09-14T11:27:50Z",
   "is_archived": false,
   "license_spdx": "BSD-2-Clause",
   "license_category": "permissive",
@@ -32,10 +32,10 @@
   "category": "other",
   "flags": [],
   "usability_score": 100,
-  "snapshot_days": 13,
+  "snapshot_days": 14,
   "is_indexable": true,
   "first_seen_at": "2026-09-01T23:05:22.650Z",
   "tracking_tier": "hot",
-  "last_fetched_date": "2026-09-14",
+  "last_fetched_date": "2026-09-15",
   "stars_stagnant_days": 0
 }

@@ -9,12 +9,12 @@
     "ansible",
     "python"
   ],
-  "stars": 70675,
+  "stars": 70687,
   "forks": 24335,
   "watchers": null,
-  "open_issues": 835,
+  "open_issues": 824,
   "created_at": "2012-03-06T14:58:02Z",
-  "pushed_at": "2026-09-11T23:00:01Z",
+  "pushed_at": "2026-09-14T22:05:59Z",
   "is_archived": false,
   "license_spdx": "GPL-3.0",
   "license_category": "strong-copyleft",
@@ -33,10 +33,10 @@
     }
   ],
   "usability_score": 85,
-  "snapshot_days": 16,
+  "snapshot_days": 17,
   "is_indexable": true,
   "first_seen_at": "2026-08-29T23:02:08.747Z",
   "tracking_tier": "hot",
-  "last_fetched_date": "2026-09-14",
+  "last_fetched_date": "2026-09-15",
   "stars_stagnant_days": 0
 }

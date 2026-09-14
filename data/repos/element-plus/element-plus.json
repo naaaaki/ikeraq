@@ -13,8 +13,8 @@
     "vue-components",
     "vuejs"
   ],
-  "stars": 27749,
-  "forks": 19829,
+  "stars": 27759,
+  "forks": 19827,
   "watchers": null,
   "open_issues": 1153,
   "created_at": "2020-07-21T06:51:19Z",
@@ -31,10 +31,10 @@
   "category": "web-frontend",
   "flags": [],
   "usability_score": 100,
-  "snapshot_days": 12,
+  "snapshot_days": 13,
   "is_indexable": true,
   "first_seen_at": "2026-09-02T23:02:41.773Z",
   "tracking_tier": "hot",
-  "last_fetched_date": "2026-09-14",
+  "last_fetched_date": "2026-09-15",
   "stars_stagnant_days": 0
 }

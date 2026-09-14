@@ -11,12 +11,12 @@
     "nodejs",
     "server"
   ],
-  "stars": 69458,
-  "forks": 24987,
+  "stars": 69455,
+  "forks": 24993,
   "watchers": 1714,
   "open_issues": 228,
   "created_at": "2009-06-26T18:56:01Z",
-  "pushed_at": "2026-09-13T11:55:21Z",
+  "pushed_at": "2026-09-14T14:40:57Z",
   "is_archived": false,
   "license_spdx": "MIT",
   "license_category": "permissive",
@@ -29,10 +29,10 @@
   "category": "backend",
   "flags": [],
   "usability_score": 100,
-  "snapshot_days": 13,
+  "snapshot_days": 14,
   "is_indexable": true,
   "first_seen_at": "2026-09-01T23:05:22.650Z",
   "tracking_tier": "hot",
-  "last_fetched_date": "2026-09-14",
-  "stars_stagnant_days": 0
+  "last_fetched_date": "2026-09-15",
+  "stars_stagnant_days": 1
 }
