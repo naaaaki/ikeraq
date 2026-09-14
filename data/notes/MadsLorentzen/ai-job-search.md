@@ -1,0 +1,104 @@
+---
+updated: 2026-09-14
+image:
+image_alt:
+---
+
+<!-- ============================================================
+  MadsLorentzen/ai-job-search
+  https://github.com/MadsLorentzen/ai-job-search
+  Python / MIT / スター 42,000台
+  既定ブランチは master
+  topics: job-search, claude-code, cv, cover-letter, interview-preparation, latex
+============================================================ -->
+
+
+## 見出しの一文
+
+応募1件ごとに書き分ける作業を、手元で回る手順の形にする
+
+
+## どういうものか
+
+ai-job-search は、Claude Code の上に載せて使う**求人応募の作業手順一式**です。リポジトリを自分用に複製し、経歴を入れておくと、求人票の適合度の判定、履歴書の書き分け、カバーレターの作成、面接の準備までを同じ流れで回せます。中心は3つのコマンドで、`/setup` で自分の情報を入れ、`/scrape` で求人を探し、`/apply` で1件に応募する形を作ります。
+
+**面白いのは `/apply` の中身です。** 求人票を読んで適合度を採点し、履歴書とカバーレターを LaTeX で下書きしたあと、**別のエージェントを立てて批評させます。** 批評役は前の文脈を持たない状態で立ち上がり、応募先の会社を調べたうえで下書きに注文を付け、書き手がそれを受けて直します。さらにその先があり、PDF まで組んで**実際に開いて目で確かめる**工程が入っています。履歴書はちょうど2ページ、カバーレターはちょうど1ページに収まり、見出しだけが次のページに取り残されていないか、署名が見えているか。崩れていれば LaTeX を直して組み直します。
+
+**採用側の機械読み取りまで見ているのも、この道具の性格をよく表しています。** 採用管理システム（ATS）が読むのは、表示されるページではなく PDF に埋め込まれた文字の層だ、と README は書いています。LaTeX で組んだ PDF は、見た目が整っていても取り出すと文字が化けたり順番が入れ替わったりします。そこでこの工程では文字の層を取り出し、連絡先が文字として入っているか、読む順番がおかしくないかを確かめ、求人票の語句がどれだけ拾われるかを数えます。**取り出しに使う道具（pypdf か Poppler）はどちらも任意で、入っていなければ目視での語句確認に落ちます。** そのうえで、**経歴に裏付けのない語句は足さず、欠けているものは欠けたまま見せる**、という線が引かれています。
+
+作者は地球物理の出身で、2025年末に職を失ったあと、この仕組みを自分の就職活動のために作ったと書いています。69件の書き分けた応募、20件の一次面接、1件の契約を経て、2026年6月に AI エンジニアとして働き始めた、というのが README にある経緯です。
+
+
+## 図
+
+<svg viewBox="0 0 800 450" role="img" aria-label="見出しに「書いたら、もう1体のAIに読ませてから出す」とある図。上段左から、求人票（適合度を採点する）、下書き（履歴書とカバーレター）、批評（もう1体のエージェントが会社を調べて注文を付ける）、直す、の順に矢印でつながる。批評から下書きへ戻る矢印がある。下段に「PDFにして、目で確かめる（2ページちょうど、見出しの取り残しなし）」と「機械が読める形か確かめる（埋め込まれた文字の層を取り出して見る。道具が無ければ目視に落ちる）」が並ぶ。下に「整って見えるかではなく、開いて確かめるところまでが手順に入っている」とある。" style="width: 100%; height: auto; display: block; font-family: var(--jp);">
+  <defs>
+    <marker id="js-arrow" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="6" markerHeight="6" orient="auto-start-reverse">
+      <path d="M0,0 L10,5 L0,10 z" fill="#1E5A48" />
+    </marker>
+  </defs>
+  <rect width="800" height="450" fill="#FFFFFF" />
+  <text x="400" y="52" text-anchor="middle" font-size="27" font-weight="700" fill="#17160F">書いたら、<tspan fill="#1E5A48">もう1体のAIに読ませて</tspan>から出す</text>
+
+  <rect x="22" y="106" width="164" height="94" rx="8" fill="none" stroke="#17160F" stroke-opacity="0.28" stroke-width="1.5" stroke-dasharray="5 4" />
+  <text x="104" y="146" text-anchor="middle" font-size="15" font-weight="700" fill="#17160F">求人票</text>
+  <text x="104" y="172" text-anchor="middle" font-size="11" fill="#17160F" fill-opacity="0.72">（適合度を採点する）</text>
+  <line x1="188" y1="153" x2="212" y2="153" stroke="#1E5A48" stroke-width="4" marker-end="url(#js-arrow)" />
+
+  <rect x="218" y="106" width="164" height="94" rx="8" fill="none" stroke="#17160F" stroke-opacity="0.28" stroke-width="1.5" />
+  <text x="300" y="146" text-anchor="middle" font-size="15" font-weight="700" fill="#17160F">下書き</text>
+  <text x="300" y="172" text-anchor="middle" font-size="11" fill="#17160F" fill-opacity="0.72">（履歴書とカバーレター）</text>
+  <line x1="384" y1="140" x2="410" y2="140" stroke="#1E5A48" stroke-width="4" marker-end="url(#js-arrow)" />
+
+  <rect x="416" y="106" width="176" height="94" rx="8" fill="none" stroke="#1E5A48" stroke-width="2" />
+  <text x="504" y="142" text-anchor="middle" font-size="15" font-weight="700" fill="#1E5A48">批評</text>
+  <text x="504" y="166" text-anchor="middle" font-size="11" fill="#17160F" fill-opacity="0.72">（もう1体のエージェントが</text>
+  <text x="504" y="184" text-anchor="middle" font-size="11" fill="#17160F" fill-opacity="0.72">会社を調べて注文を付ける）</text>
+  <path d="M416 176 L 390 176" fill="none" stroke="#1E5A48" stroke-width="4" marker-end="url(#js-arrow)" />
+
+  <line x1="594" y1="153" x2="618" y2="153" stroke="#1E5A48" stroke-width="4" marker-end="url(#js-arrow)" />
+  <rect x="624" y="106" width="154" height="94" rx="8" fill="none" stroke="#17160F" stroke-opacity="0.28" stroke-width="1.5" />
+  <text x="701" y="160" text-anchor="middle" font-size="15" font-weight="700" fill="#17160F">直す</text>
+
+  <line x1="701" y1="200" x2="701" y2="236" stroke="#1E5A48" stroke-width="4" marker-end="url(#js-arrow)" />
+
+  <rect x="120" y="242" width="300" height="112" rx="8" fill="none" stroke="#1E5A48" stroke-width="2" />
+  <text x="270" y="280" text-anchor="middle" font-size="15" font-weight="700" fill="#1E5A48">PDFにして、目で確かめる</text>
+  <text x="270" y="306" text-anchor="middle" font-size="11.5" fill="#17160F" fill-opacity="0.72">（2ページちょうど、</text>
+  <text x="270" y="326" text-anchor="middle" font-size="11.5" fill="#17160F" fill-opacity="0.72">見出しの取り残しなし）</text>
+
+  <rect x="444" y="242" width="334" height="112" rx="8" fill="none" stroke="#1E5A48" stroke-width="2" />
+  <text x="611" y="276" text-anchor="middle" font-size="15" font-weight="700" fill="#1E5A48">機械が読める形か確かめる</text>
+  <text x="611" y="302" text-anchor="middle" font-size="11.5" fill="#17160F" fill-opacity="0.72">（埋め込まれた文字の層を取り出して見る。</text>
+  <text x="611" y="322" text-anchor="middle" font-size="11.5" fill="#17160F" fill-opacity="0.72">道具が無ければ目視に落ちる）</text>
+
+  <text x="400" y="398" text-anchor="middle" font-size="13.5" fill="#17160F" fill-opacity="0.72">整って見えるかではなく、開いて確かめるところまでが手順に入っている</text>
+</svg>
+
+キャプション: 書かせて終わりにしない構えが、この手順の中心にある。**書き手と読み手を分ける**ことと、**出来上がった PDF を実際に開く**ことの2つが、生成したまま送る事故を止めている。
+
+
+## どんなときに使うか
+
+### 応募のたびに書き直すのが、続かなくなっているとき
+
+書き分けたほうがいいと分かっていても、20件目で同じ文面を貼るようになります。判定・下書き・批評・確認までを一続きの手順にしてあるので、**1件あたりの負担が下がるところ**が本体です。
+
+### デンマーク以外から、まず手持ちの口で探し始めたいとき
+
+同梱の求人サイト検索は6つで、うち4つはデンマーク向けです。残る2つ——LinkedIn の公開求人と、技術職を集めた freehire——は国を選ばない作りで、場所や地域を指定して使えると README は書いています。足りなければ `/add-portal` に自分の国の求人サイトを渡し、同じ形の検索部品を作らせられます。核となる部分（自己分析・適合度の判定・書き分け）は、国も言語も選びません。
+
+
+## 注意点
+
+**★ 個人情報の置き場所に、先に気をつけてください。** README 自身が強い調子で警告しています。GitHub の fork は**必ず公開になります**（公開リポジトリの非公開 fork は作れません）。そして `/setup` は、氏名・連絡先・職歴・希望年収を**Git の追跡対象のファイル**に書き込みます。自分の就職活動に使うなら、fork ではなく**非公開のリポジトリを作り、このリポジトリを upstream に設定する**やり方が案内されています。fork は、改善を本家に返すときのためのもの、という線引きです。
+
+**準備が軽くはありません。** Claude Code のほか、Python 3.10 以上、Bun、そして LaTeX 環境（`lualatex` と `xelatex` の両方）が要ります。書類を PDF まで組む設計なので、LaTeX の導入が最初の関門になります。
+
+**求人サイトへの自動アクセスには、規約の問題があります。** 同梱の LinkedIn 検索について、自動アクセスは LinkedIn の利用規約に反するため**個人利用のみ・件数を抑えて**使うように、と README 自身が明記しています。生成される検索部品も、規約が厳しいサイトには警告が付く作りです。
+
+**求人票は信用できない入力として扱われますが、隔離されてはいません。** 求人票に埋め込まれた指示には従わず、本文中のリンクも取りに行かない作りですが、README はこれを「指示のレベルの防御であって、隔離された実行環境ではない」と書いています。見慣れないサイトの求人では、送る前に中身を自分で見ることになります。
+
+**実績の数字は作者本人のものです。** 69件の応募から1件の契約、という数字は、作者が自分の就職活動で得た結果です。誰が使っても同じになる種類の数字ではありません。
+
+ライセンスは MIT です。

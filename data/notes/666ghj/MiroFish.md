@@ -1,0 +1,93 @@
+---
+updated: 2026-09-14
+image:
+image_alt:
+---
+
+<!-- ============================================================
+  666ghj/MiroFish
+  https://github.com/666ghj/MiroFish
+  Python / AGPL-3.0 / スター 72,000台
+  topics: multi-agent-simulation, swarm-intelligence, public-opinion-analysis
+============================================================ -->
+
+
+## 見出しの一文
+
+出来事を種にして仮想の社会を作り、そこで先に起こしてみる
+
+
+## どういうものか
+
+MiroFish は、**起きたことを入力すると、そこから仮想の社会を組み立てて動かす**シミュレーション基盤です。種になるのはニュース、政策の草案、金融の兆候といった現実の材料で、それをもとに登場人物と関係の網が自動で作られます。その中では、性格・長期の記憶・行動の理屈を持つエージェントが多数、互いにやり取りをしながら時間を進めます。人は上から変数を差し込んで、筋を変えながら何度でも試せます。
+
+手順は5段です。まず**土台を作る**（種から情報を取り出し、記憶を流し込み、グラフをたどって引ける形の検索用データを作る）。次に**環境を用意する**（登場する主体と関係を取り出し、人格を生成し、エージェントの設定として入れる）。そして**動かす**（2つのプラットフォームを並行して回し、時間に沿って記憶を更新していく）。動かし終えたら**報告をまとめる**担当のエージェントが結果を読み、最後に**中の住人と直接会話できる**ところまでが用意されています。出てくるのは予測の報告書と、そのあとも触れる仮想世界の2つです。
+
+エンジンの中核は自前ではなく、CAMEL-AI の **OASIS**（ソーシャルな相互作用のシミュレーション基盤）を使っていると README に明記されています。動かすには、OpenAI 形式の API で呼べる大規模言語モデルの鍵と、記憶を預ける Zep Cloud の鍵が要ります。README の作例は、大学をめぐる世論の再現と、『紅楼夢』の失われた結末を前80回から推し進めるというものです。真面目な予測と遊びの両方を掲げている作りです。
+
+
+## 図
+
+<svg viewBox="0 0 800 450" role="img" aria-label="見出しに「起きたことを種にして、続きを演じさせる」とある図。左に「種（現実の材料）」の箱があり、ニュース、政策の草案、金融の兆候が並ぶ。矢印で中央の「仮想の社会（自動で組み立てる）」に進み、人格を持つ多数のエージェント、関係をグラフにする、時間に沿って記憶が変わる、と書かれている。矢印で右の「出てくるもの」に進み、予測の報告書、あとから触れる世界が並ぶ。中央の箱の上から「上から変数を差し込める」と矢印が下りている。下に「一度きりの答えではなく、条件を変えて何度も回すための場」とある。" style="width: 100%; height: auto; display: block; font-family: var(--jp);">
+  <defs>
+    <marker id="mf-arrow" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="6" markerHeight="6" orient="auto-start-reverse">
+      <path d="M0,0 L10,5 L0,10 z" fill="#1E5A48" />
+    </marker>
+  </defs>
+  <rect width="800" height="450" fill="#FFFFFF" />
+  <text x="400" y="52" text-anchor="middle" font-size="27" font-weight="700" fill="#17160F">起きたことを種にして、<tspan fill="#1E5A48">続きを演じさせる</tspan></text>
+
+  <text x="400" y="104" text-anchor="middle" font-size="13" font-weight="700" fill="#1E5A48">上から変数を差し込める</text>
+  <line x1="400" y1="114" x2="400" y2="162" stroke="#1E5A48" stroke-width="4" marker-end="url(#mf-arrow)" />
+
+  <rect x="20" y="168" width="216" height="190" rx="8" fill="none" stroke="#17160F" stroke-opacity="0.28" stroke-width="1.5" stroke-dasharray="5 4" />
+  <text x="128" y="208" text-anchor="middle" font-size="17" font-weight="700" fill="#17160F">種</text>
+  <text x="128" y="232" text-anchor="middle" font-size="11.5" fill="#17160F" fill-opacity="0.72">（現実の材料）</text>
+  <text x="128" y="272" text-anchor="middle" font-size="13" fill="#17160F" fill-opacity="0.85">ニュース</text>
+  <text x="128" y="300" text-anchor="middle" font-size="13" fill="#17160F" fill-opacity="0.85">政策の草案</text>
+  <text x="128" y="328" text-anchor="middle" font-size="13" fill="#17160F" fill-opacity="0.85">金融の兆候</text>
+
+  <line x1="236" y1="262" x2="278" y2="262" stroke="#1E5A48" stroke-width="4" marker-end="url(#mf-arrow)" />
+
+  <rect x="285" y="168" width="230" height="190" rx="8" fill="none" stroke="#1E5A48" stroke-width="2" />
+  <text x="400" y="208" text-anchor="middle" font-size="17" font-weight="700" fill="#1E5A48">仮想の社会</text>
+  <text x="400" y="232" text-anchor="middle" font-size="11.5" fill="#17160F" fill-opacity="0.72">（自動で組み立てる）</text>
+  <text x="400" y="272" text-anchor="middle" font-size="13" fill="#17160F" fill-opacity="0.85">人格を持つ多数のエージェント</text>
+  <text x="400" y="300" text-anchor="middle" font-size="13" fill="#17160F" fill-opacity="0.85">関係をグラフにする</text>
+  <text x="400" y="328" text-anchor="middle" font-size="13" fill="#17160F" fill-opacity="0.85">時間に沿って記憶が変わる</text>
+
+  <line x1="515" y1="262" x2="557" y2="262" stroke="#1E5A48" stroke-width="4" marker-end="url(#mf-arrow)" />
+
+  <rect x="564" y="168" width="216" height="190" rx="8" fill="none" stroke="#17160F" stroke-opacity="0.28" stroke-width="1.5" />
+  <text x="672" y="208" text-anchor="middle" font-size="17" font-weight="700" fill="#17160F">出てくるもの</text>
+  <text x="672" y="264" text-anchor="middle" font-size="13" font-weight="700" fill="#1E5A48">予測の報告書</text>
+  <text x="672" y="300" text-anchor="middle" font-size="13" fill="#17160F" fill-opacity="0.85">あとから触れる世界</text>
+
+  <text x="400" y="404" text-anchor="middle" font-size="13.5" fill="#17160F" fill-opacity="0.72">一度きりの答えではなく、条件を変えて何度も回すための場</text>
+</svg>
+
+キャプション: 結論を1つ返す道具ではなく、**同じ出来事を何通りにも演じ直せる場**として作られている。差し込む変数を変えたときに何が変わるか、が見どころになる。
+
+
+## どんなときに使うか
+
+### 出す前に、反応の荒れ方を見ておきたいとき
+
+README は、政策や広報を無リスクで試せる「決裁者のためのリハーサル室」を掲げています。実際の作例も世論の再現です。当たる・当たらないより、**荒れる筋道が1本しか思いつかない状態を抜ける**ための使い方に向きます。
+
+### 物語の続きを試したいとき
+
+『紅楼夢』の失われた結末を、前80回を材料に推し進めるという作例が用意されています。人物の性格と関係を入れて動かすという仕組みは、そのまま創作の実験に転用できます。
+
+
+## 注意点
+
+**言語モデルの消費が大きいです。** README 自身が「消費が高い。まずは40ラウンド未満の短いシミュレーションから試すこと」と書いています。人格を持つエージェントを多数、何度も往復させる作りなので、当然と言えば当然です。費用の見当を付けてから回すことになります。
+
+**出てくるのは予測ではなく、シミュレーションの結果です。** 名前も説明も「予測」で通っていますが、根拠になっているのは言語モデルが演じた振る舞いです。統計的な検証の話は README に見当たりません。**当たる保証がある種類のものとして読まないでください。**
+
+**外部サービスへの依存が2つあります。** 言語モデルの API に加えて、記憶を預ける Zep Cloud の鍵が必須です（簡単な用途なら無料枠で足りる、と README にはあります）。手元だけで完結する構成ではありません。
+
+**動かす環境の指定が狭めです。** Python は 3.11 以上 3.12 以下、Node.js は 18 以上で、Python 側のパッケージ管理には uv を使います。Docker での起動も用意されています。
+
+ライセンスは AGPL-3.0 です。手元や社内で使う分には問題ありませんが、**組み込んだサービスを外部に提供する場合、組み込んだ側のソース公開が必要になることがあります。** 中国の Shanda（盛大）グループの支援を受けている、と README に記載があります。
