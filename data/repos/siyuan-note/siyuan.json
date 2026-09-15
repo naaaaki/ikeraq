@@ -16,12 +16,12 @@
     "self-hosted",
     "siyuan"
   ],
-  "stars": 46350,
+  "stars": 46378,
   "forks": 3002,
   "watchers": null,
-  "open_issues": 21,
+  "open_issues": 14,
   "created_at": "2020-08-30T09:21:35Z",
-  "pushed_at": "2026-09-14T16:45:09Z",
+  "pushed_at": "2026-09-15T16:29:02Z",
   "is_archived": false,
   "license_spdx": "AGPL-3.0",
   "license_category": "strong-copyleft",
@@ -40,10 +40,10 @@
     }
   ],
   "usability_score": 85,
-  "snapshot_days": 16,
+  "snapshot_days": 17,
   "is_indexable": true,
   "first_seen_at": "2026-08-30T23:15:18.750Z",
   "tracking_tier": "hot",
-  "last_fetched_date": "2026-09-15",
+  "last_fetched_date": "2026-09-16",
   "stars_stagnant_days": 0
 }

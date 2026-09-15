@@ -18,12 +18,12 @@
     "video-recording",
     "youtube-live"
   ],
-  "stars": 76208,
-  "forks": 10166,
+  "stars": 76249,
+  "forks": 10183,
   "watchers": null,
-  "open_issues": 1141,
+  "open_issues": 1142,
   "created_at": "2013-10-01T02:40:31Z",
-  "pushed_at": "2026-09-11T18:38:58Z",
+  "pushed_at": "2026-09-15T01:05:48Z",
   "is_archived": false,
   "license_spdx": "GPL-2.0",
   "license_category": "strong-copyleft",
@@ -42,10 +42,10 @@
     }
   ],
   "usability_score": 85,
-  "snapshot_days": 17,
+  "snapshot_days": 18,
   "is_indexable": true,
   "first_seen_at": "2026-08-29T23:02:08.747Z",
   "tracking_tier": "hot",
-  "last_fetched_date": "2026-09-15",
+  "last_fetched_date": "2026-09-16",
   "stars_stagnant_days": 0
 }

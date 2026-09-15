@@ -15,10 +15,10 @@
     "windows-virtual-machines",
     "windows-vm"
   ],
-  "stars": 53274,
-  "forks": 4795,
+  "stars": 53290,
+  "forks": 4798,
   "watchers": null,
-  "open_issues": 19,
+  "open_issues": 21,
   "created_at": "2024-01-14T13:09:40Z",
   "pushed_at": "2026-09-14T10:56:07Z",
   "is_archived": false,
@@ -33,10 +33,10 @@
   "category": "infra",
   "flags": [],
   "usability_score": 100,
-  "snapshot_days": 17,
+  "snapshot_days": 18,
   "is_indexable": true,
   "first_seen_at": "2026-08-29T23:02:08.747Z",
   "tracking_tier": "hot",
-  "last_fetched_date": "2026-09-15",
+  "last_fetched_date": "2026-09-16",
   "stars_stagnant_days": 0
 }

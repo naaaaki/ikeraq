@@ -27,11 +27,11 @@
     "xstate"
   ],
   "stars": 30115,
-  "forks": 1392,
+  "forks": 1391,
   "watchers": null,
-  "open_issues": 125,
+  "open_issues": 124,
   "created_at": "2015-09-14T15:04:15Z",
-  "pushed_at": "2026-09-14T18:40:16Z",
+  "pushed_at": "2026-09-15T19:57:53Z",
   "is_archived": false,
   "license_spdx": "MIT",
   "license_category": "permissive",
@@ -44,10 +44,10 @@
   "category": "other",
   "flags": [],
   "usability_score": 100,
-  "snapshot_days": 13,
+  "snapshot_days": 14,
   "is_indexable": true,
   "first_seen_at": "2026-09-02T23:02:41.773Z",
   "tracking_tier": "hot",
-  "last_fetched_date": "2026-09-15",
-  "stars_stagnant_days": 0
+  "last_fetched_date": "2026-09-16",
+  "stars_stagnant_days": 1
 }

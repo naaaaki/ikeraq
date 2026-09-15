@@ -15,8 +15,8 @@
     "tutorial",
     "webdevelopment"
   ],
-  "stars": 283334,
-  "forks": 36263,
+  "stars": 283444,
+  "forks": 36268,
   "watchers": 3472,
   "open_issues": 252,
   "created_at": "2017-04-12T05:07:46Z",
@@ -33,10 +33,10 @@
   "category": "learning",
   "flags": [],
   "usability_score": 100,
-  "snapshot_days": 17,
+  "snapshot_days": 18,
   "is_indexable": true,
   "first_seen_at": "2026-08-29T15:46:21.820Z",
   "tracking_tier": "hot",
-  "last_fetched_date": "2026-09-15",
+  "last_fetched_date": "2026-09-16",
   "stars_stagnant_days": 0
 }

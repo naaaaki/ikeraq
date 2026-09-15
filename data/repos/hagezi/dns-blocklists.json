@@ -27,12 +27,12 @@
     "threat-intelligence-feeds",
     "tracking"
   ],
-  "stars": 26456,
-  "forks": 810,
+  "stars": 26506,
+  "forks": 811,
   "watchers": null,
-  "open_issues": 8,
+  "open_issues": 5,
   "created_at": "2022-04-25T07:13:09Z",
-  "pushed_at": "2026-09-14T09:09:20Z",
+  "pushed_at": "2026-09-15T09:20:31Z",
   "is_archived": false,
   "license_spdx": "GPL-3.0",
   "license_category": "strong-copyleft",
@@ -51,10 +51,10 @@
     }
   ],
   "usability_score": 85,
-  "snapshot_days": 12,
+  "snapshot_days": 13,
   "is_indexable": true,
   "first_seen_at": "2026-09-03T23:03:15.575Z",
   "tracking_tier": "hot",
-  "last_fetched_date": "2026-09-15",
+  "last_fetched_date": "2026-09-16",
   "stars_stagnant_days": 0
 }

@@ -21,7 +21,7 @@
     "tools",
     "web-tools"
   ],
-  "stars": 36900,
+  "stars": 36904,
   "forks": 6596,
   "watchers": 563,
   "open_issues": 82,
@@ -39,10 +39,10 @@
   "category": "other",
   "flags": [],
   "usability_score": 100,
-  "snapshot_days": 8,
+  "snapshot_days": 9,
   "is_indexable": true,
   "first_seen_at": "2026-09-07T23:19:48.975Z",
   "tracking_tier": "hot",
-  "last_fetched_date": "2026-09-15",
+  "last_fetched_date": "2026-09-16",
   "stars_stagnant_days": 0
 }

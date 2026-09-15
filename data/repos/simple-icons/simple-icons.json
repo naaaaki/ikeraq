@@ -26,8 +26,8 @@
     "svg-icons",
     "svg-images"
   ],
-  "stars": 25850,
-  "forks": 3161,
+  "stars": 25860,
+  "forks": 3165,
   "watchers": null,
   "open_issues": 956,
   "created_at": "2012-11-16T11:09:13Z",
@@ -44,10 +44,10 @@
   "category": "web-frontend",
   "flags": [],
   "usability_score": 100,
-  "snapshot_days": 12,
+  "snapshot_days": 13,
   "is_indexable": true,
   "first_seen_at": "2026-09-03T23:03:15.575Z",
   "tracking_tier": "hot",
-  "last_fetched_date": "2026-09-15",
+  "last_fetched_date": "2026-09-16",
   "stars_stagnant_days": 0
 }

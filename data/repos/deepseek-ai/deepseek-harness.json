@@ -11,12 +11,12 @@
     "dsh",
     "dsh-plugin"
   ],
-  "stars": 223959,
-  "forks": 26628,
+  "stars": 225317,
+  "forks": 26817,
   "watchers": null,
   "open_issues": 0,
   "created_at": "2026-08-13T11:56:32Z",
-  "pushed_at": "2026-09-11T03:06:25Z",
+  "pushed_at": "2026-09-15T04:51:11Z",
   "is_archived": false,
   "license_spdx": "MIT",
   "license_category": "permissive",
@@ -29,10 +29,10 @@
   "category": "ai-agent",
   "flags": [],
   "usability_score": 100,
-  "snapshot_days": 17,
+  "snapshot_days": 18,
   "is_indexable": true,
   "first_seen_at": "2026-08-29T15:46:21.820Z",
   "tracking_tier": "hot",
-  "last_fetched_date": "2026-09-15",
+  "last_fetched_date": "2026-09-16",
   "stars_stagnant_days": 0
 }

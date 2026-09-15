@@ -26,12 +26,12 @@
     "stl-containers",
     "ubjson"
   ],
-  "stars": 50603,
-  "forks": 7498,
+  "stars": 50615,
+  "forks": 7499,
   "watchers": null,
   "open_issues": 119,
   "created_at": "2013-07-04T08:47:49Z",
-  "pushed_at": "2026-09-14T19:30:28Z",
+  "pushed_at": "2026-09-15T20:47:48Z",
   "is_archived": false,
   "license_spdx": "MIT",
   "license_category": "permissive",
@@ -44,10 +44,10 @@
   "category": "other",
   "flags": [],
   "usability_score": 100,
-  "snapshot_days": 16,
+  "snapshot_days": 17,
   "is_indexable": true,
   "first_seen_at": "2026-08-30T23:15:18.749Z",
   "tracking_tier": "hot",
-  "last_fetched_date": "2026-09-15",
+  "last_fetched_date": "2026-09-16",
   "stars_stagnant_days": 0
 }

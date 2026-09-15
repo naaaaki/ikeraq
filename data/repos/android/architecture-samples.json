@@ -11,9 +11,9 @@
     "sample",
     "samples"
   ],
-  "stars": 45826,
+  "stars": 45827,
   "forks": 11855,
-  "watchers": null,
+  "watchers": 2390,
   "open_issues": 224,
   "created_at": "2016-02-05T13:42:07Z",
   "pushed_at": "2026-09-09T20:43:33Z",
@@ -29,10 +29,10 @@
   "category": "mobile",
   "flags": [],
   "usability_score": 100,
-  "snapshot_days": 16,
+  "snapshot_days": 17,
   "is_indexable": true,
   "first_seen_at": "2026-08-30T23:15:18.750Z",
   "tracking_tier": "hot",
-  "last_fetched_date": "2026-09-15",
-  "stars_stagnant_days": 1
+  "last_fetched_date": "2026-09-16",
+  "stars_stagnant_days": 0
 }

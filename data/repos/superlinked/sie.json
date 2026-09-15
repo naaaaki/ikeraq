@@ -27,7 +27,7 @@
     "splade",
     "vector-search"
   ],
-  "stars": 3283,
+  "stars": 3286,
   "forks": 312,
   "watchers": 42,
   "open_issues": 19,
@@ -45,10 +45,10 @@
   "category": "llm",
   "flags": [],
   "usability_score": 100,
-  "snapshot_days": 13,
+  "snapshot_days": 14,
   "is_indexable": true,
   "first_seen_at": "2026-09-02T23:02:39.890Z",
   "tracking_tier": "hot",
-  "last_fetched_date": "2026-09-15",
+  "last_fetched_date": "2026-09-16",
   "stars_stagnant_days": 0
 }

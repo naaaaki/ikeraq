@@ -15,12 +15,12 @@
     "kestra",
     "spark"
   ],
-  "stars": 45543,
-  "forks": 8868,
+  "stars": 45566,
+  "forks": 8876,
   "watchers": null,
   "open_issues": 4,
   "created_at": "2021-10-21T09:32:50Z",
-  "pushed_at": "2026-09-10T14:35:16Z",
+  "pushed_at": "2026-09-15T08:16:16Z",
   "is_archived": false,
   "license_spdx": null,
   "license_category": "none",
@@ -39,10 +39,10 @@
     }
   ],
   "usability_score": 60,
-  "snapshot_days": 16,
+  "snapshot_days": 17,
   "is_indexable": true,
   "first_seen_at": "2026-08-30T23:15:18.750Z",
   "tracking_tier": "hot",
-  "last_fetched_date": "2026-09-15",
+  "last_fetched_date": "2026-09-16",
   "stars_stagnant_days": 0
 }
