@@ -44,10 +44,10 @@
   "category": "data",
   "flags": [],
   "usability_score": 100,
-  "snapshot_days": 14,
+  "snapshot_days": 15,
   "is_indexable": true,
   "first_seen_at": "2026-09-02T23:02:41.773Z",
   "tracking_tier": "hot",
-  "last_fetched_date": "2026-09-16",
-  "stars_stagnant_days": 0
+  "last_fetched_date": "2026-09-17",
+  "stars_stagnant_days": 1
 }

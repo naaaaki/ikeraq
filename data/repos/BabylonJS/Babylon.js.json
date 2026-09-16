@@ -20,11 +20,11 @@
     "webxr"
   ],
   "stars": 26075,
-  "forks": 3687,
+  "forks": 3686,
   "watchers": null,
   "open_issues": 22,
   "created_at": "2013-06-27T20:40:42Z",
-  "pushed_at": "2026-09-15T19:30:56Z",
+  "pushed_at": "2026-09-16T17:32:28Z",
   "is_archived": false,
   "license_spdx": "Apache-2.0",
   "license_category": "permissive",
@@ -37,10 +37,10 @@
   "category": "game",
   "flags": [],
   "usability_score": 100,
-  "snapshot_days": 13,
+  "snapshot_days": 14,
   "is_indexable": true,
   "first_seen_at": "2026-09-03T23:03:15.575Z",
   "tracking_tier": "hot",
-  "last_fetched_date": "2026-09-16",
-  "stars_stagnant_days": 0
+  "last_fetched_date": "2026-09-17",
+  "stars_stagnant_days": 1
 }

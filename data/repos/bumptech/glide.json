@@ -6,7 +6,7 @@
   "human_note": null,
   "language": "Java",
   "topics": [],
-  "stars": 35025,
+  "stars": 35024,
   "forks": 6176,
   "watchers": null,
   "open_issues": 667,
@@ -24,10 +24,10 @@
   "category": "other",
   "flags": [],
   "usability_score": 100,
-  "snapshot_days": 16,
+  "snapshot_days": 17,
   "is_indexable": true,
   "first_seen_at": "2026-09-01T00:26:13.032Z",
   "tracking_tier": "hot",
-  "last_fetched_date": "2026-09-16",
-  "stars_stagnant_days": 0
+  "last_fetched_date": "2026-09-17",
+  "stars_stagnant_days": 1
 }

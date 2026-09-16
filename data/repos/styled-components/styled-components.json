@@ -13,7 +13,7 @@
     "rsc",
     "styled-components"
   ],
-  "stars": 41104,
+  "stars": 41103,
   "forks": 2675,
   "watchers": 402,
   "open_issues": 28,
@@ -31,10 +31,10 @@
   "category": "web-frontend",
   "flags": [],
   "usability_score": 100,
-  "snapshot_days": 17,
+  "snapshot_days": 18,
   "is_indexable": true,
   "first_seen_at": "2026-08-30T23:15:18.750Z",
   "tracking_tier": "hot",
-  "last_fetched_date": "2026-09-16",
-  "stars_stagnant_days": 1
+  "last_fetched_date": "2026-09-17",
+  "stars_stagnant_days": 2
 }

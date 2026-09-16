@@ -25,8 +25,8 @@
     "security-tools",
     "self-hosted"
   ],
-  "stars": 24495,
-  "forks": 3136,
+  "stars": 24585,
+  "forks": 3150,
   "watchers": 145,
   "open_issues": 69,
   "created_at": "2025-01-06T22:22:48Z",
@@ -43,10 +43,10 @@
   "category": "ai-agent",
   "flags": [],
   "usability_score": 100,
-  "snapshot_days": 3,
+  "snapshot_days": 4,
   "is_indexable": false,
   "first_seen_at": "2026-09-13T22:56:42.729Z",
   "tracking_tier": "hot",
-  "last_fetched_date": "2026-09-16",
+  "last_fetched_date": "2026-09-17",
   "stars_stagnant_days": 0
 }

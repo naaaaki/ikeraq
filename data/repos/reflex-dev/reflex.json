@@ -18,12 +18,12 @@
     "python",
     "webapp"
   ],
-  "stars": 28885,
+  "stars": 28887,
   "forks": 1777,
   "watchers": null,
-  "open_issues": 338,
+  "open_issues": 340,
   "created_at": "2022-10-25T03:08:48Z",
-  "pushed_at": "2026-09-15T20:40:11Z",
+  "pushed_at": "2026-09-16T23:32:46Z",
   "is_archived": false,
   "license_spdx": "Apache-2.0",
   "license_category": "permissive",
@@ -36,10 +36,10 @@
   "category": "backend",
   "flags": [],
   "usability_score": 100,
-  "snapshot_days": 14,
+  "snapshot_days": 15,
   "is_indexable": true,
   "first_seen_at": "2026-09-02T23:02:41.773Z",
   "tracking_tier": "hot",
-  "last_fetched_date": "2026-09-16",
-  "stars_stagnant_days": 1
+  "last_fetched_date": "2026-09-17",
+  "stars_stagnant_days": 0
 }

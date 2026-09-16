@@ -19,12 +19,12 @@
     "windows-11",
     "winget"
   ],
-  "stars": 26137,
-  "forks": 924,
+  "stars": 26146,
+  "forks": 923,
   "watchers": null,
-  "open_issues": 460,
+  "open_issues": 463,
   "created_at": "2021-06-15T12:57:58Z",
-  "pushed_at": "2026-09-15T20:21:40Z",
+  "pushed_at": "2026-09-16T20:35:20Z",
   "is_archived": false,
   "license_spdx": "MIT",
   "license_category": "permissive",
@@ -37,10 +37,10 @@
   "category": "dev-tool",
   "flags": [],
   "usability_score": 100,
-  "snapshot_days": 13,
+  "snapshot_days": 14,
   "is_indexable": true,
   "first_seen_at": "2026-09-03T23:03:15.575Z",
   "tracking_tier": "hot",
-  "last_fetched_date": "2026-09-16",
-  "stars_stagnant_days": 1
+  "last_fetched_date": "2026-09-17",
+  "stars_stagnant_days": 0
 }

@@ -9,8 +9,8 @@
     "python",
     "python3"
   ],
-  "stars": 27827,
-  "forks": 5558,
+  "stars": 27849,
+  "forks": 5557,
   "watchers": 713,
   "open_issues": 79,
   "created_at": "2017-06-07T11:52:22Z",
@@ -27,10 +27,10 @@
   "category": "other",
   "flags": [],
   "usability_score": 100,
-  "snapshot_days": 13,
+  "snapshot_days": 14,
   "is_indexable": true,
   "first_seen_at": "2026-09-03T23:03:15.575Z",
   "tracking_tier": "hot",
-  "last_fetched_date": "2026-09-16",
+  "last_fetched_date": "2026-09-17",
   "stars_stagnant_days": 0
 }

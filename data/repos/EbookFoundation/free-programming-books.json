@@ -12,10 +12,10 @@
     "list",
     "resource"
   ],
-  "stars": 396859,
-  "forks": 66773,
+  "stars": 396989,
+  "forks": 66786,
   "watchers": null,
-  "open_issues": 80,
+  "open_issues": 81,
   "created_at": "2013-10-11T06:50:37Z",
   "pushed_at": "2026-09-15T15:54:40Z",
   "is_archived": false,
@@ -30,10 +30,10 @@
   "category": "learning",
   "flags": [],
   "usability_score": 100,
-  "snapshot_days": 18,
+  "snapshot_days": 19,
   "is_indexable": true,
   "first_seen_at": "2026-08-29T15:46:21.820Z",
   "tracking_tier": "hot",
-  "last_fetched_date": "2026-09-16",
+  "last_fetched_date": "2026-09-17",
   "stars_stagnant_days": 0
 }

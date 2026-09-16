@@ -13,12 +13,12 @@
     "pandas",
     "python"
   ],
-  "stars": 49736,
-  "forks": 20383,
+  "stars": 49732,
+  "forks": 20390,
   "watchers": null,
-  "open_issues": 2700,
+  "open_issues": 2706,
   "created_at": "2010-08-24T01:37:33Z",
-  "pushed_at": "2026-09-15T22:45:31Z",
+  "pushed_at": "2026-09-16T21:50:05Z",
   "is_archived": false,
   "license_spdx": "BSD-3-Clause",
   "license_category": "permissive",
@@ -31,10 +31,10 @@
   "category": "other",
   "flags": [],
   "usability_score": 100,
-  "snapshot_days": 17,
+  "snapshot_days": 18,
   "is_indexable": true,
   "first_seen_at": "2026-08-30T23:15:18.749Z",
   "tracking_tier": "hot",
-  "last_fetched_date": "2026-09-16",
-  "stars_stagnant_days": 0
+  "last_fetched_date": "2026-09-17",
+  "stars_stagnant_days": 1
 }

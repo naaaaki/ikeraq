@@ -26,12 +26,12 @@
     "wayland",
     "windows"
   ],
-  "stars": 123669,
-  "forks": 19044,
+  "stars": 123882,
+  "forks": 19091,
   "watchers": null,
-  "open_issues": 162,
+  "open_issues": 163,
   "created_at": "2020-09-28T15:36:08Z",
-  "pushed_at": "2026-09-15T14:20:06Z",
+  "pushed_at": "2026-09-16T14:53:26Z",
   "is_archived": false,
   "license_spdx": "AGPL-3.0",
   "license_category": "strong-copyleft",
@@ -50,10 +50,10 @@
     }
   ],
   "usability_score": 85,
-  "snapshot_days": 18,
+  "snapshot_days": 19,
   "is_indexable": true,
   "first_seen_at": "2026-08-29T15:46:21.820Z",
   "tracking_tier": "hot",
-  "last_fetched_date": "2026-09-16",
+  "last_fetched_date": "2026-09-17",
   "stars_stagnant_days": 0
 }

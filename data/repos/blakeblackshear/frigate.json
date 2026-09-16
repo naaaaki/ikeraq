@@ -19,12 +19,12 @@
     "rtsp",
     "tensorflow"
   ],
-  "stars": 35914,
+  "stars": 35941,
   "forks": 3597,
   "watchers": null,
-  "open_issues": 95,
+  "open_issues": 108,
   "created_at": "2019-01-26T13:52:38Z",
-  "pushed_at": "2026-09-15T21:50:31Z",
+  "pushed_at": "2026-09-16T22:48:13Z",
   "is_archived": false,
   "license_spdx": "MIT",
   "license_category": "permissive",
@@ -37,10 +37,10 @@
   "category": "dev-tool",
   "flags": [],
   "usability_score": 100,
-  "snapshot_days": 16,
+  "snapshot_days": 17,
   "is_indexable": true,
   "first_seen_at": "2026-09-01T00:26:13.032Z",
   "tracking_tier": "hot",
-  "last_fetched_date": "2026-09-16",
+  "last_fetched_date": "2026-09-17",
   "stars_stagnant_days": 0
 }
