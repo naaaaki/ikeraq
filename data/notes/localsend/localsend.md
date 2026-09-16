@@ -1,0 +1,80 @@
+---
+updated: 2026-09-16
+image:
+image_alt:
+---
+
+<!-- ============================================================
+  localsend/localsend
+  https://github.com/localsend/localsend
+  An open-source cross-platform alternative to AirDrop
+  Dart / Apache-2.0 / スター 91,681
+============================================================ -->
+
+
+## 見出しの一文
+
+インターネットも他社のサーバーも通さず、近くの端末へ直接ファイルを渡す
+
+
+## どういうものか
+
+同じネットワークにいる端末どうしで、ファイルとメッセージを送り合うためのアプリ。**インターネットにつながっていなくても動く**のが前提で、README は「外部のサーバーに頼らない」ことを設計の中心に挙げている。クラウドに上げてから相手が落とす、という往復が無いので、大きなファイルでも回線の外に出ていかない。
+
+やりとりそのものは、端末どうしが REST の API で話し、**既定では HTTPS で暗号化して送る**。README によれば、その TLS の証明書は**それぞれの端末がその場で作る**。あらかじめ発行元に申請したり、アカウントを作ったりする手順は出てこない。仕組みの取り決めは「LocalSend Protocol」という名前で、別のリポジトリに文書としてまとめられている。
+
+対応しているのは Windows・macOS・Linux・Android・iOS・Fire OS で、配布先はアプリストアと各種のパッケージ管理が中心。README は**自動更新の仕組みが無い**ため、ストアやパッケージ管理から入れるほうを勧めている。ターミナルから使う版もあり、こちらはプロトコルの v2 で作られていて、ファイルやフォルダを並べて送り先を選ぶ形。フォルダは中まで辿って送られ、受け取る側では元の階層が保たれる。ただし**中身が空のフォルダは送られない**（送っているのはフォルダではなくファイルの単位だから、と書かれている）。
+
+
+## 図
+
+<svg viewBox="0 0 800 450" role="img" aria-label="見出しに「外に出ないまま、隣へ渡す」とある図。上に「インターネット・他社のサーバー（通らない）」があり、破線で隔てられている。左は「送る側の端末」。中央は「同じネットワークの中」で 相手を見つける、HTTPS で直接送る、証明書はその場で作る。右は「受け取る側の端末」。下に「やりとりが、そのネットワークの中だけで閉じる」とある。" style="width: 100%; height: auto; display: block; font-family: var(--jp);">
+  <defs>
+    <marker id="ls-arrow" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="6" markerHeight="6" orient="auto-start-reverse">
+      <path d="M0,0 L10,5 L0,10 z" fill="#1E5A48" />
+    </marker>
+  </defs>
+  <rect width="800" height="450" fill="#FFFFFF" />
+  <text x="400" y="48" text-anchor="middle" font-size="27" font-weight="700" fill="#17160F">外に出ないまま、<tspan fill="#1E5A48">隣へ渡す</tspan></text>
+  <text x="400" y="96" text-anchor="middle" font-size="12.5" fill="#17160F" fill-opacity="0.45">インターネット・他社のサーバー（通らない）</text>
+  <line x1="60" y1="118" x2="740" y2="118" stroke="#17160F" stroke-opacity="0.25" stroke-width="1.5" stroke-dasharray="7 7" />
+  <rect x="24" y="168" width="176" height="150" rx="8" fill="none" stroke="#17160F" stroke-opacity="0.28" stroke-width="1.5" />
+  <text x="112" y="250" text-anchor="middle" font-size="16" font-weight="700" fill="#17160F">送る側の端末</text>
+  <line x1="200" y1="243" x2="240" y2="243" stroke="#1E5A48" stroke-width="4" marker-end="url(#ls-arrow)" />
+  <rect x="246" y="168" width="308" height="150" rx="8" fill="none" stroke="#1E5A48" stroke-width="2" />
+  <text x="400" y="202" text-anchor="middle" font-size="16" font-weight="700" fill="#1E5A48">同じネットワークの中</text>
+  <text x="400" y="240" text-anchor="middle" font-size="13" fill="#17160F" fill-opacity="0.85">相手を見つける</text>
+  <text x="400" y="268" text-anchor="middle" font-size="13" fill="#17160F" fill-opacity="0.85">HTTPS で直接送る</text>
+  <text x="400" y="298" text-anchor="middle" font-size="11.5" fill="#17160F" fill-opacity="0.72">証明書はその場で作る</text>
+  <line x1="554" y1="243" x2="594" y2="243" stroke="#1E5A48" stroke-width="4" marker-end="url(#ls-arrow)" />
+  <rect x="600" y="168" width="176" height="150" rx="8" fill="none" stroke="#17160F" stroke-opacity="0.28" stroke-width="1.5" />
+  <text x="688" y="250" text-anchor="middle" font-size="16" font-weight="700" fill="#17160F">受け取る側の端末</text>
+  <text x="400" y="392" text-anchor="middle" font-size="13.5" fill="#17160F" fill-opacity="0.72">やりとりが、そのネットワークの中だけで閉じる</text>
+</svg>
+
+キャプション: 便利さの話というより、**経路が家や社内で閉じている**ことそのものが、この道具の中身になっている。
+
+
+## どんなときに使うか
+
+### 会社や家の中で、端末をまたいでファイルを移したいとき
+
+OS がばらばらでも、同じアプリで渡せる。Windows・macOS・Linux・Android・iOS・Fire OS 向けに配布されているので、送る側と受け取る側で別々の道具を探さずに済む。
+
+
+### そもそもデータを外に出したくないとき
+
+README は、外部のサーバーを経由しないことと、通信が既定で HTTPS で暗号化されることを設計として挙げている。手順の途中でどこかにアップロードされる箇所が無い。
+
+
+## 注意点
+
+**自動で更新されない。** README 自身が明記していて、だからこそストアやパッケージ管理から入れるよう勧めている。手で入れた場合は、更新も自分で見に行くことになる。
+
+**つながらないときは、たいてい通信の設定側。** 使うのは 53317 番で、受け取り側でこの番号の TCP と UDP を通す必要がある場合がある。加えて、ルーターの「端末どうしを遮断する設定」（AP アイソレーション）が有効だと見つけられない。README は、来客用のネットワークで有効になっていることがあると注意している。
+
+**古い OS には線が引かれている。** Android 5.0 以上、iOS 12.0 以上、macOS 11 以上、Windows 10 以上。Windows 7 に対応した最後の版は v1.15.4 だと書かれている。
+
+**暗号化は切れる。** README の困ったときの表に、速度が出ないときの対処として「両方の端末で暗号化を切る」が挙がっている。既定では暗号化されるが、**切った状態でも使える**ということでもある。
+
+**ライセンスは Apache-2.0。**
