@@ -20,9 +20,9 @@
     "version-manager",
     "zsh"
   ],
-  "stars": 95097,
-  "forks": 10449,
-  "watchers": null,
+  "stars": 95103,
+  "forks": 10453,
+  "watchers": 1094,
   "open_issues": 390,
   "created_at": "2010-04-15T17:47:47Z",
   "pushed_at": "2026-09-11T04:00:38Z",
@@ -38,10 +38,10 @@
   "category": "backend",
   "flags": [],
   "usability_score": 100,
-  "snapshot_days": 14,
+  "snapshot_days": 15,
   "is_indexable": true,
   "first_seen_at": "2026-09-03T23:03:15.574Z",
   "tracking_tier": "hot",
-  "last_fetched_date": "2026-09-17",
+  "last_fetched_date": "2026-09-18",
   "stars_stagnant_days": 0
 }

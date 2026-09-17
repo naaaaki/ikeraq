@@ -13,12 +13,12 @@
     "oauth2",
     "starter-kit"
   ],
-  "stars": 35253,
-  "forks": 8116,
+  "stars": 35254,
+  "forks": 8115,
   "watchers": null,
   "open_issues": 1,
   "created_at": "2013-11-13T17:24:12Z",
-  "pushed_at": "2026-09-16T13:30:26Z",
+  "pushed_at": "2026-09-17T13:35:22Z",
   "is_archived": false,
   "license_spdx": "MIT",
   "license_category": "permissive",
@@ -31,10 +31,10 @@
   "category": "backend",
   "flags": [],
   "usability_score": 100,
-  "snapshot_days": 17,
+  "snapshot_days": 18,
   "is_indexable": true,
   "first_seen_at": "2026-09-01T00:26:13.032Z",
   "tracking_tier": "hot",
-  "last_fetched_date": "2026-09-17",
-  "stars_stagnant_days": 1
+  "last_fetched_date": "2026-09-18",
+  "stars_stagnant_days": 0
 }

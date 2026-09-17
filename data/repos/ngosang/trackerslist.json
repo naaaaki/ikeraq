@@ -22,12 +22,12 @@
     "webtorrent",
     "ws"
   ],
-  "stars": 55133,
+  "stars": 55141,
   "forks": 6585,
   "watchers": null,
   "open_issues": 5,
   "created_at": "2016-04-24T11:57:57Z",
-  "pushed_at": "2026-09-16T22:09:40Z",
+  "pushed_at": "2026-09-17T22:09:29Z",
   "is_archived": false,
   "license_spdx": "GPL-2.0",
   "license_category": "strong-copyleft",
@@ -46,10 +46,10 @@
     }
   ],
   "usability_score": 85,
-  "snapshot_days": 19,
+  "snapshot_days": 20,
   "is_indexable": true,
   "first_seen_at": "2026-08-29T23:02:08.747Z",
   "tracking_tier": "hot",
-  "last_fetched_date": "2026-09-17",
+  "last_fetched_date": "2026-09-18",
   "stars_stagnant_days": 0
 }

@@ -27,12 +27,12 @@
     "website-monitoring",
     "website-watcher"
   ],
-  "stars": 34334,
-  "forks": 2060,
+  "stars": 34303,
+  "forks": 2064,
   "watchers": null,
-  "open_issues": 384,
+  "open_issues": 380,
   "created_at": "2021-01-27T16:03:30Z",
-  "pushed_at": "2026-09-16T16:43:46Z",
+  "pushed_at": "2026-09-17T20:35:29Z",
   "is_archived": false,
   "license_spdx": "Apache-2.0",
   "license_category": "permissive",
@@ -45,10 +45,10 @@
   "category": "infra",
   "flags": [],
   "usability_score": 100,
-  "snapshot_days": 16,
+  "snapshot_days": 17,
   "is_indexable": true,
   "first_seen_at": "2026-09-01T23:05:22.650Z",
   "tracking_tier": "hot",
-  "last_fetched_date": "2026-09-17",
-  "stars_stagnant_days": 0
+  "last_fetched_date": "2026-09-18",
+  "stars_stagnant_days": 1
 }

@@ -23,12 +23,12 @@
     "retail",
     "support"
   ],
-  "stars": 39288,
-  "forks": 12820,
+  "stars": 39328,
+  "forks": 12835,
   "watchers": null,
-  "open_issues": 1837,
+  "open_issues": 1836,
   "created_at": "2011-06-08T08:20:56Z",
-  "pushed_at": "2026-09-16T14:45:18Z",
+  "pushed_at": "2026-09-17T17:10:50Z",
   "is_archived": false,
   "license_spdx": "GPL-3.0",
   "license_category": "strong-copyleft",
@@ -47,10 +47,10 @@
     }
   ],
   "usability_score": 85,
-  "snapshot_days": 17,
+  "snapshot_days": 18,
   "is_indexable": true,
   "first_seen_at": "2026-09-01T00:26:13.031Z",
   "tracking_tier": "hot",
-  "last_fetched_date": "2026-09-17",
+  "last_fetched_date": "2026-09-18",
   "stars_stagnant_days": 0
 }

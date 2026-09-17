@@ -8,12 +8,12 @@
   "topics": [
     "mlx"
   ],
-  "stars": 28442,
-  "forks": 2255,
+  "stars": 28449,
+  "forks": 2258,
   "watchers": null,
-  "open_issues": 148,
+  "open_issues": 152,
   "created_at": "2023-11-28T23:33:45Z",
-  "pushed_at": "2026-09-16T17:23:27Z",
+  "pushed_at": "2026-09-17T21:11:19Z",
   "is_archived": false,
   "license_spdx": "MIT",
   "license_category": "permissive",
@@ -26,10 +26,10 @@
   "category": "other",
   "flags": [],
   "usability_score": 100,
-  "snapshot_days": 15,
+  "snapshot_days": 16,
   "is_indexable": true,
   "first_seen_at": "2026-09-02T23:02:41.773Z",
   "tracking_tier": "hot",
-  "last_fetched_date": "2026-09-17",
+  "last_fetched_date": "2026-09-18",
   "stars_stagnant_days": 0
 }

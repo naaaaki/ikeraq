@@ -11,10 +11,10 @@
     "github-api-v4",
     "golang"
   ],
-  "stars": 46297,
-  "forks": 9034,
+  "stars": 46313,
+  "forks": 9039,
   "watchers": null,
-  "open_issues": 1085,
+  "open_issues": 1086,
   "created_at": "2019-10-03T15:24:53Z",
   "pushed_at": "2026-09-15T14:24:34Z",
   "is_archived": false,
@@ -29,10 +29,10 @@
   "category": "dev-tool",
   "flags": [],
   "usability_score": 100,
-  "snapshot_days": 18,
+  "snapshot_days": 19,
   "is_indexable": true,
   "first_seen_at": "2026-08-30T23:15:18.749Z",
   "tracking_tier": "hot",
-  "last_fetched_date": "2026-09-17",
+  "last_fetched_date": "2026-09-18",
   "stars_stagnant_days": 0
 }

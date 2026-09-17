@@ -14,12 +14,12 @@
     "rails",
     "ruby"
   ],
-  "stars": 47844,
-  "forks": 9016,
+  "stars": 47853,
+  "forks": 9017,
   "watchers": null,
-  "open_issues": 227,
+  "open_issues": 224,
   "created_at": "2013-01-12T00:25:55Z",
-  "pushed_at": "2026-09-16T23:31:15Z",
+  "pushed_at": "2026-09-17T23:13:53Z",
   "is_archived": false,
   "license_spdx": "GPL-2.0",
   "license_category": "strong-copyleft",
@@ -38,10 +38,10 @@
     }
   ],
   "usability_score": 85,
-  "snapshot_days": 18,
+  "snapshot_days": 19,
   "is_indexable": true,
   "first_seen_at": "2026-08-30T23:15:18.749Z",
   "tracking_tier": "hot",
-  "last_fetched_date": "2026-09-17",
+  "last_fetched_date": "2026-09-18",
   "stars_stagnant_days": 0
 }

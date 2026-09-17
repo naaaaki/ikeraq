@@ -16,12 +16,12 @@
     "testing",
     "web"
   ],
-  "stars": 95586,
-  "forks": 9576,
+  "stars": 95584,
+  "forks": 9575,
   "watchers": null,
   "open_issues": 260,
   "created_at": "2017-05-09T22:16:13Z",
-  "pushed_at": "2026-09-16T09:55:50Z",
+  "pushed_at": "2026-09-17T11:04:49Z",
   "is_archived": false,
   "license_spdx": "Apache-2.0",
   "license_category": "permissive",
@@ -34,10 +34,10 @@
   "category": "dev-tool",
   "flags": [],
   "usability_score": 100,
-  "snapshot_days": 19,
+  "snapshot_days": 20,
   "is_indexable": true,
   "first_seen_at": "2026-08-29T15:46:21.821Z",
   "tracking_tier": "hot",
-  "last_fetched_date": "2026-09-17",
-  "stars_stagnant_days": 0
+  "last_fetched_date": "2026-09-18",
+  "stars_stagnant_days": 1
 }

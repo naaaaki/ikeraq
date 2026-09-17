@@ -20,8 +20,8 @@
     "txt2img",
     "windows"
   ],
-  "stars": 28229,
-  "forks": 2973,
+  "stars": 28236,
+  "forks": 2975,
   "watchers": 211,
   "open_issues": 371,
   "created_at": "2022-08-17T01:04:27Z",
@@ -38,10 +38,10 @@
   "category": "other",
   "flags": [],
   "usability_score": 100,
-  "snapshot_days": 15,
+  "snapshot_days": 16,
   "is_indexable": true,
   "first_seen_at": "2026-09-02T23:02:41.773Z",
   "tracking_tier": "hot",
-  "last_fetched_date": "2026-09-17",
+  "last_fetched_date": "2026-09-18",
   "stars_stagnant_days": 0
 }

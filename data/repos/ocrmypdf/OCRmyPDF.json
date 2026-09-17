@@ -12,10 +12,10 @@
     "python",
     "tesseract"
   ],
-  "stars": 34780,
+  "stars": 34791,
   "forks": 2411,
   "watchers": 193,
-  "open_issues": 95,
+  "open_issues": 91,
   "created_at": "2013-12-20T08:26:28Z",
   "pushed_at": "2026-09-16T23:20:07Z",
   "is_archived": false,
@@ -30,10 +30,10 @@
   "category": "other",
   "flags": [],
   "usability_score": 100,
-  "snapshot_days": 17,
+  "snapshot_days": 18,
   "is_indexable": true,
   "first_seen_at": "2026-09-01T00:26:13.032Z",
   "tracking_tier": "hot",
-  "last_fetched_date": "2026-09-17",
+  "last_fetched_date": "2026-09-18",
   "stars_stagnant_days": 0
 }

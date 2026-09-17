@@ -22,12 +22,12 @@
     "webapp-security",
     "webappsec"
   ],
-  "stars": 38457,
-  "forks": 6366,
+  "stars": 38461,
+  "forks": 6365,
   "watchers": null,
   "open_issues": 31,
   "created_at": "2012-06-26T09:52:15Z",
-  "pushed_at": "2026-09-15T09:36:14Z",
+  "pushed_at": "2026-09-17T22:53:20Z",
   "is_archived": false,
   "license_spdx": "NOASSERTION",
   "license_category": "unknown",
@@ -40,10 +40,10 @@
   "category": "security",
   "flags": [],
   "usability_score": 100,
-  "snapshot_days": 17,
+  "snapshot_days": 18,
   "is_indexable": true,
   "first_seen_at": "2026-09-01T00:26:13.031Z",
   "tracking_tier": "hot",
-  "last_fetched_date": "2026-09-17",
+  "last_fetched_date": "2026-09-18",
   "stars_stagnant_days": 0
 }

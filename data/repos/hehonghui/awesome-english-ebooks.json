@@ -13,12 +13,12 @@
     "new-yorker",
     "pdf"
   ],
-  "stars": 36448,
-  "forks": 3039,
+  "stars": 36515,
+  "forks": 3046,
   "watchers": null,
   "open_issues": 0,
   "created_at": "2022-06-28T02:45:44Z",
-  "pushed_at": "2026-09-11T21:46:10Z",
+  "pushed_at": "2026-09-17T21:28:02Z",
   "is_archived": false,
   "license_spdx": null,
   "license_category": "none",
@@ -37,10 +37,10 @@
     }
   ],
   "usability_score": 60,
-  "snapshot_days": 17,
+  "snapshot_days": 18,
   "is_indexable": true,
   "first_seen_at": "2026-09-01T00:26:13.032Z",
   "tracking_tier": "hot",
-  "last_fetched_date": "2026-09-17",
+  "last_fetched_date": "2026-09-18",
   "stars_stagnant_days": 0
 }

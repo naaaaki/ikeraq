@@ -21,12 +21,12 @@
     "qwenpaw",
     "webmin"
   ],
-  "stars": 36946,
+  "stars": 36955,
   "forks": 3353,
   "watchers": null,
-  "open_issues": 314,
+  "open_issues": 317,
   "created_at": "2022-07-19T15:44:52Z",
-  "pushed_at": "2026-09-16T14:09:52Z",
+  "pushed_at": "2026-09-17T07:46:08Z",
   "is_archived": false,
   "license_spdx": "GPL-3.0",
   "license_category": "strong-copyleft",
@@ -45,10 +45,10 @@
     }
   ],
   "usability_score": 85,
-  "snapshot_days": 17,
+  "snapshot_days": 18,
   "is_indexable": true,
   "first_seen_at": "2026-09-01T00:26:13.032Z",
   "tracking_tier": "hot",
-  "last_fetched_date": "2026-09-17",
+  "last_fetched_date": "2026-09-18",
   "stars_stagnant_days": 0
 }

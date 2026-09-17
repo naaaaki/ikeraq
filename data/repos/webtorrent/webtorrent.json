@@ -17,7 +17,7 @@
     "webrtc",
     "webtorrent"
   ],
-  "stars": 31394,
+  "stars": 31396,
   "forks": 2902,
   "watchers": null,
   "open_issues": 84,
@@ -35,10 +35,10 @@
   "category": "backend",
   "flags": [],
   "usability_score": 100,
-  "snapshot_days": 16,
+  "snapshot_days": 17,
   "is_indexable": true,
   "first_seen_at": "2026-09-01T23:05:22.650Z",
   "tracking_tier": "hot",
-  "last_fetched_date": "2026-09-17",
-  "stars_stagnant_days": 1
+  "last_fetched_date": "2026-09-18",
+  "stars_stagnant_days": 0
 }

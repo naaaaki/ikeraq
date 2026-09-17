@@ -19,7 +19,7 @@
     "windows",
     "yubikey"
   ],
-  "stars": 28835,
+  "stars": 28842,
   "forks": 1910,
   "watchers": null,
   "open_issues": 901,
@@ -37,10 +37,10 @@
   "category": "security",
   "flags": [],
   "usability_score": 100,
-  "snapshot_days": 15,
+  "snapshot_days": 16,
   "is_indexable": true,
   "first_seen_at": "2026-09-02T23:02:41.773Z",
   "tracking_tier": "hot",
-  "last_fetched_date": "2026-09-17",
+  "last_fetched_date": "2026-09-18",
   "stars_stagnant_days": 0
 }

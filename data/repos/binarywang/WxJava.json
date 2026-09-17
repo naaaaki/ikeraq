@@ -22,8 +22,8 @@
     "wxjava",
     "wxpay"
   ],
-  "stars": 33096,
-  "forks": 9054,
+  "stars": 33101,
+  "forks": 9053,
   "watchers": null,
   "open_issues": 6,
   "created_at": "2016-01-06T08:24:05Z",
@@ -40,10 +40,10 @@
   "category": "other",
   "flags": [],
   "usability_score": 100,
-  "snapshot_days": 16,
+  "snapshot_days": 17,
   "is_indexable": true,
   "first_seen_at": "2026-09-01T23:05:22.650Z",
   "tracking_tier": "hot",
-  "last_fetched_date": "2026-09-17",
+  "last_fetched_date": "2026-09-18",
   "stars_stagnant_days": 0
 }

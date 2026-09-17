@@ -15,12 +15,12 @@
     "social-media-scheduling-tool",
     "typescript"
   ],
-  "stars": 35972,
-  "forks": 6893,
+  "stars": 36019,
+  "forks": 6900,
   "watchers": null,
-  "open_issues": 294,
+  "open_issues": 291,
   "created_at": "2023-07-08T17:24:22Z",
-  "pushed_at": "2026-09-16T19:23:41Z",
+  "pushed_at": "2026-09-17T16:51:02Z",
   "is_archived": false,
   "license_spdx": "AGPL-3.0",
   "license_category": "strong-copyleft",
@@ -39,10 +39,10 @@
     }
   ],
   "usability_score": 85,
-  "snapshot_days": 17,
+  "snapshot_days": 18,
   "is_indexable": true,
   "first_seen_at": "2026-09-01T00:26:13.032Z",
   "tracking_tier": "hot",
-  "last_fetched_date": "2026-09-17",
+  "last_fetched_date": "2026-09-18",
   "stars_stagnant_days": 0
 }

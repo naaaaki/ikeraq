@@ -15,8 +15,8 @@
     "snippets-collection",
     "snippets-library"
   ],
-  "stars": 94701,
-  "forks": 27373,
+  "stars": 94705,
+  "forks": 27374,
   "watchers": 3675,
   "open_issues": 128,
   "created_at": "2014-08-09T16:45:18Z",
@@ -33,10 +33,10 @@
   "category": "web-frontend",
   "flags": [],
   "usability_score": 100,
-  "snapshot_days": 19,
+  "snapshot_days": 20,
   "is_indexable": true,
   "first_seen_at": "2026-08-29T15:46:21.821Z",
   "tracking_tier": "hot",
-  "last_fetched_date": "2026-09-17",
+  "last_fetched_date": "2026-09-18",
   "stars_stagnant_days": 0
 }

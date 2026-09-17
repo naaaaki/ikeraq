@@ -18,8 +18,8 @@
     "quantitative-trading",
     "trading"
   ],
-  "stars": 6133,
-  "forks": 886,
+  "stars": 6136,
+  "forks": 889,
   "watchers": 46,
   "open_issues": 22,
   "created_at": "2024-12-10T20:34:46Z",
@@ -36,10 +36,10 @@
   "category": "other",
   "flags": [],
   "usability_score": 100,
-  "snapshot_days": 10,
+  "snapshot_days": 11,
   "is_indexable": true,
   "first_seen_at": "2026-09-07T23:19:48.381Z",
   "tracking_tier": "hot",
-  "last_fetched_date": "2026-09-17",
+  "last_fetched_date": "2026-09-18",
   "stars_stagnant_days": 0
 }

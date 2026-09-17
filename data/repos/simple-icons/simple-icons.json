@@ -27,11 +27,11 @@
     "svg-images"
   ],
   "stars": 25871,
-  "forks": 3166,
+  "forks": 3165,
   "watchers": null,
-  "open_issues": 957,
+  "open_issues": 958,
   "created_at": "2012-11-16T11:09:13Z",
-  "pushed_at": "2026-09-13T05:04:35Z",
+  "pushed_at": "2026-09-17T01:05:10Z",
   "is_archived": false,
   "license_spdx": "CC0-1.0",
   "license_category": "permissive",
@@ -44,10 +44,10 @@
   "category": "web-frontend",
   "flags": [],
   "usability_score": 100,
-  "snapshot_days": 14,
+  "snapshot_days": 15,
   "is_indexable": true,
   "first_seen_at": "2026-09-03T23:03:15.575Z",
   "tracking_tier": "hot",
-  "last_fetched_date": "2026-09-17",
-  "stars_stagnant_days": 0
+  "last_fetched_date": "2026-09-18",
+  "stars_stagnant_days": 1
 }
