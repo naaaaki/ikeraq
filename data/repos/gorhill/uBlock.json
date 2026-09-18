@@ -14,12 +14,12 @@
     "ublock",
     "ublock-origin"
   ],
-  "stars": 67931,
-  "forks": 4353,
+  "stars": 67955,
+  "forks": 4355,
   "watchers": null,
   "open_issues": 15,
   "created_at": "2015-04-01T17:51:11Z",
-  "pushed_at": "2026-09-17T19:38:43Z",
+  "pushed_at": "2026-09-18T16:50:24Z",
   "is_archived": false,
   "license_spdx": "GPL-3.0",
   "license_category": "strong-copyleft",
@@ -38,10 +38,10 @@
     }
   ],
   "usability_score": 85,
-  "snapshot_days": 20,
+  "snapshot_days": 21,
   "is_indexable": true,
   "first_seen_at": "2026-08-29T23:02:08.747Z",
   "tracking_tier": "hot",
-  "last_fetched_date": "2026-09-18",
+  "last_fetched_date": "2026-09-19",
   "stars_stagnant_days": 0
 }

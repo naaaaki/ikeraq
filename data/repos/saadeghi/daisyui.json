@@ -27,12 +27,12 @@
     "ui-library",
     "ui-pattern"
   ],
-  "stars": 42411,
-  "forks": 1686,
+  "stars": 42420,
+  "forks": 1687,
   "watchers": null,
   "open_issues": 49,
   "created_at": "2020-11-28T22:57:27Z",
-  "pushed_at": "2026-09-17T14:36:02Z",
+  "pushed_at": "2026-09-18T08:11:11Z",
   "is_archived": false,
   "license_spdx": "MIT",
   "license_category": "permissive",
@@ -45,10 +45,10 @@
   "category": "web-frontend",
   "flags": [],
   "usability_score": 100,
-  "snapshot_days": 18,
+  "snapshot_days": 19,
   "is_indexable": true,
   "first_seen_at": "2026-09-01T00:26:13.031Z",
   "tracking_tier": "hot",
-  "last_fetched_date": "2026-09-18",
+  "last_fetched_date": "2026-09-19",
   "stars_stagnant_days": 0
 }

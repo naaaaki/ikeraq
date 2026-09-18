@@ -12,7 +12,7 @@
     "logging",
     "spdlog"
   ],
-  "stars": 29611,
+  "stars": 29612,
   "forks": 5396,
   "watchers": 475,
   "open_issues": 54,
@@ -30,10 +30,10 @@
   "category": "other",
   "flags": [],
   "usability_score": 100,
-  "snapshot_days": 11,
+  "snapshot_days": 12,
   "is_indexable": true,
   "first_seen_at": "2026-09-07T23:19:48.976Z",
   "tracking_tier": "hot",
-  "last_fetched_date": "2026-09-18",
+  "last_fetched_date": "2026-09-19",
   "stars_stagnant_days": 0
 }

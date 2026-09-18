@@ -20,10 +20,10 @@
     "web-application",
     "webapp"
   ],
-  "stars": 370538,
-  "forks": 58473,
+  "stars": 370663,
+  "forks": 58483,
   "watchers": null,
-  "open_issues": 614,
+  "open_issues": 615,
   "created_at": "2017-02-26T16:15:28Z",
   "pushed_at": "2026-09-15T01:10:09Z",
   "is_archived": false,
@@ -38,10 +38,10 @@
   "category": "web-frontend",
   "flags": [],
   "usability_score": 100,
-  "snapshot_days": 3,
+  "snapshot_days": 4,
   "is_indexable": false,
   "first_seen_at": "2026-09-15T23:27:33.828Z",
   "tracking_tier": "hot",
-  "last_fetched_date": "2026-09-18",
+  "last_fetched_date": "2026-09-19",
   "stars_stagnant_days": 0
 }

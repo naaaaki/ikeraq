@@ -6,7 +6,7 @@
   "human_note": null,
   "language": "JavaScript",
   "topics": [],
-  "stars": 31287,
+  "stars": 31320,
   "forks": 2755,
   "watchers": 129,
   "open_issues": 172,
@@ -30,10 +30,10 @@
     }
   ],
   "usability_score": 60,
-  "snapshot_days": 17,
+  "snapshot_days": 18,
   "is_indexable": true,
   "first_seen_at": "2026-09-01T23:05:22.650Z",
   "tracking_tier": "hot",
-  "last_fetched_date": "2026-09-18",
+  "last_fetched_date": "2026-09-19",
   "stars_stagnant_days": 0
 }

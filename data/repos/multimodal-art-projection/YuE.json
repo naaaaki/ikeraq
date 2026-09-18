@@ -18,10 +18,10 @@
     "style-transfers",
     "voice-cloning"
   ],
-  "stars": 9550,
-  "forks": 1040,
-  "watchers": 89,
-  "open_issues": 32,
+  "stars": 9705,
+  "forks": 1066,
+  "watchers": 88,
+  "open_issues": 33,
   "created_at": "2025-01-23T06:21:58Z",
   "pushed_at": "2026-09-17T01:49:59Z",
   "is_archived": false,
@@ -36,10 +36,10 @@
   "category": "llm",
   "flags": [],
   "usability_score": 100,
-  "snapshot_days": 5,
+  "snapshot_days": 6,
   "is_indexable": true,
   "first_seen_at": "2026-09-13T22:56:42.910Z",
   "tracking_tier": "hot",
-  "last_fetched_date": "2026-09-18",
+  "last_fetched_date": "2026-09-19",
   "stars_stagnant_days": 0
 }

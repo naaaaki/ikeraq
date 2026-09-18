@@ -21,10 +21,10 @@
     "word",
     "xlsx"
   ],
-  "stars": 30767,
-  "forks": 2094,
+  "stars": 30807,
+  "forks": 2099,
   "watchers": null,
-  "open_issues": 107,
+  "open_issues": 108,
   "created_at": "2026-03-15T07:39:12Z",
   "pushed_at": "2026-09-16T18:40:37Z",
   "is_archived": false,
@@ -39,10 +39,10 @@
   "category": "ai-agent",
   "flags": [],
   "usability_score": 100,
-  "snapshot_days": 16,
+  "snapshot_days": 17,
   "is_indexable": true,
   "first_seen_at": "2026-09-02T23:02:41.773Z",
   "tracking_tier": "hot",
-  "last_fetched_date": "2026-09-18",
+  "last_fetched_date": "2026-09-19",
   "stars_stagnant_days": 0
 }

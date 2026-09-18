@@ -12,10 +12,10 @@
     "openwrt-package",
     "openwrt-zh-cn"
   ],
-  "stars": 31583,
-  "forks": 19159,
+  "stars": 31584,
+  "forks": 19154,
   "watchers": null,
-  "open_issues": 3,
+  "open_issues": 4,
   "created_at": "2017-09-06T07:39:03Z",
   "pushed_at": "2026-09-16T03:17:45Z",
   "is_archived": false,
@@ -30,10 +30,10 @@
   "category": "other",
   "flags": [],
   "usability_score": 100,
-  "snapshot_days": 17,
+  "snapshot_days": 18,
   "is_indexable": true,
   "first_seen_at": "2026-09-01T23:05:22.650Z",
   "tracking_tier": "hot",
-  "last_fetched_date": "2026-09-18",
-  "stars_stagnant_days": 1
+  "last_fetched_date": "2026-09-19",
+  "stars_stagnant_days": 0
 }

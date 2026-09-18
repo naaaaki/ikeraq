@@ -10,10 +10,10 @@
     "chat",
     "llm"
   ],
-  "stars": 33485,
-  "forks": 6309,
+  "stars": 33523,
+  "forks": 6316,
   "watchers": 164,
-  "open_issues": 619,
+  "open_issues": 622,
   "created_at": "2023-02-09T10:19:24Z",
   "pushed_at": "2026-09-14T19:16:18Z",
   "is_archived": false,
@@ -34,10 +34,10 @@
     }
   ],
   "usability_score": 85,
-  "snapshot_days": 17,
+  "snapshot_days": 18,
   "is_indexable": true,
   "first_seen_at": "2026-09-01T23:05:22.650Z",
   "tracking_tier": "hot",
-  "last_fetched_date": "2026-09-18",
+  "last_fetched_date": "2026-09-19",
   "stars_stagnant_days": 0
 }

@@ -16,10 +16,10 @@
     "multi-agent-systems",
     "rag"
   ],
-  "stars": 39898,
-  "forks": 5006,
+  "stars": 39950,
+  "forks": 5016,
   "watchers": null,
-  "open_issues": 265,
+  "open_issues": 268,
   "created_at": "2025-12-28T15:35:54Z",
   "pushed_at": "2026-09-15T04:49:29Z",
   "is_archived": false,
@@ -34,10 +34,10 @@
   "category": "ai-agent",
   "flags": [],
   "usability_score": 100,
-  "snapshot_days": 18,
+  "snapshot_days": 19,
   "is_indexable": true,
   "first_seen_at": "2026-09-01T00:26:13.031Z",
   "tracking_tier": "hot",
-  "last_fetched_date": "2026-09-18",
+  "last_fetched_date": "2026-09-19",
   "stars_stagnant_days": 0
 }

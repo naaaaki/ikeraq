@@ -23,8 +23,8 @@
     "springcloud",
     "swagger-ui"
   ],
-  "stars": 84789,
-  "forks": 29826,
+  "stars": 84795,
+  "forks": 29829,
   "watchers": null,
   "open_issues": 19,
   "created_at": "2018-04-04T01:11:44Z",
@@ -41,10 +41,10 @@
   "category": "security",
   "flags": [],
   "usability_score": 100,
-  "snapshot_days": 3,
+  "snapshot_days": 4,
   "is_indexable": false,
   "first_seen_at": "2026-09-15T23:27:33.829Z",
   "tracking_tier": "hot",
-  "last_fetched_date": "2026-09-18",
+  "last_fetched_date": "2026-09-19",
   "stars_stagnant_days": 0
 }

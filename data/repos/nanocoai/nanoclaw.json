@@ -12,10 +12,10 @@
     "claude-skills",
     "openclaw"
   ],
-  "stars": 30795,
-  "forks": 12831,
+  "stars": 30800,
+  "forks": 12832,
   "watchers": null,
-  "open_issues": 1058,
+  "open_issues": 1061,
   "created_at": "2026-01-31T15:47:22Z",
   "pushed_at": "2026-09-17T17:26:52Z",
   "is_archived": false,
@@ -30,10 +30,10 @@
   "category": "ai-agent",
   "flags": [],
   "usability_score": 100,
-  "snapshot_days": 17,
+  "snapshot_days": 18,
   "is_indexable": true,
   "first_seen_at": "2026-09-01T23:05:22.650Z",
   "tracking_tier": "hot",
-  "last_fetched_date": "2026-09-18",
+  "last_fetched_date": "2026-09-19",
   "stars_stagnant_days": 0
 }

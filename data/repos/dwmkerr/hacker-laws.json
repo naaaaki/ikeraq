@@ -11,7 +11,7 @@
     "laws",
     "principles"
   ],
-  "stars": 27293,
+  "stars": 27295,
   "forks": 1563,
   "watchers": 444,
   "open_issues": 153,
@@ -35,10 +35,10 @@
     }
   ],
   "usability_score": 85,
-  "snapshot_days": 15,
+  "snapshot_days": 16,
   "is_indexable": true,
   "first_seen_at": "2026-09-03T23:03:15.575Z",
   "tracking_tier": "hot",
-  "last_fetched_date": "2026-09-18",
+  "last_fetched_date": "2026-09-19",
   "stars_stagnant_days": 0
 }

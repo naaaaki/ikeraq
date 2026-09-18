@@ -20,7 +20,7 @@
     "swift-language",
     "swift-library"
   ],
-  "stars": 26260,
+  "stars": 26262,
   "forks": 3145,
   "watchers": 875,
   "open_issues": 14,
@@ -38,10 +38,10 @@
   "category": "mobile",
   "flags": [],
   "usability_score": 100,
-  "snapshot_days": 15,
+  "snapshot_days": 16,
   "is_indexable": true,
   "first_seen_at": "2026-09-03T23:03:15.575Z",
   "tracking_tier": "hot",
-  "last_fetched_date": "2026-09-18",
-  "stars_stagnant_days": 1
+  "last_fetched_date": "2026-09-19",
+  "stars_stagnant_days": 0
 }
