@@ -15,12 +15,12 @@
     "screen",
     "sdl2"
   ],
-  "stars": 149938,
-  "forks": 13768,
+  "stars": 150016,
+  "forks": 13772,
   "watchers": null,
   "open_issues": 2904,
   "created_at": "2017-11-21T18:00:27Z",
-  "pushed_at": "2026-09-18T20:54:51Z",
+  "pushed_at": "2026-09-19T08:54:25Z",
   "is_archived": false,
   "license_spdx": "Apache-2.0",
   "license_category": "permissive",
@@ -33,10 +33,10 @@
   "category": "mobile",
   "flags": [],
   "usability_score": 100,
-  "snapshot_days": 16,
+  "snapshot_days": 17,
   "is_indexable": true,
   "first_seen_at": "2026-09-03T23:03:15.574Z",
   "tracking_tier": "hot",
-  "last_fetched_date": "2026-09-19",
+  "last_fetched_date": "2026-09-20",
   "stars_stagnant_days": 0
 }

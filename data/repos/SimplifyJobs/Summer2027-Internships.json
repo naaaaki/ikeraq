@@ -16,12 +16,12 @@
     "software-engineering",
     "university"
   ],
-  "stars": 47512,
-  "forks": 3249,
+  "stars": 47526,
+  "forks": 3251,
   "watchers": null,
-  "open_issues": 108,
+  "open_issues": 109,
   "created_at": "2020-05-23T20:53:18Z",
-  "pushed_at": "2026-09-18T23:01:52Z",
+  "pushed_at": "2026-09-19T22:31:45Z",
   "is_archived": false,
   "license_spdx": null,
   "license_category": "none",
@@ -40,10 +40,10 @@
     }
   ],
   "usability_score": 60,
-  "snapshot_days": 20,
+  "snapshot_days": 21,
   "is_indexable": true,
   "first_seen_at": "2026-08-30T23:15:18.749Z",
   "tracking_tier": "hot",
-  "last_fetched_date": "2026-09-19",
+  "last_fetched_date": "2026-09-20",
   "stars_stagnant_days": 0
 }

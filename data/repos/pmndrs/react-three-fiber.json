@@ -13,7 +13,7 @@
     "renderer",
     "threejs"
   ],
-  "stars": 32359,
+  "stars": 32380,
   "forks": 1972,
   "watchers": null,
   "open_issues": 76,
@@ -31,10 +31,10 @@
   "category": "web-frontend",
   "flags": [],
   "usability_score": 100,
-  "snapshot_days": 18,
+  "snapshot_days": 19,
   "is_indexable": true,
   "first_seen_at": "2026-09-01T23:05:22.650Z",
   "tracking_tier": "hot",
-  "last_fetched_date": "2026-09-19",
+  "last_fetched_date": "2026-09-20",
   "stars_stagnant_days": 0
 }

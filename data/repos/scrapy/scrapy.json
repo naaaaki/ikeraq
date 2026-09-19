@@ -15,10 +15,10 @@
     "web-scraping",
     "web-scraping-python"
   ],
-  "stars": 64402,
-  "forks": 11965,
+  "stars": 64410,
+  "forks": 11967,
   "watchers": null,
-  "open_issues": 370,
+  "open_issues": 372,
   "created_at": "2010-02-22T02:01:14Z",
   "pushed_at": "2026-09-18T11:21:38Z",
   "is_archived": false,
@@ -33,10 +33,10 @@
   "category": "data",
   "flags": [],
   "usability_score": 100,
-  "snapshot_days": 21,
+  "snapshot_days": 22,
   "is_indexable": true,
   "first_seen_at": "2026-08-29T23:02:08.747Z",
   "tracking_tier": "hot",
-  "last_fetched_date": "2026-09-19",
+  "last_fetched_date": "2026-09-20",
   "stars_stagnant_days": 0
 }

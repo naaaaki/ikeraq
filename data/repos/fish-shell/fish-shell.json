@@ -12,11 +12,11 @@
     "terminal"
   ],
   "stars": 34216,
-  "forks": 2372,
+  "forks": 2371,
   "watchers": null,
-  "open_issues": 564,
+  "open_issues": 561,
   "created_at": "2012-05-10T03:00:55Z",
-  "pushed_at": "2026-09-15T08:14:12Z",
+  "pushed_at": "2026-09-19T09:07:03Z",
   "is_archived": false,
   "license_spdx": "NOASSERTION",
   "license_category": "unknown",
@@ -29,10 +29,10 @@
   "category": "dev-tool",
   "flags": [],
   "usability_score": 100,
-  "snapshot_days": 18,
+  "snapshot_days": 19,
   "is_indexable": true,
   "first_seen_at": "2026-09-01T23:05:22.650Z",
   "tracking_tier": "hot",
-  "last_fetched_date": "2026-09-19",
-  "stars_stagnant_days": 0
+  "last_fetched_date": "2026-09-20",
+  "stars_stagnant_days": 1
 }

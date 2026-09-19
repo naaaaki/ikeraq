@@ -22,12 +22,12 @@
     "ollama",
     "qwen"
   ],
-  "stars": 181227,
-  "forks": 17925,
+  "stars": 181275,
+  "forks": 17935,
   "watchers": null,
   "open_issues": 4036,
   "created_at": "2023-06-26T19:39:32Z",
-  "pushed_at": "2026-09-18T22:42:10Z",
+  "pushed_at": "2026-09-19T20:41:40Z",
   "is_archived": false,
   "license_spdx": "MIT",
   "license_category": "permissive",
@@ -40,10 +40,10 @@
   "category": "llm",
   "flags": [],
   "usability_score": 100,
-  "snapshot_days": 21,
+  "snapshot_days": 22,
   "is_indexable": true,
   "first_seen_at": "2026-08-29T15:46:21.820Z",
   "tracking_tier": "hot",
-  "last_fetched_date": "2026-09-19",
+  "last_fetched_date": "2026-09-20",
   "stars_stagnant_days": 0
 }

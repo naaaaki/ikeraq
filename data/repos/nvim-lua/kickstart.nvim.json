@@ -6,7 +6,7 @@
   "human_note": null,
   "language": "Lua",
   "topics": [],
-  "stars": 31484,
+  "stars": 31490,
   "forks": 46568,
   "watchers": null,
   "open_issues": 18,
@@ -24,10 +24,10 @@
   "category": "other",
   "flags": [],
   "usability_score": 100,
-  "snapshot_days": 12,
+  "snapshot_days": 13,
   "is_indexable": true,
   "first_seen_at": "2026-09-07T23:19:48.975Z",
   "tracking_tier": "hot",
-  "last_fetched_date": "2026-09-19",
+  "last_fetched_date": "2026-09-20",
   "stars_stagnant_days": 0
 }

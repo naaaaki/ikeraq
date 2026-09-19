@@ -17,7 +17,7 @@
     "reverse-proxy",
     "tunnel"
   ],
-  "stars": 109504,
+  "stars": 109520,
   "forks": 15213,
   "watchers": 1580,
   "open_issues": 48,
@@ -35,10 +35,10 @@
   "category": "infra",
   "flags": [],
   "usability_score": 100,
-  "snapshot_days": 21,
+  "snapshot_days": 22,
   "is_indexable": true,
   "first_seen_at": "2026-08-29T15:46:21.820Z",
   "tracking_tier": "hot",
-  "last_fetched_date": "2026-09-19",
+  "last_fetched_date": "2026-09-20",
   "stars_stagnant_days": 0
 }

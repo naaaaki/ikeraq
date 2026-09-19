@@ -16,7 +16,7 @@
     "svg",
     "visualization"
   ],
-  "stars": 67349,
+  "stars": 67351,
   "forks": 19819,
   "watchers": null,
   "open_issues": 1504,
@@ -34,10 +34,10 @@
   "category": "web-frontend",
   "flags": [],
   "usability_score": 100,
-  "snapshot_days": 16,
+  "snapshot_days": 17,
   "is_indexable": true,
   "first_seen_at": "2026-09-03T23:03:15.574Z",
   "tracking_tier": "hot",
-  "last_fetched_date": "2026-09-19",
+  "last_fetched_date": "2026-09-20",
   "stars_stagnant_days": 0
 }

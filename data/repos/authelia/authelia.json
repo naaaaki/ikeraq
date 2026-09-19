@@ -27,12 +27,12 @@
     "two-factor-authentication",
     "webauthn"
   ],
-  "stars": 29012,
-  "forks": 1485,
+  "stars": 29016,
+  "forks": 1487,
   "watchers": null,
   "open_issues": 137,
   "created_at": "2016-12-07T00:56:57Z",
-  "pushed_at": "2026-09-18T11:46:36Z",
+  "pushed_at": "2026-09-19T22:09:43Z",
   "is_archived": false,
   "license_spdx": "Apache-2.0",
   "license_category": "permissive",
@@ -45,10 +45,10 @@
   "category": "security",
   "flags": [],
   "usability_score": 100,
-  "snapshot_days": 17,
+  "snapshot_days": 18,
   "is_indexable": true,
   "first_seen_at": "2026-09-02T23:02:41.773Z",
   "tracking_tier": "hot",
-  "last_fetched_date": "2026-09-19",
+  "last_fetched_date": "2026-09-20",
   "stars_stagnant_days": 0
 }

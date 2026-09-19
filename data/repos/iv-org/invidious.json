@@ -15,10 +15,10 @@
     "youtube",
     "youtube-video"
   ],
-  "stars": 24482,
-  "forks": 2751,
+  "stars": 24518,
+  "forks": 2758,
   "watchers": 204,
-  "open_issues": 485,
+  "open_issues": 490,
   "created_at": "2018-02-07T00:43:42Z",
   "pushed_at": "2026-09-18T20:44:25Z",
   "is_archived": false,
@@ -39,10 +39,10 @@
     }
   ],
   "usability_score": 85,
-  "snapshot_days": 18,
+  "snapshot_days": 19,
   "is_indexable": true,
   "first_seen_at": "2026-09-01T23:05:21.930Z",
   "tracking_tier": "hot",
-  "last_fetched_date": "2026-09-19",
+  "last_fetched_date": "2026-09-20",
   "stars_stagnant_days": 0
 }
