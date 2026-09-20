@@ -14,10 +14,10 @@
     "sprites",
     "web"
   ],
-  "stars": 53990,
-  "forks": 9743,
+  "stars": 53998,
+  "forks": 9742,
   "watchers": 1801,
-  "open_issues": 428,
+  "open_issues": 427,
   "created_at": "2014-10-08T18:01:28Z",
   "pushed_at": "2026-09-18T02:15:08Z",
   "is_archived": false,
@@ -32,10 +32,10 @@
   "category": "web-frontend",
   "flags": [],
   "usability_score": 100,
-  "snapshot_days": 22,
+  "snapshot_days": 23,
   "is_indexable": true,
   "first_seen_at": "2026-08-29T23:02:08.747Z",
   "tracking_tier": "hot",
-  "last_fetched_date": "2026-09-20",
+  "last_fetched_date": "2026-09-21",
   "stars_stagnant_days": 0
 }

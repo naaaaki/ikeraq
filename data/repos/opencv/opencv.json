@@ -12,10 +12,10 @@
     "image-processing",
     "opencv"
   ],
-  "stars": 90895,
-  "forks": 57033,
+  "stars": 90904,
+  "forks": 57034,
   "watchers": null,
-  "open_issues": 2758,
+  "open_issues": 2769,
   "created_at": "2012-07-19T09:40:17Z",
   "pushed_at": "2026-09-19T11:33:43Z",
   "is_archived": false,
@@ -30,10 +30,10 @@
   "category": "learning",
   "flags": [],
   "usability_score": 100,
-  "snapshot_days": 22,
+  "snapshot_days": 23,
   "is_indexable": true,
   "first_seen_at": "2026-08-29T15:46:21.821Z",
   "tracking_tier": "hot",
-  "last_fetched_date": "2026-09-20",
+  "last_fetched_date": "2026-09-21",
   "stars_stagnant_days": 0
 }

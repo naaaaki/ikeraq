@@ -2,7 +2,7 @@
   "id": "netbirdio/netbird",
   "owner": "netbirdio",
   "name": "netbird",
-  "description_en": "Connect your devices into a secure WireGuard®-based overlay network with SSO, MFA and granular access controls.",
+  "description_en": "Connect your devices, users, and agents into a secure WireGuard®-based overlay network with SSO, MFA and granular access controls.",
   "human_note": null,
   "language": "Go",
   "topics": [
@@ -17,12 +17,12 @@
     "wiretrustee",
     "zero-trust-network-access"
   ],
-  "stars": 29382,
-  "forks": 1687,
+  "stars": 29405,
+  "forks": 1690,
   "watchers": null,
-  "open_issues": 1524,
+  "open_issues": 1523,
   "created_at": "2021-04-14T12:27:20Z",
-  "pushed_at": "2026-09-18T19:21:59Z",
+  "pushed_at": "2026-09-20T18:24:04Z",
   "is_archived": false,
   "license_spdx": "NOASSERTION",
   "license_category": "unknown",
@@ -35,10 +35,10 @@
   "category": "infra",
   "flags": [],
   "usability_score": 100,
-  "snapshot_days": 18,
+  "snapshot_days": 19,
   "is_indexable": true,
   "first_seen_at": "2026-09-02T23:02:41.773Z",
   "tracking_tier": "hot",
-  "last_fetched_date": "2026-09-20",
+  "last_fetched_date": "2026-09-21",
   "stars_stagnant_days": 0
 }

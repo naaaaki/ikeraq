@@ -12,12 +12,12 @@
     "odm",
     "orm"
   ],
-  "stars": 27471,
-  "forks": 4043,
+  "stars": 27469,
+  "forks": 4044,
   "watchers": null,
-  "open_issues": 168,
+  "open_issues": 167,
   "created_at": "2010-04-06T21:39:05Z",
-  "pushed_at": "2026-09-18T22:08:19Z",
+  "pushed_at": "2026-09-20T21:17:34Z",
   "is_archived": false,
   "license_spdx": "MIT",
   "license_category": "permissive",
@@ -30,10 +30,10 @@
   "category": "backend",
   "flags": [],
   "usability_score": 100,
-  "snapshot_days": 17,
+  "snapshot_days": 18,
   "is_indexable": true,
   "first_seen_at": "2026-09-03T23:03:15.575Z",
   "tracking_tier": "hot",
-  "last_fetched_date": "2026-09-20",
-  "stars_stagnant_days": 2
+  "last_fetched_date": "2026-09-21",
+  "stars_stagnant_days": 3
 }

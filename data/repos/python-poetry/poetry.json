@@ -13,11 +13,11 @@
     "python"
   ],
   "stars": 34304,
-  "forks": 2495,
+  "forks": 2498,
   "watchers": null,
-  "open_issues": 554,
+  "open_issues": 555,
   "created_at": "2018-02-28T15:23:47Z",
-  "pushed_at": "2026-09-19T18:37:04Z",
+  "pushed_at": "2026-09-20T07:16:50Z",
   "is_archived": false,
   "license_spdx": "MIT",
   "license_category": "permissive",
@@ -30,10 +30,10 @@
   "category": "dev-tool",
   "flags": [],
   "usability_score": 100,
-  "snapshot_days": 19,
+  "snapshot_days": 20,
   "is_indexable": true,
   "first_seen_at": "2026-09-01T23:05:22.650Z",
   "tracking_tier": "hot",
-  "last_fetched_date": "2026-09-20",
-  "stars_stagnant_days": 1
+  "last_fetched_date": "2026-09-21",
+  "stars_stagnant_days": 2
 }

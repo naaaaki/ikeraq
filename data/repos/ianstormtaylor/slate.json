@@ -16,9 +16,9 @@
     "text-editor"
   ],
   "stars": 31748,
-  "forks": 3301,
+  "forks": 3302,
   "watchers": 294,
-  "open_issues": 654,
+  "open_issues": 657,
   "created_at": "2016-06-18T01:52:42Z",
   "pushed_at": "2026-09-13T05:21:11Z",
   "is_archived": false,
@@ -33,10 +33,10 @@
   "category": "web-frontend",
   "flags": [],
   "usability_score": 100,
-  "snapshot_days": 19,
+  "snapshot_days": 20,
   "is_indexable": true,
   "first_seen_at": "2026-09-01T23:05:22.650Z",
   "tracking_tier": "hot",
-  "last_fetched_date": "2026-09-20",
-  "stars_stagnant_days": 1
+  "last_fetched_date": "2026-09-21",
+  "stars_stagnant_days": 2
 }

@@ -14,12 +14,12 @@
     "model-router",
     "openai-compatible"
   ],
-  "stars": 4511,
+  "stars": 4546,
   "forks": 125,
   "watchers": 2,
-  "open_issues": 127,
+  "open_issues": 134,
   "created_at": "2026-04-27T17:56:27Z",
-  "pushed_at": "2026-09-19T07:35:19Z",
+  "pushed_at": "2026-09-20T22:21:21Z",
   "is_archived": false,
   "license_spdx": "NOASSERTION",
   "license_category": "unknown",
@@ -32,10 +32,10 @@
   "category": "ai-agent",
   "flags": [],
   "usability_score": 100,
-  "snapshot_days": 22,
+  "snapshot_days": 23,
   "is_indexable": true,
   "first_seen_at": "2026-08-29T23:02:08.746Z",
   "tracking_tier": "hot",
-  "last_fetched_date": "2026-09-20",
+  "last_fetched_date": "2026-09-21",
   "stars_stagnant_days": 0
 }

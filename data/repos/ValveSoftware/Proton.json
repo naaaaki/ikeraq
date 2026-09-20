@@ -8,12 +8,12 @@
   "topics": [
     "proton"
   ],
-  "stars": 32836,
-  "forks": 1617,
+  "stars": 32847,
+  "forks": 1622,
   "watchers": null,
-  "open_issues": 5195,
+  "open_issues": 5196,
   "created_at": "2018-03-13T18:45:27Z",
-  "pushed_at": "2026-09-19T20:46:05Z",
+  "pushed_at": "2026-09-20T00:54:16Z",
   "is_archived": false,
   "license_spdx": "NOASSERTION",
   "license_category": "unknown",
@@ -26,10 +26,10 @@
   "category": "other",
   "flags": [],
   "usability_score": 100,
-  "snapshot_days": 19,
+  "snapshot_days": 20,
   "is_indexable": true,
   "first_seen_at": "2026-09-01T23:05:22.650Z",
   "tracking_tier": "hot",
-  "last_fetched_date": "2026-09-20",
+  "last_fetched_date": "2026-09-21",
   "stars_stagnant_days": 0
 }

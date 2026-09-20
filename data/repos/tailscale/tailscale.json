@@ -13,12 +13,12 @@
     "vpn",
     "wireguard"
   ],
-  "stars": 36664,
+  "stars": 36688,
   "forks": 3223,
   "watchers": null,
-  "open_issues": 4623,
+  "open_issues": 4622,
   "created_at": "2020-01-31T22:00:03Z",
-  "pushed_at": "2026-09-19T19:16:30Z",
+  "pushed_at": "2026-09-20T18:02:06Z",
   "is_archived": false,
   "license_spdx": "BSD-3-Clause",
   "license_category": "permissive",
@@ -31,10 +31,10 @@
   "category": "infra",
   "flags": [],
   "usability_score": 100,
-  "snapshot_days": 20,
+  "snapshot_days": 21,
   "is_indexable": true,
   "first_seen_at": "2026-09-01T00:26:13.032Z",
   "tracking_tier": "hot",
-  "last_fetched_date": "2026-09-20",
+  "last_fetched_date": "2026-09-21",
   "stars_stagnant_days": 0
 }

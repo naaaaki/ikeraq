@@ -22,10 +22,10 @@
     "self-hosted-ai",
     "vector-database"
   ],
-  "stars": 66226,
-  "forks": 7362,
+  "stars": 66262,
+  "forks": 7372,
   "watchers": null,
-  "open_issues": 317,
+  "open_issues": 318,
   "created_at": "2023-06-04T02:29:14Z",
   "pushed_at": "2026-09-19T00:13:36Z",
   "is_archived": false,
@@ -40,10 +40,10 @@
   "category": "ai-agent",
   "flags": [],
   "usability_score": 100,
-  "snapshot_days": 22,
+  "snapshot_days": 23,
   "is_indexable": true,
   "first_seen_at": "2026-08-29T23:02:08.747Z",
   "tracking_tier": "hot",
-  "last_fetched_date": "2026-09-20",
+  "last_fetched_date": "2026-09-21",
   "stars_stagnant_days": 0
 }

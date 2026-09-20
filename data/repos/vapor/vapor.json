@@ -15,7 +15,7 @@
     "vapor",
     "web-framework"
   ],
-  "stars": 26209,
+  "stars": 26211,
   "forks": 1530,
   "watchers": null,
   "open_issues": 85,
@@ -33,10 +33,10 @@
   "category": "backend",
   "flags": [],
   "usability_score": 100,
-  "snapshot_days": 17,
+  "snapshot_days": 18,
   "is_indexable": true,
   "first_seen_at": "2026-09-03T23:03:15.575Z",
   "tracking_tier": "hot",
-  "last_fetched_date": "2026-09-20",
+  "last_fetched_date": "2026-09-21",
   "stars_stagnant_days": 0
 }

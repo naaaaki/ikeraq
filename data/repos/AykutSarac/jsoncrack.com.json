@@ -16,7 +16,7 @@
     "visualization",
     "yaml"
   ],
-  "stars": 44436,
+  "stars": 44437,
   "forks": 3567,
   "watchers": 232,
   "open_issues": 45,
@@ -34,10 +34,10 @@
   "category": "web-frontend",
   "flags": [],
   "usability_score": 100,
-  "snapshot_days": 21,
+  "snapshot_days": 22,
   "is_indexable": true,
   "first_seen_at": "2026-08-30T23:15:18.750Z",
   "tracking_tier": "hot",
-  "last_fetched_date": "2026-09-20",
+  "last_fetched_date": "2026-09-21",
   "stars_stagnant_days": 0
 }

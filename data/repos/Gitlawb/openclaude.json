@@ -12,10 +12,10 @@
     "cli",
     "coding"
   ],
-  "stars": 33434,
-  "forks": 9097,
+  "stars": 33453,
+  "forks": 9099,
   "watchers": null,
-  "open_issues": 81,
+  "open_issues": 82,
   "created_at": "2026-04-01T03:15:49Z",
   "pushed_at": "2026-09-15T23:39:56Z",
   "is_archived": false,
@@ -30,10 +30,10 @@
   "category": "ai-agent",
   "flags": [],
   "usability_score": 100,
-  "snapshot_days": 19,
+  "snapshot_days": 20,
   "is_indexable": true,
   "first_seen_at": "2026-09-01T23:05:21.930Z",
   "tracking_tier": "hot",
-  "last_fetched_date": "2026-09-20",
+  "last_fetched_date": "2026-09-21",
   "stars_stagnant_days": 0
 }

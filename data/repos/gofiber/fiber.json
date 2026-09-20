@@ -22,7 +22,7 @@
     "rest-api",
     "web"
   ],
-  "stars": 40165,
+  "stars": 40171,
   "forks": 2034,
   "watchers": null,
   "open_issues": 38,
@@ -40,10 +40,10 @@
   "category": "backend",
   "flags": [],
   "usability_score": 100,
-  "snapshot_days": 20,
+  "snapshot_days": 21,
   "is_indexable": true,
   "first_seen_at": "2026-09-01T00:26:13.031Z",
   "tracking_tier": "hot",
-  "last_fetched_date": "2026-09-20",
+  "last_fetched_date": "2026-09-21",
   "stars_stagnant_days": 0
 }

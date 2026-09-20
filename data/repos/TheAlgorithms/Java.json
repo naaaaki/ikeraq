@@ -17,8 +17,8 @@
     "sort",
     "sorting-algorithms"
   ],
-  "stars": 66279,
-  "forks": 21267,
+  "stars": 66284,
+  "forks": 21265,
   "watchers": null,
   "open_issues": 11,
   "created_at": "2016-07-16T10:21:02Z",
@@ -35,10 +35,10 @@
   "category": "other",
   "flags": [],
   "usability_score": 100,
-  "snapshot_days": 22,
+  "snapshot_days": 23,
   "is_indexable": true,
   "first_seen_at": "2026-08-29T23:02:08.747Z",
   "tracking_tier": "hot",
-  "last_fetched_date": "2026-09-20",
+  "last_fetched_date": "2026-09-21",
   "stars_stagnant_days": 0
 }

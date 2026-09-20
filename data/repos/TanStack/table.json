@@ -26,7 +26,7 @@
     "typescript",
     "vue"
   ],
-  "stars": 28442,
+  "stars": 28446,
   "forks": 3577,
   "watchers": 179,
   "open_issues": 65,
@@ -44,10 +44,10 @@
   "category": "web-frontend",
   "flags": [],
   "usability_score": 100,
-  "snapshot_days": 18,
+  "snapshot_days": 19,
   "is_indexable": true,
   "first_seen_at": "2026-09-02T23:02:41.773Z",
   "tracking_tier": "hot",
-  "last_fetched_date": "2026-09-20",
+  "last_fetched_date": "2026-09-21",
   "stars_stagnant_days": 0
 }

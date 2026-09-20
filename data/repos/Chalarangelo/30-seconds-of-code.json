@@ -20,9 +20,9 @@
     "programming",
     "snippets"
   ],
-  "stars": 129166,
-  "forks": 12484,
-  "watchers": 2606,
+  "stars": 129180,
+  "forks": 12485,
+  "watchers": 2605,
   "open_issues": 6,
   "created_at": "2017-11-29T17:35:03Z",
   "pushed_at": "2026-09-11T00:10:28Z",
@@ -38,10 +38,10 @@
   "category": "web-frontend",
   "flags": [],
   "usability_score": 100,
-  "snapshot_days": 18,
+  "snapshot_days": 19,
   "is_indexable": true,
   "first_seen_at": "2026-09-02T23:02:41.772Z",
   "tracking_tier": "hot",
-  "last_fetched_date": "2026-09-20",
+  "last_fetched_date": "2026-09-21",
   "stars_stagnant_days": 0
 }

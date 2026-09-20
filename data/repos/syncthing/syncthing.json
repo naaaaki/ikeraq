@@ -11,7 +11,7 @@
     "peer-to-peer",
     "synchronization"
   ],
-  "stars": 88780,
+  "stars": 88803,
   "forks": 5486,
   "watchers": 1053,
   "open_issues": 387,
@@ -29,10 +29,10 @@
   "category": "other",
   "flags": [],
   "usability_score": 100,
-  "snapshot_days": 22,
+  "snapshot_days": 23,
   "is_indexable": true,
   "first_seen_at": "2026-08-29T15:46:21.821Z",
   "tracking_tier": "hot",
-  "last_fetched_date": "2026-09-20",
+  "last_fetched_date": "2026-09-21",
   "stars_stagnant_days": 0
 }

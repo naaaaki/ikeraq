@@ -27,12 +27,12 @@
     "typo-tolerance",
     "vector-search"
   ],
-  "stars": 26574,
+  "stars": 26576,
   "forks": 973,
   "watchers": 139,
-  "open_issues": 891,
+  "open_issues": 890,
   "created_at": "2017-01-18T08:01:47Z",
-  "pushed_at": "2026-09-18T08:54:46Z",
+  "pushed_at": "2026-09-20T01:42:56Z",
   "is_archived": false,
   "license_spdx": "GPL-3.0",
   "license_category": "strong-copyleft",
@@ -51,10 +51,10 @@
     }
   ],
   "usability_score": 85,
-  "snapshot_days": 17,
+  "snapshot_days": 18,
   "is_indexable": true,
   "first_seen_at": "2026-09-03T23:03:15.575Z",
   "tracking_tier": "hot",
-  "last_fetched_date": "2026-09-20",
+  "last_fetched_date": "2026-09-21",
   "stars_stagnant_days": 0
 }

@@ -25,7 +25,7 @@
     "surrealdb",
     "web"
   ],
-  "stars": 33043,
+  "stars": 33051,
   "forks": 1360,
   "watchers": 168,
   "open_issues": 719,
@@ -43,10 +43,10 @@
   "category": "data",
   "flags": [],
   "usability_score": 100,
-  "snapshot_days": 19,
+  "snapshot_days": 20,
   "is_indexable": true,
   "first_seen_at": "2026-09-01T23:05:22.650Z",
   "tracking_tier": "hot",
-  "last_fetched_date": "2026-09-20",
+  "last_fetched_date": "2026-09-21",
   "stars_stagnant_days": 0
 }

@@ -15,8 +15,8 @@
     "python-requests",
     "requests"
   ],
-  "stars": 54330,
-  "forks": 10479,
+  "stars": 54331,
+  "forks": 10578,
   "watchers": 1323,
   "open_issues": 239,
   "created_at": "2011-02-13T18:38:17Z",
@@ -33,10 +33,10 @@
   "category": "backend",
   "flags": [],
   "usability_score": 100,
-  "snapshot_days": 22,
+  "snapshot_days": 23,
   "is_indexable": true,
   "first_seen_at": "2026-08-29T23:02:08.747Z",
   "tracking_tier": "hot",
-  "last_fetched_date": "2026-09-20",
+  "last_fetched_date": "2026-09-21",
   "stars_stagnant_days": 0
 }

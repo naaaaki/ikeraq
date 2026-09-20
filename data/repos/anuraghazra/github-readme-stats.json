@@ -13,7 +13,7 @@
     "serverless"
   ],
   "stars": 79815,
-  "forks": 37889,
+  "forks": 37907,
   "watchers": 314,
   "open_issues": 293,
   "created_at": "2020-07-09T10:34:22Z",
@@ -30,10 +30,10 @@
   "category": "other",
   "flags": [],
   "usability_score": 100,
-  "snapshot_days": 20,
+  "snapshot_days": 21,
   "is_indexable": true,
   "first_seen_at": "2026-09-01T00:26:13.031Z",
   "tracking_tier": "hot",
-  "last_fetched_date": "2026-09-20",
-  "stars_stagnant_days": 5
+  "last_fetched_date": "2026-09-21",
+  "stars_stagnant_days": 6
 }

@@ -15,8 +15,8 @@
     "youtube",
     "youtube-video"
   ],
-  "stars": 24518,
-  "forks": 2758,
+  "stars": 24631,
+  "forks": 2766,
   "watchers": 204,
   "open_issues": 490,
   "created_at": "2018-02-07T00:43:42Z",
@@ -39,10 +39,10 @@
     }
   ],
   "usability_score": 85,
-  "snapshot_days": 19,
+  "snapshot_days": 20,
   "is_indexable": true,
   "first_seen_at": "2026-09-01T23:05:21.930Z",
   "tracking_tier": "hot",
-  "last_fetched_date": "2026-09-20",
+  "last_fetched_date": "2026-09-21",
   "stars_stagnant_days": 0
 }

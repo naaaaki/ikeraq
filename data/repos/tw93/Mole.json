@@ -26,12 +26,12 @@
     "swiftui",
     "uninstall"
   ],
-  "stars": 67821,
-  "forks": 2386,
+  "stars": 67905,
+  "forks": 2388,
   "watchers": null,
-  "open_issues": 5,
+  "open_issues": 2,
   "created_at": "2025-09-23T06:38:40Z",
-  "pushed_at": "2026-09-19T15:05:06Z",
+  "pushed_at": "2026-09-20T13:12:47Z",
   "is_archived": false,
   "license_spdx": "GPL-3.0",
   "license_category": "strong-copyleft",
@@ -50,10 +50,10 @@
     }
   ],
   "usability_score": 85,
-  "snapshot_days": 22,
+  "snapshot_days": 23,
   "is_indexable": true,
   "first_seen_at": "2026-08-29T23:02:08.747Z",
   "tracking_tier": "hot",
-  "last_fetched_date": "2026-09-20",
+  "last_fetched_date": "2026-09-21",
   "stars_stagnant_days": 0
 }
