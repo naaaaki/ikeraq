@@ -27,12 +27,12 @@
     "socmint",
     "username"
   ],
-  "stars": 37854,
+  "stars": 37878,
   "forks": 2977,
   "watchers": null,
-  "open_issues": 59,
+  "open_issues": 66,
   "created_at": "2020-06-27T14:16:42Z",
-  "pushed_at": "2026-09-20T22:46:48Z",
+  "pushed_at": "2026-09-21T06:04:55Z",
   "is_archived": false,
   "license_spdx": "MIT",
   "license_category": "permissive",
@@ -45,10 +45,10 @@
   "category": "security",
   "flags": [],
   "usability_score": 100,
-  "snapshot_days": 21,
+  "snapshot_days": 22,
   "is_indexable": true,
   "first_seen_at": "2026-09-01T00:26:13.032Z",
   "tracking_tier": "hot",
-  "last_fetched_date": "2026-09-21",
+  "last_fetched_date": "2026-09-22",
   "stars_stagnant_days": 0
 }

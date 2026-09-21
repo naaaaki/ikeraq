@@ -25,8 +25,8 @@
     "tool",
     "visionos"
   ],
-  "stars": 11332,
-  "forks": 944,
+  "stars": 11341,
+  "forks": 945,
   "watchers": 76,
   "open_issues": 13,
   "created_at": "2021-05-22T08:27:21Z",
@@ -43,10 +43,10 @@
   "category": "security",
   "flags": [],
   "usability_score": 100,
-  "snapshot_days": 22,
+  "snapshot_days": 23,
   "is_indexable": true,
   "first_seen_at": "2026-08-30T23:15:17.600Z",
   "tracking_tier": "hot",
-  "last_fetched_date": "2026-09-21",
+  "last_fetched_date": "2026-09-22",
   "stars_stagnant_days": 0
 }

@@ -20,12 +20,12 @@
     "portainer",
     "ui"
   ],
-  "stars": 38526,
-  "forks": 2906,
+  "stars": 38530,
+  "forks": 2907,
   "watchers": null,
   "open_issues": 757,
   "created_at": "2016-05-19T20:15:28Z",
-  "pushed_at": "2026-09-18T13:01:27Z",
+  "pushed_at": "2026-09-21T13:01:18Z",
   "is_archived": false,
   "license_spdx": "Zlib",
   "license_category": "permissive",
@@ -38,10 +38,10 @@
   "category": "infra",
   "flags": [],
   "usability_score": 100,
-  "snapshot_days": 21,
+  "snapshot_days": 22,
   "is_indexable": true,
   "first_seen_at": "2026-09-01T00:26:13.031Z",
   "tracking_tier": "hot",
-  "last_fetched_date": "2026-09-21",
+  "last_fetched_date": "2026-09-22",
   "stars_stagnant_days": 0
 }

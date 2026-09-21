@@ -14,7 +14,7 @@
     "version-manager",
     "windows"
   ],
-  "stars": 47737,
+  "stars": 47750,
   "forks": 3894,
   "watchers": null,
   "open_issues": 5,
@@ -38,10 +38,10 @@
     }
   ],
   "usability_score": 60,
-  "snapshot_days": 22,
+  "snapshot_days": 23,
   "is_indexable": true,
   "first_seen_at": "2026-08-30T23:15:18.749Z",
   "tracking_tier": "hot",
-  "last_fetched_date": "2026-09-21",
+  "last_fetched_date": "2026-09-22",
   "stars_stagnant_days": 0
 }

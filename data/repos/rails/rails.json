@@ -14,12 +14,12 @@
     "rails",
     "ruby"
   ],
-  "stars": 58779,
-  "forks": 23083,
+  "stars": 58782,
+  "forks": 23110,
   "watchers": null,
-  "open_issues": 1644,
+  "open_issues": 1642,
   "created_at": "2008-04-11T02:19:47Z",
-  "pushed_at": "2026-09-20T13:46:41Z",
+  "pushed_at": "2026-09-21T23:19:11Z",
   "is_archived": false,
   "license_spdx": "MIT",
   "license_category": "permissive",
@@ -32,10 +32,10 @@
   "category": "backend",
   "flags": [],
   "usability_score": 100,
-  "snapshot_days": 23,
+  "snapshot_days": 24,
   "is_indexable": true,
   "first_seen_at": "2026-08-29T23:02:08.747Z",
   "tracking_tier": "hot",
-  "last_fetched_date": "2026-09-21",
-  "stars_stagnant_days": 1
+  "last_fetched_date": "2026-09-22",
+  "stars_stagnant_days": 0
 }

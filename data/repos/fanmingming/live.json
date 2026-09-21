@@ -21,12 +21,12 @@
     "txt",
     "workers"
   ],
-  "stars": 28423,
+  "stars": 28435,
   "forks": 4214,
   "watchers": null,
   "open_issues": 37,
   "created_at": "2022-11-16T18:03:31Z",
-  "pushed_at": "2026-09-20T22:23:51Z",
+  "pushed_at": "2026-09-21T22:25:31Z",
   "is_archived": false,
   "license_spdx": "GPL-3.0",
   "license_category": "strong-copyleft",
@@ -45,10 +45,10 @@
     }
   ],
   "usability_score": 85,
-  "snapshot_days": 19,
+  "snapshot_days": 20,
   "is_indexable": true,
   "first_seen_at": "2026-09-02T23:02:41.773Z",
   "tracking_tier": "hot",
-  "last_fetched_date": "2026-09-21",
+  "last_fetched_date": "2026-09-22",
   "stars_stagnant_days": 0
 }

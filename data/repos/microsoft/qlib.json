@@ -25,12 +25,12 @@
     "research-paper",
     "stock-data"
   ],
-  "stars": 48690,
-  "forks": 7708,
+  "stars": 48732,
+  "forks": 7711,
   "watchers": 510,
   "open_issues": 480,
   "created_at": "2020-08-14T06:46:00Z",
-  "pushed_at": "2026-09-17T16:40:12Z",
+  "pushed_at": "2026-09-21T16:48:10Z",
   "is_archived": false,
   "license_spdx": "MIT",
   "license_category": "permissive",
@@ -43,10 +43,10 @@
   "category": "learning",
   "flags": [],
   "usability_score": 100,
-  "snapshot_days": 19,
+  "snapshot_days": 20,
   "is_indexable": true,
   "first_seen_at": "2026-09-02T23:02:41.773Z",
   "tracking_tier": "hot",
-  "last_fetched_date": "2026-09-21",
+  "last_fetched_date": "2026-09-22",
   "stars_stagnant_days": 0
 }

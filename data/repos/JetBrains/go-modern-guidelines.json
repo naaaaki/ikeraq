@@ -13,7 +13,7 @@
     "golang",
     "guidelines"
   ],
-  "stars": 3634,
+  "stars": 3645,
   "forks": 121,
   "watchers": 25,
   "open_issues": 11,
@@ -31,10 +31,10 @@
   "category": "ai-agent",
   "flags": [],
   "usability_score": 100,
-  "snapshot_days": 23,
+  "snapshot_days": 24,
   "is_indexable": true,
   "first_seen_at": "2026-08-29T15:46:18.177Z",
   "tracking_tier": "hot",
-  "last_fetched_date": "2026-09-21",
+  "last_fetched_date": "2026-09-22",
   "stars_stagnant_days": 0
 }

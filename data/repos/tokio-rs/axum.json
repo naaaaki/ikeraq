@@ -10,12 +10,12 @@
     "routing",
     "rust"
   ],
-  "stars": 27190,
-  "forks": 1486,
+  "stars": 27204,
+  "forks": 1487,
   "watchers": null,
   "open_issues": 76,
   "created_at": "2021-05-30T09:22:25Z",
-  "pushed_at": "2026-09-18T19:05:20Z",
+  "pushed_at": "2026-09-21T14:09:48Z",
   "is_archived": false,
   "license_spdx": "MIT",
   "license_category": "permissive",
@@ -28,10 +28,10 @@
   "category": "backend",
   "flags": [],
   "usability_score": 100,
-  "snapshot_days": 18,
+  "snapshot_days": 19,
   "is_indexable": true,
   "first_seen_at": "2026-09-03T23:03:15.575Z",
   "tracking_tier": "hot",
-  "last_fetched_date": "2026-09-21",
+  "last_fetched_date": "2026-09-22",
   "stars_stagnant_days": 0
 }

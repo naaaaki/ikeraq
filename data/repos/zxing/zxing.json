@@ -16,11 +16,11 @@
     "zxing"
   ],
   "stars": 34105,
-  "forks": 9434,
+  "forks": 9433,
   "watchers": 1654,
-  "open_issues": 3,
+  "open_issues": 5,
   "created_at": "2011-10-12T14:07:27Z",
-  "pushed_at": "2026-09-07T06:52:57Z",
+  "pushed_at": "2026-09-21T06:52:42Z",
   "is_archived": false,
   "license_spdx": "Apache-2.0",
   "license_category": "permissive",
@@ -33,10 +33,10 @@
   "category": "mobile",
   "flags": [],
   "usability_score": 100,
-  "snapshot_days": 20,
+  "snapshot_days": 21,
   "is_indexable": true,
   "first_seen_at": "2026-09-01T23:05:22.650Z",
   "tracking_tier": "hot",
-  "last_fetched_date": "2026-09-21",
-  "stars_stagnant_days": 0
+  "last_fetched_date": "2026-09-22",
+  "stars_stagnant_days": 1
 }

@@ -27,8 +27,8 @@
     "web",
     "www"
   ],
-  "stars": 44578,
-  "forks": 5387,
+  "stars": 44579,
+  "forks": 5386,
   "watchers": null,
   "open_issues": 271,
   "created_at": "2020-07-18T02:41:27Z",
@@ -51,10 +51,10 @@
     }
   ],
   "usability_score": 85,
-  "snapshot_days": 14,
+  "snapshot_days": 15,
   "is_indexable": true,
   "first_seen_at": "2026-09-07T23:19:48.975Z",
   "tracking_tier": "hot",
-  "last_fetched_date": "2026-09-21",
+  "last_fetched_date": "2026-09-22",
   "stars_stagnant_days": 0
 }

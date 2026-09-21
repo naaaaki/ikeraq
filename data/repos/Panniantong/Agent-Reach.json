@@ -24,9 +24,9 @@
     "xiaohongshu",
     "youtube-transcript"
   ],
-  "stars": 83824,
-  "forks": 7346,
-  "watchers": 291,
+  "stars": 84362,
+  "forks": 7409,
+  "watchers": 302,
   "open_issues": 155,
   "created_at": "2026-02-24T02:10:24Z",
   "pushed_at": "2026-09-15T16:16:24Z",
@@ -42,10 +42,10 @@
   "category": "ai-agent",
   "flags": [],
   "usability_score": 100,
-  "snapshot_days": 23,
+  "snapshot_days": 24,
   "is_indexable": true,
   "first_seen_at": "2026-08-29T23:02:08.747Z",
   "tracking_tier": "hot",
-  "last_fetched_date": "2026-09-21",
+  "last_fetched_date": "2026-09-22",
   "stars_stagnant_days": 0
 }

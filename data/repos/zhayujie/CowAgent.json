@@ -2,7 +2,7 @@
   "id": "zhayujie/CowAgent",
   "owner": "zhayujie",
   "name": "CowAgent",
-  "description_en": "Open-source super AI assistant & Agent Harness. Plans tasks, runs tools and skills, self-evolves with memory and knowledge. Multi-agent, multi-model, multi-channel. Lightweight, extensible, one-line install. (formerly chatgpt-on-wechat)",
+  "description_en": "Open-source super AI assistant & Agent Harness. Plans tasks, runs tools and skills, self-evolves with memory and knowledge. Multi-agent, multi-model, multi-channel. Lightweight, extensible, one-line install.",
   "human_note": null,
   "language": "Python",
   "topics": [
@@ -23,12 +23,12 @@
     "openclaw",
     "skills"
   ],
-  "stars": 47056,
-  "forks": 10365,
+  "stars": 47062,
+  "forks": 10369,
   "watchers": null,
-  "open_issues": 25,
+  "open_issues": 27,
   "created_at": "2022-08-07T08:33:41Z",
-  "pushed_at": "2026-09-20T12:34:05Z",
+  "pushed_at": "2026-09-21T12:37:33Z",
   "is_archived": false,
   "license_spdx": "MIT",
   "license_category": "permissive",
@@ -41,10 +41,10 @@
   "category": "ai-agent",
   "flags": [],
   "usability_score": 100,
-  "snapshot_days": 22,
+  "snapshot_days": 23,
   "is_indexable": true,
   "first_seen_at": "2026-08-30T23:15:18.749Z",
   "tracking_tier": "hot",
-  "last_fetched_date": "2026-09-21",
+  "last_fetched_date": "2026-09-22",
   "stars_stagnant_days": 0
 }

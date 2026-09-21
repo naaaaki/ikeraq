@@ -17,9 +17,9 @@
     "video-editor",
     "video-files"
   ],
-  "stars": 43921,
-  "forks": 2178,
-  "watchers": 272,
+  "stars": 43946,
+  "forks": 2182,
+  "watchers": 273,
   "open_issues": 309,
   "created_at": "2016-10-30T10:49:56Z",
   "pushed_at": "2026-09-14T09:55:23Z",
@@ -41,10 +41,10 @@
     }
   ],
   "usability_score": 85,
-  "snapshot_days": 20,
+  "snapshot_days": 21,
   "is_indexable": true,
   "first_seen_at": "2026-09-01T23:05:22.650Z",
   "tracking_tier": "hot",
-  "last_fetched_date": "2026-09-21",
+  "last_fetched_date": "2026-09-22",
   "stars_stagnant_days": 0
 }

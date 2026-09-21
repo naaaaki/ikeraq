@@ -13,7 +13,7 @@
     "rust",
     "vaultwarden"
   ],
-  "stars": 67926,
+  "stars": 67980,
   "forks": 3234,
   "watchers": null,
   "open_issues": 80,
@@ -37,10 +37,10 @@
     }
   ],
   "usability_score": 85,
-  "snapshot_days": 23,
+  "snapshot_days": 24,
   "is_indexable": true,
   "first_seen_at": "2026-08-29T23:02:08.747Z",
   "tracking_tier": "hot",
-  "last_fetched_date": "2026-09-21",
+  "last_fetched_date": "2026-09-22",
   "stars_stagnant_days": 0
 }

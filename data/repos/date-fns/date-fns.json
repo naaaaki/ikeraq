@@ -15,7 +15,7 @@
     "time",
     "utilities"
   ],
-  "stars": 36644,
+  "stars": 36645,
   "forks": 2015,
   "watchers": 206,
   "open_issues": 1017,
@@ -39,10 +39,10 @@
     }
   ],
   "usability_score": 60,
-  "snapshot_days": 21,
+  "snapshot_days": 22,
   "is_indexable": true,
   "first_seen_at": "2026-09-01T00:26:13.032Z",
   "tracking_tier": "hot",
-  "last_fetched_date": "2026-09-21",
-  "stars_stagnant_days": 6
+  "last_fetched_date": "2026-09-22",
+  "stars_stagnant_days": 0
 }

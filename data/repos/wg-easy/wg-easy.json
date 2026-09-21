@@ -6,8 +6,8 @@
   "human_note": null,
   "language": "TypeScript",
   "topics": [],
-  "stars": 26969,
-  "forks": 2584,
+  "stars": 26977,
+  "forks": 2585,
   "watchers": 145,
   "open_issues": 55,
   "created_at": "2021-05-22T09:12:05Z",
@@ -30,10 +30,10 @@
     }
   ],
   "usability_score": 85,
-  "snapshot_days": 18,
+  "snapshot_days": 19,
   "is_indexable": true,
   "first_seen_at": "2026-09-03T23:03:15.575Z",
   "tracking_tier": "hot",
-  "last_fetched_date": "2026-09-21",
+  "last_fetched_date": "2026-09-22",
   "stars_stagnant_days": 0
 }

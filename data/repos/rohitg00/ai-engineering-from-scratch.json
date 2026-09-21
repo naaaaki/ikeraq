@@ -27,10 +27,10 @@
     "tutorial",
     "typescript"
   ],
-  "stars": 55092,
-  "forks": 9693,
-  "watchers": 354,
-  "open_issues": 114,
+  "stars": 55165,
+  "forks": 9712,
+  "watchers": 356,
+  "open_issues": 116,
   "created_at": "2026-03-18T18:38:02Z",
   "pushed_at": "2026-09-07T11:42:35Z",
   "is_archived": false,
@@ -45,10 +45,10 @@
   "category": "ai-agent",
   "flags": [],
   "usability_score": 100,
-  "snapshot_days": 22,
+  "snapshot_days": 23,
   "is_indexable": true,
   "first_seen_at": "2026-08-30T23:15:18.749Z",
   "tracking_tier": "hot",
-  "last_fetched_date": "2026-09-21",
+  "last_fetched_date": "2026-09-22",
   "stars_stagnant_days": 0
 }

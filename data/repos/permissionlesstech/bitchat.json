@@ -17,8 +17,8 @@
     "nostr",
     "swift"
   ],
-  "stars": 36260,
-  "forks": 5740,
+  "stars": 36268,
+  "forks": 5741,
   "watchers": 305,
   "open_issues": 147,
   "created_at": "2025-07-04T14:34:38Z",
@@ -35,10 +35,10 @@
   "category": "mobile",
   "flags": [],
   "usability_score": 100,
-  "snapshot_days": 21,
+  "snapshot_days": 22,
   "is_indexable": true,
   "first_seen_at": "2026-09-01T00:26:13.032Z",
   "tracking_tier": "hot",
-  "last_fetched_date": "2026-09-21",
+  "last_fetched_date": "2026-09-22",
   "stars_stagnant_days": 0
 }

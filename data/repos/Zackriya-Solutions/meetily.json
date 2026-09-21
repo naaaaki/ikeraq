@@ -27,9 +27,9 @@
     "whisper-cpp",
     "windows"
   ],
-  "stars": 30972,
-  "forks": 3364,
-  "watchers": null,
+  "stars": 31011,
+  "forks": 3368,
+  "watchers": 147,
   "open_issues": 348,
   "created_at": "2024-12-26T12:52:14Z",
   "pushed_at": "2026-09-15T18:32:32Z",
@@ -45,10 +45,10 @@
   "category": "llm",
   "flags": [],
   "usability_score": 100,
-  "snapshot_days": 19,
+  "snapshot_days": 20,
   "is_indexable": true,
   "first_seen_at": "2026-09-02T23:02:41.773Z",
   "tracking_tier": "hot",
-  "last_fetched_date": "2026-09-21",
+  "last_fetched_date": "2026-09-22",
   "stars_stagnant_days": 0
 }

@@ -14,12 +14,12 @@
     "openai",
     "rerank"
   ],
-  "stars": 48519,
-  "forks": 11635,
+  "stars": 48611,
+  "forks": 11664,
   "watchers": null,
-  "open_issues": 1335,
+  "open_issues": 1338,
   "created_at": "2023-11-10T19:33:36Z",
-  "pushed_at": "2026-09-20T15:31:58Z",
+  "pushed_at": "2026-09-21T16:07:08Z",
   "is_archived": false,
   "license_spdx": "AGPL-3.0",
   "license_category": "strong-copyleft",
@@ -38,10 +38,10 @@
     }
   ],
   "usability_score": 85,
-  "snapshot_days": 22,
+  "snapshot_days": 23,
   "is_indexable": true,
   "first_seen_at": "2026-08-30T23:15:18.749Z",
   "tracking_tier": "hot",
-  "last_fetched_date": "2026-09-21",
+  "last_fetched_date": "2026-09-22",
   "stars_stagnant_days": 0
 }

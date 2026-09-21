@@ -23,8 +23,8 @@
     "yolo",
     "yolov5"
   ],
-  "stars": 58057,
-  "forks": 17469,
+  "stars": 58062,
+  "forks": 17467,
   "watchers": 381,
   "open_issues": 31,
   "created_at": "2020-05-18T03:45:11Z",
@@ -47,10 +47,10 @@
     }
   ],
   "usability_score": 85,
-  "snapshot_days": 23,
+  "snapshot_days": 24,
   "is_indexable": true,
   "first_seen_at": "2026-08-29T23:02:08.747Z",
   "tracking_tier": "hot",
-  "last_fetched_date": "2026-09-21",
+  "last_fetched_date": "2026-09-22",
   "stars_stagnant_days": 0
 }

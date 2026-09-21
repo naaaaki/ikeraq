@@ -16,7 +16,7 @@
     "serverless-architectures",
     "serverless-framework"
   ],
-  "stars": 46920,
+  "stars": 46921,
   "forks": 5720,
   "watchers": null,
   "open_issues": 1219,
@@ -34,10 +34,10 @@
   "category": "backend",
   "flags": [],
   "usability_score": 100,
-  "snapshot_days": 22,
+  "snapshot_days": 23,
   "is_indexable": true,
   "first_seen_at": "2026-08-30T23:15:18.749Z",
   "tracking_tier": "hot",
-  "last_fetched_date": "2026-09-21",
+  "last_fetched_date": "2026-09-22",
   "stars_stagnant_days": 0
 }

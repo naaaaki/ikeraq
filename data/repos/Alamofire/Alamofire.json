@@ -22,10 +22,10 @@
     "urlsession",
     "xcode"
   ],
-  "stars": 42418,
-  "forks": 7655,
-  "watchers": 1054,
-  "open_issues": 42,
+  "stars": 42419,
+  "forks": 7654,
+  "watchers": 1055,
+  "open_issues": 43,
   "created_at": "2014-07-31T05:56:19Z",
   "pushed_at": "2026-09-14T05:44:45Z",
   "is_archived": false,
@@ -40,10 +40,10 @@
   "category": "infra",
   "flags": [],
   "usability_score": 100,
-  "snapshot_days": 21,
+  "snapshot_days": 22,
   "is_indexable": true,
   "first_seen_at": "2026-09-01T00:26:13.031Z",
   "tracking_tier": "hot",
-  "last_fetched_date": "2026-09-21",
+  "last_fetched_date": "2026-09-22",
   "stars_stagnant_days": 0
 }

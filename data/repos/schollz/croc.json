@@ -14,7 +14,7 @@
     "tcp",
     "transfer"
   ],
-  "stars": 40397,
+  "stars": 40403,
   "forks": 1621,
   "watchers": null,
   "open_issues": 2,
@@ -32,10 +32,10 @@
   "category": "other",
   "flags": [],
   "usability_score": 100,
-  "snapshot_days": 21,
+  "snapshot_days": 22,
   "is_indexable": true,
   "first_seen_at": "2026-09-01T00:26:13.031Z",
   "tracking_tier": "hot",
-  "last_fetched_date": "2026-09-21",
+  "last_fetched_date": "2026-09-22",
   "stars_stagnant_days": 0
 }

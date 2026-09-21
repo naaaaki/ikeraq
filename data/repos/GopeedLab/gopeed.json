@@ -22,12 +22,12 @@
     "ubuntu",
     "windows"
   ],
-  "stars": 26421,
-  "forks": 1723,
+  "stars": 26449,
+  "forks": 1725,
   "watchers": null,
-  "open_issues": 315,
+  "open_issues": 317,
   "created_at": "2019-04-21T07:23:32Z",
-  "pushed_at": "2026-09-20T01:28:49Z",
+  "pushed_at": "2026-09-21T14:31:02Z",
   "is_archived": false,
   "license_spdx": "GPL-3.0",
   "license_category": "strong-copyleft",
@@ -46,10 +46,10 @@
     }
   ],
   "usability_score": 85,
-  "snapshot_days": 18,
+  "snapshot_days": 19,
   "is_indexable": true,
   "first_seen_at": "2026-09-03T23:03:15.575Z",
   "tracking_tier": "hot",
-  "last_fetched_date": "2026-09-21",
+  "last_fetched_date": "2026-09-22",
   "stars_stagnant_days": 0
 }

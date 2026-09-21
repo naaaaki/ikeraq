@@ -20,8 +20,8 @@
     "windows",
     "youtube"
   ],
-  "stars": 49305,
-  "forks": 2301,
+  "stars": 49326,
+  "forks": 2304,
   "watchers": 274,
   "open_issues": 865,
   "created_at": "2021-02-14T03:17:58Z",
@@ -38,10 +38,10 @@
   "category": "mobile",
   "flags": [],
   "usability_score": 100,
-  "snapshot_days": 22,
+  "snapshot_days": 23,
   "is_indexable": true,
   "first_seen_at": "2026-08-30T23:15:18.749Z",
   "tracking_tier": "hot",
-  "last_fetched_date": "2026-09-21",
+  "last_fetched_date": "2026-09-22",
   "stars_stagnant_days": 0
 }

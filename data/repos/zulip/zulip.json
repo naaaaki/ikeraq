@@ -20,11 +20,11 @@
     "zulip"
   ],
   "stars": 25933,
-  "forks": 10269,
+  "forks": 10270,
   "watchers": null,
-  "open_issues": 2020,
+  "open_issues": 2019,
   "created_at": "2015-09-25T16:37:25Z",
-  "pushed_at": "2026-09-19T10:43:49Z",
+  "pushed_at": "2026-09-21T18:04:20Z",
   "is_archived": false,
   "license_spdx": "Apache-2.0",
   "license_category": "permissive",
@@ -37,10 +37,10 @@
   "category": "web-frontend",
   "flags": [],
   "usability_score": 100,
-  "snapshot_days": 18,
+  "snapshot_days": 19,
   "is_indexable": true,
   "first_seen_at": "2026-09-03T23:03:15.575Z",
   "tracking_tier": "hot",
-  "last_fetched_date": "2026-09-21",
-  "stars_stagnant_days": 0
+  "last_fetched_date": "2026-09-22",
+  "stars_stagnant_days": 1
 }
