@@ -17,7 +17,7 @@
     "vim",
     "zsh"
   ],
-  "stars": 83182,
+  "stars": 83199,
   "forks": 3313,
   "watchers": 448,
   "open_issues": 330,
@@ -35,10 +35,10 @@
   "category": "dev-tool",
   "flags": [],
   "usability_score": 100,
-  "snapshot_days": 24,
+  "snapshot_days": 25,
   "is_indexable": true,
   "first_seen_at": "2026-08-29T15:46:21.821Z",
   "tracking_tier": "hot",
-  "last_fetched_date": "2026-09-22",
+  "last_fetched_date": "2026-09-23",
   "stars_stagnant_days": 0
 }

@@ -16,8 +16,8 @@
     "terminal",
     "tool"
   ],
-  "stars": 44507,
-  "forks": 1140,
+  "stars": 44517,
+  "forks": 1142,
   "watchers": null,
   "open_issues": 199,
   "created_at": "2017-05-09T21:27:10Z",
@@ -34,10 +34,10 @@
   "category": "dev-tool",
   "flags": [],
   "usability_score": 100,
-  "snapshot_days": 23,
+  "snapshot_days": 24,
   "is_indexable": true,
   "first_seen_at": "2026-08-30T23:15:18.750Z",
   "tracking_tier": "hot",
-  "last_fetched_date": "2026-09-22",
+  "last_fetched_date": "2026-09-23",
   "stars_stagnant_days": 0
 }

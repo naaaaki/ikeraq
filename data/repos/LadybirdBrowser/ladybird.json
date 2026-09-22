@@ -9,12 +9,12 @@
     "browser",
     "browser-engine"
   ],
-  "stars": 66264,
+  "stars": 66276,
   "forks": 3166,
   "watchers": null,
-  "open_issues": 576,
+  "open_issues": 562,
   "created_at": "2024-05-30T09:18:10Z",
-  "pushed_at": "2026-09-21T19:44:08Z",
+  "pushed_at": "2026-09-22T21:20:35Z",
   "is_archived": false,
   "license_spdx": "BSD-2-Clause",
   "license_category": "permissive",
@@ -27,10 +27,10 @@
   "category": "other",
   "flags": [],
   "usability_score": 100,
-  "snapshot_days": 24,
+  "snapshot_days": 25,
   "is_indexable": true,
   "first_seen_at": "2026-08-29T23:02:08.747Z",
   "tracking_tier": "hot",
-  "last_fetched_date": "2026-09-22",
+  "last_fetched_date": "2026-09-23",
   "stars_stagnant_days": 0
 }

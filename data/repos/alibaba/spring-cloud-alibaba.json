@@ -27,10 +27,10 @@
     "spring-cloud-alibaba",
     "spring-cloud-core"
   ],
-  "stars": 29177,
+  "stars": 29179,
   "forks": 8478,
   "watchers": 957,
-  "open_issues": 74,
+  "open_issues": 75,
   "created_at": "2017-12-01T20:49:15Z",
   "pushed_at": "2026-09-09T08:24:37Z",
   "is_archived": false,
@@ -45,10 +45,10 @@
   "category": "backend",
   "flags": [],
   "usability_score": 100,
-  "snapshot_days": 20,
+  "snapshot_days": 21,
   "is_indexable": true,
   "first_seen_at": "2026-09-02T23:02:41.773Z",
   "tracking_tier": "hot",
-  "last_fetched_date": "2026-09-22",
+  "last_fetched_date": "2026-09-23",
   "stars_stagnant_days": 0
 }

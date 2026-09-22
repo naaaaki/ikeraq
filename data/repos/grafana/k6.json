@@ -16,12 +16,12 @@
     "load-testing",
     "performance"
   ],
-  "stars": 31539,
-  "forks": 1636,
+  "stars": 31549,
+  "forks": 1635,
   "watchers": null,
-  "open_issues": 828,
+  "open_issues": 797,
   "created_at": "2016-03-21T15:30:24Z",
-  "pushed_at": "2026-09-21T15:06:35Z",
+  "pushed_at": "2026-09-22T14:53:16Z",
   "is_archived": false,
   "license_spdx": "AGPL-3.0",
   "license_category": "strong-copyleft",
@@ -40,10 +40,10 @@
     }
   ],
   "usability_score": 85,
-  "snapshot_days": 21,
+  "snapshot_days": 22,
   "is_indexable": true,
   "first_seen_at": "2026-09-01T23:05:22.650Z",
   "tracking_tier": "hot",
-  "last_fetched_date": "2026-09-22",
+  "last_fetched_date": "2026-09-23",
   "stars_stagnant_days": 0
 }

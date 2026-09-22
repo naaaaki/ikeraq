@@ -20,12 +20,12 @@
     "rag",
     "reinforcement-learning"
   ],
-  "stars": 49692,
-  "forks": 5565,
+  "stars": 50070,
+  "forks": 5611,
   "watchers": null,
   "open_issues": 10,
   "created_at": "2025-09-09T02:41:44Z",
-  "pushed_at": "2026-09-21T03:02:39Z",
+  "pushed_at": "2026-09-22T08:39:35Z",
   "is_archived": false,
   "license_spdx": "Apache-2.0",
   "license_category": "permissive",
@@ -38,10 +38,10 @@
   "category": "ai-agent",
   "flags": [],
   "usability_score": 100,
-  "snapshot_days": 23,
+  "snapshot_days": 24,
   "is_indexable": true,
   "first_seen_at": "2026-08-30T23:15:18.750Z",
   "tracking_tier": "hot",
-  "last_fetched_date": "2026-09-22",
+  "last_fetched_date": "2026-09-23",
   "stars_stagnant_days": 0
 }

@@ -16,7 +16,7 @@
     "remote-job",
     "remote-work"
   ],
-  "stars": 40853,
+  "stars": 40857,
   "forks": 3957,
   "watchers": 1080,
   "open_issues": 10,
@@ -34,10 +34,10 @@
   "category": "other",
   "flags": [],
   "usability_score": 100,
-  "snapshot_days": 21,
+  "snapshot_days": 22,
   "is_indexable": true,
   "first_seen_at": "2026-09-01T23:05:22.650Z",
   "tracking_tier": "hot",
-  "last_fetched_date": "2026-09-22",
+  "last_fetched_date": "2026-09-23",
   "stars_stagnant_days": 0
 }

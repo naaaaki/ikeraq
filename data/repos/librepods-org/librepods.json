@@ -17,8 +17,8 @@
     "linux",
     "reverse-engineering"
   ],
-  "stars": 29975,
-  "forks": 1750,
+  "stars": 29997,
+  "forks": 1751,
   "watchers": 103,
   "open_issues": 295,
   "created_at": "2024-09-26T19:31:11Z",
@@ -41,10 +41,10 @@
     }
   ],
   "usability_score": 85,
-  "snapshot_days": 20,
+  "snapshot_days": 21,
   "is_indexable": true,
   "first_seen_at": "2026-09-02T23:02:41.773Z",
   "tracking_tier": "hot",
-  "last_fetched_date": "2026-09-22",
+  "last_fetched_date": "2026-09-23",
   "stars_stagnant_days": 0
 }

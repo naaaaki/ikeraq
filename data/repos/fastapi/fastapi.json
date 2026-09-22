@@ -27,8 +27,8 @@
     "uvicorn",
     "web"
   ],
-  "stars": 102513,
-  "forks": 9924,
+  "stars": 102543,
+  "forks": 9934,
   "watchers": 769,
   "open_issues": 82,
   "created_at": "2018-12-08T08:21:47Z",
@@ -45,10 +45,10 @@
   "category": "web-frontend",
   "flags": [],
   "usability_score": 100,
-  "snapshot_days": 24,
+  "snapshot_days": 25,
   "is_indexable": true,
   "first_seen_at": "2026-08-29T15:46:21.821Z",
   "tracking_tier": "hot",
-  "last_fetched_date": "2026-09-22",
+  "last_fetched_date": "2026-09-23",
   "stars_stagnant_days": 0
 }

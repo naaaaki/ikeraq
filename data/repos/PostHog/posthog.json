@@ -22,12 +22,12 @@
     "typescript",
     "web-analytics"
   ],
-  "stars": 39890,
+  "stars": 39899,
   "forks": 3408,
   "watchers": null,
-  "open_issues": 5646,
+  "open_issues": 5632,
   "created_at": "2020-01-23T22:46:58Z",
-  "pushed_at": "2026-09-21T23:52:04Z",
+  "pushed_at": "2026-09-22T23:31:55Z",
   "is_archived": false,
   "license_spdx": "NOASSERTION",
   "license_category": "unknown",
@@ -40,10 +40,10 @@
   "category": "data",
   "flags": [],
   "usability_score": 100,
-  "snapshot_days": 22,
+  "snapshot_days": 23,
   "is_indexable": true,
   "first_seen_at": "2026-09-01T00:26:13.031Z",
   "tracking_tier": "hot",
-  "last_fetched_date": "2026-09-22",
+  "last_fetched_date": "2026-09-23",
   "stars_stagnant_days": 0
 }

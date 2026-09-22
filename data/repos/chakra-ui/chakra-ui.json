@@ -23,10 +23,10 @@
     "uikit",
     "wai-aria"
   ],
-  "stars": 40663,
-  "forks": 3646,
+  "stars": 40667,
+  "forks": 3647,
   "watchers": null,
-  "open_issues": 13,
+  "open_issues": 16,
   "created_at": "2019-08-17T14:27:54Z",
   "pushed_at": "2026-09-21T08:15:55Z",
   "is_archived": false,
@@ -41,10 +41,10 @@
   "category": "web-frontend",
   "flags": [],
   "usability_score": 100,
-  "snapshot_days": 23,
+  "snapshot_days": 24,
   "is_indexable": true,
   "first_seen_at": "2026-08-30T23:15:18.750Z",
   "tracking_tier": "hot",
-  "last_fetched_date": "2026-09-22",
+  "last_fetched_date": "2026-09-23",
   "stars_stagnant_days": 0
 }

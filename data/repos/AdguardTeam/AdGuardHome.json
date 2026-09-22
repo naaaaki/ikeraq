@@ -17,12 +17,12 @@
     "open-source",
     "privacy"
   ],
-  "stars": 37021,
-  "forks": 2523,
+  "stars": 37030,
+  "forks": 2524,
   "watchers": null,
-  "open_issues": 1260,
+  "open_issues": 1261,
   "created_at": "2016-07-06T10:31:47Z",
-  "pushed_at": "2026-09-18T10:50:20Z",
+  "pushed_at": "2026-09-22T02:03:47Z",
   "is_archived": false,
   "license_spdx": "GPL-3.0",
   "license_category": "strong-copyleft",
@@ -41,10 +41,10 @@
     }
   ],
   "usability_score": 85,
-  "snapshot_days": 22,
+  "snapshot_days": 23,
   "is_indexable": true,
   "first_seen_at": "2026-09-01T00:26:13.032Z",
   "tracking_tier": "hot",
-  "last_fetched_date": "2026-09-22",
+  "last_fetched_date": "2026-09-23",
   "stars_stagnant_days": 0
 }

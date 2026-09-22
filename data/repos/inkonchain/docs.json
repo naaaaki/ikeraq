@@ -6,7 +6,7 @@
   "human_note": null,
   "language": "MDX",
   "topics": [],
-  "stars": 36500,
+  "stars": 36497,
   "forks": 481,
   "watchers": 65,
   "open_issues": 90,
@@ -30,10 +30,10 @@
     }
   ],
   "usability_score": 60,
-  "snapshot_days": 22,
+  "snapshot_days": 23,
   "is_indexable": true,
   "first_seen_at": "2026-09-01T00:26:13.032Z",
   "tracking_tier": "hot",
-  "last_fetched_date": "2026-09-22",
-  "stars_stagnant_days": 3
+  "last_fetched_date": "2026-09-23",
+  "stars_stagnant_days": 4
 }
