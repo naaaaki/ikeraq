@@ -1,0 +1,93 @@
+---
+updated: 2026-09-22
+image:
+image_alt:
+---
+
+<!-- ============================================================
+  Tencent/BrowserSkill
+  https://github.com/Tencent/BrowserSkill
+  Let AI agents use your real, logged-in browser without interrupting your work.
+  TypeScript / MIT / スター 6,000台
+============================================================ -->
+
+
+## 見出しの一文
+
+ログイン済みの自分のブラウザを、作業を止めずにAIへ貸し出す
+
+
+## どういうものか
+
+AIエージェントに**自分がすでにログインしているブラウザを使わせる**ための仕組みだ。Tencent が公開していて、ライセンスは MIT。README が挙げる利点のひとつは、**テスト用のアカウントを別に用意しなくてよい**こと。すでにサインインしている状態のまま、その先の画面をエージェントに触らせられる。
+
+置くものは手元に2つある。`bsk` というコマンド（同時に常駐プログラムでもある）と、ブラウザの拡張機能だ。エージェントがブラウザと直接話すことはない。エージェントは `bsk` に「この操作をしてほしい」と頼み、手元の常駐プログラムがその依頼を拡張機能へ回し、拡張機能が**専用の「エージェント用ウィンドウ」**の中で実行する。自分が開いているウィンドウは別扱いで、すでに開いているタブを触らせたいときは、エージェントが**はっきり借りる手続きを取り、終わったら返す**。だから作業中の画面を横から動かされない、というのが README の説明だ。常駐プログラムと拡張機能のあいだは `127.0.0.1` の WebSocket でつながる。
+
+特定のモデルやエージェントの枠組みに縛られないのも特徴で、README は「**シェルを呼べるエージェントなら使える**」と書いている。Cursor、Claude Code、Codex など、想定している枠組みには `bsk install-skill` でスキルを入れられる。もうひとつ用意されているのが**人に代わってもらう**仕組みだ。CAPTCHA、ログイン、確認のダイアログなど、人間でなければ進めない場面に当たったとき、エージェントは代わってほしいと頼み、済んだ続きから再開できる。タブを借りるときの確認と、この助けを求める機能は、どちらも拡張機能の設定画面で切り替えるもので、**既定では両方とも有効**。README は、保存されたブラウザ側の設定がその場の指定より優先されると明記している（ただし後述のとおり、コマンド・常駐プログラム・拡張機能の版が揃っていることが前提になる）。
+
+
+## 図
+
+<svg viewBox="0 0 800 450" role="img" aria-label="見出しに「エージェントには、別の窓を開けて渡す」とある図。左に「AIエージェント（Cursor・Claude Code・Codexなど）」があり、矢印で「bsk（コマンドと常駐プログラム）」につながり、さらに矢印で「拡張機能（ブラウザの中）」につながる。拡張機能から右上へ矢印が伸びて「エージェント用ウィンドウ（ここで操作する）」へ、右下へ点線が伸びて「自分のウィンドウ（頼んだときだけ借りて、返す）」へつながる。いちばん下に「ログイン状態はそのまま使い、作業中の画面には断りなく触らせない」とある。" style="width: 100%; height: auto; display: block; font-family: var(--jp);">
+  <defs>
+    <marker id="bs-arrow" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="6" markerHeight="6" orient="auto-start-reverse">
+      <path d="M0,0 L10,5 L0,10 z" fill="#1E5A48" />
+    </marker>
+  </defs>
+  <rect width="800" height="450" fill="#FFFFFF" />
+  <text x="400" y="54" text-anchor="middle" font-size="26" font-weight="700" fill="#17160F">エージェントには、<tspan fill="#1E5A48">別の窓</tspan>を開けて渡す</text>
+
+  <rect x="16" y="188" width="164" height="96" rx="8" fill="none" stroke="#17160F" stroke-opacity="0.28" stroke-width="1.5" />
+  <text x="98" y="222" text-anchor="middle" font-size="14" font-weight="700" fill="#17160F">AIエージェント</text>
+  <text x="98" y="245" text-anchor="middle" font-size="10.5" fill="#17160F" fill-opacity="0.72">（Cursor・Claude Code・</text>
+  <text x="98" y="262" text-anchor="middle" font-size="10.5" fill="#17160F" fill-opacity="0.72">Codexなど）</text>
+
+  <line x1="182" y1="236" x2="204" y2="236" stroke="#1E5A48" stroke-width="4" marker-end="url(#bs-arrow)" />
+
+  <rect x="210" y="188" width="150" height="96" rx="8" fill="none" stroke="#1E5A48" stroke-width="2" />
+  <text x="285" y="226" text-anchor="middle" font-size="15" font-weight="700" fill="#1E5A48">bsk</text>
+  <text x="285" y="249" text-anchor="middle" font-size="10.5" fill="#17160F" fill-opacity="0.72">（コマンドと</text>
+  <text x="285" y="266" text-anchor="middle" font-size="10.5" fill="#17160F" fill-opacity="0.72">常駐プログラム）</text>
+
+  <line x1="362" y1="236" x2="384" y2="236" stroke="#1E5A48" stroke-width="4" marker-end="url(#bs-arrow)" />
+
+  <rect x="390" y="188" width="150" height="96" rx="8" fill="none" stroke="#17160F" stroke-opacity="0.28" stroke-width="1.5" />
+  <text x="465" y="226" text-anchor="middle" font-size="14" font-weight="700" fill="#17160F">拡張機能</text>
+  <text x="465" y="252" text-anchor="middle" font-size="10.5" fill="#17160F" fill-opacity="0.72">（ブラウザの中）</text>
+
+  <line x1="544" y1="218" x2="586" y2="166" stroke="#1E5A48" stroke-width="4" marker-end="url(#bs-arrow)" />
+  <rect x="592" y="110" width="192" height="88" rx="8" fill="none" stroke="#1E5A48" stroke-width="2" />
+  <text x="688" y="144" text-anchor="middle" font-size="14" font-weight="700" fill="#1E5A48">エージェント用ウィンドウ</text>
+  <text x="688" y="170" text-anchor="middle" font-size="10.5" fill="#17160F" fill-opacity="0.72">（ここで操作する）</text>
+
+  <line x1="544" y1="256" x2="586" y2="306" stroke="#1E5A48" stroke-width="3" stroke-dasharray="6 6" marker-end="url(#bs-arrow)" />
+  <rect x="592" y="276" width="192" height="88" rx="8" fill="none" stroke="#17160F" stroke-opacity="0.28" stroke-width="1.5" />
+  <text x="688" y="310" text-anchor="middle" font-size="14" font-weight="700" fill="#17160F">自分のウィンドウ</text>
+  <text x="688" y="336" text-anchor="middle" font-size="10.5" fill="#17160F" fill-opacity="0.72">（頼んだときだけ借りて、返す）</text>
+
+  <text x="400" y="418" text-anchor="middle" font-size="13.5" fill="#17160F" fill-opacity="0.72">ログイン状態はそのまま使い、作業中の画面には断りなく触らせない</text>
+</svg>
+
+キャプション: **鍵を渡すのではなく、部屋をひとつ用意して通す**発想。同じログイン状態を使いながら、触ってよい範囲は分けられている。
+
+
+## どんなときに使うか
+
+### ログインの先にある画面を、エージェントに見せたいとき
+
+管理画面や社内のツールのように、サインインしないとたどり着けない場所の作業を頼める。テスト用のアカウントを作って権限を合わせ直す手間がいらない。
+
+### エージェントにブラウザを触らせつつ、自分も作業を続けたいとき
+
+エージェントの操作は専用のウィンドウで進み、既定では自分のタブを借りるのに確認が入る。途中で CAPTCHA やログインに当たったときは、代わってほしいと言ってきて、済ませた続きから再開できる。
+
+
+## 注意点
+
+**「使える」と言える範囲は、ブラウザによって違う。** README が挙げているのは Chrome と Microsoft Edge。ほかの Chromium 系は、展開済みの拡張機能を読み込めるなら動くと**見込まれている**という書き方で、Firefox は予定の段階にある。動かす環境は macOS（Apple Silicon と Intel）、Linux（x64 と ARM64）、Windows（x64）。
+
+**自動で進ませる設定は、慎重に扱いたい。** タブを借りるときの確認は既定で有効で、切ると確認を飛ばして借りるようになる。以前あった `--unattended` のようなコマンド側の指定は、0.3.0 以降は確認を迂回しなくなり、**ブラウザ側の設定のほうが優先される**（互換のため受け付けるが非推奨）。ただし README は、この優先が完全に効くのはコマンド・常駐プログラム・拡張機能をすべて更新したときだと書いている。版が混ざった構成では、古い側の振る舞いが残る。自動化の台本をこれらの指定だけで組んでいた場合は、設定の見直しが要る。
+
+**入れるものが多く、版を揃える必要がある。** コマンド・常駐プログラム・拡張機能の3つがあり、README は全画面のスクリーンショットのような新しい機能について、**それぞれの版が揃っていないと使えない**と注記している。拡張機能はストア経由の更新なので、コマンド側の公開に遅れることがある。噛み合わせの確認には `bsk doctor` が用意されている。
+
+**開いているものはそれなりにある。** issue とプルリクエストを合わせて数十件。2026年6月に公開された新しいリポジトリで、更新は活発だ。

@@ -1,0 +1,86 @@
+---
+updated: 2026-09-22
+image:
+image_alt:
+---
+
+<!-- ============================================================
+  pacifio/atlas
+  https://github.com/pacifio/atlas
+  Source control for agents. Use multiple coding agents, track their changes and query them in one place
+  TypeScript / Apache-2.0 / スター 5,000台
+============================================================ -->
+
+
+## 見出しの一文
+
+コミットに「どのAIが、何を頼まれて書いたか」を結びつけて残す
+
+
+## どういうものか
+
+AIエージェントに書かせたコードについて、**その変更がどのやりとりから生まれたのかを記録しておく**ためのデスクトップアプリだ。README はこれを「エージェントのためのソース管理」と呼ぶ。Apache-2.0、Tauri で作られていて、配布されているのは macOS 向けの `.dmg` と Windows 向けの `.msi`。Linux は同じコードからビルドできるが、README は**試験されていない**と書いている。
+
+中心にあるのが「**チェックポイント**」という記録だ。エージェントとのやりとりは、指示した文・呼び出した道具・触ったファイル・当てたパッチまで含めて、手元の `.atlas/sessions.db` に記録される。そしてコミットが作られると、そのコミットが**どのセッションから出てきたか**が結びつけられる。README によれば、コミットは横取りするのではなく**観測している**ので、ターミナルから打ったコミットでも、別のエディタからのものでも、Atlas を閉じている間のものでも結びつく。`rebase` や `amend` で履歴が書き換わっても、パッチの同一性をたどって結び直す。`squash` でまとめた結果どれと結ぶべきか本当に決まらなくなったときは、**推測せずに切り離す**とある。読み返すのに生のログを追う必要はなく、チェックポイントを選んでそのまま質問できる。
+
+もうひとつの柱が、**複数のエージェントを同じコードに並べて走らせる**ことだ。Claude Code と Codex は外部のプロセスとして ACP という取り決めの上で動き、Atlas 自身のエージェントはアプリの中で動く。加えて ACP のレジストリにあるもの（Cursor、OpenCode、Kilo Code など）も呼び出せる。README が挙げる要点は、**記憶が共有される**ことだ。Claude Code が下した判断が Codex の次の指示に現れ、自分で書いた `CLAUDE.md` や `AGENTS.md`、`.atlas/knowledge/` のメモも、同じ索引にまとめて渡される。指示文に `@` で差し込んだファイル・記号・ブランチ・過去のセッションは、送る前に手元で解決される。README によれば、フォルダは中身を貼らずに**場所を指す形**で渡るため、一度触れただけで文脈の枠を埋め尽くさない。意味の近さを測る計算も端末の中で行われる。
+
+
+## 図
+
+<svg viewBox="0 0 800 450" role="img" aria-label="見出しに「コミットに、やりとりを結び直す」とある図。左に「エージェントのセッション（指示・道具の呼び出し・変更）」があり、矢印で中央の「チェックポイント（手元のデータベースに記録）」につながる。右上の「コミット（どこから打っても観測される）」から中央へ矢印が向かう。中央から下に矢印が伸び「あとから選んで、そのまま質問できる」とある。中央の左下に「rebaseやamendのあとも結び直す」とある。いちばん下に「消えるのはスクロールバッファだけで、理由は残る」とある。" style="width: 100%; height: auto; display: block; font-family: var(--jp);">
+  <defs>
+    <marker id="at-arrow" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="6" markerHeight="6" orient="auto-start-reverse">
+      <path d="M0,0 L10,5 L0,10 z" fill="#1E5A48" />
+    </marker>
+  </defs>
+  <rect width="800" height="450" fill="#FFFFFF" />
+  <text x="400" y="56" text-anchor="middle" font-size="26" font-weight="700" fill="#17160F">コミットに、<tspan fill="#1E5A48">やりとり</tspan>を結び直す</text>
+
+  <rect x="24" y="196" width="196" height="104" rx="8" fill="none" stroke="#17160F" stroke-opacity="0.28" stroke-width="1.5" />
+  <text x="122" y="234" text-anchor="middle" font-size="15" font-weight="700" fill="#17160F">エージェントのセッション</text>
+  <text x="122" y="258" text-anchor="middle" font-size="11" fill="#17160F" fill-opacity="0.72">（指示・道具の呼び出し・</text>
+  <text x="122" y="276" text-anchor="middle" font-size="11" fill="#17160F" fill-opacity="0.72">変更）</text>
+
+  <line x1="224" y1="248" x2="264" y2="248" stroke="#1E5A48" stroke-width="4" marker-end="url(#at-arrow)" />
+
+  <rect x="270" y="196" width="210" height="104" rx="8" fill="none" stroke="#1E5A48" stroke-width="2" />
+  <text x="375" y="240" text-anchor="middle" font-size="16" font-weight="700" fill="#1E5A48">チェックポイント</text>
+  <text x="375" y="266" text-anchor="middle" font-size="11" fill="#17160F" fill-opacity="0.72">（手元のデータベースに記録）</text>
+
+  <rect x="556" y="112" width="210" height="88" rx="8" fill="none" stroke="#17160F" stroke-opacity="0.28" stroke-width="1.5" />
+  <text x="661" y="146" text-anchor="middle" font-size="15" font-weight="700" fill="#17160F">コミット</text>
+  <text x="661" y="172" text-anchor="middle" font-size="11" fill="#17160F" fill-opacity="0.72">（どこから打っても観測される）</text>
+  <line x1="552" y1="176" x2="486" y2="212" stroke="#1E5A48" stroke-width="4" marker-end="url(#at-arrow)" />
+
+  <line x1="375" y1="306" x2="375" y2="342" stroke="#1E5A48" stroke-width="4" marker-end="url(#at-arrow)" />
+  <text x="375" y="366" text-anchor="middle" font-size="12" fill="#17160F" fill-opacity="0.72">あとから選んで、そのまま質問できる</text>
+
+  <text x="140" y="330" font-size="12" fill="#17160F" fill-opacity="0.72">rebaseやamendのあとも結び直す</text>
+
+  <text x="400" y="414" text-anchor="middle" font-size="13.5" fill="#17160F" fill-opacity="0.72">消えるのはスクロールバッファだけで、理由は残る</text>
+</svg>
+
+キャプション: 記録を**コミットの側に寄せている**のがこの設計の要点。エージェントを閉じても、ターミナルを閉じても、結びつきのほうが残る。
+
+
+## どんなときに使うか
+
+### 数か月前のコードを見て、なぜこうなったのか分からなくなるとき
+
+エージェントが書いたコミットに残るのは、モデルが書いた要約だけになりやすい。Atlas はそのコミットから、当時の指示・試して捨てた手順・呼び出した道具までたどれる形にする。**コードではなく判断のほうを探したい**場面に向く。
+
+### エージェントを途中で乗り換えると、説明をやり直しになるとき
+
+Claude Code と Codex は、そのままでは互いの履歴を読めない。Atlas は両方の記憶を同じ索引にまとめて渡すので、README によれば、片方が決めたことがもう片方の次の指示に現れる。
+
+
+## 注意点
+
+**まだ新しく、動作が確かめられている範囲は広くない。** ACP のレジストリから呼べるエージェントについて、README は**品質確認が進行中**だと注記している。対応が明記されている環境は macOS 13以降と Windows 10以降（x64）で、Linux は未検証。2026年5月に始まったばかりのリポジトリでもある。
+
+**手元で完結するが、初期設定では利用状況の送信が入る。** コード・メモ・セッションは端末に残り、エージェントを動かすためにアップロードはされない。ただし匿名の利用統計は**既定で有効**だと README に書かれている（送られるのは粗いメタデータで、コードや指示文は含まれないとある。切り方は `TELEMETRY.md`）。同期やチームでの共有は、アカウントを作って明示的に選んだときだけ動く。
+
+**閉じ込めない方針だが、例外がひとつある。** メモは Markdown、セッションは JSONL と、普通のファイルで置かれる。ただしチェックポイントの記録だけは SQLite で、プロジェクト内の（Git の追跡から外した）`.atlas/` に置かれる。読むものではなく問い合わせるものだから、というのが README の説明だ。
+
+**開いているものは多くない。** issue とプルリクエストを合わせて30件弱。更新は活発に続いている。
