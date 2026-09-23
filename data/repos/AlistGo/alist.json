@@ -13,7 +13,7 @@
     "solidjs",
     "webdav"
   ],
-  "stars": 50211,
+  "stars": 50214,
   "forks": 7939,
   "watchers": 221,
   "open_issues": 566,
@@ -37,10 +37,10 @@
     }
   ],
   "usability_score": 85,
-  "snapshot_days": 23,
+  "snapshot_days": 24,
   "is_indexable": true,
   "first_seen_at": "2026-09-01T00:26:13.031Z",
   "tracking_tier": "hot",
-  "last_fetched_date": "2026-09-23",
+  "last_fetched_date": "2026-09-24",
   "stars_stagnant_days": 0
 }

@@ -1,0 +1,44 @@
+{
+  "id": "eip-work/kuboard-press",
+  "owner": "eip-work",
+  "name": "kuboard-press",
+  "description_en": "Kuboard v4 官方文档（zh/en 双语）：Kuboard 是基于 Kubernetes 的微服务管理界面。本仓库为 v4 版本文档站源码，涵盖安装升级、集群管理、工作负载、网络、存储、Kuboard MCP 等。",
+  "human_note": null,
+  "language": "Dockerfile",
+  "topics": [
+    "docker",
+    "k8s",
+    "kubernetes",
+    "kubernetes-kuboard"
+  ],
+  "stars": 25246,
+  "forks": 1594,
+  "watchers": null,
+  "open_issues": 538,
+  "created_at": "2019-07-24T16:45:29Z",
+  "pushed_at": "2026-09-22T12:51:28Z",
+  "is_archived": false,
+  "license_spdx": null,
+  "license_category": "none",
+  "readme_excerpt": "Kuboard Kuboard 是基于 Kubernetes 的多集群容器管理平台（微服务管理界面），致力于让 Kubernetes 的落地与日常运维变得简单、直观、高效，对个人与中小企业完全免费。 Kuboard 能为你做什么 - 多集群统一管理：在同一个界面中接入并管理多个 Kubernetes 集群（支持 1.15 - 1.34），跨集群查询与操作，无需逐台切换 kubectl。 - 快速安装：一条 docker compose 命令即可拉起，三步完成安装；支持负载均衡 + 高可用数据库 + Redis 的多节点高可用部署。 - 直观的资源管理：以可视化方式管理工作负载（Deployment / StatefulSet / DaemonSet / Job / CronJob / Pod / HPA）、配置与存储（ConfigMap / Secret / PVC / PV / StorageClass）、服务与网络（Service / Ingress / NetworkPolicy / Gateway API）及各类集群资源。 - 开箱即用的运维能力：浏览器内终端、日志查看、文件…",
+  "readme_length": 1137,
+  "has_japanese_readme": false,
+  "contributors_count": 1,
+  "releases_count": 0,
+  "ossf_scorecard": null,
+  "category": "infra",
+  "flags": [
+    {
+      "id": "no_license",
+      "label": "利用条件不明",
+      "reason": "ライセンスが設定されていません。この場合は原則として全権利が留保され、利用できません。"
+    }
+  ],
+  "usability_score": 60,
+  "snapshot_days": 1,
+  "is_indexable": true,
+  "first_seen_at": "2026-09-23T23:28:32.618Z",
+  "tracking_tier": "hot",
+  "last_fetched_date": "2026-09-24",
+  "stars_stagnant_days": 0
+}

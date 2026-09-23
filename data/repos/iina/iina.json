@@ -13,10 +13,10 @@
     "video",
     "video-player"
   ],
-  "stars": 46454,
-  "forks": 2927,
+  "stars": 46470,
+  "forks": 2926,
   "watchers": null,
-  "open_issues": 1936,
+  "open_issues": 1941,
   "created_at": "2016-12-19T07:18:45Z",
   "pushed_at": "2026-09-22T12:52:40Z",
   "is_archived": false,
@@ -37,10 +37,10 @@
     }
   ],
   "usability_score": 85,
-  "snapshot_days": 24,
+  "snapshot_days": 25,
   "is_indexable": true,
   "first_seen_at": "2026-08-30T23:15:18.749Z",
   "tracking_tier": "hot",
-  "last_fetched_date": "2026-09-23",
+  "last_fetched_date": "2026-09-24",
   "stars_stagnant_days": 0
 }

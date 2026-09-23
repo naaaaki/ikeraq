@@ -1,0 +1,51 @@
+{
+  "id": "subframe7536/maple-font",
+  "owner": "subframe7536",
+  "name": "maple-font",
+  "description_en": "Maple Mono: Open source monospace font with round corner, ligatures and Nerd-Font icons for IDE and terminal, fine-grained customization options. 带连字和控制台图标的圆角等宽字体，中英文宽度完美2:1，细粒度的自定义选项",
+  "human_note": null,
+  "language": "Python",
+  "topics": [
+    "coding-font",
+    "font",
+    "ligatures",
+    "monospace",
+    "monospace-font",
+    "opentype",
+    "programming-font",
+    "programming-ligatures",
+    "typeface",
+    "typography",
+    "variable-font"
+  ],
+  "stars": 28985,
+  "forks": 1193,
+  "watchers": null,
+  "open_issues": 37,
+  "created_at": "2022-04-08T15:51:22Z",
+  "pushed_at": "2026-09-20T15:10:42Z",
+  "is_archived": false,
+  "license_spdx": "OFL-1.1",
+  "license_category": "strong-copyleft",
+  "readme_excerpt": "> [!IMPORTANT] > This branch has been frozen as a snapshot of V7. V8 will include the latest features and bug fixes. see it in variable branch. Download | Website | English | 中文 | 日本語 Maple Mono Maple Mono is an open source monospace font focused on smoothing your coding flow. I created it to enhance my working experience, and hope that it can be useful to others. V7 is a completely remade version, providing variable font format and source files of the font project, redesigning more than half o…",
+  "readme_length": 30653,
+  "has_japanese_readme": true,
+  "contributors_count": 17,
+  "releases_count": 69,
+  "ossf_scorecard": null,
+  "category": "other",
+  "flags": [
+    {
+      "id": "copyleft",
+      "label": "自社サービス組込み注意",
+      "reason": "OFL-1.1 です。組み込んだ側のソース公開が必要になる場合があります。"
+    }
+  ],
+  "usability_score": 85,
+  "snapshot_days": 1,
+  "is_indexable": true,
+  "first_seen_at": "2026-09-23T23:28:32.617Z",
+  "tracking_tier": "hot",
+  "last_fetched_date": "2026-09-24",
+  "stars_stagnant_days": 0
+}

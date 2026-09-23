@@ -15,10 +15,10 @@
     "kubernetes-cli",
     "kubernetes-clusters"
   ],
-  "stars": 34649,
-  "forks": 2289,
+  "stars": 34662,
+  "forks": 2290,
   "watchers": null,
-  "open_issues": 81,
+  "open_issues": 82,
   "created_at": "2019-01-25T18:46:02Z",
   "pushed_at": "2026-09-22T18:35:00Z",
   "is_archived": false,
@@ -33,10 +33,10 @@
   "category": "infra",
   "flags": [],
   "usability_score": 100,
-  "snapshot_days": 22,
+  "snapshot_days": 23,
   "is_indexable": true,
   "first_seen_at": "2026-09-01T23:05:22.650Z",
   "tracking_tier": "hot",
-  "last_fetched_date": "2026-09-23",
+  "last_fetched_date": "2026-09-24",
   "stars_stagnant_days": 0
 }

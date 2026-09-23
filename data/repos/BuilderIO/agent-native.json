@@ -1,0 +1,45 @@
+{
+  "id": "BuilderIO/agent-native",
+  "owner": "BuilderIO",
+  "name": "agent-native",
+  "description_en": "A framework for building agentic apps",
+  "human_note": null,
+  "language": "TypeScript",
+  "topics": [
+    "agent-native",
+    "agents",
+    "ai",
+    "react",
+    "typescript"
+  ],
+  "stars": 6522,
+  "forks": 584,
+  "watchers": 21,
+  "open_issues": 122,
+  "created_at": "2026-03-12T14:57:10Z",
+  "pushed_at": "2026-09-23T23:28:34Z",
+  "is_archived": false,
+  "license_spdx": null,
+  "license_category": "none",
+  "readme_excerpt": "Agent-Native Agent-Native is an open-source TypeScript framework for building agents that pair autonomous work with a purpose-built UI. Define each capability once as an action: the agent uses it as a tool, and the UI calls it from code. Quick start Follow the getting started guide for a full intro to the framework. Why build agents with UIs? Coding agents work with more than a text box. Their environment provides context, tools, files, tests, and previews that make their capabilities and resul…",
+  "readme_length": 9540,
+  "has_japanese_readme": false,
+  "contributors_count": 72,
+  "releases_count": 2589,
+  "ossf_scorecard": null,
+  "category": "ai-agent",
+  "flags": [
+    {
+      "id": "no_license",
+      "label": "利用条件不明",
+      "reason": "ライセンスが設定されていません。この場合は原則として全権利が留保され、利用できません。"
+    }
+  ],
+  "usability_score": 60,
+  "snapshot_days": 1,
+  "is_indexable": true,
+  "first_seen_at": "2026-09-23T23:28:30.788Z",
+  "tracking_tier": "hot",
+  "last_fetched_date": "2026-09-24",
+  "stars_stagnant_days": 0
+}

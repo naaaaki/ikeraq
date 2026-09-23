@@ -11,7 +11,7 @@
     "library",
     "reactjs"
   ],
-  "stars": 30793,
+  "stars": 30803,
   "forks": 2230,
   "watchers": null,
   "open_issues": 21,
@@ -29,10 +29,10 @@
   "category": "web-frontend",
   "flags": [],
   "usability_score": 100,
-  "snapshot_days": 22,
+  "snapshot_days": 23,
   "is_indexable": true,
   "first_seen_at": "2026-09-01T23:05:22.650Z",
   "tracking_tier": "hot",
-  "last_fetched_date": "2026-09-23",
+  "last_fetched_date": "2026-09-24",
   "stars_stagnant_days": 0
 }

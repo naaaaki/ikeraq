@@ -1,0 +1,42 @@
+{
+  "id": "LSPosed/LSPosed",
+  "owner": "LSPosed",
+  "name": "LSPosed",
+  "description_en": "LSPosed Framework",
+  "human_note": null,
+  "language": "Java",
+  "topics": [
+    "android",
+    "xposed"
+  ],
+  "stars": 24793,
+  "forks": 3584,
+  "watchers": null,
+  "open_issues": 5,
+  "created_at": "2020-12-12T08:39:37Z",
+  "pushed_at": "2026-09-23T21:08:06Z",
+  "is_archived": false,
+  "license_spdx": "GPL-3.0",
+  "license_category": "strong-copyleft",
+  "readme_excerpt": "LSPosed Framework Introduction A Riru / Zygisk module trying to provide an ART hooking framework which delivers consistent APIs with the OG Xposed, leveraging LSPlant hooking framework. > Xposed is a framework for modules that can change the behavior of the system and apps without touching any APKs. That's great because it means that modules can work for different versions and even ROMs without any changes (as long as the original code was not changed too much). It's also easy to undo. As all c…",
+  "readme_length": 4665,
+  "has_japanese_readme": false,
+  "contributors_count": 79,
+  "releases_count": 38,
+  "ossf_scorecard": null,
+  "category": "mobile",
+  "flags": [
+    {
+      "id": "copyleft",
+      "label": "自社サービス組込み注意",
+      "reason": "GPL-3.0 です。組み込んだ側のソース公開が必要になる場合があります。"
+    }
+  ],
+  "usability_score": 85,
+  "snapshot_days": 1,
+  "is_indexable": true,
+  "first_seen_at": "2026-09-23T23:28:32.618Z",
+  "tracking_tier": "hot",
+  "last_fetched_date": "2026-09-24",
+  "stars_stagnant_days": 0
+}

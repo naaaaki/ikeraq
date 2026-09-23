@@ -2,7 +2,7 @@
   "id": "mbadolato/iTerm2-Color-Schemes",
   "owner": "mbadolato",
   "name": "iTerm2-Color-Schemes",
-  "description_en": "Over 450 terminal color schemes/themes for iTerm/iTerm2. Includes ports to Terminal, Konsole, PuTTY, Xresources, XRDB, Remmina, Termite, XFCE, Tilda, FreeBSD VT, Terminator, Kitty, MobaXterm, LXTerminal, Microsoft's Windows Terminal, Visual Studio, Alacritty, Ghostty, and many more",
+  "description_en": "Over 600 terminal color schemes/themes for iTerm/iTerm2. Includes ports to Terminal, Konsole, PuTTY, Xresources, XRDB, Remmina, Termite, XFCE, Tilda, FreeBSD VT, Terminator, Kitty, MobaXterm, LXTerminal, Microsoft's Windows Terminal, Visual Studio, Alacritty, Ghostty, and many more",
   "human_note": null,
   "language": "Shell",
   "topics": [
@@ -27,12 +27,12 @@
     "xrdb",
     "xresources"
   ],
-  "stars": 27213,
-  "forks": 6513,
+  "stars": 27219,
+  "forks": 6514,
   "watchers": 324,
   "open_issues": 22,
   "created_at": "2011-04-01T04:01:46Z",
-  "pushed_at": "2026-09-22T04:10:36Z",
+  "pushed_at": "2026-09-23T14:58:33Z",
   "is_archived": false,
   "license_spdx": "NOASSERTION",
   "license_category": "unknown",
@@ -45,10 +45,10 @@
   "category": "dev-tool",
   "flags": [],
   "usability_score": 100,
-  "snapshot_days": 20,
+  "snapshot_days": 21,
   "is_indexable": true,
   "first_seen_at": "2026-09-03T23:03:15.575Z",
   "tracking_tier": "hot",
-  "last_fetched_date": "2026-09-23",
-  "stars_stagnant_days": 3
+  "last_fetched_date": "2026-09-24",
+  "stars_stagnant_days": 0
 }

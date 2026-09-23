@@ -11,7 +11,7 @@
     "language",
     "sway"
   ],
-  "stars": 61427,
+  "stars": 61423,
   "forks": 5413,
   "watchers": 301,
   "open_issues": 949,
@@ -29,10 +29,10 @@
   "category": "dev-tool",
   "flags": [],
   "usability_score": 100,
-  "snapshot_days": 25,
+  "snapshot_days": 26,
   "is_indexable": true,
   "first_seen_at": "2026-08-29T23:02:08.747Z",
   "tracking_tier": "hot",
-  "last_fetched_date": "2026-09-23",
-  "stars_stagnant_days": 11
+  "last_fetched_date": "2026-09-24",
+  "stars_stagnant_days": 12
 }

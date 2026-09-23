@@ -27,10 +27,10 @@
     "time",
     "utilities"
   ],
-  "stars": 31343,
-  "forks": 1968,
+  "stars": 31342,
+  "forks": 2027,
   "watchers": 235,
-  "open_issues": 627,
+  "open_issues": 626,
   "created_at": "2015-06-03T13:13:14Z",
   "pushed_at": "2026-09-20T22:47:50Z",
   "is_archived": false,
@@ -45,10 +45,10 @@
   "category": "dev-tool",
   "flags": [],
   "usability_score": 100,
-  "snapshot_days": 22,
+  "snapshot_days": 23,
   "is_indexable": true,
   "first_seen_at": "2026-09-01T23:05:22.650Z",
   "tracking_tier": "hot",
-  "last_fetched_date": "2026-09-23",
-  "stars_stagnant_days": 0
+  "last_fetched_date": "2026-09-24",
+  "stars_stagnant_days": 1
 }

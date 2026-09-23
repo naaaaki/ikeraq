@@ -1,0 +1,43 @@
+{
+  "id": "lukasz-madon/awesome-remote-job",
+  "owner": "lukasz-madon",
+  "name": "awesome-remote-job",
+  "description_en": "A curated list of awesome remote jobs and resources. Inspired by https://github.com/vinta/awesome-python",
+  "human_note": null,
+  "language": null,
+  "topics": [
+    "awesome",
+    "awesome-list",
+    "list"
+  ],
+  "stars": 48926,
+  "forks": 4826,
+  "watchers": null,
+  "open_issues": 96,
+  "created_at": "2015-01-02T00:31:34Z",
+  "pushed_at": "2026-09-21T15:00:51Z",
+  "is_archived": false,
+  "license_spdx": null,
+  "license_category": "none",
+  "readme_excerpt": "Awesome Remote Job A curated list of awesome remote working resources. Languages - English (default) - Español - Français - 简体中文 - 日本語 To contribute, click README.md and then the pencil icon. Make your changes and click the \"Propose file change\" button to submit a pull request. Make sure to follow the contributions guidelines. Table of Contents - Awesome Remote Job - Languages - Table of Contents - Articles \\& Posts - Videos - Books - Humor - Job boards - Job boards aggregators - Housing - Relo…",
+  "readme_length": 67270,
+  "has_japanese_readme": true,
+  "contributors_count": 496,
+  "releases_count": 0,
+  "ossf_scorecard": null,
+  "category": "learning",
+  "flags": [
+    {
+      "id": "no_license",
+      "label": "利用条件不明",
+      "reason": "ライセンスが設定されていません。この場合は原則として全権利が留保され、利用できません。"
+    }
+  ],
+  "usability_score": 60,
+  "snapshot_days": 1,
+  "is_indexable": true,
+  "first_seen_at": "2026-09-23T23:28:32.616Z",
+  "tracking_tier": "hot",
+  "last_fetched_date": "2026-09-24",
+  "stars_stagnant_days": 0
+}

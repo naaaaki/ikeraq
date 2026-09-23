@@ -1,0 +1,53 @@
+{
+  "id": "arendst/Tasmota",
+  "owner": "arendst",
+  "name": "Tasmota",
+  "description_en": "Alternative firmware for ESP8266 and ESP32 based devices with easy configuration using webUI, OTA updates, automation using timers or rules, expandability and entirely local control over MQTT, HTTP, Serial or KNX. Full documentation at",
+  "human_note": null,
+  "language": "C",
+  "topics": [
+    "arduino",
+    "automation",
+    "esp32",
+    "esp8266",
+    "firmware",
+    "iot",
+    "knx",
+    "mqtt",
+    "ota",
+    "smart-home",
+    "sonoff",
+    "tasmota",
+    "tuya"
+  ],
+  "stars": 24772,
+  "forks": 5184,
+  "watchers": null,
+  "open_issues": 20,
+  "created_at": "2017-01-28T13:37:08Z",
+  "pushed_at": "2026-09-22T15:17:28Z",
+  "is_archived": false,
+  "license_spdx": "GPL-3.0",
+  "license_category": "strong-copyleft",
+  "readme_excerpt": "Alternative firmware for ESP8266 and ESP32 based devices with easy configuration using webUI, OTA updates, automation using timers or rules, expandability and entirely local control over MQTT, HTTP, Serial or KNX. Written for PlatformIO. In light of current events we like to support the people behind PlatformIO Project, especially Ivan Kravets, and wish them the strength to help stop the war. See platformio-is-ukrainian-project-please-help-us-stop-the-war for what you can do. Easy install Easy…",
+  "readme_length": 12668,
+  "has_japanese_readme": false,
+  "contributors_count": 638,
+  "releases_count": 119,
+  "ossf_scorecard": null,
+  "category": "dev-tool",
+  "flags": [
+    {
+      "id": "copyleft",
+      "label": "自社サービス組込み注意",
+      "reason": "GPL-3.0 です。組み込んだ側のソース公開が必要になる場合があります。"
+    }
+  ],
+  "usability_score": 85,
+  "snapshot_days": 1,
+  "is_indexable": true,
+  "first_seen_at": "2026-09-23T23:28:32.618Z",
+  "tracking_tier": "hot",
+  "last_fetched_date": "2026-09-24",
+  "stars_stagnant_days": 0
+}

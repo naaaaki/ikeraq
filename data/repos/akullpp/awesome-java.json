@@ -1,0 +1,42 @@
+{
+  "id": "akullpp/awesome-java",
+  "owner": "akullpp",
+  "name": "awesome-java",
+  "description_en": "A curated list of awesome frameworks, libraries and software for the Java programming language.",
+  "human_note": null,
+  "language": null,
+  "topics": [
+    "awesome",
+    "awesome-list"
+  ],
+  "stars": 49091,
+  "forks": 7726,
+  "watchers": null,
+  "open_issues": 5,
+  "created_at": "2014-07-09T10:12:43Z",
+  "pushed_at": "2026-09-23T10:50:49Z",
+  "is_archived": false,
+  "license_spdx": "CC-BY-SA-4.0",
+  "license_category": "strong-copyleft",
+  "readme_excerpt": "Awesome Java A curated list of noteworthy Java frameworks, libraries, tools and resources. 839 projects · 81 categories · 85 resources Activity: 🟢 pushed within 3 months · 🟠 pushed 3–12 months ago · 🔴 no push for over 12 months License chips use GitHub SPDX metadata when available. Entries spanning several repositories combine their stars, use the most recent push for activity and show a license only when all repositories agree. Contents Projects - API Compatibility - Architecture - Artifici…",
+  "readme_length": 180361,
+  "has_japanese_readme": false,
+  "contributors_count": 506,
+  "releases_count": 0,
+  "ossf_scorecard": null,
+  "category": "learning",
+  "flags": [
+    {
+      "id": "copyleft",
+      "label": "自社サービス組込み注意",
+      "reason": "CC-BY-SA-4.0 です。組み込んだ側のソース公開が必要になる場合があります。"
+    }
+  ],
+  "usability_score": 85,
+  "snapshot_days": 1,
+  "is_indexable": true,
+  "first_seen_at": "2026-09-23T23:28:32.616Z",
+  "tracking_tier": "hot",
+  "last_fetched_date": "2026-09-24",
+  "stars_stagnant_days": 0
+}

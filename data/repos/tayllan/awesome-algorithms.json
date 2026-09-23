@@ -1,0 +1,39 @@
+{
+  "id": "tayllan/awesome-algorithms",
+  "owner": "tayllan",
+  "name": "awesome-algorithms",
+  "description_en": "A curated list of awesome places to learn and/or practice algorithms.",
+  "human_note": null,
+  "language": null,
+  "topics": [],
+  "stars": 25573,
+  "forks": 2965,
+  "watchers": null,
+  "open_issues": 0,
+  "created_at": "2014-07-16T18:10:01Z",
+  "pushed_at": "2026-09-22T17:49:33Z",
+  "is_archived": false,
+  "license_spdx": null,
+  "license_category": "none",
+  "readme_excerpt": "Awesome Algorithms A curated list of awesome places to learn and/or practice algorithms. Inspired by awesome-awesomeness and all the other awesome Awesome libraries. If you want to contribute, please read the contribution guidelines. - Awesome Algorithms - Beginner-Friendly - Programming Contest - Theory & Fundamentals - Production System - Database - Special Topic - Cheat Sheet - Related Awesome List Beginner-Friendly YouTube Playlist Khan Academy Algorithms - Algorithm course ministered by To…",
+  "readme_length": 7247,
+  "has_japanese_readme": false,
+  "contributors_count": 94,
+  "releases_count": 0,
+  "ossf_scorecard": null,
+  "category": "learning",
+  "flags": [
+    {
+      "id": "no_license",
+      "label": "利用条件不明",
+      "reason": "ライセンスが設定されていません。この場合は原則として全権利が留保され、利用できません。"
+    }
+  ],
+  "usability_score": 60,
+  "snapshot_days": 1,
+  "is_indexable": true,
+  "first_seen_at": "2026-09-23T23:28:32.617Z",
+  "tracking_tier": "hot",
+  "last_fetched_date": "2026-09-24",
+  "stars_stagnant_days": 0
+}

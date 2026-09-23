@@ -15,10 +15,10 @@
     "python-requests",
     "requests"
   ],
-  "stars": 54334,
-  "forks": 10608,
+  "stars": 54337,
+  "forks": 10667,
   "watchers": 1323,
-  "open_issues": 239,
+  "open_issues": 240,
   "created_at": "2011-02-13T18:38:17Z",
   "pushed_at": "2026-09-21T20:22:36Z",
   "is_archived": false,
@@ -33,10 +33,10 @@
   "category": "backend",
   "flags": [],
   "usability_score": 100,
-  "snapshot_days": 25,
+  "snapshot_days": 26,
   "is_indexable": true,
   "first_seen_at": "2026-08-29T23:02:08.747Z",
   "tracking_tier": "hot",
-  "last_fetched_date": "2026-09-23",
-  "stars_stagnant_days": 1
+  "last_fetched_date": "2026-09-24",
+  "stars_stagnant_days": 0
 }

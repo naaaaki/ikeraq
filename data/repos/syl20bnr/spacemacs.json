@@ -1,0 +1,45 @@
+{
+  "id": "syl20bnr/spacemacs",
+  "owner": "syl20bnr",
+  "name": "spacemacs",
+  "description_en": "A community-driven Emacs distribution - The best editor is neither Emacs nor Vim,  it's Emacs *and* Vim!",
+  "human_note": null,
+  "language": "Emacs Lisp",
+  "topics": [
+    "community-driven",
+    "configuration",
+    "emacs",
+    "spacemacs",
+    "vim"
+  ],
+  "stars": 24559,
+  "forks": 4830,
+  "watchers": null,
+  "open_issues": 64,
+  "created_at": "2012-12-17T21:34:03Z",
+  "pushed_at": "2026-09-22T00:58:41Z",
+  "is_archived": false,
+  "license_spdx": "GPL-3.0",
+  "license_category": "strong-copyleft",
+  "readme_excerpt": "philosophy for whom? screenshots documentation contribute achievements FAQ Quick Start If you don't have an existing Emacs setup and want to run Spacemacs as your configuration, and if you have all prerequisites installed, you can install Spacemacs with one line: shell: Windows PowerShell: If HOME is not set in environment or in registry: If you do have an existing Emacs configuration, look at the full installation instructions for other options. Introduction Spacemacs is a new way of experienc…",
+  "readme_length": 24823,
+  "has_japanese_readme": false,
+  "contributors_count": 1573,
+  "releases_count": 158,
+  "ossf_scorecard": null,
+  "category": "other",
+  "flags": [
+    {
+      "id": "copyleft",
+      "label": "自社サービス組込み注意",
+      "reason": "GPL-3.0 です。組み込んだ側のソース公開が必要になる場合があります。"
+    }
+  ],
+  "usability_score": 85,
+  "snapshot_days": 1,
+  "is_indexable": true,
+  "first_seen_at": "2026-09-23T23:28:32.618Z",
+  "tracking_tier": "hot",
+  "last_fetched_date": "2026-09-24",
+  "stars_stagnant_days": 0
+}

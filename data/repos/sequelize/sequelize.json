@@ -25,8 +25,8 @@
     "transactions",
     "typescript"
   ],
-  "stars": 30358,
-  "forks": 4345,
+  "stars": 30360,
+  "forks": 4347,
   "watchers": null,
   "open_issues": 1085,
   "created_at": "2010-07-22T07:11:11Z",
@@ -43,10 +43,10 @@
   "category": "data",
   "flags": [],
   "usability_score": 100,
-  "snapshot_days": 21,
+  "snapshot_days": 22,
   "is_indexable": true,
   "first_seen_at": "2026-09-02T23:02:41.773Z",
   "tracking_tier": "hot",
-  "last_fetched_date": "2026-09-23",
+  "last_fetched_date": "2026-09-24",
   "stars_stagnant_days": 0
 }

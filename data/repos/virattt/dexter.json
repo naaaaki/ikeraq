@@ -1,0 +1,39 @@
+{
+  "id": "virattt/dexter",
+  "owner": "virattt",
+  "name": "dexter",
+  "description_en": "An autonomous agent for deep financial research",
+  "human_note": null,
+  "language": "TypeScript",
+  "topics": [],
+  "stars": 27619,
+  "forks": 3413,
+  "watchers": null,
+  "open_issues": 102,
+  "created_at": "2025-10-14T21:02:00Z",
+  "pushed_at": "2026-09-23T19:56:36Z",
+  "is_archived": false,
+  "license_spdx": null,
+  "license_category": "none",
+  "readme_excerpt": "Dexter 🤖 Dexter is an autonomous financial research agent that thinks, plans, and learns as it works. It performs analysis using task planning, self-reflection, and real-time market data. Think Claude Code, but built specifically for financial research. Table of Contents - 👋 Overview - ✅ Prerequisites - 💻 How to Install - 🚀 How to Run - 📊 How to Evaluate - 🐛 How to Debug - 📱 How to Use with WhatsApp - 🤝 How to Contribute - 📄 License ⚠️ Disclaimer This project is for educational, entert…",
+  "readme_length": 6599,
+  "has_japanese_readme": false,
+  "contributors_count": 25,
+  "releases_count": 35,
+  "ossf_scorecard": null,
+  "category": "other",
+  "flags": [
+    {
+      "id": "no_license",
+      "label": "利用条件不明",
+      "reason": "ライセンスが設定されていません。この場合は原則として全権利が留保され、利用できません。"
+    }
+  ],
+  "usability_score": 60,
+  "snapshot_days": 1,
+  "is_indexable": true,
+  "first_seen_at": "2026-09-23T23:28:32.617Z",
+  "tracking_tier": "hot",
+  "last_fetched_date": "2026-09-24",
+  "stars_stagnant_days": 0
+}

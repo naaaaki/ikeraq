@@ -12,12 +12,12 @@
     "cryptography",
     "p2p"
   ],
-  "stars": 90231,
-  "forks": 39401,
+  "stars": 90240,
+  "forks": 39399,
   "watchers": null,
-  "open_issues": 720,
+  "open_issues": 719,
   "created_at": "2010-12-19T15:16:43Z",
-  "pushed_at": "2026-09-22T21:18:56Z",
+  "pushed_at": "2026-09-23T23:24:32Z",
   "is_archived": false,
   "license_spdx": "MIT",
   "license_category": "permissive",
@@ -30,10 +30,10 @@
   "category": "security",
   "flags": [],
   "usability_score": 100,
-  "snapshot_days": 25,
+  "snapshot_days": 26,
   "is_indexable": true,
   "first_seen_at": "2026-08-29T15:46:21.821Z",
   "tracking_tier": "hot",
-  "last_fetched_date": "2026-09-23",
-  "stars_stagnant_days": 1
+  "last_fetched_date": "2026-09-24",
+  "stars_stagnant_days": 0
 }

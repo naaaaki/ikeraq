@@ -1,0 +1,46 @@
+{
+  "id": "koalaman/shellcheck",
+  "owner": "koalaman",
+  "name": "shellcheck",
+  "description_en": "ShellCheck, a static analysis tool for shell scripts",
+  "human_note": null,
+  "language": "Haskell",
+  "topics": [
+    "bash",
+    "developer-tools",
+    "haskell",
+    "linter",
+    "shell",
+    "static-analysis"
+  ],
+  "stars": 40080,
+  "forks": 1947,
+  "watchers": null,
+  "open_issues": 1135,
+  "created_at": "2012-11-17T03:15:11Z",
+  "pushed_at": "2026-09-21T06:43:16Z",
+  "is_archived": false,
+  "license_spdx": "GPL-3.0",
+  "license_category": "strong-copyleft",
+  "readme_excerpt": "ShellCheck - A shell script static analysis tool ShellCheck is a GPLv3 tool that gives warnings and suggestions for bash/sh shell scripts: The goals of ShellCheck are To point out and clarify typical beginner's syntax issues that cause a shell to give cryptic error messages. To point out and clarify typical intermediate level semantic problems that cause a shell to behave strangely and counter-intuitively. To point out subtle caveats, corner cases and pitfalls that may cause an advanced user's…",
+  "readme_length": 21156,
+  "has_japanese_readme": false,
+  "contributors_count": 179,
+  "releases_count": 30,
+  "ossf_scorecard": null,
+  "category": "dev-tool",
+  "flags": [
+    {
+      "id": "copyleft",
+      "label": "自社サービス組込み注意",
+      "reason": "GPL-3.0 です。組み込んだ側のソース公開が必要になる場合があります。"
+    }
+  ],
+  "usability_score": 85,
+  "snapshot_days": 1,
+  "is_indexable": true,
+  "first_seen_at": "2026-09-23T23:28:32.616Z",
+  "tracking_tier": "hot",
+  "last_fetched_date": "2026-09-24",
+  "stars_stagnant_days": 0
+}

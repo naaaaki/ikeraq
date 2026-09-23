@@ -20,7 +20,7 @@
     "startpage",
     "vue"
   ],
-  "stars": 26548,
+  "stars": 26552,
   "forks": 1937,
   "watchers": null,
   "open_issues": 26,
@@ -38,10 +38,10 @@
   "category": "infra",
   "flags": [],
   "usability_score": 100,
-  "snapshot_days": 20,
+  "snapshot_days": 21,
   "is_indexable": true,
   "first_seen_at": "2026-09-03T23:03:15.575Z",
   "tracking_tier": "hot",
-  "last_fetched_date": "2026-09-23",
+  "last_fetched_date": "2026-09-24",
   "stars_stagnant_days": 0
 }

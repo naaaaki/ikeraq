@@ -1,0 +1,48 @@
+{
+  "id": "dataease/dataease",
+  "owner": "dataease",
+  "name": "dataease",
+  "description_en": "🔥 人人可用的开源 BI 工具，数据可视化神器。An open-source BI tool alternative to Tableau.",
+  "human_note": null,
+  "language": "Java",
+  "topics": [
+    "apache-doris",
+    "business-intelligence",
+    "data-analysis",
+    "data-visualization",
+    "echarts",
+    "kettle",
+    "superset",
+    "tableau"
+  ],
+  "stars": 24547,
+  "forks": 4256,
+  "watchers": null,
+  "open_issues": 50,
+  "created_at": "2021-02-02T04:10:21Z",
+  "pushed_at": "2026-09-23T15:02:41Z",
+  "is_archived": false,
+  "license_spdx": "GPL-3.0",
+  "license_category": "strong-copyleft",
+  "readme_excerpt": "人人可用的开源 BI 工具 什么是 DataEase？ DataEase 是开源的 BI 工具，帮助用户快速分析数据并洞察业务趋势，从而实现业务的改进与优化。DataEase 支持丰富的数据源连接，能够通过拖拉拽方式快速制作图表，并可以方便的与他人分享。 - 👉 观看视频：DataEase 两分钟介绍视频 - 👉 观看PPT：DataEase PPT 材料 - 👉 购买图书：《DataEase 数据可视化分析与实践》 DataEase 的优势： - 开源开放：零门槛，线上快速获取和安装，按月迭代； - 简单易用：极易上手，通过鼠标点击和拖拽即可完成分析； - 全场景支持：多平台安装和多样化嵌入支持； - 安全分享：支持多种数据分享方式，确保数据安全； - AI 加持：无缝集成 SQLBot 实现智能问数。 DataEase 支持的数据源： - OLTP 数据库： MySQL、Oracle、SQL Server、PostgreSQL、MariaDB、Db2、TiDB、MongoDB-BI 等； - OLAP 数据库： ClickHouse、Apache Doris、Apache…",
+  "readme_length": 6561,
+  "has_japanese_readme": false,
+  "contributors_count": 104,
+  "releases_count": 112,
+  "ossf_scorecard": null,
+  "category": "other",
+  "flags": [
+    {
+      "id": "copyleft",
+      "label": "自社サービス組込み注意",
+      "reason": "GPL-3.0 です。組み込んだ側のソース公開が必要になる場合があります。"
+    }
+  ],
+  "usability_score": 85,
+  "snapshot_days": 1,
+  "is_indexable": true,
+  "first_seen_at": "2026-09-23T23:28:32.618Z",
+  "tracking_tier": "hot",
+  "last_fetched_date": "2026-09-24",
+  "stars_stagnant_days": 0
+}

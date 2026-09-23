@@ -1,0 +1,48 @@
+{
+  "id": "Fosowl/agenticSeek",
+  "owner": "Fosowl",
+  "name": "agenticSeek",
+  "description_en": "Fully Local Manus AI. No APIs, No $200 monthly bills. Enjoy an autonomous agent that thinks, browses the web, and code for the sole cost of electricity.",
+  "human_note": null,
+  "language": "Python",
+  "topics": [
+    "agentic-ai",
+    "agents",
+    "ai",
+    "autonomous-agents",
+    "deepseek-r1",
+    "llm",
+    "llm-agents",
+    "voice-assistant"
+  ],
+  "stars": 27292,
+  "forks": 3060,
+  "watchers": null,
+  "open_issues": 28,
+  "created_at": "2025-02-19T18:03:06Z",
+  "pushed_at": "2026-09-21T19:29:58Z",
+  "is_archived": false,
+  "license_spdx": "GPL-3.0",
+  "license_category": "strong-copyleft",
+  "readme_excerpt": "AgenticSeek: Private, Local Manus Alternative. English | 中文 | 繁體中文 | Français | 日本語 | Português (Brasil) | Español | Türkçe A 100% local alternative to Manus AI, this voice-enabled AI assistant autonomously browses the web, writes code, and plans tasks while keeping all data on your device. Tailored for local reasoning models, it runs entirely on your hardware, ensuring complete privacy and zero cloud dependency. Why AgenticSeek ? 🔒 Fully Local & Private - Everything runs on your machine — no…",
+  "readme_length": 39598,
+  "has_japanese_readme": true,
+  "contributors_count": 51,
+  "releases_count": 0,
+  "ossf_scorecard": null,
+  "category": "ai-agent",
+  "flags": [
+    {
+      "id": "copyleft",
+      "label": "自社サービス組込み注意",
+      "reason": "GPL-3.0 です。組み込んだ側のソース公開が必要になる場合があります。"
+    }
+  ],
+  "usability_score": 85,
+  "snapshot_days": 1,
+  "is_indexable": true,
+  "first_seen_at": "2026-09-23T23:28:32.617Z",
+  "tracking_tier": "hot",
+  "last_fetched_date": "2026-09-24",
+  "stars_stagnant_days": 0
+}

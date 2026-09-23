@@ -11,15 +11,15 @@
     "graphics",
     "javascript-applications"
   ],
-  "stars": 63240,
+  "stars": 63256,
   "forks": 5772,
   "watchers": null,
   "open_issues": 6,
   "created_at": "2017-05-25T20:58:42Z",
-  "pushed_at": "2026-09-22T17:27:54Z",
+  "pushed_at": "2026-09-23T22:56:37Z",
   "is_archived": false,
-  "license_spdx": "Apache-2.0",
-  "license_category": "permissive",
+  "license_spdx": "GPL-3.0",
+  "license_category": "strong-copyleft",
   "readme_excerpt": "About drawio-desktop is a diagramming desktop app based on Electron that wraps the core draw.io editor. Download built binaries from the releases section. Can I use this app for free? Yes, under the apache 2.0 license. If you don't change the code and accept it is provided \"as-is\", you can use it for any purpose. Windows installation Three flavours of Windows download are published on the releases page: - draw.io- -windows-installer.exe — NSIS installer. Installs per-machine into Program Files…",
   "readme_length": 5485,
   "has_japanese_readme": false,
@@ -27,12 +27,18 @@
   "releases_count": 189,
   "ossf_scorecard": null,
   "category": "game",
-  "flags": [],
-  "usability_score": 100,
-  "snapshot_days": 25,
+  "flags": [
+    {
+      "id": "copyleft",
+      "label": "自社サービス組込み注意",
+      "reason": "GPL-3.0 です。組み込んだ側のソース公開が必要になる場合があります。"
+    }
+  ],
+  "usability_score": 85,
+  "snapshot_days": 26,
   "is_indexable": true,
   "first_seen_at": "2026-08-29T23:02:08.747Z",
   "tracking_tier": "hot",
-  "last_fetched_date": "2026-09-23",
+  "last_fetched_date": "2026-09-24",
   "stars_stagnant_days": 0
 }

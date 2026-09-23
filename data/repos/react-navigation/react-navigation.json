@@ -1,0 +1,44 @@
+{
+  "id": "react-navigation/react-navigation",
+  "owner": "react-navigation",
+  "name": "react-navigation",
+  "description_en": "Routing and navigation for React Native and Web apps",
+  "human_note": null,
+  "language": "TypeScript",
+  "topics": [
+    "navigation",
+    "react",
+    "react-native",
+    "react-navigation"
+  ],
+  "stars": 24507,
+  "forks": 5137,
+  "watchers": null,
+  "open_issues": 850,
+  "created_at": "2017-01-26T19:51:40Z",
+  "pushed_at": "2026-09-22T21:32:43Z",
+  "is_archived": false,
+  "license_spdx": null,
+  "license_category": "none",
+  "readme_excerpt": "React Navigation 8 [![Build Status][build-badge]][build] [![Code Coverage][coverage-badge]][coverage] [![MIT License][license-badge]][license] Routing and navigation for your React Native apps. Documentation can be found at reactnavigation.org. This branch contains the code for the upcoming major version of React Navigation. You can find the code for other versions in the following branches: - 7.x (latest stable) - 6.x - 5.x - 4.x - 3.x - 2.x - 1.x Package Versions | Name | Latest Version | | -…",
+  "readme_length": 5991,
+  "has_japanese_readme": false,
+  "contributors_count": 350,
+  "releases_count": 2710,
+  "ossf_scorecard": null,
+  "category": "web-frontend",
+  "flags": [
+    {
+      "id": "no_license",
+      "label": "利用条件不明",
+      "reason": "ライセンスが設定されていません。この場合は原則として全権利が留保され、利用できません。"
+    }
+  ],
+  "usability_score": 60,
+  "snapshot_days": 1,
+  "is_indexable": true,
+  "first_seen_at": "2026-09-23T23:28:32.618Z",
+  "tracking_tier": "hot",
+  "last_fetched_date": "2026-09-24",
+  "stars_stagnant_days": 0
+}

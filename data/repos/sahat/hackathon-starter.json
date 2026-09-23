@@ -14,7 +14,7 @@
     "starter-kit"
   ],
   "stars": 35254,
-  "forks": 8112,
+  "forks": 8111,
   "watchers": null,
   "open_issues": 2,
   "created_at": "2013-11-13T17:24:12Z",
@@ -31,10 +31,10 @@
   "category": "backend",
   "flags": [],
   "usability_score": 100,
-  "snapshot_days": 23,
+  "snapshot_days": 24,
   "is_indexable": true,
   "first_seen_at": "2026-09-01T00:26:13.032Z",
   "tracking_tier": "hot",
-  "last_fetched_date": "2026-09-23",
-  "stars_stagnant_days": 0
+  "last_fetched_date": "2026-09-24",
+  "stars_stagnant_days": 1
 }

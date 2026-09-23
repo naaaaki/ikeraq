@@ -2,7 +2,7 @@
   "id": "feder-cr/AIHawk",
   "owner": "feder-cr",
   "name": "AIHawk",
-  "description_en": "Anti-detect agentic stealth browser: undetected browsing, browser automation, Python AI web browsing agent, computer use, scraping, lead generation. No captchas.",
+  "description_en": "Your AI agent browses the web without captchas: self-hosted Python MCP server on undetected anti-detect stealth Firefox, for browser automation, scraping, computer use.",
   "human_note": null,
   "language": "Python",
   "topics": [
@@ -27,12 +27,12 @@
     "web-automation",
     "web-research"
   ],
-  "stars": 31626,
-  "forks": 4677,
+  "stars": 31644,
+  "forks": 4682,
   "watchers": 189,
   "open_issues": 4,
   "created_at": "2024-08-04T12:15:06Z",
-  "pushed_at": "2026-09-22T22:28:16Z",
+  "pushed_at": "2026-09-23T21:25:14Z",
   "is_archived": false,
   "license_spdx": "MIT",
   "license_category": "permissive",
@@ -45,10 +45,10 @@
   "category": "ai-agent",
   "flags": [],
   "usability_score": 100,
-  "snapshot_days": 21,
+  "snapshot_days": 22,
   "is_indexable": true,
   "first_seen_at": "2026-09-02T23:02:41.773Z",
   "tracking_tier": "hot",
-  "last_fetched_date": "2026-09-23",
+  "last_fetched_date": "2026-09-24",
   "stars_stagnant_days": 0
 }

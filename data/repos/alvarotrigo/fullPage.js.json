@@ -1,0 +1,52 @@
+{
+  "id": "alvarotrigo/fullPage.js",
+  "owner": "alvarotrigo",
+  "name": "fullPage.js",
+  "description_en": "fullPage plugin by Alvaro Trigo. Create full screen pages fast and simple",
+  "human_note": null,
+  "language": "JavaScript",
+  "topics": [
+    "fullpage",
+    "fullscreen",
+    "javascript",
+    "jquery",
+    "mousewheel",
+    "onepage",
+    "scrolling",
+    "sections",
+    "slide",
+    "slideshow",
+    "snap",
+    "swipe"
+  ],
+  "stars": 35385,
+  "forks": 7094,
+  "watchers": null,
+  "open_issues": 129,
+  "created_at": "2013-09-20T11:58:29Z",
+  "pushed_at": "2026-09-20T10:56:49Z",
+  "is_archived": false,
+  "license_spdx": "GPL-3.0",
+  "license_category": "strong-copyleft",
+  "readme_excerpt": "fullPage.js English | Español | Français | Pусский | 中文 | 한국어 | 日本語 | Português Brasileiro Available for Vue , React and Angular . &nbsp;&nbsp;|&nbsp;&nbsp; Created by @imac2 - Demo online | Codepen - Wordpress plugin for Gutenberg and WordPress plugin for Elementor - Wordpress theme - fullpage.js Extensions - Frequently Answered Questions - [[Migration from fullPage v3 to fullpage v4]](https://alvarotrigo.com/fullPage/help/migration-from-fullpage-3/) A simple and easy to use library that creat…",
+  "readme_length": 62909,
+  "has_japanese_readme": false,
+  "contributors_count": 170,
+  "releases_count": 109,
+  "ossf_scorecard": null,
+  "category": "other",
+  "flags": [
+    {
+      "id": "copyleft",
+      "label": "自社サービス組込み注意",
+      "reason": "GPL-3.0 です。組み込んだ側のソース公開が必要になる場合があります。"
+    }
+  ],
+  "usability_score": 85,
+  "snapshot_days": 1,
+  "is_indexable": true,
+  "first_seen_at": "2026-09-23T23:28:32.616Z",
+  "tracking_tier": "hot",
+  "last_fetched_date": "2026-09-24",
+  "stars_stagnant_days": 0
+}

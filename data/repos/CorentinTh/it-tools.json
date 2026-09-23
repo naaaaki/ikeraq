@@ -18,12 +18,12 @@
     "vuejs",
     "website"
   ],
-  "stars": 40667,
-  "forks": 5437,
+  "stars": 40672,
+  "forks": 5436,
   "watchers": 169,
   "open_issues": 822,
   "created_at": "2020-04-05T11:50:24Z",
-  "pushed_at": "2026-09-16T17:00:22Z",
+  "pushed_at": "2026-09-23T22:57:23Z",
   "is_archived": false,
   "license_spdx": "GPL-3.0",
   "license_category": "strong-copyleft",
@@ -42,10 +42,10 @@
     }
   ],
   "usability_score": 85,
-  "snapshot_days": 23,
+  "snapshot_days": 24,
   "is_indexable": true,
   "first_seen_at": "2026-09-01T00:26:13.031Z",
   "tracking_tier": "hot",
-  "last_fetched_date": "2026-09-23",
+  "last_fetched_date": "2026-09-24",
   "stars_stagnant_days": 0
 }
