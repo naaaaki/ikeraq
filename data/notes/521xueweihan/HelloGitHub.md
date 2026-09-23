@@ -18,7 +18,7 @@ README が紹介対象として掲げているのは「有趣（面白い）」�
 
 ## 図
 
-<svg viewBox="0 0 800 450" role="img" aria-label="見出しに「日本語で読めるのは、入口まで」とある図。左に「README（案内のページ）」の箱があり、中国語・英語・日本語 の3つが並ぶ。矢印で右の「各号の本文」に進み、中国語（全125号）・英語（全125号）が緑で並び、その下に 日本語（無し）とある。下に「日本語版の号はない。中身は中国語版か英語版で読む」とある。" style="width: 100%; height: auto; display: block; font-family: var(--jp);">
+<svg viewBox="0 0 800 450" role="img" aria-label="見出しに「日本語で読めるのは、入口まで」とある図。左に「README（案内のページ）」の箱があり、中国語・英語・日本語 の3つが並ぶ。矢印で右の「各号の本文（毎月28日に1号ずつ）」に進み、中国語（全125号）・英語（全125号）が緑で並び、その下に 日本語（無し）とある。下に「日本語版の号はない。中身は中国語版か英語版で読む」とある。" style="width: 100%; height: auto; display: block; font-family: var(--jp);">
   <defs>
     <marker id="hg-arrow" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="6" markerHeight="6" orient="auto-start-reverse">
       <path d="M0,0 L10,5 L0,10 z" fill="#1E5A48" />

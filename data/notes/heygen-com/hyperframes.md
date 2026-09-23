@@ -28,7 +28,7 @@ image_alt:
 
 ## 図
 
-<svg viewBox="0 0 800 405" role="img" aria-label="見出しに「再生するのではなく1コマずつ頭出し」とある図。左に「1枚の HTML（そのまま開ける）」があり、映像・見出し・音楽、開始秒と長さを属性で、動きは頭出しできる形で（GSAP / CSS / Lottie ほか）と書かれている。中央は「画面なしのブラウザ（時計では進めない）」で、0.000秒を撮る、0.033秒を撮る、0.067秒を撮る、と並び、その時点の絵を指定して取り出す と添えてある。右は「MP4 に固める」。下に「「頭出しできるように書く」という制約が、そのまま結果の再現性になっている」とある。" style="width: 100%; height: auto; display: block; font-family: var(--jp);">
+<svg viewBox="0 0 800 405" role="img" aria-label="見出しに「再生するのではなく1コマずつ頭出しする」とある図。左に「1枚の HTML（そのまま開ける）」があり、映像・見出し・音楽、開始秒と長さを属性で、動きは頭出しできる形で（GSAP / CSS / Lottie ほか）と書かれている。中央は「画面なしのブラウザ（時計では進めない）」で、0.000秒を撮る、0.033秒を撮る、0.067秒を撮る、と並び、その時点の絵を指定して取り出す と添えてある。右は「MP4 に固める（FFmpeg）」。ほかに「同じ入力 → 同じ動画」「CI に載せられる」「差分を検査できる」とある。下に「「頭出しできるように書く」という制約が、そのまま結果の再現性になっている」とある。" style="width: 100%; height: auto; display: block; font-family: var(--jp);">
   <defs>
     <marker id="hf-arrow" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="6" markerHeight="6" orient="auto-start-reverse">
       <path d="M0,0 L10,5 L0,10 z" fill="#1E5A48" />

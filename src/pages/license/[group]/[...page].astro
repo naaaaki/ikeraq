@@ -5,6 +5,8 @@
  * ★ 断定しない。「使える／使えない」ではなく「確認が要る／障害になりにくい」まで。
  * ★ カテゴリとの掛け合わせページへの入口をここに置く。
  *   399件を1画面に並べても選べないので、絞り込む先を示す。
+ * ★ 1ページ50件でページ分けする（paginate.ts）。1ページ目の URL は今までと同じ。
+ *   「分野で絞る」は全件から数えるので、どのページでも同じものを出す。
  */
 import type { GetStaticPaths } from 'astro';
 import Base from '../../../layouts/Base.astro';
@@ -19,27 +21,36 @@ import {
   type RepoView,
 } from '../../../lib/content.js';
 import { categoryLabel, num } from '../../../lib/format.js';
+import { paginate, type PagerInfo } from '../../../lib/paginate.js';
 
 export const getStaticPaths = (async () => {
   const site = await getSiteData();
-  return LICENSE_GROUPS.map((group) => ({
-    params: { group: group.key },
-    props: { group, items: licenseGroupItems(site, group) },
-  }));
+  return LICENSE_GROUPS.flatMap((group) => {
+    const all = licenseGroupItems(site, group);
+    const crosses = licenseCrossCategories(all);
+    const noteTotal = all.filter((v) => v.note !== null).length;
+    return paginate(all, `/license/${group.key}/`).map((slice) => ({
+      params: { group: group.key, page: slice.param },
+      props: { group, items: slice.items, pager: slice.pager, crosses, noteTotal },
+    }));
+  });
 }) satisfies GetStaticPaths;
 
 interface Props {
   group: LicenseGroup;
   items: RepoView[];
+  pager: PagerInfo;
+  crosses: { key: string; count: number }[];
+  noteTotal: number;
 }
-const { group, items } = Astro.props;
+const { group, items, pager, crosses, noteTotal } = Astro.props;
 
-const crosses = licenseCrossCategories(items);
-const noteCount = items.filter((v) => v.note !== null).length;
-const order = noteCount > 0 ? `紹介文のあるものが先 · 増加の多い順 · ${num(items.length)}件` : `増加の多い順 · ${num(items.length)}件`;
+const total = pager.allCount;
+const order = noteTotal > 0 ? `紹介文のあるものが先 · 増加の多い順 · ${num(total)}件` : `増加の多い順 · ${num(total)}件`;
+const pageSuffix = pager.current > 1 ? `（${pager.current}ページ目）` : '';
 ---
 
-<Base title={group.heading} description={group.description}>
+<Base title={`${group.heading}${pageSuffix}`} description={`${group.description}${pageSuffix}`}>
   <main id="main" style="flex: 1; min-width: 0;">
     <nav class="meta" aria-label="パンくず" style="padding-top: 18px;">
       <a href="/" style="color: var(--ink3);">ホーム</a>
@@ -50,7 +61,7 @@ const order = noteCount > 0 ? `紹介文のあるものが先 · 増加の多い
     </nav>
 
     <div style="padding: 26px 0 28px;">
-      <h1 class="display" style="margin: 0; font-size: 34px; line-height: 1.2;">{group.heading}</h1>
+      <h1 class="display" style="margin: 0; font-size: 34px; line-height: 1.2;">{group.heading}{pageSuffix && <span class="meta" style="font-size: 15px; margin-left: 10px;">{pageSuffix}</span>}</h1>
       <p class="meta" style="margin: 12px 0 0; font-size: 13px; line-height: 1.9; max-width: 620px;">{group.lede}</p>
     </div>
 
@@ -70,7 +81,14 @@ const order = noteCount > 0 ? `紹介文のあるものが先 · 増加の多い
       )
     }
 
-    <RepoListSection items={items} label={group.heading} note={order} empty="該当するリポジトリはまだありません。" />
+    <RepoListSection
+      items={items}
+      label={group.heading}
+      note={order}
+      empty="該当するリポジトリはまだありません。"
+      pager={pager}
+      noteTotal={noteTotal}
+    />
   </main>
 
   <Sidebar />

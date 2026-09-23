@@ -29,7 +29,7 @@ AIのコーディングエージェントは、`git status` や `npm test` を�
 
 ## 図
 
-<svg viewBox="0 0 800 450" role="img" aria-label="見出しに「エージェントに読ませる前に、削る」とある図。左に「コマンドの出力（テスト・git・ビルド）」があり、中央の rtk（コマンドの種類ごとに使い分ける）を通る。rtk の中には 1. 雑音を落とす、2. 似たものをまとめる、3. 重複を切る（文脈は残す）、4. 同じ行を件数に畳む が並ぶ。右は「エージェントが読む（要点だけが残る）」。下に「打ち方は変えない。実行前にコマンドが書き換えられるので、通り道だけが差し替わる」とある。" style="width: 100%; height: auto; display: block; font-family: var(--jp);">
+<svg viewBox="0 0 800 450" role="img" aria-label="見出しに「エージェントに読ませる前に、削る」とある図。左に「コマンドの出力（テスト・git・ビルド）」があり、中央の「rtk が4つの方針で削る」を通る。その中には 1. 雑音を落とす、2. 似たものをまとめる、3. 重複を切る（文脈は残す）、4. 同じ行を件数に畳む が並び、（コマンドの種類ごとに使い分ける）と添えてある。右は「エージェントが読む（要点だけが残る）」。下に「打ち方は変えない。実行前にコマンドが書き換えられるので、通り道だけが差し替わる」とある。" style="width: 100%; height: auto; display: block; font-family: var(--jp);">
   <defs>
     <marker id="rtk-arrow" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="6" markerHeight="6" orient="auto-start-reverse">
       <path d="M0,0 L10,5 L0,10 z" fill="#1E5A48" />

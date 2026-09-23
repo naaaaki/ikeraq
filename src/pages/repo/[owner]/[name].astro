@@ -71,7 +71,7 @@ const extraBlocks = await Promise.all(
   (parsed?.extra ?? []).map(async (e) => ({ heading: e.heading, html: await renderMarkdown(e.body) }))
 );
 const blocks = [...bodyBlocks, ...extraBlocks];
-const hasHowTo = bodyBlocks.some((b) => b.heading === '使い方');
+// ★「使い方」が無い記事では節ごと出さない（D-006）。空の節を置くと /about/ の説明と食い違う
 
 const slug = (heading: string) => encodeURIComponent(heading);
 
@@ -81,17 +81,34 @@ const slug = (heading: string) => encodeURIComponent(heading);
  *   スター数だけで選ぶと、最後まで読んだ人に見せる3件が英語の説明だけになる
  *   （実際にそうなっていた）。日本語で読める先を優先する。
  *   同じ条件どうしはスター数で並べる。
+ * ★カテゴリが同じだけでは足りない。トピックが重なるものに限る。
+ *   カテゴリは広く、yt-dlp（開発ツール）に alacritty・vscode が並んでいた。
+ *   「そのほか」は何も共通しない寄せ集めなので、全体から2つ以上重なるものだけにする。
+ *   重なるものが無ければ出さない（無関係なものを並べるより良い）。
  */
 const site = await getSiteData();
+const hasCategory = !!repo.category && repo.category !== 'other';
+const minShared = hasCategory ? 1 : 2;
+// 言語名や「cli」のような広すぎる語は、重なっても中身が似ている根拠にならない
+const GENERIC_TOPICS = new Set([
+  'python', 'python3', 'javascript', 'typescript', 'go', 'golang', 'rust', 'java', 'kotlin', 'swift',
+  'c', 'cpp', 'csharp', 'php', 'ruby', 'nodejs', 'node', 'react', 'cli', 'terminal', 'linux', 'macos',
+  'windows', 'open-source', 'opensource', 'hacktoberfest', 'awesome', 'awesome-list', 'self-hosted',
+]);
+const myTopics = new Set((repo.topics ?? []).filter((t) => !GENERIC_TOPICS.has(t)));
 const related = site.repos
-  .filter((v) => v.repo.id !== repo.id && v.repo.category === repo.category)
+  .filter((v) => v.repo.id !== repo.id && (!hasCategory || v.repo.category === repo.category))
+  .map((v) => ({ v, shared: (v.repo.topics ?? []).filter((t) => myTopics.has(t)).length }))
+  .filter((x) => x.shared >= minShared)
   .sort((a, b) => {
-    const an = a.note ? 0 : 1;
-    const bn = b.note ? 0 : 1;
+    const an = a.v.note ? 0 : 1;
+    const bn = b.v.note ? 0 : 1;
     if (an !== bn) return an - bn;
-    return b.repo.stars - a.repo.stars;
+    if (a.shared !== b.shared) return b.shared - a.shared;
+    return b.v.repo.stars - a.v.repo.stars;
   })
-  .slice(0, 3);
+  .slice(0, 3)
+  .map((x) => x.v);
 
 // --- 開発の様子。数字はすべて取得したもの。無いものは出さない ---
 type Fact = { v: string; u: string; k: string };
@@ -140,14 +157,35 @@ const factsLine = [
 ].filter((v): v is string => v !== null);
 // ★区切りは「／」。ライセンスの表記自体が「MIT · 商用可」のように中黒を含むので、
 //   同じ記号で項目を区切ると、どこまでが1項目か読めなくなる
-const description = leadText ?? `${repo.id} を日本語でまとめています。${factsLine.join('／')}。`;
+/**
+ * ★ 紹介文があるページは「どういうものか」の冒頭から作る。
+ *   見出しの一文をそのまま使うと、検索結果でタイトルと同じ文が2回並ぶ。
+ * ★ 紹介文が無いページで「日本語でまとめています」と書かない。
+ *   本文には「まだ紹介文がありません」と出るので、検索結果と中身が食い違う。
+ */
+const DESCRIPTION_MAX = 120;
+const toSnippet = (md: string) => {
+  // 図（SVG）の中の文字が説明文に混ざらないよう、先に丸ごと外す
+  const text = plainText(md.replace(/<svg[\s\S]*?<\/svg>/g, ''))
+    .replace(/\[([^\]]*)\]\([^)]*\)/g, '$1')
+    .replace(/<[^>]+>/g, '')
+    .replace(/\s+/g, ' ')
+    .trim();
+  return text.length > DESCRIPTION_MAX ? `${text.slice(0, DESCRIPTION_MAX - 1)}…` : text;
+};
+const whatSection = parsed?.sections.get('どういうものか');
+const description = note
+  ? (whatSection ? toSnippet(whatSection) : null) || leadText || repo.id
+  : `${repo.id} のスター推移と開発状況の記録です。${factsLine.join('／')}。`;
 
 /**
- * ★ タイトルにも日本語を入れる。`owner/name | Ikeraq` だけだと、
- *   日本語で検索している人のクエリに一致する語がひとつも無い。
- *   紹介文があるページは、そのために書いた「見出しの一文」をそのまま使う。
+ * ★ タイトルにはリポジトリ名を必ず入れる。「yt-dlp とは」のように名前で探す人がいちばん多い。
+ *   見出しの一文だけだと、名前で検索されても一致する語が無い。
+ *   owner は入れない（長くなるうえ、名前で探す人はまず owner を打たない）。
+ *   紹介文が無いページは、名前と日本語の語を並べる。
  */
-const pageTitle = leadText ?? `${repo.id} のスター数とライセンス`;
+const repoName = repo.id.split('/')[1] ?? repo.id;
+const pageTitle = leadText ? `${repoName}：${leadText}` : `${repo.id} のスター数とライセンス`;
 const canonical = new URL(repoUrl(repo.id), Astro.site).href;
 
 // ★見えているパンくずと構造化データを一致させる。ずれると検索エンジンに無視される
@@ -189,7 +227,15 @@ const noteCredit = note
   : 'このページにはまだ紹介文がありません。以下は取得した数値の記録です。';
 ---
 
-<Base title={pageTitle} description={description} noindex={!repo.is_indexable} canonical={canonical} wide compact>
+<Base
+  title={pageTitle}
+  description={description}
+  noindex={!repo.is_indexable}
+  canonical={canonical}
+  ogType={note ? 'article' : 'website'}
+  wide
+  compact
+>
   <script type="application/ld+json" slot="head" is:inline set:html={jsonld(breadcrumb)} />
   {article && <script type="application/ld+json" slot="head" is:inline set:html={jsonld(article)} />}
 
@@ -293,21 +339,6 @@ const noteCredit = note
               )}
             </section>
           ))
-        }
-
-        {
-          note && !hasHowTo && (
-            <section class="block">
-              {/* ★実際に動かせていないときは節ごと省く（D-006）。書いていない理由まで書く */}
-              <h2 class="sec" style="color: var(--ink3); border-bottom-color: var(--rule);">
-                使い方
-              </h2>
-              <p class="meta" style="margin: 0; line-height: 1.9;">
-                実際に動かせたものだけ手順を書く決まりにしているため、この記事には載せていません。
-                <a href="/about/">この決まりについて</a>
-              </p>
-            </section>
-          )
         }
 
         {

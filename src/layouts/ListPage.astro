@@ -8,6 +8,7 @@ import Base from './Base.astro';
 import Sidebar from '../components/Sidebar.astro';
 import RepoListSection from '../components/RepoListSection.astro';
 import type { RepoView } from '../lib/content.js';
+import type { PagerInfo } from '../lib/paginate.js';
 
 interface Props {
   title: string;
@@ -20,18 +21,33 @@ interface Props {
   note?: string;
   empty: string;
   noindex?: boolean;
+  deltaLabel?: string;
+  pager?: PagerInfo;
+  noteTotal?: number;
 }
-const { title, heading, description, lede, items, label, note, empty, noindex = false } = Astro.props;
+const { title, heading, description, lede, items, label, note, empty, noindex = false, deltaLabel, pager, noteTotal } =
+  Astro.props;
+
+// ★ 2ページ目以降は題名と説明を変える。同じ題名のページが並ぶと、検索エンジンは重複として扱う
+const pageSuffix = pager && pager.current > 1 ? `（${pager.current}ページ目）` : '';
 ---
 
-<Base title={title} description={description} noindex={noindex}>
+<Base title={`${title}${pageSuffix}`} description={pageSuffix ? `${description}${pageSuffix}` : description} noindex={noindex}>
   <main id="main" style="flex: 1; min-width: 0;">
     <div style="padding: 44px 0 28px;">
-      <h1 class="display" style="margin: 0; font-size: 34px; line-height: 1.2;">{heading}</h1>
+      <h1 class="display" style="margin: 0; font-size: 34px; line-height: 1.2;">{heading}{pageSuffix && <span class="meta" style="font-size: 15px; margin-left: 10px;">{pageSuffix}</span>}</h1>
       {lede && <p class="meta" style="margin: 12px 0 0; font-size: 13px; line-height: 1.9; max-width: 620px;">{lede}</p>}
     </div>
 
-    <RepoListSection items={items} label={label} note={note} empty={empty} />
+    <RepoListSection
+      items={items}
+      label={label}
+      note={note}
+      empty={empty}
+      deltaLabel={deltaLabel}
+      pager={pager}
+      noteTotal={noteTotal}
+    />
   </main>
 
   <Sidebar />

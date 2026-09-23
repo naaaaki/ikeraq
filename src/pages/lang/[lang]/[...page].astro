@@ -4,11 +4,14 @@
  *
  * URL は小文字にする。GitHub の言語名は表記が揺れる（C# / F# など記号も入る）ので、
  * URL 用の鍵と表示名を分けて持つ。
+ *
+ * ★ 1ページ50件でページ分けする（paginate.ts）。1ページ目の URL は今までと同じ。
  */
 import type { GetStaticPaths } from 'astro';
-import ListPage from '../../layouts/ListPage.astro';
-import { byNoteFirst, getSiteData, type RepoView } from '../../lib/content.js';
-import { languageSlug, num } from '../../lib/format.js';
+import ListPage from '../../../layouts/ListPage.astro';
+import { byNoteFirst, getSiteData, type RepoView } from '../../../lib/content.js';
+import { languageSlug, num } from '../../../lib/format.js';
+import { paginate, type PagerInfo } from '../../../lib/paginate.js';
 
 export const getStaticPaths = (async () => {
   const site = await getSiteData();
@@ -27,27 +30,35 @@ export const getStaticPaths = (async () => {
       groups.set(key, { name, items: [item] });
     }
   }
-  return [...groups.entries()].map(([key, group]) => ({
-    params: { lang: key },
-    props: { name: group.name, items: group.items.sort(byNoteFirst) },
-  }));
+  return [...groups.entries()].flatMap(([key, group]) => {
+    const sorted = group.items.sort(byNoteFirst);
+    const noteTotal = sorted.filter((v) => v.note !== null).length;
+    return paginate(sorted, `/lang/${key}/`).map((slice) => ({
+      params: { lang: key, page: slice.param },
+      props: { name: group.name, items: slice.items, pager: slice.pager, noteTotal },
+    }));
+  });
 }) satisfies GetStaticPaths;
 
 interface Props {
   name: string;
   items: RepoView[];
+  pager: PagerInfo;
+  noteTotal: number;
 }
-const { name, items } = Astro.props;
-const noteCount = items.filter((v) => v.note !== null).length;
-const order = noteCount > 0 ? `紹介文のあるものが先 · 増加の多い順 · ${num(items.length)}件` : `増加の多い順 · ${num(items.length)}件`;
+const { name, items, pager, noteTotal } = Astro.props;
+const total = pager.allCount;
+const order = noteTotal > 0 ? `紹介文のあるものが先 · 増加の多い順 · ${num(total)}件` : `増加の多い順 · ${num(total)}件`;
 ---
 
 <ListPage
   title={`${name} のリポジトリ`}
   heading={`${name} のリポジトリ`}
-  description={`${name} で書かれた、GitHub で注目されているリポジトリ${num(items.length)}件。`}
+  description={`${name} で書かれた、GitHub で注目されているリポジトリ${num(total)}件。`}
   items={items}
   label={`${name} のリポジトリ`}
   note={order}
   empty={`${name} のリポジトリはまだありません。`}
+  pager={pager}
+  noteTotal={noteTotal}
 />

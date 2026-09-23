@@ -27,6 +27,7 @@ import { notify } from './lib/notify.js';
 import { addDays, daysBetween, todayJST } from './lib/date.js';
 import { decideTier, shouldFetchToday, evictable, TRACKING_LIMIT, trackingCapacity } from './lib/tier.js';
 import { newRepository } from './lib/repository.js';
+import { loadNotes } from './lib/notes.js';
 import {
   loadAllRepos,
   loadLatestSnapshotBefore,
@@ -117,10 +118,13 @@ async function main() {
   if (trendingOk) console.log(`[collect] Trending: ${trending.length} 件`);
 
   // ------------------------------------------------------------------
-  // 追跡対象の更新（上限 1,000 件・SPEC §10.4）
+  // 追跡対象の更新（上限 1,500 件・D-018）
   // ------------------------------------------------------------------
   const newIds: string[] = [];
   const evictedIds: string[] = [];
+  // 記事ファイルの有無で数える。human_note は evaluate（collect の後）で付くため1日遅れる
+  const noteIds = new Set((await loadNotes()).keys());
+  const capacity = () => trackingCapacity(repos.values(), noteIds);
 
   /**
    * 追跡枠を1つ空ける。空けられなければ false。
@@ -128,9 +132,9 @@ async function main() {
    *   条件は「休眠層かつ90日以上停滞」に限定し、必ずログに残す（SPEC §10.4）。
    */
   const makeRoom = (): boolean => {
-    if (repos.size < trackingCapacity(repos.values())) return true;
+    if (repos.size < capacity()) return true;
     const victim = [...repos.values()]
-      .filter(evictable)
+      .filter((r) => evictable(r) && !noteIds.has(r.id))
       .sort((a, b) => b.stars_stagnant_days - a.stars_stagnant_days)[0];
     if (!victim) return false;
     repos.delete(victim.id);
@@ -182,11 +186,13 @@ async function main() {
     }
   }
   if (roomExhausted) {
-    console.warn(
-      `[collect] 追跡上限 ${trackingCapacity(repos.values())} 件（発見枠 ${TRACKING_LIMIT} ＋ 紹介文つき）に到達し、` +
-        `押し出せる休眠リポジトリもありません。` +
-        `新規の追加を打ち切ります（SPEC §10.4 の上限見直しを検討してください）`
-    );
+    const message =
+      `追跡上限 ${capacity()} 件（発見枠 ${TRACKING_LIMIT} ＋ 紹介文つき）に到達し、` +
+      `押し出せる休眠リポジトリもありません。` +
+      `新規の追加を打ち切ります（SPEC §10.4 の上限見直しを検討してください）`;
+    console.warn(`[collect] ${message}`);
+    // ログだけだと誰も気づかない（9/20〜9/23 に4日間止まっていた）
+    await notify('warn', `追跡上限に到達 (${today})`, [message, `新規検知: ${newIds.length} 件`]);
   }
   console.log(
     `[collect] 新規検知: ${newIds.length} 件 / 追跡停止: ${evictedIds.length} 件 / 追跡合計: ${repos.size} 件`

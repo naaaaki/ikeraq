@@ -15,6 +15,7 @@ export function buildDraft(repo: Repository, today: string): string {
 
   return `---
 updated: ${today}
+status: draft
 image:
 image_alt:
 ---

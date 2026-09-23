@@ -1,5 +1,6 @@
 ---
 updated: 2026-09-23
+category: ai-agent
 image:
 image_alt:
 ---

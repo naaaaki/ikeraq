@@ -101,6 +101,14 @@ const jsonld = (value: unknown) => JSON.stringify(value).replace(/</g, '\u003c')
       <h1 class="display" style="margin: 0; font-size: 38px; line-height: 1.15;">{jaDate(date)}のトレンド</h1>
       {site.latestDate && <div class="meta" style="white-space: nowrap;">最終更新 <span class="num">{date}</span></div>}
     </div>
+    {/*
+      ★ 何のサイトかを一覧より先に言う。サイドバーの「はじめての方へ」は
+        スマホ幅では一覧の後ろに回り、初めての人が読む前に通り過ぎてしまう。
+    */}
+    <p style="margin: -16px 0 28px; font-size: 14px; line-height: 1.8; color: var(--ink2);">
+      GitHub で伸びているリポジトリを毎日集め、日本語の紹介・商用で使えるかの目安・スターの推移をまとめています。
+      <a href="/about/" style="white-space: nowrap;">くわしく →</a>
+    </p>
 
     {
       pickups.length > 0 && (
@@ -167,13 +175,15 @@ const jsonld = (value: unknown) => JSON.stringify(value).replace(/</g, '\u003c')
             <span class="label">{pickups.length > 0 ? 'そのほか、今日伸びているリポジトリ' : '今日伸びているリポジトリ'}</span>
             <span class="fill" />
             <span class="meta">
-              {rest.some((v) => v.note !== null) ? '紹介文のあるものが先 · 増加の多い順' : '増加の多い順'} · {num(rest.length)}件
+              {rest.some((v) => v.note !== null) ? '紹介文のあるものが先 · 増加の多い順' : '増加の多い順'}
             </span>
           </div>
 
-          <div
-            style="display: grid; grid-template-columns: 96px minmax(0, 1fr) 104px; gap: 20px; padding: 12px 0 8px; border-bottom: 1px solid var(--rule2);"
-          >
+          {/*
+            ★ 列の幅は .row に任せる。style で3列を直書きすると、スマホ幅で .row だけが
+              2列に切り替わり、見出しと数字の列がずれる。
+          */}
+          <div class="row" style="padding: 12px 0 8px; border-bottom: 1px solid var(--rule2);">
             <span class="label row-lang" style="font-size: 10px;">言語</span>
             <span class="label" style="font-size: 10px;">リポジトリ</span>
             <span class="label" style="font-size: 10px; text-align: right;">今日の増加</span>
@@ -188,7 +198,7 @@ const jsonld = (value: unknown) => JSON.stringify(value).replace(/</g, '\u003c')
                 href={`/daily/${date}/`}
                 style="display: inline-flex; align-items: center; gap: 8px; height: 44px; padding: 0 22px; border: 1px solid var(--rule2); border-radius: 2px; font-size: 13.5px; color: var(--ink2); background: var(--card);"
               >
-                残り{num(remaining)}件を見る
+                今日の一覧をすべて見る
                 <svg width="13" height="13" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true">
                   <path d="M5 12h13" />
                   <path d="m12 5 7 7-7 7" />

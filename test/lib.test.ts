@@ -309,3 +309,14 @@ test('追跡枠は「発見枠 + 紹介文の本数」で広がる（記事が�
   assert.equal(trackingCapacity(plain(500)), TRACKING_LIMIT, '紹介文が無ければ発見枠のまま');
   assert.equal(trackingCapacity([...plain(500), ...noted(150)]), TRACKING_LIMIT + 150);
 });
+
+test('記事ファイルがあれば、human_note が付く前（evaluate 前）でも紹介文つきに数える', () => {
+  const repos = [
+    evictTarget({ id: 'a/written-yesterday' }),
+    evictTarget({ id: 'b/noted', human_note: 'あり' }),
+    evictTarget({ id: 'c/plain' }),
+  ];
+  const noteIds = new Set(['a/written-yesterday', 'b/noted']);
+  assert.equal(trackingCapacity(repos), TRACKING_LIMIT + 1, 'noteIds が無ければ従来どおり');
+  assert.equal(trackingCapacity(repos, noteIds), TRACKING_LIMIT + 2, '二重に数えない');
+});

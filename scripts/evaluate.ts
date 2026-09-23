@@ -11,7 +11,7 @@
  *   npm run evaluate -- --dry-run   保存せず結果だけ出す
  */
 
-import { categorize } from './lib/categorize.js';
+import { resolveCategory } from './lib/categorize.js';
 import { detectFlags } from './lib/flags.js';
 import { loadNotes } from './lib/notes.js';
 import { isIndexable, shouldGeneratePage, usabilityScore } from './lib/score.js';
@@ -46,10 +46,11 @@ async function main() {
 
   for (const repo of repos) {
     const flags = detectFlags(repo);
+    const note = notes.get(repo.id);
     const evaluated: Repository = {
       ...repo,
-      category: categorize(repo.topics, repo.language, repo.name),
-      human_note: notes.get(repo.id)?.body ?? null,
+      category: resolveCategory(note?.category, repo.topics, repo.language, repo.name),
+      human_note: note?.body ?? null,
       flags,
       usability_score: usabilityScore(flags),
     };

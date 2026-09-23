@@ -55,6 +55,8 @@ export function licenseLabel(repo: Repository): { text: string; tone: 'ok' | 'wa
     case 'none':
       return { text: 'ライセンス未設定 · 利用条件が不明', tone: 'danger' };
     default:
+      // ★ NOASSERTION は GitHub が「種類を判定できなかった」ときに返す値。そのまま出しても読む人には通じない
+      if (spdx === 'NOASSERTION') return { text: 'ライセンス条件が不明', tone: 'warn' };
       return { text: spdx ?? 'ライセンス不明', tone: 'warn' };
   }
 }

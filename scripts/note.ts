@@ -17,6 +17,7 @@ import path from 'node:path';
 import { loadNotes, notePath } from './lib/notes.js';
 import { buildDraft } from './lib/draft.js';
 import { checkNote } from './lib/check-note.js';
+import { formatBacklog, listUntrackedNoteIds, summarizeBacklog } from './lib/backlog.js';
 import { listSnapshotDates, loadAllRepos, loadSnapshot } from './lib/storage.js';
 import { todayJST } from './lib/date.js';
 import type { Repository } from '../src/types.js';
@@ -51,6 +52,9 @@ async function main() {
     .slice(0, CANDIDATE_LIMIT);
 
   console.log(`紹介文つき: ${notes.size} 件 / 追跡: ${repos.length} 件\n`);
+  // 新しく書く前に、書きかけ・確認待ちが溜まっていないかを先に見せる
+  for (const line of formatBacklog(summarizeBacklog(notes, await listUntrackedNoteIds()))) console.log(line);
+  console.log('');
   console.log('--- まだ紹介文が無い注目リポジトリ ---');
   for (const r of candidates) {
     const delta = deltas.get(r.id);

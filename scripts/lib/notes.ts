@@ -21,18 +21,40 @@ import { DATA_DIR } from './storage.js';
 
 export const NOTES_DIR = path.join(DATA_DIR, 'notes');
 
+/**
+ * 下書きの状態。滞留を見えるようにするための印で、サイトの表示には使わない
+ *   draft  書いている途中
+ *   review Naoki の確認待ち
+ *   skip   見送り（コミットしない。理由を本文の先頭コメントに1行残す）
+ * 無い場合は「公開済み」か「未設定」。git で追跡済みかどうかで見分ける（backlog.ts）
+ */
+export const NOTE_STATUSES = ['draft', 'review', 'skip'] as const;
+export type NoteStatus = (typeof NOTE_STATUSES)[number];
+
 export interface Note {
   repoId: string;
   body: string;
   updated: string | null;
+  status: NoteStatus | null;
+  /** 手で指定したカテゴリ。自動判定より優先する（使えない値は resolveCategory で無視） */
+  category: string | null;
 }
 
-function parse(repoId: string, raw: string): Note {
+export function parseStatus(front: string): NoteStatus | null {
+  const value = front.match(/^status:[ \t]*(\S+)/m)?.[1];
+  return (NOTE_STATUSES as readonly string[]).includes(value ?? '') ? (value as NoteStatus) : null;
+}
+
+function parse(repoId: string, rawInput: string): Note {
+  // Windows で CRLF になった記事でも設定欄を読めるようにする
+  const raw = rawInput.replace(/\r\n/g, '\n');
   const match = raw.match(/^---\n([\s\S]*?)\n---\n?/);
   const front = match ? match[1] : '';
   const body = (match ? raw.slice(match[0].length) : raw).trim();
   const updated = front.match(/^updated:\s*(\S+)/m)?.[1] ?? null;
-  return { repoId, body, updated };
+  // ★ 行内に限定する。\s は改行も食うので、空の category: が次の行を拾ってしまう
+  const category = front.match(/^category:[ \t]*(\S+)/m)?.[1] ?? null;
+  return { repoId, body, updated, status: parseStatus(front), category };
 }
 
 /** 紹介文をすべて読み込む。repo_id → Note */

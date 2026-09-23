@@ -28,7 +28,7 @@ Claude Code や Codex などのコーディングエージェントに読ませ�
 
 ## 図
 
-<svg viewBox="0 0 800 440" role="img" aria-label="見出しに「AIが型を選び、決まりごとどおりに描く」とある図。左に「頼みごと（ふつうの言葉で）」があり、「この構成を図にして」と書かれている。中央は「型を選ぶ（選び方の手引き）」で、一覧から1つ、図にしない判断も、その型だけ読む（ほかは読まない）と並ぶ。右は「HTML 1枚（中身は SVG）」で、強調色は1色、影なし・4px刻み、ブラウザで開くだけ と書かれている。下に「見本を増やすより、描き方の制約を先に渡しておく、という設計」とある。" style="width: 100%; height: auto; display: block; font-family: var(--jp);">
+<svg viewBox="0 0 800 440" role="img" aria-label="見出しに「AIが型を選び、決まりごとどおりに描く」とある図。左に「頼みごと（ふつうの言葉で）」があり、「この構成を図にして」と書かれている。中央は「型を選ぶ（選び方の手引き）」で、一覧から1つ、図にしない判断も、その型だけ読む（ほかは読まない）と並ぶ。右は「HTML 1枚（中身は SVG）」で、強調色は1色、影なし・4px刻み、ブラウザで開くだけ と書かれている。ほかに「PNG・SVGにも」と、「自分のサイトの色と書体（最初に1回だけ取り込む）」がある。下に「見本を増やすより、描き方の制約を先に渡しておく、という設計」とある。" style="width: 100%; height: auto; display: block; font-family: var(--jp);">
   <defs>
     <marker id="dd-arrow" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="6" markerHeight="6" orient="auto-start-reverse">
       <path d="M0,0 L10,5 L0,10 z" fill="#1E5A48" />

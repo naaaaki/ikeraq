@@ -11,13 +11,16 @@ import { daysSince, daysBetween } from './date.js';
 import type { Repository, TrackingTier } from '../../src/types.js';
 
 /**
- * 「発見」に使う追跡枠（SPEC §10.4）。増やすのは1ヶ月運用してAPI消費の実測が出てから。
+ * 「発見」に使う追跡枠（SPEC §10.4）。
+ *
+ * 2026-09-24 に 1000 → 1500。9/17〜9/22 の実測で、1068件を追跡して core は1日約260回
+ * （上限 5,000/時の約5%）。1.5倍にしても1割を切る。1000 のままでは 9/20 から新規が0件だった。
  *
  * ★ これは上限そのものではない。紹介文を書いたものは、この枠とは**別に**数える
  *   （trackingCapacity を見ること）。記事つきをこの枠の中で守ると、記事が増えるほど
  *   新しいものを見つける力が落ちる。週3本なら年150件で、6〜7年で枠が全部埋まる（D-013）。
  */
-export const TRACKING_LIMIT = 1000;
+export const TRACKING_LIMIT = 1500;
 
 /**
  * いま許される追跡件数。発見枠 ＋ 紹介文を書いたもの。
@@ -25,10 +28,15 @@ export const TRACKING_LIMIT = 1000;
  * ★ 記事つきを別枠にするのは、記事を書いた時点で「そのページは読まれる前提」に
  *   なるため。数字の更新が止まったページを残すのは、書いた意味を損なう。
  * ★ 負担はほぼ増えない。記事つきは伸びが止まると休眠層に落ち、週1回しか見に行かない。
+ * ★ noteIds には data/notes にある記事の repoId を渡す。human_note は evaluate で付くため、
+ *   collect の時点では前日に書いた記事がまだ数えられない（1日遅れる）。
  */
-export function trackingCapacity(repos: Iterable<Repository>): number {
+export function trackingCapacity(
+  repos: Iterable<Repository>,
+  noteIds: ReadonlySet<string> = new Set()
+): number {
   let noted = 0;
-  for (const r of repos) if (r.human_note !== null) noted++;
+  for (const r of repos) if (r.human_note !== null || noteIds.has(r.id)) noted++;
   return TRACKING_LIMIT + noted;
 }
 

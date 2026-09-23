@@ -68,7 +68,7 @@ export async function saveRepoIfChanged(repo: Repository): Promise<boolean> {
   return true;
 }
 
-/** 追跡対象を全件読み込む。件数は上限1,000件想定（SPEC §10.4） */
+/** 追跡対象を全件読み込む。件数は上限1,500件想定（D-018） */
 export async function loadAllRepos(): Promise<Repository[]> {
   if (!existsSync(REPOS_DIR)) return [];
   const out: Repository[] = [];

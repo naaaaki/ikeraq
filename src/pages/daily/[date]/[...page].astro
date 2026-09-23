@@ -1,0 +1,71 @@
+---
+/**
+ * 日次アーカイブ
+ *
+ * その日のスナップショットに載ったものを、記録した順位のまま並べる。
+ * ★ 後から並べ直さない。あとで基準を変えても、その日に出した順位は残す
+ *   （順位はその日の stars_delta の降順で記録されているので、増加の多い順になっている）
+ *
+ * ★ 右端の数字は「その日の増加」を出す。以前は全ページで最新日の増加を出していて、
+ *   過去の日付のページで順位と数字が食い違って見えた（2026-09-24）。
+ *
+ * ★ 1ページ50件でページ分けする（paginate.ts）。1枚で2MBを超えていた。
+ *
+ * ★ 「ここから先は紹介文がありません」の区切りは出さない（noteTotal=0）。
+ *   日次は紹介文の有無で並べていないので、区切りの位置に意味がない。
+ */
+import type { GetStaticPaths } from 'astro';
+import ListPage from '../../../layouts/ListPage.astro';
+import { getSiteData, type RepoView } from '../../../lib/content.js';
+import { jaDate, num } from '../../../lib/format.js';
+import { paginate, type PagerInfo } from '../../../lib/paginate.js';
+import { loadSnapshot } from '../../../../scripts/lib/storage.js';
+
+export const getStaticPaths = (async () => {
+  const site = await getSiteData();
+  const paths = [];
+  for (const day of site.days) {
+    const snap = await loadSnapshot(day.date);
+    const dayDelta = new Map((snap?.entries ?? []).map((e) => [e.repo_id, e.stars_delta]));
+    const items = day.repoIds
+      .map((id) => site.byId.get(id))
+      .filter((v): v is RepoView => v !== undefined)
+      .map((v) => ({ ...v, delta: dayDelta.get(v.repo.id) ?? null }));
+    for (const slice of paginate(items, `/daily/${day.date}/`)) {
+      paths.push({
+        params: { date: day.date, page: slice.param },
+        props: { date: day.date, items: slice.items, pager: slice.pager, isLatest: day === site.days.at(-1) },
+      });
+    }
+  }
+  return paths;
+}) satisfies GetStaticPaths;
+
+interface Props {
+  date: string;
+  items: RepoView[];
+  pager: PagerInfo;
+  isLatest: boolean;
+}
+const { date, items, pager, isLatest } = Astro.props;
+const total = pager.allCount;
+---
+
+<ListPage
+  title={`${jaDate(date)}のトレンド`}
+  heading={`${jaDate(date)}のトレンド`}
+  description={`${date} に GitHub で伸びていたリポジトリ${num(total)}件の記録です。`}
+  lede={
+    isLatest
+      ? `${date} の記録です。この日にスターが増えた数の多い順に並べています。`
+      : `${date} の記録です。この日にスターが増えた数の多い順に、記録したまま残しています。ライセンスやスター数、更新の表示は今日時点のものです。`
+  }
+  items={items}
+  label="この日に伸びていたリポジトリ"
+  note={`この日の増加の多い順 · ${num(total)}件`}
+  empty="この日は記録が残っていません。"
+  deltaLabel="この日の増加"
+  pager={pager}
+  noteTotal={0}
+  noindex={pager.current > 1}
+/>

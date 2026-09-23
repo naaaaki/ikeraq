@@ -30,7 +30,7 @@ image_alt:
 
 ## 図
 
-<svg viewBox="0 0 800 405" role="img" aria-label="camofox-browser の仕組みの図。左のエージェントがREST APIで指示を送る。中央のサーバーは、書き換えたFirefoxで本物らしく振る舞い、ページを装飾を落とした骨組みに変え、押せる要素にe1・e2・e3の番号を振る。右のエージェントには番号付きの一覧が返り、番号を指して操作する。下に、生のHTMLではなく骨組みを返すので読む量が減ると添えられている。" style="width: 100%; height: auto; display: block; font-family: var(--jp);">
+<svg viewBox="0 0 800 405" role="img" aria-label="見出しに「ページを番号付きの骨組みにして返す」とある図。左の「エージェント（HTTPで頼む）」が「このページを開いて」「e7 を押して」「e3 に打ち込んで」と頼む。中央の「ブラウザサーバー」には、書き換えた Firefox で開く、正体がばれる値は、JSから見える前に差し替え、装飾を落として番号を振る、押せる要素に e1 / e2 / e3 … と並ぶ。右の「返ってくるもの」は「番号付きの一覧」で、e1 検索欄、e2 検索ボタン、e3 ログイン、（生のHTMLより9割小さい）とある。下に「座標もCSSの指定も組み立てずに済むので、指し間違いが起きにくい」とある。" style="width: 100%; height: auto; display: block; font-family: var(--jp);">
   <defs>
     <marker id="cf-arrow" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="6" markerHeight="6" orient="auto-start-reverse">
       <path d="M0,0 L10,5 L0,10 z" fill="#1E5A48" />

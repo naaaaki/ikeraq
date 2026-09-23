@@ -7,11 +7,13 @@
  *
  * ★ 件数が少ない組み合わせはページにしない（LICENSE_CROSS_MIN）。
  *   絞り込みの掛け算はページを無限に増やせるので、薄いものは作らない。
+ *
+ * ★ 1ページ50件でページ分けする（paginate.ts）。1ページ目の URL は今までと同じ。
  */
 import type { GetStaticPaths } from 'astro';
-import Base from '../../../layouts/Base.astro';
-import Sidebar from '../../../components/Sidebar.astro';
-import RepoListSection from '../../../components/RepoListSection.astro';
+import Base from '../../../../layouts/Base.astro';
+import Sidebar from '../../../../components/Sidebar.astro';
+import RepoListSection from '../../../../components/RepoListSection.astro';
 import {
   byNoteFirst,
   getSiteData,
@@ -20,21 +22,22 @@ import {
   LICENSE_GROUPS,
   type LicenseGroup,
   type RepoView,
-} from '../../../lib/content.js';
-import { categoryLabel, num } from '../../../lib/format.js';
+} from '../../../../lib/content.js';
+import { categoryLabel, num } from '../../../../lib/format.js';
+import { paginate, type PagerInfo } from '../../../../lib/paginate.js';
 
 export const getStaticPaths = (async () => {
   const site = await getSiteData();
   return LICENSE_GROUPS.flatMap((group) => {
-    const items = licenseGroupItems(site, group);
-    return licenseCrossCategories(items).map((c) => ({
-      params: { group: group.key, category: c.key },
-      props: {
-        group,
-        category: c.key,
-        items: items.filter((v) => (v.repo.category ?? 'other') === c.key).sort(byNoteFirst),
-      },
-    }));
+    const groupItems = licenseGroupItems(site, group);
+    return licenseCrossCategories(groupItems).flatMap((c) => {
+      const items = groupItems.filter((v) => (v.repo.category ?? 'other') === c.key).sort(byNoteFirst);
+      const noteTotal = items.filter((v) => v.note !== null).length;
+      return paginate(items, `/license/${group.key}/${c.key}/`).map((slice) => ({
+        params: { group: group.key, category: c.key, page: slice.param },
+        props: { group, category: c.key, items: slice.items, pager: slice.pager, noteTotal },
+      }));
+    });
   });
 }) satisfies GetStaticPaths;
 
@@ -42,18 +45,21 @@ interface Props {
   group: LicenseGroup;
   category: string;
   items: RepoView[];
+  pager: PagerInfo;
+  noteTotal: number;
 }
-const { group, category, items } = Astro.props;
+const { group, category, items, pager, noteTotal } = Astro.props;
 const label = categoryLabel(category);
 
 const heading = `${group.short}${label}`;
-const noteCount = items.filter((v) => v.note !== null).length;
-const order = noteCount > 0 ? `紹介文のあるものが先 · 増加の多い順 · ${num(items.length)}件` : `増加の多い順 · ${num(items.length)}件`;
+const total = pager.allCount;
+const order = noteTotal > 0 ? `紹介文のあるものが先 · 増加の多い順 · ${num(total)}件` : `増加の多い順 · ${num(total)}件`;
+const pageSuffix = pager.current > 1 ? `（${pager.current}ページ目）` : '';
 ---
 
 <Base
-  title={heading}
-  description={`${label}のうち、${group.short}ライセンスのリポジトリ${num(items.length)}件。スター数・更新状況とあわせてまとめています。`}
+  title={`${heading}${pageSuffix}`}
+  description={`${label}のうち、${group.short}ライセンスのリポジトリ${num(total)}件。スター数・更新状況とあわせてまとめています。${pageSuffix}`}
 >
   <main id="main" style="flex: 1; min-width: 0;">
     <nav class="meta" aria-label="パンくず" style="padding-top: 18px;">
@@ -67,14 +73,21 @@ const order = noteCount > 0 ? `紹介文のあるものが先 · 増加の多い
     </nav>
 
     <div style="padding: 26px 0 28px;">
-      <h1 class="display" style="margin: 0; font-size: 34px; line-height: 1.2;">{heading}</h1>
+      <h1 class="display" style="margin: 0; font-size: 34px; line-height: 1.2;">{heading}{pageSuffix && <span class="meta" style="font-size: 15px; margin-left: 10px;">{pageSuffix}</span>}</h1>
       <p class="meta" style="margin: 12px 0 0; font-size: 13px; line-height: 1.9; max-width: 620px;">
         {label}に分類したもののうち、{group.short}区分のライセンスがついたものだけを集めています。
         ライセンスの種類から機械的に分けているだけなので、使う前に原文を確認してください。
       </p>
     </div>
 
-    <RepoListSection items={items} label={heading} note={order} empty="該当するリポジトリはまだありません。" />
+    <RepoListSection
+      items={items}
+      label={heading}
+      note={order}
+      empty="該当するリポジトリはまだありません。"
+      pager={pager}
+      noteTotal={noteTotal}
+    />
 
     <p class="meta" style="font-size: 12.5px; padding: 28px 0 20px;">
       <a href={`/license/${group.key}/`}>{group.heading}をすべて見る</a>

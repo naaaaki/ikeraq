@@ -10,7 +10,7 @@
 import { test } from 'node:test';
 import assert from 'node:assert/strict';
 
-import { categorize } from '../scripts/lib/categorize.js';
+import { categorize, resolveCategory } from '../scripts/lib/categorize.js';
 import { detectFlags } from '../scripts/lib/flags.js';
 import { isIndexable, shouldGeneratePage, usabilityScore } from '../scripts/lib/score.js';
 import { newRepository } from '../scripts/lib/repository.js';
@@ -55,6 +55,19 @@ test('カテゴリはルールベースで決まる（LLM を使わない）', (
 test('教材系はリポジトリ名からも learning に寄せる', () => {
   assert.equal(categorize([], 'Markdown', 'awesome-rust'), 'learning');
   assert.equal(categorize(['roadmap'], null, 'developer-roadmap'), 'learning');
+});
+
+test('紹介文で手で指定したカテゴリは自動判定より優先する', () => {
+  // topics が空だと自動判定は「そのほか」に落ちる（openai/codex の実例）
+  assert.equal(resolveCategory(null, [], 'Rust', 'codex'), 'other');
+  assert.equal(resolveCategory('ai-agent', [], 'Rust', 'codex'), 'ai-agent');
+  // 自動判定と食い違っても人の指定を採る
+  assert.equal(resolveCategory('dev-tool', ['llm'], 'Python'), 'dev-tool');
+});
+
+test('一覧に無いカテゴリ指定は捨てて自動判定に戻す', () => {
+  assert.equal(resolveCategory('ai-agents', ['llm'], 'Python'), 'llm');
+  assert.equal(resolveCategory('', ['llm'], 'Python'), 'llm');
 });
 
 // ---------------------------------------------------------------------------

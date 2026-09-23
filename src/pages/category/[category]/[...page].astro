@@ -1,0 +1,56 @@
+---
+/**
+ * カテゴリ別（SPEC §6.3・ルールベース分類。LLM は使わない）
+ *
+ * ★ 1件も無いカテゴリのページは作らない。空のページを量産すると、
+ *   サイト全体が「中身の薄いページの集まり」として扱われる（SPEC §2.5）。
+ *
+ * ★ 1ページ50件でページ分けする（paginate.ts）。1ページ目の URL は今までと同じ。
+ */
+import type { GetStaticPaths } from 'astro';
+import ListPage from '../../../layouts/ListPage.astro';
+import { byNoteFirst, getSiteData, type RepoView } from '../../../lib/content.js';
+import { categoryLabel, num } from '../../../lib/format.js';
+import { paginate, type PagerInfo } from '../../../lib/paginate.js';
+
+export const getStaticPaths = (async () => {
+  const site = await getSiteData();
+  const groups = new Map<string, RepoView[]>();
+  for (const item of site.repos) {
+    const key = item.repo.category ?? 'other';
+    groups.set(key, [...(groups.get(key) ?? []), item]);
+  }
+  return [...groups.entries()].flatMap(([category, items]) => {
+    const sorted = items.sort(byNoteFirst);
+    const noteTotal = sorted.filter((v) => v.note !== null).length;
+    return paginate(sorted, `/category/${category}/`).map((slice) => ({
+      params: { category, page: slice.param },
+      props: { category, items: slice.items, pager: slice.pager, noteTotal },
+    }));
+  });
+}) satisfies GetStaticPaths;
+
+interface Props {
+  category: string;
+  items: RepoView[];
+  pager: PagerInfo;
+  noteTotal: number;
+}
+const { category, items, pager, noteTotal } = Astro.props;
+const label = categoryLabel(category);
+const total = pager.allCount;
+const order = noteTotal > 0 ? `紹介文のあるものが先 · 増加の多い順 · ${num(total)}件` : `増加の多い順 · ${num(total)}件`;
+---
+
+<ListPage
+  title={label}
+  heading={label}
+  description={`${label}に分類したリポジトリ${num(total)}件。スター数・ライセンス・更新状況をまとめています。`}
+  lede={`topics と言語から機械的に分類しています（紹介文を書いたものは人が指定することがあります）。分け方は「判定の基準」に公開しています。`}
+  items={items}
+  label={`${label}のリポジトリ`}
+  note={order}
+  empty="このカテゴリのリポジトリはまだありません。"
+  pager={pager}
+  noteTotal={noteTotal}
+/>

@@ -5,9 +5,11 @@
  *
  * 精度は完璧でなくてよい。絞り込みの補助であり、判定の根拠ではないため。
  * 運用しながらルールを育てる前提の場所なので、追記しやすい形にしてある。
+ *
+ * ★ docs/criteria.md の「カテゴリの分け方」と対。ルールを変えたら原稿も直すこと。
  */
 
-import type { Category } from '../../src/types.js';
+import { CATEGORIES, type Category } from '../../src/types.js';
 
 interface Rule {
   category: Category;
@@ -118,4 +120,22 @@ export function categorize(
   }
 
   return 'other';
+}
+
+/**
+ * 紹介文で手で指定したカテゴリがあれば、それを優先する。
+ *
+ * ★ topics が空のリポジトリは自動判定がほぼ「そのほか」に落ちる（openai/codex など）。
+ *   紹介文を書いた記事は中身を読んでいるので、人の判断を上に置く。
+ * ★ 一覧に無い値（書き間違い）は捨てて自動判定に戻す。存在しないカテゴリのページを作らないため。
+ */
+export function resolveCategory(
+  manual: string | null | undefined,
+  topics: string[] | null | undefined,
+  language: string | null | undefined,
+  repoName?: string
+): Category {
+  if (manual && (CATEGORIES as readonly string[]).includes(manual)) return manual as Category;
+  if (manual) console.warn(`[categorize] 使えないカテゴリ指定のため無視します: ${manual}`);
+  return categorize(topics, language, repoName);
 }

@@ -8,7 +8,9 @@
 import type { RepoView } from '../lib/content.js';
 import RepoRow from './RepoRow.astro';
 import Mascot from './Mascot.astro';
+import Pager from './Pager.astro';
 import { num } from '../lib/format.js';
+import type { PagerInfo } from '../lib/paginate.js';
 
 interface Props {
   items: RepoView[];
@@ -17,23 +19,35 @@ interface Props {
   note?: string;
   /** 1件も無いときに出す文。ページごとに事情が違うので必ず渡す */
   empty: string;
+  /** 右端の数字の見出し。日次の過去ページでは「今日」ではない */
+  deltaLabel?: string;
+  /** ページ分けしているときだけ渡す */
+  pager?: PagerInfo;
+  /** ページ分けしているとき、全体で紹介文のある件数（境目の位置を全体で決めるため） */
+  noteTotal?: number;
 }
-const { items, label, note, empty } = Astro.props;
+const { items, label, note, empty, deltaLabel = '今日の増加', pager, noteTotal } = Astro.props;
 
 /**
  * 紹介文があるものは先頭に固めてある（byNoteFirst）。
  * その塊がどこで終わるかを出して、境目を分かるようにする。
  * 印を付けなくても、日本語の一文が出ているかどうかで見分けはつくが、
  * 「ここから先は機械が集めただけ」と言い切ったほうが読む側は迷わない。
+ *
+ * ★ ページ分けしているときは、境目を全体の位置で決める。
+ *   ページの切れ目と境目が重なると、次のページの先頭に出す。
  */
-const noteCount = items.filter((v) => v.note !== null).length;
-const showDivider = noteCount > 0 && noteCount < items.length;
+const offset = pager?.offset ?? 0;
+const allCount = pager?.allCount ?? items.length;
+const noteCount = noteTotal ?? items.filter((v) => v.note !== null).length;
+const dividerAt = noteCount > 0 && noteCount < allCount ? noteCount - offset : -1;
+const showDivider = dividerAt >= 0 && dividerAt < items.length && !(offset === 0 && dividerAt === 0);
 ---
 
 <div class="section-head" style="padding: 8px 0 4px;">
   <span class="label">{label}</span>
   <span class="fill"></span>
-  <span class="meta">{note ?? `${num(items.length)}件`}</span>
+  <span class="meta">{note ?? `${num(allCount)}件`}</span>
 </div>
 
 {
@@ -44,16 +58,18 @@ const showDivider = noteCount > 0 && noteCount < items.length;
     </div>
   ) : (
     <>
-      <div
-        style="display: grid; grid-template-columns: 96px minmax(0, 1fr) 104px; gap: 20px; padding: 12px 0 8px; border-bottom: 1px solid var(--rule2);"
-      >
+      {/*
+        ★ 列の幅は .row に任せる。style で3列を直書きすると、スマホ幅で .row だけが
+          2列に切り替わり、見出しと数字の列がずれる（トップと同じ直し方）。
+      */}
+      <div class="row" style="padding: 12px 0 8px; border-bottom: 1px solid var(--rule2);">
         <span class="label row-lang" style="font-size: 10px;">言語</span>
         <span class="label" style="font-size: 10px;">リポジトリ</span>
-        <span class="label" style="font-size: 10px; text-align: right;">今日の増加</span>
+        <span class="label" style="font-size: 10px; text-align: right;">{deltaLabel}</span>
       </div>
       {items.map((item, i) => (
         <>
-          {showDivider && i === noteCount && (
+          {showDivider && i === dividerAt && (
             <div class="section-head" style="padding: 26px 0 6px;">
               <span class="label">ここから先は、まだ紹介文がありません</span>
               <span class="fill" />
@@ -62,6 +78,7 @@ const showDivider = noteCount > 0 && noteCount < items.length;
           <RepoRow item={item} />
         </>
       ))}
+      {pager && <Pager pager={pager} />}
     </>
   )
 }
