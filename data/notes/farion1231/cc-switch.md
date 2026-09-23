@@ -1,0 +1,93 @@
+---
+updated: 2026-09-23
+image:
+image_alt:
+---
+
+<!-- ============================================================
+  farion1231/cc-switch
+  https://github.com/farion1231/cc-switch
+  A cross-platform desktop All-in-One assistant for Claude Code, Codex, OpenCode, OpenClaw, Grok Build & Hermes Agent. Only official website: ccswitch.io
+  Rust / MIT / スター 134,211
+  topics: ai-tools, claude-code, codex, desktop-app, grok, grokbuild, hermes, hermes-agent, mcp, open-source, openclaw, openclaw-ui, opencode, pi, provider-management, rust, skills, skills-management, tauri, wsl-support
+
+  書き方は docs/article-template.md を見る。
+  必須は「どういうものか」だけ。ほかは書けたら書く。
+  英語の説明を訳しただけにしない。触っていないことは書かない。
+============================================================ -->
+
+
+## 見出しの一文
+
+AIコーディングツール9種の接続先を、設定ファイルを開かずに切り替える
+
+
+## どういうものか
+
+Claude Code や Codex、Gemini CLI などのAIコーディングツールは、**使うAPIの接続先をそれぞれ別の形式の設定ファイルに書く。** JSON のものもあれば TOML や `.env` のものもある。CC Switch は、この書き換えを画面の操作に置き換えるデスクトップアプリだ。Tauri 2 で作られていて、Windows・macOS・Linux で動く。ライセンスは MIT。
+
+仕組みは、**接続先の情報を手元の SQLite のデータベースに一元で持ち、切り替えたときに各ツールの設定ファイルへ書き出す**というもの。README によれば、対応するツールは Claude Code・Claude Desktop・Codex・Gemini CLI・Grok Build・OpenCode・OpenClaw・Hermes・MiniMax Code の9種。接続先は AWS Bedrock などを含む50以上の既成の設定から選べ、切り替えは画面のほか、タスクトレイのメニューからもできる。使用中の接続先を編集したときは、ツール側の設定ファイルから内容を読み戻す。書き込みは一時ファイルに書いてから置き換える方式で、途中で設定が壊れるのを防いでいる。
+
+接続先の切り替え以外にも手が広い。複数のツールにまたがる MCP サーバーとスキルの管理、CLAUDE.md・AGENTS.md・GEMINI.md といった指示ファイルの同期、利用料とトークン数の記録、会話履歴の検索と復元が入っている。手元で中継（プロキシ）を立て、接続先の不調時に別の接続先へ自動で切り替える機能もある。画面は日本語にも対応している。
+
+
+## 図
+
+<svg viewBox="0 0 800 450" role="img" aria-label="設定ファイルを手で書き換えない。接続先の一覧（50以上の既成の設定）。CC Switch（手元のデータベースに一元で保管）。切り替えると書き出す。使用中を編集すると読み戻す。各ツールの設定ファイル（JSON・TOML・.env）。Claude Code・Codex・Gemini CLI ほか、全9種。アプリを消しても、各ツールはそのまま動く" style="width: 100%; height: auto; display: block; font-family: var(--jp);">
+  <defs>
+    <marker id="ccs-arrow" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="6" markerHeight="6" orient="auto-start-reverse">
+      <path d="M0,0 L10,5 L0,10 z" fill="#1E5A48" />
+    </marker>
+  </defs>
+  <rect width="800" height="450" fill="#FFFFFF" />
+  <text x="400" y="60" text-anchor="middle" font-size="26" font-weight="700" fill="#17160F">設定ファイルを<tspan fill="#1E5A48">手で書き換えない</tspan></text>
+
+  <rect x="30" y="170" width="190" height="100" rx="8" fill="none" stroke="#17160F" stroke-opacity="0.28" stroke-width="1.5" />
+  <text x="125" y="212" text-anchor="middle" font-size="16" font-weight="700" fill="#17160F">接続先の一覧</text>
+  <text x="125" y="240" text-anchor="middle" font-size="12" fill="#17160F" fill-opacity="0.72">（50以上の既成の設定）</text>
+
+  <line x1="226" y1="220" x2="276" y2="220" stroke="#1E5A48" stroke-width="4" marker-end="url(#ccs-arrow)" />
+
+  <rect x="282" y="160" width="220" height="120" rx="8" fill="none" stroke="#1E5A48" stroke-width="2" />
+  <text x="392" y="208" text-anchor="middle" font-size="18" font-weight="700" fill="#1E5A48">CC Switch</text>
+  <text x="392" y="238" text-anchor="middle" font-size="12" fill="#17160F" fill-opacity="0.72">（手元のデータベースに一元で保管）</text>
+
+  <text x="562" y="186" text-anchor="middle" font-size="11.5" fill="#17160F" fill-opacity="0.72">切り替えると書き出す</text>
+  <line x1="508" y1="200" x2="610" y2="200" stroke="#1E5A48" stroke-width="4" marker-end="url(#ccs-arrow)" />
+  <line x1="610" y1="244" x2="510" y2="244" stroke="#1E5A48" stroke-width="2" stroke-dasharray="6 5" marker-end="url(#ccs-arrow)" />
+  <text x="562" y="266" text-anchor="middle" font-size="11.5" fill="#17160F" fill-opacity="0.72">使用中を編集すると読み戻す</text>
+
+  <rect x="616" y="160" width="160" height="120" rx="8" fill="none" stroke="#17160F" stroke-opacity="0.28" stroke-width="1.5" />
+  <text x="696" y="208" text-anchor="middle" font-size="15" font-weight="700" fill="#17160F">各ツールの</text>
+  <text x="696" y="230" text-anchor="middle" font-size="15" font-weight="700" fill="#17160F">設定ファイル</text>
+  <text x="696" y="256" text-anchor="middle" font-size="11" fill="#17160F" fill-opacity="0.72">（JSON・TOML・.env）</text>
+
+  <text x="696" y="310" text-anchor="middle" font-size="12" fill="#17160F" fill-opacity="0.72">Claude Code・Codex・Gemini CLI ほか</text>
+  <text x="696" y="330" text-anchor="middle" font-size="12" fill="#17160F" fill-opacity="0.72">全9種</text>
+
+  <text x="400" y="404" text-anchor="middle" font-size="14" fill="#17160F" fill-opacity="0.72">アプリを消しても、各ツールはそのまま動く</text>
+</svg>
+
+キャプション: 設定の**正本はアプリ側のデータベース**にあり、ツールの設定ファイルは切り替えのたびに書き出される側。README は設計の原則に「最小限の介入」を挙げ、アプリを消してもツールは動き続けるとしている。
+
+
+## どんなときに使うか
+
+### 複数のAIコーディングツールを、同じ接続先で使い回したいとき
+
+ツールごとに設定ファイルの場所も形式も違うので、接続先を1つ変えるだけでも何か所も書き換えることになる。README は、1つの設定を Claude Code・Codex・Gemini CLI にまとめて反映する使い方も挙げている。
+
+### 公式の契約と別の接続先を、場面で行き来したいとき
+
+公式のログインに戻すための既成の設定も用意されている。Codex については、複数の Plus や Team のアカウントの間で切り替えられると README にある。
+
+
+## 注意点
+
+**切り替えてもすぐには効かないツールが多い。** README の FAQ によれば、多くのツールは切り替えのあとにターミナルかツール自体の再起動が要り、今のところの例外は Claude Code だ。ただし同じリポジトリの説明書には、手元の中継を通す使い方なら再起動は要らないとある。
+
+**使用中の接続先は消せない。** 全部消すとそのツールが使えなくなるため、常に1つは有効な設定を残す設計になっている。使わないツールは設定画面で非表示にする形だ。
+
+**README の冒頭はスポンサー欄が長い。** 30を超える協賛の紹介が並び、その中には API の中継サービスが目立つ。既成の接続先にも中継サービスが含まれている。中継を通せば、送る内容はその事業者を経由する。どこを通すかは、自分で選んで確かめたい。
+
+**入手先に気をつけたい。** README は公式サイトを ccswitch.io の1つだけだと明記している。入れるなら、README に書かれた入手方法（GitHub の Releases、Homebrew など）を使いたい。

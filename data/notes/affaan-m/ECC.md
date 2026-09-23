@@ -1,0 +1,110 @@
+---
+updated: 2026-09-23
+image:
+image_alt:
+---
+
+<!-- ============================================================
+  affaan-m/ECC
+  https://github.com/affaan-m/ECC
+  The agent harness performance optimization system. Skills, instincts, memory, security, and research-first development for Claude Code, Codex, Opencode, Cursor and beyond.
+  JavaScript / MIT / スター 26万台
+============================================================ -->
+
+
+## 見出しの一文
+
+計画・テスト・レビューの進め方を、頼み直さずにAIエージェントへ持たせる
+
+
+## どういうものか
+
+Claude Code をはじめとする AI コーディング用のエージェントに、**作業の進め方をまるごと入れる**ための部品集だ。README は流れを「計画 → テスト → 実装 → レビュー → 確認 → 記憶 → 改善」と示し、この手順を毎回のプロンプトで組み立て直すのではなく、一度入れてエージェントの働き方の一部にする、と説明している。中身は60を超えるエージェント、290ほどのスキルに、フックやルールなどが加わる。ライセンスは MIT。
+
+部品は役割ごとに分かれている。**スキル**は TDD やセキュリティ確認のような手順で、作業に必要なときだけ読み込まれる。**エージェント**は計画やレビューを受け持つ担当で、それぞれ自分の文脈と道具の権限を持つ。**ルール**は言語やプロジェクトごとの決まりで、常に読み込まれるため必要なものを選んで入れる。**フック**はエージェントの操作をきっかけに動くスクリプトで、モデルの外側で決まったチェックをかける。README の比較表は、「TDD で」と頼むだけではモデルが忘れうる指示にとどまるが、ECC では赤（失敗）→ 緑（成功）→ 整理と段階を踏む流れになる、と両者を並べている。
+
+ほかに、**覚える仕組みと守る仕組み**がある。作業のやり取りは要約や、確信度つきのパターン（README は「instinct」と呼ぶ）にまとめられ、関係する場面で呼び出される。記憶は Markdown で手元に置かれ、Claude Code と Codex など別のエージェントの間で引き継ぐこともできる。守る側の AgentShield は、プロンプト・フック・MCP の設定・権限・秘密情報といった、**エージェント自身の設定を攻撃の入口として点検する**。いちばん手厚く対応しているのは Claude Code で、Codex はプラグインとして対応、Cursor と OpenCode はベータ、GitHub Copilot は指示ファイルだけ、と README の対応表は線を引いている。
+
+
+## 図
+
+<svg viewBox="0 0 800 450" role="img" aria-label="作業の手順ごと、エージェントに組み込む。計画（着手前に形にして残す）、テスト（先に失敗を確かめる）、実装（テストが通るまで）、レビュー（まっさらな文脈で見直す）、確認（ビルド・型・テスト）、記憶（要約して残す）、改善（繰り返しを技能にする）。毎回プロンプトで頼み直さず、一度入れて使い回す" style="width: 100%; height: auto; display: block; font-family: var(--jp);">
+  <defs>
+    <marker id="ecc-arrow" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="6" markerHeight="6" orient="auto-start-reverse">
+      <path d="M0,0 L10,5 L0,10 z" fill="#1E5A48" />
+    </marker>
+  </defs>
+  <rect width="800" height="450" fill="#FFFFFF" />
+  <text x="400" y="52" text-anchor="middle" font-size="26" font-weight="700" fill="#17160F">作業の手順ごと、<tspan fill="#1E5A48">エージェントに組み込む</tspan></text>
+
+  <!-- 上の段：計画 → テスト → 実装 → レビュー -->
+  <rect x="40" y="100" width="150" height="80" rx="8" fill="none" stroke="#17160F" stroke-opacity="0.28" stroke-width="1.5" />
+  <text x="115" y="134" text-anchor="middle" font-size="15" font-weight="700" fill="#17160F">計画</text>
+  <text x="115" y="158" text-anchor="middle" font-size="11" fill="#17160F" fill-opacity="0.72">（着手前に形にして残す）</text>
+
+  <line x1="194" y1="140" x2="222" y2="140" stroke="#1E5A48" stroke-width="4" marker-end="url(#ecc-arrow)" />
+
+  <rect x="230" y="100" width="150" height="80" rx="8" fill="none" stroke="#17160F" stroke-opacity="0.28" stroke-width="1.5" />
+  <text x="305" y="134" text-anchor="middle" font-size="15" font-weight="700" fill="#17160F">テスト</text>
+  <text x="305" y="158" text-anchor="middle" font-size="11" fill="#17160F" fill-opacity="0.72">（先に失敗を確かめる）</text>
+
+  <line x1="384" y1="140" x2="412" y2="140" stroke="#1E5A48" stroke-width="4" marker-end="url(#ecc-arrow)" />
+
+  <rect x="420" y="100" width="150" height="80" rx="8" fill="none" stroke="#17160F" stroke-opacity="0.28" stroke-width="1.5" />
+  <text x="495" y="134" text-anchor="middle" font-size="15" font-weight="700" fill="#17160F">実装</text>
+  <text x="495" y="158" text-anchor="middle" font-size="11" fill="#17160F" fill-opacity="0.72">（テストが通るまで）</text>
+
+  <line x1="574" y1="140" x2="602" y2="140" stroke="#1E5A48" stroke-width="4" marker-end="url(#ecc-arrow)" />
+
+  <rect x="610" y="100" width="150" height="80" rx="8" fill="none" stroke="#1E5A48" stroke-width="2" />
+  <text x="685" y="134" text-anchor="middle" font-size="15" font-weight="700" fill="#1E5A48">レビュー</text>
+  <text x="685" y="158" text-anchor="middle" font-size="11" fill="#17160F" fill-opacity="0.72">（まっさらな文脈で見直す）</text>
+
+  <!-- 下へ -->
+  <line x1="685" y1="184" x2="685" y2="222" stroke="#1E5A48" stroke-width="4" marker-end="url(#ecc-arrow)" />
+
+  <!-- 下の段：確認 ← 記憶 ← 改善（右から左へ） -->
+  <rect x="610" y="230" width="150" height="80" rx="8" fill="none" stroke="#17160F" stroke-opacity="0.28" stroke-width="1.5" />
+  <text x="685" y="264" text-anchor="middle" font-size="15" font-weight="700" fill="#17160F">確認</text>
+  <text x="685" y="288" text-anchor="middle" font-size="11" fill="#17160F" fill-opacity="0.72">（ビルド・型・テスト）</text>
+
+  <line x1="606" y1="270" x2="578" y2="270" stroke="#1E5A48" stroke-width="4" marker-end="url(#ecc-arrow)" />
+
+  <rect x="420" y="230" width="150" height="80" rx="8" fill="none" stroke="#17160F" stroke-opacity="0.28" stroke-width="1.5" />
+  <text x="495" y="264" text-anchor="middle" font-size="15" font-weight="700" fill="#17160F">記憶</text>
+  <text x="495" y="288" text-anchor="middle" font-size="11" fill="#17160F" fill-opacity="0.72">（要約して残す）</text>
+
+  <line x1="416" y1="270" x2="388" y2="270" stroke="#1E5A48" stroke-width="4" marker-end="url(#ecc-arrow)" />
+
+  <rect x="230" y="230" width="150" height="80" rx="8" fill="none" stroke="#1E5A48" stroke-width="2" />
+  <text x="305" y="264" text-anchor="middle" font-size="15" font-weight="700" fill="#1E5A48">改善</text>
+  <text x="305" y="288" text-anchor="middle" font-size="11" fill="#17160F" fill-opacity="0.72">（繰り返しを技能にする）</text>
+
+  <text x="400" y="390" text-anchor="middle" font-size="13.5" fill="#17160F" fill-opacity="0.72">毎回プロンプトで頼み直さず、一度入れて使い回す</text>
+</svg>
+
+キャプション: 手順を**プロンプトではなく部品として持たせる**のがこの設計の考え方。流れが「記憶」と「改善」で終わるのは、うまくいったやり方をスキルとして残し、次の作業で使い回すためだ。
+
+
+## どんなときに使うか
+
+### AIに「テストを先に書いて」と毎回頼み直しているとき
+
+README は、プロンプトで伝えた指示はモデルが忘れることがある、と書いている。ECC はその進め方をスキルやフックとして入れておく作りで、README はこれを「忘れうる指示」と「段階を踏む流れ」の違いとして説明している。
+
+### Claude Code と Codex を行き来しながら作業しているとき
+
+途中までの経緯を、片方から片方へ Markdown の記憶として渡せる。やり取りの記録をまるごと写すのではなく、引き継ぎ用のメモとして残す形だ。ただしこの引き継ぎの仕組み（Memory Vault）は、プラグインとして入れただけでは使えず、別に npm で実行環境を入れる必要がある。
+
+
+## 注意点
+
+**全部入れると、そのぶん文脈を使う。** ルールは常に読み込まれ、プラグインは入っている部品の一覧をモデルに示す。README は、文脈の消費が気になる場合は必要なものだけ選んで入れる形を勧めている。
+
+**入れ方を重ねない。** 同じエージェントに二通りの方法で入れると、スキルやフックが二重になることがあると README は注意している。別々のエージェントにそれぞれ1回ずつ入れるのは問題ない。
+
+**Claude Code 以外では、使える範囲が狭くなる。** Cursor や OpenCode はベータ、GitHub Copilot は指示ファイルだけで、フックやエージェントは動かない。Windows でそのまま使う場合も、一部の学習機能と記憶の書き込みに未解決の不具合があると README に明記されている。
+
+**フックはシェルのコマンドを動かす。** README 自身が、フック・MCP サーバー・プロジェクトの指示を「実行される設定」として扱うよう求めている。入れる前に中身を確かめたい。あわせて、公式以外の場所に再アップロードされたものはマルウェアを含むおそれがあるとして、入手先を GitHub・npm・公式サイトなどに限るよう呼びかけている。
+
+**本体は無料、GitHub App の機能の一部は有料。** ECC 本体は MIT で無料のまま、と README は明記している。運営側がホストする GitHub App は、公開リポジトリなら無料で入れられるが、使える回数に上限がある。非公開リポジトリでの利用のほか、プルリクエストをきっかけにした自動の点検や、GitHub App 上での AgentShield による点検などは有料の ECC Pro に含まれ、料金は利用人数ごとの月額だ。

@@ -1,0 +1,91 @@
+---
+updated: 2026-09-23
+image:
+image_alt:
+---
+
+<!-- ============================================================
+  can1357/oh-my-pi
+  https://github.com/can1357/oh-my-pi
+  ⌥ Coding agent with the IDE wired in
+  TypeScript / MIT / スター 32,000台
+============================================================ -->
+
+
+## 見出しの一文
+
+ターミナルのAIエージェントに、IDEの言語解析とデバッガを直結する
+
+
+## どういうものか
+
+ターミナルで動く、コードを書くためのAIエージェントだ。Mario Zechner 氏の Pi（pi-mono）から枝分かれしたもので、README は元の Pi に「足りないものを全部入れた」と位置づけている。本体は TypeScript（実行環境は Bun）と Rust で書かれ、ライセンスは MIT。macOS・Linux・Windows で動き、Windows でも WSL を挟まないとしている。
+
+中心にあるのは、**IDE が裏で使っている道具を、エージェントに直接持たせる**という考え方だ。ファイルを書き換えるたびに言語サーバー（LSP）を通す。たとえばファイルの名前を変えると、そのファイルを読み込んでいる側の記述が、移動の前に書き換わる。不具合を調べるときは、lldb・dlv・debugpy といった本物のデバッガにつないで、1行ずつ進めたり変数の中身を読んだりする。検索やシェルは、ripgrep や bash 互換のシェル（brush）などを Rust の実装として同じプロセスに組み込み、よく使う操作では別のコマンドを立ち上げない。編集は、行の中身から作った目印（ハッシュ）を指して行う方式で、ファイルが途中で変わっていれば、書き込む前にはじく。
+
+周りの仕組みも厚い。モデルは60以上の提供元から選べ、「通常」「安く大量に回す下請け」「じっくり考える」「計画を立てる」といった役割ごとに別のモデルを割り当てられる。作業を分けて並列に動かすサブエージェント（作業場所を分けて動かすこともできる）、別のモデルに毎回の手順を見張らせて注意を差し込ませる「advisor」も入っている。また、初回の起動時に `.claude`・`.cursor`・`.codex` などに置かれたルール・スキル・MCP サーバーの設定を、そのまま読み込む。
+
+
+## 図
+
+<svg viewBox="0 0 800 450" role="img" aria-label="見出しに「エージェントにIDEの道具を直結する」とある図。左に「モデル（60以上の提供元から選ぶ）」があり、矢印で中央の「omp（道具の窓口）」につながる。ompからは右の3つへ矢印が分かれ、上から「言語サーバー（LSP）（名前の変更・診断）」「デバッガ（lldb・dlv・debugpy）」「検索・シェル（Rust製を内蔵）」とある。いちばん下に「IDEが使う言語解析とデバッガを、エージェントが自分で使う」とある。" style="width: 100%; height: auto; display: block; font-family: var(--jp);">
+  <defs>
+    <marker id="omp-arrow" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="6" markerHeight="6" orient="auto-start-reverse">
+      <path d="M0,0 L10,5 L0,10 z" fill="#1E5A48" />
+    </marker>
+  </defs>
+  <rect width="800" height="450" fill="#FFFFFF" />
+  <text x="400" y="52" text-anchor="middle" font-size="26" font-weight="700" fill="#17160F">エージェントに<tspan fill="#1E5A48">IDEの道具</tspan>を直結する</text>
+
+  <rect x="30" y="196" width="180" height="96" rx="8" fill="none" stroke="#17160F" stroke-opacity="0.28" stroke-width="1.5" />
+  <text x="120" y="234" text-anchor="middle" font-size="15" font-weight="700" fill="#17160F">モデル</text>
+  <text x="120" y="260" text-anchor="middle" font-size="11" fill="#17160F" fill-opacity="0.72">（60以上の提供元から選ぶ）</text>
+
+  <line x1="216" y1="244" x2="244" y2="244" stroke="#1E5A48" stroke-width="4" marker-end="url(#omp-arrow)" />
+
+  <rect x="250" y="196" width="180" height="96" rx="8" fill="none" stroke="#1E5A48" stroke-width="2" />
+  <text x="340" y="234" text-anchor="middle" font-size="15" font-weight="700" fill="#1E5A48">omp</text>
+  <text x="340" y="260" text-anchor="middle" font-size="11" fill="#17160F" fill-opacity="0.72">（道具の窓口）</text>
+
+  <line x1="436" y1="226" x2="524" y2="160" stroke="#1E5A48" stroke-width="4" marker-end="url(#omp-arrow)" />
+  <line x1="436" y1="244" x2="524" y2="244" stroke="#1E5A48" stroke-width="4" marker-end="url(#omp-arrow)" />
+  <line x1="436" y1="262" x2="524" y2="328" stroke="#1E5A48" stroke-width="4" marker-end="url(#omp-arrow)" />
+
+  <rect x="530" y="112" width="240" height="72" rx="8" fill="none" stroke="#17160F" stroke-opacity="0.28" stroke-width="1.5" />
+  <text x="650" y="142" text-anchor="middle" font-size="15" font-weight="700" fill="#17160F">言語サーバー（LSP）</text>
+  <text x="650" y="166" text-anchor="middle" font-size="11" fill="#17160F" fill-opacity="0.72">（名前の変更・診断）</text>
+
+  <rect x="530" y="208" width="240" height="72" rx="8" fill="none" stroke="#17160F" stroke-opacity="0.28" stroke-width="1.5" />
+  <text x="650" y="238" text-anchor="middle" font-size="15" font-weight="700" fill="#17160F">デバッガ</text>
+  <text x="650" y="262" text-anchor="middle" font-size="11" fill="#17160F" fill-opacity="0.72">（lldb・dlv・debugpy）</text>
+
+  <rect x="530" y="304" width="240" height="72" rx="8" fill="none" stroke="#17160F" stroke-opacity="0.28" stroke-width="1.5" />
+  <text x="650" y="334" text-anchor="middle" font-size="15" font-weight="700" fill="#17160F">検索・シェル</text>
+  <text x="650" y="358" text-anchor="middle" font-size="11" fill="#17160F" fill-opacity="0.72">（Rust製を内蔵）</text>
+
+  <text x="400" y="422" text-anchor="middle" font-size="13.5" fill="#17160F" fill-opacity="0.72">IDEが使う言語解析とデバッガを、エージェントが自分で使う</text>
+</svg>
+
+キャプション: IDE の裏で動いている言語サーバーやデバッガを、**エージェントが直接操作する**のがこの設計の軸。検索やシェルも Rust の実装を組み込み、よく使う操作では別のコマンドを立ち上げない。
+
+
+## どんなときに使うか
+
+### 名前の変更や不具合の調査まで、エージェントに任せたいとき
+
+ファイルの名前の変更は言語サーバーを通るので、読み込んでいる側の記述もそろえて直る。不具合の調査では、print 文を足して回る代わりにデバッガで止めて中身を見る、という進め方をエージェント自身が取れる。
+
+### いまのエージェントの設定を持ったまま、別のものを試したいとき
+
+初回の起動で、Claude Code・Cursor・Codex などが置いたルールやスキル、MCP サーバーの設定を読み込む。README は「移行用のスクリプトは要らない」としている。モデルは API キーのほか、Cursor や GitHub Copilot などの契約を経由してつなぐ方法も用意されている。
+
+
+## 注意点
+
+**機能がとても多い。** 標準で入っている道具だけで30前後あり、ブラウザやデスクトップの操作、画像生成、読み上げまで含む。一部（GitHub 操作、セキュリティ診断、画像生成、読み上げ、記憶まわりなど）は設定で有効にするまで止まっている。**小さく単純なエージェントが欲しい人には合わない**。
+
+**README の性能の数字は、条件が一行ずつしか書かれていない。** モデルごとに「成功率が何倍になった」「出力が何割減った」といった表が載っているが、どんな作業で測ったかといった詳しい条件は作者のブログ記事に回されている。数字をそのまま受け取らず、手元の作業で確かめたい。
+
+**ライセンスは MIT。ただし一部は別。** 中に取り込んでいるシェルの実装（brush）や、コマンド群の一部は、それぞれの元のライセンスに従うと README にある。組み込んで配る場合は、同梱の第三者ライセンスの一覧も確認しておきたい。
+
+**新しく、動きが速い。** リポジトリができたのは2025年の末。プルリクエストは現在「試験的に」誰からでも受け付けていて、以前の推薦制に戻る可能性があると書かれている。
