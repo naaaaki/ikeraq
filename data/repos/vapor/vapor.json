@@ -15,12 +15,12 @@
     "vapor",
     "web-framework"
   ],
-  "stars": 26217,
-  "forks": 1530,
+  "stars": 26220,
+  "forks": 1531,
   "watchers": null,
   "open_issues": 83,
   "created_at": "2016-01-18T22:37:52Z",
-  "pushed_at": "2026-09-23T13:05:58Z",
+  "pushed_at": "2026-09-24T15:49:10Z",
   "is_archived": false,
   "license_spdx": "MIT",
   "license_category": "permissive",
@@ -33,10 +33,10 @@
   "category": "backend",
   "flags": [],
   "usability_score": 100,
-  "snapshot_days": 21,
+  "snapshot_days": 22,
   "is_indexable": true,
   "first_seen_at": "2026-09-03T23:03:15.575Z",
   "tracking_tier": "hot",
-  "last_fetched_date": "2026-09-24",
+  "last_fetched_date": "2026-09-25",
   "stars_stagnant_days": 0
 }

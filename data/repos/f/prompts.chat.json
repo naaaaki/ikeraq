@@ -25,9 +25,9 @@
     "prompts-chat",
     "typescript"
   ],
-  "stars": 171122,
-  "forks": 21983,
-  "watchers": 1660,
+  "stars": 171190,
+  "forks": 21990,
+  "watchers": 1658,
   "open_issues": 82,
   "created_at": "2022-12-05T13:54:13Z",
   "pushed_at": "2026-09-09T10:27:05Z",
@@ -43,10 +43,10 @@
   "category": "llm",
   "flags": [],
   "usability_score": 100,
-  "snapshot_days": 26,
+  "snapshot_days": 27,
   "is_indexable": true,
   "first_seen_at": "2026-08-29T15:46:21.820Z",
   "tracking_tier": "hot",
-  "last_fetched_date": "2026-09-24",
+  "last_fetched_date": "2026-09-25",
   "stars_stagnant_days": 0
 }

@@ -17,12 +17,12 @@
     "sandbox-game",
     "tower-defense"
   ],
-  "stars": 29092,
+  "stars": 29100,
   "forks": 3793,
   "watchers": null,
-  "open_issues": 21,
+  "open_issues": 22,
   "created_at": "2017-04-30T01:24:29Z",
-  "pushed_at": "2026-09-23T23:15:59Z",
+  "pushed_at": "2026-09-24T16:56:49Z",
   "is_archived": false,
   "license_spdx": "GPL-3.0",
   "license_category": "strong-copyleft",
@@ -41,10 +41,10 @@
     }
   ],
   "usability_score": 85,
-  "snapshot_days": 22,
+  "snapshot_days": 23,
   "is_indexable": true,
   "first_seen_at": "2026-09-02T23:02:41.773Z",
   "tracking_tier": "hot",
-  "last_fetched_date": "2026-09-24",
+  "last_fetched_date": "2026-09-25",
   "stars_stagnant_days": 0
 }

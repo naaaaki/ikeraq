@@ -18,12 +18,12 @@
     "self-hosted",
     "selfhosted"
   ],
-  "stars": 32154,
+  "stars": 32155,
   "forks": 2077,
   "watchers": null,
-  "open_issues": 26,
+  "open_issues": 29,
   "created_at": "2013-06-08T10:26:57Z",
-  "pushed_at": "2026-09-23T08:28:27Z",
+  "pushed_at": "2026-09-24T22:45:12Z",
   "is_archived": false,
   "license_spdx": "MIT",
   "license_category": "permissive",
@@ -36,10 +36,10 @@
   "category": "infra",
   "flags": [],
   "usability_score": 100,
-  "snapshot_days": 23,
+  "snapshot_days": 24,
   "is_indexable": true,
   "first_seen_at": "2026-09-01T23:05:22.650Z",
   "tracking_tier": "hot",
-  "last_fetched_date": "2026-09-24",
+  "last_fetched_date": "2026-09-25",
   "stars_stagnant_days": 0
 }

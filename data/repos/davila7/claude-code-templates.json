@@ -3,7 +3,7 @@
   "owner": "davila7",
   "name": "claude-code-templates",
   "description_en": "CLI tool for configuring and monitoring Claude Code",
-  "human_note": null,
+  "human_note": "<!-- ============================================================\n  davila7/claude-code-templates\n  https://github.com/davila7/claude-code-templates\n  CLI tool for configuring and monitoring Claude Code\n  Python / MIT / スター 31,480\n  topics: anthropic, anthropic-claude, claude, claude-code\n\n  書き方は docs/article-template.md を見る。\n  必須は「どういうものか」だけ。ほかは書けたら書く。\n  英語の説明を訳しただけにしない。触っていないことは書かない。\n============================================================ -->\n\n\n## 見出しの一文\n\nClaude Code 向けの部品を選んで入れ、使い方の様子まで見られるようにする\n\n\n## どういうものか\n\nClaude Code に足せる部品を集めたカタログと、それを入れるためのコマンドラインのツールだ。部品は6種類に分かれている。特定の分野を受け持つエージェント、自分用のスラッシュコマンド、外部サービスとつなぐ MCP、Claude Code の設定、決まったタイミングで動くフック、そしてスキル。README によれば、カタログには100を超える部品がある。\n\n入れ方は2通りある。npx でツールを起動し、対話形式で選んでいく方法と、種類と名前を引数で指定して1行で入れる方法だ。名前を指定して入れる場合は、先にサイト（aitmpl.com）で一覧を眺めて名前を確かめておく。部品の中には作者が書いたものだけでなく、Anthropic 公式のスキルや、ほかの公開リポジトリから取り込んだものも含まれ、README に出どころとライセンスが並べられている。\n\nカタログのほかに、Claude Code の使い方を**見るための道具**も入っている。作業中のセッションの状態を表示する画面、Claude の応答をスマートフォン向けの画面で追える会話モニター、Claude Code の導入状態を点検するヘルスチェック、プラグインと権限をまとめて管理する画面の4つだ。いずれも同じコマンドに引数を変えて呼ぶ。\n\n\n## 図\n\n<svg viewBox=\"0 0 800 450\" role=\"img\" aria-label=\"サイトで選び、コマンド1行でClaude Codeに入れる。カタログ（aitmpl.comで一覧を見る）。npx claude-code-templates（対話形式か、名前を指定）。Claude Code（エージェント・コマンド・MCP・設定・フック・スキル）。使っている様子（セッション・会話）も、同じコマンドの別の引数で見る\" style=\"width: 100%; height: auto; display: block; font-family: var(--jp);\">\n  <defs>\n    <marker id=\"cct-arrow\" viewBox=\"0 0 10 10\" refX=\"9\" refY=\"5\" markerWidth=\"6\" markerHeight=\"6\" orient=\"auto-start-reverse\">\n      <path d=\"M0,0 L10,5 L0,10 z\" fill=\"#1E5A48\" />\n    </marker>\n  </defs>\n  <rect width=\"800\" height=\"450\" fill=\"#FFFFFF\" />\n  <text x=\"400\" y=\"70\" text-anchor=\"middle\" font-size=\"26\" font-weight=\"700\" fill=\"#17160F\">サイトで選び、<tspan fill=\"#1E5A48\">コマンド1行</tspan>でClaude Codeに入れる</text>\n\n  <rect x=\"40\" y=\"170\" width=\"190\" height=\"110\" rx=\"8\" fill=\"none\" stroke=\"#17160F\" stroke-opacity=\"0.28\" stroke-width=\"1.5\" />\n  <text x=\"135\" y=\"215\" text-anchor=\"middle\" font-size=\"17\" font-weight=\"700\" fill=\"#17160F\">カタログ</text>\n  <text x=\"135\" y=\"243\" text-anchor=\"middle\" font-size=\"12\" fill=\"#17160F\" fill-opacity=\"0.72\">（aitmpl.comで一覧を見る）</text>\n\n  <line x1=\"236\" y1=\"225\" x2=\"272\" y2=\"225\" stroke=\"#1E5A48\" stroke-width=\"4\" marker-end=\"url(#cct-arrow)\" />\n\n  <rect x=\"278\" y=\"170\" width=\"230\" height=\"110\" rx=\"8\" fill=\"none\" stroke=\"#1E5A48\" stroke-width=\"2\" />\n  <text x=\"393\" y=\"215\" text-anchor=\"middle\" font-size=\"15\" font-weight=\"700\" fill=\"#1E5A48\">npx claude-code-templates</text>\n  <text x=\"393\" y=\"243\" text-anchor=\"middle\" font-size=\"12\" fill=\"#17160F\" fill-opacity=\"0.72\">（対話形式か、名前を指定）</text>\n\n  <line x1=\"514\" y1=\"225\" x2=\"550\" y2=\"225\" stroke=\"#1E5A48\" stroke-width=\"4\" marker-end=\"url(#cct-arrow)\" />\n\n  <rect x=\"556\" y=\"160\" width=\"210\" height=\"130\" rx=\"8\" fill=\"none\" stroke=\"#17160F\" stroke-opacity=\"0.28\" stroke-width=\"1.5\" />\n  <text x=\"661\" y=\"205\" text-anchor=\"middle\" font-size=\"17\" font-weight=\"700\" fill=\"#17160F\">Claude Code</text>\n  <text x=\"661\" y=\"233\" text-anchor=\"middle\" font-size=\"12\" fill=\"#17160F\" fill-opacity=\"0.72\">（エージェント・コマンド・MCP・</text>\n  <text x=\"661\" y=\"253\" text-anchor=\"middle\" font-size=\"12\" fill=\"#17160F\" fill-opacity=\"0.72\">設定・フック・スキル）</text>\n\n  <text x=\"400\" y=\"380\" text-anchor=\"middle\" font-size=\"14\" fill=\"#17160F\" fill-opacity=\"0.72\">使っている様子（セッション・会話）も、同じコマンドの別の引数で見る</text>\n</svg>\n\nキャプション: 部品選びはサイトで、導入はコマンドで行う。セッションの状態表示や会話モニターも、同じコマンドから呼び出せる。\n\n\n## どんなときに使うか\n\n### Claude Code を入れたものの、何を足せばよいか分からないとき\n\nエージェントやフック、MCP を一から書く前に、ほかの人が作ったものを種類別に眺められる。気に入ったものをそのまま入れて、中身を読んで自分用に直す出発点にできる。\n\n### チームで同じ Claude Code の構成をそろえたいとき\n\n部品を名前で指定して1行で入れられるので、どの部品を入れるかをコマンドとして共有できる。\n\n\n## 注意点\n\n**部品ごとにライセンスと作者が違う。** 本体は MIT だが、README によれば、取り込んだ部品はそれぞれ元のライセンスのままだ（MIT のほか、Apache 2.0 や CC0 のものがある）。作者も Anthropic 公式からコミュニティのものまで混ざっているので、入れる前に中身と出どころを確かめたい。\n\n**会話モニターは外からも見られるようにできる。** README によれば、引数を足すと Cloudflare Tunnel を通して手元の外からアクセスできる。Claude の応答をそのまま見せる機能なので、使うときは誰が見られる状態なのかを意識したい。\n\n**README の冒頭には協賛企業の案内がある。** 協賛企業のスキルと MCP を入れるコマンドも載っている。カタログの一部として並んでいるので、何を入れるかは自分で選びたい。",
   "language": "Python",
   "topics": [
     "anthropic",
@@ -11,12 +11,12 @@
     "claude",
     "claude-code"
   ],
-  "stars": 31480,
-  "forks": 3577,
+  "stars": 31728,
+  "forks": 3602,
   "watchers": null,
-  "open_issues": 282,
+  "open_issues": 284,
   "created_at": "2025-07-04T01:26:26Z",
-  "pushed_at": "2026-09-23T14:01:18Z",
+  "pushed_at": "2026-09-24T22:07:17Z",
   "is_archived": false,
   "license_spdx": "MIT",
   "license_category": "permissive",
@@ -29,10 +29,10 @@
   "category": "other",
   "flags": [],
   "usability_score": 100,
-  "snapshot_days": 23,
+  "snapshot_days": 24,
   "is_indexable": true,
   "first_seen_at": "2026-09-01T23:05:22.650Z",
   "tracking_tier": "hot",
-  "last_fetched_date": "2026-09-24",
+  "last_fetched_date": "2026-09-25",
   "stars_stagnant_days": 0
 }

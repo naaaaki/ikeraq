@@ -27,12 +27,12 @@
     "springcloud-config",
     "zookeeper"
   ],
-  "stars": 79129,
-  "forks": 19150,
+  "stars": 79130,
+  "forks": 19149,
   "watchers": 2542,
-  "open_issues": 1,
+  "open_issues": 0,
   "created_at": "2018-10-06T11:38:30Z",
-  "pushed_at": "2026-09-23T12:22:26Z",
+  "pushed_at": "2026-09-24T07:15:47Z",
   "is_archived": false,
   "license_spdx": "CC-BY-SA-4.0",
   "license_category": "strong-copyleft",
@@ -51,10 +51,10 @@
     }
   ],
   "usability_score": 85,
-  "snapshot_days": 26,
+  "snapshot_days": 27,
   "is_indexable": true,
   "first_seen_at": "2026-08-29T15:46:21.821Z",
   "tracking_tier": "hot",
-  "last_fetched_date": "2026-09-24",
+  "last_fetched_date": "2026-09-25",
   "stars_stagnant_days": 0
 }

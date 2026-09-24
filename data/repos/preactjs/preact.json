@@ -14,10 +14,10 @@
     "vdom",
     "virtual-dom"
   ],
-  "stars": 38884,
-  "forks": 2535,
+  "stars": 38886,
+  "forks": 2695,
   "watchers": 393,
-  "open_issues": 39,
+  "open_issues": 40,
   "created_at": "2015-09-11T02:40:18Z",
   "pushed_at": "2026-09-15T02:45:16Z",
   "is_archived": false,
@@ -32,10 +32,10 @@
   "category": "web-frontend",
   "flags": [],
   "usability_score": 100,
-  "snapshot_days": 24,
+  "snapshot_days": 25,
   "is_indexable": true,
   "first_seen_at": "2026-09-01T00:26:13.031Z",
   "tracking_tier": "hot",
-  "last_fetched_date": "2026-09-24",
+  "last_fetched_date": "2026-09-25",
   "stars_stagnant_days": 0
 }

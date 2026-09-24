@@ -1,0 +1,44 @@
+{
+  "id": "VREMSoftwareDevelopment/WiFiAnalyzer",
+  "owner": "VREMSoftwareDevelopment",
+  "name": "WiFiAnalyzer",
+  "description_en": "Android application to analyze Wi-Fi signals.",
+  "human_note": null,
+  "language": "Kotlin",
+  "topics": [
+    "android",
+    "gplv3",
+    "wifi-analyzer",
+    "wifi-network"
+  ],
+  "stars": 4976,
+  "forks": 761,
+  "watchers": null,
+  "open_issues": 9,
+  "created_at": "2015-12-09T23:37:23Z",
+  "pushed_at": "2026-09-24T20:46:55Z",
+  "is_archived": false,
+  "license_spdx": "GPL-3.0",
+  "license_category": "strong-copyleft",
+  "readme_excerpt": "WiFiAnalyzer This is the official repository of WiFiAnalyzer. Table of Contents - Features - Documentation - How-to - FAQ - Feedback - License - Privacy policy - WiFiAnalyzer Build - Verification - Contribute - Build project - Running various Gradle commands - Continuous Integration - Translation Features Identify nearby Access Points Graph channels signal strength Graph Access Point signal strength over time Analyze Wi-Fi networks to rate channels HT/VHT Detection - 40/80/160/320 MHz (Requires…",
+  "readme_length": 9972,
+  "has_japanese_readme": false,
+  "contributors_count": 60,
+  "releases_count": 33,
+  "ossf_scorecard": null,
+  "category": "mobile",
+  "flags": [
+    {
+      "id": "copyleft",
+      "label": "自社サービス組込み注意",
+      "reason": "GPL-3.0 です。組み込んだ側のソース公開が必要になる場合があります。"
+    }
+  ],
+  "usability_score": 85,
+  "snapshot_days": 1,
+  "is_indexable": true,
+  "first_seen_at": "2026-09-24T23:48:41.711Z",
+  "tracking_tier": "hot",
+  "last_fetched_date": "2026-09-25",
+  "stars_stagnant_days": 0
+}

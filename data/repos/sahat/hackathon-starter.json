@@ -13,7 +13,7 @@
     "oauth2",
     "starter-kit"
   ],
-  "stars": 35254,
+  "stars": 35253,
   "forks": 8111,
   "watchers": null,
   "open_issues": 2,
@@ -31,10 +31,10 @@
   "category": "backend",
   "flags": [],
   "usability_score": 100,
-  "snapshot_days": 24,
+  "snapshot_days": 25,
   "is_indexable": true,
   "first_seen_at": "2026-09-01T00:26:13.032Z",
   "tracking_tier": "hot",
-  "last_fetched_date": "2026-09-24",
-  "stars_stagnant_days": 1
+  "last_fetched_date": "2026-09-25",
+  "stars_stagnant_days": 2
 }

@@ -1,0 +1,52 @@
+{
+  "id": "andrewekhalel/MLQuestions",
+  "owner": "andrewekhalel",
+  "name": "MLQuestions",
+  "description_en": "Machine Learning and Computer Vision Engineer - Technical Interview Questions",
+  "human_note": null,
+  "language": "Python",
+  "topics": [
+    "computer-vision-interview-questions",
+    "data-science-interview",
+    "data-science-interview-questions",
+    "data-science-interviews",
+    "deep-learning-interview",
+    "deep-learning-interview-questions",
+    "machine-learning-interview",
+    "machine-learning-interview-questions",
+    "ml-interview",
+    "ml-interview-prep",
+    "ml-interviews",
+    "nlp-interview-questions"
+  ],
+  "stars": 4903,
+  "forks": 800,
+  "watchers": null,
+  "open_issues": 3,
+  "created_at": "2018-12-12T14:10:31Z",
+  "pushed_at": "2026-09-21T18:45:55Z",
+  "is_archived": false,
+  "license_spdx": null,
+  "license_category": "none",
+  "readme_excerpt": "Machine Learning Interview Questions and Answers (2026) 69 machine learning interview questions with answers, covering ML fundamentals, deep learning, computer vision, NLP, dimensionality reduction, statistics and coding. Curated and community-maintained since 2018. 📖 Also available as a website, browsable by topic: andrewekhalel.github.io/MLQuestions These ML interview questions are useful if you are preparing for a role as: - Machine Learning Engineer - Data Scientist - Deep Learning Enginee…",
+  "readme_length": 44261,
+  "has_japanese_readme": false,
+  "contributors_count": 14,
+  "releases_count": 0,
+  "ossf_scorecard": null,
+  "category": "learning",
+  "flags": [
+    {
+      "id": "no_license",
+      "label": "利用条件不明",
+      "reason": "ライセンスが設定されていません。この場合は原則として全権利が留保され、利用できません。"
+    }
+  ],
+  "usability_score": 60,
+  "snapshot_days": 1,
+  "is_indexable": true,
+  "first_seen_at": "2026-09-24T23:48:41.712Z",
+  "tracking_tier": "hot",
+  "last_fetched_date": "2026-09-25",
+  "stars_stagnant_days": 0
+}

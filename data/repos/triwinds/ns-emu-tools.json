@@ -1,0 +1,39 @@
+{
+  "id": "triwinds/ns-emu-tools",
+  "owner": "triwinds",
+  "name": "ns-emu-tools",
+  "description_en": "一个用于安装/更新 NS 模拟器的工具",
+  "human_note": null,
+  "language": "Rust",
+  "topics": [],
+  "stars": 4959,
+  "forks": 179,
+  "watchers": null,
+  "open_issues": 19,
+  "created_at": "2022-10-22T13:46:50Z",
+  "pushed_at": "2026-09-23T04:28:34Z",
+  "is_archived": false,
+  "license_spdx": "AGPL-3.0",
+  "license_category": "strong-copyleft",
+  "readme_excerpt": "Ns Emu Tools 一个用于安装/更新 NS 模拟器的桌面工具。 项目当前使用 Rust + Tauri 2 构建桌面端，前端使用 Vue 3 + Vite + Vuetify。 技术栈 - 桌面端后端：Rust + Tauri 2（src-tauri） - 前端：Vue 3 + Vite + Vuetify（frontend） - 前端构建产物：web Features - ~~支持安装 Yuzu EA/正式版模拟器~~ - ~~支持 Yuzu 版本检测及更新~~ (yuzu 目前已经停止开发) - 支持安装 Ryubing/Ryujinx 正式/Canary 版模拟器及版本检测及更新 - 支持安装 Eden 模拟器及版本检测及更新 - Eden 下载源已切换到官方自建 Git 仓库 - 支持安装 Citron 模拟器及版本检测及更新（Windows/macOS） - Citron 下载源使用官方 GitHub Releases - 自动检测并安装 msvc 运行库 - 支持安装及更新 NS 固件至模拟器 - 支持固件版本检测 (感谢 a709560839 提供的思路) -…",
+  "readme_length": 2529,
+  "has_japanese_readme": false,
+  "contributors_count": 7,
+  "releases_count": 58,
+  "ossf_scorecard": null,
+  "category": "other",
+  "flags": [
+    {
+      "id": "copyleft",
+      "label": "自社サービス組込み注意",
+      "reason": "AGPL-3.0 です。組み込んだ側のソース公開が必要になる場合があります。"
+    }
+  ],
+  "usability_score": 85,
+  "snapshot_days": 1,
+  "is_indexable": true,
+  "first_seen_at": "2026-09-24T23:48:41.712Z",
+  "tracking_tier": "hot",
+  "last_fetched_date": "2026-09-25",
+  "stars_stagnant_days": 0
+}

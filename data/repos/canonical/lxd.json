@@ -1,0 +1,46 @@
+{
+  "id": "canonical/lxd",
+  "owner": "canonical",
+  "name": "lxd",
+  "description_en": "Powerful system container and virtual machine manager",
+  "human_note": null,
+  "language": "Go",
+  "topics": [
+    "containers",
+    "criu",
+    "go",
+    "hacktoberfest",
+    "lxc",
+    "lxd"
+  ],
+  "stars": 4831,
+  "forks": 1050,
+  "watchers": null,
+  "open_issues": 425,
+  "created_at": "2014-11-04T22:40:52Z",
+  "pushed_at": "2026-09-24T21:56:22Z",
+  "is_archived": false,
+  "license_spdx": "AGPL-3.0",
+  "license_category": "strong-copyleft",
+  "readme_excerpt": "LXD LXD is a modern, secure and powerful system container and virtual machine manager. It provides a unified experience for running and managing full Linux systems inside containers or virtual machines. LXD supports images for a large number of Linux distributions (official Ubuntu images and images provided by the community) and is built around a very powerful, yet pretty simple, REST API. LXD scales from one instance on a single machine to a cluster in a full data center rack, making it suitab…",
+  "readme_length": 7273,
+  "has_japanese_readme": false,
+  "contributors_count": 532,
+  "releases_count": 175,
+  "ossf_scorecard": null,
+  "category": "other",
+  "flags": [
+    {
+      "id": "copyleft",
+      "label": "自社サービス組込み注意",
+      "reason": "AGPL-3.0 です。組み込んだ側のソース公開が必要になる場合があります。"
+    }
+  ],
+  "usability_score": 85,
+  "snapshot_days": 1,
+  "is_indexable": true,
+  "first_seen_at": "2026-09-24T23:48:41.713Z",
+  "tracking_tier": "hot",
+  "last_fetched_date": "2026-09-25",
+  "stars_stagnant_days": 0
+}

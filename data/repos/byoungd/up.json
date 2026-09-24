@@ -10,7 +10,7 @@
     "english-learning",
     "tutorial"
   ],
-  "stars": 63706,
+  "stars": 63754,
   "forks": 6445,
   "watchers": 972,
   "open_issues": 32,
@@ -28,10 +28,10 @@
   "category": "learning",
   "flags": [],
   "usability_score": 100,
-  "snapshot_days": 26,
+  "snapshot_days": 27,
   "is_indexable": true,
   "first_seen_at": "2026-08-29T23:02:08.747Z",
   "tracking_tier": "hot",
-  "last_fetched_date": "2026-09-24",
+  "last_fetched_date": "2026-09-25",
   "stars_stagnant_days": 0
 }

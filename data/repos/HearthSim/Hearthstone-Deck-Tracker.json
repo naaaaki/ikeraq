@@ -1,0 +1,47 @@
+{
+  "id": "HearthSim/Hearthstone-Deck-Tracker",
+  "owner": "HearthSim",
+  "name": "Hearthstone-Deck-Tracker",
+  "description_en": "A deck tracker and deck manager for Hearthstone on Windows",
+  "human_note": null,
+  "language": "C#",
+  "topics": [
+    "c-sharp",
+    "deck-tracker",
+    "hdt",
+    "hearthstone",
+    "hearthstone-deck-tracker",
+    "overlay",
+    "wpf"
+  ],
+  "stars": 4917,
+  "forks": 1148,
+  "watchers": null,
+  "open_issues": 659,
+  "created_at": "2014-05-29T18:44:12Z",
+  "pushed_at": "2026-09-24T09:19:16Z",
+  "is_archived": false,
+  "license_spdx": null,
+  "license_category": "none",
+  "readme_excerpt": "Hearthstone-Deck-Tracker Hearthstone Deck Tracker is an automatic deck tracker and deck manager for Hearthstone. Installation - Requirements: - Windows Vista or higher - .NET Framework 4.5 or higher - Download and run the installer. Community & Troubleshooting - Follow HDT on X - Join the Community Discord: - You can find the FAQ here. - Streamers: Please read Streaming instructions for OBS and XSplit and Twitch extension setup. - HSReplay.net integration: Please email for support. Contributing…",
+  "readme_length": 3685,
+  "has_japanese_readme": false,
+  "contributors_count": 135,
+  "releases_count": 705,
+  "ossf_scorecard": null,
+  "category": "other",
+  "flags": [
+    {
+      "id": "no_license",
+      "label": "利用条件不明",
+      "reason": "ライセンスが設定されていません。この場合は原則として全権利が留保され、利用できません。"
+    }
+  ],
+  "usability_score": 60,
+  "snapshot_days": 1,
+  "is_indexable": true,
+  "first_seen_at": "2026-09-24T23:48:41.712Z",
+  "tracking_tier": "hot",
+  "last_fetched_date": "2026-09-25",
+  "stars_stagnant_days": 0
+}

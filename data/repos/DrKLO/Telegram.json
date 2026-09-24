@@ -1,0 +1,41 @@
+{
+  "id": "DrKLO/Telegram",
+  "owner": "DrKLO",
+  "name": "Telegram",
+  "description_en": "Telegram for Android source",
+  "human_note": null,
+  "language": "Java",
+  "topics": [
+    "telegram"
+  ],
+  "stars": 29922,
+  "forks": 10097,
+  "watchers": null,
+  "open_issues": 564,
+  "created_at": "2013-10-25T14:08:10Z",
+  "pushed_at": "2026-09-24T12:18:27Z",
+  "is_archived": false,
+  "license_spdx": "GPL-2.0",
+  "license_category": "strong-copyleft",
+  "readme_excerpt": "Telegram messenger for Android Telegram is a messaging app with a focus on speed and security. It’s superfast, simple and free. This repo contains the official source code for Telegram App for Android. Creating your Telegram Application We welcome all developers to use our API and source code to create applications on our platform. There are several things we require from all developers for the moment. 1. Obtain your own apiid for your application. 2. Please do not use the name Telegram for you…",
+  "readme_length": 2840,
+  "has_japanese_readme": false,
+  "contributors_count": 22,
+  "releases_count": 95,
+  "ossf_scorecard": null,
+  "category": "other",
+  "flags": [
+    {
+      "id": "copyleft",
+      "label": "自社サービス組込み注意",
+      "reason": "GPL-2.0 です。組み込んだ側のソース公開が必要になる場合があります。"
+    }
+  ],
+  "usability_score": 85,
+  "snapshot_days": 1,
+  "is_indexable": true,
+  "first_seen_at": "2026-09-24T23:48:41.710Z",
+  "tracking_tier": "hot",
+  "last_fetched_date": "2026-09-25",
+  "stars_stagnant_days": 0
+}

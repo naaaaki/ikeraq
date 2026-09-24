@@ -1,0 +1,47 @@
+{
+  "id": "AsamK/signal-cli",
+  "owner": "AsamK",
+  "name": "signal-cli",
+  "description_en": "signal-cli provides an unofficial commandline, JSON-RPC and dbus interface for the Signal messenger.",
+  "human_note": null,
+  "language": "Java",
+  "topics": [
+    "commandline",
+    "dbus",
+    "java",
+    "json-rpc",
+    "messaging",
+    "signal",
+    "signal-cli"
+  ],
+  "stars": 4935,
+  "forks": 458,
+  "watchers": null,
+  "open_issues": 109,
+  "created_at": "2015-05-11T10:49:42Z",
+  "pushed_at": "2026-09-22T19:04:40Z",
+  "is_archived": false,
+  "license_spdx": "GPL-3.0",
+  "license_category": "strong-copyleft",
+  "readme_excerpt": "signal-cli signal-cli is a commandline interface for the Signal messenger. It supports registering, verifying, sending and receiving messages. signal-cli uses a patched libsignal-service-java, extracted from the Signal-Android source code. For registering you need a phone number where you can receive SMS or incoming calls. Existing accounts without a phone number can be linked from a compatible Signal mobile app. signal-cli is primarily intended to be used on servers to notify admins of importa…",
+  "readme_length": 7649,
+  "has_japanese_readme": false,
+  "contributors_count": 94,
+  "releases_count": 118,
+  "ossf_scorecard": null,
+  "category": "dev-tool",
+  "flags": [
+    {
+      "id": "copyleft",
+      "label": "自社サービス組込み注意",
+      "reason": "GPL-3.0 です。組み込んだ側のソース公開が必要になる場合があります。"
+    }
+  ],
+  "usability_score": 85,
+  "snapshot_days": 1,
+  "is_indexable": true,
+  "first_seen_at": "2026-09-24T23:48:41.712Z",
+  "tracking_tier": "hot",
+  "last_fetched_date": "2026-09-25",
+  "stars_stagnant_days": 0
+}

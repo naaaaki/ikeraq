@@ -23,11 +23,11 @@
     "web-server"
   ],
   "stars": 31723,
-  "forks": 8309,
+  "forks": 8310,
   "watchers": 958,
-  "open_issues": 465,
+  "open_issues": 464,
   "created_at": "2015-06-23T10:26:27Z",
-  "pushed_at": "2026-09-16T12:13:03Z",
+  "pushed_at": "2026-09-24T19:33:27Z",
   "is_archived": false,
   "license_spdx": "BSD-2-Clause",
   "license_category": "permissive",
@@ -40,10 +40,10 @@
   "category": "security",
   "flags": [],
   "usability_score": 100,
-  "snapshot_days": 23,
+  "snapshot_days": 24,
   "is_indexable": true,
   "first_seen_at": "2026-09-01T23:05:22.650Z",
   "tracking_tier": "hot",
-  "last_fetched_date": "2026-09-24",
-  "stars_stagnant_days": 0
+  "last_fetched_date": "2026-09-25",
+  "stars_stagnant_days": 1
 }

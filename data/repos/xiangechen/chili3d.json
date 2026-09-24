@@ -1,0 +1,52 @@
+{
+  "id": "xiangechen/chili3d",
+  "owner": "xiangechen",
+  "name": "chili3d",
+  "description_en": "A 3D CAD running entirely in the browser",
+  "human_note": null,
+  "language": "TypeScript",
+  "topics": [
+    "3d",
+    "browser-based",
+    "cad",
+    "geometry",
+    "occ",
+    "occt",
+    "opencascade",
+    "three",
+    "threejs",
+    "wasm",
+    "webassembly",
+    "webcad"
+  ],
+  "stars": 4859,
+  "forks": 487,
+  "watchers": null,
+  "open_issues": 45,
+  "created_at": "2022-12-31T23:33:51Z",
+  "pushed_at": "2026-09-19T12:20:09Z",
+  "is_archived": false,
+  "license_spdx": "AGPL-3.0",
+  "license_category": "strong-copyleft",
+  "readme_excerpt": "Chili3D A browser-based 3D CAD application for online model design and editing. Overview Chili3D is an open-source browser-based 3D CAD (Computer-Aided Design) application built with TypeScript. It achieves near-native performance by compiling OpenCascade (OCCT) to WebAssembly and integrating with Three.js, enabling powerful online modeling, editing, and rendering — all without requiring local installation. You can access Chili3D online at: - Official website: chili3d.com - Cloudflare deploymen…",
+  "readme_length": 8154,
+  "has_japanese_readme": false,
+  "contributors_count": 16,
+  "releases_count": 9,
+  "ossf_scorecard": null,
+  "category": "other",
+  "flags": [
+    {
+      "id": "copyleft",
+      "label": "自社サービス組込み注意",
+      "reason": "AGPL-3.0 です。組み込んだ側のソース公開が必要になる場合があります。"
+    }
+  ],
+  "usability_score": 85,
+  "snapshot_days": 1,
+  "is_indexable": true,
+  "first_seen_at": "2026-09-24T23:48:41.712Z",
+  "tracking_tier": "hot",
+  "last_fetched_date": "2026-09-25",
+  "stars_stagnant_days": 0
+}

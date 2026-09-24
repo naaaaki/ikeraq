@@ -15,12 +15,12 @@
     "llm-agents",
     "voice-assistant"
   ],
-  "stars": 27292,
-  "forks": 3060,
+  "stars": 27309,
+  "forks": 3062,
   "watchers": null,
-  "open_issues": 28,
+  "open_issues": 29,
   "created_at": "2025-02-19T18:03:06Z",
-  "pushed_at": "2026-09-21T19:29:58Z",
+  "pushed_at": "2026-09-24T19:44:48Z",
   "is_archived": false,
   "license_spdx": "GPL-3.0",
   "license_category": "strong-copyleft",
@@ -39,10 +39,10 @@
     }
   ],
   "usability_score": 85,
-  "snapshot_days": 1,
+  "snapshot_days": 2,
   "is_indexable": true,
   "first_seen_at": "2026-09-23T23:28:32.617Z",
   "tracking_tier": "hot",
-  "last_fetched_date": "2026-09-24",
+  "last_fetched_date": "2026-09-25",
   "stars_stagnant_days": 0
 }

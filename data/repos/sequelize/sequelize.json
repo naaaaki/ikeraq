@@ -25,12 +25,12 @@
     "transactions",
     "typescript"
   ],
-  "stars": 30360,
+  "stars": 30362,
   "forks": 4347,
   "watchers": null,
-  "open_issues": 1085,
+  "open_issues": 1092,
   "created_at": "2010-07-22T07:11:11Z",
-  "pushed_at": "2026-09-22T05:18:03Z",
+  "pushed_at": "2026-09-24T16:12:41Z",
   "is_archived": false,
   "license_spdx": "MIT",
   "license_category": "permissive",
@@ -43,10 +43,10 @@
   "category": "data",
   "flags": [],
   "usability_score": 100,
-  "snapshot_days": 22,
+  "snapshot_days": 23,
   "is_indexable": true,
   "first_seen_at": "2026-09-02T23:02:41.773Z",
   "tracking_tier": "hot",
-  "last_fetched_date": "2026-09-24",
+  "last_fetched_date": "2026-09-25",
   "stars_stagnant_days": 0
 }

@@ -1,0 +1,39 @@
+{
+  "id": "KDE/ghostwriter",
+  "owner": "KDE",
+  "name": "ghostwriter",
+  "description_en": "Text editor for Markdown",
+  "human_note": null,
+  "language": "C++",
+  "topics": [],
+  "stars": 4987,
+  "forks": 345,
+  "watchers": null,
+  "open_issues": 22,
+  "created_at": "2015-08-22T09:13:13Z",
+  "pushed_at": "2026-09-23T02:36:03Z",
+  "is_archived": false,
+  "license_spdx": "GPL-3.0",
+  "license_category": "strong-copyleft",
+  "readme_excerpt": "ghostwriter ghostwriter is a Windows and Linux text editor for Markdown, which is a plain text markup format created by John Gruber. For more information about Markdown, please visit John Gruber’s website at . ghostwriter provides a relaxing, distraction-free writing environment, whether your masterpiece be that next blog post, your school paper, or your NaNoWriMo novel. For a tour of its features, please visit the ghostwriter project site. Screenshots You can view screenshots of the applicatio…",
+  "readme_length": 7124,
+  "has_japanese_readme": false,
+  "contributors_count": 79,
+  "releases_count": 33,
+  "ossf_scorecard": null,
+  "category": "other",
+  "flags": [
+    {
+      "id": "copyleft",
+      "label": "自社サービス組込み注意",
+      "reason": "GPL-3.0 です。組み込んだ側のソース公開が必要になる場合があります。"
+    }
+  ],
+  "usability_score": 85,
+  "snapshot_days": 1,
+  "is_indexable": true,
+  "first_seen_at": "2026-09-24T23:48:41.711Z",
+  "tracking_tier": "hot",
+  "last_fetched_date": "2026-09-25",
+  "stars_stagnant_days": 0
+}

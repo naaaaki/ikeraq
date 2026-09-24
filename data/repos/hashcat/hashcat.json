@@ -15,12 +15,12 @@
     "opencl",
     "password"
   ],
-  "stars": 26842,
-  "forks": 3565,
+  "stars": 26854,
+  "forks": 3564,
   "watchers": null,
-  "open_issues": 315,
+  "open_issues": 311,
   "created_at": "2015-12-04T14:46:51Z",
-  "pushed_at": "2026-09-23T19:18:30Z",
+  "pushed_at": "2026-09-24T19:04:32Z",
   "is_archived": false,
   "license_spdx": null,
   "license_category": "none",
@@ -39,10 +39,10 @@
     }
   ],
   "usability_score": 60,
-  "snapshot_days": 21,
+  "snapshot_days": 22,
   "is_indexable": true,
   "first_seen_at": "2026-09-03T23:03:15.575Z",
   "tracking_tier": "hot",
-  "last_fetched_date": "2026-09-24",
+  "last_fetched_date": "2026-09-25",
   "stars_stagnant_days": 0
 }

@@ -16,7 +16,7 @@
     "nodejs",
     "voice-support"
   ],
-  "stars": 26827,
+  "stars": 26824,
   "forks": 4071,
   "watchers": null,
   "open_issues": 163,
@@ -34,10 +34,10 @@
   "category": "backend",
   "flags": [],
   "usability_score": 100,
-  "snapshot_days": 21,
+  "snapshot_days": 22,
   "is_indexable": true,
   "first_seen_at": "2026-09-03T23:03:15.575Z",
   "tracking_tier": "hot",
-  "last_fetched_date": "2026-09-24",
-  "stars_stagnant_days": 2
+  "last_fetched_date": "2026-09-25",
+  "stars_stagnant_days": 3
 }

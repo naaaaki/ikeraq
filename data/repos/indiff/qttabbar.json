@@ -1,0 +1,47 @@
+{
+  "id": "indiff/qttabbar",
+  "owner": "indiff",
+  "name": "qttabbar",
+  "description_en": "QTTabBar is a small tool that allows you to use tab multi label function in Windows Explorer.   https://www.yuque.com/indiff/qttabbar",
+  "human_note": null,
+  "language": "C#",
+  "topics": [
+    "cpp",
+    "csharp",
+    "explorer",
+    "qttabbar",
+    "tab",
+    "windows",
+    "wpf"
+  ],
+  "stars": 4903,
+  "forks": 324,
+  "watchers": null,
+  "open_issues": 148,
+  "created_at": "2019-03-22T11:21:33Z",
+  "pushed_at": "2026-09-21T08:26:11Z",
+  "is_archived": false,
+  "license_spdx": "GPL-3.0",
+  "license_category": "strong-copyleft",
+  "readme_excerpt": "- QTTabBar Document - 汉化GitHub modify by indiff%E4%BF%AE%E6%94%B9) - Generate chm db document(Support Group By Module) modify by indiff QTTabBar adds tabbed browsing and other enhancements to Windows Explorer. updated for .NET 4.8 and modern Windows. 1. Qttabbar domestic optimized version is based on sf.net/projects/qttabbar/ (2012-06-17). The original author of this version has not released it. I don't know why. Adding some Chinese features is mainly for the convenience of domestic users; in a…",
+  "readme_length": 6321,
+  "has_japanese_readme": false,
+  "contributors_count": 18,
+  "releases_count": 24,
+  "ossf_scorecard": null,
+  "category": "other",
+  "flags": [
+    {
+      "id": "copyleft",
+      "label": "自社サービス組込み注意",
+      "reason": "GPL-3.0 です。組み込んだ側のソース公開が必要になる場合があります。"
+    }
+  ],
+  "usability_score": 85,
+  "snapshot_days": 1,
+  "is_indexable": true,
+  "first_seen_at": "2026-09-24T23:48:41.712Z",
+  "tracking_tier": "hot",
+  "last_fetched_date": "2026-09-25",
+  "stars_stagnant_days": 0
+}

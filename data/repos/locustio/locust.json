@@ -18,8 +18,8 @@
     "python",
     "socketio"
   ],
-  "stars": 28178,
-  "forks": 3248,
+  "stars": 28181,
+  "forks": 3249,
   "watchers": null,
   "open_issues": 3,
   "created_at": "2011-02-17T11:08:03Z",
@@ -36,10 +36,10 @@
   "category": "dev-tool",
   "flags": [],
   "usability_score": 100,
-  "snapshot_days": 1,
+  "snapshot_days": 2,
   "is_indexable": false,
   "first_seen_at": "2026-09-23T23:28:32.617Z",
   "tracking_tier": "hot",
-  "last_fetched_date": "2026-09-24",
+  "last_fetched_date": "2026-09-25",
   "stars_stagnant_days": 0
 }

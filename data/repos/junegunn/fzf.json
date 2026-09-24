@@ -17,10 +17,10 @@
     "vim",
     "zsh"
   ],
-  "stars": 83221,
-  "forks": 3363,
+  "stars": 83239,
+  "forks": 3491,
   "watchers": 448,
-  "open_issues": 330,
+  "open_issues": 331,
   "created_at": "2013-10-23T16:04:23Z",
   "pushed_at": "2026-09-21T14:49:46Z",
   "is_archived": false,
@@ -35,10 +35,10 @@
   "category": "dev-tool",
   "flags": [],
   "usability_score": 100,
-  "snapshot_days": 26,
+  "snapshot_days": 27,
   "is_indexable": true,
   "first_seen_at": "2026-08-29T15:46:21.821Z",
   "tracking_tier": "hot",
-  "last_fetched_date": "2026-09-24",
+  "last_fetched_date": "2026-09-25",
   "stars_stagnant_days": 0
 }

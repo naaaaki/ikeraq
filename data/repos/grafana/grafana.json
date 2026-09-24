@@ -22,12 +22,12 @@
     "postgres",
     "prometheus"
   ],
-  "stars": 76870,
-  "forks": 14772,
+  "stars": 76891,
+  "forks": 14783,
   "watchers": null,
-  "open_issues": 3314,
+  "open_issues": 3287,
   "created_at": "2013-12-11T15:59:56Z",
-  "pushed_at": "2026-09-23T23:27:12Z",
+  "pushed_at": "2026-09-24T23:36:51Z",
   "is_archived": false,
   "license_spdx": "AGPL-3.0",
   "license_category": "strong-copyleft",
@@ -46,10 +46,10 @@
     }
   ],
   "usability_score": 85,
-  "snapshot_days": 26,
+  "snapshot_days": 27,
   "is_indexable": true,
   "first_seen_at": "2026-08-29T23:02:08.747Z",
   "tracking_tier": "hot",
-  "last_fetched_date": "2026-09-24",
+  "last_fetched_date": "2026-09-25",
   "stars_stagnant_days": 0
 }

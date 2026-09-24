@@ -25,7 +25,7 @@
     "leetcode-solutions",
     "math"
   ],
-  "stars": 33812,
+  "stars": 33813,
   "forks": 5702,
   "watchers": 607,
   "open_issues": 4,
@@ -43,10 +43,10 @@
   "category": "learning",
   "flags": [],
   "usability_score": 100,
-  "snapshot_days": 22,
+  "snapshot_days": 23,
   "is_indexable": true,
   "first_seen_at": "2026-09-02T23:02:41.773Z",
   "tracking_tier": "hot",
-  "last_fetched_date": "2026-09-24",
+  "last_fetched_date": "2026-09-25",
   "stars_stagnant_days": 0
 }

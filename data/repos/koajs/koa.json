@@ -8,7 +8,7 @@
   "topics": [
     "koa"
   ],
-  "stars": 35683,
+  "stars": 35682,
   "forks": 3227,
   "watchers": 800,
   "open_issues": 38,
@@ -26,10 +26,10 @@
   "category": "other",
   "flags": [],
   "usability_score": 100,
-  "snapshot_days": 24,
+  "snapshot_days": 25,
   "is_indexable": true,
   "first_seen_at": "2026-09-01T00:26:13.032Z",
   "tracking_tier": "hot",
-  "last_fetched_date": "2026-09-24",
-  "stars_stagnant_days": 5
+  "last_fetched_date": "2026-09-25",
+  "stars_stagnant_days": 6
 }
