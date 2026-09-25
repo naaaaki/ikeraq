@@ -11,7 +11,7 @@
     "wifi-analyzer",
     "wifi-network"
   ],
-  "stars": 4976,
+  "stars": 4978,
   "forks": 761,
   "watchers": null,
   "open_issues": 9,
@@ -35,10 +35,10 @@
     }
   ],
   "usability_score": 85,
-  "snapshot_days": 1,
+  "snapshot_days": 2,
   "is_indexable": true,
   "first_seen_at": "2026-09-24T23:48:41.711Z",
   "tracking_tier": "hot",
-  "last_fetched_date": "2026-09-25",
+  "last_fetched_date": "2026-09-26",
   "stars_stagnant_days": 0
 }

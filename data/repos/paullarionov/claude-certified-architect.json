@@ -1,0 +1,39 @@
+{
+  "id": "paullarionov/claude-certified-architect",
+  "owner": "paullarionov",
+  "name": "claude-certified-architect",
+  "description_en": "This repository contains study materials for the **Claude Certified Architect — Foundations** certification.",
+  "human_note": null,
+  "language": "HTML",
+  "topics": [],
+  "stars": 4882,
+  "forks": 1154,
+  "watchers": null,
+  "open_issues": 0,
+  "created_at": "2026-03-14T15:42:24Z",
+  "pushed_at": "2026-09-25T10:43:49Z",
+  "is_archived": false,
+  "license_spdx": null,
+  "license_category": "none",
+  "readme_excerpt": "Claude Certified Architect — Foundations This repository contains study materials for the Claude Certified Architect — Foundations certification. Certificate Example Course Access - To request access to the official course/exam portal, use this link: https://anthropic.skilljar.com/claude-certified-architect-foundations-access-request Study Guide - English guide: guideen.md - Spanish guide: guidees.md - Russian guide: guideru.md - Chinese guide: guidezh.md - Japanese guide: guideja.md - Urdu gui…",
+  "readme_length": 6979,
+  "has_japanese_readme": false,
+  "contributors_count": 23,
+  "releases_count": 0,
+  "ossf_scorecard": null,
+  "category": "other",
+  "flags": [
+    {
+      "id": "no_license",
+      "label": "利用条件不明",
+      "reason": "ライセンスが設定されていません。この場合は原則として全権利が留保され、利用できません。"
+    }
+  ],
+  "usability_score": 60,
+  "snapshot_days": 1,
+  "is_indexable": true,
+  "first_seen_at": "2026-09-25T23:53:23.593Z",
+  "tracking_tier": "hot",
+  "last_fetched_date": "2026-09-26",
+  "stars_stagnant_days": 0
+}

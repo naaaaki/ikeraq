@@ -1,0 +1,39 @@
+{
+  "id": "remotion-dev/skills",
+  "owner": "remotion-dev",
+  "name": "skills",
+  "description_en": "Agent Skills",
+  "human_note": null,
+  "language": "TypeScript",
+  "topics": [],
+  "stars": 4711,
+  "forks": 530,
+  "watchers": null,
+  "open_issues": 22,
+  "created_at": "2026-01-19T09:58:43Z",
+  "pushed_at": "2026-09-25T07:59:29Z",
+  "is_archived": false,
+  "license_spdx": null,
+  "license_category": "none",
+  "readme_excerpt": "Remotion Agent Skills Remotion maintains a list of Agent Skills that define best practices for working in Remotion projects. These skills are useful for AI agents like Claude Code, Codex, Kimi Code or Cursor. You can install them by running: You are also offered the option to add skills when you create a new Remotion project: For more information, see the Remotion Agent Skills documentation. Available skills /remotion-best-practices This skill encompasses all other skills. Use it if you are not…",
+  "readme_length": 2805,
+  "has_japanese_readme": false,
+  "contributors_count": 1,
+  "releases_count": 0,
+  "ossf_scorecard": null,
+  "category": "other",
+  "flags": [
+    {
+      "id": "no_license",
+      "label": "利用条件不明",
+      "reason": "ライセンスが設定されていません。この場合は原則として全権利が留保され、利用できません。"
+    }
+  ],
+  "usability_score": 60,
+  "snapshot_days": 1,
+  "is_indexable": true,
+  "first_seen_at": "2026-09-25T23:53:23.595Z",
+  "tracking_tier": "hot",
+  "last_fetched_date": "2026-09-26",
+  "stars_stagnant_days": 0
+}

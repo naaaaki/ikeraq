@@ -20,7 +20,7 @@
   "watchers": null,
   "open_issues": 83,
   "created_at": "2016-01-18T22:37:52Z",
-  "pushed_at": "2026-09-24T15:49:10Z",
+  "pushed_at": "2026-09-25T09:56:03Z",
   "is_archived": false,
   "license_spdx": "MIT",
   "license_category": "permissive",
@@ -33,10 +33,10 @@
   "category": "backend",
   "flags": [],
   "usability_score": 100,
-  "snapshot_days": 22,
+  "snapshot_days": 23,
   "is_indexable": true,
   "first_seen_at": "2026-09-03T23:03:15.575Z",
   "tracking_tier": "hot",
-  "last_fetched_date": "2026-09-25",
-  "stars_stagnant_days": 0
+  "last_fetched_date": "2026-09-26",
+  "stars_stagnant_days": 1
 }

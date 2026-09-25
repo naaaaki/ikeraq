@@ -19,12 +19,12 @@
     "optical-character-recognition",
     "pdf"
   ],
-  "stars": 45991,
-  "forks": 3184,
+  "stars": 46018,
+  "forks": 3186,
   "watchers": null,
-  "open_issues": 1,
+  "open_issues": 2,
   "created_at": "2022-02-12T21:56:52Z",
-  "pushed_at": "2026-09-24T23:32:17Z",
+  "pushed_at": "2026-09-25T19:42:36Z",
   "is_archived": false,
   "license_spdx": "GPL-3.0",
   "license_category": "strong-copyleft",
@@ -43,10 +43,10 @@
     }
   ],
   "usability_score": 85,
-  "snapshot_days": 26,
+  "snapshot_days": 27,
   "is_indexable": true,
   "first_seen_at": "2026-08-30T23:15:18.750Z",
   "tracking_tier": "hot",
-  "last_fetched_date": "2026-09-25",
+  "last_fetched_date": "2026-09-26",
   "stars_stagnant_days": 0
 }

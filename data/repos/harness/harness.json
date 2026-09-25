@@ -19,12 +19,12 @@
     "hacktoberfest",
     "scm"
   ],
-  "stars": 38433,
-  "forks": 3405,
+  "stars": 38438,
+  "forks": 3408,
   "watchers": null,
   "open_issues": 113,
   "created_at": "2014-02-07T07:54:44Z",
-  "pushed_at": "2026-09-24T17:59:24Z",
+  "pushed_at": "2026-09-25T13:54:13Z",
   "is_archived": false,
   "license_spdx": "Apache-2.0",
   "license_category": "permissive",
@@ -37,10 +37,10 @@
   "category": "infra",
   "flags": [],
   "usability_score": 100,
-  "snapshot_days": 25,
+  "snapshot_days": 26,
   "is_indexable": true,
   "first_seen_at": "2026-09-01T00:26:13.031Z",
   "tracking_tier": "hot",
-  "last_fetched_date": "2026-09-25",
+  "last_fetched_date": "2026-09-26",
   "stars_stagnant_days": 0
 }

@@ -14,7 +14,7 @@
     "overlay",
     "wpf"
   ],
-  "stars": 4917,
+  "stars": 4918,
   "forks": 1148,
   "watchers": null,
   "open_issues": 659,
@@ -38,10 +38,10 @@
     }
   ],
   "usability_score": 60,
-  "snapshot_days": 1,
+  "snapshot_days": 2,
   "is_indexable": true,
   "first_seen_at": "2026-09-24T23:48:41.712Z",
   "tracking_tier": "hot",
-  "last_fetched_date": "2026-09-25",
+  "last_fetched_date": "2026-09-26",
   "stars_stagnant_days": 0
 }

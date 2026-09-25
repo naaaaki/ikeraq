@@ -1,0 +1,52 @@
+{
+  "id": "claration/feather",
+  "owner": "claration",
+  "name": "feather",
+  "description_en": "Free on-device iOS/iPadOS application manager/installer, using certificates part of the Apple Developer Program.",
+  "human_note": null,
+  "language": "Swift",
+  "topics": [
+    "esign",
+    "ios",
+    "ipa",
+    "ipados",
+    "kravasign",
+    "sideload",
+    "sideloading",
+    "sign",
+    "signature",
+    "signer",
+    "signing",
+    "zsign"
+  ],
+  "stars": 4767,
+  "forks": 422,
+  "watchers": null,
+  "open_issues": 32,
+  "created_at": "2024-05-19T17:44:22Z",
+  "pushed_at": "2026-09-25T08:01:35Z",
+  "is_archived": false,
+  "license_spdx": "GPL-3.0",
+  "license_category": "strong-copyleft",
+  "readme_excerpt": "Sideloading app meant for developer certificates. Features - User friendly, and clean UI. - Sign and install applications. - Supports AltStore repositories. - View detailed information about apps and your certificates. - Configurable signing options mainly for modifying the app, such as appearance and allowing support for the files app. - This includes patching apps for compatibility and Liquid Glass. - Tweak support for advanced users, using Ellekit for injection. - Supports injecting .deb and…",
+  "readme_length": 4502,
+  "has_japanese_readme": false,
+  "contributors_count": 35,
+  "releases_count": 29,
+  "ossf_scorecard": null,
+  "category": "mobile",
+  "flags": [
+    {
+      "id": "copyleft",
+      "label": "自社サービス組込み注意",
+      "reason": "GPL-3.0 です。組み込んだ側のソース公開が必要になる場合があります。"
+    }
+  ],
+  "usability_score": 85,
+  "snapshot_days": 1,
+  "is_indexable": true,
+  "first_seen_at": "2026-09-25T23:53:23.595Z",
+  "tracking_tier": "hot",
+  "last_fetched_date": "2026-09-26",
+  "stars_stagnant_days": 0
+}

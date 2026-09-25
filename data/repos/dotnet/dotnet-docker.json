@@ -6,12 +6,12 @@
   "human_note": null,
   "language": "Dockerfile",
   "topics": [],
-  "stars": 4878,
+  "stars": 4875,
   "forks": 1977,
   "watchers": null,
   "open_issues": 128,
   "created_at": "2015-11-16T19:51:06Z",
-  "pushed_at": "2026-09-24T21:43:13Z",
+  "pushed_at": "2026-09-25T19:55:53Z",
   "is_archived": false,
   "license_spdx": "MIT",
   "license_category": "permissive",
@@ -24,10 +24,10 @@
   "category": "other",
   "flags": [],
   "usability_score": 100,
-  "snapshot_days": 1,
+  "snapshot_days": 2,
   "is_indexable": false,
   "first_seen_at": "2026-09-24T23:48:41.712Z",
   "tracking_tier": "hot",
-  "last_fetched_date": "2026-09-25",
-  "stars_stagnant_days": 0
+  "last_fetched_date": "2026-09-26",
+  "stars_stagnant_days": 1
 }

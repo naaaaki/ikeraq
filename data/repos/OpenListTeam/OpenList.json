@@ -11,10 +11,10 @@
     "baidupan",
     "openlist"
   ],
-  "stars": 24767,
-  "forks": 2324,
+  "stars": 24780,
+  "forks": 2323,
   "watchers": null,
-  "open_issues": 277,
+  "open_issues": 278,
   "created_at": "2025-06-11T23:35:02Z",
   "pushed_at": "2026-09-24T11:30:56Z",
   "is_archived": false,
@@ -35,10 +35,10 @@
     }
   ],
   "usability_score": 85,
-  "snapshot_days": 2,
+  "snapshot_days": 3,
   "is_indexable": true,
   "first_seen_at": "2026-09-23T23:28:32.618Z",
   "tracking_tier": "hot",
-  "last_fetched_date": "2026-09-25",
+  "last_fetched_date": "2026-09-26",
   "stars_stagnant_days": 0
 }

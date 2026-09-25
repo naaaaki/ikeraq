@@ -16,10 +16,10 @@
     "views",
     "web"
   ],
-  "stars": 91170,
-  "forks": 35238,
+  "stars": 91182,
+  "forks": 35408,
   "watchers": null,
-  "open_issues": 520,
+  "open_issues": 525,
   "created_at": "2012-04-28T02:47:18Z",
   "pushed_at": "2026-09-24T08:59:37Z",
   "is_archived": false,
@@ -34,10 +34,10 @@
   "category": "backend",
   "flags": [],
   "usability_score": 100,
-  "snapshot_days": 27,
+  "snapshot_days": 28,
   "is_indexable": true,
   "first_seen_at": "2026-08-29T15:46:21.821Z",
   "tracking_tier": "hot",
-  "last_fetched_date": "2026-09-25",
+  "last_fetched_date": "2026-09-26",
   "stars_stagnant_days": 0
 }

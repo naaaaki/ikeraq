@@ -1,0 +1,39 @@
+{
+  "id": "kelseyhightower/kubernetes-the-hard-way",
+  "owner": "kelseyhightower",
+  "name": "kubernetes-the-hard-way",
+  "description_en": "Bootstrap Kubernetes the hard way. No scripts.",
+  "human_note": null,
+  "language": null,
+  "topics": [],
+  "stars": 50121,
+  "forks": 15918,
+  "watchers": 950,
+  "open_issues": 56,
+  "created_at": "2016-07-07T14:15:27Z",
+  "pushed_at": "2025-04-10T06:11:47Z",
+  "is_archived": false,
+  "license_spdx": "Apache-2.0",
+  "license_category": "permissive",
+  "readme_excerpt": "Kubernetes The Hard Way This tutorial walks you through setting up Kubernetes the hard way. This guide is not for someone looking for a fully automated tool to bring up a Kubernetes cluster. Kubernetes The Hard Way is optimized for learning, which means taking the long route to ensure you understand each task required to bootstrap a Kubernetes cluster. > The results of this tutorial should not be viewed as production ready, and may receive limited support from the community, but don't let that…",
+  "readme_length": 2624,
+  "has_japanese_readme": false,
+  "contributors_count": 61,
+  "releases_count": 0,
+  "ossf_scorecard": null,
+  "category": "other",
+  "flags": [
+    {
+      "id": "stale",
+      "label": "メンテ停止の疑い",
+      "reason": "最終コミットから 533 日が経過しています（判定は 180 日以上）。"
+    }
+  ],
+  "usability_score": 70,
+  "snapshot_days": 1,
+  "is_indexable": true,
+  "first_seen_at": "2026-09-25T23:53:23.097Z",
+  "tracking_tier": "hot",
+  "last_fetched_date": "2026-09-26",
+  "stars_stagnant_days": 0
+}

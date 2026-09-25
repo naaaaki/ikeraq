@@ -1,0 +1,47 @@
+{
+  "id": "initialcommit-com/git-sim",
+  "owner": "initialcommit-com",
+  "name": "git-sim",
+  "description_en": "Visually simulate Git operations in your own repos with a single terminal command.",
+  "human_note": null,
+  "language": "Python",
+  "topics": [
+    "git",
+    "gitpython",
+    "manim",
+    "opencv",
+    "python",
+    "python3",
+    "visualization"
+  ],
+  "stars": 4685,
+  "forks": 123,
+  "watchers": null,
+  "open_issues": 8,
+  "created_at": "2022-10-18T15:36:17Z",
+  "pushed_at": "2026-09-22T17:49:23Z",
+  "is_archived": false,
+  "license_spdx": "GPL-2.0",
+  "license_category": "strong-copyleft",
+  "readme_excerpt": "git-sim 🚨 I'm working on a new project called Devlands that I consider to be the next generation of git-sim and an even more intuitive way to learn and use Git. 🌱 It enables you to visualize your entire Git repo, literally walk through your codebase, simulate + run Git commands, do a character-guided Git tutorial, and experience your codebase from a fresh perspective. Consider checking it out! Visually simulate Git operations in your own repos with a single terminal command. This generates an…",
+  "readme_length": 26057,
+  "has_japanese_readme": false,
+  "contributors_count": 8,
+  "releases_count": 17,
+  "ossf_scorecard": null,
+  "category": "dev-tool",
+  "flags": [
+    {
+      "id": "copyleft",
+      "label": "自社サービス組込み注意",
+      "reason": "GPL-2.0 です。組み込んだ側のソース公開が必要になる場合があります。"
+    }
+  ],
+  "usability_score": 85,
+  "snapshot_days": 1,
+  "is_indexable": true,
+  "first_seen_at": "2026-09-25T23:53:23.596Z",
+  "tracking_tier": "hot",
+  "last_fetched_date": "2026-09-26",
+  "stars_stagnant_days": 0
+}

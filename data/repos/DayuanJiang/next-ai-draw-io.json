@@ -10,12 +10,12 @@
     "diagrams",
     "productivity"
   ],
-  "stars": 36031,
-  "forks": 3856,
+  "stars": 36044,
+  "forks": 3855,
   "watchers": null,
   "open_issues": 192,
   "created_at": "2025-03-23T15:03:48Z",
-  "pushed_at": "2026-09-24T19:53:17Z",
+  "pushed_at": "2026-09-25T18:06:15Z",
   "is_archived": false,
   "license_spdx": "Apache-2.0",
   "license_category": "permissive",
@@ -28,10 +28,10 @@
   "category": "dev-tool",
   "flags": [],
   "usability_score": 100,
-  "snapshot_days": 25,
+  "snapshot_days": 26,
   "is_indexable": true,
   "first_seen_at": "2026-09-01T00:26:13.032Z",
   "tracking_tier": "hot",
-  "last_fetched_date": "2026-09-25",
+  "last_fetched_date": "2026-09-26",
   "stars_stagnant_days": 0
 }

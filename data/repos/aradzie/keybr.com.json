@@ -1,0 +1,44 @@
+{
+  "id": "aradzie/keybr.com",
+  "owner": "aradzie",
+  "name": "keybr.com",
+  "description_en": "The smartest way to learn touch typing and improve your typing speed.",
+  "human_note": null,
+  "language": "TypeScript",
+  "topics": [
+    "keyboard",
+    "keyboard-layout",
+    "typing",
+    "typing-tutor"
+  ],
+  "stars": 4740,
+  "forks": 462,
+  "watchers": null,
+  "open_issues": 326,
+  "created_at": "2023-09-25T06:58:26Z",
+  "pushed_at": "2026-09-22T14:18:19Z",
+  "is_archived": false,
+  "license_spdx": "AGPL-3.0",
+  "license_category": "strong-copyleft",
+  "readme_excerpt": "keybr.com is not (just) a typing test It's the smartest way to learn touch typing and improve your typing speed. On the surface, it looks pretty simple: it shows you a piece of text, and you type it out. But the devil is in the details — keybr.com offers a few unique features: keybr.com tracks every single keystroke and computes statistics for each individual key. It automatically generates lessons that focus on your weakest keys. You can set your own target typing speed, and it tracks your pro…",
+  "readme_length": 2181,
+  "has_japanese_readme": false,
+  "contributors_count": 92,
+  "releases_count": 0,
+  "ossf_scorecard": null,
+  "category": "other",
+  "flags": [
+    {
+      "id": "copyleft",
+      "label": "自社サービス組込み注意",
+      "reason": "AGPL-3.0 です。組み込んだ側のソース公開が必要になる場合があります。"
+    }
+  ],
+  "usability_score": 85,
+  "snapshot_days": 1,
+  "is_indexable": true,
+  "first_seen_at": "2026-09-25T23:53:23.595Z",
+  "tracking_tier": "hot",
+  "last_fetched_date": "2026-09-26",
+  "stars_stagnant_days": 0
+}

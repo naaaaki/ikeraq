@@ -19,8 +19,8 @@
     "team-collaboration",
     "wiki"
   ],
-  "stars": 76913,
-  "forks": 6041,
+  "stars": 76935,
+  "forks": 6040,
   "watchers": 407,
   "open_issues": 1030,
   "created_at": "2021-06-16T12:56:48Z",
@@ -43,10 +43,10 @@
     }
   ],
   "usability_score": 85,
-  "snapshot_days": 27,
+  "snapshot_days": 28,
   "is_indexable": true,
   "first_seen_at": "2026-08-29T23:02:08.747Z",
   "tracking_tier": "hot",
-  "last_fetched_date": "2026-09-25",
+  "last_fetched_date": "2026-09-26",
   "stars_stagnant_days": 0
 }

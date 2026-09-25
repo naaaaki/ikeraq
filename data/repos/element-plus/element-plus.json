@@ -13,12 +13,12 @@
     "vue-components",
     "vuejs"
   ],
-  "stars": 27783,
+  "stars": 27787,
   "forks": 19823,
   "watchers": null,
   "open_issues": 1159,
   "created_at": "2020-07-21T06:51:19Z",
-  "pushed_at": "2026-09-24T15:22:57Z",
+  "pushed_at": "2026-09-25T15:55:49Z",
   "is_archived": false,
   "license_spdx": "MIT",
   "license_category": "permissive",
@@ -31,10 +31,10 @@
   "category": "web-frontend",
   "flags": [],
   "usability_score": 100,
-  "snapshot_days": 23,
+  "snapshot_days": 24,
   "is_indexable": true,
   "first_seen_at": "2026-09-02T23:02:41.773Z",
   "tracking_tier": "hot",
-  "last_fetched_date": "2026-09-25",
+  "last_fetched_date": "2026-09-26",
   "stars_stagnant_days": 0
 }

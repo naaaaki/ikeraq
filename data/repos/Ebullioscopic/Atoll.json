@@ -1,0 +1,44 @@
+{
+  "id": "Ebullioscopic/Atoll",
+  "owner": "Ebullioscopic",
+  "name": "Atoll",
+  "description_en": "Dynamic Island for macOS",
+  "human_note": null,
+  "language": "Swift",
+  "topics": [
+    "dynamicisland",
+    "hacktoberfest",
+    "macbook",
+    "macos"
+  ],
+  "stars": 4769,
+  "forks": 319,
+  "watchers": null,
+  "open_issues": 191,
+  "created_at": "2024-11-01T05:06:09Z",
+  "pushed_at": "2026-09-25T00:21:04Z",
+  "is_archived": false,
+  "license_spdx": "GPL-3.0",
+  "license_category": "strong-copyleft",
+  "readme_excerpt": "Atoll - DynamicIsland for macOS Join our Discord community Atoll turns the MacBook notch into a focused command surface for media, system insight, and quick utilities. It stays out of the way until needed, then expands with responsive, native SwiftUI animations. Highlights - Media controls for Apple Music, Spotify, Cider, and more with inline previews. - Live Activities for media playback, Focus, screen recording, privacy indicators, downloads (beta), and battery/charging. - Lock screen widgets…",
+  "readme_length": 8255,
+  "has_japanese_readme": false,
+  "contributors_count": 70,
+  "releases_count": 29,
+  "ossf_scorecard": null,
+  "category": "other",
+  "flags": [
+    {
+      "id": "copyleft",
+      "label": "自社サービス組込み注意",
+      "reason": "GPL-3.0 です。組み込んだ側のソース公開が必要になる場合があります。"
+    }
+  ],
+  "usability_score": 85,
+  "snapshot_days": 1,
+  "is_indexable": true,
+  "first_seen_at": "2026-09-25T23:53:23.595Z",
+  "tracking_tier": "hot",
+  "last_fetched_date": "2026-09-26",
+  "stars_stagnant_days": 0
+}

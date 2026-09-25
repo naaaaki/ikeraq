@@ -1,0 +1,52 @@
+{
+  "id": "emanuele-f/PCAPdroid",
+  "owner": "emanuele-f",
+  "name": "PCAPdroid",
+  "description_en": "No-root network monitor, firewall and PCAP dumper for Android",
+  "human_note": null,
+  "language": "Java",
+  "topics": [
+    "android",
+    "capture-traffic",
+    "decryption",
+    "firewall",
+    "network-analysis",
+    "no-root",
+    "pcap",
+    "pcap-files",
+    "sniffer",
+    "sniffing",
+    "traffic-monitor",
+    "wireshark"
+  ],
+  "stars": 4823,
+  "forks": 547,
+  "watchers": null,
+  "open_issues": 42,
+  "created_at": "2020-01-06T18:11:27Z",
+  "pushed_at": "2026-09-20T17:12:37Z",
+  "is_archived": false,
+  "license_spdx": "GPL-3.0",
+  "license_category": "strong-copyleft",
+  "readme_excerpt": "PCAPdroid PCAPdroid is a privacy-friendly open source app which can track, analyze and block the connections made by the other apps on the device. It can also export a PCAP dump of the traffic, inspect HTTP requests, decrypt TLS traffic and much more. PCAPdroid simulates a VPN in order to capture the network traffic without root. It does not use a remote VPN server, instead data is processed locally on the device. Main features: - Log and analyze the connections made by user and system apps - G…",
+  "readme_length": 5380,
+  "has_japanese_readme": false,
+  "contributors_count": 97,
+  "releases_count": 72,
+  "ossf_scorecard": null,
+  "category": "mobile",
+  "flags": [
+    {
+      "id": "copyleft",
+      "label": "自社サービス組込み注意",
+      "reason": "GPL-3.0 です。組み込んだ側のソース公開が必要になる場合があります。"
+    }
+  ],
+  "usability_score": 85,
+  "snapshot_days": 1,
+  "is_indexable": true,
+  "first_seen_at": "2026-09-25T23:53:23.594Z",
+  "tracking_tier": "hot",
+  "last_fetched_date": "2026-09-26",
+  "stars_stagnant_days": 0
+}

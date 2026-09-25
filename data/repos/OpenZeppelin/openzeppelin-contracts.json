@@ -13,11 +13,11 @@
     "solidity"
   ],
   "stars": 27255,
-  "forks": 12401,
+  "forks": 12397,
   "watchers": null,
-  "open_issues": 356,
+  "open_issues": 358,
   "created_at": "2016-08-01T20:54:54Z",
-  "pushed_at": "2026-09-24T08:06:39Z",
+  "pushed_at": "2026-09-25T03:45:57Z",
   "is_archived": false,
   "license_spdx": "MIT",
   "license_category": "permissive",
@@ -30,10 +30,10 @@
   "category": "security",
   "flags": [],
   "usability_score": 100,
-  "snapshot_days": 22,
+  "snapshot_days": 23,
   "is_indexable": true,
   "first_seen_at": "2026-09-03T23:03:15.575Z",
   "tracking_tier": "hot",
-  "last_fetched_date": "2026-09-25",
-  "stars_stagnant_days": 0
+  "last_fetched_date": "2026-09-26",
+  "stars_stagnant_days": 1
 }

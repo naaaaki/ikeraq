@@ -27,9 +27,9 @@
     "tor-network",
     "torbot"
   ],
-  "stars": 4944,
-  "forks": 761,
-  "watchers": null,
+  "stars": 4949,
+  "forks": 762,
+  "watchers": 130,
   "open_issues": 10,
   "created_at": "2017-05-17T12:28:16Z",
   "pushed_at": "2026-09-19T01:46:47Z",
@@ -45,10 +45,10 @@
   "category": "security",
   "flags": [],
   "usability_score": 100,
-  "snapshot_days": 1,
+  "snapshot_days": 2,
   "is_indexable": false,
   "first_seen_at": "2026-09-24T23:48:41.712Z",
   "tracking_tier": "hot",
-  "last_fetched_date": "2026-09-25",
+  "last_fetched_date": "2026-09-26",
   "stars_stagnant_days": 0
 }

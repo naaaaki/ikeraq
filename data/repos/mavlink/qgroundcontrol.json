@@ -17,9 +17,9 @@
     "uav"
   ],
   "stars": 4978,
-  "forks": 5071,
+  "forks": 5072,
   "watchers": null,
-  "open_issues": 1059,
+  "open_issues": 1061,
   "created_at": "2011-10-13T07:31:07Z",
   "pushed_at": "2026-09-24T17:47:16Z",
   "is_archived": false,
@@ -34,10 +34,10 @@
   "category": "other",
   "flags": [],
   "usability_score": 100,
-  "snapshot_days": 1,
+  "snapshot_days": 2,
   "is_indexable": false,
   "first_seen_at": "2026-09-24T23:48:41.711Z",
   "tracking_tier": "hot",
-  "last_fetched_date": "2026-09-25",
-  "stars_stagnant_days": 0
+  "last_fetched_date": "2026-09-26",
+  "stars_stagnant_days": 1
 }

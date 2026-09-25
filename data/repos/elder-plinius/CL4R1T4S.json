@@ -27,7 +27,7 @@
     "tools",
     "transparency"
   ],
-  "stars": 50641,
+  "stars": 50693,
   "forks": 10394,
   "watchers": 798,
   "open_issues": 128,
@@ -51,10 +51,10 @@
     }
   ],
   "usability_score": 85,
-  "snapshot_days": 24,
+  "snapshot_days": 25,
   "is_indexable": true,
   "first_seen_at": "2026-09-01T23:05:22.650Z",
   "tracking_tier": "hot",
-  "last_fetched_date": "2026-09-25",
+  "last_fetched_date": "2026-09-26",
   "stars_stagnant_days": 0
 }

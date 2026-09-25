@@ -18,8 +18,8 @@
     "raspberry-pi",
     "shell"
   ],
-  "stars": 61061,
-  "forks": 3323,
+  "stars": 61075,
+  "forks": 3322,
   "watchers": 715,
   "open_issues": 45,
   "created_at": "2014-06-08T15:02:55Z",
@@ -36,10 +36,10 @@
   "category": "backend",
   "flags": [],
   "usability_score": 100,
-  "snapshot_days": 27,
+  "snapshot_days": 28,
   "is_indexable": true,
   "first_seen_at": "2026-08-29T23:02:08.747Z",
   "tracking_tier": "hot",
-  "last_fetched_date": "2026-09-25",
+  "last_fetched_date": "2026-09-26",
   "stars_stagnant_days": 0
 }

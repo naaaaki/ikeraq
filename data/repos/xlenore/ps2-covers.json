@@ -1,0 +1,48 @@
+{
+  "id": "xlenore/ps2-covers",
+  "owner": "xlenore",
+  "name": "ps2-covers",
+  "description_en": "PS2 Covers Collection",
+  "human_note": null,
+  "language": "Python",
+  "topics": [
+    "aethersx2",
+    "cover",
+    "covers",
+    "download",
+    "downloader",
+    "pcsx2",
+    "ps2",
+    "retroarch"
+  ],
+  "stars": 4709,
+  "forks": 223,
+  "watchers": null,
+  "open_issues": 45,
+  "created_at": "2022-05-26T16:32:40Z",
+  "pushed_at": "2026-09-21T16:53:25Z",
+  "is_archived": false,
+  "license_spdx": null,
+  "license_category": "none",
+  "readme_excerpt": "⭐Star this repo if it was useful to you⭐ - Covers Stats - PSCoverDL App - PCSX2 Setup PSCoverDL Small tool to download PS1/PS2 covers for DuckStation and PCSX2. You can download it from here: PSCoverDL PCSX2 setup PCSX2 has its own cover downloader, upgrade to version v1.7.3329 or higher. - Open PCSX2 - Tools -> Cover Downloader... - Use this URL for default covers python https://raw.githubusercontent.com/xlenore/ps2-covers/main/covers/3d/${serial}.png - Check \"Use Serial Files Name\" - Click St…",
+  "readme_length": 2298,
+  "has_japanese_readme": false,
+  "contributors_count": 46,
+  "releases_count": 0,
+  "ossf_scorecard": null,
+  "category": "other",
+  "flags": [
+    {
+      "id": "no_license",
+      "label": "利用条件不明",
+      "reason": "ライセンスが設定されていません。この場合は原則として全権利が留保され、利用できません。"
+    }
+  ],
+  "usability_score": 60,
+  "snapshot_days": 1,
+  "is_indexable": true,
+  "first_seen_at": "2026-09-25T23:53:23.596Z",
+  "tracking_tier": "hot",
+  "last_fetched_date": "2026-09-26",
+  "stars_stagnant_days": 0
+}

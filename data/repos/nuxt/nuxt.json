@@ -20,12 +20,12 @@
     "universal",
     "vue"
   ],
-  "stars": 60904,
-  "forks": 5802,
+  "stars": 60902,
+  "forks": 5801,
   "watchers": null,
-  "open_issues": 481,
+  "open_issues": 482,
   "created_at": "2016-10-26T11:18:47Z",
-  "pushed_at": "2026-09-24T22:19:49Z",
+  "pushed_at": "2026-09-25T22:35:35Z",
   "is_archived": false,
   "license_spdx": "MIT",
   "license_category": "permissive",
@@ -38,10 +38,10 @@
   "category": "web-frontend",
   "flags": [],
   "usability_score": 100,
-  "snapshot_days": 27,
+  "snapshot_days": 28,
   "is_indexable": true,
   "first_seen_at": "2026-08-29T23:02:08.747Z",
   "tracking_tier": "hot",
-  "last_fetched_date": "2026-09-25",
-  "stars_stagnant_days": 0
+  "last_fetched_date": "2026-09-26",
+  "stars_stagnant_days": 1
 }

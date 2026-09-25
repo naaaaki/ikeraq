@@ -2,7 +2,7 @@
   "id": "feder-cr/invisible_playwright_mcp",
   "owner": "feder-cr",
   "name": "invisible_playwright_mcp",
-  "description_en": "Your AI agent browses the web without captchas: self-hosted Python MCP server on undetected anti-detect stealth Firefox, for browser automation, scraping, computer use.",
+  "description_en": "Playwright MCP server undetected by anti-bots and captchas: AI agent browses the web on anti-detect stealth Firefox, Python, undetected browser automation, scraping, computer use.",
   "human_note": null,
   "language": "Python",
   "topics": [
@@ -27,12 +27,12 @@
     "web-automation",
     "web-research"
   ],
-  "stars": 31653,
-  "forks": 4680,
+  "stars": 31665,
+  "forks": 4676,
   "watchers": null,
   "open_issues": 4,
   "created_at": "2024-08-04T12:15:06Z",
-  "pushed_at": "2026-09-23T21:25:14Z",
+  "pushed_at": "2026-09-25T13:53:08Z",
   "is_archived": false,
   "license_spdx": "MIT",
   "license_category": "permissive",
@@ -45,10 +45,10 @@
   "category": "ai-agent",
   "flags": [],
   "usability_score": 100,
-  "snapshot_days": 2,
+  "snapshot_days": 3,
   "is_indexable": false,
   "first_seen_at": "2026-09-23T23:28:32.617Z",
   "tracking_tier": "hot",
-  "last_fetched_date": "2026-09-25",
+  "last_fetched_date": "2026-09-26",
   "stars_stagnant_days": 0
 }

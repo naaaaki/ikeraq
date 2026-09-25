@@ -27,7 +27,7 @@
     "php",
     "php-ecommerce"
   ],
-  "stars": 28169,
+  "stars": 28173,
   "forks": 3298,
   "watchers": null,
   "open_issues": 25,
@@ -45,10 +45,10 @@
   "category": "backend",
   "flags": [],
   "usability_score": 100,
-  "snapshot_days": 23,
+  "snapshot_days": 24,
   "is_indexable": true,
   "first_seen_at": "2026-09-02T23:02:41.773Z",
   "tracking_tier": "hot",
-  "last_fetched_date": "2026-09-25",
+  "last_fetched_date": "2026-09-26",
   "stars_stagnant_days": 0
 }

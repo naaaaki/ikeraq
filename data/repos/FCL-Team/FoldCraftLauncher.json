@@ -1,0 +1,39 @@
+{
+  "id": "FCL-Team/FoldCraftLauncher",
+  "owner": "FCL-Team",
+  "name": "FoldCraftLauncher",
+  "description_en": "Fold Craft Launcher, an Android Minecraft : Java Edition launcher.",
+  "human_note": null,
+  "language": "Java",
+  "topics": [],
+  "stars": 4779,
+  "forks": 317,
+  "watchers": null,
+  "open_issues": 477,
+  "created_at": "2022-10-19T10:12:18Z",
+  "pushed_at": "2026-09-25T10:31:18Z",
+  "is_archived": false,
+  "license_spdx": "GPL-3.0",
+  "license_category": "strong-copyleft",
+  "readme_excerpt": "Fold Craft Launcher 🌍 语言 简体中文 | English | Русский язык > 你说得对，但是「FoldCraft Launcher」是由FCL-Team基于HMCL的核心功能，使用PojavLauncher后端开发的Minecraft Java版启动器。启动器运行在一个被称作「安卓」的系统，在这里，被系统选中的人将被授予「JVM」，导引Java之力。你将扮演一位名为「小白」的神秘用户，在自由的使用中安装不同版本、各有千秋独特的模组，和它们一起运行，找出崩溃闪退的原因，同时逐步发掘「xxException:」的真相。 > ✨ 项目简介 > 「Fold Craft Launcher」是由FCL团队开发的Android平台Minecraft: Java Edition启动器。基于HMCL的核心功能，使用Amethyst-Android后端，让您能在移动设备上畅玩Java版MC，支持模组加载与全版本运行。 🚀 核心特性 ✅ 全版本支持 - 原生支持 Minecraft 全版本（包括最新快照） - 模组加载器支持：Forge/NeoForge/LiteL…",
+  "readme_length": 6742,
+  "has_japanese_readme": false,
+  "contributors_count": 35,
+  "releases_count": 186,
+  "ossf_scorecard": null,
+  "category": "other",
+  "flags": [
+    {
+      "id": "copyleft",
+      "label": "自社サービス組込み注意",
+      "reason": "GPL-3.0 です。組み込んだ側のソース公開が必要になる場合があります。"
+    }
+  ],
+  "usability_score": 85,
+  "snapshot_days": 1,
+  "is_indexable": true,
+  "first_seen_at": "2026-09-25T23:53:23.595Z",
+  "tracking_tier": "hot",
+  "last_fetched_date": "2026-09-26",
+  "stars_stagnant_days": 0
+}

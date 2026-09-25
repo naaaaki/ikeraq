@@ -1,0 +1,45 @@
+{
+  "id": "derv82/wifit3",
+  "owner": "derv82",
+  "name": "wifit3",
+  "description_en": "Wifite but USB-only & cross-platform.",
+  "human_note": null,
+  "language": "Python",
+  "topics": [
+    "cross-platform",
+    "userland",
+    "wifi-scanner",
+    "wifi-security",
+    "wireless-security"
+  ],
+  "stars": 905,
+  "forks": 86,
+  "watchers": null,
+  "open_issues": 5,
+  "created_at": "2026-06-20T18:15:05Z",
+  "pushed_at": "2026-09-23T09:07:44Z",
+  "is_archived": false,
+  "license_spdx": "GPL-2.0",
+  "license_category": "strong-copyleft",
+  "readme_excerpt": "wifit3 > A standalone USB Wi-Fi auditor for Linux, Windows, and macOS. > At least one of the supported USB adapters is required. Why? Cross-Platform: Runs identically on Linux, macOS, and Windows. Wireless Driver Heaven: Built-in wireless stack avoids kernel driver versioning hell and Windows' NDIS. Zero Runtime Dependencies: No aircrack-ng or reaver, just pure Python with PyUSB & Textual libraries. Features Reconnaissance & Analysis - Multi-Card Aggregation: Capture packets across multiple ada…",
+  "readme_length": 7329,
+  "has_japanese_readme": false,
+  "contributors_count": 10,
+  "releases_count": 19,
+  "ossf_scorecard": null,
+  "category": "security",
+  "flags": [
+    {
+      "id": "copyleft",
+      "label": "自社サービス組込み注意",
+      "reason": "GPL-2.0 です。組み込んだ側のソース公開が必要になる場合があります。"
+    }
+  ],
+  "usability_score": 85,
+  "snapshot_days": 1,
+  "is_indexable": true,
+  "first_seen_at": "2026-09-25T23:53:22.872Z",
+  "tracking_tier": "hot",
+  "last_fetched_date": "2026-09-26",
+  "stars_stagnant_days": 0
+}

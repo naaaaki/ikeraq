@@ -1,0 +1,47 @@
+{
+  "id": "Steam-Headless/docker-steam-headless",
+  "owner": "Steam-Headless",
+  "name": "docker-steam-headless",
+  "description_en": "A Headless Steam Docker image supporting NVIDIA GPU and accessible via Web UI",
+  "human_note": null,
+  "language": "Shell",
+  "topics": [
+    "docker",
+    "gameserver",
+    "gamestream",
+    "hacktoberfest",
+    "moonlight",
+    "steam",
+    "sunshine"
+  ],
+  "stars": 4817,
+  "forks": 293,
+  "watchers": null,
+  "open_issues": 7,
+  "created_at": "2022-01-10T09:49:01Z",
+  "pushed_at": "2026-09-25T23:00:04Z",
+  "is_archived": false,
+  "license_spdx": "GPL-2.0",
+  "license_category": "strong-copyleft",
+  "readme_excerpt": "Headless Steam Service Remote Game Streaming Server. Play your games either in the browser with audio or via Steam Link or Moonlight. Play from another Steam Client with Steam Remote Play. Easily deploy a Steam Docker instance in seconds. Features: - Steam Client configured for running on Linux with Proton - Moonlight compatible server for easy remote desktop streaming - Easy installation of EmeDeck, Heroic and Lutris via Flatpak - Full video/audio noVNC web access to a Xfce4 Desktop - NVIDIA,…",
+  "readme_length": 3050,
+  "has_japanese_readme": false,
+  "contributors_count": 24,
+  "releases_count": 2,
+  "ossf_scorecard": null,
+  "category": "infra",
+  "flags": [
+    {
+      "id": "copyleft",
+      "label": "自社サービス組込み注意",
+      "reason": "GPL-2.0 です。組み込んだ側のソース公開が必要になる場合があります。"
+    }
+  ],
+  "usability_score": 85,
+  "snapshot_days": 1,
+  "is_indexable": true,
+  "first_seen_at": "2026-09-25T23:53:23.594Z",
+  "tracking_tier": "hot",
+  "last_fetched_date": "2026-09-26",
+  "stars_stagnant_days": 0
+}

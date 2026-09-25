@@ -24,8 +24,8 @@
     "wpf",
     "xaml"
   ],
-  "stars": 26957,
-  "forks": 1717,
+  "stars": 26969,
+  "forks": 1719,
   "watchers": 131,
   "open_issues": 1159,
   "created_at": "2020-12-15T13:52:11Z",
@@ -48,10 +48,10 @@
     }
   ],
   "usability_score": 85,
-  "snapshot_days": 22,
+  "snapshot_days": 23,
   "is_indexable": true,
   "first_seen_at": "2026-09-03T23:03:15.575Z",
   "tracking_tier": "hot",
-  "last_fetched_date": "2026-09-25",
+  "last_fetched_date": "2026-09-26",
   "stars_stagnant_days": 0
 }

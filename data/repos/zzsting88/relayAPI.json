@@ -1,0 +1,39 @@
+{
+  "id": "zzsting88/relayAPI",
+  "owner": "zzsting88",
+  "name": "relayAPI",
+  "description_en": "AI API中转站推荐与评测",
+  "human_note": null,
+  "language": "TypeScript",
+  "topics": [],
+  "stars": 4743,
+  "forks": 156,
+  "watchers": null,
+  "open_issues": 12,
+  "created_at": "2026-03-09T14:46:03Z",
+  "pushed_at": "2026-09-24T04:31:12Z",
+  "is_archived": false,
+  "license_spdx": null,
+  "license_category": "none",
+  "readme_excerpt": "AI API中转站推荐与评测 写在前面的话 2026-6-15 更新 ~~目前最好的策略, 大概率是自己买一个土区的GPT Plus, 每个月80块钱左右.~~ ~~方法是自己注册一个土区的apple id, 然后去mtcgame这里买一个礼品卡, 或者去闲鱼上买礼品卡,价格稍贵一点, 但是也能接受.~~ 土区涨价了, 只有菲区还划算点. 菲区麻烦点, 简单点就用美区或者别的区. 各个区的价格可以看这里官方套餐 有人测过, 20刀的plus大概能用出400刀的token. 如果加上各种重置, 海鲜市场上买个重置, 实际token更多, 还是很划算. 具体的订阅和使用方法可以看这个github. https://github.com/hvoyai/chinaGPTClaude 弄完之后, 挂个机场, 用codex, 不管是写电脑, 还是聊天,或者日常很多事情(譬如给照片打个水印, 写个文章)都很方便. 基本上够自己用了. 如果实在嫌麻烦, 找一些排名靠前的中转站, 选一些价格在 人民币 ¥1(进)6(出)/一百万Token的GPT 5.6 Sol中转站, 少充点钱, 也不是不行. 追求…",
+  "readme_length": 9956,
+  "has_japanese_readme": false,
+  "contributors_count": 7,
+  "releases_count": 0,
+  "ossf_scorecard": null,
+  "category": "other",
+  "flags": [
+    {
+      "id": "no_license",
+      "label": "利用条件不明",
+      "reason": "ライセンスが設定されていません。この場合は原則として全権利が留保され、利用できません。"
+    }
+  ],
+  "usability_score": 60,
+  "snapshot_days": 1,
+  "is_indexable": true,
+  "first_seen_at": "2026-09-25T23:53:23.595Z",
+  "tracking_tier": "hot",
+  "last_fetched_date": "2026-09-26",
+  "stars_stagnant_days": 0
+}

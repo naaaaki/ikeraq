@@ -9,10 +9,10 @@
     "awesome",
     "awesome-list"
   ],
-  "stars": 49102,
-  "forks": 7726,
+  "stars": 49104,
+  "forks": 7729,
   "watchers": null,
-  "open_issues": 4,
+  "open_issues": 5,
   "created_at": "2014-07-09T10:12:43Z",
   "pushed_at": "2026-09-23T10:50:49Z",
   "is_archived": false,
@@ -33,10 +33,10 @@
     }
   ],
   "usability_score": 85,
-  "snapshot_days": 2,
+  "snapshot_days": 3,
   "is_indexable": true,
   "first_seen_at": "2026-09-23T23:28:32.616Z",
   "tracking_tier": "hot",
-  "last_fetched_date": "2026-09-25",
+  "last_fetched_date": "2026-09-26",
   "stars_stagnant_days": 0
 }

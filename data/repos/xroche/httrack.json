@@ -1,0 +1,39 @@
+{
+  "id": "xroche/httrack",
+  "owner": "xroche",
+  "name": "httrack",
+  "description_en": "HTTrack Website Copier, copy websites to your computer (Official repository)",
+  "human_note": null,
+  "language": "C",
+  "topics": [],
+  "stars": 4765,
+  "forks": 783,
+  "watchers": null,
+  "open_issues": 2,
+  "created_at": "2015-03-14T08:20:27Z",
+  "pushed_at": "2026-09-25T23:34:24Z",
+  "is_archived": false,
+  "license_spdx": "GPL-3.0",
+  "license_category": "strong-copyleft",
+  "readme_excerpt": "HTTrack Website Copier - Development Repository About Copy websites to your computer (Offline browser) HTTrack is an offline browser utility, allowing you to download a World Wide website from the Internet to a local directory, building recursively all directories, getting html, images, and other files from the server to your computer. HTTrack arranges the original site's relative link-structure. Simply open a page of the \"mirrored\" website in your browser, and you can browse the site from link…",
+  "readme_length": 1981,
+  "has_japanese_readme": false,
+  "contributors_count": 25,
+  "releases_count": 21,
+  "ossf_scorecard": null,
+  "category": "other",
+  "flags": [
+    {
+      "id": "copyleft",
+      "label": "自社サービス組込み注意",
+      "reason": "GPL-3.0 です。組み込んだ側のソース公開が必要になる場合があります。"
+    }
+  ],
+  "usability_score": 85,
+  "snapshot_days": 1,
+  "is_indexable": true,
+  "first_seen_at": "2026-09-25T23:53:23.595Z",
+  "tracking_tier": "hot",
+  "last_fetched_date": "2026-09-26",
+  "stars_stagnant_days": 0
+}

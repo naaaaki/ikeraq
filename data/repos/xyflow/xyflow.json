@@ -18,7 +18,7 @@
     "typescript-library",
     "workflow"
   ],
-  "stars": 38489,
+  "stars": 38497,
   "forks": 2540,
   "watchers": null,
   "open_issues": 139,
@@ -36,10 +36,10 @@
   "category": "web-frontend",
   "flags": [],
   "usability_score": 100,
-  "snapshot_days": 25,
+  "snapshot_days": 26,
   "is_indexable": true,
   "first_seen_at": "2026-09-01T00:26:13.031Z",
   "tracking_tier": "hot",
-  "last_fetched_date": "2026-09-25",
+  "last_fetched_date": "2026-09-26",
   "stars_stagnant_days": 0
 }

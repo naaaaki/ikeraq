@@ -1,0 +1,51 @@
+{
+  "id": "chaitin/MonkeyCode",
+  "owner": "chaitin",
+  "name": "MonkeyCode",
+  "description_en": "AI coding platform for teams",
+  "human_note": null,
+  "language": "TypeScript",
+  "topics": [
+    "ai",
+    "ai-agent",
+    "ai-coding",
+    "ai-coding-assistant",
+    "aicoding",
+    "claude",
+    "codex",
+    "coding",
+    "cursor",
+    "opencode",
+    "vibe-coding"
+  ],
+  "stars": 4759,
+  "forks": 728,
+  "watchers": null,
+  "open_issues": 355,
+  "created_at": "2025-06-25T06:35:32Z",
+  "pushed_at": "2026-09-24T11:11:31Z",
+  "is_archived": false,
+  "license_spdx": "AGPL-3.0",
+  "license_category": "strong-copyleft",
+  "readme_excerpt": "MonkeyCode Try Online · Self-Hosted Deployment · Discord · Community Gallery · 中文 What Is MonkeyCode? MonkeyCode is an open-source enterprise-grade AI development platform with built-in development environment management, AI model management, AI task management, and project requirement management. Unlike typical vibe coding tools, MonkeyCode is designed as an AI assistant for professional engineering teams. - You can deploy MonkeyCode inside your enterprise network and share it with your R&D te…",
+  "readme_length": 6261,
+  "has_japanese_readme": false,
+  "contributors_count": 15,
+  "releases_count": 103,
+  "ossf_scorecard": null,
+  "category": "ai-agent",
+  "flags": [
+    {
+      "id": "copyleft",
+      "label": "自社サービス組込み注意",
+      "reason": "AGPL-3.0 です。組み込んだ側のソース公開が必要になる場合があります。"
+    }
+  ],
+  "usability_score": 85,
+  "snapshot_days": 1,
+  "is_indexable": true,
+  "first_seen_at": "2026-09-25T23:53:23.595Z",
+  "tracking_tier": "hot",
+  "last_fetched_date": "2026-09-26",
+  "stars_stagnant_days": 0
+}

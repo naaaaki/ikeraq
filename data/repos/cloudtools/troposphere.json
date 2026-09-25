@@ -13,8 +13,8 @@
     "troposphere"
   ],
   "stars": 4944,
-  "forks": 1407,
-  "watchers": null,
+  "forks": 1406,
+  "watchers": 164,
   "open_issues": 162,
   "created_at": "2012-12-12T21:19:46Z",
   "pushed_at": "2026-09-20T16:33:57Z",
@@ -30,10 +30,10 @@
   "category": "other",
   "flags": [],
   "usability_score": 100,
-  "snapshot_days": 1,
+  "snapshot_days": 2,
   "is_indexable": false,
   "first_seen_at": "2026-09-24T23:48:41.712Z",
   "tracking_tier": "hot",
-  "last_fetched_date": "2026-09-25",
-  "stars_stagnant_days": 0
+  "last_fetched_date": "2026-09-26",
+  "stars_stagnant_days": 1
 }

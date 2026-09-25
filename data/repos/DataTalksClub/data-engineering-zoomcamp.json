@@ -15,8 +15,8 @@
     "kestra",
     "spark"
   ],
-  "stars": 45786,
-  "forks": 8911,
+  "stars": 45814,
+  "forks": 8917,
   "watchers": 649,
   "open_issues": 4,
   "created_at": "2021-10-21T09:32:50Z",
@@ -39,10 +39,10 @@
     }
   ],
   "usability_score": 60,
-  "snapshot_days": 26,
+  "snapshot_days": 27,
   "is_indexable": true,
   "first_seen_at": "2026-08-30T23:15:18.750Z",
   "tracking_tier": "hot",
-  "last_fetched_date": "2026-09-25",
+  "last_fetched_date": "2026-09-26",
   "stars_stagnant_days": 0
 }

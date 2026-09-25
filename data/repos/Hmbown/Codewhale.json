@@ -18,12 +18,12 @@
     "rust",
     "tui"
   ],
-  "stars": 41032,
-  "forks": 3562,
+  "stars": 41038,
+  "forks": 3563,
   "watchers": null,
-  "open_issues": 183,
+  "open_issues": 189,
   "created_at": "2026-01-19T18:21:01Z",
-  "pushed_at": "2026-09-24T22:37:49Z",
+  "pushed_at": "2026-09-25T23:18:09Z",
   "is_archived": false,
   "license_spdx": "MIT",
   "license_category": "permissive",
@@ -36,10 +36,10 @@
   "category": "ai-agent",
   "flags": [],
   "usability_score": 100,
-  "snapshot_days": 23,
+  "snapshot_days": 24,
   "is_indexable": true,
   "first_seen_at": "2026-09-02T23:02:41.773Z",
   "tracking_tier": "hot",
-  "last_fetched_date": "2026-09-25",
-  "stars_stagnant_days": 1
+  "last_fetched_date": "2026-09-26",
+  "stars_stagnant_days": 0
 }

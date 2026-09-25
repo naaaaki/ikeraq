@@ -1,0 +1,45 @@
+{
+  "id": "86Box/86Box",
+  "owner": "86Box",
+  "name": "86Box",
+  "description_en": "Emulator of x86-based machines.",
+  "human_note": null,
+  "language": "C",
+  "topics": [
+    "emulation",
+    "emulator",
+    "ibm",
+    "pc-emulator",
+    "x86"
+  ],
+  "stars": 4830,
+  "forks": 603,
+  "watchers": null,
+  "open_issues": 17,
+  "created_at": "2016-06-25T22:29:10Z",
+  "pushed_at": "2026-09-25T17:54:53Z",
+  "is_archived": false,
+  "license_spdx": "GPL-2.0",
+  "license_category": "strong-copyleft",
+  "readme_excerpt": "(We need help in developing this emulator! See https://github.com/86Box/86Box/issues/7386 for details. Any and all help is appreciated.) 86Box 86Box is a low level x86 emulator that runs older operating systems and software designed for IBM PC systems and compatibles from 1981 through fairly recent system designs based on the PCI bus. Features Easy to use interface inspired by mainstream hypervisor software Low level emulation of 8086-based processors up to the Mendocino-era Celeron with focus…",
+  "readme_length": 5377,
+  "has_japanese_readme": false,
+  "contributors_count": 252,
+  "releases_count": 31,
+  "ossf_scorecard": null,
+  "category": "other",
+  "flags": [
+    {
+      "id": "copyleft",
+      "label": "自社サービス組込み注意",
+      "reason": "GPL-2.0 です。組み込んだ側のソース公開が必要になる場合があります。"
+    }
+  ],
+  "usability_score": 85,
+  "snapshot_days": 1,
+  "is_indexable": true,
+  "first_seen_at": "2026-09-25T23:53:23.594Z",
+  "tracking_tier": "hot",
+  "last_fetched_date": "2026-09-26",
+  "stars_stagnant_days": 0
+}

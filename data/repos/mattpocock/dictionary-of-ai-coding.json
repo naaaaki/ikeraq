@@ -1,0 +1,39 @@
+{
+  "id": "mattpocock/dictionary-of-ai-coding",
+  "owner": "mattpocock",
+  "name": "dictionary-of-ai-coding",
+  "description_en": "AI coding jargon, explained in plain English.",
+  "human_note": null,
+  "language": "TypeScript",
+  "topics": [],
+  "stars": 4831,
+  "forks": 547,
+  "watchers": null,
+  "open_issues": 20,
+  "created_at": "2026-05-01T10:17:05Z",
+  "pushed_at": "2026-09-24T11:59:42Z",
+  "is_archived": false,
+  "license_spdx": null,
+  "license_category": "none",
+  "readme_excerpt": "AI Coding Dictionary AI coding can feel like it's just for experts. Unexplained jargon. Mysterious failures. Bills that don't seem to match the work. It isn't, really. A lot of the confusion is manufactured: there's a whole VC-funded economy that benefits from keeping it hard to understand. The basic terms of engagement are learnable in an afternoon. Once you have them, the whole thing stops feeling like guesswork. Why does context degrade? Why is the bill so high? Why does the same prompt beha…",
+  "readme_length": 137495,
+  "has_japanese_readme": false,
+  "contributors_count": 2,
+  "releases_count": 0,
+  "ossf_scorecard": null,
+  "category": "other",
+  "flags": [
+    {
+      "id": "no_license",
+      "label": "利用条件不明",
+      "reason": "ライセンスが設定されていません。この場合は原則として全権利が留保され、利用できません。"
+    }
+  ],
+  "usability_score": 60,
+  "snapshot_days": 1,
+  "is_indexable": true,
+  "first_seen_at": "2026-09-25T23:53:23.594Z",
+  "tracking_tier": "hot",
+  "last_fetched_date": "2026-09-26",
+  "stars_stagnant_days": 0
+}

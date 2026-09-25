@@ -1,0 +1,45 @@
+{
+  "id": "termux/termux-x11",
+  "owner": "termux",
+  "name": "termux-x11",
+  "description_en": "Termux X-server add-on.",
+  "human_note": null,
+  "language": "C",
+  "topics": [
+    "android",
+    "graphics",
+    "linux",
+    "termux",
+    "x11"
+  ],
+  "stars": 4834,
+  "forks": 746,
+  "watchers": null,
+  "open_issues": 25,
+  "created_at": "2019-08-25T23:51:04Z",
+  "pushed_at": "2026-09-25T09:53:33Z",
+  "is_archived": false,
+  "license_spdx": "GPL-3.0",
+  "license_category": "strong-copyleft",
+  "readme_excerpt": "Termux:X11 A Termux X11 server add-on app. About Termux:X11 is a fully fledged X server. It is built with Android NDK and optimized to be used with Termux. Submodules caveat This repo uses submodules. Use or How does it work? Just like any other X server. Setup Instructions Termux:X11 requires Android 8 or later. It consists of an Android app and a companion termux package, and you must install both. The Android app is available via the nightly release tag of this repository. Download and insta…",
+  "readme_length": 10289,
+  "has_japanese_readme": false,
+  "contributors_count": 38,
+  "releases_count": 1,
+  "ossf_scorecard": null,
+  "category": "mobile",
+  "flags": [
+    {
+      "id": "copyleft",
+      "label": "自社サービス組込み注意",
+      "reason": "GPL-3.0 です。組み込んだ側のソース公開が必要になる場合があります。"
+    }
+  ],
+  "usability_score": 85,
+  "snapshot_days": 1,
+  "is_indexable": true,
+  "first_seen_at": "2026-09-25T23:53:23.593Z",
+  "tracking_tier": "hot",
+  "last_fetched_date": "2026-09-26",
+  "stars_stagnant_days": 0
+}

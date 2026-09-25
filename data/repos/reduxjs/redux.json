@@ -8,8 +8,8 @@
   "topics": [
     "redux"
   ],
-  "stars": 61488,
-  "forks": 15173,
+  "stars": 61489,
+  "forks": 15172,
   "watchers": 1284,
   "open_issues": 18,
   "created_at": "2015-05-29T23:53:15Z",
@@ -26,10 +26,10 @@
   "category": "other",
   "flags": [],
   "usability_score": 100,
-  "snapshot_days": 18,
+  "snapshot_days": 19,
   "is_indexable": true,
   "first_seen_at": "2026-09-07T23:19:48.975Z",
   "tracking_tier": "hot",
-  "last_fetched_date": "2026-09-25",
-  "stars_stagnant_days": 1
+  "last_fetched_date": "2026-09-26",
+  "stars_stagnant_days": 0
 }

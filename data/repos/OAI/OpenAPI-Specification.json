@@ -13,8 +13,8 @@
     "rest",
     "webapi"
   ],
-  "stars": 31234,
-  "forks": 9154,
+  "stars": 31240,
+  "forks": 9156,
   "watchers": 837,
   "open_issues": 79,
   "created_at": "2014-03-03T16:53:36Z",
@@ -31,10 +31,10 @@
   "category": "backend",
   "flags": [],
   "usability_score": 100,
-  "snapshot_days": 24,
+  "snapshot_days": 25,
   "is_indexable": true,
   "first_seen_at": "2026-09-01T23:05:22.650Z",
   "tracking_tier": "hot",
-  "last_fetched_date": "2026-09-25",
+  "last_fetched_date": "2026-09-26",
   "stars_stagnant_days": 0
 }

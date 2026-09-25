@@ -27,8 +27,8 @@
     "sql-server",
     "sqlite"
   ],
-  "stars": 39697,
-  "forks": 3269,
+  "stars": 39702,
+  "forks": 3270,
   "watchers": null,
   "open_issues": 241,
   "created_at": "2023-07-16T17:09:20Z",
@@ -51,10 +51,10 @@
     }
   ],
   "usability_score": 85,
-  "snapshot_days": 25,
+  "snapshot_days": 26,
   "is_indexable": true,
   "first_seen_at": "2026-09-01T00:26:13.031Z",
   "tracking_tier": "hot",
-  "last_fetched_date": "2026-09-25",
+  "last_fetched_date": "2026-09-26",
   "stars_stagnant_days": 0
 }

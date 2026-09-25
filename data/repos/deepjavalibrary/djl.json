@@ -20,7 +20,7 @@
     "pytorch",
     "tensorflow"
   ],
-  "stars": 4855,
+  "stars": 4854,
   "forks": 759,
   "watchers": null,
   "open_issues": 227,
@@ -38,10 +38,10 @@
   "category": "learning",
   "flags": [],
   "usability_score": 100,
-  "snapshot_days": 1,
+  "snapshot_days": 2,
   "is_indexable": false,
   "first_seen_at": "2026-09-24T23:48:41.713Z",
   "tracking_tier": "hot",
-  "last_fetched_date": "2026-09-25",
-  "stars_stagnant_days": 0
+  "last_fetched_date": "2026-09-26",
+  "stars_stagnant_days": 1
 }

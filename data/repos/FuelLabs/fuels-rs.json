@@ -6,7 +6,7 @@
   "human_note": null,
   "language": "Rust",
   "topics": [],
-  "stars": 43007,
+  "stars": 43006,
   "forks": 1360,
   "watchers": 126,
   "open_issues": 76,
@@ -24,10 +24,10 @@
   "category": "other",
   "flags": [],
   "usability_score": 100,
-  "snapshot_days": 26,
+  "snapshot_days": 27,
   "is_indexable": true,
   "first_seen_at": "2026-08-30T23:15:18.750Z",
   "tracking_tier": "hot",
-  "last_fetched_date": "2026-09-25",
-  "stars_stagnant_days": 21
+  "last_fetched_date": "2026-09-26",
+  "stars_stagnant_days": 22
 }

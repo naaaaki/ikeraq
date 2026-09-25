@@ -25,7 +25,7 @@
     "screenshots",
     "windows"
   ],
-  "stars": 11895,
+  "stars": 11900,
   "forks": 825,
   "watchers": 59,
   "open_issues": 23,
@@ -43,10 +43,10 @@
   "category": "mobile",
   "flags": [],
   "usability_score": 100,
-  "snapshot_days": 17,
+  "snapshot_days": 18,
   "is_indexable": true,
   "first_seen_at": "2026-09-08T23:15:15.673Z",
   "tracking_tier": "hot",
-  "last_fetched_date": "2026-09-25",
+  "last_fetched_date": "2026-09-26",
   "stars_stagnant_days": 0
 }

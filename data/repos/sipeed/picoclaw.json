@@ -6,10 +6,10 @@
   "human_note": null,
   "language": "Go",
   "topics": [],
-  "stars": 30012,
-  "forks": 4454,
+  "stars": 30011,
+  "forks": 4453,
   "watchers": 173,
-  "open_issues": 38,
+  "open_issues": 39,
   "created_at": "2026-02-04T12:32:35Z",
   "pushed_at": "2026-09-24T17:14:08Z",
   "is_archived": false,
@@ -24,10 +24,10 @@
   "category": "other",
   "flags": [],
   "usability_score": 100,
-  "snapshot_days": 22,
+  "snapshot_days": 23,
   "is_indexable": true,
   "first_seen_at": "2026-09-03T23:03:15.575Z",
   "tracking_tier": "hot",
-  "last_fetched_date": "2026-09-25",
-  "stars_stagnant_days": 1
+  "last_fetched_date": "2026-09-26",
+  "stars_stagnant_days": 2
 }

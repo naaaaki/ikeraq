@@ -18,7 +18,7 @@
     "swarm",
     "virtualization"
   ],
-  "stars": 26268,
+  "stars": 26271,
   "forks": 5779,
   "watchers": 806,
   "open_issues": 1,
@@ -42,10 +42,10 @@
     }
   ],
   "usability_score": 60,
-  "snapshot_days": 22,
+  "snapshot_days": 23,
   "is_indexable": true,
   "first_seen_at": "2026-09-03T23:03:15.575Z",
   "tracking_tier": "hot",
-  "last_fetched_date": "2026-09-25",
+  "last_fetched_date": "2026-09-26",
   "stars_stagnant_days": 0
 }

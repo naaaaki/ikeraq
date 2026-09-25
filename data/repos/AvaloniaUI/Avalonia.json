@@ -27,12 +27,12 @@
     "xamarin",
     "xaml"
   ],
-  "stars": 31563,
+  "stars": 31564,
   "forks": 2828,
   "watchers": null,
-  "open_issues": 1897,
+  "open_issues": 1902,
   "created_at": "2013-12-05T20:13:21Z",
-  "pushed_at": "2026-09-24T17:30:52Z",
+  "pushed_at": "2026-09-25T19:50:16Z",
   "is_archived": false,
   "license_spdx": "MIT",
   "license_category": "permissive",
@@ -45,10 +45,10 @@
   "category": "mobile",
   "flags": [],
   "usability_score": 100,
-  "snapshot_days": 24,
+  "snapshot_days": 25,
   "is_indexable": true,
   "first_seen_at": "2026-09-01T23:05:22.650Z",
   "tracking_tier": "hot",
-  "last_fetched_date": "2026-09-25",
+  "last_fetched_date": "2026-09-26",
   "stars_stagnant_days": 0
 }
