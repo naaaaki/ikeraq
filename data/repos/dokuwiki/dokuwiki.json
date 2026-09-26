@@ -1,0 +1,49 @@
+{
+  "id": "dokuwiki/dokuwiki",
+  "owner": "dokuwiki",
+  "name": "dokuwiki",
+  "description_en": "The DokuWiki Open Source Wiki Engine",
+  "human_note": null,
+  "language": "PHP",
+  "topics": [
+    "dokuwiki",
+    "php",
+    "wiki",
+    "wiki-engine"
+  ],
+  "stars": 4723,
+  "forks": 921,
+  "watchers": null,
+  "open_issues": 487,
+  "created_at": "2010-01-03T13:47:20Z",
+  "pushed_at": "2026-09-26T09:20:24Z",
+  "is_archived": false,
+  "license_spdx": "GPL-2.0",
+  "license_category": "strong-copyleft",
+  "readme_excerpt": "All documentation for DokuWiki is available online at https://www.dokuwiki.org/ For Installation Instructions see https://www.dokuwiki.org/install DokuWiki - 2004-2026 (c) Andreas Gohr and the DokuWiki Community See COPYING and file headers for license info",
+  "readme_length": 308,
+  "has_japanese_readme": false,
+  "contributors_count": 1264,
+  "releases_count": 12,
+  "ossf_scorecard": null,
+  "category": "other",
+  "flags": [
+    {
+      "id": "copyleft",
+      "label": "自社サービス組込み注意",
+      "reason": "GPL-2.0 です。組み込んだ側のソース公開が必要になる場合があります。"
+    },
+    {
+      "id": "thin_readme",
+      "label": "ドキュメントが少なめ",
+      "reason": "README が 308 字です（判定は 500 字未満）。単機能のライブラリでは正常な場合もあります。"
+    }
+  ],
+  "usability_score": 75,
+  "snapshot_days": 1,
+  "is_indexable": true,
+  "first_seen_at": "2026-09-26T23:25:20.109Z",
+  "tracking_tier": "hot",
+  "last_fetched_date": "2026-09-27",
+  "stars_stagnant_days": 0
+}

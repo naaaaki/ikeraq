@@ -13,10 +13,10 @@
     "golang-library",
     "hacktoberfest"
   ],
-  "stars": 185595,
-  "forks": 13587,
+  "stars": 185741,
+  "forks": 13585,
   "watchers": null,
-  "open_issues": 229,
+  "open_issues": 228,
   "created_at": "2014-07-06T13:42:15Z",
   "pushed_at": "2026-09-25T11:24:00Z",
   "is_archived": false,
@@ -31,10 +31,10 @@
   "category": "learning",
   "flags": [],
   "usability_score": 100,
-  "snapshot_days": 28,
+  "snapshot_days": 29,
   "is_indexable": true,
   "first_seen_at": "2026-08-29T15:46:21.820Z",
   "tracking_tier": "hot",
-  "last_fetched_date": "2026-09-26",
+  "last_fetched_date": "2026-09-27",
   "stars_stagnant_days": 0
 }

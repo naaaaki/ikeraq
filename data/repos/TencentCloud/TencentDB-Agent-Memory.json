@@ -16,10 +16,10 @@
     "openclaw-plugin",
     "vector-search"
   ],
-  "stars": 27278,
-  "forks": 2620,
+  "stars": 27296,
+  "forks": 2625,
   "watchers": null,
-  "open_issues": 833,
+  "open_issues": 837,
   "created_at": "2026-04-07T06:34:26Z",
   "pushed_at": "2026-09-25T17:56:35Z",
   "is_archived": false,
@@ -34,10 +34,10 @@
   "category": "ai-agent",
   "flags": [],
   "usability_score": 100,
-  "snapshot_days": 23,
+  "snapshot_days": 24,
   "is_indexable": true,
   "first_seen_at": "2026-09-03T23:03:15.575Z",
   "tracking_tier": "hot",
-  "last_fetched_date": "2026-09-26",
+  "last_fetched_date": "2026-09-27",
   "stars_stagnant_days": 0
 }

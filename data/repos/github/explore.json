@@ -13,7 +13,7 @@
     "topics"
   ],
   "stars": 4895,
-  "forks": 14563,
+  "forks": 14562,
   "watchers": null,
   "open_issues": 3,
   "created_at": "2017-09-16T16:19:53Z",
@@ -30,10 +30,10 @@
   "category": "other",
   "flags": [],
   "usability_score": 100,
-  "snapshot_days": 2,
+  "snapshot_days": 3,
   "is_indexable": false,
   "first_seen_at": "2026-09-24T23:48:41.712Z",
   "tracking_tier": "hot",
-  "last_fetched_date": "2026-09-26",
-  "stars_stagnant_days": 1
+  "last_fetched_date": "2026-09-27",
+  "stars_stagnant_days": 2
 }

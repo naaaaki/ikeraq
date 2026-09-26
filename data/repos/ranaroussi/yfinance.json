@@ -15,10 +15,10 @@
     "yahoo-finance",
     "yahoo-finance-api"
   ],
-  "stars": 25372,
-  "forks": 3427,
+  "stars": 25377,
+  "forks": 3429,
   "watchers": null,
-  "open_issues": 106,
+  "open_issues": 109,
   "created_at": "2017-05-21T10:16:15Z",
   "pushed_at": "2026-09-25T22:32:31Z",
   "is_archived": false,
@@ -33,10 +33,10 @@
   "category": "backend",
   "flags": [],
   "usability_score": 100,
-  "snapshot_days": 1,
+  "snapshot_days": 2,
   "is_indexable": false,
   "first_seen_at": "2026-09-25T23:53:23.592Z",
   "tracking_tier": "hot",
-  "last_fetched_date": "2026-09-26",
+  "last_fetched_date": "2026-09-27",
   "stars_stagnant_days": 0
 }

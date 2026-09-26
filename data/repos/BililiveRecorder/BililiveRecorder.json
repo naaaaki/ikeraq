@@ -13,7 +13,7 @@
     "stream",
     "wpf"
   ],
-  "stars": 4851,
+  "stars": 4852,
   "forks": 405,
   "watchers": 40,
   "open_issues": 137,
@@ -37,10 +37,10 @@
     }
   ],
   "usability_score": 85,
-  "snapshot_days": 2,
+  "snapshot_days": 3,
   "is_indexable": true,
   "first_seen_at": "2026-09-24T23:48:41.713Z",
   "tracking_tier": "hot",
-  "last_fetched_date": "2026-09-26",
-  "stars_stagnant_days": 1
+  "last_fetched_date": "2026-09-27",
+  "stars_stagnant_days": 0
 }

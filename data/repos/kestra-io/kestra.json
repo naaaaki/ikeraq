@@ -27,10 +27,10 @@
     "scheduler",
     "workflow"
   ],
-  "stars": 28351,
-  "forks": 3049,
+  "stars": 28370,
+  "forks": 3052,
   "watchers": null,
-  "open_issues": 685,
+  "open_issues": 689,
   "created_at": "2019-08-24T13:56:15Z",
   "pushed_at": "2026-09-25T17:07:12Z",
   "is_archived": false,
@@ -45,10 +45,10 @@
   "category": "ai-agent",
   "flags": [],
   "usability_score": 100,
-  "snapshot_days": 24,
+  "snapshot_days": 25,
   "is_indexable": true,
   "first_seen_at": "2026-09-02T23:02:41.773Z",
   "tracking_tier": "hot",
-  "last_fetched_date": "2026-09-26",
+  "last_fetched_date": "2026-09-27",
   "stars_stagnant_days": 0
 }

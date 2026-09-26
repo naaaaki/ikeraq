@@ -25,7 +25,7 @@
     "vulkan",
     "webassembly"
   ],
-  "stars": 4662,
+  "stars": 4663,
   "forks": 1034,
   "watchers": null,
   "open_issues": 171,
@@ -43,10 +43,10 @@
   "category": "game",
   "flags": [],
   "usability_score": 100,
-  "snapshot_days": 1,
+  "snapshot_days": 2,
   "is_indexable": false,
   "first_seen_at": "2026-09-25T23:53:23.596Z",
   "tracking_tier": "hot",
-  "last_fetched_date": "2026-09-26",
+  "last_fetched_date": "2026-09-27",
   "stars_stagnant_days": 0
 }

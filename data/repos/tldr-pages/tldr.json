@@ -28,11 +28,11 @@
     "windows"
   ],
   "stars": 63747,
-  "forks": 5422,
+  "forks": 5423,
   "watchers": null,
-  "open_issues": 271,
+  "open_issues": 276,
   "created_at": "2013-12-08T07:34:43Z",
-  "pushed_at": "2026-09-25T23:49:23Z",
+  "pushed_at": "2026-09-26T21:23:34Z",
   "is_archived": false,
   "license_spdx": "NOASSERTION",
   "license_category": "unknown",
@@ -45,10 +45,10 @@
   "category": "mobile",
   "flags": [],
   "usability_score": 100,
-  "snapshot_days": 28,
+  "snapshot_days": 29,
   "is_indexable": true,
   "first_seen_at": "2026-08-29T23:02:08.747Z",
   "tracking_tier": "hot",
-  "last_fetched_date": "2026-09-26",
-  "stars_stagnant_days": 0
+  "last_fetched_date": "2026-09-27",
+  "stars_stagnant_days": 1
 }

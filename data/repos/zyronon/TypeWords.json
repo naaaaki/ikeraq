@@ -2,7 +2,7 @@
   "id": "zyronon/TypeWords",
   "owner": "zyronon",
   "name": "TypeWords",
-  "description_en": "Practice English, one strike, one step forward; 练习英语，一次敲击，一点进步；",
+  "description_en": "Practice English, one strike, one step forward",
   "human_note": null,
   "language": "Vue",
   "topics": [
@@ -13,8 +13,8 @@
     "typing-practice",
     "typingspeedtest"
   ],
-  "stars": 10278,
-  "forks": 1233,
+  "stars": 10288,
+  "forks": 1232,
   "watchers": 48,
   "open_issues": 50,
   "created_at": "2023-08-03T10:39:02Z",
@@ -37,10 +37,10 @@
     }
   ],
   "usability_score": 85,
-  "snapshot_days": 24,
+  "snapshot_days": 25,
   "is_indexable": true,
   "first_seen_at": "2026-09-02T23:02:40.892Z",
   "tracking_tier": "hot",
-  "last_fetched_date": "2026-09-26",
+  "last_fetched_date": "2026-09-27",
   "stars_stagnant_days": 0
 }

@@ -19,7 +19,7 @@
     "webassembly",
     "webcad"
   ],
-  "stars": 4862,
+  "stars": 4865,
   "forks": 486,
   "watchers": 61,
   "open_issues": 45,
@@ -43,10 +43,10 @@
     }
   ],
   "usability_score": 85,
-  "snapshot_days": 2,
+  "snapshot_days": 3,
   "is_indexable": true,
   "first_seen_at": "2026-09-24T23:48:41.712Z",
   "tracking_tier": "hot",
-  "last_fetched_date": "2026-09-26",
+  "last_fetched_date": "2026-09-27",
   "stars_stagnant_days": 0
 }

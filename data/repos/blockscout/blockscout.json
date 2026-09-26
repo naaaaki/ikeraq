@@ -12,7 +12,7 @@
     "explorer"
   ],
   "stars": 4716,
-  "forks": 3184,
+  "forks": 3185,
   "watchers": null,
   "open_issues": 170,
   "created_at": "2018-01-12T22:45:24Z",
@@ -29,10 +29,10 @@
   "category": "other",
   "flags": [],
   "usability_score": 100,
-  "snapshot_days": 1,
+  "snapshot_days": 2,
   "is_indexable": false,
   "first_seen_at": "2026-09-25T23:53:23.595Z",
   "tracking_tier": "hot",
-  "last_fetched_date": "2026-09-26",
-  "stars_stagnant_days": 0
+  "last_fetched_date": "2026-09-27",
+  "stars_stagnant_days": 1
 }

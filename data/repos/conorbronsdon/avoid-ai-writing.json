@@ -14,12 +14,12 @@
     "skill",
     "writing"
   ],
-  "stars": 4717,
+  "stars": 4727,
   "forks": 409,
   "watchers": null,
-  "open_issues": 39,
+  "open_issues": 38,
   "created_at": "2026-03-06T07:47:40Z",
-  "pushed_at": "2026-09-25T22:30:54Z",
+  "pushed_at": "2026-09-26T18:43:13Z",
   "is_archived": false,
   "license_spdx": "MIT",
   "license_category": "permissive",
@@ -32,10 +32,10 @@
   "category": "llm",
   "flags": [],
   "usability_score": 100,
-  "snapshot_days": 1,
+  "snapshot_days": 2,
   "is_indexable": false,
   "first_seen_at": "2026-09-25T23:53:23.595Z",
   "tracking_tier": "hot",
-  "last_fetched_date": "2026-09-26",
+  "last_fetched_date": "2026-09-27",
   "stars_stagnant_days": 0
 }

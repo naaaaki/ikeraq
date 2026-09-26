@@ -21,7 +21,7 @@
     "testing",
     "testing-tools"
   ],
-  "stars": 47197,
+  "stars": 47218,
   "forks": 2922,
   "watchers": null,
   "open_issues": 1845,
@@ -39,10 +39,10 @@
   "category": "dev-tool",
   "flags": [],
   "usability_score": 100,
-  "snapshot_days": 27,
+  "snapshot_days": 28,
   "is_indexable": true,
   "first_seen_at": "2026-08-30T23:15:18.749Z",
   "tracking_tier": "hot",
-  "last_fetched_date": "2026-09-26",
+  "last_fetched_date": "2026-09-27",
   "stars_stagnant_days": 0
 }

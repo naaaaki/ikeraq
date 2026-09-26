@@ -8,8 +8,8 @@
   "topics": [
     "rust"
   ],
-  "stars": 4806,
-  "forks": 241,
+  "stars": 4808,
+  "forks": 242,
   "watchers": null,
   "open_issues": 9,
   "created_at": "2018-09-23T18:30:14Z",
@@ -26,10 +26,10 @@
   "category": "other",
   "flags": [],
   "usability_score": 100,
-  "snapshot_days": 1,
+  "snapshot_days": 2,
   "is_indexable": false,
   "first_seen_at": "2026-09-25T23:53:23.594Z",
   "tracking_tier": "hot",
-  "last_fetched_date": "2026-09-26",
+  "last_fetched_date": "2026-09-27",
   "stars_stagnant_days": 0
 }

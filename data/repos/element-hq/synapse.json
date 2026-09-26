@@ -1,0 +1,39 @@
+{
+  "id": "element-hq/synapse",
+  "owner": "element-hq",
+  "name": "synapse",
+  "description_en": "Synapse: Matrix homeserver written in Python/Twisted + Rust",
+  "human_note": null,
+  "language": "Python",
+  "topics": [],
+  "stars": 4655,
+  "forks": 615,
+  "watchers": null,
+  "open_issues": 2083,
+  "created_at": "2023-12-13T14:40:43Z",
+  "pushed_at": "2026-09-26T22:29:50Z",
+  "is_archived": false,
+  "license_spdx": "AGPL-3.0",
+  "license_category": "strong-copyleft",
+  "readme_excerpt": ".. image:: https://github.com/element-hq/synapse/raw/develop/docs/elementlogowhitebg.svg :height: 60px Element Synapse - Matrix homeserver implementation |support| |development| |documentation| |license| |pypi| |python| Synapse is an open source Matrix homeserver implementation, written and maintained by Element . Matrix is the open standard for secure and interoperable real-time communications. You can directly run and manage the source code in this repository, available under an AGPL license…",
+  "readme_length": 6671,
+  "has_japanese_readme": false,
+  "contributors_count": 676,
+  "releases_count": 170,
+  "ossf_scorecard": null,
+  "category": "other",
+  "flags": [
+    {
+      "id": "copyleft",
+      "label": "自社サービス組込み注意",
+      "reason": "AGPL-3.0 です。組み込んだ側のソース公開が必要になる場合があります。"
+    }
+  ],
+  "usability_score": 85,
+  "snapshot_days": 1,
+  "is_indexable": true,
+  "first_seen_at": "2026-09-26T23:25:20.110Z",
+  "tracking_tier": "hot",
+  "last_fetched_date": "2026-09-27",
+  "stars_stagnant_days": 0
+}

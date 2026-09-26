@@ -11,12 +11,12 @@
     "macbook",
     "macos"
   ],
-  "stars": 4769,
-  "forks": 319,
+  "stars": 4778,
+  "forks": 322,
   "watchers": null,
   "open_issues": 191,
   "created_at": "2024-11-01T05:06:09Z",
-  "pushed_at": "2026-09-25T00:21:04Z",
+  "pushed_at": "2026-09-26T00:20:03Z",
   "is_archived": false,
   "license_spdx": "GPL-3.0",
   "license_category": "strong-copyleft",
@@ -35,10 +35,10 @@
     }
   ],
   "usability_score": 85,
-  "snapshot_days": 1,
+  "snapshot_days": 2,
   "is_indexable": true,
   "first_seen_at": "2026-09-25T23:53:23.595Z",
   "tracking_tier": "hot",
-  "last_fetched_date": "2026-09-26",
+  "last_fetched_date": "2026-09-27",
   "stars_stagnant_days": 0
 }

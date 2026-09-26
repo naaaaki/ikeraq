@@ -26,7 +26,7 @@
     "openclaw",
     "opencode"
   ],
-  "stars": 25027,
+  "stars": 25047,
   "forks": 2172,
   "watchers": null,
   "open_issues": 67,
@@ -44,10 +44,10 @@
   "category": "ai-agent",
   "flags": [],
   "usability_score": 100,
-  "snapshot_days": 3,
+  "snapshot_days": 4,
   "is_indexable": false,
   "first_seen_at": "2026-09-23T23:28:32.618Z",
   "tracking_tier": "hot",
-  "last_fetched_date": "2026-09-26",
+  "last_fetched_date": "2026-09-27",
   "stars_stagnant_days": 0
 }

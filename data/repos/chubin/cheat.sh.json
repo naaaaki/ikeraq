@@ -17,7 +17,7 @@
     "terminal",
     "tldr"
   ],
-  "stars": 41775,
+  "stars": 41776,
   "forks": 1915,
   "watchers": null,
   "open_issues": 148,
@@ -35,10 +35,10 @@
   "category": "learning",
   "flags": [],
   "usability_score": 100,
-  "snapshot_days": 3,
+  "snapshot_days": 4,
   "is_indexable": false,
   "first_seen_at": "2026-09-23T23:28:32.616Z",
   "tracking_tier": "hot",
-  "last_fetched_date": "2026-09-26",
+  "last_fetched_date": "2026-09-27",
   "stars_stagnant_days": 0
 }

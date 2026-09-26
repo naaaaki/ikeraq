@@ -2,7 +2,7 @@
   "id": "Z-Siqi/Clash-for-Windows_Chinese",
   "owner": "Z-Siqi",
   "name": "Clash-for-Windows_Chinese",
-  "description_en": "Clash for Windows 的前汉化版. 现在提供 Clash for Windows 的改进版本, 这包括 Mihomo 核心替换, AnyTLS 等现代协议兼容 (还在测试).",
+  "description_en": "Clash for Windows 的前汉化版. 现在提供 Clash for Windows 的改进版本, 这包括 Mihomo 核心替换, AnyTLS 等现代协议兼容",
   "human_note": null,
   "language": "JavaScript",
   "topics": [
@@ -14,12 +14,12 @@
     "shadowsocks",
     "windows"
   ],
-  "stars": 28561,
-  "forks": 3203,
+  "stars": 28562,
+  "forks": 3202,
   "watchers": null,
-  "open_issues": 5,
+  "open_issues": 1,
   "created_at": "2021-04-19T08:13:23Z",
-  "pushed_at": "2026-09-25T16:11:32Z",
+  "pushed_at": "2026-09-26T10:34:22Z",
   "is_archived": false,
   "license_spdx": null,
   "license_category": "none",
@@ -38,10 +38,10 @@
     }
   ],
   "usability_score": 60,
-  "snapshot_days": 3,
+  "snapshot_days": 4,
   "is_indexable": true,
   "first_seen_at": "2026-09-23T23:28:32.617Z",
   "tracking_tier": "hot",
-  "last_fetched_date": "2026-09-26",
+  "last_fetched_date": "2026-09-27",
   "stars_stagnant_days": 0
 }

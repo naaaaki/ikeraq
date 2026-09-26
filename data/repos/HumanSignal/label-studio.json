@@ -27,8 +27,8 @@
     "text-annotation",
     "yolo"
   ],
-  "stars": 28345,
-  "forks": 3730,
+  "stars": 28350,
+  "forks": 3728,
   "watchers": null,
   "open_issues": 950,
   "created_at": "2019-06-19T02:00:44Z",
@@ -45,10 +45,10 @@
   "category": "learning",
   "flags": [],
   "usability_score": 100,
-  "snapshot_days": 24,
+  "snapshot_days": 25,
   "is_indexable": true,
   "first_seen_at": "2026-09-02T23:02:41.773Z",
   "tracking_tier": "hot",
-  "last_fetched_date": "2026-09-26",
+  "last_fetched_date": "2026-09-27",
   "stars_stagnant_days": 0
 }

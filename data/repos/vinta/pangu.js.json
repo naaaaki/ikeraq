@@ -19,12 +19,12 @@
     "text-spacing",
     "typescript"
   ],
-  "stars": 4831,
+  "stars": 4832,
   "forks": 315,
   "watchers": null,
   "open_issues": 1,
   "created_at": "2012-02-21T14:44:03Z",
-  "pushed_at": "2026-09-25T01:12:24Z",
+  "pushed_at": "2026-09-26T04:53:26Z",
   "is_archived": false,
   "license_spdx": "MIT",
   "license_category": "permissive",
@@ -37,10 +37,10 @@
   "category": "llm",
   "flags": [],
   "usability_score": 100,
-  "snapshot_days": 1,
+  "snapshot_days": 2,
   "is_indexable": false,
   "first_seen_at": "2026-09-25T23:53:23.594Z",
   "tracking_tier": "hot",
-  "last_fetched_date": "2026-09-26",
+  "last_fetched_date": "2026-09-27",
   "stars_stagnant_days": 0
 }

@@ -3,7 +3,7 @@
   "owner": "bojieli",
   "name": "ai-agent-book",
   "description_en": "《深入理解 AI Agent：设计原理与工程实践》（李博杰 著）开源主仓库：全书正文、编译版 PDF 与按章配套代码",
-  "human_note": null,
+  "human_note": "<!-- ============================================================\n  bojieli/ai-agent-book\n  https://github.com/bojieli/ai-agent-book\n  《深入理解 AI Agent：设计原理与工程实践》（李博杰 著）\n  Python / Apache-2.0 / スター 48,000台\n============================================================ -->\n\n\n## 見出しの一文\n\nAIエージェントの教科書を、実験のコードごと全部公開している\n\n\n## どういうものか\n\n中国語で書かれた技術書『深入理解 AI Agent：設計原理与工程実践』（李博杰 著）の、本文そのものを置いたリポジトリ。本文・図・実験のコードが公開されていて、PDF と EPUB は配布物として無料で落とせる。ブラウザで読めるサイトも用意されている。ライセンスは Apache-2.0。\n\n本は **「エージェント ＝ LLM ＋ 文脈 ＋ 道具」** というひとつの式を軸に置き、10章でそこを順にたどる構成になっている。入門、文脈の設計、記憶と知識、道具（MCP を含む）、コーディング用エージェント、やり取りの広げ方（音声や画面操作など）、評価、モデルの追加学習、運用しながらの改善、複数エージェントの協調、という並び。**各章に実験が付いていて、リポジトリ全体では109本**。ただし全部がそのまま動くわけではなく、README は「動かせる」「再現する」「設計のみ」の3種類に分けている。\n\n実験は Python で、章ごとに依存関係を入れる形になっている（README は Python 3.11〜3.13 を対象として挙げている）。モデルを呼ぶ実験では、自分で用意した API キーを設定して動かす。原著は中国語で、日本語を含む各国語版は**有志による翻訳**。README 自身が「翻訳版は中国語の原版より遅れることがある」と断っている。\n\n\n## 図\n\n<svg viewBox=\"0 0 800 450\" role=\"img\" aria-label=\"見出しに「エージェント ＝ LLM ＋ 文脈 ＋ 道具 を10章で追う」とある図。左に3つの箱が並ぶ。LLM（考える部分）、文脈（何を知らせるか）、道具（何をさせるか）。矢印の先に「エージェント」（この本が扱うもの）がある。下に「各章の本文に実験が付く（全10章・109本。動かせるものと設計だけのものがある）」とある。いちばん下に「原著は中国語。日本語版は有志の訳で、原版より遅れることがある」とある。\" style=\"width: 100%; height: auto; display: block; font-family: var(--jp);\">\n  <defs>\n    <marker id=\"ab-arrow\" viewBox=\"0 0 10 10\" refX=\"9\" refY=\"5\" markerWidth=\"6\" markerHeight=\"6\" orient=\"auto-start-reverse\">\n      <path d=\"M0,0 L10,5 L0,10 z\" fill=\"#1E5A48\" />\n    </marker>\n  </defs>\n  <rect width=\"800\" height=\"450\" fill=\"#FFFFFF\" />\n  <text x=\"400\" y=\"56\" text-anchor=\"middle\" font-size=\"25\" font-weight=\"700\" fill=\"#17160F\">エージェント ＝ <tspan fill=\"#1E5A48\">LLM ＋ 文脈 ＋ 道具</tspan> を10章で追う</text>\n\n  <rect x=\"20\" y=\"140\" width=\"140\" height=\"100\" rx=\"8\" fill=\"none\" stroke=\"#17160F\" stroke-opacity=\"0.28\" stroke-width=\"1.5\" />\n  <text x=\"90\" y=\"184\" text-anchor=\"middle\" font-size=\"15\" font-weight=\"700\" fill=\"#17160F\">LLM</text>\n  <text x=\"90\" y=\"210\" text-anchor=\"middle\" font-size=\"11\" fill=\"#17160F\" fill-opacity=\"0.72\">（考える部分）</text>\n  <text x=\"175\" y=\"196\" text-anchor=\"middle\" font-size=\"20\" fill=\"#17160F\" fill-opacity=\"0.6\">＋</text>\n\n  <rect x=\"190\" y=\"140\" width=\"140\" height=\"100\" rx=\"8\" fill=\"none\" stroke=\"#17160F\" stroke-opacity=\"0.28\" stroke-width=\"1.5\" />\n  <text x=\"260\" y=\"184\" text-anchor=\"middle\" font-size=\"15\" font-weight=\"700\" fill=\"#17160F\">文脈</text>\n  <text x=\"260\" y=\"210\" text-anchor=\"middle\" font-size=\"11\" fill=\"#17160F\" fill-opacity=\"0.72\">（何を知らせるか）</text>\n  <text x=\"345\" y=\"196\" text-anchor=\"middle\" font-size=\"20\" fill=\"#17160F\" fill-opacity=\"0.6\">＋</text>\n\n  <rect x=\"360\" y=\"140\" width=\"140\" height=\"100\" rx=\"8\" fill=\"none\" stroke=\"#17160F\" stroke-opacity=\"0.28\" stroke-width=\"1.5\" />\n  <text x=\"430\" y=\"184\" text-anchor=\"middle\" font-size=\"15\" font-weight=\"700\" fill=\"#17160F\">道具</text>\n  <text x=\"430\" y=\"210\" text-anchor=\"middle\" font-size=\"11\" fill=\"#17160F\" fill-opacity=\"0.72\">（何をさせるか）</text>\n\n  <line x1=\"508\" y1=\"190\" x2=\"548\" y2=\"190\" stroke=\"#1E5A48\" stroke-width=\"4\" marker-end=\"url(#ab-arrow)\" />\n\n  <rect x=\"556\" y=\"140\" width=\"220\" height=\"100\" rx=\"8\" fill=\"none\" stroke=\"#1E5A48\" stroke-width=\"2\" />\n  <text x=\"666\" y=\"184\" text-anchor=\"middle\" font-size=\"18\" font-weight=\"700\" fill=\"#1E5A48\">エージェント</text>\n  <text x=\"666\" y=\"212\" text-anchor=\"middle\" font-size=\"11.5\" fill=\"#17160F\" fill-opacity=\"0.72\">（この本が扱うもの）</text>\n\n  <text x=\"400\" y=\"310\" text-anchor=\"middle\" font-size=\"13\" fill=\"#17160F\" fill-opacity=\"0.78\">各章の本文に実験が付く（全10章・109本。動かせるものと設計だけのものがある）</text>\n  <text x=\"400\" y=\"376\" text-anchor=\"middle\" font-size=\"13.5\" fill=\"#17160F\" fill-opacity=\"0.72\">原著は中国語。日本語版は有志の訳で、原版より遅れることがある</text>\n</svg>\n\nキャプション: この本の立ち位置は**式ひとつ**に出ている。エージェントを製品名ではなく、3つの要素の組み合わせとして分解して扱う。\n\n\n## どんなときに使うか\n\n### 断片的に覚えたことを、いちど順番に並べ直したいとき\n\n文脈の設計、記憶、道具、評価、追加学習といった話題を、ひとつの式の下で章立てにしている。**個別の記事で拾ってきた知識の、抜けている場所が見える**タイプの読み物になっている。\n\n### 読んだだけで分かった気になりたくないとき\n\n章ごとに実験が付いている。動かせる種類のものは手元で試せるので、API キーの用意は要るが、**読む→動かす→次の章**という進み方ができる。\n\n\n## 注意点\n\n**原著は中国語。** 日本語版は有志の翻訳で、README も原版より遅れることがあると書いている。最新の内容を確かめたいときは、中国語版か、更新の反映されるオンライン版を見ることになる。\n\n**版が新しくなって章の並びが変わっている。** README は 1.4 版から 2.0 版への変更として、章の統合と番号のずれを説明している。古い PDF を持っている場合は、章番号で人と話が食い違う。\n\n**実験を動かすには自分の支度が要る。** Python の環境、章ごとの依存関係、モデルの API キー。README が挙げている API の提供元は中国のサービスが中心（世界向けの中継サービスも入っている）で、ここは読む人の環境によって置き換えが必要になる。ブラウザや CUDA など、実験ごとに追加で必要になるものもある。さらに一部の章の実験は、対応する外部リポジトリ（README は22件としている）を自分で取ってくる前提になっている。\n\n**協賛が入っている。** README の中ほど、API キーの節のすぐ後に、API の中継サービスによる協賛の表示がある。紹介されている提供元の並びは、そこと切り離して読むほうがいい。ライセンスは Apache-2.0。",
   "language": "Python",
   "topics": [
     "agent",
@@ -20,12 +20,12 @@
     "rag",
     "reinforcement-learning"
   ],
-  "stars": 50995,
-  "forks": 5718,
+  "stars": 51171,
+  "forks": 5747,
   "watchers": null,
-  "open_issues": 10,
+  "open_issues": 12,
   "created_at": "2025-09-09T02:41:44Z",
-  "pushed_at": "2026-09-25T03:02:24Z",
+  "pushed_at": "2026-09-26T03:02:18Z",
   "is_archived": false,
   "license_spdx": "Apache-2.0",
   "license_category": "permissive",
@@ -38,10 +38,10 @@
   "category": "ai-agent",
   "flags": [],
   "usability_score": 100,
-  "snapshot_days": 27,
+  "snapshot_days": 28,
   "is_indexable": true,
   "first_seen_at": "2026-08-30T23:15:18.750Z",
   "tracking_tier": "hot",
-  "last_fetched_date": "2026-09-26",
+  "last_fetched_date": "2026-09-27",
   "stars_stagnant_days": 0
 }

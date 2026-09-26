@@ -6,7 +6,7 @@
   "human_note": null,
   "language": "C++",
   "topics": [],
-  "stars": 4776,
+  "stars": 4777,
   "forks": 1166,
   "watchers": null,
   "open_issues": 553,
@@ -24,10 +24,10 @@
   "category": "other",
   "flags": [],
   "usability_score": 100,
-  "snapshot_days": 1,
+  "snapshot_days": 2,
   "is_indexable": false,
   "first_seen_at": "2026-09-25T23:53:23.595Z",
   "tracking_tier": "hot",
-  "last_fetched_date": "2026-09-26",
+  "last_fetched_date": "2026-09-27",
   "stars_stagnant_days": 0
 }

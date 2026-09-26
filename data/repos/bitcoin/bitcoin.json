@@ -12,10 +12,10 @@
     "cryptography",
     "p2p"
   ],
-  "stars": 90250,
-  "forks": 39405,
+  "stars": 90254,
+  "forks": 39407,
   "watchers": null,
-  "open_issues": 715,
+  "open_issues": 730,
   "created_at": "2010-12-19T15:16:43Z",
   "pushed_at": "2026-09-25T23:24:16Z",
   "is_archived": false,
@@ -30,10 +30,10 @@
   "category": "security",
   "flags": [],
   "usability_score": 100,
-  "snapshot_days": 28,
+  "snapshot_days": 29,
   "is_indexable": true,
   "first_seen_at": "2026-08-29T15:46:21.821Z",
   "tracking_tier": "hot",
-  "last_fetched_date": "2026-09-26",
+  "last_fetched_date": "2026-09-27",
   "stars_stagnant_days": 0
 }

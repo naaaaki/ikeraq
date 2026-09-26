@@ -12,9 +12,9 @@
     "wifi-security",
     "wireless-security"
   ],
-  "stars": 905,
-  "forks": 86,
-  "watchers": null,
+  "stars": 1199,
+  "forks": 100,
+  "watchers": 11,
   "open_issues": 5,
   "created_at": "2026-06-20T18:15:05Z",
   "pushed_at": "2026-09-23T09:07:44Z",
@@ -36,10 +36,10 @@
     }
   ],
   "usability_score": 85,
-  "snapshot_days": 1,
+  "snapshot_days": 2,
   "is_indexable": true,
   "first_seen_at": "2026-09-25T23:53:22.872Z",
   "tracking_tier": "hot",
-  "last_fetched_date": "2026-09-26",
+  "last_fetched_date": "2026-09-27",
   "stars_stagnant_days": 0
 }

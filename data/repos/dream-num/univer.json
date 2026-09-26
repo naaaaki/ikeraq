@@ -26,10 +26,10 @@
     "wordprocessor",
     "xlsx"
   ],
-  "stars": 18411,
-  "forks": 1563,
-  "watchers": 226,
-  "open_issues": 146,
+  "stars": 19188,
+  "forks": 1633,
+  "watchers": 270,
+  "open_issues": 149,
   "created_at": "2022-09-29T12:09:14Z",
   "pushed_at": "2026-09-24T14:02:42Z",
   "is_archived": false,
@@ -44,10 +44,10 @@
   "category": "other",
   "flags": [],
   "usability_score": 100,
-  "snapshot_days": 3,
+  "snapshot_days": 4,
   "is_indexable": true,
   "first_seen_at": "2026-09-23T23:28:31.093Z",
   "tracking_tier": "hot",
-  "last_fetched_date": "2026-09-26",
+  "last_fetched_date": "2026-09-27",
   "stars_stagnant_days": 0
 }

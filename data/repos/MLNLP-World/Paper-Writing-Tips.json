@@ -1,0 +1,41 @@
+{
+  "id": "MLNLP-World/Paper-Writing-Tips",
+  "owner": "MLNLP-World",
+  "name": "Paper-Writing-Tips",
+  "description_en": "MLNLP社区用来帮助大家避免论文投稿小错误的整理仓库。 Paper Writing Tips",
+  "human_note": null,
+  "language": null,
+  "topics": [
+    "mlnlp"
+  ],
+  "stars": 4642,
+  "forks": 541,
+  "watchers": null,
+  "open_issues": 5,
+  "created_at": "2022-04-13T14:36:44Z",
+  "pushed_at": "2026-09-26T07:45:39Z",
+  "is_archived": false,
+  "license_spdx": null,
+  "license_category": "none",
+  "readme_excerpt": "Paper Writing Tips 项目动机 / 论文写作 Skill / 写前必看 / 终稿必查 / 百家之言 / 组织者列表 / 贡献者列表 项目动机 很多初学者同学在投稿的时候经常会出现一些共有的小错误，为了节省大家的时间和帮助大家能够尽快的定位一些小的问题。本项目总结了我们在自己投稿过程中的经验和一些身边老师同学的投稿经验，希望能对大家有所帮助，由于我们的水平有限，如有疏漏，还望谅解。谢谢大家。 >本项目的特色： >1. 写前必看：包含一些常见的错误，每个错误均配有例子，可以在动手写论文之前快速浏览。 >2. 终稿必查：包含一些例子，方便快速定位是否自己的论文有错误。 >3. 百家之言：整理了一些网络上公开的写作资源（并不完全，欢迎补充），方便大家系统学习。 >4. 论文写作 Skill：将本项目的写作规范整理为可复用的 AI skill，辅助检查 LaTeX 排版、公式、图表、引用和学术表达。 免责声明 本项目列举的所有技巧仅供参考，并不保证正确。本文主要关注于顶会论文，论文写作以实际需求为准。熟悉写作技巧可能会使写作没有明显的失误，而优秀的论文需要不断打磨。 所有内容仅…",
+  "readme_length": 18209,
+  "has_japanese_readme": false,
+  "contributors_count": 15,
+  "releases_count": 0,
+  "ossf_scorecard": null,
+  "category": "other",
+  "flags": [
+    {
+      "id": "no_license",
+      "label": "利用条件不明",
+      "reason": "ライセンスが設定されていません。この場合は原則として全権利が留保され、利用できません。"
+    }
+  ],
+  "usability_score": 60,
+  "snapshot_days": 1,
+  "is_indexable": true,
+  "first_seen_at": "2026-09-26T23:25:20.110Z",
+  "tracking_tier": "hot",
+  "last_fetched_date": "2026-09-27",
+  "stars_stagnant_days": 0
+}

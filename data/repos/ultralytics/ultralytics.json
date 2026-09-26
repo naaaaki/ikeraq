@@ -27,12 +27,12 @@
     "yolo27",
     "yolov8"
   ],
-  "stars": 62006,
-  "forks": 11796,
+  "stars": 62027,
+  "forks": 11797,
   "watchers": null,
-  "open_issues": 70,
+  "open_issues": 79,
   "created_at": "2022-09-11T16:39:45Z",
-  "pushed_at": "2026-09-25T23:10:54Z",
+  "pushed_at": "2026-09-26T22:44:20Z",
   "is_archived": false,
   "license_spdx": "AGPL-3.0",
   "license_category": "strong-copyleft",
@@ -51,10 +51,10 @@
     }
   ],
   "usability_score": 85,
-  "snapshot_days": 28,
+  "snapshot_days": 29,
   "is_indexable": true,
   "first_seen_at": "2026-08-29T23:02:08.747Z",
   "tracking_tier": "hot",
-  "last_fetched_date": "2026-09-26",
+  "last_fetched_date": "2026-09-27",
   "stars_stagnant_days": 0
 }

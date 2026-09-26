@@ -19,8 +19,8 @@
     "web-builder-framework",
     "website-builder"
   ],
-  "stars": 26271,
-  "forks": 4648,
+  "stars": 26275,
+  "forks": 4649,
   "watchers": null,
   "open_issues": 45,
   "created_at": "2016-01-22T00:23:19Z",
@@ -37,10 +37,10 @@
   "category": "web-frontend",
   "flags": [],
   "usability_score": 100,
-  "snapshot_days": 3,
+  "snapshot_days": 4,
   "is_indexable": false,
   "first_seen_at": "2026-09-23T23:28:32.617Z",
   "tracking_tier": "hot",
-  "last_fetched_date": "2026-09-26",
+  "last_fetched_date": "2026-09-27",
   "stars_stagnant_days": 0
 }

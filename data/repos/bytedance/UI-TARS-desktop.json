@@ -21,8 +21,8 @@
     "vision",
     "vlm"
   ],
-  "stars": 39109,
-  "forks": 3965,
+  "stars": 39119,
+  "forks": 3966,
   "watchers": null,
   "open_issues": 498,
   "created_at": "2025-01-19T09:04:43Z",
@@ -39,10 +39,10 @@
   "category": "ai-agent",
   "flags": [],
   "usability_score": 100,
-  "snapshot_days": 2,
+  "snapshot_days": 3,
   "is_indexable": false,
   "first_seen_at": "2026-09-24T23:48:41.710Z",
   "tracking_tier": "hot",
-  "last_fetched_date": "2026-09-26",
-  "stars_stagnant_days": 1
+  "last_fetched_date": "2026-09-27",
+  "stars_stagnant_days": 0
 }

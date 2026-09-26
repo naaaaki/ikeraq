@@ -15,10 +15,10 @@
     "dsh-plugin",
     "dsh-plugin-desktop"
   ],
-  "stars": 28988,
-  "forks": 1381,
+  "stars": 29079,
+  "forks": 1385,
   "watchers": null,
-  "open_issues": 319,
+  "open_issues": 323,
   "created_at": "2026-08-13T16:30:50Z",
   "pushed_at": "2026-09-25T22:27:38Z",
   "is_archived": false,
@@ -33,10 +33,10 @@
   "category": "ai-agent",
   "flags": [],
   "usability_score": 100,
-  "snapshot_days": 3,
+  "snapshot_days": 4,
   "is_indexable": false,
   "first_seen_at": "2026-09-23T23:28:32.617Z",
   "tracking_tier": "hot",
-  "last_fetched_date": "2026-09-26",
+  "last_fetched_date": "2026-09-27",
   "stars_stagnant_days": 0
 }

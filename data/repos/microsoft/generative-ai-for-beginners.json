@@ -21,10 +21,10 @@
     "semantic-search",
     "transformers"
   ],
-  "stars": 120558,
-  "forks": 63427,
+  "stars": 120615,
+  "forks": 63444,
   "watchers": 1007,
-  "open_issues": 8,
+  "open_issues": 10,
   "created_at": "2023-06-19T16:28:59Z",
   "pushed_at": "2026-09-24T03:43:20Z",
   "is_archived": false,
@@ -39,10 +39,10 @@
   "category": "llm",
   "flags": [],
   "usability_score": 100,
-  "snapshot_days": 28,
+  "snapshot_days": 29,
   "is_indexable": true,
   "first_seen_at": "2026-08-29T15:46:21.820Z",
   "tracking_tier": "hot",
-  "last_fetched_date": "2026-09-26",
+  "last_fetched_date": "2026-09-27",
   "stars_stagnant_days": 0
 }

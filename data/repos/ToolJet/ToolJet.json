@@ -25,10 +25,10 @@
     "web-development-tools",
     "workflow-automation"
   ],
-  "stars": 40995,
-  "forks": 5456,
+  "stars": 41000,
+  "forks": 5457,
   "watchers": null,
-  "open_issues": 1248,
+  "open_issues": 1252,
   "created_at": "2021-03-30T08:51:34Z",
   "pushed_at": "2026-09-25T18:54:52Z",
   "is_archived": false,
@@ -49,10 +49,10 @@
     }
   ],
   "usability_score": 85,
-  "snapshot_days": 27,
+  "snapshot_days": 28,
   "is_indexable": true,
   "first_seen_at": "2026-08-30T23:15:18.750Z",
   "tracking_tier": "hot",
-  "last_fetched_date": "2026-09-26",
+  "last_fetched_date": "2026-09-27",
   "stars_stagnant_days": 0
 }

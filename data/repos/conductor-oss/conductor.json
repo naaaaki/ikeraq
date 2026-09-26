@@ -21,12 +21,12 @@
     "workflow-management",
     "workflows"
   ],
-  "stars": 32231,
+  "stars": 32234,
   "forks": 1020,
   "watchers": null,
-  "open_issues": 259,
+  "open_issues": 260,
   "created_at": "2023-12-08T06:06:09Z",
-  "pushed_at": "2026-09-25T20:30:21Z",
+  "pushed_at": "2026-09-26T07:17:14Z",
   "is_archived": false,
   "license_spdx": "Apache-2.0",
   "license_category": "permissive",
@@ -39,10 +39,10 @@
   "category": "dev-tool",
   "flags": [],
   "usability_score": 100,
-  "snapshot_days": 25,
+  "snapshot_days": 26,
   "is_indexable": true,
   "first_seen_at": "2026-09-01T23:05:22.650Z",
   "tracking_tier": "hot",
-  "last_fetched_date": "2026-09-26",
+  "last_fetched_date": "2026-09-27",
   "stars_stagnant_days": 0
 }

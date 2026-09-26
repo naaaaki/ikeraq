@@ -17,8 +17,8 @@
     "security-tools",
     "threat-hunting"
   ],
-  "stars": 4902,
-  "forks": 677,
+  "stars": 4903,
+  "forks": 678,
   "watchers": null,
   "open_issues": 77,
   "created_at": "2018-02-05T17:30:31Z",
@@ -35,10 +35,10 @@
   "category": "security",
   "flags": [],
   "usability_score": 100,
-  "snapshot_days": 2,
+  "snapshot_days": 3,
   "is_indexable": false,
   "first_seen_at": "2026-09-24T23:48:41.712Z",
   "tracking_tier": "hot",
-  "last_fetched_date": "2026-09-26",
+  "last_fetched_date": "2026-09-27",
   "stars_stagnant_days": 0
 }

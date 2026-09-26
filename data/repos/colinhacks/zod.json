@@ -12,8 +12,8 @@
     "type-inference",
     "typescript"
   ],
-  "stars": 44015,
-  "forks": 2204,
+  "stars": 44021,
+  "forks": 2206,
   "watchers": null,
   "open_issues": 76,
   "created_at": "2020-03-07T20:59:08Z",
@@ -30,10 +30,10 @@
   "category": "llm",
   "flags": [],
   "usability_score": 100,
-  "snapshot_days": 27,
+  "snapshot_days": 28,
   "is_indexable": true,
   "first_seen_at": "2026-08-30T23:15:18.750Z",
   "tracking_tier": "hot",
-  "last_fetched_date": "2026-09-26",
+  "last_fetched_date": "2026-09-27",
   "stars_stagnant_days": 0
 }
