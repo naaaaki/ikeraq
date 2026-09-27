@@ -11,7 +11,7 @@
     "json",
     "public-domain"
   ],
-  "stars": 4720,
+  "stars": 4719,
   "forks": 2597,
   "watchers": null,
   "open_issues": 25,
@@ -29,10 +29,10 @@
   "category": "other",
   "flags": [],
   "usability_score": 100,
-  "snapshot_days": 2,
+  "snapshot_days": 3,
   "is_indexable": false,
   "first_seen_at": "2026-09-25T23:53:23.595Z",
   "tracking_tier": "hot",
-  "last_fetched_date": "2026-09-27",
-  "stars_stagnant_days": 1
+  "last_fetched_date": "2026-09-28",
+  "stars_stagnant_days": 2
 }

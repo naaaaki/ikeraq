@@ -15,12 +15,12 @@
     "react",
     "vibe-coding"
   ],
-  "stars": 8283,
-  "forks": 866,
+  "stars": 8349,
+  "forks": 879,
   "watchers": null,
   "open_issues": 4,
   "created_at": "2026-09-02T04:36:34Z",
-  "pushed_at": "2026-09-24T14:29:43Z",
+  "pushed_at": "2026-09-27T14:21:13Z",
   "is_archived": false,
   "license_spdx": "MIT",
   "license_category": "permissive",
@@ -33,10 +33,10 @@
   "category": "llm",
   "flags": [],
   "usability_score": 100,
-  "snapshot_days": 3,
+  "snapshot_days": 4,
   "is_indexable": false,
   "first_seen_at": "2026-09-24T23:48:41.710Z",
   "tracking_tier": "hot",
-  "last_fetched_date": "2026-09-27",
+  "last_fetched_date": "2026-09-28",
   "stars_stagnant_days": 0
 }

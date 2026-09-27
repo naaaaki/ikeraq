@@ -12,12 +12,12 @@
     "termux",
     "x11"
   ],
-  "stars": 4840,
-  "forks": 746,
+  "stars": 4850,
+  "forks": 748,
   "watchers": null,
   "open_issues": 25,
   "created_at": "2019-08-25T23:51:04Z",
-  "pushed_at": "2026-09-25T09:53:33Z",
+  "pushed_at": "2026-09-27T21:51:04Z",
   "is_archived": false,
   "license_spdx": "GPL-3.0",
   "license_category": "strong-copyleft",
@@ -36,10 +36,10 @@
     }
   ],
   "usability_score": 85,
-  "snapshot_days": 2,
+  "snapshot_days": 3,
   "is_indexable": true,
   "first_seen_at": "2026-09-25T23:53:23.593Z",
   "tracking_tier": "hot",
-  "last_fetched_date": "2026-09-27",
+  "last_fetched_date": "2026-09-28",
   "stars_stagnant_days": 0
 }

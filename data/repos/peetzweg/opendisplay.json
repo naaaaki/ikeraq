@@ -19,10 +19,10 @@
     "videotoolbox",
     "virtual-display"
   ],
-  "stars": 4823,
-  "forks": 321,
+  "stars": 4839,
+  "forks": 322,
   "watchers": null,
-  "open_issues": 152,
+  "open_issues": 154,
   "created_at": "2026-06-10T09:08:00Z",
   "pushed_at": "2026-09-23T08:53:43Z",
   "is_archived": false,
@@ -43,10 +43,10 @@
     }
   ],
   "usability_score": 85,
-  "snapshot_days": 2,
+  "snapshot_days": 3,
   "is_indexable": true,
   "first_seen_at": "2026-09-25T23:53:23.594Z",
   "tracking_tier": "hot",
-  "last_fetched_date": "2026-09-27",
+  "last_fetched_date": "2026-09-28",
   "stars_stagnant_days": 0
 }

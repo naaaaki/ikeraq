@@ -22,12 +22,12 @@
     "rest-api",
     "web"
   ],
-  "stars": 40184,
+  "stars": 40185,
   "forks": 2040,
   "watchers": null,
-  "open_issues": 26,
+  "open_issues": 28,
   "created_at": "2020-01-16T03:59:20Z",
-  "pushed_at": "2026-09-25T18:20:03Z",
+  "pushed_at": "2026-09-27T20:12:48Z",
   "is_archived": false,
   "license_spdx": "MIT",
   "license_category": "permissive",
@@ -40,10 +40,10 @@
   "category": "backend",
   "flags": [],
   "usability_score": 100,
-  "snapshot_days": 27,
+  "snapshot_days": 28,
   "is_indexable": true,
   "first_seen_at": "2026-09-01T00:26:13.031Z",
   "tracking_tier": "hot",
-  "last_fetched_date": "2026-09-27",
+  "last_fetched_date": "2026-09-28",
   "stars_stagnant_days": 0
 }

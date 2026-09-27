@@ -27,8 +27,8 @@
     "security",
     "security-automation"
   ],
-  "stars": 65033,
-  "forks": 7139,
+  "stars": 65216,
+  "forks": 7161,
   "watchers": null,
   "open_issues": 415,
   "created_at": "2025-08-05T21:28:30Z",
@@ -45,10 +45,10 @@
   "category": "ai-agent",
   "flags": [],
   "usability_score": 100,
-  "snapshot_days": 29,
+  "snapshot_days": 30,
   "is_indexable": true,
   "first_seen_at": "2026-08-29T23:02:08.747Z",
   "tracking_tier": "hot",
-  "last_fetched_date": "2026-09-27",
+  "last_fetched_date": "2026-09-28",
   "stars_stagnant_days": 0
 }

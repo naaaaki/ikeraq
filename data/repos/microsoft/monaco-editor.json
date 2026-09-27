@@ -12,7 +12,7 @@
     "typescript",
     "vscode"
   ],
-  "stars": 46812,
+  "stars": 46816,
   "forks": 4137,
   "watchers": 542,
   "open_issues": 853,
@@ -30,10 +30,10 @@
   "category": "dev-tool",
   "flags": [],
   "usability_score": 100,
-  "snapshot_days": 28,
+  "snapshot_days": 29,
   "is_indexable": true,
   "first_seen_at": "2026-08-30T23:15:18.749Z",
   "tracking_tier": "hot",
-  "last_fetched_date": "2026-09-27",
+  "last_fetched_date": "2026-09-28",
   "stars_stagnant_days": 0
 }

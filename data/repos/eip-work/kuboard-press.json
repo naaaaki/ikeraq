@@ -11,12 +11,12 @@
     "kubernetes",
     "kubernetes-kuboard"
   ],
-  "stars": 25244,
+  "stars": 25245,
   "forks": 1594,
   "watchers": null,
   "open_issues": 539,
   "created_at": "2019-07-24T16:45:29Z",
-  "pushed_at": "2026-09-22T12:51:28Z",
+  "pushed_at": "2026-09-27T14:23:11Z",
   "is_archived": false,
   "license_spdx": null,
   "license_category": "none",
@@ -35,10 +35,10 @@
     }
   ],
   "usability_score": 60,
-  "snapshot_days": 4,
+  "snapshot_days": 5,
   "is_indexable": true,
   "first_seen_at": "2026-09-23T23:28:32.618Z",
   "tracking_tier": "hot",
-  "last_fetched_date": "2026-09-27",
-  "stars_stagnant_days": 3
+  "last_fetched_date": "2026-09-28",
+  "stars_stagnant_days": 0
 }

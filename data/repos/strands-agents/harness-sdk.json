@@ -27,10 +27,10 @@
     "strands-agents",
     "typescript"
   ],
-  "stars": 8459,
-  "forks": 1264,
+  "stars": 8485,
+  "forks": 1270,
   "watchers": 54,
-  "open_issues": 844,
+  "open_issues": 856,
   "created_at": "2025-05-14T19:59:51Z",
   "pushed_at": "2026-09-26T18:10:20Z",
   "is_archived": false,
@@ -45,10 +45,10 @@
   "category": "ai-agent",
   "flags": [],
   "usability_score": 100,
-  "snapshot_days": 4,
+  "snapshot_days": 5,
   "is_indexable": false,
   "first_seen_at": "2026-09-23T23:28:31.866Z",
   "tracking_tier": "hot",
-  "last_fetched_date": "2026-09-27",
+  "last_fetched_date": "2026-09-28",
   "stars_stagnant_days": 0
 }

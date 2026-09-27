@@ -12,7 +12,7 @@
     "go",
     "p2p"
   ],
-  "stars": 51370,
+  "stars": 51371,
   "forks": 22164,
   "watchers": null,
   "open_issues": 464,
@@ -30,10 +30,10 @@
   "category": "other",
   "flags": [],
   "usability_score": 100,
-  "snapshot_days": 28,
+  "snapshot_days": 29,
   "is_indexable": true,
   "first_seen_at": "2026-08-30T23:15:18.749Z",
   "tracking_tier": "hot",
-  "last_fetched_date": "2026-09-27",
-  "stars_stagnant_days": 1
+  "last_fetched_date": "2026-09-28",
+  "stars_stagnant_days": 0
 }

@@ -14,10 +14,10 @@
     "llms",
     "rag"
   ],
-  "stars": 36112,
-  "forks": 3805,
+  "stars": 36122,
+  "forks": 3808,
   "watchers": null,
-  "open_issues": 39,
+  "open_issues": 41,
   "created_at": "2024-03-27T17:57:52Z",
   "pushed_at": "2026-09-24T02:25:48Z",
   "is_archived": false,
@@ -32,10 +32,10 @@
   "category": "llm",
   "flags": [],
   "usability_score": 100,
-  "snapshot_days": 27,
+  "snapshot_days": 28,
   "is_indexable": true,
   "first_seen_at": "2026-09-01T00:26:13.032Z",
   "tracking_tier": "hot",
-  "last_fetched_date": "2026-09-27",
+  "last_fetched_date": "2026-09-28",
   "stars_stagnant_days": 0
 }

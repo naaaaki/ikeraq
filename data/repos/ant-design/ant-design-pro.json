@@ -16,9 +16,9 @@
     "react",
     "umi"
   ],
-  "stars": 38808,
-  "forks": 8253,
-  "watchers": null,
+  "stars": 38810,
+  "forks": 8254,
+  "watchers": 743,
   "open_issues": 50,
   "created_at": "2017-08-25T10:40:44Z",
   "pushed_at": "2026-09-21T17:25:41Z",
@@ -34,10 +34,10 @@
   "category": "web-frontend",
   "flags": [],
   "usability_score": 100,
-  "snapshot_days": 27,
+  "snapshot_days": 28,
   "is_indexable": true,
   "first_seen_at": "2026-09-01T00:26:13.031Z",
   "tracking_tier": "hot",
-  "last_fetched_date": "2026-09-27",
+  "last_fetched_date": "2026-09-28",
   "stars_stagnant_days": 0
 }

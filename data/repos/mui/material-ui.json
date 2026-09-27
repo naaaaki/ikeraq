@@ -12,12 +12,12 @@
     "react",
     "react-components"
   ],
-  "stars": 99092,
-  "forks": 32513,
+  "stars": 99100,
+  "forks": 32514,
   "watchers": null,
-  "open_issues": 1451,
+  "open_issues": 1468,
   "created_at": "2014-08-18T19:11:54Z",
-  "pushed_at": "2026-09-25T14:07:24Z",
+  "pushed_at": "2026-09-27T07:25:47Z",
   "is_archived": false,
   "license_spdx": "MIT",
   "license_category": "permissive",
@@ -30,10 +30,10 @@
   "category": "web-frontend",
   "flags": [],
   "usability_score": 100,
-  "snapshot_days": 29,
+  "snapshot_days": 30,
   "is_indexable": true,
   "first_seen_at": "2026-08-29T15:46:21.821Z",
   "tracking_tier": "hot",
-  "last_fetched_date": "2026-09-27",
-  "stars_stagnant_days": 2
+  "last_fetched_date": "2026-09-28",
+  "stars_stagnant_days": 0
 }

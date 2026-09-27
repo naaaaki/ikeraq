@@ -18,7 +18,7 @@
     "sqlite",
     "sqlite3"
   ],
-  "stars": 4980,
+  "stars": 4982,
   "forks": 305,
   "watchers": null,
   "open_issues": 37,
@@ -36,10 +36,10 @@
   "category": "data",
   "flags": [],
   "usability_score": 100,
-  "snapshot_days": 3,
+  "snapshot_days": 4,
   "is_indexable": false,
   "first_seen_at": "2026-09-24T23:48:41.711Z",
   "tracking_tier": "hot",
-  "last_fetched_date": "2026-09-27",
-  "stars_stagnant_days": 2
+  "last_fetched_date": "2026-09-28",
+  "stars_stagnant_days": 0
 }

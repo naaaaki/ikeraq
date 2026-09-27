@@ -8,7 +8,7 @@
   "topics": [
     "zsh"
   ],
-  "stars": 55161,
+  "stars": 55164,
   "forks": 2443,
   "watchers": 195,
   "open_issues": 152,
@@ -26,10 +26,10 @@
   "category": "other",
   "flags": [],
   "usability_score": 100,
-  "snapshot_days": 20,
+  "snapshot_days": 21,
   "is_indexable": true,
   "first_seen_at": "2026-09-07T23:19:48.975Z",
   "tracking_tier": "hot",
-  "last_fetched_date": "2026-09-27",
+  "last_fetched_date": "2026-09-28",
   "stars_stagnant_days": 0
 }

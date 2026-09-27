@@ -17,7 +17,7 @@
     "transition-animation"
   ],
   "stars": 26887,
-  "forks": 3839,
+  "forks": 3838,
   "watchers": 458,
   "open_issues": 46,
   "created_at": "2016-10-06T22:38:38Z",
@@ -34,10 +34,10 @@
   "category": "mobile",
   "flags": [],
   "usability_score": 100,
-  "snapshot_days": 24,
+  "snapshot_days": 25,
   "is_indexable": true,
   "first_seen_at": "2026-09-03T23:03:15.575Z",
   "tracking_tier": "hot",
-  "last_fetched_date": "2026-09-27",
-  "stars_stagnant_days": 0
+  "last_fetched_date": "2026-09-28",
+  "stars_stagnant_days": 1
 }

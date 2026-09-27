@@ -18,8 +18,8 @@
     "ipv4",
     "ipv6"
   ],
-  "stars": 4694,
-  "forks": 673,
+  "stars": 4695,
+  "forks": 674,
   "watchers": null,
   "open_issues": 14,
   "created_at": "2016-06-10T11:51:51Z",
@@ -36,10 +36,10 @@
   "category": "infra",
   "flags": [],
   "usability_score": 100,
-  "snapshot_days": 2,
+  "snapshot_days": 3,
   "is_indexable": false,
   "first_seen_at": "2026-09-25T23:53:23.596Z",
   "tracking_tier": "hot",
-  "last_fetched_date": "2026-09-27",
-  "stars_stagnant_days": 1
+  "last_fetched_date": "2026-09-28",
+  "stars_stagnant_days": 0
 }

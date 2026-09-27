@@ -2,7 +2,7 @@
   "id": "TNT-Likely/PanWatch",
   "owner": "TNT-Likely",
   "name": "PanWatch",
-  "description_en": "盯盘侠 PanWatch · 自托管 AI 盯盘助手，集成 TradingAgents 多 Agent 投资决策 | A股/港股/美股实时监控、持仓管理、智能分析、全渠道推送",
+  "description_en": "PanWatch — AI stock monitoring for A-shares, HK & US markets, powered by TradingAgents. Portfolio insights, real-time alerts & automated reports.｜盯盘侠：覆盖 A股/港股/美股的 AI 盯盘、持仓分析、实时提醒与自动报告。",
   "human_note": null,
   "language": "Python",
   "topics": [
@@ -27,12 +27,12 @@
     "trading-agents",
     "trading-bot"
   ],
-  "stars": 1803,
-  "forks": 329,
+  "stars": 1827,
+  "forks": 331,
   "watchers": 18,
-  "open_issues": 67,
+  "open_issues": 70,
   "created_at": "2026-01-23T13:34:00Z",
-  "pushed_at": "2026-09-25T12:53:02Z",
+  "pushed_at": "2026-09-27T23:41:00Z",
   "is_archived": false,
   "license_spdx": "MIT",
   "license_category": "permissive",
@@ -45,10 +45,10 @@
   "category": "ai-agent",
   "flags": [],
   "usability_score": 100,
-  "snapshot_days": 4,
+  "snapshot_days": 5,
   "is_indexable": false,
   "first_seen_at": "2026-09-23T23:28:32.615Z",
   "tracking_tier": "hot",
-  "last_fetched_date": "2026-09-27",
+  "last_fetched_date": "2026-09-28",
   "stars_stagnant_days": 0
 }

@@ -10,10 +10,10 @@
     "oss",
     "videoeditor"
   ],
-  "stars": 90718,
-  "forks": 8967,
+  "stars": 90801,
+  "forks": 8983,
   "watchers": null,
-  "open_issues": 378,
+  "open_issues": 375,
   "created_at": "2025-06-22T08:02:17Z",
   "pushed_at": "2026-09-24T09:24:44Z",
   "is_archived": false,
@@ -28,10 +28,10 @@
   "category": "dev-tool",
   "flags": [],
   "usability_score": 100,
-  "snapshot_days": 3,
+  "snapshot_days": 4,
   "is_indexable": false,
   "first_seen_at": "2026-09-24T23:48:41.709Z",
   "tracking_tier": "hot",
-  "last_fetched_date": "2026-09-27",
+  "last_fetched_date": "2026-09-28",
   "stars_stagnant_days": 0
 }

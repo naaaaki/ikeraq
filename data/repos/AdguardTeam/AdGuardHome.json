@@ -17,7 +17,7 @@
     "open-source",
     "privacy"
   ],
-  "stars": 37076,
+  "stars": 37087,
   "forks": 2523,
   "watchers": null,
   "open_issues": 1260,
@@ -41,10 +41,10 @@
     }
   ],
   "usability_score": 85,
-  "snapshot_days": 27,
+  "snapshot_days": 28,
   "is_indexable": true,
   "first_seen_at": "2026-09-01T00:26:13.032Z",
   "tracking_tier": "hot",
-  "last_fetched_date": "2026-09-27",
+  "last_fetched_date": "2026-09-28",
   "stars_stagnant_days": 0
 }

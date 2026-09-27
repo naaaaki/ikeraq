@@ -11,12 +11,12 @@
     "rust",
     "tee"
   ],
-  "stars": 4876,
-  "forks": 380,
+  "stars": 4878,
+  "forks": 379,
   "watchers": null,
   "open_issues": 340,
   "created_at": "2022-05-17T18:48:52Z",
-  "pushed_at": "2026-09-26T14:25:08Z",
+  "pushed_at": "2026-09-27T11:47:50Z",
   "is_archived": false,
   "license_spdx": "MPL-2.0",
   "license_category": "weak-copyleft",
@@ -29,10 +29,10 @@
   "category": "other",
   "flags": [],
   "usability_score": 100,
-  "snapshot_days": 3,
+  "snapshot_days": 4,
   "is_indexable": false,
   "first_seen_at": "2026-09-24T23:48:41.712Z",
   "tracking_tier": "hot",
-  "last_fetched_date": "2026-09-27",
-  "stars_stagnant_days": 1
+  "last_fetched_date": "2026-09-28",
+  "stars_stagnant_days": 0
 }

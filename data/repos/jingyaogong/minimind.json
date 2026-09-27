@@ -9,10 +9,10 @@
     "artificial-intelligence",
     "large-language-model"
   ],
-  "stars": 62661,
-  "forks": 8144,
+  "stars": 62756,
+  "forks": 8154,
   "watchers": null,
-  "open_issues": 61,
+  "open_issues": 60,
   "created_at": "2024-07-27T04:34:12Z",
   "pushed_at": "2026-09-22T16:07:34Z",
   "is_archived": false,
@@ -27,10 +27,10 @@
   "category": "other",
   "flags": [],
   "usability_score": 100,
-  "snapshot_days": 29,
+  "snapshot_days": 30,
   "is_indexable": true,
   "first_seen_at": "2026-08-29T23:02:08.747Z",
   "tracking_tier": "hot",
-  "last_fetched_date": "2026-09-27",
+  "last_fetched_date": "2026-09-28",
   "stars_stagnant_days": 0
 }

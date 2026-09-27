@@ -12,9 +12,9 @@
     "explorer"
   ],
   "stars": 4716,
-  "forks": 3185,
+  "forks": 3187,
   "watchers": null,
-  "open_issues": 170,
+  "open_issues": 171,
   "created_at": "2018-01-12T22:45:24Z",
   "pushed_at": "2026-09-25T11:50:18Z",
   "is_archived": false,
@@ -29,10 +29,10 @@
   "category": "other",
   "flags": [],
   "usability_score": 100,
-  "snapshot_days": 2,
+  "snapshot_days": 3,
   "is_indexable": false,
   "first_seen_at": "2026-09-25T23:53:23.595Z",
   "tracking_tier": "hot",
-  "last_fetched_date": "2026-09-27",
-  "stars_stagnant_days": 1
+  "last_fetched_date": "2026-09-28",
+  "stars_stagnant_days": 2
 }

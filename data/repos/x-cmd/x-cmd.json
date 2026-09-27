@@ -14,12 +14,12 @@
     "shell",
     "zsh"
   ],
-  "stars": 4682,
-  "forks": 168,
+  "stars": 4681,
+  "forks": 169,
   "watchers": null,
-  "open_issues": 111,
+  "open_issues": 109,
   "created_at": "2022-10-01T08:46:39Z",
-  "pushed_at": "2026-09-24T09:57:22Z",
+  "pushed_at": "2026-09-27T10:32:12Z",
   "is_archived": false,
   "license_spdx": "Apache-2.0",
   "license_category": "permissive",
@@ -32,10 +32,10 @@
   "category": "ai-agent",
   "flags": [],
   "usability_score": 100,
-  "snapshot_days": 2,
+  "snapshot_days": 3,
   "is_indexable": false,
   "first_seen_at": "2026-09-25T23:53:23.596Z",
   "tracking_tier": "hot",
-  "last_fetched_date": "2026-09-27",
-  "stars_stagnant_days": 0
+  "last_fetched_date": "2026-09-28",
+  "stars_stagnant_days": 1
 }

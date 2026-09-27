@@ -20,12 +20,12 @@
     "winui3",
     "wpf"
   ],
-  "stars": 4691,
-  "forks": 473,
+  "stars": 4692,
+  "forks": 478,
   "watchers": null,
-  "open_issues": 425,
+  "open_issues": 426,
   "created_at": "2020-04-15T22:16:56Z",
-  "pushed_at": "2026-09-26T21:59:12Z",
+  "pushed_at": "2026-09-27T22:45:30Z",
   "is_archived": false,
   "license_spdx": "MIT",
   "license_category": "permissive",
@@ -38,10 +38,10 @@
   "category": "other",
   "flags": [],
   "usability_score": 100,
-  "snapshot_days": 2,
+  "snapshot_days": 3,
   "is_indexable": false,
   "first_seen_at": "2026-09-25T23:53:23.596Z",
   "tracking_tier": "hot",
-  "last_fetched_date": "2026-09-27",
-  "stars_stagnant_days": 1
+  "last_fetched_date": "2026-09-28",
+  "stars_stagnant_days": 0
 }

@@ -15,12 +15,12 @@
     "tauri-app",
     "windows"
   ],
-  "stars": 147568,
-  "forks": 10600,
+  "stars": 147772,
+  "forks": 10611,
   "watchers": null,
-  "open_issues": 475,
+  "open_issues": 480,
   "created_at": "2023-11-21T18:24:03Z",
-  "pushed_at": "2026-09-26T10:01:51Z",
+  "pushed_at": "2026-09-27T22:16:21Z",
   "is_archived": false,
   "license_spdx": "GPL-3.0",
   "license_category": "strong-copyleft",
@@ -39,10 +39,10 @@
     }
   ],
   "usability_score": 85,
-  "snapshot_days": 29,
+  "snapshot_days": 30,
   "is_indexable": true,
   "first_seen_at": "2026-08-29T15:46:21.820Z",
   "tracking_tier": "hot",
-  "last_fetched_date": "2026-09-27",
+  "last_fetched_date": "2026-09-28",
   "stars_stagnant_days": 0
 }

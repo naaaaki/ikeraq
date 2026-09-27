@@ -13,7 +13,7 @@
     "springs"
   ],
   "stars": 29161,
-  "forks": 1217,
+  "forks": 1218,
   "watchers": 187,
   "open_issues": 73,
   "created_at": "2018-03-07T15:39:32Z",
@@ -30,10 +30,10 @@
   "category": "web-frontend",
   "flags": [],
   "usability_score": 100,
-  "snapshot_days": 25,
+  "snapshot_days": 26,
   "is_indexable": true,
   "first_seen_at": "2026-09-02T23:02:41.773Z",
   "tracking_tier": "hot",
-  "last_fetched_date": "2026-09-27",
-  "stars_stagnant_days": 2
+  "last_fetched_date": "2026-09-28",
+  "stars_stagnant_days": 3
 }

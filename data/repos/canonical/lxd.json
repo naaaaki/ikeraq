@@ -13,7 +13,7 @@
     "lxc",
     "lxd"
   ],
-  "stars": 4831,
+  "stars": 4832,
   "forks": 1050,
   "watchers": null,
   "open_issues": 425,
@@ -37,10 +37,10 @@
     }
   ],
   "usability_score": 85,
-  "snapshot_days": 3,
+  "snapshot_days": 4,
   "is_indexable": true,
   "first_seen_at": "2026-09-24T23:48:41.713Z",
   "tracking_tier": "hot",
-  "last_fetched_date": "2026-09-27",
-  "stars_stagnant_days": 2
+  "last_fetched_date": "2026-09-28",
+  "stars_stagnant_days": 0
 }

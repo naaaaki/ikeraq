@@ -12,9 +12,9 @@
     "schema",
     "validation"
   ],
-  "stars": 4986,
+  "stars": 4985,
   "forks": 682,
-  "watchers": null,
+  "watchers": 58,
   "open_issues": 56,
   "created_at": "2011-12-30T03:37:43Z",
   "pushed_at": "2026-09-21T18:33:30Z",
@@ -30,10 +30,10 @@
   "category": "other",
   "flags": [],
   "usability_score": 100,
-  "snapshot_days": 3,
+  "snapshot_days": 4,
   "is_indexable": false,
   "first_seen_at": "2026-09-24T23:48:41.711Z",
   "tracking_tier": "hot",
-  "last_fetched_date": "2026-09-27",
-  "stars_stagnant_days": 2
+  "last_fetched_date": "2026-09-28",
+  "stars_stagnant_days": 3
 }

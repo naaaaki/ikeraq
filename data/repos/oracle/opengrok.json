@@ -14,10 +14,10 @@
     "search",
     "source"
   ],
-  "stars": 4960,
-  "forks": 842,
-  "watchers": null,
-  "open_issues": 553,
+  "stars": 4962,
+  "forks": 843,
+  "watchers": 164,
+  "open_issues": 554,
   "created_at": "2013-01-07T11:49:18Z",
   "pushed_at": "2026-09-21T18:36:19Z",
   "is_archived": false,
@@ -32,10 +32,10 @@
   "category": "other",
   "flags": [],
   "usability_score": 100,
-  "snapshot_days": 3,
+  "snapshot_days": 4,
   "is_indexable": false,
   "first_seen_at": "2026-09-24T23:48:41.712Z",
   "tracking_tier": "hot",
-  "last_fetched_date": "2026-09-27",
-  "stars_stagnant_days": 2
+  "last_fetched_date": "2026-09-28",
+  "stars_stagnant_days": 0
 }

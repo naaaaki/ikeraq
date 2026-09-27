@@ -14,10 +14,10 @@
     "spec",
     "spec-driven"
   ],
-  "stars": 139009,
-  "forks": 12448,
+  "stars": 139132,
+  "forks": 12467,
   "watchers": null,
-  "open_issues": 282,
+  "open_issues": 284,
   "created_at": "2025-08-21T22:54:31Z",
   "pushed_at": "2026-09-25T20:31:03Z",
   "is_archived": false,
@@ -32,10 +32,10 @@
   "category": "ai-agent",
   "flags": [],
   "usability_score": 100,
-  "snapshot_days": 29,
+  "snapshot_days": 30,
   "is_indexable": true,
   "first_seen_at": "2026-08-29T15:46:21.820Z",
   "tracking_tier": "hot",
-  "last_fetched_date": "2026-09-27",
+  "last_fetched_date": "2026-09-28",
   "stars_stagnant_days": 0
 }

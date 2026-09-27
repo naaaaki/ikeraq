@@ -14,9 +14,9 @@
     "windows",
     "wpf"
   ],
-  "stars": 4904,
+  "stars": 4903,
   "forks": 324,
-  "watchers": null,
+  "watchers": 53,
   "open_issues": 148,
   "created_at": "2019-03-22T11:21:33Z",
   "pushed_at": "2026-09-21T08:26:11Z",
@@ -38,10 +38,10 @@
     }
   ],
   "usability_score": 85,
-  "snapshot_days": 3,
+  "snapshot_days": 4,
   "is_indexable": true,
   "first_seen_at": "2026-09-24T23:48:41.712Z",
   "tracking_tier": "hot",
-  "last_fetched_date": "2026-09-27",
-  "stars_stagnant_days": 0
+  "last_fetched_date": "2026-09-28",
+  "stars_stagnant_days": 1
 }

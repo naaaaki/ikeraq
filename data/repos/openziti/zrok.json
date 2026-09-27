@@ -14,12 +14,12 @@
     "security",
     "zero-trust"
   ],
-  "stars": 4720,
+  "stars": 4722,
   "forks": 224,
   "watchers": null,
   "open_issues": 126,
   "created_at": "2022-07-18T19:14:51Z",
-  "pushed_at": "2026-09-25T21:21:04Z",
+  "pushed_at": "2026-09-27T15:33:23Z",
   "is_archived": false,
   "license_spdx": "Apache-2.0",
   "license_category": "permissive",
@@ -32,10 +32,10 @@
   "category": "security",
   "flags": [],
   "usability_score": 100,
-  "snapshot_days": 2,
+  "snapshot_days": 3,
   "is_indexable": false,
   "first_seen_at": "2026-09-25T23:53:23.595Z",
   "tracking_tier": "hot",
-  "last_fetched_date": "2026-09-27",
-  "stars_stagnant_days": 1
+  "last_fetched_date": "2026-09-28",
+  "stars_stagnant_days": 0
 }
