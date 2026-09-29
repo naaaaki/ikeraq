@@ -10,12 +10,12 @@
     "spring-framework",
     "spring-mvc"
   ],
-  "stars": 60258,
-  "forks": 38760,
+  "stars": 60262,
+  "forks": 38761,
   "watchers": null,
-  "open_issues": 477,
+  "open_issues": 475,
   "created_at": "2010-12-08T04:04:45Z",
-  "pushed_at": "2026-09-25T15:40:09Z",
+  "pushed_at": "2026-09-28T16:42:06Z",
   "is_archived": false,
   "license_spdx": "Apache-2.0",
   "license_category": "permissive",
@@ -28,10 +28,10 @@
   "category": "backend",
   "flags": [],
   "usability_score": 100,
-  "snapshot_days": 30,
+  "snapshot_days": 31,
   "is_indexable": true,
   "first_seen_at": "2026-08-29T23:02:08.747Z",
   "tracking_tier": "hot",
-  "last_fetched_date": "2026-09-28",
-  "stars_stagnant_days": 1
+  "last_fetched_date": "2026-09-29",
+  "stars_stagnant_days": 0
 }

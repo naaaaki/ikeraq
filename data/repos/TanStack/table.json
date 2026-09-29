@@ -26,10 +26,10 @@
     "typescript",
     "vue"
   ],
-  "stars": 28459,
-  "forks": 3583,
+  "stars": 28467,
+  "forks": 3582,
   "watchers": 178,
-  "open_issues": 70,
+  "open_issues": 71,
   "created_at": "2016-10-20T17:25:08Z",
   "pushed_at": "2026-09-16T14:43:01Z",
   "is_archived": false,
@@ -44,10 +44,10 @@
   "category": "web-frontend",
   "flags": [],
   "usability_score": 100,
-  "snapshot_days": 26,
+  "snapshot_days": 27,
   "is_indexable": true,
   "first_seen_at": "2026-09-02T23:02:41.773Z",
   "tracking_tier": "hot",
-  "last_fetched_date": "2026-09-28",
+  "last_fetched_date": "2026-09-29",
   "stars_stagnant_days": 0
 }

@@ -14,12 +14,12 @@
     "typescript-definitions",
     "typings"
   ],
-  "stars": 51442,
+  "stars": 51445,
   "forks": 30369,
   "watchers": null,
-  "open_issues": 703,
+  "open_issues": 691,
   "created_at": "2012-10-05T16:39:45Z",
-  "pushed_at": "2026-09-27T04:12:10Z",
+  "pushed_at": "2026-09-29T00:33:56Z",
   "is_archived": false,
   "license_spdx": "NOASSERTION",
   "license_category": "unknown",
@@ -32,10 +32,10 @@
   "category": "other",
   "flags": [],
   "usability_score": 100,
-  "snapshot_days": 29,
+  "snapshot_days": 30,
   "is_indexable": true,
   "first_seen_at": "2026-08-30T23:15:18.749Z",
   "tracking_tier": "hot",
-  "last_fetched_date": "2026-09-28",
-  "stars_stagnant_days": 1
+  "last_fetched_date": "2026-09-29",
+  "stars_stagnant_days": 0
 }

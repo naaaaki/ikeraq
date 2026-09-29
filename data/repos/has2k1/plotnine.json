@@ -12,12 +12,12 @@
     "plotting",
     "python"
   ],
-  "stars": 4764,
+  "stars": 4765,
   "forks": 255,
   "watchers": null,
   "open_issues": 75,
   "created_at": "2017-04-24T19:00:44Z",
-  "pushed_at": "2026-09-27T00:58:18Z",
+  "pushed_at": "2026-09-28T12:37:59Z",
   "is_archived": false,
   "license_spdx": "MIT",
   "license_category": "permissive",
@@ -30,10 +30,10 @@
   "category": "game",
   "flags": [],
   "usability_score": 100,
-  "snapshot_days": 3,
+  "snapshot_days": 4,
   "is_indexable": false,
   "first_seen_at": "2026-09-25T23:53:23.595Z",
   "tracking_tier": "hot",
-  "last_fetched_date": "2026-09-28",
-  "stars_stagnant_days": 2
+  "last_fetched_date": "2026-09-29",
+  "stars_stagnant_days": 0
 }

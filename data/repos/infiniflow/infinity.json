@@ -26,8 +26,8 @@
     "vector-search",
     "vectordatabase"
   ],
-  "stars": 4724,
-  "forks": 450,
+  "stars": 4725,
+  "forks": 452,
   "watchers": null,
   "open_issues": 140,
   "created_at": "2022-07-18T13:52:38Z",
@@ -44,10 +44,10 @@
   "category": "llm",
   "flags": [],
   "usability_score": 100,
-  "snapshot_days": 3,
+  "snapshot_days": 4,
   "is_indexable": false,
   "first_seen_at": "2026-09-25T23:53:23.595Z",
   "tracking_tier": "hot",
-  "last_fetched_date": "2026-09-28",
+  "last_fetched_date": "2026-09-29",
   "stars_stagnant_days": 0
 }

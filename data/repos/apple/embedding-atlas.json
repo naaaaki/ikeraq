@@ -9,7 +9,7 @@
     "embedding",
     "visualization"
   ],
-  "stars": 4960,
+  "stars": 4961,
   "forks": 328,
   "watchers": null,
   "open_issues": 34,
@@ -27,10 +27,10 @@
   "category": "other",
   "flags": [],
   "usability_score": 100,
-  "snapshot_days": 4,
+  "snapshot_days": 5,
   "is_indexable": false,
   "first_seen_at": "2026-09-24T23:48:41.712Z",
   "tracking_tier": "hot",
-  "last_fetched_date": "2026-09-28",
+  "last_fetched_date": "2026-09-29",
   "stars_stagnant_days": 0
 }

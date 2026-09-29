@@ -29,9 +29,9 @@
   "stars": 4736,
   "forks": 694,
   "watchers": null,
-  "open_issues": 1489,
+  "open_issues": 1482,
   "created_at": "2017-03-01T08:21:13Z",
-  "pushed_at": "2026-09-25T13:07:33Z",
+  "pushed_at": "2026-09-28T21:49:57Z",
   "is_archived": false,
   "license_spdx": "NOASSERTION",
   "license_category": "unknown",
@@ -44,10 +44,10 @@
   "category": "mobile",
   "flags": [],
   "usability_score": 100,
-  "snapshot_days": 3,
+  "snapshot_days": 4,
   "is_indexable": false,
   "first_seen_at": "2026-09-25T23:53:23.595Z",
   "tracking_tier": "hot",
-  "last_fetched_date": "2026-09-28",
-  "stars_stagnant_days": 0
+  "last_fetched_date": "2026-09-29",
+  "stars_stagnant_days": 1
 }

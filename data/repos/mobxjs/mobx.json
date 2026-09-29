@@ -13,7 +13,7 @@
     "typescript"
   ],
   "stars": 28215,
-  "forks": 1794,
+  "forks": 1795,
   "watchers": null,
   "open_issues": 45,
   "created_at": "2015-03-14T14:31:38Z",
@@ -30,10 +30,10 @@
   "category": "web-frontend",
   "flags": [],
   "usability_score": 100,
-  "snapshot_days": 5,
+  "snapshot_days": 6,
   "is_indexable": false,
   "first_seen_at": "2026-09-23T23:28:32.617Z",
   "tracking_tier": "hot",
-  "last_fetched_date": "2026-09-28",
-  "stars_stagnant_days": 0
+  "last_fetched_date": "2026-09-29",
+  "stars_stagnant_days": 1
 }

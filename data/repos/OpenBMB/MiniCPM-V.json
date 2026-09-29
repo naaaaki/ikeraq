@@ -11,10 +11,10 @@
     "minicpm-v",
     "multi-modal"
   ],
-  "stars": 26463,
-  "forks": 2076,
+  "stars": 26472,
+  "forks": 2078,
   "watchers": 167,
-  "open_issues": 59,
+  "open_issues": 62,
   "created_at": "2024-01-29T05:30:33Z",
   "pushed_at": "2026-09-08T06:05:56Z",
   "is_archived": false,
@@ -29,10 +29,10 @@
   "category": "other",
   "flags": [],
   "usability_score": 100,
-  "snapshot_days": 25,
+  "snapshot_days": 26,
   "is_indexable": true,
   "first_seen_at": "2026-09-03T23:03:15.575Z",
   "tracking_tier": "hot",
-  "last_fetched_date": "2026-09-28",
+  "last_fetched_date": "2026-09-29",
   "stars_stagnant_days": 0
 }

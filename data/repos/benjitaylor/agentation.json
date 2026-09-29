@@ -11,9 +11,9 @@
     "tools",
     "ui"
   ],
-  "stars": 4795,
+  "stars": 4810,
   "forks": 390,
-  "watchers": null,
+  "watchers": 11,
   "open_issues": 16,
   "created_at": "2026-01-18T02:01:24Z",
   "pushed_at": "2026-09-22T02:43:16Z",
@@ -29,10 +29,10 @@
   "category": "web-frontend",
   "flags": [],
   "usability_score": 100,
-  "snapshot_days": 3,
+  "snapshot_days": 4,
   "is_indexable": false,
   "first_seen_at": "2026-09-25T23:53:23.595Z",
   "tracking_tier": "hot",
-  "last_fetched_date": "2026-09-28",
+  "last_fetched_date": "2026-09-29",
   "stars_stagnant_days": 0
 }

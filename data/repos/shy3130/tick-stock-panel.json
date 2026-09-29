@@ -27,12 +27,12 @@
     "tickflow",
     "tsp"
   ],
-  "stars": 5275,
+  "stars": 5303,
   "forks": 1282,
   "watchers": 34,
-  "open_issues": 23,
+  "open_issues": 34,
   "created_at": "2026-06-18T06:18:29Z",
-  "pushed_at": "2026-09-27T15:04:06Z",
+  "pushed_at": "2026-09-28T10:17:07Z",
   "is_archived": false,
   "license_spdx": "MIT",
   "license_category": "permissive",
@@ -45,10 +45,10 @@
   "category": "ai-agent",
   "flags": [],
   "usability_score": 100,
-  "snapshot_days": 3,
+  "snapshot_days": 4,
   "is_indexable": false,
   "first_seen_at": "2026-09-25T23:53:23.361Z",
   "tracking_tier": "hot",
-  "last_fetched_date": "2026-09-28",
+  "last_fetched_date": "2026-09-29",
   "stars_stagnant_days": 0
 }

@@ -12,12 +12,12 @@
     "react",
     "typescript"
   ],
-  "stars": 6864,
-  "forks": 617,
+  "stars": 6894,
+  "forks": 622,
   "watchers": 22,
-  "open_issues": 112,
+  "open_issues": 113,
   "created_at": "2026-03-12T14:57:10Z",
-  "pushed_at": "2026-09-27T23:40:38Z",
+  "pushed_at": "2026-09-29T00:50:59Z",
   "is_archived": false,
   "license_spdx": null,
   "license_category": "none",
@@ -36,10 +36,10 @@
     }
   ],
   "usability_score": 60,
-  "snapshot_days": 5,
+  "snapshot_days": 6,
   "is_indexable": true,
   "first_seen_at": "2026-09-23T23:28:30.788Z",
   "tracking_tier": "hot",
-  "last_fetched_date": "2026-09-28",
+  "last_fetched_date": "2026-09-29",
   "stars_stagnant_days": 0
 }

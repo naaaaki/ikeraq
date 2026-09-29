@@ -21,9 +21,9 @@
     "visualization"
   ],
   "stars": 4677,
-  "forks": 462,
+  "forks": 463,
   "watchers": null,
-  "open_issues": 7,
+  "open_issues": 8,
   "created_at": "2017-08-27T22:00:02Z",
   "pushed_at": "2026-09-24T23:58:09Z",
   "is_archived": false,
@@ -44,10 +44,10 @@
     }
   ],
   "usability_score": 85,
-  "snapshot_days": 3,
+  "snapshot_days": 4,
   "is_indexable": true,
   "first_seen_at": "2026-09-25T23:53:23.596Z",
   "tracking_tier": "hot",
-  "last_fetched_date": "2026-09-28",
-  "stars_stagnant_days": 2
+  "last_fetched_date": "2026-09-29",
+  "stars_stagnant_days": 3
 }

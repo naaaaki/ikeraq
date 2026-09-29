@@ -12,12 +12,12 @@
     "privacy",
     "security"
   ],
-  "stars": 4662,
+  "stars": 4664,
   "forks": 700,
   "watchers": null,
   "open_issues": 3,
   "created_at": "2018-08-02T13:30:25Z",
-  "pushed_at": "2026-09-27T18:15:44Z",
+  "pushed_at": "2026-09-28T15:14:46Z",
   "is_archived": false,
   "license_spdx": "GPL-3.0",
   "license_category": "strong-copyleft",
@@ -36,10 +36,10 @@
     }
   ],
   "usability_score": 85,
-  "snapshot_days": 2,
+  "snapshot_days": 3,
   "is_indexable": true,
   "first_seen_at": "2026-09-26T23:25:20.109Z",
   "tracking_tier": "hot",
-  "last_fetched_date": "2026-09-28",
+  "last_fetched_date": "2026-09-29",
   "stars_stagnant_days": 0
 }

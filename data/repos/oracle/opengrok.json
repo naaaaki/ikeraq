@@ -14,12 +14,12 @@
     "search",
     "source"
   ],
-  "stars": 4962,
+  "stars": 4964,
   "forks": 843,
   "watchers": 164,
-  "open_issues": 554,
+  "open_issues": 555,
   "created_at": "2013-01-07T11:49:18Z",
-  "pushed_at": "2026-09-21T18:36:19Z",
+  "pushed_at": "2026-09-28T18:36:34Z",
   "is_archived": false,
   "license_spdx": "NOASSERTION",
   "license_category": "unknown",
@@ -32,10 +32,10 @@
   "category": "other",
   "flags": [],
   "usability_score": 100,
-  "snapshot_days": 4,
+  "snapshot_days": 5,
   "is_indexable": false,
   "first_seen_at": "2026-09-24T23:48:41.712Z",
   "tracking_tier": "hot",
-  "last_fetched_date": "2026-09-28",
+  "last_fetched_date": "2026-09-29",
   "stars_stagnant_days": 0
 }

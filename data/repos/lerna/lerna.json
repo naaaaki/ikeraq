@@ -12,7 +12,7 @@
     "package",
     "publishing"
   ],
-  "stars": 36053,
+  "stars": 36052,
   "forks": 2265,
   "watchers": 253,
   "open_issues": 297,
@@ -30,10 +30,10 @@
   "category": "dev-tool",
   "flags": [],
   "usability_score": 100,
-  "snapshot_days": 28,
+  "snapshot_days": 29,
   "is_indexable": true,
   "first_seen_at": "2026-09-01T00:26:13.032Z",
   "tracking_tier": "hot",
-  "last_fetched_date": "2026-09-28",
-  "stars_stagnant_days": 5
+  "last_fetched_date": "2026-09-29",
+  "stars_stagnant_days": 6
 }

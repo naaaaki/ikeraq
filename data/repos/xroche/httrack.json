@@ -6,12 +6,12 @@
   "human_note": null,
   "language": "C",
   "topics": [],
-  "stars": 4770,
+  "stars": 4769,
   "forks": 782,
   "watchers": null,
-  "open_issues": 8,
+  "open_issues": 4,
   "created_at": "2015-03-14T08:20:27Z",
-  "pushed_at": "2026-09-27T20:28:57Z",
+  "pushed_at": "2026-09-28T20:34:30Z",
   "is_archived": false,
   "license_spdx": "GPL-3.0",
   "license_category": "strong-copyleft",
@@ -30,10 +30,10 @@
     }
   ],
   "usability_score": 85,
-  "snapshot_days": 3,
+  "snapshot_days": 4,
   "is_indexable": true,
   "first_seen_at": "2026-09-25T23:53:23.595Z",
   "tracking_tier": "hot",
-  "last_fetched_date": "2026-09-28",
-  "stars_stagnant_days": 1
+  "last_fetched_date": "2026-09-29",
+  "stars_stagnant_days": 2
 }

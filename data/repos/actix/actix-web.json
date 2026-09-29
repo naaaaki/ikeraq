@@ -14,12 +14,12 @@
     "web-development",
     "websockets"
   ],
-  "stars": 24845,
+  "stars": 24847,
   "forks": 1887,
   "watchers": null,
-  "open_issues": 196,
+  "open_issues": 191,
   "created_at": "2017-09-30T15:30:02Z",
-  "pushed_at": "2026-09-27T18:27:56Z",
+  "pushed_at": "2026-09-28T20:20:18Z",
   "is_archived": false,
   "license_spdx": "Apache-2.0",
   "license_category": "permissive",
@@ -32,10 +32,10 @@
   "category": "other",
   "flags": [],
   "usability_score": 100,
-  "snapshot_days": 5,
+  "snapshot_days": 6,
   "is_indexable": false,
   "first_seen_at": "2026-09-23T23:28:32.618Z",
   "tracking_tier": "hot",
-  "last_fetched_date": "2026-09-28",
-  "stars_stagnant_days": 1
+  "last_fetched_date": "2026-09-29",
+  "stars_stagnant_days": 0
 }

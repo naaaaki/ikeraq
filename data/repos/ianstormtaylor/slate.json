@@ -16,11 +16,11 @@
     "text-editor"
   ],
   "stars": 31754,
-  "forks": 3302,
+  "forks": 3301,
   "watchers": 294,
   "open_issues": 656,
   "created_at": "2016-06-18T01:52:42Z",
-  "pushed_at": "2026-09-24T22:42:10Z",
+  "pushed_at": "2026-09-28T20:50:04Z",
   "is_archived": false,
   "license_spdx": "MIT",
   "license_category": "permissive",
@@ -33,10 +33,10 @@
   "category": "web-frontend",
   "flags": [],
   "usability_score": 100,
-  "snapshot_days": 27,
+  "snapshot_days": 28,
   "is_indexable": true,
   "first_seen_at": "2026-09-01T23:05:22.650Z",
   "tracking_tier": "hot",
-  "last_fetched_date": "2026-09-28",
-  "stars_stagnant_days": 2
+  "last_fetched_date": "2026-09-29",
+  "stars_stagnant_days": 3
 }

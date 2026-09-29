@@ -14,10 +14,10 @@
     "physics-simulation",
     "reinforcement-learning"
   ],
-  "stars": 4703,
+  "stars": 4704,
   "forks": 767,
-  "watchers": null,
-  "open_issues": 131,
+  "watchers": 129,
+  "open_issues": 137,
   "created_at": "2017-12-29T18:13:15Z",
   "pushed_at": "2026-09-22T22:01:53Z",
   "is_archived": false,
@@ -32,10 +32,10 @@
   "category": "learning",
   "flags": [],
   "usability_score": 100,
-  "snapshot_days": 3,
+  "snapshot_days": 4,
   "is_indexable": false,
   "first_seen_at": "2026-09-25T23:53:23.596Z",
   "tracking_tier": "hot",
-  "last_fetched_date": "2026-09-28",
+  "last_fetched_date": "2026-09-29",
   "stars_stagnant_days": 0
 }

@@ -25,10 +25,10 @@
     "vue",
     "yaml"
   ],
-  "stars": 52315,
-  "forks": 5017,
+  "stars": 52317,
+  "forks": 5020,
   "watchers": null,
-  "open_issues": 1444,
+  "open_issues": 1461,
   "created_at": "2016-11-29T17:13:37Z",
   "pushed_at": "2026-09-27T22:23:40Z",
   "is_archived": false,
@@ -43,10 +43,10 @@
   "category": "web-frontend",
   "flags": [],
   "usability_score": 100,
-  "snapshot_days": 30,
+  "snapshot_days": 31,
   "is_indexable": true,
   "first_seen_at": "2026-08-29T23:02:08.747Z",
   "tracking_tier": "hot",
-  "last_fetched_date": "2026-09-28",
+  "last_fetched_date": "2026-09-29",
   "stars_stagnant_days": 0
 }

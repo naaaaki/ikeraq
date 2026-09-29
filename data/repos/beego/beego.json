@@ -9,10 +9,10 @@
     "beego",
     "go"
   ],
-  "stars": 32427,
+  "stars": 32428,
   "forks": 5571,
   "watchers": 1148,
-  "open_issues": 19,
+  "open_issues": 18,
   "created_at": "2012-02-29T02:32:08Z",
   "pushed_at": "2026-09-23T01:42:16Z",
   "is_archived": false,
@@ -27,10 +27,10 @@
   "category": "other",
   "flags": [],
   "usability_score": 100,
-  "snapshot_days": 26,
+  "snapshot_days": 27,
   "is_indexable": true,
   "first_seen_at": "2026-09-02T23:02:41.773Z",
   "tracking_tier": "hot",
-  "last_fetched_date": "2026-09-28",
-  "stars_stagnant_days": 1
+  "last_fetched_date": "2026-09-29",
+  "stars_stagnant_days": 0
 }

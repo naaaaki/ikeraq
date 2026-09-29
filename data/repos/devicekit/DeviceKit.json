@@ -17,9 +17,9 @@
     "swiftpm",
     "tvos"
   ],
-  "stars": 4732,
-  "forks": 466,
-  "watchers": null,
+  "stars": 4731,
+  "forks": 467,
+  "watchers": 76,
   "open_issues": 78,
   "created_at": "2015-02-22T10:51:16Z",
   "pushed_at": "2026-09-22T17:55:00Z",
@@ -35,10 +35,10 @@
   "category": "mobile",
   "flags": [],
   "usability_score": 100,
-  "snapshot_days": 3,
+  "snapshot_days": 4,
   "is_indexable": false,
   "first_seen_at": "2026-09-25T23:53:23.595Z",
   "tracking_tier": "hot",
-  "last_fetched_date": "2026-09-28",
-  "stars_stagnant_days": 2
+  "last_fetched_date": "2026-09-29",
+  "stars_stagnant_days": 3
 }

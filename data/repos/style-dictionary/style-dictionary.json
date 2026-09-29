@@ -16,10 +16,10 @@
     "style-tokens",
     "styleguide"
   ],
-  "stars": 4836,
-  "forks": 632,
+  "stars": 4838,
+  "forks": 631,
   "watchers": 50,
-  "open_issues": 239,
+  "open_issues": 240,
   "created_at": "2016-11-29T20:53:51Z",
   "pushed_at": "2026-09-20T16:29:46Z",
   "is_archived": false,
@@ -34,10 +34,10 @@
   "category": "web-frontend",
   "flags": [],
   "usability_score": 100,
-  "snapshot_days": 3,
+  "snapshot_days": 4,
   "is_indexable": false,
   "first_seen_at": "2026-09-25T23:53:23.593Z",
   "tracking_tier": "hot",
-  "last_fetched_date": "2026-09-28",
+  "last_fetched_date": "2026-09-29",
   "stars_stagnant_days": 0
 }

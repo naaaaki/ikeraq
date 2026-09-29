@@ -22,7 +22,7 @@
     "snmp",
     "vrrp"
   ],
-  "stars": 4711,
+  "stars": 4712,
   "forks": 785,
   "watchers": null,
   "open_issues": 48,
@@ -46,10 +46,10 @@
     }
   ],
   "usability_score": 85,
-  "snapshot_days": 3,
+  "snapshot_days": 4,
   "is_indexable": true,
   "first_seen_at": "2026-09-25T23:53:23.596Z",
   "tracking_tier": "hot",
-  "last_fetched_date": "2026-09-28",
+  "last_fetched_date": "2026-09-29",
   "stars_stagnant_days": 0
 }

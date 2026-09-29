@@ -12,12 +12,12 @@
     "schema",
     "validation"
   ],
-  "stars": 4985,
-  "forks": 682,
+  "stars": 4987,
+  "forks": 684,
   "watchers": 58,
   "open_issues": 56,
   "created_at": "2011-12-30T03:37:43Z",
-  "pushed_at": "2026-09-21T18:33:30Z",
+  "pushed_at": "2026-09-28T18:58:50Z",
   "is_archived": false,
   "license_spdx": "MIT",
   "license_category": "permissive",
@@ -30,10 +30,10 @@
   "category": "other",
   "flags": [],
   "usability_score": 100,
-  "snapshot_days": 4,
+  "snapshot_days": 5,
   "is_indexable": false,
   "first_seen_at": "2026-09-24T23:48:41.711Z",
   "tracking_tier": "hot",
-  "last_fetched_date": "2026-09-28",
-  "stars_stagnant_days": 3
+  "last_fetched_date": "2026-09-29",
+  "stars_stagnant_days": 0
 }

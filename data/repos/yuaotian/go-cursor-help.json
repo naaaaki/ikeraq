@@ -9,7 +9,7 @@
     "cursor",
     "error"
   ],
-  "stars": 26135,
+  "stars": 26134,
   "forks": 3147,
   "watchers": null,
   "open_issues": 1,
@@ -27,10 +27,10 @@
   "category": "other",
   "flags": [],
   "usability_score": 100,
-  "snapshot_days": 5,
+  "snapshot_days": 6,
   "is_indexable": false,
   "first_seen_at": "2026-09-23T23:28:32.617Z",
   "tracking_tier": "hot",
-  "last_fetched_date": "2026-09-28",
-  "stars_stagnant_days": 4
+  "last_fetched_date": "2026-09-29",
+  "stars_stagnant_days": 5
 }

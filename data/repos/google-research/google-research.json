@@ -10,8 +10,8 @@
     "machine-learning",
     "research"
   ],
-  "stars": 38832,
-  "forks": 8471,
+  "stars": 38840,
+  "forks": 8472,
   "watchers": null,
   "open_issues": 1996,
   "created_at": "2018-10-04T18:42:48Z",
@@ -28,10 +28,10 @@
   "category": "learning",
   "flags": [],
   "usability_score": 100,
-  "snapshot_days": 28,
+  "snapshot_days": 29,
   "is_indexable": true,
   "first_seen_at": "2026-09-01T00:26:13.031Z",
   "tracking_tier": "hot",
-  "last_fetched_date": "2026-09-28",
+  "last_fetched_date": "2026-09-29",
   "stars_stagnant_days": 0
 }

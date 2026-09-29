@@ -11,12 +11,12 @@
     "typing",
     "typing-tutor"
   ],
-  "stars": 4749,
+  "stars": 4751,
   "forks": 463,
   "watchers": null,
-  "open_issues": 326,
+  "open_issues": 325,
   "created_at": "2023-09-25T06:58:26Z",
-  "pushed_at": "2026-09-22T14:18:19Z",
+  "pushed_at": "2026-09-28T18:39:33Z",
   "is_archived": false,
   "license_spdx": "AGPL-3.0",
   "license_category": "strong-copyleft",
@@ -35,10 +35,10 @@
     }
   ],
   "usability_score": 85,
-  "snapshot_days": 3,
+  "snapshot_days": 4,
   "is_indexable": true,
   "first_seen_at": "2026-09-25T23:53:23.595Z",
   "tracking_tier": "hot",
-  "last_fetched_date": "2026-09-28",
+  "last_fetched_date": "2026-09-29",
   "stars_stagnant_days": 0
 }

@@ -15,12 +15,12 @@
     "ssl",
     "tls"
   ],
-  "stars": 4766,
+  "stars": 4767,
   "forks": 804,
   "watchers": null,
   "open_issues": 309,
   "created_at": "2014-06-27T19:37:59Z",
-  "pushed_at": "2026-09-25T21:58:12Z",
+  "pushed_at": "2026-09-29T00:20:08Z",
   "is_archived": false,
   "license_spdx": "Apache-2.0",
   "license_category": "permissive",
@@ -33,10 +33,10 @@
   "category": "security",
   "flags": [],
   "usability_score": 100,
-  "snapshot_days": 3,
+  "snapshot_days": 4,
   "is_indexable": false,
   "first_seen_at": "2026-09-25T23:53:23.595Z",
   "tracking_tier": "hot",
-  "last_fetched_date": "2026-09-28",
-  "stars_stagnant_days": 2
+  "last_fetched_date": "2026-09-29",
+  "stars_stagnant_days": 0
 }

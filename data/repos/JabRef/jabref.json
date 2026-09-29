@@ -27,12 +27,12 @@
     "reference-manager",
     "research-tool"
   ],
-  "stars": 4766,
-  "forks": 3606,
+  "stars": 4770,
+  "forks": 3608,
   "watchers": null,
-  "open_issues": 533,
+  "open_issues": 523,
   "created_at": "2014-03-11T14:48:42Z",
-  "pushed_at": "2026-09-27T21:16:23Z",
+  "pushed_at": "2026-09-28T23:01:52Z",
   "is_archived": false,
   "license_spdx": "MIT",
   "license_category": "permissive",
@@ -45,10 +45,10 @@
   "category": "other",
   "flags": [],
   "usability_score": 100,
-  "snapshot_days": 3,
+  "snapshot_days": 4,
   "is_indexable": false,
   "first_seen_at": "2026-09-25T23:53:23.595Z",
   "tracking_tier": "hot",
-  "last_fetched_date": "2026-09-28",
-  "stars_stagnant_days": 1
+  "last_fetched_date": "2026-09-29",
+  "stars_stagnant_days": 0
 }

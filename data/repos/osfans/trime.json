@@ -14,11 +14,11 @@
     "rime"
   ],
   "stars": 4673,
-  "forks": 529,
+  "forks": 532,
   "watchers": null,
-  "open_issues": 116,
+  "open_issues": 118,
   "created_at": "2015-05-28T07:43:37Z",
-  "pushed_at": "2026-09-27T16:28:25Z",
+  "pushed_at": "2026-09-28T16:18:55Z",
   "is_archived": false,
   "license_spdx": "GPL-3.0",
   "license_category": "strong-copyleft",
@@ -37,10 +37,10 @@
     }
   ],
   "usability_score": 85,
-  "snapshot_days": 3,
+  "snapshot_days": 4,
   "is_indexable": true,
   "first_seen_at": "2026-09-25T23:53:23.596Z",
   "tracking_tier": "hot",
-  "last_fetched_date": "2026-09-28",
-  "stars_stagnant_days": 0
+  "last_fetched_date": "2026-09-29",
+  "stars_stagnant_days": 1
 }

@@ -13,12 +13,12 @@
     "php-amqplib",
     "rabbitmq"
   ],
-  "stars": 4602,
+  "stars": 4603,
   "forks": 1025,
   "watchers": null,
-  "open_issues": 25,
+  "open_issues": 24,
   "created_at": "2011-11-15T23:49:33Z",
-  "pushed_at": "2026-09-25T14:14:31Z",
+  "pushed_at": "2026-09-28T19:16:40Z",
   "is_archived": false,
   "license_spdx": "LGPL-2.1",
   "license_category": "weak-copyleft",
@@ -31,10 +31,10 @@
   "category": "other",
   "flags": [],
   "usability_score": 100,
-  "snapshot_days": 2,
+  "snapshot_days": 3,
   "is_indexable": false,
   "first_seen_at": "2026-09-26T23:25:20.111Z",
   "tracking_tier": "hot",
-  "last_fetched_date": "2026-09-28",
-  "stars_stagnant_days": 1
+  "last_fetched_date": "2026-09-29",
+  "stars_stagnant_days": 0
 }

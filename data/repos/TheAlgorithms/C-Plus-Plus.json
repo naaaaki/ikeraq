@@ -23,10 +23,10 @@
     "search",
     "sort"
   ],
-  "stars": 34713,
+  "stars": 34716,
   "forks": 7867,
   "watchers": 514,
-  "open_issues": 21,
+  "open_issues": 20,
   "created_at": "2016-07-16T10:19:45Z",
   "pushed_at": "2026-09-21T13:46:21Z",
   "is_archived": false,
@@ -41,10 +41,10 @@
   "category": "learning",
   "flags": [],
   "usability_score": 100,
-  "snapshot_days": 5,
+  "snapshot_days": 6,
   "is_indexable": false,
   "first_seen_at": "2026-09-23T23:28:32.616Z",
   "tracking_tier": "hot",
-  "last_fetched_date": "2026-09-28",
+  "last_fetched_date": "2026-09-29",
   "stars_stagnant_days": 0
 }

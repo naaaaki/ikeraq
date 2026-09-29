@@ -7,11 +7,11 @@
   "language": "JavaScript",
   "topics": [],
   "stars": 53951,
-  "forks": 10690,
+  "forks": 10689,
   "watchers": null,
-  "open_issues": 432,
+  "open_issues": 429,
   "created_at": "2011-04-26T06:32:03Z",
-  "pushed_at": "2026-09-25T06:04:33Z",
+  "pushed_at": "2026-09-28T22:37:31Z",
   "is_archived": false,
   "license_spdx": "Apache-2.0",
   "license_category": "permissive",
@@ -24,10 +24,10 @@
   "category": "other",
   "flags": [],
   "usability_score": 100,
-  "snapshot_days": 30,
+  "snapshot_days": 31,
   "is_indexable": true,
   "first_seen_at": "2026-08-29T23:02:08.747Z",
   "tracking_tier": "hot",
-  "last_fetched_date": "2026-09-28",
-  "stars_stagnant_days": 0
+  "last_fetched_date": "2026-09-29",
+  "stars_stagnant_days": 1
 }

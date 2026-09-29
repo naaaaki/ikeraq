@@ -13,11 +13,11 @@
     "sdk"
   ],
   "stars": 28607,
-  "forks": 4793,
+  "forks": 4795,
   "watchers": 307,
-  "open_issues": 338,
+  "open_issues": 314,
   "created_at": "2023-02-27T17:39:42Z",
-  "pushed_at": "2026-09-19T01:54:57Z",
+  "pushed_at": "2026-09-28T22:27:20Z",
   "is_archived": false,
   "license_spdx": "MIT",
   "license_category": "permissive",
@@ -30,10 +30,10 @@
   "category": "llm",
   "flags": [],
   "usability_score": 100,
-  "snapshot_days": 26,
+  "snapshot_days": 27,
   "is_indexable": true,
   "first_seen_at": "2026-09-02T23:02:41.773Z",
   "tracking_tier": "hot",
-  "last_fetched_date": "2026-09-28",
-  "stars_stagnant_days": 1
+  "last_fetched_date": "2026-09-29",
+  "stars_stagnant_days": 2
 }

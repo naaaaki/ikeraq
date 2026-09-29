@@ -10,8 +10,8 @@
     "jekyll-site",
     "reference"
   ],
-  "stars": 4899,
-  "forks": 334,
+  "stars": 4900,
+  "forks": 335,
   "watchers": 77,
   "open_issues": 37,
   "created_at": "2016-11-22T17:00:30Z",
@@ -28,10 +28,10 @@
   "category": "web-frontend",
   "flags": [],
   "usability_score": 100,
-  "snapshot_days": 4,
+  "snapshot_days": 5,
   "is_indexable": false,
   "first_seen_at": "2026-09-24T23:48:41.712Z",
   "tracking_tier": "hot",
-  "last_fetched_date": "2026-09-28",
-  "stars_stagnant_days": 3
+  "last_fetched_date": "2026-09-29",
+  "stars_stagnant_days": 0
 }
