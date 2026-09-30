@@ -13,10 +13,10 @@
     "stock-market",
     "tailwindcss"
   ],
-  "stars": 19448,
-  "forks": 2384,
-  "watchers": 104,
-  "open_issues": 36,
+  "stars": 19486,
+  "forks": 2387,
+  "watchers": 105,
+  "open_issues": 37,
   "created_at": "2025-09-28T18:16:32Z",
   "pushed_at": "2026-09-28T08:21:51Z",
   "is_archived": false,
@@ -37,10 +37,10 @@
     }
   ],
   "usability_score": 85,
-  "snapshot_days": 6,
+  "snapshot_days": 7,
   "is_indexable": true,
   "first_seen_at": "2026-09-23T23:28:31.339Z",
   "tracking_tier": "hot",
-  "last_fetched_date": "2026-09-29",
+  "last_fetched_date": "2026-09-30",
   "stars_stagnant_days": 0
 }

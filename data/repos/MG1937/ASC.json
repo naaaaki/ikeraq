@@ -16,10 +16,10 @@
     "reverse",
     "reverse-engineering"
   ],
-  "stars": 2024,
-  "forks": 274,
+  "stars": 2055,
+  "forks": 281,
   "watchers": 4,
-  "open_issues": 8,
+  "open_issues": 10,
   "created_at": "2026-06-09T17:19:42Z",
   "pushed_at": "2026-09-24T09:56:53Z",
   "is_archived": false,
@@ -34,10 +34,10 @@
   "category": "ai-agent",
   "flags": [],
   "usability_score": 100,
-  "snapshot_days": 14,
+  "snapshot_days": 15,
   "is_indexable": true,
   "first_seen_at": "2026-09-15T23:27:33.698Z",
   "tracking_tier": "hot",
-  "last_fetched_date": "2026-09-29",
+  "last_fetched_date": "2026-09-30",
   "stars_stagnant_days": 0
 }

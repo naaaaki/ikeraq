@@ -10,8 +10,8 @@
     "codex",
     "marketing"
   ],
-  "stars": 51817,
-  "forks": 7818,
+  "stars": 51926,
+  "forks": 7826,
   "watchers": 429,
   "open_issues": 121,
   "created_at": "2026-01-15T19:45:23Z",
@@ -28,10 +28,10 @@
   "category": "other",
   "flags": [],
   "usability_score": 100,
-  "snapshot_days": 30,
+  "snapshot_days": 31,
   "is_indexable": true,
   "first_seen_at": "2026-08-30T23:15:18.749Z",
   "tracking_tier": "hot",
-  "last_fetched_date": "2026-09-29",
+  "last_fetched_date": "2026-09-30",
   "stars_stagnant_days": 0
 }

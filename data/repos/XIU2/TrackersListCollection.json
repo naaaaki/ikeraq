@@ -18,7 +18,7 @@
     "trackerslist",
     "utorrent"
   ],
-  "stars": 32178,
+  "stars": 32184,
   "forks": 1788,
   "watchers": null,
   "open_issues": 1,
@@ -42,10 +42,10 @@
     }
   ],
   "usability_score": 85,
-  "snapshot_days": 28,
+  "snapshot_days": 29,
   "is_indexable": true,
   "first_seen_at": "2026-09-01T23:05:22.650Z",
   "tracking_tier": "hot",
-  "last_fetched_date": "2026-09-29",
+  "last_fetched_date": "2026-09-30",
   "stars_stagnant_days": 0
 }

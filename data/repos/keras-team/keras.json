@@ -15,12 +15,12 @@
     "pytorch",
     "tensorflow"
   ],
-  "stars": 64342,
-  "forks": 19805,
+  "stars": 64346,
+  "forks": 19807,
   "watchers": null,
-  "open_issues": 267,
+  "open_issues": 260,
   "created_at": "2015-03-28T00:35:42Z",
-  "pushed_at": "2026-09-29T00:21:55Z",
+  "pushed_at": "2026-09-30T00:05:15Z",
   "is_archived": false,
   "license_spdx": "Apache-2.0",
   "license_category": "permissive",
@@ -33,10 +33,10 @@
   "category": "learning",
   "flags": [],
   "usability_score": 100,
-  "snapshot_days": 31,
+  "snapshot_days": 32,
   "is_indexable": true,
   "first_seen_at": "2026-08-29T23:02:08.747Z",
   "tracking_tier": "hot",
-  "last_fetched_date": "2026-09-29",
-  "stars_stagnant_days": 1
+  "last_fetched_date": "2026-09-30",
+  "stars_stagnant_days": 0
 }

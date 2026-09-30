@@ -23,11 +23,11 @@
     "wxapp"
   ],
   "stars": 37706,
-  "forks": 4872,
+  "forks": 4871,
   "watchers": 680,
-  "open_issues": 1596,
+  "open_issues": 1590,
   "created_at": "2018-04-08T09:32:26Z",
-  "pushed_at": "2026-09-28T09:44:35Z",
+  "pushed_at": "2026-09-29T09:16:01Z",
   "is_archived": false,
   "license_spdx": "NOASSERTION",
   "license_category": "unknown",
@@ -40,10 +40,10 @@
   "category": "web-frontend",
   "flags": [],
   "usability_score": 100,
-  "snapshot_days": 29,
+  "snapshot_days": 30,
   "is_indexable": true,
   "first_seen_at": "2026-09-01T00:26:13.032Z",
   "tracking_tier": "hot",
-  "last_fetched_date": "2026-09-29",
-  "stars_stagnant_days": 0
+  "last_fetched_date": "2026-09-30",
+  "stars_stagnant_days": 1
 }

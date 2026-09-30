@@ -14,12 +14,12 @@
     "vdom",
     "virtual-dom"
   ],
-  "stars": 38898,
-  "forks": 3245,
+  "stars": 38897,
+  "forks": 3372,
   "watchers": 393,
-  "open_issues": 48,
+  "open_issues": 50,
   "created_at": "2015-09-11T02:40:18Z",
-  "pushed_at": "2026-09-28T16:37:14Z",
+  "pushed_at": "2026-09-29T15:26:22Z",
   "is_archived": false,
   "license_spdx": "MIT",
   "license_category": "permissive",
@@ -32,10 +32,10 @@
   "category": "web-frontend",
   "flags": [],
   "usability_score": 100,
-  "snapshot_days": 29,
+  "snapshot_days": 30,
   "is_indexable": true,
   "first_seen_at": "2026-09-01T00:26:13.031Z",
   "tracking_tier": "hot",
-  "last_fetched_date": "2026-09-29",
-  "stars_stagnant_days": 0
+  "last_fetched_date": "2026-09-30",
+  "stars_stagnant_days": 1
 }

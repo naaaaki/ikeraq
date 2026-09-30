@@ -27,8 +27,8 @@
     "tui",
     "visualization"
   ],
-  "stars": 5012,
-  "forks": 116,
+  "stars": 5045,
+  "forks": 117,
   "watchers": 13,
   "open_issues": 12,
   "created_at": "2025-11-08T21:22:33Z",
@@ -45,10 +45,10 @@
   "category": "dev-tool",
   "flags": [],
   "usability_score": 100,
-  "snapshot_days": 5,
+  "snapshot_days": 6,
   "is_indexable": false,
   "first_seen_at": "2026-09-24T23:48:41.711Z",
   "tracking_tier": "hot",
-  "last_fetched_date": "2026-09-29",
+  "last_fetched_date": "2026-09-30",
   "stars_stagnant_days": 0
 }

@@ -14,8 +14,8 @@
     "openai",
     "rerank"
   ],
-  "stars": 49016,
-  "forks": 11769,
+  "stars": 49097,
+  "forks": 11795,
   "watchers": null,
   "open_issues": 1360,
   "created_at": "2023-11-10T19:33:36Z",
@@ -38,10 +38,10 @@
     }
   ],
   "usability_score": 85,
-  "snapshot_days": 30,
+  "snapshot_days": 31,
   "is_indexable": true,
   "first_seen_at": "2026-08-30T23:15:18.749Z",
   "tracking_tier": "hot",
-  "last_fetched_date": "2026-09-29",
+  "last_fetched_date": "2026-09-30",
   "stars_stagnant_days": 0
 }

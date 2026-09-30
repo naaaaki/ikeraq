@@ -27,8 +27,8 @@
     "springcloud-config",
     "zookeeper"
   ],
-  "stars": 79134,
-  "forks": 19148,
+  "stars": 79137,
+  "forks": 19147,
   "watchers": 2542,
   "open_issues": 0,
   "created_at": "2018-10-06T11:38:30Z",
@@ -51,10 +51,10 @@
     }
   ],
   "usability_score": 85,
-  "snapshot_days": 31,
+  "snapshot_days": 32,
   "is_indexable": true,
   "first_seen_at": "2026-08-29T15:46:21.821Z",
   "tracking_tier": "hot",
-  "last_fetched_date": "2026-09-29",
+  "last_fetched_date": "2026-09-30",
   "stars_stagnant_days": 0
 }

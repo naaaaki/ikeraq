@@ -18,12 +18,12 @@
     "org-mode",
     "pkm"
   ],
-  "stars": 45076,
-  "forks": 2826,
+  "stars": 45086,
+  "forks": 2822,
   "watchers": null,
-  "open_issues": 1009,
+  "open_issues": 1001,
   "created_at": "2020-05-23T00:06:06Z",
-  "pushed_at": "2026-09-29T00:20:37Z",
+  "pushed_at": "2026-09-29T22:06:47Z",
   "is_archived": false,
   "license_spdx": "AGPL-3.0",
   "license_category": "strong-copyleft",
@@ -42,10 +42,10 @@
     }
   ],
   "usability_score": 85,
-  "snapshot_days": 30,
+  "snapshot_days": 31,
   "is_indexable": true,
   "first_seen_at": "2026-08-30T23:15:18.750Z",
   "tracking_tier": "hot",
-  "last_fetched_date": "2026-09-29",
+  "last_fetched_date": "2026-09-30",
   "stars_stagnant_days": 0
 }

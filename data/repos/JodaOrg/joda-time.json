@@ -12,7 +12,7 @@
     "joda-time"
   ],
   "stars": 4981,
-  "forks": 1023,
+  "forks": 1024,
   "watchers": 213,
   "open_issues": 37,
   "created_at": "2011-05-16T16:49:57Z",
@@ -29,10 +29,10 @@
   "category": "other",
   "flags": [],
   "usability_score": 100,
-  "snapshot_days": 5,
+  "snapshot_days": 6,
   "is_indexable": false,
   "first_seen_at": "2026-09-24T23:48:41.711Z",
   "tracking_tier": "hot",
-  "last_fetched_date": "2026-09-29",
-  "stars_stagnant_days": 4
+  "last_fetched_date": "2026-09-30",
+  "stars_stagnant_days": 5
 }

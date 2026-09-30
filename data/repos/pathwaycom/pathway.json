@@ -24,7 +24,7 @@
     "streaming",
     "time-series-analysis"
   ],
-  "stars": 62216,
+  "stars": 62214,
   "forks": 1682,
   "watchers": null,
   "open_issues": 38,
@@ -42,10 +42,10 @@
   "category": "data",
   "flags": [],
   "usability_score": 100,
-  "snapshot_days": 31,
+  "snapshot_days": 32,
   "is_indexable": true,
   "first_seen_at": "2026-08-29T23:02:08.747Z",
-  "tracking_tier": "hot",
-  "last_fetched_date": "2026-09-29",
-  "stars_stagnant_days": 30
+  "tracking_tier": "normal",
+  "last_fetched_date": "2026-09-30",
+  "stars_stagnant_days": 31
 }

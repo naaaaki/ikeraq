@@ -12,10 +12,10 @@
     "python3",
     "raspberrypi"
   ],
-  "stars": 4688,
+  "stars": 4689,
   "forks": 709,
   "watchers": null,
-  "open_issues": 953,
+  "open_issues": 960,
   "created_at": "2015-08-30T13:21:17Z",
   "pushed_at": "2026-09-28T21:22:07Z",
   "is_archived": false,
@@ -36,10 +36,10 @@
     }
   ],
   "usability_score": 85,
-  "snapshot_days": 4,
+  "snapshot_days": 5,
   "is_indexable": true,
   "first_seen_at": "2026-09-25T23:53:23.596Z",
   "tracking_tier": "hot",
-  "last_fetched_date": "2026-09-29",
+  "last_fetched_date": "2026-09-30",
   "stars_stagnant_days": 0
 }

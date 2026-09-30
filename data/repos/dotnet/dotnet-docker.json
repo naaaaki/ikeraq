@@ -9,9 +9,9 @@
   "stars": 4877,
   "forks": 1978,
   "watchers": null,
-  "open_issues": 130,
+  "open_issues": 133,
   "created_at": "2015-11-16T19:51:06Z",
-  "pushed_at": "2026-09-28T18:36:30Z",
+  "pushed_at": "2026-09-29T23:02:49Z",
   "is_archived": false,
   "license_spdx": "MIT",
   "license_category": "permissive",
@@ -24,10 +24,10 @@
   "category": "other",
   "flags": [],
   "usability_score": 100,
-  "snapshot_days": 5,
+  "snapshot_days": 6,
   "is_indexable": false,
   "first_seen_at": "2026-09-24T23:48:41.712Z",
   "tracking_tier": "hot",
-  "last_fetched_date": "2026-09-29",
-  "stars_stagnant_days": 0
+  "last_fetched_date": "2026-09-30",
+  "stars_stagnant_days": 1
 }

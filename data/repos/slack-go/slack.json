@@ -10,9 +10,9 @@
     "golang",
     "slack"
   ],
-  "stars": 4965,
-  "forks": 1199,
-  "watchers": null,
+  "stars": 4967,
+  "forks": 1200,
+  "watchers": 54,
   "open_issues": 24,
   "created_at": "2015-01-24T14:19:00Z",
   "pushed_at": "2026-09-23T21:25:19Z",
@@ -28,10 +28,10 @@
   "category": "other",
   "flags": [],
   "usability_score": 100,
-  "snapshot_days": 5,
+  "snapshot_days": 6,
   "is_indexable": false,
   "first_seen_at": "2026-09-24T23:48:41.711Z",
   "tracking_tier": "hot",
-  "last_fetched_date": "2026-09-29",
-  "stars_stagnant_days": 4
+  "last_fetched_date": "2026-09-30",
+  "stars_stagnant_days": 0
 }

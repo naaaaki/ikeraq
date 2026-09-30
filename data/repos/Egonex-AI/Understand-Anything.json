@@ -24,8 +24,8 @@
     "understandcode",
     "vibe-coding"
   ],
-  "stars": 84532,
-  "forks": 7129,
+  "stars": 84699,
+  "forks": 7141,
   "watchers": 261,
   "open_issues": 309,
   "created_at": "2026-03-15T02:30:51Z",
@@ -42,10 +42,10 @@
   "category": "ai-agent",
   "flags": [],
   "usability_score": 100,
-  "snapshot_days": 31,
+  "snapshot_days": 32,
   "is_indexable": true,
   "first_seen_at": "2026-08-29T15:46:21.821Z",
   "tracking_tier": "hot",
-  "last_fetched_date": "2026-09-29",
+  "last_fetched_date": "2026-09-30",
   "stars_stagnant_days": 0
 }

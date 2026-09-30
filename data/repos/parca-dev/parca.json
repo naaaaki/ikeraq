@@ -27,12 +27,12 @@
     "ruby",
     "rust"
   ],
-  "stars": 4985,
-  "forks": 263,
+  "stars": 4986,
+  "forks": 264,
   "watchers": null,
   "open_issues": 208,
   "created_at": "2018-11-27T14:53:43Z",
-  "pushed_at": "2026-09-28T16:02:04Z",
+  "pushed_at": "2026-09-29T18:54:53Z",
   "is_archived": false,
   "license_spdx": "Apache-2.0",
   "license_category": "permissive",
@@ -45,10 +45,10 @@
   "category": "infra",
   "flags": [],
   "usability_score": 100,
-  "snapshot_days": 5,
+  "snapshot_days": 6,
   "is_indexable": false,
   "first_seen_at": "2026-09-24T23:48:41.711Z",
   "tracking_tier": "hot",
-  "last_fetched_date": "2026-09-29",
+  "last_fetched_date": "2026-09-30",
   "stars_stagnant_days": 0
 }

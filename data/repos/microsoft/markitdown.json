@@ -14,9 +14,9 @@
     "openai",
     "pdf"
   ],
-  "stars": 187478,
-  "forks": 13863,
-  "watchers": 587,
+  "stars": 187631,
+  "forks": 13873,
+  "watchers": 590,
   "open_issues": 702,
   "created_at": "2024-11-13T19:56:40Z",
   "pushed_at": "2026-09-21T21:03:34Z",
@@ -32,10 +32,10 @@
   "category": "other",
   "flags": [],
   "usability_score": 100,
-  "snapshot_days": 29,
+  "snapshot_days": 30,
   "is_indexable": true,
   "first_seen_at": "2026-09-01T00:26:13.031Z",
   "tracking_tier": "hot",
-  "last_fetched_date": "2026-09-29",
+  "last_fetched_date": "2026-09-30",
   "stars_stagnant_days": 0
 }

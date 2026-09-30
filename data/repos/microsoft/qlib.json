@@ -25,9 +25,9 @@
     "research-paper",
     "stock-data"
   ],
-  "stars": 49015,
-  "forks": 7749,
-  "watchers": 512,
+  "stars": 49055,
+  "forks": 7754,
+  "watchers": 513,
   "open_issues": 482,
   "created_at": "2020-08-14T06:46:00Z",
   "pushed_at": "2026-09-22T05:57:23Z",
@@ -43,10 +43,10 @@
   "category": "learning",
   "flags": [],
   "usability_score": 100,
-  "snapshot_days": 27,
+  "snapshot_days": 28,
   "is_indexable": true,
   "first_seen_at": "2026-09-02T23:02:41.773Z",
   "tracking_tier": "hot",
-  "last_fetched_date": "2026-09-29",
+  "last_fetched_date": "2026-09-30",
   "stars_stagnant_days": 0
 }

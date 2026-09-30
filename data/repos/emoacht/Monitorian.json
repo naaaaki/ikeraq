@@ -12,7 +12,7 @@
     "luminance",
     "monitor"
   ],
-  "stars": 4727,
+  "stars": 4728,
   "forks": 226,
   "watchers": null,
   "open_issues": 13,
@@ -30,10 +30,10 @@
   "category": "other",
   "flags": [],
   "usability_score": 100,
-  "snapshot_days": 4,
+  "snapshot_days": 5,
   "is_indexable": false,
   "first_seen_at": "2026-09-25T23:53:23.595Z",
   "tracking_tier": "hot",
-  "last_fetched_date": "2026-09-29",
+  "last_fetched_date": "2026-09-30",
   "stars_stagnant_days": 0
 }

@@ -2,7 +2,7 @@
   "id": "career-ops-hq/career-ops",
   "owner": "career-ops-hq",
   "name": "career-ops",
-  "description_en": "Open-source AI job search: scan job portals, evaluate listings into a structured A-H report with a global 1-5 score, tailor your CV, track applications — runs locally in your AI coding CLI (Claude Code, Codex, OpenCode, Antigravity…)",
+  "description_en": "Open-source AI job search agent: scan job portals, evaluate listings into a structured A-H report with a global 1-5 score, tailor your CV, track applications — runs locally in your AI coding CLI (Claude Code, Codex, OpenCode, Antigravity…)",
   "human_note": null,
   "language": "JavaScript",
   "topics": [
@@ -27,12 +27,12 @@
     "resume",
     "resume-builder"
   ],
-  "stars": 73006,
-  "forks": 13721,
+  "stars": 73087,
+  "forks": 13740,
   "watchers": null,
-  "open_issues": 475,
+  "open_issues": 528,
   "created_at": "2026-04-04T18:21:18Z",
-  "pushed_at": "2026-09-28T22:45:11Z",
+  "pushed_at": "2026-09-29T21:48:47Z",
   "is_archived": false,
   "license_spdx": "MIT",
   "license_category": "permissive",
@@ -45,10 +45,10 @@
   "category": "ai-agent",
   "flags": [],
   "usability_score": 100,
-  "snapshot_days": 28,
+  "snapshot_days": 29,
   "is_indexable": true,
   "first_seen_at": "2026-09-01T23:05:22.650Z",
   "tracking_tier": "hot",
-  "last_fetched_date": "2026-09-29",
+  "last_fetched_date": "2026-09-30",
   "stars_stagnant_days": 0
 }

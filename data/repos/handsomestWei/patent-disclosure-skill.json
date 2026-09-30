@@ -12,12 +12,12 @@
     "patent",
     "skill"
   ],
-  "stars": 10446,
-  "forks": 1081,
+  "stars": 10507,
+  "forks": 1086,
   "watchers": 28,
   "open_issues": 12,
   "created_at": "2026-04-07T15:44:15Z",
-  "pushed_at": "2026-09-28T04:00:50Z",
+  "pushed_at": "2026-09-29T03:59:04Z",
   "is_archived": false,
   "license_spdx": "MIT",
   "license_category": "permissive",
@@ -30,10 +30,10 @@
   "category": "other",
   "flags": [],
   "usability_score": 100,
-  "snapshot_days": 30,
+  "snapshot_days": 31,
   "is_indexable": true,
   "first_seen_at": "2026-08-30T23:15:18.263Z",
   "tracking_tier": "hot",
-  "last_fetched_date": "2026-09-29",
+  "last_fetched_date": "2026-09-30",
   "stars_stagnant_days": 0
 }

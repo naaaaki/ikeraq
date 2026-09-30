@@ -20,7 +20,7 @@
     "programming",
     "snippets"
   ],
-  "stars": 129266,
+  "stars": 129278,
   "forks": 12486,
   "watchers": 2605,
   "open_issues": 5,
@@ -38,10 +38,10 @@
   "category": "web-frontend",
   "flags": [],
   "usability_score": 100,
-  "snapshot_days": 27,
+  "snapshot_days": 28,
   "is_indexable": true,
   "first_seen_at": "2026-09-02T23:02:41.772Z",
   "tracking_tier": "hot",
-  "last_fetched_date": "2026-09-29",
+  "last_fetched_date": "2026-09-30",
   "stars_stagnant_days": 0
 }
