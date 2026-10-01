@@ -14,7 +14,7 @@
     "vqgan",
     "vqvae"
   ],
-  "stars": 32889,
+  "stars": 32901,
   "forks": 2843,
   "watchers": 169,
   "open_issues": 17,
@@ -32,10 +32,10 @@
   "category": "other",
   "flags": [],
   "usability_score": 100,
-  "snapshot_days": 23,
+  "snapshot_days": 24,
   "is_indexable": true,
   "first_seen_at": "2026-09-07T23:19:48.975Z",
   "tracking_tier": "hot",
-  "last_fetched_date": "2026-09-30",
+  "last_fetched_date": "2026-10-01",
   "stars_stagnant_days": 0
 }

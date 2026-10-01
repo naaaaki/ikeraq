@@ -27,12 +27,12 @@
     "typescript",
     "vue"
   ],
-  "stars": 37996,
+  "stars": 38000,
   "forks": 4957,
   "watchers": null,
-  "open_issues": 412,
+  "open_issues": 406,
   "created_at": "2012-12-12T01:35:36Z",
-  "pushed_at": "2026-09-29T20:06:33Z",
+  "pushed_at": "2026-09-30T22:31:56Z",
   "is_archived": false,
   "license_spdx": "NOASSERTION",
   "license_category": "unknown",
@@ -45,10 +45,10 @@
   "category": "data",
   "flags": [],
   "usability_score": 100,
-  "snapshot_days": 30,
+  "snapshot_days": 31,
   "is_indexable": true,
   "first_seen_at": "2026-09-01T00:26:13.031Z",
   "tracking_tier": "hot",
-  "last_fetched_date": "2026-09-30",
+  "last_fetched_date": "2026-10-01",
   "stars_stagnant_days": 0
 }

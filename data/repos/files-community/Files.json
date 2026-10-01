@@ -27,9 +27,9 @@
     "winui",
     "xaml"
   ],
-  "stars": 45744,
-  "forks": 2947,
-  "watchers": null,
+  "stars": 45765,
+  "forks": 2945,
+  "watchers": 414,
   "open_issues": 461,
   "created_at": "2019-01-04T18:19:14Z",
   "pushed_at": "2026-09-24T21:26:01Z",
@@ -45,10 +45,10 @@
   "category": "web-frontend",
   "flags": [],
   "usability_score": 100,
-  "snapshot_days": 31,
+  "snapshot_days": 32,
   "is_indexable": true,
   "first_seen_at": "2026-08-30T23:15:18.750Z",
   "tracking_tier": "hot",
-  "last_fetched_date": "2026-09-30",
+  "last_fetched_date": "2026-10-01",
   "stars_stagnant_days": 0
 }

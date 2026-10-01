@@ -11,10 +11,10 @@
     "java",
     "kotlin"
   ],
-  "stars": 4875,
+  "stars": 4878,
   "forks": 232,
   "watchers": null,
-  "open_issues": 106,
+  "open_issues": 107,
   "created_at": "2021-02-27T16:59:06Z",
   "pushed_at": "2026-09-27T15:34:56Z",
   "is_archived": false,
@@ -29,10 +29,10 @@
   "category": "mobile",
   "flags": [],
   "usability_score": 100,
-  "snapshot_days": 6,
-  "is_indexable": false,
+  "snapshot_days": 7,
+  "is_indexable": true,
   "first_seen_at": "2026-09-24T23:48:41.712Z",
   "tracking_tier": "hot",
-  "last_fetched_date": "2026-09-30",
+  "last_fetched_date": "2026-10-01",
   "stars_stagnant_days": 0
 }

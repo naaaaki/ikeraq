@@ -12,9 +12,9 @@
     "spring-boot"
   ],
   "stars": 81535,
-  "forks": 43686,
+  "forks": 43699,
   "watchers": null,
-  "open_issues": 454,
+  "open_issues": 457,
   "created_at": "2012-10-19T15:02:57Z",
   "pushed_at": "2026-09-29T19:53:06Z",
   "is_archived": false,
@@ -29,10 +29,10 @@
   "category": "backend",
   "flags": [],
   "usability_score": 100,
-  "snapshot_days": 32,
+  "snapshot_days": 33,
   "is_indexable": true,
   "first_seen_at": "2026-08-29T15:46:21.821Z",
-  "tracking_tier": "hot",
-  "last_fetched_date": "2026-09-30",
-  "stars_stagnant_days": 0
+  "tracking_tier": "normal",
+  "last_fetched_date": "2026-10-01",
+  "stars_stagnant_days": 1
 }

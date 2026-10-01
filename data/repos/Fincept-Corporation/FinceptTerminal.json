@@ -24,9 +24,9 @@
     "stock-market",
     "trading"
   ],
-  "stars": 32097,
-  "forks": 4544,
-  "watchers": 186,
+  "stars": 32123,
+  "forks": 4549,
+  "watchers": 187,
   "open_issues": 8,
   "created_at": "2024-08-29T14:38:08Z",
   "pushed_at": "2026-09-19T12:41:43Z",
@@ -42,10 +42,10 @@
   "category": "ai-agent",
   "flags": [],
   "usability_score": 100,
-  "snapshot_days": 29,
+  "snapshot_days": 30,
   "is_indexable": true,
   "first_seen_at": "2026-09-01T23:05:22.650Z",
   "tracking_tier": "hot",
-  "last_fetched_date": "2026-09-30",
+  "last_fetched_date": "2026-10-01",
   "stars_stagnant_days": 0
 }

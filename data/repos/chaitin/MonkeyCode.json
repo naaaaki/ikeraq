@@ -18,10 +18,10 @@
     "opencode",
     "vibe-coding"
   ],
-  "stars": 4772,
+  "stars": 4779,
   "forks": 732,
   "watchers": null,
-  "open_issues": 371,
+  "open_issues": 372,
   "created_at": "2025-06-25T06:35:32Z",
   "pushed_at": "2026-09-29T11:43:13Z",
   "is_archived": false,
@@ -42,10 +42,10 @@
     }
   ],
   "usability_score": 85,
-  "snapshot_days": 5,
+  "snapshot_days": 6,
   "is_indexable": true,
   "first_seen_at": "2026-09-25T23:53:23.595Z",
   "tracking_tier": "hot",
-  "last_fetched_date": "2026-09-30",
+  "last_fetched_date": "2026-10-01",
   "stars_stagnant_days": 0
 }

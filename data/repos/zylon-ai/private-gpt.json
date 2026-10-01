@@ -10,10 +10,10 @@
     "ai-tools",
     "on-premise"
   ],
-  "stars": 57554,
-  "forks": 7621,
+  "stars": 57556,
+  "forks": 7620,
   "watchers": 459,
-  "open_issues": 21,
+  "open_issues": 18,
   "created_at": "2023-05-02T09:15:31Z",
   "pushed_at": "2026-09-29T10:20:26Z",
   "is_archived": false,
@@ -28,10 +28,10 @@
   "category": "other",
   "flags": [],
   "usability_score": 100,
-  "snapshot_days": 32,
+  "snapshot_days": 33,
   "is_indexable": true,
   "first_seen_at": "2026-08-29T23:02:08.747Z",
   "tracking_tier": "hot",
-  "last_fetched_date": "2026-09-30",
+  "last_fetched_date": "2026-10-01",
   "stars_stagnant_days": 0
 }

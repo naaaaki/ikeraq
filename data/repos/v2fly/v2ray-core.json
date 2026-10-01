@@ -20,7 +20,7 @@
     "vmess",
     "vpn"
   ],
-  "stars": 34655,
+  "stars": 34659,
   "forks": 5075,
   "watchers": 453,
   "open_issues": 32,
@@ -38,10 +38,10 @@
   "category": "infra",
   "flags": [],
   "usability_score": 100,
-  "snapshot_days": 23,
+  "snapshot_days": 24,
   "is_indexable": true,
   "first_seen_at": "2026-09-07T23:19:48.975Z",
   "tracking_tier": "hot",
-  "last_fetched_date": "2026-09-30",
+  "last_fetched_date": "2026-10-01",
   "stars_stagnant_days": 0
 }

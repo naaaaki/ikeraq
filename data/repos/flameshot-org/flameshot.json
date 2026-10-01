@@ -16,7 +16,7 @@
     "qt",
     "screenshot"
   ],
-  "stars": 31016,
+  "stars": 31038,
   "forks": 2037,
   "watchers": 221,
   "open_issues": 737,
@@ -40,10 +40,10 @@
     }
   ],
   "usability_score": 85,
-  "snapshot_days": 29,
+  "snapshot_days": 30,
   "is_indexable": true,
   "first_seen_at": "2026-09-01T23:05:22.650Z",
   "tracking_tier": "hot",
-  "last_fetched_date": "2026-09-30",
+  "last_fetched_date": "2026-10-01",
   "stars_stagnant_days": 0
 }

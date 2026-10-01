@@ -15,12 +15,12 @@
     "web-development",
     "web-framework"
   ],
-  "stars": 25244,
+  "stars": 25240,
   "forks": 1080,
   "watchers": null,
-  "open_issues": 915,
+  "open_issues": 917,
   "created_at": "2023-06-17T07:28:29Z",
-  "pushed_at": "2026-09-29T23:01:46Z",
+  "pushed_at": "2026-09-30T22:15:34Z",
   "is_archived": false,
   "license_spdx": "NOASSERTION",
   "license_category": "unknown",
@@ -33,10 +33,10 @@
   "category": "data",
   "flags": [],
   "usability_score": 100,
-  "snapshot_days": 7,
+  "snapshot_days": 8,
   "is_indexable": true,
   "first_seen_at": "2026-09-23T23:28:32.618Z",
   "tracking_tier": "hot",
-  "last_fetched_date": "2026-09-30",
-  "stars_stagnant_days": 0
+  "last_fetched_date": "2026-10-01",
+  "stars_stagnant_days": 1
 }

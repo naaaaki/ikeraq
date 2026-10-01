@@ -16,11 +16,11 @@
     "webshell"
   ],
   "stars": 4975,
-  "forks": 552,
+  "forks": 551,
   "watchers": null,
-  "open_issues": 151,
+  "open_issues": 147,
   "created_at": "2017-11-12T01:41:58Z",
-  "pushed_at": "2026-09-29T16:55:20Z",
+  "pushed_at": "2026-09-30T15:29:02Z",
   "is_archived": false,
   "license_spdx": "Apache-2.0",
   "license_category": "permissive",
@@ -33,10 +33,10 @@
   "category": "infra",
   "flags": [],
   "usability_score": 100,
-  "snapshot_days": 6,
-  "is_indexable": false,
+  "snapshot_days": 7,
+  "is_indexable": true,
   "first_seen_at": "2026-09-24T23:48:41.711Z",
   "tracking_tier": "hot",
-  "last_fetched_date": "2026-09-30",
-  "stars_stagnant_days": 1
+  "last_fetched_date": "2026-10-01",
+  "stars_stagnant_days": 2
 }

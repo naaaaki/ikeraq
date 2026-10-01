@@ -7,9 +7,9 @@
   "language": "Lua",
   "topics": [],
   "stars": 31523,
-  "forks": 46510,
+  "forks": 46507,
   "watchers": 139,
-  "open_issues": 18,
+  "open_issues": 19,
   "created_at": "2022-06-24T03:11:24Z",
   "pushed_at": "2026-09-14T15:15:16Z",
   "is_archived": false,
@@ -24,10 +24,10 @@
   "category": "other",
   "flags": [],
   "usability_score": 100,
-  "snapshot_days": 23,
+  "snapshot_days": 24,
   "is_indexable": true,
   "first_seen_at": "2026-09-07T23:19:48.975Z",
   "tracking_tier": "hot",
-  "last_fetched_date": "2026-09-30",
-  "stars_stagnant_days": 0
+  "last_fetched_date": "2026-10-01",
+  "stars_stagnant_days": 1
 }

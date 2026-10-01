@@ -1,0 +1,45 @@
+{
+  "id": "MunGell/awesome-for-beginners",
+  "owner": "MunGell",
+  "name": "awesome-for-beginners",
+  "description_en": "A list of awesome beginners-friendly projects.",
+  "human_note": null,
+  "language": null,
+  "topics": [
+    "awesome",
+    "awesome-list",
+    "beginner-project",
+    "beginners-friendly",
+    "list"
+  ],
+  "stars": 89738,
+  "forks": 8016,
+  "watchers": null,
+  "open_issues": 155,
+  "created_at": "2015-10-24T19:53:36Z",
+  "pushed_at": "2026-09-30T19:56:39Z",
+  "is_archived": false,
+  "license_spdx": null,
+  "license_category": "none",
+  "readme_excerpt": "Awesome First Pull Request Opportunities Inspired by First Timers Only blog post. If you are a maintainer of open-source projects, add the label first-timers-only (or similar) to your project and list it here so that people can find it. If you are not a programmer but would like to contribute, check out the Awesome for non-programmers list. If you would like to be guided through how to contribute to a repository on GitHub, check out the First Contributions repository. > [!TIP] > All links open…",
+  "readme_length": 45571,
+  "has_japanese_readme": false,
+  "contributors_count": 354,
+  "releases_count": 0,
+  "ossf_scorecard": null,
+  "category": "learning",
+  "flags": [
+    {
+      "id": "no_license",
+      "label": "利用条件不明",
+      "reason": "ライセンスが設定されていません。この場合は原則として全権利が留保され、利用できません。"
+    }
+  ],
+  "usability_score": 60,
+  "snapshot_days": 1,
+  "is_indexable": true,
+  "first_seen_at": "2026-10-01T00:25:07.402Z",
+  "tracking_tier": "hot",
+  "last_fetched_date": "2026-10-01",
+  "stars_stagnant_days": 0
+}

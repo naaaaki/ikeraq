@@ -8,10 +8,10 @@
   "topics": [
     "jq"
   ],
-  "stars": 35726,
-  "forks": 3173,
+  "stars": 35731,
+  "forks": 3184,
   "watchers": 357,
-  "open_issues": 427,
+  "open_issues": 428,
   "created_at": "2012-07-18T19:57:25Z",
   "pushed_at": "2026-09-27T04:52:41Z",
   "is_archived": false,
@@ -26,10 +26,10 @@
   "category": "other",
   "flags": [],
   "usability_score": 100,
-  "snapshot_days": 29,
+  "snapshot_days": 30,
   "is_indexable": true,
   "first_seen_at": "2026-09-01T23:05:22.650Z",
   "tracking_tier": "hot",
-  "last_fetched_date": "2026-09-30",
+  "last_fetched_date": "2026-10-01",
   "stars_stagnant_days": 0
 }

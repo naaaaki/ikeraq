@@ -25,12 +25,12 @@
     "web",
     "webcomponents"
   ],
-  "stars": 52689,
+  "stars": 52686,
   "forks": 13303,
   "watchers": null,
-  "open_issues": 579,
+  "open_issues": 577,
   "created_at": "2013-08-20T23:06:02Z",
-  "pushed_at": "2026-09-29T23:27:03Z",
+  "pushed_at": "2026-09-30T21:57:26Z",
   "is_archived": false,
   "license_spdx": "MIT",
   "license_category": "permissive",
@@ -43,10 +43,10 @@
   "category": "web-frontend",
   "flags": [],
   "usability_score": 100,
-  "snapshot_days": 32,
+  "snapshot_days": 33,
   "is_indexable": true,
   "first_seen_at": "2026-08-29T23:02:08.747Z",
-  "tracking_tier": "hot",
-  "last_fetched_date": "2026-09-30",
-  "stars_stagnant_days": 0
+  "tracking_tier": "normal",
+  "last_fetched_date": "2026-10-01",
+  "stars_stagnant_days": 1
 }

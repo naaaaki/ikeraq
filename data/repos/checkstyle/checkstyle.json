@@ -13,12 +13,12 @@
     "static-analysis",
     "static-code-analysis"
   ],
-  "stars": 9579,
+  "stars": 9584,
   "forks": 4256,
   "watchers": 223,
-  "open_issues": 756,
+  "open_issues": 757,
   "created_at": "2013-08-31T02:05:05Z",
-  "pushed_at": "2026-09-29T21:42:56Z",
+  "pushed_at": "2026-09-30T21:00:53Z",
   "is_archived": false,
   "license_spdx": "LGPL-2.1",
   "license_category": "weak-copyleft",
@@ -31,10 +31,10 @@
   "category": "other",
   "flags": [],
   "usability_score": 100,
-  "snapshot_days": 31,
+  "snapshot_days": 32,
   "is_indexable": true,
   "first_seen_at": "2026-08-30T23:15:17.811Z",
   "tracking_tier": "hot",
-  "last_fetched_date": "2026-09-30",
-  "stars_stagnant_days": 1
+  "last_fetched_date": "2026-10-01",
+  "stars_stagnant_days": 0
 }

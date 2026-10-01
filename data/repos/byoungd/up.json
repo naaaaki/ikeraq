@@ -3,16 +3,16 @@
   "owner": "byoungd",
   "name": "up",
   "description_en": "An advanced guide which might benefit you a lot 🎉 . 韩先凯的人生进阶指南 人生进阶指南 离谱的人生 人生进阶 AI学习 AI指南 韩先凯的AI学习指南 英语学习指南/英语学习教程/英语学习/学英语",
-  "human_note": null,
+  "human_note": "<!-- ============================================================\n  byoungd/up\n  https://github.com/byoungd/up\n  An advanced guide which might benefit you a lot 🎉 . 韩先凯的人生进阶指南\n  JavaScript / CC BY-NC 4.0（本文）・MIT（サイトのコード） / スター 65,678\n============================================================ -->\n\n\n## 見出しの一文\n\nAI に答えを頼っても、判断と証拠は自分の手元に残す学び方を説く中国語の本\n\n\n## どういうものか\n\n中国語で書かれ、書き足され続けている1冊の本の原稿だ。題は『人生进阶指南』、副題は「AI 時代の生涯学習ガイド」。著者は韩先凯（筆名は离谱）。2017年に『离谱的英语学习指南』として始まり、いまは英語学習を土台の1本に残したまま、AI を使った学習、実際のプロジェクトづくり、起業の失敗、体と生活の立て直しまでを扱う。GitHub Pages で読めて、中国語版と英語版の EPUB・PDF も置いてある。\n\n中身は、序章と5つの部、あとがき。第1部が英語（語彙・文法・聞く・読む・話す・書く、仕事探しの英語）、第2部が著者自身の歩みと立て直し、第3部が AI の使い方、第4部が日々の実践、第5部が90日の行動計画だ。学習状態を書き留める用紙、週ごとの振り返り、90日の計画表、英語の技能ごとの記録用紙など、書き込んで使うひな形も多い。\n\n本全体で繰り返すのは、問題を見つけ、学び、AI と進め、実際の課題を終え、証拠を残し、振り返って次へ回すという一巡りだ。もう1つの約束として、研究の結論、個人の経験、まだ確かめていない仮説を分けて書くとしている。\n\n\n## 図\n\n<svg viewBox=\"0 0 800 450\" role=\"img\" aria-label=\"見出しに「学んだら証拠を残して、次へ回す」とある図。上の段に左から「問題を見つける（仕事で詰まった一歩など）」「自分から学ぶ」「AI と進める（25〜45分の課題に分ける）」、下の段に右から「実際の課題を終える（選ぶのも仕上げるのも自分）」「証拠を残す（チャット履歴ではなく成果物を）」「振り返って次へ（1週間後に見直す）」が矢印で一巡りにつながる。下に「研究の結論・個人の経験・未検証の仮説は、分けて書く」とある。\" style=\"width: 100%; height: auto; display: block; font-family: var(--jp);\">\n  <defs>\n    <marker id=\"up-arrow\" viewBox=\"0 0 10 10\" refX=\"9\" refY=\"5\" markerWidth=\"6\" markerHeight=\"6\" orient=\"auto-start-reverse\">\n      <path d=\"M0,0 L10,5 L0,10 z\" fill=\"#1E5A48\" />\n    </marker>\n  </defs>\n  <rect width=\"800\" height=\"450\" fill=\"#FFFFFF\" />\n  <text x=\"400\" y=\"56\" text-anchor=\"middle\" font-size=\"26\" font-weight=\"700\" fill=\"#17160F\">学んだら<tspan fill=\"#1E5A48\">証拠</tspan>を残して、次へ回す</text>\n\n  <rect x=\"40\" y=\"105\" width=\"200\" height=\"80\" rx=\"8\" fill=\"none\" stroke=\"#17160F\" stroke-opacity=\"0.28\" stroke-width=\"1.5\" />\n  <text x=\"140\" y=\"140\" text-anchor=\"middle\" font-size=\"15\" font-weight=\"700\" fill=\"#17160F\">問題を見つける</text>\n  <text x=\"140\" y=\"164\" text-anchor=\"middle\" font-size=\"11\" fill=\"#17160F\" fill-opacity=\"0.72\">（仕事で詰まった一歩など）</text>\n\n  <line x1=\"244\" y1=\"145\" x2=\"294\" y2=\"145\" stroke=\"#1E5A48\" stroke-width=\"4\" marker-end=\"url(#up-arrow)\" />\n\n  <rect x=\"300\" y=\"105\" width=\"200\" height=\"80\" rx=\"8\" fill=\"none\" stroke=\"#17160F\" stroke-opacity=\"0.28\" stroke-width=\"1.5\" />\n  <text x=\"400\" y=\"152\" text-anchor=\"middle\" font-size=\"15\" font-weight=\"700\" fill=\"#17160F\">自分から学ぶ</text>\n\n  <line x1=\"504\" y1=\"145\" x2=\"554\" y2=\"145\" stroke=\"#1E5A48\" stroke-width=\"4\" marker-end=\"url(#up-arrow)\" />\n\n  <rect x=\"560\" y=\"105\" width=\"200\" height=\"80\" rx=\"8\" fill=\"none\" stroke=\"#17160F\" stroke-opacity=\"0.28\" stroke-width=\"1.5\" />\n  <text x=\"660\" y=\"140\" text-anchor=\"middle\" font-size=\"15\" font-weight=\"700\" fill=\"#17160F\">AI と進める</text>\n  <text x=\"660\" y=\"164\" text-anchor=\"middle\" font-size=\"11\" fill=\"#17160F\" fill-opacity=\"0.72\">（25〜45分の課題に分ける）</text>\n\n  <line x1=\"660\" y1=\"189\" x2=\"660\" y2=\"239\" stroke=\"#1E5A48\" stroke-width=\"4\" marker-end=\"url(#up-arrow)\" />\n\n  <rect x=\"560\" y=\"245\" width=\"200\" height=\"80\" rx=\"8\" fill=\"none\" stroke=\"#17160F\" stroke-opacity=\"0.28\" stroke-width=\"1.5\" />\n  <text x=\"660\" y=\"280\" text-anchor=\"middle\" font-size=\"15\" font-weight=\"700\" fill=\"#17160F\">実際の課題を終える</text>\n  <text x=\"660\" y=\"304\" text-anchor=\"middle\" font-size=\"11\" fill=\"#17160F\" fill-opacity=\"0.72\">（選ぶのも仕上げるのも自分）</text>\n\n  <line x1=\"556\" y1=\"285\" x2=\"506\" y2=\"285\" stroke=\"#1E5A48\" stroke-width=\"4\" marker-end=\"url(#up-arrow)\" />\n\n  <rect x=\"300\" y=\"245\" width=\"200\" height=\"80\" rx=\"8\" fill=\"none\" stroke=\"#1E5A48\" stroke-width=\"2\" />\n  <text x=\"400\" y=\"280\" text-anchor=\"middle\" font-size=\"15\" font-weight=\"700\" fill=\"#1E5A48\">証拠を残す</text>\n  <text x=\"400\" y=\"304\" text-anchor=\"middle\" font-size=\"11\" fill=\"#17160F\" fill-opacity=\"0.72\">（チャット履歴ではなく成果物を）</text>\n\n  <line x1=\"296\" y1=\"285\" x2=\"246\" y2=\"285\" stroke=\"#1E5A48\" stroke-width=\"4\" marker-end=\"url(#up-arrow)\" />\n\n  <rect x=\"40\" y=\"245\" width=\"200\" height=\"80\" rx=\"8\" fill=\"none\" stroke=\"#17160F\" stroke-opacity=\"0.28\" stroke-width=\"1.5\" />\n  <text x=\"140\" y=\"280\" text-anchor=\"middle\" font-size=\"15\" font-weight=\"700\" fill=\"#17160F\">振り返って次へ</text>\n  <text x=\"140\" y=\"304\" text-anchor=\"middle\" font-size=\"11\" fill=\"#17160F\" fill-opacity=\"0.72\">（1週間後に見直す）</text>\n\n  <line x1=\"140\" y1=\"241\" x2=\"140\" y2=\"191\" stroke=\"#1E5A48\" stroke-width=\"4\" marker-end=\"url(#up-arrow)\" />\n\n  <text x=\"400\" y=\"390\" text-anchor=\"middle\" font-size=\"13.5\" fill=\"#17160F\" fill-opacity=\"0.72\">研究の結論・個人の経験・未検証の仮説は、分けて書く</text>\n</svg>\n\nキャプション: 読んで終わりにせず、毎回なにか形に残るものを作って、それを次の一巡りの出発点にする。\n\n\n## どんなときに使うか\n\n### 英語を、仕事で使えるところまで持っていきたいとき\n\n最初に欧州の語学基準（CEFR）で自分の段階を測り、聞く・読む・話す・書くの技能ごとに記録用紙で弱いところを1つずつ追う作りだ。仕事探しの英語や、技術の仕事向けの語彙表もある。\n\n### AI で調べる量は増えたのに、身についた気がしないとき\n\nREADME の勧めは、今日1つの小さな課題を AI に25〜45分で終わる大きさに分けてもらい、出典の確認と選択は自分でして、チャット履歴ではなくノートやコードなどの成果物を残すこと。1週間後に振り返りの用紙で見直す。\n\n\n## 注意点\n\n**原文は中国語。** 全章の英語版もサイトにあり、EPUB・PDF も英語版がある。\n\n**著者個人の話が多い。** 起業の失敗、体調の崩れ、恋愛や人間関係など、著者の人生の記録が本の柱の1つになっている。README は、個人の経験は医療・法律・投資の助言ではないと断っている。\n\n**著者は会社の会長で、外部サービスへの案内もある。** 著者は中国词元云计算有限公司の会長だと名乗っている。README の冒頭近くには、第三者の AI API 中継サービスと Telegram チャンネルへの案内があり、リポジトリのホームページ欄もその中継サービスを指している。README はこれらを、本や著者が品質や安全を保証するものではないとしている。\n\n**中身はソフトウェアではなく本。本文は営利利用できない。** 本文のライセンスは CC BY-NC 4.0（非営利に限る）。MIT はサイトの設定やビルド用のコードだけに付く。",
   "language": "JavaScript",
   "topics": [
     "chinese",
     "english-learning",
     "tutorial"
   ],
-  "stars": 65678,
-  "forks": 6582,
-  "watchers": 979,
+  "stars": 66387,
+  "forks": 6637,
+  "watchers": 983,
   "open_issues": 33,
   "created_at": "2017-05-30T07:18:52Z",
   "pushed_at": "2026-09-20T04:50:30Z",
@@ -28,10 +28,10 @@
   "category": "learning",
   "flags": [],
   "usability_score": 100,
-  "snapshot_days": 32,
+  "snapshot_days": 33,
   "is_indexable": true,
   "first_seen_at": "2026-08-29T23:02:08.747Z",
   "tracking_tier": "hot",
-  "last_fetched_date": "2026-09-30",
+  "last_fetched_date": "2026-10-01",
   "stars_stagnant_days": 0
 }

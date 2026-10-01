@@ -12,12 +12,12 @@
     "telegram-desktop",
     "telegram-solution"
   ],
-  "stars": 33051,
-  "forks": 7264,
+  "stars": 33054,
+  "forks": 7272,
   "watchers": null,
-  "open_issues": 1012,
+  "open_issues": 1008,
   "created_at": "2014-05-02T12:36:31Z",
-  "pushed_at": "2026-09-29T15:12:02Z",
+  "pushed_at": "2026-09-30T20:10:45Z",
   "is_archived": false,
   "license_spdx": "GPL-3.0",
   "license_category": "strong-copyleft",
@@ -36,10 +36,10 @@
     }
   ],
   "usability_score": 85,
-  "snapshot_days": 29,
+  "snapshot_days": 30,
   "is_indexable": true,
   "first_seen_at": "2026-09-01T23:05:22.650Z",
   "tracking_tier": "hot",
-  "last_fetched_date": "2026-09-30",
+  "last_fetched_date": "2026-10-01",
   "stars_stagnant_days": 0
 }

@@ -16,8 +16,8 @@
     "similar-music",
     "similar-videos"
   ],
-  "stars": 33810,
-  "forks": 1191,
+  "stars": 33832,
+  "forks": 1192,
   "watchers": 160,
   "open_issues": 331,
   "created_at": "2020-09-01T17:37:29Z",
@@ -34,10 +34,10 @@
   "category": "other",
   "flags": [],
   "usability_score": 100,
-  "snapshot_days": 27,
+  "snapshot_days": 28,
   "is_indexable": true,
   "first_seen_at": "2026-09-03T23:03:15.575Z",
   "tracking_tier": "hot",
-  "last_fetched_date": "2026-09-30",
+  "last_fetched_date": "2026-10-01",
   "stars_stagnant_days": 0
 }

@@ -15,12 +15,12 @@
     "wasm",
     "webassembly"
   ],
-  "stars": 4730,
-  "forks": 261,
+  "stars": 4734,
+  "forks": 263,
   "watchers": null,
   "open_issues": 145,
   "created_at": "2024-02-07T01:06:25Z",
-  "pushed_at": "2026-09-29T20:44:51Z",
+  "pushed_at": "2026-09-30T23:01:57Z",
   "is_archived": false,
   "license_spdx": "Apache-2.0",
   "license_category": "permissive",
@@ -33,10 +33,10 @@
   "category": "ai-agent",
   "flags": [],
   "usability_score": 100,
-  "snapshot_days": 5,
+  "snapshot_days": 6,
   "is_indexable": false,
   "first_seen_at": "2026-09-25T23:53:23.596Z",
   "tracking_tier": "hot",
-  "last_fetched_date": "2026-09-30",
+  "last_fetched_date": "2026-10-01",
   "stars_stagnant_days": 0
 }

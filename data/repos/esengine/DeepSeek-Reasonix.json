@@ -2,7 +2,7 @@
   "id": "esengine/DeepSeek-Reasonix",
   "owner": "esengine",
   "name": "DeepSeek-Reasonix",
-  "description_en": "DeepSeek-native AI coding agent for your terminal. Engineered around prefix-cache stability — leave it running.",
+  "description_en": "A reliable coding agent for complex software engineering tasks.",
   "human_note": null,
   "language": "Go",
   "topics": [
@@ -25,12 +25,12 @@
     "tui",
     "typescript"
   ],
-  "stars": 35718,
-  "forks": 2429,
+  "stars": 35725,
+  "forks": 2432,
   "watchers": null,
-  "open_issues": 134,
+  "open_issues": 162,
   "created_at": "2026-04-21T08:27:02Z",
-  "pushed_at": "2026-09-29T23:47:14Z",
+  "pushed_at": "2026-10-01T00:24:08Z",
   "is_archived": false,
   "license_spdx": "MIT",
   "license_category": "permissive",
@@ -43,10 +43,10 @@
   "category": "ai-agent",
   "flags": [],
   "usability_score": 100,
-  "snapshot_days": 30,
+  "snapshot_days": 31,
   "is_indexable": true,
   "first_seen_at": "2026-09-01T00:26:13.032Z",
   "tracking_tier": "hot",
-  "last_fetched_date": "2026-09-30",
+  "last_fetched_date": "2026-10-01",
   "stars_stagnant_days": 0
 }

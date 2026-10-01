@@ -16,12 +16,12 @@
     "react",
     "umi"
   ],
-  "stars": 38817,
+  "stars": 38821,
   "forks": 8254,
   "watchers": 743,
   "open_issues": 51,
   "created_at": "2017-08-25T10:40:44Z",
-  "pushed_at": "2026-09-29T18:54:36Z",
+  "pushed_at": "2026-09-30T17:25:27Z",
   "is_archived": false,
   "license_spdx": "MIT",
   "license_category": "permissive",
@@ -34,10 +34,10 @@
   "category": "web-frontend",
   "flags": [],
   "usability_score": 100,
-  "snapshot_days": 30,
+  "snapshot_days": 31,
   "is_indexable": true,
   "first_seen_at": "2026-09-01T00:26:13.031Z",
   "tracking_tier": "hot",
-  "last_fetched_date": "2026-09-30",
+  "last_fetched_date": "2026-10-01",
   "stars_stagnant_days": 0
 }

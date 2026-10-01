@@ -18,12 +18,12 @@
     "self-hosted",
     "vue"
   ],
-  "stars": 4904,
-  "forks": 324,
-  "watchers": null,
-  "open_issues": 477,
+  "stars": 5019,
+  "forks": 332,
+  "watchers": 17,
+  "open_issues": 482,
   "created_at": "2026-05-09T00:04:37Z",
-  "pushed_at": "2026-09-30T00:01:43Z",
+  "pushed_at": "2026-09-30T22:26:12Z",
   "is_archived": false,
   "license_spdx": "AGPL-3.0",
   "license_category": "strong-copyleft",
@@ -42,10 +42,10 @@
     }
   ],
   "usability_score": 85,
-  "snapshot_days": 5,
+  "snapshot_days": 6,
   "is_indexable": true,
   "first_seen_at": "2026-09-25T23:53:23.596Z",
   "tracking_tier": "hot",
-  "last_fetched_date": "2026-09-30",
+  "last_fetched_date": "2026-10-01",
   "stars_stagnant_days": 0
 }

@@ -25,7 +25,7 @@
     "vue",
     "weibo"
   ],
-  "stars": 27273,
+  "stars": 27291,
   "forks": 2330,
   "watchers": 181,
   "open_issues": 29,
@@ -43,10 +43,10 @@
   "category": "web-frontend",
   "flags": [],
   "usability_score": 100,
-  "snapshot_days": 27,
+  "snapshot_days": 28,
   "is_indexable": true,
   "first_seen_at": "2026-09-03T23:03:15.575Z",
   "tracking_tier": "hot",
-  "last_fetched_date": "2026-09-30",
+  "last_fetched_date": "2026-10-01",
   "stars_stagnant_days": 0
 }

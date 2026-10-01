@@ -14,12 +14,12 @@
     "mcp-client",
     "mcp-server"
   ],
-  "stars": 107196,
-  "forks": 14665,
+  "stars": 107195,
+  "forks": 14668,
   "watchers": null,
   "open_issues": 803,
   "created_at": "2025-04-17T17:04:31Z",
-  "pushed_at": "2026-09-29T22:20:07Z",
+  "pushed_at": "2026-09-30T21:54:56Z",
   "is_archived": false,
   "license_spdx": "Apache-2.0",
   "license_category": "permissive",
@@ -32,10 +32,10 @@
   "category": "ai-agent",
   "flags": [],
   "usability_score": 100,
-  "snapshot_days": 32,
+  "snapshot_days": 33,
   "is_indexable": true,
   "first_seen_at": "2026-08-29T15:46:21.821Z",
-  "tracking_tier": "hot",
-  "last_fetched_date": "2026-09-30",
-  "stars_stagnant_days": 0
+  "tracking_tier": "normal",
+  "last_fetched_date": "2026-10-01",
+  "stars_stagnant_days": 1
 }

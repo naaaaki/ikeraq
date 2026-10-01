@@ -20,12 +20,12 @@
     "server",
     "sql"
   ],
-  "stars": 27690,
+  "stars": 27692,
   "forks": 1229,
   "watchers": null,
-  "open_issues": 402,
+  "open_issues": 404,
   "created_at": "2014-06-13T00:23:00Z",
-  "pushed_at": "2026-09-29T09:31:47Z",
+  "pushed_at": "2026-09-30T23:43:49Z",
   "is_archived": false,
   "license_spdx": "MIT",
   "license_category": "permissive",
@@ -38,10 +38,10 @@
   "category": "data",
   "flags": [],
   "usability_score": 100,
-  "snapshot_days": 28,
+  "snapshot_days": 29,
   "is_indexable": true,
   "first_seen_at": "2026-09-02T23:02:41.773Z",
   "tracking_tier": "hot",
-  "last_fetched_date": "2026-09-30",
+  "last_fetched_date": "2026-10-01",
   "stars_stagnant_days": 0
 }

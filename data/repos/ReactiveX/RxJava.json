@@ -11,7 +11,7 @@
     "reactive-streams",
     "rxjava"
   ],
-  "stars": 48190,
+  "stars": 48189,
   "forks": 7585,
   "watchers": 2149,
   "open_issues": 11,
@@ -29,10 +29,10 @@
   "category": "other",
   "flags": [],
   "usability_score": 100,
-  "snapshot_days": 31,
+  "snapshot_days": 32,
   "is_indexable": true,
   "first_seen_at": "2026-08-30T23:15:18.749Z",
-  "tracking_tier": "hot",
-  "last_fetched_date": "2026-09-30",
-  "stars_stagnant_days": 6
+  "tracking_tier": "normal",
+  "last_fetched_date": "2026-10-01",
+  "stars_stagnant_days": 7
 }

@@ -9,10 +9,10 @@
     "git",
     "gitignore"
   ],
-  "stars": 175972,
-  "forks": 82172,
+  "stars": 175988,
+  "forks": 82171,
   "watchers": 3374,
-  "open_issues": 72,
+  "open_issues": 73,
   "created_at": "2010-11-08T20:17:14Z",
   "pushed_at": "2026-09-28T17:05:47Z",
   "is_archived": false,
@@ -27,10 +27,10 @@
   "category": "dev-tool",
   "flags": [],
   "usability_score": 100,
-  "snapshot_days": 32,
+  "snapshot_days": 33,
   "is_indexable": true,
   "first_seen_at": "2026-08-29T15:46:21.820Z",
   "tracking_tier": "hot",
-  "last_fetched_date": "2026-09-30",
+  "last_fetched_date": "2026-10-01",
   "stars_stagnant_days": 0
 }
