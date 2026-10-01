@@ -1,0 +1,89 @@
+---
+updated: 2026-10-02
+image:
+image_alt:
+---
+
+<!-- ============================================================
+  tigerless-labs/autoharness
+  https://github.com/tigerless-labs/autoharness
+  Self-Learning Skills for Claude Code
+  Python / MIT / スター 5,921
+============================================================ -->
+
+
+## 見出しの一文
+
+Claude Code の作業からスキルを自動で書き起こし、使われないものは片づける
+
+
+## どういうものか
+
+Claude Code のプラグインで、日々の作業から「スキル」（エージェントへの手引き）を自動で作り、手入れまで続ける。入れておくと、ツール呼び出しが一定回数たまるごとに裏で振り返りが走り、得た教訓を `.claude/skills/` にスキルとして書き出す。同じ場面のスキルが増えれば1つにまとめ、使ううちに内容を直し、使われないものは退避させる。触るのは自分が書いたスキルだけで、人が書いたものや他から入れたものには手を出さない。
+
+振り返りのきっかけは、ツール呼び出しの回数だ。既定では50回ごとに1回。話をしているだけの会話では走らない。振り返り役は提案するだけで、書き込む権限を持たない。書き込めるのは検証役だけで、形式や安全性を確かめてから保存する。新しいセッションの冒頭には、これまでに作ったスキルの一覧が渡される。すぐに教訓を残したいときは `/learn` で、その場で振り返らせることもできる。
+
+スキルの良し悪しは、ベンチマークの点数ではなく、その後の作業で実際に使われたかで測る。作ってから、そのスキルの層に一定数の依頼（既定はプロジェクト用100件、全体用300件）が届くまでは様子見の期間で、退避されず、上限の数にも数えない。様子見が終わった時点で、その間に一度も使われず、読まれもしなかったものは退避させる。様子見を終えたスキルの数が層ごとの上限（既定はプロジェクト用50、全体用20）を超えたら、使われる割合の低いものから退避させる。退避は削除ではなく、フォルダを戻せば復活する。作成や修正のたびに、理由と根拠になった会話の抜粋が記録として残る。
+
+
+## 図
+
+<svg viewBox="0 0 800 450" role="img" aria-label="見出しに「作業からスキルを書き起こし、育て、片づける」とある図。左から「作業セッション（ツール50回ごとに）」「振り返り（追加・統合・修正を提案）」「検証して保存（.claude/skills/ へ）」「次のセッション（一覧を最初に渡す）」が矢印でつながる。下に「使われなかったスキルは削除せず、退避させる」とある。" style="width: 100%; height: auto; display: block; font-family: var(--jp);">
+  <defs>
+    <marker id="ah-arrow" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="6" markerHeight="6" orient="auto-start-reverse">
+      <path d="M0,0 L10,5 L0,10 z" fill="#1E5A48" />
+    </marker>
+  </defs>
+  <rect width="800" height="450" fill="#FFFFFF" />
+  <text x="400" y="56" text-anchor="middle" font-size="26" font-weight="700" fill="#17160F">作業から<tspan fill="#1E5A48">スキル</tspan>を書き起こし、育て、片づける</text>
+
+  <rect x="20" y="170" width="160" height="110" rx="8" fill="none" stroke="#17160F" stroke-opacity="0.28" stroke-width="1.5" />
+  <text x="100" y="218" text-anchor="middle" font-size="15" font-weight="700" fill="#17160F">作業セッション</text>
+  <text x="100" y="244" text-anchor="middle" font-size="11" fill="#17160F" fill-opacity="0.72">（ツール50回ごとに）</text>
+
+  <line x1="184" y1="225" x2="214" y2="225" stroke="#1E5A48" stroke-width="4" marker-end="url(#ah-arrow)" />
+
+  <rect x="220" y="170" width="160" height="110" rx="8" fill="none" stroke="#17160F" stroke-opacity="0.28" stroke-width="1.5" />
+  <text x="300" y="218" text-anchor="middle" font-size="15" font-weight="700" fill="#17160F">振り返り</text>
+  <text x="300" y="244" text-anchor="middle" font-size="11" fill="#17160F" fill-opacity="0.72">（追加・統合・修正を提案）</text>
+
+  <line x1="384" y1="225" x2="414" y2="225" stroke="#1E5A48" stroke-width="4" marker-end="url(#ah-arrow)" />
+
+  <rect x="420" y="170" width="160" height="110" rx="8" fill="none" stroke="#1E5A48" stroke-width="2" />
+  <text x="500" y="218" text-anchor="middle" font-size="15" font-weight="700" fill="#1E5A48">検証して保存</text>
+  <text x="500" y="244" text-anchor="middle" font-size="11" fill="#17160F" fill-opacity="0.72">（.claude/skills/ へ）</text>
+
+  <line x1="584" y1="225" x2="614" y2="225" stroke="#1E5A48" stroke-width="4" marker-end="url(#ah-arrow)" />
+
+  <rect x="620" y="170" width="160" height="110" rx="8" fill="none" stroke="#17160F" stroke-opacity="0.28" stroke-width="1.5" />
+  <text x="700" y="218" text-anchor="middle" font-size="15" font-weight="700" fill="#17160F">次のセッション</text>
+  <text x="700" y="244" text-anchor="middle" font-size="11" fill="#17160F" fill-opacity="0.72">（一覧を最初に渡す）</text>
+
+  <text x="400" y="380" text-anchor="middle" font-size="13.5" fill="#17160F" fill-opacity="0.72">使われなかったスキルは削除せず、退避させる</text>
+</svg>
+
+キャプション: 提案する役と書き込む役を分け、書き込む前に検証を通す。増やすだけでなく、まとめて減らす仕組みまで含めて回る。
+
+
+## どんなときに使うか
+
+### 同じ注意を、セッションのたびに Claude Code に言い直しているとき
+
+教えたことが振り返りでスキルにされれば、次のセッションの冒頭で一覧として渡される。手でスキルを書いて管理する手間を省きたい人に向く。
+
+### スキルが増えすぎて、似たものが重なってきたとき
+
+autoharness が作ったスキルについては、同じ場面のものを1つにまとめ、使われないものを退避させるので、数が際限なく増えない。手で書いたスキルや、ほかから入れたスキルは対象外。
+
+
+## 注意点
+
+**Python 3.11 以上が `python3` として使える必要がある。** 古い Python が先に見つかると、フックがすべて止まる（README は macOS の Xcode に付く 3.9.6 を例に挙げている）。対応 OS の表示は Linux と macOS。
+
+**振り返りは裏で別のセッションを立ち上げて行う。** README によれば、振り返りの間隔を短くするほど、立ち上がるセッションも増える。
+
+**既定の数値は仮置き。** 振り返りの間隔や上限などの既定値は、実測で調整する前の暫定だと README 自身が書いている。
+
+**アンインストールしても、作られたスキルは残る。** 消すには、状態を置くフォルダと、自動で作られたスキルを自分で削除する。
+
+**ライセンスは MIT。**
