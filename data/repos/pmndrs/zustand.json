@@ -14,7 +14,7 @@
     "redux",
     "state-management"
   ],
-  "stars": 58774,
+  "stars": 58781,
   "forks": 2195,
   "watchers": 204,
   "open_issues": 7,
@@ -32,10 +32,10 @@
   "category": "web-frontend",
   "flags": [],
   "usability_score": 100,
-  "snapshot_days": 33,
+  "snapshot_days": 34,
   "is_indexable": true,
   "first_seen_at": "2026-08-29T23:02:08.747Z",
   "tracking_tier": "hot",
-  "last_fetched_date": "2026-10-01",
+  "last_fetched_date": "2026-10-02",
   "stars_stagnant_days": 0
 }

@@ -14,12 +14,12 @@
     "hugo",
     "static-site-generator"
   ],
-  "stars": 89994,
+  "stars": 90008,
   "forks": 8391,
   "watchers": null,
-  "open_issues": 203,
+  "open_issues": 201,
   "created_at": "2013-07-04T15:26:26Z",
-  "pushed_at": "2026-09-30T20:23:43Z",
+  "pushed_at": "2026-10-01T17:33:28Z",
   "is_archived": false,
   "license_spdx": "Apache-2.0",
   "license_category": "permissive",
@@ -32,10 +32,10 @@
   "category": "other",
   "flags": [],
   "usability_score": 100,
-  "snapshot_days": 33,
+  "snapshot_days": 34,
   "is_indexable": true,
   "first_seen_at": "2026-08-29T15:46:21.821Z",
   "tracking_tier": "hot",
-  "last_fetched_date": "2026-10-01",
+  "last_fetched_date": "2026-10-02",
   "stars_stagnant_days": 0
 }

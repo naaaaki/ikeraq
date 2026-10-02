@@ -12,12 +12,12 @@
     "helm",
     "kubernetes"
   ],
-  "stars": 30295,
-  "forks": 7813,
+  "stars": 30296,
+  "forks": 7818,
   "watchers": null,
-  "open_issues": 477,
+  "open_issues": 476,
   "created_at": "2015-10-06T01:07:32Z",
-  "pushed_at": "2026-09-30T22:25:49Z",
+  "pushed_at": "2026-10-01T21:35:35Z",
   "is_archived": false,
   "license_spdx": "Apache-2.0",
   "license_category": "permissive",
@@ -30,10 +30,10 @@
   "category": "infra",
   "flags": [],
   "usability_score": 100,
-  "snapshot_days": 29,
+  "snapshot_days": 30,
   "is_indexable": true,
   "first_seen_at": "2026-09-02T23:02:41.773Z",
   "tracking_tier": "hot",
-  "last_fetched_date": "2026-10-01",
-  "stars_stagnant_days": 1
+  "last_fetched_date": "2026-10-02",
+  "stars_stagnant_days": 0
 }

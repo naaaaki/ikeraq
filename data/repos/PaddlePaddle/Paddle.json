@@ -15,7 +15,7 @@
     "python",
     "scalability"
   ],
-  "stars": 24113,
+  "stars": 24114,
   "forks": 6024,
   "watchers": null,
   "open_issues": 1487,
@@ -33,10 +33,10 @@
   "category": "learning",
   "flags": [],
   "usability_score": 100,
-  "snapshot_days": 5,
+  "snapshot_days": 6,
   "is_indexable": false,
   "first_seen_at": "2026-09-26T23:25:20.108Z",
   "tracking_tier": "hot",
-  "last_fetched_date": "2026-10-01",
+  "last_fetched_date": "2026-10-02",
   "stars_stagnant_days": 0
 }

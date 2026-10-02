@@ -25,10 +25,10 @@
     "vuejs",
     "websocket"
   ],
-  "stars": 80557,
-  "forks": 6138,
+  "stars": 80560,
+  "forks": 6140,
   "watchers": null,
-  "open_issues": 846,
+  "open_issues": 844,
   "created_at": "2019-08-21T13:15:24Z",
   "pushed_at": "2026-09-30T12:26:26Z",
   "is_archived": false,
@@ -43,10 +43,10 @@
   "category": "web-frontend",
   "flags": [],
   "usability_score": 100,
-  "snapshot_days": 33,
+  "snapshot_days": 34,
   "is_indexable": true,
   "first_seen_at": "2026-08-29T15:46:21.821Z",
   "tracking_tier": "hot",
-  "last_fetched_date": "2026-10-01",
+  "last_fetched_date": "2026-10-02",
   "stars_stagnant_days": 0
 }

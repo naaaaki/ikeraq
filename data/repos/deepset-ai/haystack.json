@@ -27,12 +27,12 @@
     "retrieval-augmented-generation",
     "semantic-search"
   ],
-  "stars": 26633,
-  "forks": 3211,
+  "stars": 26637,
+  "forks": 3216,
   "watchers": null,
-  "open_issues": 172,
+  "open_issues": 147,
   "created_at": "2019-11-14T09:05:28Z",
-  "pushed_at": "2026-09-30T15:21:20Z",
+  "pushed_at": "2026-10-01T16:39:36Z",
   "is_archived": false,
   "license_spdx": "Apache-2.0",
   "license_category": "permissive",
@@ -45,10 +45,10 @@
   "category": "ai-agent",
   "flags": [],
   "usability_score": 100,
-  "snapshot_days": 28,
+  "snapshot_days": 29,
   "is_indexable": true,
   "first_seen_at": "2026-09-03T23:03:15.575Z",
   "tracking_tier": "hot",
-  "last_fetched_date": "2026-10-01",
-  "stars_stagnant_days": 1
+  "last_fetched_date": "2026-10-02",
+  "stars_stagnant_days": 0
 }

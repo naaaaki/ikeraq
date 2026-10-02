@@ -9,7 +9,7 @@
     "awesome",
     "awesome-list"
   ],
-  "stars": 49124,
+  "stars": 49136,
   "forks": 7735,
   "watchers": 2134,
   "open_issues": 10,
@@ -33,10 +33,10 @@
     }
   ],
   "usability_score": 85,
-  "snapshot_days": 8,
+  "snapshot_days": 9,
   "is_indexable": true,
   "first_seen_at": "2026-09-23T23:28:32.616Z",
   "tracking_tier": "hot",
-  "last_fetched_date": "2026-10-01",
+  "last_fetched_date": "2026-10-02",
   "stars_stagnant_days": 0
 }

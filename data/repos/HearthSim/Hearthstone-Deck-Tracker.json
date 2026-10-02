@@ -14,12 +14,12 @@
     "overlay",
     "wpf"
   ],
-  "stars": 4924,
+  "stars": 4922,
   "forks": 1146,
   "watchers": null,
-  "open_issues": 661,
+  "open_issues": 660,
   "created_at": "2014-05-29T18:44:12Z",
-  "pushed_at": "2026-09-28T20:19:38Z",
+  "pushed_at": "2026-10-01T07:38:50Z",
   "is_archived": false,
   "license_spdx": null,
   "license_category": "none",
@@ -38,10 +38,10 @@
     }
   ],
   "usability_score": 60,
-  "snapshot_days": 7,
+  "snapshot_days": 8,
   "is_indexable": true,
   "first_seen_at": "2026-09-24T23:48:41.712Z",
   "tracking_tier": "hot",
-  "last_fetched_date": "2026-10-01",
-  "stars_stagnant_days": 0
+  "last_fetched_date": "2026-10-02",
+  "stars_stagnant_days": 1
 }

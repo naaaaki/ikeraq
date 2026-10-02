@@ -11,8 +11,8 @@
     "typing",
     "typing-tutor"
   ],
-  "stars": 4755,
-  "forks": 465,
+  "stars": 4756,
+  "forks": 466,
   "watchers": null,
   "open_issues": 325,
   "created_at": "2023-09-25T06:58:26Z",
@@ -35,10 +35,10 @@
     }
   ],
   "usability_score": 85,
-  "snapshot_days": 6,
+  "snapshot_days": 7,
   "is_indexable": true,
   "first_seen_at": "2026-09-25T23:53:23.595Z",
   "tracking_tier": "hot",
-  "last_fetched_date": "2026-10-01",
+  "last_fetched_date": "2026-10-02",
   "stars_stagnant_days": 0
 }

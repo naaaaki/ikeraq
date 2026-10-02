@@ -18,7 +18,7 @@
     "sqlite3",
     "version-control"
   ],
-  "stars": 47845,
+  "stars": 47846,
   "forks": 5076,
   "watchers": 1017,
   "open_issues": 1011,
@@ -36,10 +36,10 @@
   "category": "infra",
   "flags": [],
   "usability_score": 100,
-  "snapshot_days": 32,
+  "snapshot_days": 33,
   "is_indexable": true,
   "first_seen_at": "2026-08-30T23:15:18.749Z",
   "tracking_tier": "hot",
-  "last_fetched_date": "2026-10-01",
+  "last_fetched_date": "2026-10-02",
   "stars_stagnant_days": 0
 }

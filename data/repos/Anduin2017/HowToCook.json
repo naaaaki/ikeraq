@@ -12,7 +12,7 @@
     "dishes",
     "recipes"
   ],
-  "stars": 102381,
+  "stars": 102385,
   "forks": 11102,
   "watchers": 490,
   "open_issues": 466,
@@ -30,10 +30,10 @@
   "category": "learning",
   "flags": [],
   "usability_score": 100,
-  "snapshot_days": 33,
+  "snapshot_days": 34,
   "is_indexable": true,
   "first_seen_at": "2026-08-29T15:46:21.821Z",
   "tracking_tier": "hot",
-  "last_fetched_date": "2026-10-01",
+  "last_fetched_date": "2026-10-02",
   "stars_stagnant_days": 0
 }

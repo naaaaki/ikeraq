@@ -9,10 +9,10 @@
     "ai",
     "mcp"
   ],
-  "stars": 95721,
-  "forks": 16878,
+  "stars": 95750,
+  "forks": 16932,
   "watchers": null,
-  "open_issues": 2657,
+  "open_issues": 2716,
   "created_at": "2024-11-30T04:49:10Z",
   "pushed_at": "2026-09-27T02:12:17Z",
   "is_archived": false,
@@ -27,10 +27,10 @@
   "category": "ai-agent",
   "flags": [],
   "usability_score": 100,
-  "snapshot_days": 33,
+  "snapshot_days": 34,
   "is_indexable": true,
   "first_seen_at": "2026-08-29T15:46:21.821Z",
   "tracking_tier": "hot",
-  "last_fetched_date": "2026-10-01",
+  "last_fetched_date": "2026-10-02",
   "stars_stagnant_days": 0
 }

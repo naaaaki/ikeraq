@@ -10,8 +10,8 @@
     "ai-tools",
     "on-premise"
   ],
-  "stars": 57556,
-  "forks": 7620,
+  "stars": 57560,
+  "forks": 7622,
   "watchers": 459,
   "open_issues": 18,
   "created_at": "2023-05-02T09:15:31Z",
@@ -28,10 +28,10 @@
   "category": "other",
   "flags": [],
   "usability_score": 100,
-  "snapshot_days": 33,
+  "snapshot_days": 34,
   "is_indexable": true,
   "first_seen_at": "2026-08-29T23:02:08.747Z",
   "tracking_tier": "hot",
-  "last_fetched_date": "2026-10-01",
+  "last_fetched_date": "2026-10-02",
   "stars_stagnant_days": 0
 }

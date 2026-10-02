@@ -16,7 +16,7 @@
     "tooltip",
     "tooltip-position"
   ],
-  "stars": 32752,
+  "stars": 32751,
   "forks": 1712,
   "watchers": null,
   "open_issues": 67,
@@ -34,10 +34,10 @@
   "category": "other",
   "flags": [],
   "usability_score": 100,
-  "snapshot_days": 8,
+  "snapshot_days": 9,
   "is_indexable": true,
   "first_seen_at": "2026-09-23T23:28:32.617Z",
   "tracking_tier": "hot",
-  "last_fetched_date": "2026-10-01",
-  "stars_stagnant_days": 1
+  "last_fetched_date": "2026-10-02",
+  "stars_stagnant_days": 2
 }

@@ -15,7 +15,7 @@
     "ocr",
     "qq"
   ],
-  "stars": 7181,
+  "stars": 7223,
   "forks": 1215,
   "watchers": null,
   "open_issues": 29,
@@ -33,10 +33,10 @@
   "category": "ai-agent",
   "flags": [],
   "usability_score": 100,
-  "snapshot_days": 7,
+  "snapshot_days": 8,
   "is_indexable": true,
   "first_seen_at": "2026-09-24T23:48:41.711Z",
   "tracking_tier": "hot",
-  "last_fetched_date": "2026-10-01",
+  "last_fetched_date": "2026-10-02",
   "stars_stagnant_days": 0
 }

@@ -20,12 +20,12 @@
     "typescript-framework",
     "websockets"
   ],
-  "stars": 76772,
-  "forks": 8566,
+  "stars": 76778,
+  "forks": 8567,
   "watchers": null,
   "open_issues": 30,
   "created_at": "2017-02-04T20:12:52Z",
-  "pushed_at": "2026-09-30T12:33:46Z",
+  "pushed_at": "2026-10-02T00:25:56Z",
   "is_archived": false,
   "license_spdx": "MIT",
   "license_category": "permissive",
@@ -38,10 +38,10 @@
   "category": "backend",
   "flags": [],
   "usability_score": 100,
-  "snapshot_days": 33,
+  "snapshot_days": 34,
   "is_indexable": true,
   "first_seen_at": "2026-08-29T23:02:08.747Z",
   "tracking_tier": "hot",
-  "last_fetched_date": "2026-10-01",
+  "last_fetched_date": "2026-10-02",
   "stars_stagnant_days": 0
 }

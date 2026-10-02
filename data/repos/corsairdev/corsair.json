@@ -3,7 +3,7 @@
   "owner": "corsairdev",
   "name": "corsair",
   "description_en": "Connect your users to their apps",
-  "human_note": null,
+  "human_note": "<!-- ============================================================\n  corsairdev/corsair\n  https://github.com/corsairdev/corsair\n  Corsair: Connect your users to their apps\n  TypeScript / Apache-2.0（GitHub 上の表示は NOASSERTION、LICENSE ファイルは Apache 2.0） / スター 13,353\n  README が短いため、仕組みは docs/introduction.mdx・docs/quick-start.mdx・docs/hub/overview.mdx も参照した\n============================================================ -->\n\n\n## 見出しの一文\n\nGitHub も Slack も同じ書き方で呼び、連携ごとの配線を書かずに済ませる\n\n\n## どういうものか\n\n自分のアプリや AI エージェントを、外部のサービスにつなぐための TypeScript のライブラリだ。ドキュメントによれば GitHub、Slack、Gmail など200以上のサービスに対応し、OAuth のログイン、トークンの更新、Webhook、利用回数の制限への対応を引き受ける。サービスごとに部品（プラグイン）が分かれていて、使うものだけを入れる。\n\nREADME が理由として挙げるのは3点。1つは、どのサービスも同じ書き方で呼べること。つなぐ先が増えるほど増えていく「つなぎのコード」を書かずに済み、サービスごとの部品は Corsair 側が保守する。2つ目は、MCP 専用ではなく REST API の上に作られていること。そのため同じ仕組みを、エージェントにも、裏側の処理にも、利用者が自分のアカウントをつなぐ管理画面にも使える。3つ目は、オープンソースで、データが自分の手元に残ることだ。\n\nライブラリは自分のアプリの中で動き、利用者の認証情報は暗号化して自分のデータベースに保存する。外から届く URL が必要な部分（OAuth の戻り先、接続用のページ、操作の承認画面など）は、Hub に任せられる。Hub は通常 Corsair が運営するものを使う（自前の Hub を指定する設定項目もある）。ドキュメントによれば、Hub は利用者のトークンを保存しない。Hub を使わずに全部を自分で用意することもできる。\n\n\n## 図\n\n<svg viewBox=\"0 0 800 450\" role=\"img\" aria-label=\"見出しに「どのサービスも同じ書き方で呼ぶ」とある図。左から「自分のアプリ（エージェント・管理画面）」「Corsair（認証・更新・Webhook）」「外部サービス（GitHub・Slack・Gmail…）」が矢印でつながる。下に「利用者のトークンは、暗号化して自分のデータベースに置く」とある。\" style=\"width: 100%; height: auto; display: block; font-family: var(--jp);\">\n  <defs>\n    <marker id=\"cs-arrow\" viewBox=\"0 0 10 10\" refX=\"9\" refY=\"5\" markerWidth=\"6\" markerHeight=\"6\" orient=\"auto-start-reverse\">\n      <path d=\"M0,0 L10,5 L0,10 z\" fill=\"#1E5A48\" />\n    </marker>\n  </defs>\n  <rect width=\"800\" height=\"450\" fill=\"#FFFFFF\" />\n  <text x=\"400\" y=\"56\" text-anchor=\"middle\" font-size=\"26\" font-weight=\"700\" fill=\"#17160F\">どのサービスも<tspan fill=\"#1E5A48\">同じ書き方</tspan>で呼ぶ</text>\n\n  <rect x=\"40\" y=\"170\" width=\"200\" height=\"110\" rx=\"8\" fill=\"none\" stroke=\"#17160F\" stroke-opacity=\"0.28\" stroke-width=\"1.5\" />\n  <text x=\"140\" y=\"218\" text-anchor=\"middle\" font-size=\"15\" font-weight=\"700\" fill=\"#17160F\">自分のアプリ</text>\n  <text x=\"140\" y=\"244\" text-anchor=\"middle\" font-size=\"11\" fill=\"#17160F\" fill-opacity=\"0.72\">（エージェント・管理画面）</text>\n\n  <line x1=\"246\" y1=\"225\" x2=\"294\" y2=\"225\" stroke=\"#1E5A48\" stroke-width=\"4\" marker-end=\"url(#cs-arrow)\" />\n\n  <rect x=\"300\" y=\"170\" width=\"200\" height=\"110\" rx=\"8\" fill=\"none\" stroke=\"#1E5A48\" stroke-width=\"2\" />\n  <text x=\"400\" y=\"218\" text-anchor=\"middle\" font-size=\"15\" font-weight=\"700\" fill=\"#1E5A48\">Corsair</text>\n  <text x=\"400\" y=\"244\" text-anchor=\"middle\" font-size=\"11\" fill=\"#17160F\" fill-opacity=\"0.72\">（認証・更新・Webhook）</text>\n\n  <line x1=\"506\" y1=\"225\" x2=\"554\" y2=\"225\" stroke=\"#1E5A48\" stroke-width=\"4\" marker-end=\"url(#cs-arrow)\" />\n\n  <rect x=\"560\" y=\"170\" width=\"200\" height=\"110\" rx=\"8\" fill=\"none\" stroke=\"#17160F\" stroke-opacity=\"0.28\" stroke-width=\"1.5\" />\n  <text x=\"660\" y=\"218\" text-anchor=\"middle\" font-size=\"15\" font-weight=\"700\" fill=\"#17160F\">外部サービス</text>\n  <text x=\"660\" y=\"244\" text-anchor=\"middle\" font-size=\"11\" fill=\"#17160F\" fill-opacity=\"0.72\">（GitHub・Slack・Gmail…）</text>\n\n  <text x=\"400\" y=\"380\" text-anchor=\"middle\" font-size=\"13.5\" fill=\"#17160F\" fill-opacity=\"0.72\">利用者のトークンは、暗号化して自分のデータベースに置く</text>\n</svg>\n\nキャプション: サービスごとの違いは Corsair が吸収するので、アプリの側はつなぐ先が増えても書き方が変わらない。\n\n\n## どんなときに使うか\n\n### 自分のサービスの利用者に、各自の Slack や GitHub をつないでもらいたいとき\n\n利用者ごとに別々のアカウントをつなぐ仕組み（マルチテナント）を、ゼロから組まずに済む。OAuth の戻り先や接続ページを自分で作りたくなければ Hub に任せられる。\n\n### エージェントに触らせるサービスが増えてきて、つなぎのコードが膨らんでいるとき\n\nサービスが増えても呼び方は同じなので、新しい連携を足すたびに配線を書き直さなくてよい。\n\n\n## 注意点\n\n**README は短く、仕組みの説明はドキュメント（docs.corsair.dev。リポジトリの docs/ フォルダにも同じ文書がある）側にある。** 導入前にはそちらを読む必要がある。\n\n**暗号化の鍵をなくすと、保存した認証情報がすべて使えなくなる。** ドキュメントは、この鍵（KEK）を管理者パスワードと同じように扱うよう警告している。\n\n**Corsair が運営する Hub を使う場合は、そのサービスにプロジェクトを作る。** 運営側のサービスに頼りたくない場合は、Hub を使わない構成や、自前の Hub を指定する設定がある。\n\n**ライセンスは Apache 2.0。**",
   "language": "TypeScript",
   "topics": [
     "agentic-ai",
@@ -25,12 +25,12 @@
     "typescript",
     "unified-api"
   ],
-  "stars": 13353,
-  "forks": 671,
+  "stars": 13359,
+  "forks": 675,
   "watchers": 22,
-  "open_issues": 327,
+  "open_issues": 333,
   "created_at": "2025-10-14T18:50:32Z",
-  "pushed_at": "2026-09-30T18:23:34Z",
+  "pushed_at": "2026-10-01T00:28:49Z",
   "is_archived": false,
   "license_spdx": "NOASSERTION",
   "license_category": "unknown",
@@ -43,10 +43,10 @@
   "category": "ai-agent",
   "flags": [],
   "usability_score": 100,
-  "snapshot_days": 32,
+  "snapshot_days": 33,
   "is_indexable": true,
   "first_seen_at": "2026-08-30T23:15:18.491Z",
   "tracking_tier": "hot",
-  "last_fetched_date": "2026-10-01",
+  "last_fetched_date": "2026-10-02",
   "stars_stagnant_days": 0
 }

@@ -17,9 +17,9 @@
     "testing",
     "unit-testing"
   ],
-  "stars": 4859,
+  "stars": 4858,
   "forks": 1276,
-  "watchers": null,
+  "watchers": 145,
   "open_issues": 168,
   "created_at": "2011-11-30T04:06:44Z",
   "pushed_at": "2026-09-25T12:37:55Z",
@@ -35,10 +35,10 @@
   "category": "dev-tool",
   "flags": [],
   "usability_score": 100,
-  "snapshot_days": 7,
+  "snapshot_days": 8,
   "is_indexable": true,
   "first_seen_at": "2026-09-24T23:48:41.712Z",
   "tracking_tier": "hot",
-  "last_fetched_date": "2026-10-01",
-  "stars_stagnant_days": 4
+  "last_fetched_date": "2026-10-02",
+  "stars_stagnant_days": 5
 }

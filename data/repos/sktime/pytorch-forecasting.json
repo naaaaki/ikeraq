@@ -25,9 +25,9 @@
     "uncertainty"
   ],
   "stars": 5002,
-  "forks": 915,
+  "forks": 916,
   "watchers": 43,
-  "open_issues": 821,
+  "open_issues": 822,
   "created_at": "2020-07-03T13:05:24Z",
   "pushed_at": "2026-09-29T09:00:36Z",
   "is_archived": false,
@@ -42,10 +42,10 @@
   "category": "learning",
   "flags": [],
   "usability_score": 100,
-  "snapshot_days": 7,
+  "snapshot_days": 8,
   "is_indexable": true,
   "first_seen_at": "2026-09-24T23:48:41.711Z",
   "tracking_tier": "hot",
-  "last_fetched_date": "2026-10-01",
-  "stars_stagnant_days": 0
+  "last_fetched_date": "2026-10-02",
+  "stars_stagnant_days": 1
 }

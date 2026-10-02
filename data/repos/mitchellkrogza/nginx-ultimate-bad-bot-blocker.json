@@ -27,12 +27,12 @@
     "spyware",
     "vulnerability-scanners"
   ],
-  "stars": 4798,
+  "stars": 4799,
   "forks": 527,
   "watchers": null,
   "open_issues": 155,
   "created_at": "2016-07-23T16:44:49Z",
-  "pushed_at": "2026-09-30T22:13:36Z",
+  "pushed_at": "2026-10-01T22:13:23Z",
   "is_archived": false,
   "license_spdx": "NOASSERTION",
   "license_category": "unknown",
@@ -45,10 +45,10 @@
   "category": "security",
   "flags": [],
   "usability_score": 100,
-  "snapshot_days": 6,
-  "is_indexable": false,
+  "snapshot_days": 7,
+  "is_indexable": true,
   "first_seen_at": "2026-09-25T23:53:23.594Z",
   "tracking_tier": "hot",
-  "last_fetched_date": "2026-10-01",
+  "last_fetched_date": "2026-10-02",
   "stars_stagnant_days": 0
 }

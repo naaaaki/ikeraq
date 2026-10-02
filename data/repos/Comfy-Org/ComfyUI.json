@@ -13,12 +13,12 @@
     "pytorch",
     "stable-diffusion"
   ],
-  "stars": 135652,
-  "forks": 16093,
+  "stars": 135780,
+  "forks": 16104,
   "watchers": null,
-  "open_issues": 5022,
+  "open_issues": 5025,
   "created_at": "2023-01-17T03:15:56Z",
-  "pushed_at": "2026-10-01T00:13:41Z",
+  "pushed_at": "2026-10-02T00:17:03Z",
   "is_archived": false,
   "license_spdx": "GPL-3.0",
   "license_category": "strong-copyleft",
@@ -37,10 +37,10 @@
     }
   ],
   "usability_score": 85,
-  "snapshot_days": 33,
+  "snapshot_days": 34,
   "is_indexable": true,
   "first_seen_at": "2026-08-29T15:46:21.820Z",
   "tracking_tier": "hot",
-  "last_fetched_date": "2026-10-01",
+  "last_fetched_date": "2026-10-02",
   "stars_stagnant_days": 0
 }

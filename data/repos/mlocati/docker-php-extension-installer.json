@@ -16,7 +16,7 @@
   "watchers": null,
   "open_issues": 10,
   "created_at": "2018-04-11T12:22:40Z",
-  "pushed_at": "2026-09-30T12:16:27Z",
+  "pushed_at": "2026-10-01T12:16:13Z",
   "is_archived": false,
   "license_spdx": "MIT",
   "license_category": "permissive",
@@ -29,10 +29,10 @@
   "category": "infra",
   "flags": [],
   "usability_score": 100,
-  "snapshot_days": 7,
+  "snapshot_days": 8,
   "is_indexable": true,
   "first_seen_at": "2026-09-24T23:48:41.711Z",
   "tracking_tier": "hot",
-  "last_fetched_date": "2026-10-01",
-  "stars_stagnant_days": 2
+  "last_fetched_date": "2026-10-02",
+  "stars_stagnant_days": 3
 }

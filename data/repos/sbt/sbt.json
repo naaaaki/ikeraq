@@ -11,12 +11,12 @@
     "scala",
     "zinc"
   ],
-  "stars": 4953,
-  "forks": 1048,
+  "stars": 4954,
+  "forks": 1049,
   "watchers": null,
-  "open_issues": 492,
+  "open_issues": 488,
   "created_at": "2009-08-17T00:31:14Z",
-  "pushed_at": "2026-09-30T04:09:58Z",
+  "pushed_at": "2026-10-01T23:07:27Z",
   "is_archived": false,
   "license_spdx": "Apache-2.0",
   "license_category": "permissive",
@@ -29,10 +29,10 @@
   "category": "other",
   "flags": [],
   "usability_score": 100,
-  "snapshot_days": 7,
+  "snapshot_days": 8,
   "is_indexable": true,
   "first_seen_at": "2026-09-24T23:48:41.712Z",
   "tracking_tier": "hot",
-  "last_fetched_date": "2026-10-01",
-  "stars_stagnant_days": 6
+  "last_fetched_date": "2026-10-02",
+  "stars_stagnant_days": 0
 }

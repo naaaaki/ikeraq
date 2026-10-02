@@ -17,9 +17,9 @@
   "stars": 24274,
   "forks": 1830,
   "watchers": null,
-  "open_issues": 36,
+  "open_issues": 32,
   "created_at": "2013-07-13T19:32:06Z",
-  "pushed_at": "2026-09-30T16:41:56Z",
+  "pushed_at": "2026-10-01T06:59:43Z",
   "is_archived": false,
   "license_spdx": "MIT",
   "license_category": "permissive",
@@ -32,10 +32,10 @@
   "category": "dev-tool",
   "flags": [],
   "usability_score": 100,
-  "snapshot_days": 8,
+  "snapshot_days": 9,
   "is_indexable": true,
   "first_seen_at": "2026-09-23T23:28:32.619Z",
   "tracking_tier": "hot",
-  "last_fetched_date": "2026-10-01",
-  "stars_stagnant_days": 0
+  "last_fetched_date": "2026-10-02",
+  "stars_stagnant_days": 1
 }

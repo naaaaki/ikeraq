@@ -11,12 +11,12 @@
     "ai-agents",
     "mcp"
   ],
-  "stars": 54816,
+  "stars": 54855,
   "forks": 6354,
   "watchers": null,
-  "open_issues": 411,
+  "open_issues": 415,
   "created_at": "2024-08-23T19:03:36Z",
-  "pushed_at": "2026-09-30T20:54:07Z",
+  "pushed_at": "2026-10-02T00:29:14Z",
   "is_archived": false,
   "license_spdx": "Apache-2.0",
   "license_category": "permissive",
@@ -29,10 +29,10 @@
   "category": "ai-agent",
   "flags": [],
   "usability_score": 100,
-  "snapshot_days": 33,
+  "snapshot_days": 34,
   "is_indexable": true,
   "first_seen_at": "2026-08-29T23:02:08.747Z",
   "tracking_tier": "hot",
-  "last_fetched_date": "2026-10-01",
+  "last_fetched_date": "2026-10-02",
   "stars_stagnant_days": 0
 }

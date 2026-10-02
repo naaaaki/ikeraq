@@ -25,10 +25,10 @@
     "reactive-programming",
     "resources"
   ],
-  "stars": 61367,
-  "forks": 6927,
+  "stars": 61382,
+  "forks": 6926,
   "watchers": 1551,
-  "open_issues": 36,
+  "open_issues": 37,
   "created_at": "2017-05-07T11:45:27Z",
   "pushed_at": "2026-09-03T04:34:54Z",
   "is_archived": false,
@@ -49,10 +49,10 @@
     }
   ],
   "usability_score": 60,
-  "snapshot_days": 28,
+  "snapshot_days": 29,
   "is_indexable": true,
   "first_seen_at": "2026-09-03T23:03:15.574Z",
   "tracking_tier": "hot",
-  "last_fetched_date": "2026-10-01",
+  "last_fetched_date": "2026-10-02",
   "stars_stagnant_days": 0
 }

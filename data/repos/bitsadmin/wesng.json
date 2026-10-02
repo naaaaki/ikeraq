@@ -13,9 +13,9 @@
     "updates",
     "windows"
   ],
-  "stars": 4942,
+  "stars": 4943,
   "forks": 608,
-  "watchers": null,
+  "watchers": 95,
   "open_issues": 9,
   "created_at": "2019-03-02T15:25:40Z",
   "pushed_at": "2026-09-25T00:27:52Z",
@@ -31,10 +31,10 @@
   "category": "other",
   "flags": [],
   "usability_score": 100,
-  "snapshot_days": 6,
-  "is_indexable": false,
+  "snapshot_days": 7,
+  "is_indexable": true,
   "first_seen_at": "2026-09-25T23:53:23.592Z",
   "tracking_tier": "hot",
-  "last_fetched_date": "2026-10-01",
-  "stars_stagnant_days": 1
+  "last_fetched_date": "2026-10-02",
+  "stars_stagnant_days": 0
 }

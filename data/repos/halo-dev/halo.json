@@ -14,8 +14,8 @@
     "halocms",
     "website-builder"
   ],
-  "stars": 39925,
-  "forks": 10339,
+  "stars": 39929,
+  "forks": 10338,
   "watchers": null,
   "open_issues": 107,
   "created_at": "2018-03-21T12:56:52Z",
@@ -38,10 +38,10 @@
     }
   ],
   "usability_score": 85,
-  "snapshot_days": 31,
+  "snapshot_days": 32,
   "is_indexable": true,
   "first_seen_at": "2026-09-01T00:26:13.031Z",
   "tracking_tier": "hot",
-  "last_fetched_date": "2026-10-01",
+  "last_fetched_date": "2026-10-02",
   "stars_stagnant_days": 0
 }

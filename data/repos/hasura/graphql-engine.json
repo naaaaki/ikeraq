@@ -22,7 +22,7 @@
     "subgraph",
     "supergraph"
   ],
-  "stars": 32128,
+  "stars": 32130,
   "forks": 3030,
   "watchers": 353,
   "open_issues": 2374,
@@ -40,10 +40,10 @@
   "category": "data",
   "flags": [],
   "usability_score": 100,
-  "snapshot_days": 8,
+  "snapshot_days": 9,
   "is_indexable": true,
   "first_seen_at": "2026-09-23T23:28:32.617Z",
   "tracking_tier": "hot",
-  "last_fetched_date": "2026-10-01",
+  "last_fetched_date": "2026-10-02",
   "stars_stagnant_days": 0
 }

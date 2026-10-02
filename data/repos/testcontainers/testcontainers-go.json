@@ -15,12 +15,12 @@
     "testcontainers-go",
     "testing"
   ],
-  "stars": 4991,
+  "stars": 4992,
   "forks": 642,
   "watchers": null,
-  "open_issues": 188,
+  "open_issues": 199,
   "created_at": "2018-07-18T15:04:31Z",
-  "pushed_at": "2026-09-29T20:10:30Z",
+  "pushed_at": "2026-10-01T14:11:23Z",
   "is_archived": false,
   "license_spdx": "MIT",
   "license_category": "permissive",
@@ -33,10 +33,10 @@
   "category": "infra",
   "flags": [],
   "usability_score": 100,
-  "snapshot_days": 7,
+  "snapshot_days": 8,
   "is_indexable": true,
   "first_seen_at": "2026-09-24T23:48:41.711Z",
   "tracking_tier": "hot",
-  "last_fetched_date": "2026-10-01",
-  "stars_stagnant_days": 1
+  "last_fetched_date": "2026-10-02",
+  "stars_stagnant_days": 0
 }

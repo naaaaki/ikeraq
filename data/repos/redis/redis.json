@@ -27,10 +27,10 @@
     "vector-databases",
     "vector-search"
   ],
-  "stars": 76562,
-  "forks": 24827,
+  "stars": 76569,
+  "forks": 24830,
   "watchers": null,
-  "open_issues": 2989,
+  "open_issues": 2991,
   "created_at": "2009-03-21T22:32:25Z",
   "pushed_at": "2026-09-30T12:02:11Z",
   "is_archived": false,
@@ -45,10 +45,10 @@
   "category": "data",
   "flags": [],
   "usability_score": 100,
-  "snapshot_days": 33,
+  "snapshot_days": 34,
   "is_indexable": true,
   "first_seen_at": "2026-08-29T23:02:08.747Z",
   "tracking_tier": "hot",
-  "last_fetched_date": "2026-10-01",
+  "last_fetched_date": "2026-10-02",
   "stars_stagnant_days": 0
 }

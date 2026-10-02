@@ -3,7 +3,7 @@
   "owner": "TencentCloud",
   "name": "Octop",
   "description_en": "A smarter, self-hosted AI assistant — multi-user, multi-agent.",
-  "human_note": null,
+  "human_note": "<!-- ============================================================\n  TencentCloud/Octop\n  https://github.com/TencentCloud/Octop\n  A smarter, self-hosted AI assistant — multi-user, multi-agent.\n  Python / MIT / スター 6,086\n============================================================ -->\n\n\n## 見出しの一文\n\n役割別の AI 助手を自分のマシンに置き、家族や小さなチームで共有する\n\n\n## どういうものか\n\nTencent Cloud が公開している、自分のマシンで動かす AI アシスタントの基盤だ。README は家庭や小さなチーム向けとしている。管理者が1人いて、その下に複数の利用者がいる。利用者はそれぞれ「専門家」と呼ばれるエージェントを何体も持てて、作業に応じて切り替える。専門家ごとに作業場所、使う LLM、つなぐチャットアプリ、定期実行の設定を分けられる。よくできた専門家は、同じ環境の中でほかの利用者と共有できる。\n\n中心になるのは `octop run` の1つのプロセスだ。これがブラウザの管理画面、コマンドライン、チャットアプリ（Feishu、DingTalk、QQ、WeChat、Telegram、Discord、WeCom など）、定期実行の入口をまとめて受け持つ。どこから話しかけても同じ処理の流れに入るので、別に待ち行列の仕組みを立てる必要がない。設定や会話の記録は `~/.octop/` の下に置かれ、データベースは既定で SQLite、望めば PostgreSQL も使える。\n\n機能は広い。外部サービスとの接続（OAuth と MCP）、手持ちの文書を検索して答えに使う知識ベース、ブラウザ操作、管理画面からのリモートデスクトップ、性格づけのための16種類の MBTI テンプレートなどがある。コーディングの仕事は Claude Code、OpenCode、Codex、CodeBuddy に回せる。逆に、エディタの側から Octop のエージェントを呼ぶこともできる。LLM は OpenAI 互換の API、DashScope（Qwen）、Ollama などから選ぶ。\n\n\n## 図\n\n<svg viewBox=\"0 0 800 450\" role=\"img\" aria-label=\"見出しに「どこから話しかけても1つのプロセスが受ける」とある図。左から「入口（画面・チャット・定期実行）」「Octop（octop run の1プロセス）」「専門家（利用者ごとの役割別エージェント）」が矢印でつながる。下に「設定や会話の記録は、既定では ~/.octop/ に置く」とある。\" style=\"width: 100%; height: auto; display: block; font-family: var(--jp);\">\n  <defs>\n    <marker id=\"oc-arrow\" viewBox=\"0 0 10 10\" refX=\"9\" refY=\"5\" markerWidth=\"6\" markerHeight=\"6\" orient=\"auto-start-reverse\">\n      <path d=\"M0,0 L10,5 L0,10 z\" fill=\"#1E5A48\" />\n    </marker>\n  </defs>\n  <rect width=\"800\" height=\"450\" fill=\"#FFFFFF\" />\n  <text x=\"400\" y=\"56\" text-anchor=\"middle\" font-size=\"26\" font-weight=\"700\" fill=\"#17160F\">どこから話しかけても<tspan fill=\"#1E5A48\">1つのプロセス</tspan>が受ける</text>\n\n  <rect x=\"40\" y=\"170\" width=\"200\" height=\"110\" rx=\"8\" fill=\"none\" stroke=\"#17160F\" stroke-opacity=\"0.28\" stroke-width=\"1.5\" />\n  <text x=\"140\" y=\"218\" text-anchor=\"middle\" font-size=\"15\" font-weight=\"700\" fill=\"#17160F\">入口</text>\n  <text x=\"140\" y=\"244\" text-anchor=\"middle\" font-size=\"11\" fill=\"#17160F\" fill-opacity=\"0.72\">（画面・チャット・定期実行）</text>\n\n  <line x1=\"246\" y1=\"225\" x2=\"294\" y2=\"225\" stroke=\"#1E5A48\" stroke-width=\"4\" marker-end=\"url(#oc-arrow)\" />\n\n  <rect x=\"300\" y=\"170\" width=\"200\" height=\"110\" rx=\"8\" fill=\"none\" stroke=\"#1E5A48\" stroke-width=\"2\" />\n  <text x=\"400\" y=\"218\" text-anchor=\"middle\" font-size=\"15\" font-weight=\"700\" fill=\"#1E5A48\">Octop</text>\n  <text x=\"400\" y=\"244\" text-anchor=\"middle\" font-size=\"11\" fill=\"#17160F\" fill-opacity=\"0.72\">（octop run の1プロセス）</text>\n\n  <line x1=\"506\" y1=\"225\" x2=\"554\" y2=\"225\" stroke=\"#1E5A48\" stroke-width=\"4\" marker-end=\"url(#oc-arrow)\" />\n\n  <rect x=\"560\" y=\"170\" width=\"200\" height=\"110\" rx=\"8\" fill=\"none\" stroke=\"#17160F\" stroke-opacity=\"0.28\" stroke-width=\"1.5\" />\n  <text x=\"660\" y=\"218\" text-anchor=\"middle\" font-size=\"15\" font-weight=\"700\" fill=\"#17160F\">専門家</text>\n  <text x=\"660\" y=\"244\" text-anchor=\"middle\" font-size=\"11\" fill=\"#17160F\" fill-opacity=\"0.72\">（利用者ごとの役割別エージェント）</text>\n\n  <text x=\"400\" y=\"380\" text-anchor=\"middle\" font-size=\"13.5\" fill=\"#17160F\" fill-opacity=\"0.72\">設定や会話の記録は、既定では ~/.octop/ に置く</text>\n</svg>\n\nキャプション: 入口がいくつあっても処理は1か所に集まり、利用者ごと・役割ごとのエージェントに振り分けられる。\n\n\n## どんなときに使うか\n\n### 家族やチームで1台の AI 環境を共有し、人ごとに使い分けたいとき\n\n管理者1人で全員分を用意でき、利用者ごとにエージェントや知識ベースを分けたり共有したりできる。\n\n### 普段使っているチャットアプリから、AI に仕事を頼みたいとき\n\nTelegram や Discord などのチャットから話しかけたり、決まった時刻に定期実行させたりできる。\n\n\n## 注意点\n\n**つなげるチャットアプリと外部サービスは、中国のサービスが中心。** README の一覧に Slack と LINE は無い。外部サービスとの接続も、例に挙がるのは Tencent の文書・会議などだ。\n\n**既定の構成で自分のマシンに置かれるのは、設定・会話の記録・作業場所・認証情報。** 作業場所を PostgreSQL や COS/S3 などに置く設定もある。LLM に外部の API を使う場合は、会話の中身がその提供元に送られる（README によれば、個人情報は外に出る前に伏せる仕組みがある）。\n\n**機能の一部はまだ試験段階。** 複数の専門家を連携させる AgentTeams はベータと明記されている。\n\n**ライセンスは MIT。**",
   "language": "Python",
   "topics": [
     "agent",
@@ -14,10 +14,10 @@
     "local-first",
     "long-term-memory"
   ],
-  "stars": 6086,
-  "forks": 767,
-  "watchers": 55,
-  "open_issues": 640,
+  "stars": 6241,
+  "forks": 785,
+  "watchers": 56,
+  "open_issues": 712,
   "created_at": "2026-07-08T12:54:20Z",
   "pushed_at": "2026-09-30T07:13:09Z",
   "is_archived": false,
@@ -32,10 +32,10 @@
   "category": "ai-agent",
   "flags": [],
   "usability_score": 100,
-  "snapshot_days": 13,
+  "snapshot_days": 14,
   "is_indexable": true,
   "first_seen_at": "2026-09-18T23:04:16.867Z",
   "tracking_tier": "hot",
-  "last_fetched_date": "2026-10-01",
+  "last_fetched_date": "2026-10-02",
   "stars_stagnant_days": 0
 }

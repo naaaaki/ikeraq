@@ -12,11 +12,11 @@
     "on-device-ai"
   ],
   "stars": 4772,
-  "forks": 328,
+  "forks": 329,
   "watchers": null,
   "open_issues": 30,
   "created_at": "2025-07-23T18:54:20Z",
-  "pushed_at": "2026-09-30T22:12:06Z",
+  "pushed_at": "2026-10-01T21:08:54Z",
   "is_archived": false,
   "license_spdx": "MPL-2.0",
   "license_category": "weak-copyleft",
@@ -29,10 +29,10 @@
   "category": "ai-agent",
   "flags": [],
   "usability_score": 100,
-  "snapshot_days": 6,
-  "is_indexable": false,
+  "snapshot_days": 7,
+  "is_indexable": true,
   "first_seen_at": "2026-09-25T23:53:23.595Z",
   "tracking_tier": "hot",
-  "last_fetched_date": "2026-10-01",
-  "stars_stagnant_days": 1
+  "last_fetched_date": "2026-10-02",
+  "stars_stagnant_days": 2
 }

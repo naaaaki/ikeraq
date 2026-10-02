@@ -17,9 +17,9 @@
     "claude-subagents",
     "subagents"
   ],
-  "stars": 25426,
-  "forks": 2939,
-  "watchers": 234,
+  "stars": 25446,
+  "forks": 2943,
+  "watchers": 233,
   "open_issues": 3,
   "created_at": "2025-07-30T12:31:51Z",
   "pushed_at": "2026-09-21T08:24:27Z",
@@ -35,10 +35,10 @@
   "category": "ai-agent",
   "flags": [],
   "usability_score": 100,
-  "snapshot_days": 8,
+  "snapshot_days": 9,
   "is_indexable": true,
   "first_seen_at": "2026-09-23T23:28:32.618Z",
   "tracking_tier": "hot",
-  "last_fetched_date": "2026-10-01",
+  "last_fetched_date": "2026-10-02",
   "stars_stagnant_days": 0
 }

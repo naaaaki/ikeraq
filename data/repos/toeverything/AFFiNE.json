@@ -25,8 +25,8 @@
     "wiki",
     "workspace"
   ],
-  "stars": 73136,
-  "forks": 5318,
+  "stars": 73162,
+  "forks": 5324,
   "watchers": null,
   "open_issues": 762,
   "created_at": "2022-07-31T18:45:21Z",
@@ -43,10 +43,10 @@
   "category": "web-frontend",
   "flags": [],
   "usability_score": 100,
-  "snapshot_days": 33,
+  "snapshot_days": 34,
   "is_indexable": true,
   "first_seen_at": "2026-08-29T23:02:08.747Z",
   "tracking_tier": "hot",
-  "last_fetched_date": "2026-10-01",
+  "last_fetched_date": "2026-10-02",
   "stars_stagnant_days": 0
 }

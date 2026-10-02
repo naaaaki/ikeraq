@@ -6,8 +6,8 @@
   "human_note": null,
   "language": "C++",
   "topics": [],
-  "stars": 39601,
-  "forks": 10905,
+  "stars": 39612,
+  "forks": 10907,
   "watchers": 1272,
   "open_issues": 519,
   "created_at": "2015-07-28T15:07:53Z",
@@ -24,10 +24,10 @@
   "category": "other",
   "flags": [],
   "usability_score": 100,
-  "snapshot_days": 33,
+  "snapshot_days": 34,
   "is_indexable": true,
   "first_seen_at": "2026-08-29T15:46:21.444Z",
   "tracking_tier": "hot",
-  "last_fetched_date": "2026-10-01",
+  "last_fetched_date": "2026-10-02",
   "stars_stagnant_days": 0
 }

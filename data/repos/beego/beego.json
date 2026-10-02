@@ -9,7 +9,7 @@
     "beego",
     "go"
   ],
-  "stars": 32427,
+  "stars": 32428,
   "forks": 5571,
   "watchers": 1147,
   "open_issues": 18,
@@ -27,10 +27,10 @@
   "category": "other",
   "flags": [],
   "usability_score": 100,
-  "snapshot_days": 29,
+  "snapshot_days": 30,
   "is_indexable": true,
   "first_seen_at": "2026-09-02T23:02:41.773Z",
   "tracking_tier": "hot",
-  "last_fetched_date": "2026-10-01",
-  "stars_stagnant_days": 2
+  "last_fetched_date": "2026-10-02",
+  "stars_stagnant_days": 0
 }

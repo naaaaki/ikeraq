@@ -22,10 +22,10 @@
     "self-hosted",
     "skills"
   ],
-  "stars": 8562,
-  "forks": 342,
+  "stars": 8558,
+  "forks": 341,
   "watchers": 47,
-  "open_issues": 21,
+  "open_issues": 34,
   "created_at": "2026-05-14T16:48:52Z",
   "pushed_at": "2026-09-30T17:42:20Z",
   "is_archived": false,
@@ -40,10 +40,10 @@
   "category": "ai-agent",
   "flags": [],
   "usability_score": 100,
-  "snapshot_days": 29,
+  "snapshot_days": 30,
   "is_indexable": true,
   "first_seen_at": "2026-09-02T23:02:40.093Z",
   "tracking_tier": "hot",
-  "last_fetched_date": "2026-10-01",
-  "stars_stagnant_days": 0
+  "last_fetched_date": "2026-10-02",
+  "stars_stagnant_days": 1
 }

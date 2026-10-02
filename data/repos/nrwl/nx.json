@@ -24,12 +24,12 @@
     "storybook",
     "typescript"
   ],
-  "stars": 29384,
+  "stars": 29389,
   "forks": 3004,
   "watchers": null,
-  "open_issues": 490,
+  "open_issues": 492,
   "created_at": "2017-08-11T18:50:23Z",
-  "pushed_at": "2026-09-30T23:54:26Z",
+  "pushed_at": "2026-10-01T23:01:47Z",
   "is_archived": false,
   "license_spdx": "MIT",
   "license_category": "permissive",
@@ -42,10 +42,10 @@
   "category": "web-frontend",
   "flags": [],
   "usability_score": 100,
-  "snapshot_days": 29,
+  "snapshot_days": 30,
   "is_indexable": true,
   "first_seen_at": "2026-09-02T23:02:41.773Z",
   "tracking_tier": "hot",
-  "last_fetched_date": "2026-10-01",
-  "stars_stagnant_days": 1
+  "last_fetched_date": "2026-10-02",
+  "stars_stagnant_days": 0
 }

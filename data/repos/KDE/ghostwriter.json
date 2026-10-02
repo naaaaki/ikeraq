@@ -8,7 +8,7 @@
   "topics": [],
   "stars": 4995,
   "forks": 347,
-  "watchers": null,
+  "watchers": 97,
   "open_issues": 22,
   "created_at": "2015-08-22T09:13:13Z",
   "pushed_at": "2026-09-25T21:07:38Z",
@@ -30,10 +30,10 @@
     }
   ],
   "usability_score": 85,
-  "snapshot_days": 7,
+  "snapshot_days": 8,
   "is_indexable": true,
   "first_seen_at": "2026-09-24T23:48:41.711Z",
   "tracking_tier": "hot",
-  "last_fetched_date": "2026-10-01",
-  "stars_stagnant_days": 1
+  "last_fetched_date": "2026-10-02",
+  "stars_stagnant_days": 2
 }

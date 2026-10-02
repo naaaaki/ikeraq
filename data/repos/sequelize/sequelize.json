@@ -26,11 +26,11 @@
     "typescript"
   ],
   "stars": 30359,
-  "forks": 4348,
+  "forks": 4347,
   "watchers": null,
   "open_issues": 1106,
   "created_at": "2010-07-22T07:11:11Z",
-  "pushed_at": "2026-09-29T01:01:04Z",
+  "pushed_at": "2026-10-02T00:21:37Z",
   "is_archived": false,
   "license_spdx": "MIT",
   "license_category": "permissive",
@@ -43,10 +43,10 @@
   "category": "data",
   "flags": [],
   "usability_score": 100,
-  "snapshot_days": 29,
+  "snapshot_days": 30,
   "is_indexable": true,
   "first_seen_at": "2026-09-02T23:02:41.773Z",
   "tracking_tier": "hot",
-  "last_fetched_date": "2026-10-01",
-  "stars_stagnant_days": 5
+  "last_fetched_date": "2026-10-02",
+  "stars_stagnant_days": 6
 }

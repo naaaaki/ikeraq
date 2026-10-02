@@ -17,11 +17,11 @@
     "spring-cloud-core"
   ],
   "stars": 4908,
-  "forks": 3476,
+  "forks": 3475,
   "watchers": null,
-  "open_issues": 551,
+  "open_issues": 554,
   "created_at": "2016-11-16T21:42:51Z",
-  "pushed_at": "2026-09-30T13:59:57Z",
+  "pushed_at": "2026-10-01T19:47:13Z",
   "is_archived": false,
   "license_spdx": "Apache-2.0",
   "license_category": "permissive",
@@ -34,10 +34,10 @@
   "category": "infra",
   "flags": [],
   "usability_score": 100,
-  "snapshot_days": 7,
+  "snapshot_days": 8,
   "is_indexable": true,
   "first_seen_at": "2026-09-24T23:48:41.712Z",
   "tracking_tier": "hot",
-  "last_fetched_date": "2026-10-01",
-  "stars_stagnant_days": 1
+  "last_fetched_date": "2026-10-02",
+  "stars_stagnant_days": 2
 }

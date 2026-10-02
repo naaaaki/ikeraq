@@ -19,8 +19,8 @@
     "unity",
     "unreal-engine"
   ],
-  "stars": 25580,
-  "forks": 3646,
+  "stars": 25624,
+  "forks": 3650,
   "watchers": null,
   "open_issues": 58,
   "created_at": "2026-02-12T05:21:38Z",
@@ -37,10 +37,10 @@
   "category": "ai-agent",
   "flags": [],
   "usability_score": 100,
-  "snapshot_days": 8,
+  "snapshot_days": 9,
   "is_indexable": true,
   "first_seen_at": "2026-09-23T23:28:32.618Z",
   "tracking_tier": "hot",
-  "last_fetched_date": "2026-10-01",
+  "last_fetched_date": "2026-10-02",
   "stars_stagnant_days": 0
 }

@@ -10,12 +10,12 @@
     "awesome-list",
     "docker-compose"
   ],
-  "stars": 46445,
+  "stars": 46449,
   "forks": 8333,
   "watchers": 491,
   "open_issues": 431,
   "created_at": "2020-02-13T08:51:42Z",
-  "pushed_at": "2026-09-22T02:54:12Z",
+  "pushed_at": "2026-10-01T18:54:49Z",
   "is_archived": false,
   "license_spdx": "CC0-1.0",
   "license_category": "permissive",
@@ -28,10 +28,10 @@
   "category": "infra",
   "flags": [],
   "usability_score": 100,
-  "snapshot_days": 32,
+  "snapshot_days": 33,
   "is_indexable": true,
   "first_seen_at": "2026-08-30T23:15:18.749Z",
   "tracking_tier": "hot",
-  "last_fetched_date": "2026-10-01",
+  "last_fetched_date": "2026-10-02",
   "stars_stagnant_days": 0
 }

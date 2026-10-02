@@ -6,7 +6,7 @@
   "human_note": null,
   "language": "Dart",
   "topics": [],
-  "stars": 4862,
+  "stars": 4864,
   "forks": 637,
   "watchers": 103,
   "open_issues": 106,
@@ -24,10 +24,10 @@
   "category": "other",
   "flags": [],
   "usability_score": 100,
-  "snapshot_days": 7,
+  "snapshot_days": 8,
   "is_indexable": true,
   "first_seen_at": "2026-09-24T23:48:41.713Z",
   "tracking_tier": "hot",
-  "last_fetched_date": "2026-10-01",
+  "last_fetched_date": "2026-10-02",
   "stars_stagnant_days": 0
 }

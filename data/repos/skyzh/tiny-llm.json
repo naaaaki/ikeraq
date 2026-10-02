@@ -14,7 +14,7 @@
     "serving",
     "vllm"
   ],
-  "stars": 4741,
+  "stars": 4745,
   "forks": 402,
   "watchers": null,
   "open_issues": 10,
@@ -32,10 +32,10 @@
   "category": "llm",
   "flags": [],
   "usability_score": 100,
-  "snapshot_days": 6,
-  "is_indexable": false,
+  "snapshot_days": 7,
+  "is_indexable": true,
   "first_seen_at": "2026-09-25T23:53:23.595Z",
   "tracking_tier": "hot",
-  "last_fetched_date": "2026-10-01",
+  "last_fetched_date": "2026-10-02",
   "stars_stagnant_days": 0
 }
