@@ -27,12 +27,12 @@
     "trading-agents",
     "trading-bot"
   ],
-  "stars": 1943,
-  "forks": 344,
+  "stars": 1959,
+  "forks": 345,
   "watchers": 20,
   "open_issues": 66,
   "created_at": "2026-01-23T13:34:00Z",
-  "pushed_at": "2026-10-01T06:58:49Z",
+  "pushed_at": "2026-10-03T12:13:30Z",
   "is_archived": false,
   "license_spdx": "MIT",
   "license_category": "permissive",
@@ -45,10 +45,10 @@
   "category": "ai-agent",
   "flags": [],
   "usability_score": 100,
-  "snapshot_days": 10,
+  "snapshot_days": 11,
   "is_indexable": true,
   "first_seen_at": "2026-09-23T23:28:32.615Z",
   "tracking_tier": "hot",
-  "last_fetched_date": "2026-10-03",
+  "last_fetched_date": "2026-10-04",
   "stars_stagnant_days": 0
 }

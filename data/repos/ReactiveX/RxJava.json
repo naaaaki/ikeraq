@@ -11,12 +11,12 @@
     "reactive-streams",
     "rxjava"
   ],
-  "stars": 48189,
+  "stars": 48185,
   "forks": 7585,
   "watchers": 2149,
   "open_issues": 11,
   "created_at": "2013-01-08T20:11:48Z",
-  "pushed_at": "2026-09-29T17:03:45Z",
+  "pushed_at": "2026-10-03T10:59:10Z",
   "is_archived": false,
   "license_spdx": "Apache-2.0",
   "license_category": "permissive",
@@ -29,10 +29,10 @@
   "category": "other",
   "flags": [],
   "usability_score": 100,
-  "snapshot_days": 32,
+  "snapshot_days": 33,
   "is_indexable": true,
   "first_seen_at": "2026-08-30T23:15:18.749Z",
   "tracking_tier": "normal",
-  "last_fetched_date": "2026-10-01",
+  "last_fetched_date": "2026-10-04",
   "stars_stagnant_days": 7
 }

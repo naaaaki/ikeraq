@@ -20,8 +20,8 @@
     "prompt-engineering",
     "writing-tools"
   ],
-  "stars": 53604,
-  "forks": 4270,
+  "stars": 53772,
+  "forks": 4278,
   "watchers": 256,
   "open_issues": 4,
   "created_at": "2026-01-18T05:30:15Z",
@@ -38,10 +38,10 @@
   "category": "ai-agent",
   "flags": [],
   "usability_score": 100,
-  "snapshot_days": 31,
+  "snapshot_days": 32,
   "is_indexable": true,
   "first_seen_at": "2026-09-02T23:02:41.509Z",
   "tracking_tier": "hot",
-  "last_fetched_date": "2026-10-03",
+  "last_fetched_date": "2026-10-04",
   "stars_stagnant_days": 0
 }

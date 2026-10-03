@@ -23,10 +23,10 @@
     "super-agent",
     "webui"
   ],
-  "stars": 35412,
-  "forks": 3153,
+  "stars": 35427,
+  "forks": 3151,
   "watchers": null,
-  "open_issues": 1009,
+  "open_issues": 1023,
   "created_at": "2026-02-24T03:42:56Z",
   "pushed_at": "2026-09-30T08:35:50Z",
   "is_archived": false,
@@ -41,10 +41,10 @@
   "category": "ai-agent",
   "flags": [],
   "usability_score": 100,
-  "snapshot_days": 33,
+  "snapshot_days": 34,
   "is_indexable": true,
   "first_seen_at": "2026-09-01T00:26:13.032Z",
   "tracking_tier": "hot",
-  "last_fetched_date": "2026-10-03",
+  "last_fetched_date": "2026-10-04",
   "stars_stagnant_days": 0
 }

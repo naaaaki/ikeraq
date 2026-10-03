@@ -21,7 +21,7 @@
     "traefik",
     "zookeeper"
   ],
-  "stars": 65049,
+  "stars": 65055,
   "forks": 6221,
   "watchers": null,
   "open_issues": 931,
@@ -39,10 +39,10 @@
   "category": "infra",
   "flags": [],
   "usability_score": 100,
-  "snapshot_days": 35,
+  "snapshot_days": 36,
   "is_indexable": true,
   "first_seen_at": "2026-08-29T23:02:08.747Z",
   "tracking_tier": "hot",
-  "last_fetched_date": "2026-10-03",
+  "last_fetched_date": "2026-10-04",
   "stars_stagnant_days": 0
 }

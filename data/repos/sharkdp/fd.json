@@ -16,12 +16,12 @@
     "terminal",
     "tool"
   ],
-  "stars": 44622,
+  "stars": 44630,
   "forks": 1150,
   "watchers": 154,
-  "open_issues": 204,
+  "open_issues": 203,
   "created_at": "2017-05-09T21:27:10Z",
-  "pushed_at": "2026-10-01T17:45:57Z",
+  "pushed_at": "2026-10-03T00:50:00Z",
   "is_archived": false,
   "license_spdx": "Apache-2.0",
   "license_category": "permissive",
@@ -34,10 +34,10 @@
   "category": "dev-tool",
   "flags": [],
   "usability_score": 100,
-  "snapshot_days": 34,
+  "snapshot_days": 35,
   "is_indexable": true,
   "first_seen_at": "2026-08-30T23:15:18.750Z",
   "tracking_tier": "hot",
-  "last_fetched_date": "2026-10-03",
+  "last_fetched_date": "2026-10-04",
   "stars_stagnant_days": 0
 }

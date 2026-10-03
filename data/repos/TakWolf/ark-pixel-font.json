@@ -23,7 +23,7 @@
     "pixel-font",
     "pixel-fonts"
   ],
-  "stars": 4764,
+  "stars": 4766,
   "forks": 100,
   "watchers": null,
   "open_issues": 5,
@@ -41,10 +41,10 @@
   "category": "other",
   "flags": [],
   "usability_score": 100,
-  "snapshot_days": 8,
+  "snapshot_days": 9,
   "is_indexable": true,
   "first_seen_at": "2026-09-25T23:53:23.595Z",
   "tracking_tier": "hot",
-  "last_fetched_date": "2026-10-03",
+  "last_fetched_date": "2026-10-04",
   "stars_stagnant_days": 0
 }

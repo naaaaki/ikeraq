@@ -16,12 +16,12 @@
     "style-tokens",
     "styleguide"
   ],
-  "stars": 4843,
-  "forks": 633,
+  "stars": 4846,
+  "forks": 634,
   "watchers": 50,
-  "open_issues": 242,
+  "open_issues": 238,
   "created_at": "2016-11-29T20:53:51Z",
-  "pushed_at": "2026-10-02T10:35:51Z",
+  "pushed_at": "2026-10-03T16:02:08Z",
   "is_archived": false,
   "license_spdx": "Apache-2.0",
   "license_category": "permissive",
@@ -34,10 +34,10 @@
   "category": "web-frontend",
   "flags": [],
   "usability_score": 100,
-  "snapshot_days": 8,
+  "snapshot_days": 9,
   "is_indexable": true,
   "first_seen_at": "2026-09-25T23:53:23.593Z",
   "tracking_tier": "hot",
-  "last_fetched_date": "2026-10-03",
-  "stars_stagnant_days": 1
+  "last_fetched_date": "2026-10-04",
+  "stars_stagnant_days": 0
 }

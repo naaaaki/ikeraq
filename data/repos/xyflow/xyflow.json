@@ -18,10 +18,10 @@
     "typescript-library",
     "workflow"
   ],
-  "stars": 38571,
-  "forks": 2539,
+  "stars": 38579,
+  "forks": 2542,
   "watchers": null,
-  "open_issues": 142,
+  "open_issues": 144,
   "created_at": "2019-07-15T14:47:30Z",
   "pushed_at": "2026-09-29T11:30:06Z",
   "is_archived": false,
@@ -36,10 +36,10 @@
   "category": "web-frontend",
   "flags": [],
   "usability_score": 100,
-  "snapshot_days": 33,
+  "snapshot_days": 34,
   "is_indexable": true,
   "first_seen_at": "2026-09-01T00:26:13.031Z",
   "tracking_tier": "hot",
-  "last_fetched_date": "2026-10-03",
+  "last_fetched_date": "2026-10-04",
   "stars_stagnant_days": 0
 }

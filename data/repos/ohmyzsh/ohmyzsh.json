@@ -22,10 +22,10 @@
     "zsh",
     "zsh-configuration"
   ],
-  "stars": 190042,
-  "forks": 28196,
+  "stars": 190090,
+  "forks": 28281,
   "watchers": null,
-  "open_issues": 303,
+  "open_issues": 302,
   "created_at": "2009-08-28T18:15:37Z",
   "pushed_at": "2026-09-29T15:38:41Z",
   "is_archived": false,
@@ -40,10 +40,10 @@
   "category": "dev-tool",
   "flags": [],
   "usability_score": 100,
-  "snapshot_days": 35,
+  "snapshot_days": 36,
   "is_indexable": true,
   "first_seen_at": "2026-08-29T15:46:21.820Z",
   "tracking_tier": "hot",
-  "last_fetched_date": "2026-10-03",
+  "last_fetched_date": "2026-10-04",
   "stars_stagnant_days": 0
 }

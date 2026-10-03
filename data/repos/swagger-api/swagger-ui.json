@@ -22,12 +22,12 @@
     "swagger-oss",
     "swagger-ui"
   ],
-  "stars": 29026,
-  "forks": 9252,
+  "stars": 29031,
+  "forks": 9253,
   "watchers": null,
-  "open_issues": 1138,
+  "open_issues": 1140,
   "created_at": "2011-07-15T22:56:39Z",
-  "pushed_at": "2026-10-01T23:03:28Z",
+  "pushed_at": "2026-10-03T23:02:18Z",
   "is_archived": false,
   "license_spdx": "Apache-2.0",
   "license_category": "permissive",
@@ -40,10 +40,10 @@
   "category": "web-frontend",
   "flags": [],
   "usability_score": 100,
-  "snapshot_days": 31,
+  "snapshot_days": 32,
   "is_indexable": true,
   "first_seen_at": "2026-09-02T23:02:41.773Z",
   "tracking_tier": "hot",
-  "last_fetched_date": "2026-10-03",
-  "stars_stagnant_days": 2
+  "last_fetched_date": "2026-10-04",
+  "stars_stagnant_days": 0
 }

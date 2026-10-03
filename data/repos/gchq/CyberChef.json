@@ -14,12 +14,12 @@
     "hashing",
     "parsing"
   ],
-  "stars": 36012,
+  "stars": 36018,
   "forks": 4164,
   "watchers": null,
-  "open_issues": 590,
+  "open_issues": 587,
   "created_at": "2016-11-28T10:34:07Z",
-  "pushed_at": "2026-10-02T17:52:21Z",
+  "pushed_at": "2026-10-03T10:34:20Z",
   "is_archived": false,
   "license_spdx": "Apache-2.0",
   "license_category": "permissive",
@@ -32,10 +32,10 @@
   "category": "other",
   "flags": [],
   "usability_score": 100,
-  "snapshot_days": 33,
+  "snapshot_days": 34,
   "is_indexable": true,
   "first_seen_at": "2026-09-01T00:26:13.032Z",
   "tracking_tier": "hot",
-  "last_fetched_date": "2026-10-03",
+  "last_fetched_date": "2026-10-04",
   "stars_stagnant_days": 0
 }

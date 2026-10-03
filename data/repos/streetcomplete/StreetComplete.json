@@ -13,12 +13,12 @@
     "osm",
     "survey"
   ],
-  "stars": 5005,
-  "forks": 459,
+  "stars": 5014,
+  "forks": 460,
   "watchers": 78,
-  "open_issues": 144,
+  "open_issues": 147,
   "created_at": "2016-07-02T10:44:04Z",
-  "pushed_at": "2026-10-02T10:53:28Z",
+  "pushed_at": "2026-10-03T17:35:49Z",
   "is_archived": false,
   "license_spdx": "GPL-3.0",
   "license_category": "strong-copyleft",
@@ -37,10 +37,10 @@
     }
   ],
   "usability_score": 85,
-  "snapshot_days": 8,
+  "snapshot_days": 9,
   "is_indexable": true,
   "first_seen_at": "2026-09-25T23:53:23.594Z",
   "tracking_tier": "hot",
-  "last_fetched_date": "2026-10-03",
+  "last_fetched_date": "2026-10-04",
   "stars_stagnant_days": 0
 }

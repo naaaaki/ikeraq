@@ -27,8 +27,8 @@
     "pi-coding-agent",
     "subagents"
   ],
-  "stars": 40164,
-  "forks": 4284,
+  "stars": 40180,
+  "forks": 4286,
   "watchers": null,
   "open_issues": 4,
   "created_at": "2025-07-24T23:28:14Z",
@@ -45,10 +45,10 @@
   "category": "ai-agent",
   "flags": [],
   "usability_score": 100,
-  "snapshot_days": 33,
+  "snapshot_days": 34,
   "is_indexable": true,
   "first_seen_at": "2026-09-01T00:26:13.031Z",
   "tracking_tier": "hot",
-  "last_fetched_date": "2026-10-03",
+  "last_fetched_date": "2026-10-04",
   "stars_stagnant_days": 0
 }

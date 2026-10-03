@@ -14,12 +14,12 @@
     "react",
     "react-native"
   ],
-  "stars": 39247,
+  "stars": 39252,
   "forks": 9032,
   "watchers": null,
-  "open_issues": 1044,
+  "open_issues": 1048,
   "created_at": "2015-06-15T06:50:02Z",
-  "pushed_at": "2026-10-02T23:13:51Z",
+  "pushed_at": "2026-10-03T19:04:44Z",
   "is_archived": false,
   "license_spdx": "NOASSERTION",
   "license_category": "unknown",
@@ -32,10 +32,10 @@
   "category": "web-frontend",
   "flags": [],
   "usability_score": 100,
-  "snapshot_days": 33,
+  "snapshot_days": 34,
   "is_indexable": true,
   "first_seen_at": "2026-09-01T00:26:13.031Z",
   "tracking_tier": "hot",
-  "last_fetched_date": "2026-10-03",
+  "last_fetched_date": "2026-10-04",
   "stars_stagnant_days": 0
 }

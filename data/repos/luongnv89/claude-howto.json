@@ -10,7 +10,7 @@
     "guide",
     "tutorial"
   ],
-  "stars": 41729,
+  "stars": 41734,
   "forks": 5118,
   "watchers": 189,
   "open_issues": 31,
@@ -28,10 +28,10 @@
   "category": "learning",
   "flags": [],
   "usability_score": 100,
-  "snapshot_days": 34,
+  "snapshot_days": 35,
   "is_indexable": true,
   "first_seen_at": "2026-08-30T23:15:18.750Z",
   "tracking_tier": "hot",
-  "last_fetched_date": "2026-10-03",
+  "last_fetched_date": "2026-10-04",
   "stars_stagnant_days": 0
 }

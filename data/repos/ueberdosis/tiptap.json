@@ -18,10 +18,10 @@
     "wysiwyg",
     "wysiwyg-editor"
   ],
-  "stars": 38624,
-  "forks": 3145,
+  "stars": 38633,
+  "forks": 3146,
   "watchers": null,
-  "open_issues": 832,
+  "open_issues": 835,
   "created_at": "2018-08-20T19:58:58Z",
   "pushed_at": "2026-10-02T15:22:30Z",
   "is_archived": false,
@@ -36,10 +36,10 @@
   "category": "web-frontend",
   "flags": [],
   "usability_score": 100,
-  "snapshot_days": 33,
+  "snapshot_days": 34,
   "is_indexable": true,
   "first_seen_at": "2026-09-01T00:26:13.031Z",
   "tracking_tier": "hot",
-  "last_fetched_date": "2026-10-03",
+  "last_fetched_date": "2026-10-04",
   "stars_stagnant_days": 0
 }

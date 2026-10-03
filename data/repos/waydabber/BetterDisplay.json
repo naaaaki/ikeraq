@@ -2,7 +2,7 @@
   "id": "waydabber/BetterDisplay",
   "owner": "waydabber",
   "name": "BetterDisplay",
-  "description_en": "Unlock your displays on your Mac! Flexible HiDPI scaling, XDR/HDR extra brightness, virtual screens, DDC control, extra dimming, PIP/streaming, EDID override and lots more!",
+  "description_en": "Unlock your displays on your Mac. Flexible HiDPI scaling, XDR/HDR extra brightness, virtual screens, DDC control, image adjustments, PIP/streaming, EDID override. More info -  betterdisplay.pro/guide",
   "human_note": null,
   "language": null,
   "topics": [
@@ -24,12 +24,12 @@
     "virtual",
     "xdr"
   ],
-  "stars": 33922,
+  "stars": 33935,
   "forks": 638,
   "watchers": 88,
-  "open_issues": 156,
+  "open_issues": 157,
   "created_at": "2021-10-24T08:32:56Z",
-  "pushed_at": "2026-10-02T21:16:53Z",
+  "pushed_at": "2026-10-03T06:26:43Z",
   "is_archived": false,
   "license_spdx": null,
   "license_category": "none",
@@ -48,10 +48,10 @@
     }
   ],
   "usability_score": 60,
-  "snapshot_days": 32,
+  "snapshot_days": 33,
   "is_indexable": true,
   "first_seen_at": "2026-09-01T23:05:22.650Z",
   "tracking_tier": "hot",
-  "last_fetched_date": "2026-10-03",
+  "last_fetched_date": "2026-10-04",
   "stars_stagnant_days": 0
 }

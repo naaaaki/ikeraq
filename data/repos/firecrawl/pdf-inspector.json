@@ -17,8 +17,8 @@
     "rust",
     "text-extraction"
   ],
-  "stars": 19459,
-  "forks": 1317,
+  "stars": 19472,
+  "forks": 1316,
   "watchers": 58,
   "open_issues": 228,
   "created_at": "2026-02-06T19:44:47Z",
@@ -35,10 +35,10 @@
   "category": "backend",
   "flags": [],
   "usability_score": 100,
-  "snapshot_days": 33,
+  "snapshot_days": 34,
   "is_indexable": true,
   "first_seen_at": "2026-09-01T00:26:13.030Z",
   "tracking_tier": "hot",
-  "last_fetched_date": "2026-10-03",
+  "last_fetched_date": "2026-10-04",
   "stars_stagnant_days": 0
 }

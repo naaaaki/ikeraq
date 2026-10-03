@@ -24,9 +24,9 @@
     "wai-aria"
   ],
   "stars": 40674,
-  "forks": 3649,
+  "forks": 3646,
   "watchers": 202,
-  "open_issues": 16,
+  "open_issues": 18,
   "created_at": "2019-08-17T14:27:54Z",
   "pushed_at": "2026-09-24T06:11:42Z",
   "is_archived": false,
@@ -41,10 +41,10 @@
   "category": "web-frontend",
   "flags": [],
   "usability_score": 100,
-  "snapshot_days": 32,
+  "snapshot_days": 33,
   "is_indexable": true,
   "first_seen_at": "2026-08-30T23:15:18.750Z",
   "tracking_tier": "normal",
-  "last_fetched_date": "2026-10-01",
+  "last_fetched_date": "2026-10-04",
   "stars_stagnant_days": 1
 }

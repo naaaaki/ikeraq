@@ -17,7 +17,7 @@
     "umi"
   ],
   "stars": 38828,
-  "forks": 8256,
+  "forks": 8255,
   "watchers": 743,
   "open_issues": 51,
   "created_at": "2017-08-25T10:40:44Z",
@@ -34,10 +34,10 @@
   "category": "web-frontend",
   "flags": [],
   "usability_score": 100,
-  "snapshot_days": 33,
+  "snapshot_days": 34,
   "is_indexable": true,
   "first_seen_at": "2026-09-01T00:26:13.031Z",
-  "tracking_tier": "hot",
-  "last_fetched_date": "2026-10-03",
-  "stars_stagnant_days": 0
+  "tracking_tier": "normal",
+  "last_fetched_date": "2026-10-04",
+  "stars_stagnant_days": 1
 }

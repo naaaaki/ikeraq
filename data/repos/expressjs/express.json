@@ -11,10 +11,10 @@
     "nodejs",
     "server"
   ],
-  "stars": 69503,
-  "forks": 25128,
+  "stars": 69501,
+  "forks": 25139,
   "watchers": 1706,
-  "open_issues": 238,
+  "open_issues": 240,
   "created_at": "2009-06-26T18:56:01Z",
   "pushed_at": "2026-10-01T22:08:08Z",
   "is_archived": false,
@@ -29,10 +29,10 @@
   "category": "backend",
   "flags": [],
   "usability_score": 100,
-  "snapshot_days": 32,
+  "snapshot_days": 33,
   "is_indexable": true,
   "first_seen_at": "2026-09-01T23:05:22.650Z",
-  "tracking_tier": "hot",
-  "last_fetched_date": "2026-10-03",
-  "stars_stagnant_days": 0
+  "tracking_tier": "normal",
+  "last_fetched_date": "2026-10-04",
+  "stars_stagnant_days": 1
 }

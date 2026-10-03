@@ -14,12 +14,12 @@
     "language",
     "programming-language"
   ],
-  "stars": 33898,
-  "forks": 1696,
+  "stars": 33896,
+  "forks": 1695,
   "watchers": null,
-  "open_issues": 258,
+  "open_issues": 260,
   "created_at": "2020-04-27T21:45:16Z",
-  "pushed_at": "2026-10-02T19:15:11Z",
+  "pushed_at": "2026-10-03T03:33:21Z",
   "is_archived": false,
   "license_spdx": "NOASSERTION",
   "license_category": "unknown",
@@ -32,10 +32,10 @@
   "category": "dev-tool",
   "flags": [],
   "usability_score": 100,
-  "snapshot_days": 32,
+  "snapshot_days": 33,
   "is_indexable": true,
   "first_seen_at": "2026-09-01T23:05:22.650Z",
-  "tracking_tier": "hot",
-  "last_fetched_date": "2026-10-03",
-  "stars_stagnant_days": 0
+  "tracking_tier": "normal",
+  "last_fetched_date": "2026-10-04",
+  "stars_stagnant_days": 1
 }

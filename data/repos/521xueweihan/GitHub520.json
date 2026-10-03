@@ -10,12 +10,12 @@
     "github",
     "hosts"
   ],
-  "stars": 29930,
-  "forks": 2762,
+  "stars": 29938,
+  "forks": 2761,
   "watchers": null,
   "open_issues": 23,
   "created_at": "2020-05-13T07:25:21Z",
-  "pushed_at": "2026-10-02T22:15:52Z",
+  "pushed_at": "2026-10-03T22:57:17Z",
   "is_archived": false,
   "license_spdx": null,
   "license_category": "none",
@@ -34,10 +34,10 @@
     }
   ],
   "usability_score": 60,
-  "snapshot_days": 31,
+  "snapshot_days": 32,
   "is_indexable": true,
   "first_seen_at": "2026-09-02T23:02:41.773Z",
   "tracking_tier": "hot",
-  "last_fetched_date": "2026-10-03",
+  "last_fetched_date": "2026-10-04",
   "stars_stagnant_days": 0
 }

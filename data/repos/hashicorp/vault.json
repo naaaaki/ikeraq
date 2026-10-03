@@ -10,10 +10,10 @@
     "secrets",
     "vault"
   ],
-  "stars": 36335,
-  "forks": 4773,
+  "stars": 36336,
+  "forks": 4775,
   "watchers": null,
-  "open_issues": 1448,
+  "open_issues": 1451,
   "created_at": "2015-02-25T00:15:59Z",
   "pushed_at": "2026-10-02T22:02:52Z",
   "is_archived": false,
@@ -28,10 +28,10 @@
   "category": "other",
   "flags": [],
   "usability_score": 100,
-  "snapshot_days": 33,
+  "snapshot_days": 34,
   "is_indexable": true,
   "first_seen_at": "2026-09-01T00:26:13.032Z",
   "tracking_tier": "hot",
-  "last_fetched_date": "2026-10-03",
+  "last_fetched_date": "2026-10-04",
   "stars_stagnant_days": 0
 }

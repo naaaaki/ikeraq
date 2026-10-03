@@ -18,10 +18,10 @@
     "vuejs",
     "windows"
   ],
-  "stars": 36424,
-  "forks": 1874,
+  "stars": 36435,
+  "forks": 1873,
   "watchers": null,
-  "open_issues": 367,
+  "open_issues": 370,
   "created_at": "2018-12-15T23:14:06Z",
   "pushed_at": "2026-10-03T00:08:27Z",
   "is_archived": false,
@@ -36,10 +36,10 @@
   "category": "web-frontend",
   "flags": [],
   "usability_score": 100,
-  "snapshot_days": 33,
+  "snapshot_days": 34,
   "is_indexable": true,
   "first_seen_at": "2026-09-01T00:26:13.032Z",
   "tracking_tier": "hot",
-  "last_fetched_date": "2026-10-03",
+  "last_fetched_date": "2026-10-04",
   "stars_stagnant_days": 0
 }

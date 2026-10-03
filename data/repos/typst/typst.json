@@ -11,7 +11,7 @@
     "typesetting",
     "typst"
   ],
-  "stars": 56382,
+  "stars": 56397,
   "forks": 1735,
   "watchers": null,
   "open_issues": 1290,
@@ -29,10 +29,10 @@
   "category": "dev-tool",
   "flags": [],
   "usability_score": 100,
-  "snapshot_days": 35,
+  "snapshot_days": 36,
   "is_indexable": true,
   "first_seen_at": "2026-08-29T23:02:08.747Z",
   "tracking_tier": "hot",
-  "last_fetched_date": "2026-10-03",
+  "last_fetched_date": "2026-10-04",
   "stars_stagnant_days": 0
 }

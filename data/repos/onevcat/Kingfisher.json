@@ -19,9 +19,9 @@
   "stars": 24404,
   "forks": 2769,
   "watchers": 358,
-  "open_issues": 169,
+  "open_issues": 168,
   "created_at": "2015-04-06T14:26:21Z",
-  "pushed_at": "2026-09-26T12:51:37Z",
+  "pushed_at": "2026-10-03T15:18:49Z",
   "is_archived": false,
   "license_spdx": "MIT",
   "license_category": "permissive",
@@ -34,10 +34,10 @@
   "category": "mobile",
   "flags": [],
   "usability_score": 100,
-  "snapshot_days": 10,
+  "snapshot_days": 11,
   "is_indexable": true,
   "first_seen_at": "2026-09-23T23:28:32.618Z",
   "tracking_tier": "hot",
-  "last_fetched_date": "2026-10-03",
-  "stars_stagnant_days": 0
+  "last_fetched_date": "2026-10-04",
+  "stars_stagnant_days": 1
 }

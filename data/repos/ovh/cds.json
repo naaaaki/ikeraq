@@ -15,7 +15,7 @@
     "golang",
     "hacktoberfest"
   ],
-  "stars": 4845,
+  "stars": 4846,
   "forks": 453,
   "watchers": null,
   "open_issues": 163,
@@ -33,10 +33,10 @@
   "category": "infra",
   "flags": [],
   "usability_score": 100,
-  "snapshot_days": 9,
+  "snapshot_days": 10,
   "is_indexable": true,
   "first_seen_at": "2026-09-24T23:48:41.713Z",
   "tracking_tier": "hot",
-  "last_fetched_date": "2026-10-03",
-  "stars_stagnant_days": 4
+  "last_fetched_date": "2026-10-04",
+  "stars_stagnant_days": 0
 }

@@ -23,7 +23,7 @@
     "web3"
   ],
   "stars": 29353,
-  "forks": 1802,
+  "forks": 1801,
   "watchers": 169,
   "open_issues": 7,
   "created_at": "2022-03-19T15:01:46Z",
@@ -46,10 +46,10 @@
     }
   ],
   "usability_score": 85,
-  "snapshot_days": 26,
+  "snapshot_days": 27,
   "is_indexable": true,
   "first_seen_at": "2026-09-07T23:19:48.976Z",
   "tracking_tier": "hot",
-  "last_fetched_date": "2026-10-03",
-  "stars_stagnant_days": 5
+  "last_fetched_date": "2026-10-04",
+  "stars_stagnant_days": 6
 }

@@ -17,12 +17,12 @@
     "skills",
     "workflow-automation"
   ],
-  "stars": 33854,
-  "forks": 3240,
+  "stars": 33896,
+  "forks": 3242,
   "watchers": 136,
   "open_issues": 34,
   "created_at": "2026-04-25T09:19:13Z",
-  "pushed_at": "2026-09-24T08:01:10Z",
+  "pushed_at": "2026-10-03T09:56:12Z",
   "is_archived": false,
   "license_spdx": "MIT",
   "license_category": "permissive",
@@ -35,10 +35,10 @@
   "category": "ai-agent",
   "flags": [],
   "usability_score": 100,
-  "snapshot_days": 35,
+  "snapshot_days": 36,
   "is_indexable": true,
   "first_seen_at": "2026-08-29T15:46:19.452Z",
   "tracking_tier": "hot",
-  "last_fetched_date": "2026-10-03",
+  "last_fetched_date": "2026-10-04",
   "stars_stagnant_days": 0
 }

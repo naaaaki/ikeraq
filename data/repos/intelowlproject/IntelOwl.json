@@ -28,9 +28,9 @@
     "threatintel"
   ],
   "stars": 4737,
-  "forks": 684,
+  "forks": 685,
   "watchers": 84,
-  "open_issues": 72,
+  "open_issues": 76,
   "created_at": "2019-12-31T15:18:52Z",
   "pushed_at": "2026-10-01T08:30:19Z",
   "is_archived": false,
@@ -51,10 +51,10 @@
     }
   ],
   "usability_score": 85,
-  "snapshot_days": 8,
+  "snapshot_days": 9,
   "is_indexable": true,
   "first_seen_at": "2026-09-25T23:53:23.595Z",
   "tracking_tier": "hot",
-  "last_fetched_date": "2026-10-03",
-  "stars_stagnant_days": 1
+  "last_fetched_date": "2026-10-04",
+  "stars_stagnant_days": 2
 }

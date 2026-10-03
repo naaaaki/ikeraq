@@ -17,12 +17,12 @@
     "system-design",
     "system-design-interview"
   ],
-  "stars": 29266,
-  "forks": 3812,
+  "stars": 29273,
+  "forks": 3811,
   "watchers": null,
   "open_issues": 0,
   "created_at": "2024-02-15T12:36:21Z",
-  "pushed_at": "2026-10-02T08:42:21Z",
+  "pushed_at": "2026-10-03T11:54:22Z",
   "is_archived": false,
   "license_spdx": "NOASSERTION",
   "license_category": "unknown",
@@ -35,10 +35,10 @@
   "category": "web-frontend",
   "flags": [],
   "usability_score": 100,
-  "snapshot_days": 31,
+  "snapshot_days": 32,
   "is_indexable": true,
   "first_seen_at": "2026-09-02T23:02:41.773Z",
   "tracking_tier": "hot",
-  "last_fetched_date": "2026-10-03",
+  "last_fetched_date": "2026-10-04",
   "stars_stagnant_days": 0
 }

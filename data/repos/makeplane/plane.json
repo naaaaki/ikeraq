@@ -27,10 +27,10 @@
     "vite",
     "work-management"
   ],
-  "stars": 60291,
-  "forks": 5954,
+  "stars": 60331,
+  "forks": 5961,
   "watchers": null,
-  "open_issues": 1067,
+  "open_issues": 1070,
   "created_at": "2022-11-19T12:55:01Z",
   "pushed_at": "2026-10-01T10:43:52Z",
   "is_archived": false,
@@ -51,10 +51,10 @@
     }
   ],
   "usability_score": 85,
-  "snapshot_days": 35,
+  "snapshot_days": 36,
   "is_indexable": true,
   "first_seen_at": "2026-08-29T23:02:08.747Z",
   "tracking_tier": "hot",
-  "last_fetched_date": "2026-10-03",
+  "last_fetched_date": "2026-10-04",
   "stars_stagnant_days": 0
 }

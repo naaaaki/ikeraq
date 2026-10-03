@@ -27,12 +27,12 @@
     "simulator",
     "webots"
   ],
-  "stars": 4685,
+  "stars": 4688,
   "forks": 2073,
   "watchers": null,
-  "open_issues": 232,
+  "open_issues": 229,
   "created_at": "2018-11-05T14:09:10Z",
-  "pushed_at": "2026-10-02T23:17:28Z",
+  "pushed_at": "2026-10-03T20:41:22Z",
   "is_archived": false,
   "license_spdx": "Apache-2.0",
   "license_category": "permissive",
@@ -45,10 +45,10 @@
   "category": "other",
   "flags": [],
   "usability_score": 100,
-  "snapshot_days": 8,
+  "snapshot_days": 9,
   "is_indexable": true,
   "first_seen_at": "2026-09-25T23:53:23.596Z",
   "tracking_tier": "hot",
-  "last_fetched_date": "2026-10-03",
-  "stars_stagnant_days": 1
+  "last_fetched_date": "2026-10-04",
+  "stars_stagnant_days": 0
 }

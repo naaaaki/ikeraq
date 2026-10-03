@@ -11,9 +11,9 @@
     "php"
   ],
   "stars": 34949,
-  "forks": 12008,
+  "forks": 12007,
   "watchers": null,
-  "open_issues": 95,
+  "open_issues": 114,
   "created_at": "2013-01-10T21:27:28Z",
   "pushed_at": "2026-10-02T20:24:51Z",
   "is_archived": false,
@@ -28,10 +28,10 @@
   "category": "backend",
   "flags": [],
   "usability_score": 100,
-  "snapshot_days": 33,
+  "snapshot_days": 34,
   "is_indexable": true,
   "first_seen_at": "2026-09-01T00:26:13.032Z",
-  "tracking_tier": "hot",
-  "last_fetched_date": "2026-10-03",
-  "stars_stagnant_days": 0
+  "tracking_tier": "normal",
+  "last_fetched_date": "2026-10-04",
+  "stars_stagnant_days": 1
 }

@@ -27,7 +27,7 @@
     "xposed",
     "xposed-module"
   ],
-  "stars": 5055,
+  "stars": 5065,
   "forks": 300,
   "watchers": 56,
   "open_issues": 0,
@@ -45,10 +45,10 @@
   "category": "mobile",
   "flags": [],
   "usability_score": 100,
-  "snapshot_days": 8,
+  "snapshot_days": 9,
   "is_indexable": true,
   "first_seen_at": "2026-09-25T23:53:23.595Z",
   "tracking_tier": "hot",
-  "last_fetched_date": "2026-10-03",
+  "last_fetched_date": "2026-10-04",
   "stars_stagnant_days": 0
 }
