@@ -13,9 +13,9 @@
     "developer-tools",
     "productivity"
   ],
-  "stars": 52718,
-  "forks": 3033,
-  "watchers": 161,
+  "stars": 52942,
+  "forks": 3046,
+  "watchers": 160,
   "open_issues": 79,
   "created_at": "2026-05-13T20:42:06Z",
   "pushed_at": "2026-09-19T16:44:46Z",
@@ -31,10 +31,10 @@
   "category": "dev-tool",
   "flags": [],
   "usability_score": 100,
-  "snapshot_days": 29,
+  "snapshot_days": 30,
   "is_indexable": true,
   "first_seen_at": "2026-09-03T23:03:15.575Z",
   "tracking_tier": "hot",
-  "last_fetched_date": "2026-10-02",
+  "last_fetched_date": "2026-10-03",
   "stars_stagnant_days": 0
 }

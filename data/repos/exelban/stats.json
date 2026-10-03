@@ -21,12 +21,12 @@
     "stats",
     "temperature"
   ],
-  "stars": 42256,
+  "stars": 42276,
   "forks": 1557,
   "watchers": null,
-  "open_issues": 31,
+  "open_issues": 30,
   "created_at": "2019-05-29T19:24:56Z",
-  "pushed_at": "2026-10-01T18:18:32Z",
+  "pushed_at": "2026-10-02T19:39:18Z",
   "is_archived": false,
   "license_spdx": "MIT",
   "license_category": "permissive",
@@ -39,10 +39,10 @@
   "category": "other",
   "flags": [],
   "usability_score": 100,
-  "snapshot_days": 33,
+  "snapshot_days": 34,
   "is_indexable": true,
   "first_seen_at": "2026-08-30T23:15:18.750Z",
   "tracking_tier": "hot",
-  "last_fetched_date": "2026-10-02",
+  "last_fetched_date": "2026-10-03",
   "stars_stagnant_days": 0
 }

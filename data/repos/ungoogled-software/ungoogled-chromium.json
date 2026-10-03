@@ -14,12 +14,12 @@
     "privacy",
     "transparency"
   ],
-  "stars": 27850,
-  "forks": 1258,
+  "stars": 27853,
+  "forks": 1257,
   "watchers": 310,
   "open_issues": 182,
   "created_at": "2015-06-12T22:24:24Z",
-  "pushed_at": "2026-10-01T11:50:25Z",
+  "pushed_at": "2026-10-02T19:24:39Z",
   "is_archived": false,
   "license_spdx": "BSD-3-Clause",
   "license_category": "permissive",
@@ -32,10 +32,10 @@
   "category": "other",
   "flags": [],
   "usability_score": 100,
-  "snapshot_days": 30,
+  "snapshot_days": 31,
   "is_indexable": true,
   "first_seen_at": "2026-09-02T23:02:41.773Z",
   "tracking_tier": "hot",
-  "last_fetched_date": "2026-10-02",
+  "last_fetched_date": "2026-10-03",
   "stars_stagnant_days": 0
 }

@@ -16,9 +16,9 @@
     "swift",
     "xcode"
   ],
-  "stars": 24402,
+  "stars": 24404,
   "forks": 2769,
-  "watchers": null,
+  "watchers": 358,
   "open_issues": 169,
   "created_at": "2015-04-06T14:26:21Z",
   "pushed_at": "2026-09-26T12:51:37Z",
@@ -34,10 +34,10 @@
   "category": "mobile",
   "flags": [],
   "usability_score": 100,
-  "snapshot_days": 9,
+  "snapshot_days": 10,
   "is_indexable": true,
   "first_seen_at": "2026-09-23T23:28:32.618Z",
   "tracking_tier": "hot",
-  "last_fetched_date": "2026-10-02",
-  "stars_stagnant_days": 2
+  "last_fetched_date": "2026-10-03",
+  "stars_stagnant_days": 0
 }

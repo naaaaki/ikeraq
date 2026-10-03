@@ -15,12 +15,12 @@
     "os",
     "zeroclaw"
   ],
-  "stars": 32928,
-  "forks": 4955,
+  "stars": 32925,
+  "forks": 4954,
   "watchers": null,
-  "open_issues": 848,
+  "open_issues": 896,
   "created_at": "2026-02-13T08:56:04Z",
-  "pushed_at": "2026-10-02T00:32:19Z",
+  "pushed_at": "2026-10-03T00:08:20Z",
   "is_archived": false,
   "license_spdx": "Apache-2.0",
   "license_category": "permissive",
@@ -33,10 +33,10 @@
   "category": "ai-agent",
   "flags": [],
   "usability_score": 100,
-  "snapshot_days": 31,
+  "snapshot_days": 32,
   "is_indexable": true,
   "first_seen_at": "2026-09-01T23:05:22.650Z",
-  "tracking_tier": "hot",
-  "last_fetched_date": "2026-10-02",
-  "stars_stagnant_days": 0
+  "tracking_tier": "normal",
+  "last_fetched_date": "2026-10-03",
+  "stars_stagnant_days": 1
 }

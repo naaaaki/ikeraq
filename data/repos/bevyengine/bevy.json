@@ -13,12 +13,12 @@
     "open-source",
     "rust"
   ],
-  "stars": 48534,
+  "stars": 48552,
   "forks": 4872,
   "watchers": null,
-  "open_issues": 3439,
+  "open_issues": 3446,
   "created_at": "2020-01-18T21:13:55Z",
-  "pushed_at": "2026-10-02T00:31:18Z",
+  "pushed_at": "2026-10-02T22:50:10Z",
   "is_archived": false,
   "license_spdx": "Apache-2.0",
   "license_category": "permissive",
@@ -31,10 +31,10 @@
   "category": "game",
   "flags": [],
   "usability_score": 100,
-  "snapshot_days": 33,
+  "snapshot_days": 34,
   "is_indexable": true,
   "first_seen_at": "2026-08-30T23:15:18.749Z",
   "tracking_tier": "hot",
-  "last_fetched_date": "2026-10-02",
+  "last_fetched_date": "2026-10-03",
   "stars_stagnant_days": 0
 }

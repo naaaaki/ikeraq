@@ -25,12 +25,12 @@
     "vector-similarity",
     "vector-store"
   ],
-  "stars": 46298,
+  "stars": 46305,
   "forks": 4279,
   "watchers": null,
-  "open_issues": 1433,
+  "open_issues": 1436,
   "created_at": "2019-09-16T06:43:43Z",
-  "pushed_at": "2026-09-30T18:39:37Z",
+  "pushed_at": "2026-10-02T02:55:37Z",
   "is_archived": false,
   "license_spdx": "Apache-2.0",
   "license_category": "permissive",
@@ -43,10 +43,10 @@
   "category": "llm",
   "flags": [],
   "usability_score": 100,
-  "snapshot_days": 33,
+  "snapshot_days": 34,
   "is_indexable": true,
   "first_seen_at": "2026-08-30T23:15:18.750Z",
   "tracking_tier": "hot",
-  "last_fetched_date": "2026-10-02",
+  "last_fetched_date": "2026-10-03",
   "stars_stagnant_days": 0
 }

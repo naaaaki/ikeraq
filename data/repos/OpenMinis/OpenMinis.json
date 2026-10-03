@@ -6,10 +6,10 @@
   "human_note": null,
   "language": "Swift",
   "topics": [],
-  "stars": 4849,
-  "forks": 594,
+  "stars": 4869,
+  "forks": 597,
   "watchers": null,
-  "open_issues": 219,
+  "open_issues": 222,
   "created_at": "2026-04-25T14:35:18Z",
   "pushed_at": "2026-10-01T14:51:28Z",
   "is_archived": false,
@@ -30,10 +30,10 @@
     }
   ],
   "usability_score": 85,
-  "snapshot_days": 6,
+  "snapshot_days": 7,
   "is_indexable": true,
   "first_seen_at": "2026-09-26T23:25:20.109Z",
   "tracking_tier": "hot",
-  "last_fetched_date": "2026-10-02",
+  "last_fetched_date": "2026-10-03",
   "stars_stagnant_days": 0
 }

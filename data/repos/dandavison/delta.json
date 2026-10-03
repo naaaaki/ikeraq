@@ -15,7 +15,7 @@
     "rust",
     "syntax-highlighter"
   ],
-  "stars": 32396,
+  "stars": 32403,
   "forks": 589,
   "watchers": 115,
   "open_issues": 465,
@@ -33,10 +33,10 @@
   "category": "dev-tool",
   "flags": [],
   "usability_score": 100,
-  "snapshot_days": 30,
+  "snapshot_days": 31,
   "is_indexable": true,
   "first_seen_at": "2026-09-02T23:02:41.773Z",
   "tracking_tier": "hot",
-  "last_fetched_date": "2026-10-02",
+  "last_fetched_date": "2026-10-03",
   "stars_stagnant_days": 0
 }

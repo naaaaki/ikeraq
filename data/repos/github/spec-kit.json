@@ -14,12 +14,12 @@
     "spec",
     "spec-driven"
   ],
-  "stars": 139730,
+  "stars": 139857,
   "forks": 12519,
   "watchers": null,
-  "open_issues": 276,
+  "open_issues": 267,
   "created_at": "2025-08-21T22:54:31Z",
-  "pushed_at": "2026-10-01T22:00:04Z",
+  "pushed_at": "2026-10-02T21:53:34Z",
   "is_archived": false,
   "license_spdx": "MIT",
   "license_category": "permissive",
@@ -32,10 +32,10 @@
   "category": "ai-agent",
   "flags": [],
   "usability_score": 100,
-  "snapshot_days": 34,
+  "snapshot_days": 35,
   "is_indexable": true,
   "first_seen_at": "2026-08-29T15:46:21.820Z",
   "tracking_tier": "hot",
-  "last_fetched_date": "2026-10-02",
+  "last_fetched_date": "2026-10-03",
   "stars_stagnant_days": 0
 }

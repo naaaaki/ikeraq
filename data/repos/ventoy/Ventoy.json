@@ -25,8 +25,8 @@
     "x86",
     "x86-64"
   ],
-  "stars": 79660,
-  "forks": 4958,
+  "stars": 79677,
+  "forks": 4957,
   "watchers": null,
   "open_issues": 1037,
   "created_at": "2020-03-10T15:19:19Z",
@@ -49,10 +49,10 @@
     }
   ],
   "usability_score": 85,
-  "snapshot_days": 1,
+  "snapshot_days": 2,
   "is_indexable": true,
   "first_seen_at": "2026-10-02T00:34:58.804Z",
   "tracking_tier": "hot",
-  "last_fetched_date": "2026-10-02",
+  "last_fetched_date": "2026-10-03",
   "stars_stagnant_days": 0
 }

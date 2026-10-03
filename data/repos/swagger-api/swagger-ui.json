@@ -23,7 +23,7 @@
     "swagger-ui"
   ],
   "stars": 29026,
-  "forks": 9254,
+  "forks": 9252,
   "watchers": null,
   "open_issues": 1138,
   "created_at": "2011-07-15T22:56:39Z",
@@ -40,10 +40,10 @@
   "category": "web-frontend",
   "flags": [],
   "usability_score": 100,
-  "snapshot_days": 30,
+  "snapshot_days": 31,
   "is_indexable": true,
   "first_seen_at": "2026-09-02T23:02:41.773Z",
   "tracking_tier": "hot",
-  "last_fetched_date": "2026-10-02",
-  "stars_stagnant_days": 1
+  "last_fetched_date": "2026-10-03",
+  "stars_stagnant_days": 2
 }

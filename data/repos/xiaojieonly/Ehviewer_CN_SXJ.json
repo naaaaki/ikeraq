@@ -22,7 +22,7 @@
     "java",
     "screenshot"
   ],
-  "stars": 27278,
+  "stars": 27320,
   "forks": 717,
   "watchers": 220,
   "open_issues": 549,
@@ -40,10 +40,10 @@
   "category": "mobile",
   "flags": [],
   "usability_score": 100,
-  "snapshot_days": 29,
+  "snapshot_days": 30,
   "is_indexable": true,
   "first_seen_at": "2026-09-03T23:03:15.575Z",
   "tracking_tier": "hot",
-  "last_fetched_date": "2026-10-02",
+  "last_fetched_date": "2026-10-03",
   "stars_stagnant_days": 0
 }

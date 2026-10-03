@@ -23,11 +23,11 @@
     "vulnerability-management"
   ],
   "stars": 4975,
-  "forks": 1954,
+  "forks": 1955,
   "watchers": null,
-  "open_issues": 238,
+  "open_issues": 228,
   "created_at": "2015-02-19T17:53:47Z",
-  "pushed_at": "2026-10-01T21:40:12Z",
+  "pushed_at": "2026-10-02T23:22:43Z",
   "is_archived": false,
   "license_spdx": "BSD-3-Clause",
   "license_category": "permissive",
@@ -40,10 +40,10 @@
   "category": "security",
   "flags": [],
   "usability_score": 100,
-  "snapshot_days": 8,
+  "snapshot_days": 9,
   "is_indexable": true,
   "first_seen_at": "2026-09-24T23:48:41.712Z",
   "tracking_tier": "hot",
-  "last_fetched_date": "2026-10-02",
-  "stars_stagnant_days": 0
+  "last_fetched_date": "2026-10-03",
+  "stars_stagnant_days": 1
 }

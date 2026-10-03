@@ -27,12 +27,12 @@
     "workflow",
     "workflow-automation"
   ],
-  "stars": 206469,
-  "forks": 60976,
+  "stars": 206521,
+  "forks": 60973,
   "watchers": null,
   "open_issues": 1116,
   "created_at": "2019-06-22T09:24:21Z",
-  "pushed_at": "2026-10-01T23:11:49Z",
+  "pushed_at": "2026-10-02T23:43:08Z",
   "is_archived": false,
   "license_spdx": "NOASSERTION",
   "license_category": "unknown",
@@ -45,10 +45,10 @@
   "category": "ai-agent",
   "flags": [],
   "usability_score": 100,
-  "snapshot_days": 34,
+  "snapshot_days": 35,
   "is_indexable": true,
   "first_seen_at": "2026-08-29T15:46:21.820Z",
   "tracking_tier": "hot",
-  "last_fetched_date": "2026-10-02",
+  "last_fetched_date": "2026-10-03",
   "stars_stagnant_days": 0
 }

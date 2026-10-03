@@ -4,7 +4,7 @@
   "name": "InvokeAI",
   "description_en": "Invoke is a leading creative engine for Stable Diffusion models, empowering professionals, artists, and enthusiasts to generate and create visual media using the latest AI-driven technologies. The solution offers an industry leading WebUI, and serves as the foundation for multiple commercial products.",
   "human_note": null,
-  "language": "Python",
+  "language": "TypeScript",
   "topics": [
     "ai-art",
     "artificial-intelligence",
@@ -20,12 +20,12 @@
     "txt2img",
     "windows"
   ],
-  "stars": 28325,
+  "stars": 28332,
   "forks": 2986,
   "watchers": 211,
-  "open_issues": 384,
+  "open_issues": 388,
   "created_at": "2022-08-17T01:04:27Z",
-  "pushed_at": "2026-10-02T00:11:49Z",
+  "pushed_at": "2026-10-03T00:08:01Z",
   "is_archived": false,
   "license_spdx": "Apache-2.0",
   "license_category": "permissive",
@@ -38,10 +38,10 @@
   "category": "other",
   "flags": [],
   "usability_score": 100,
-  "snapshot_days": 30,
+  "snapshot_days": 31,
   "is_indexable": true,
   "first_seen_at": "2026-09-02T23:02:41.773Z",
   "tracking_tier": "hot",
-  "last_fetched_date": "2026-10-02",
+  "last_fetched_date": "2026-10-03",
   "stars_stagnant_days": 0
 }

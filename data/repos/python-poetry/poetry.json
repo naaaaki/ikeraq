@@ -12,10 +12,10 @@
     "poetry",
     "python"
   ],
-  "stars": 34306,
-  "forks": 2523,
+  "stars": 34307,
+  "forks": 2524,
   "watchers": null,
-  "open_issues": 584,
+  "open_issues": 588,
   "created_at": "2018-02-28T15:23:47Z",
   "pushed_at": "2026-09-28T22:20:09Z",
   "is_archived": false,
@@ -30,10 +30,10 @@
   "category": "dev-tool",
   "flags": [],
   "usability_score": 100,
-  "snapshot_days": 31,
+  "snapshot_days": 32,
   "is_indexable": true,
   "first_seen_at": "2026-09-01T23:05:22.650Z",
   "tracking_tier": "hot",
-  "last_fetched_date": "2026-10-02",
-  "stars_stagnant_days": 2
+  "last_fetched_date": "2026-10-03",
+  "stars_stagnant_days": 0
 }

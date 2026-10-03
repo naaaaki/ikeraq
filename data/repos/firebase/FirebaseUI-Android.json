@@ -10,7 +10,7 @@
     "firebase",
     "ui"
   ],
-  "stars": 4807,
+  "stars": 4806,
   "forks": 1870,
   "watchers": 296,
   "open_issues": 12,
@@ -28,10 +28,10 @@
   "category": "web-frontend",
   "flags": [],
   "usability_score": 100,
-  "snapshot_days": 7,
+  "snapshot_days": 8,
   "is_indexable": true,
   "first_seen_at": "2026-09-25T23:53:23.594Z",
   "tracking_tier": "hot",
-  "last_fetched_date": "2026-10-02",
-  "stars_stagnant_days": 3
+  "last_fetched_date": "2026-10-03",
+  "stars_stagnant_days": 4
 }

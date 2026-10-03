@@ -26,8 +26,8 @@
     "uikit",
     "windsurf-ai"
   ],
-  "stars": 132341,
-  "forks": 14039,
+  "stars": 132563,
+  "forks": 14057,
   "watchers": null,
   "open_issues": 82,
   "created_at": "2025-11-30T11:36:31Z",
@@ -44,10 +44,10 @@
   "category": "ai-agent",
   "flags": [],
   "usability_score": 100,
-  "snapshot_days": 34,
+  "snapshot_days": 35,
   "is_indexable": true,
   "first_seen_at": "2026-08-29T15:46:21.820Z",
   "tracking_tier": "hot",
-  "last_fetched_date": "2026-10-02",
+  "last_fetched_date": "2026-10-03",
   "stars_stagnant_days": 0
 }

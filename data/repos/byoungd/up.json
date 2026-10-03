@@ -10,12 +10,12 @@
     "english-learning",
     "tutorial"
   ],
-  "stars": 66625,
-  "forks": 6651,
+  "stars": 66775,
+  "forks": 6652,
   "watchers": 983,
   "open_issues": 33,
   "created_at": "2017-05-30T07:18:52Z",
-  "pushed_at": "2026-09-20T04:50:30Z",
+  "pushed_at": "2026-10-02T17:11:00Z",
   "is_archived": false,
   "license_spdx": "NOASSERTION",
   "license_category": "unknown",
@@ -28,10 +28,10 @@
   "category": "learning",
   "flags": [],
   "usability_score": 100,
-  "snapshot_days": 34,
+  "snapshot_days": 35,
   "is_indexable": true,
   "first_seen_at": "2026-08-29T23:02:08.747Z",
   "tracking_tier": "hot",
-  "last_fetched_date": "2026-10-02",
+  "last_fetched_date": "2026-10-03",
   "stars_stagnant_days": 0
 }

@@ -26,12 +26,12 @@
     "transformer",
     "vlm"
   ],
-  "stars": 166899,
+  "stars": 166905,
   "forks": 34740,
   "watchers": null,
-  "open_issues": 2356,
+  "open_issues": 2361,
   "created_at": "2018-10-29T13:56:00Z",
-  "pushed_at": "2026-10-02T00:10:33Z",
+  "pushed_at": "2026-10-03T00:09:17Z",
   "is_archived": false,
   "license_spdx": "Apache-2.0",
   "license_category": "permissive",
@@ -44,10 +44,10 @@
   "category": "llm",
   "flags": [],
   "usability_score": 100,
-  "snapshot_days": 34,
+  "snapshot_days": 35,
   "is_indexable": true,
   "first_seen_at": "2026-08-29T15:46:21.820Z",
   "tracking_tier": "hot",
-  "last_fetched_date": "2026-10-02",
+  "last_fetched_date": "2026-10-03",
   "stars_stagnant_days": 0
 }

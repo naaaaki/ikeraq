@@ -25,12 +25,12 @@
     "textbook",
     "tinyml"
   ],
-  "stars": 28783,
+  "stars": 28790,
   "forks": 3630,
   "watchers": null,
-  "open_issues": 8,
+  "open_issues": 9,
   "created_at": "2023-09-06T19:31:06Z",
-  "pushed_at": "2026-10-01T18:41:59Z",
+  "pushed_at": "2026-10-02T18:40:21Z",
   "is_archived": false,
   "license_spdx": "NOASSERTION",
   "license_category": "unknown",
@@ -43,10 +43,10 @@
   "category": "ai-agent",
   "flags": [],
   "usability_score": 100,
-  "snapshot_days": 30,
+  "snapshot_days": 31,
   "is_indexable": true,
   "first_seen_at": "2026-09-02T23:02:41.773Z",
   "tracking_tier": "hot",
-  "last_fetched_date": "2026-10-02",
+  "last_fetched_date": "2026-10-03",
   "stars_stagnant_days": 0
 }

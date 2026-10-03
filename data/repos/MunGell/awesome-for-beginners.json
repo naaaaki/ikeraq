@@ -12,8 +12,8 @@
     "beginners-friendly",
     "list"
   ],
-  "stars": 89774,
-  "forks": 8016,
+  "stars": 89803,
+  "forks": 8017,
   "watchers": null,
   "open_issues": 144,
   "created_at": "2015-10-24T19:53:36Z",
@@ -36,10 +36,10 @@
     }
   ],
   "usability_score": 60,
-  "snapshot_days": 2,
+  "snapshot_days": 3,
   "is_indexable": true,
   "first_seen_at": "2026-10-01T00:25:07.402Z",
   "tracking_tier": "hot",
-  "last_fetched_date": "2026-10-02",
+  "last_fetched_date": "2026-10-03",
   "stars_stagnant_days": 0
 }

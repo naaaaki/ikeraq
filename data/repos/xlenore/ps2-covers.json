@@ -15,7 +15,7 @@
     "ps2",
     "retroarch"
   ],
-  "stars": 4720,
+  "stars": 4723,
   "forks": 224,
   "watchers": null,
   "open_issues": 46,
@@ -39,10 +39,10 @@
     }
   ],
   "usability_score": 60,
-  "snapshot_days": 7,
+  "snapshot_days": 8,
   "is_indexable": true,
   "first_seen_at": "2026-09-25T23:53:23.596Z",
   "tracking_tier": "hot",
-  "last_fetched_date": "2026-10-02",
+  "last_fetched_date": "2026-10-03",
   "stars_stagnant_days": 0
 }

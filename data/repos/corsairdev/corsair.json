@@ -25,10 +25,10 @@
     "typescript",
     "unified-api"
   ],
-  "stars": 13359,
-  "forks": 675,
+  "stars": 13372,
+  "forks": 676,
   "watchers": 22,
-  "open_issues": 333,
+  "open_issues": 334,
   "created_at": "2025-10-14T18:50:32Z",
   "pushed_at": "2026-10-01T00:28:49Z",
   "is_archived": false,
@@ -43,10 +43,10 @@
   "category": "ai-agent",
   "flags": [],
   "usability_score": 100,
-  "snapshot_days": 33,
+  "snapshot_days": 34,
   "is_indexable": true,
   "first_seen_at": "2026-08-30T23:15:18.491Z",
   "tracking_tier": "hot",
-  "last_fetched_date": "2026-10-02",
+  "last_fetched_date": "2026-10-03",
   "stars_stagnant_days": 0
 }

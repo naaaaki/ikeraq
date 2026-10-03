@@ -27,7 +27,7 @@
     "webdevelopment",
     "website"
   ],
-  "stars": 46873,
+  "stars": 46872,
   "forks": 10456,
   "watchers": 860,
   "open_issues": 368,
@@ -51,10 +51,10 @@
     }
   ],
   "usability_score": 60,
-  "snapshot_days": 33,
+  "snapshot_days": 34,
   "is_indexable": true,
   "first_seen_at": "2026-08-30T23:15:18.749Z",
-  "tracking_tier": "hot",
-  "last_fetched_date": "2026-10-02",
-  "stars_stagnant_days": 0
+  "tracking_tier": "normal",
+  "last_fetched_date": "2026-10-03",
+  "stars_stagnant_days": 1
 }

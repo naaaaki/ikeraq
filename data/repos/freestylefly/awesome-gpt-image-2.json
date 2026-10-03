@@ -17,10 +17,10 @@
     "skills",
     "workflow-automation"
   ],
-  "stars": 33841,
-  "forks": 3245,
-  "watchers": 137,
-  "open_issues": 32,
+  "stars": 33854,
+  "forks": 3240,
+  "watchers": 136,
+  "open_issues": 34,
   "created_at": "2026-04-25T09:19:13Z",
   "pushed_at": "2026-09-24T08:01:10Z",
   "is_archived": false,
@@ -35,10 +35,10 @@
   "category": "ai-agent",
   "flags": [],
   "usability_score": 100,
-  "snapshot_days": 34,
+  "snapshot_days": 35,
   "is_indexable": true,
   "first_seen_at": "2026-08-29T15:46:19.452Z",
   "tracking_tier": "hot",
-  "last_fetched_date": "2026-10-02",
+  "last_fetched_date": "2026-10-03",
   "stars_stagnant_days": 0
 }

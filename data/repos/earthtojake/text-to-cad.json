@@ -16,12 +16,12 @@
     "stp",
     "text-to-cad"
   ],
-  "stars": 16532,
-  "forks": 1716,
+  "stars": 16541,
+  "forks": 1717,
   "watchers": 88,
   "open_issues": 23,
   "created_at": "2026-04-22T01:09:45Z",
-  "pushed_at": "2026-10-01T23:59:21Z",
+  "pushed_at": "2026-10-02T23:59:40Z",
   "is_archived": false,
   "license_spdx": "MIT",
   "license_category": "permissive",
@@ -34,10 +34,10 @@
   "category": "ai-agent",
   "flags": [],
   "usability_score": 100,
-  "snapshot_days": 23,
+  "snapshot_days": 24,
   "is_indexable": true,
   "first_seen_at": "2026-09-09T22:59:39.377Z",
   "tracking_tier": "hot",
-  "last_fetched_date": "2026-10-02",
+  "last_fetched_date": "2026-10-03",
   "stars_stagnant_days": 0
 }

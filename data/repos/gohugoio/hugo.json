@@ -14,7 +14,7 @@
     "hugo",
     "static-site-generator"
   ],
-  "stars": 90008,
+  "stars": 90016,
   "forks": 8391,
   "watchers": null,
   "open_issues": 201,
@@ -32,10 +32,10 @@
   "category": "other",
   "flags": [],
   "usability_score": 100,
-  "snapshot_days": 34,
+  "snapshot_days": 35,
   "is_indexable": true,
   "first_seen_at": "2026-08-29T15:46:21.821Z",
   "tracking_tier": "hot",
-  "last_fetched_date": "2026-10-02",
+  "last_fetched_date": "2026-10-03",
   "stars_stagnant_days": 0
 }

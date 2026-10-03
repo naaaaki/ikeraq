@@ -12,12 +12,12 @@
     "logging",
     "spdlog"
   ],
-  "stars": 29645,
+  "stars": 29650,
   "forks": 5384,
   "watchers": 475,
-  "open_issues": 53,
+  "open_issues": 54,
   "created_at": "2014-11-01T01:28:53Z",
-  "pushed_at": "2026-09-30T23:01:32Z",
+  "pushed_at": "2026-10-02T18:58:12Z",
   "is_archived": false,
   "license_spdx": "NOASSERTION",
   "license_category": "unknown",
@@ -30,10 +30,10 @@
   "category": "other",
   "flags": [],
   "usability_score": 100,
-  "snapshot_days": 25,
+  "snapshot_days": 26,
   "is_indexable": true,
   "first_seen_at": "2026-09-07T23:19:48.976Z",
   "tracking_tier": "hot",
-  "last_fetched_date": "2026-10-02",
+  "last_fetched_date": "2026-10-03",
   "stars_stagnant_days": 0
 }

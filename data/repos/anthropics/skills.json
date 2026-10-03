@@ -8,10 +8,10 @@
   "topics": [
     "agent-skills"
   ],
-  "stars": 179326,
-  "forks": 21201,
+  "stars": 179414,
+  "forks": 21213,
   "watchers": 1127,
-  "open_issues": 1392,
+  "open_issues": 1394,
   "created_at": "2025-09-22T15:53:31Z",
   "pushed_at": "2026-09-29T02:20:07Z",
   "is_archived": false,
@@ -32,10 +32,10 @@
     }
   ],
   "usability_score": 60,
-  "snapshot_days": 31,
+  "snapshot_days": 32,
   "is_indexable": true,
   "first_seen_at": "2026-09-01T23:05:22.649Z",
   "tracking_tier": "hot",
-  "last_fetched_date": "2026-10-02",
+  "last_fetched_date": "2026-10-03",
   "stars_stagnant_days": 0
 }

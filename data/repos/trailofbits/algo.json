@@ -18,10 +18,10 @@
     "vpn-server",
     "wireguard"
   ],
-  "stars": 30402,
+  "stars": 30404,
   "forks": 2367,
   "watchers": 434,
-  "open_issues": 85,
+  "open_issues": 86,
   "created_at": "2016-05-15T03:42:48Z",
   "pushed_at": "2026-10-01T02:04:20Z",
   "is_archived": false,
@@ -42,10 +42,10 @@
     }
   ],
   "usability_score": 85,
-  "snapshot_days": 30,
+  "snapshot_days": 31,
   "is_indexable": true,
   "first_seen_at": "2026-09-02T23:02:41.773Z",
   "tracking_tier": "hot",
-  "last_fetched_date": "2026-10-02",
-  "stars_stagnant_days": 1
+  "last_fetched_date": "2026-10-03",
+  "stars_stagnant_days": 0
 }
