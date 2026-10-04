@@ -20,10 +20,10 @@
     "windows",
     "youtube"
   ],
-  "stars": 49590,
+  "stars": 49604,
   "forks": 2322,
-  "watchers": 278,
-  "open_issues": 864,
+  "watchers": 279,
+  "open_issues": 867,
   "created_at": "2021-02-14T03:17:58Z",
   "pushed_at": "2026-10-02T14:57:54Z",
   "is_archived": false,
@@ -38,10 +38,10 @@
   "category": "mobile",
   "flags": [],
   "usability_score": 100,
-  "snapshot_days": 35,
+  "snapshot_days": 36,
   "is_indexable": true,
   "first_seen_at": "2026-08-30T23:15:18.749Z",
   "tracking_tier": "hot",
-  "last_fetched_date": "2026-10-04",
+  "last_fetched_date": "2026-10-05",
   "stars_stagnant_days": 0
 }

@@ -18,11 +18,11 @@
     "websockets"
   ],
   "stars": 40037,
-  "forks": 2378,
+  "forks": 2380,
   "watchers": null,
-  "open_issues": 901,
+  "open_issues": 905,
   "created_at": "2016-04-23T03:54:26Z",
-  "pushed_at": "2026-10-02T00:28:54Z",
+  "pushed_at": "2026-10-03T00:22:26Z",
   "is_archived": false,
   "license_spdx": "Apache-2.0",
   "license_category": "permissive",
@@ -35,10 +35,10 @@
   "category": "web-frontend",
   "flags": [],
   "usability_score": 100,
-  "snapshot_days": 32,
+  "snapshot_days": 33,
   "is_indexable": true,
   "first_seen_at": "2026-09-01T00:26:13.031Z",
   "tracking_tier": "normal",
-  "last_fetched_date": "2026-10-02",
+  "last_fetched_date": "2026-10-05",
   "stars_stagnant_days": 2
 }

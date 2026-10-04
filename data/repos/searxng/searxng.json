@@ -22,12 +22,12 @@
     "startpage",
     "yahoo"
   ],
-  "stars": 37922,
-  "forks": 3464,
+  "stars": 37966,
+  "forks": 3466,
   "watchers": null,
   "open_issues": 190,
   "created_at": "2021-04-12T15:18:15Z",
-  "pushed_at": "2026-10-02T14:40:46Z",
+  "pushed_at": "2026-10-04T06:19:54Z",
   "is_archived": false,
   "license_spdx": "AGPL-3.0",
   "license_category": "strong-copyleft",
@@ -46,10 +46,10 @@
     }
   ],
   "usability_score": 85,
-  "snapshot_days": 34,
+  "snapshot_days": 35,
   "is_indexable": true,
   "first_seen_at": "2026-09-01T00:26:13.032Z",
   "tracking_tier": "hot",
-  "last_fetched_date": "2026-10-04",
+  "last_fetched_date": "2026-10-05",
   "stars_stagnant_days": 0
 }

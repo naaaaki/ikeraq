@@ -8,7 +8,7 @@
   "topics": [],
   "stars": 4876,
   "forks": 853,
-  "watchers": null,
+  "watchers": 122,
   "open_issues": 40,
   "created_at": "2010-10-29T15:29:47Z",
   "pushed_at": "2026-09-28T19:56:57Z",
@@ -24,10 +24,10 @@
   "category": "other",
   "flags": [],
   "usability_score": 100,
-  "snapshot_days": 10,
+  "snapshot_days": 11,
   "is_indexable": true,
   "first_seen_at": "2026-09-24T23:48:41.712Z",
   "tracking_tier": "hot",
-  "last_fetched_date": "2026-10-04",
-  "stars_stagnant_days": 9
+  "last_fetched_date": "2026-10-05",
+  "stars_stagnant_days": 10
 }

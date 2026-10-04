@@ -15,10 +15,10 @@
     "ocr",
     "qq"
   ],
-  "stars": 7297,
-  "forks": 1221,
+  "stars": 7332,
+  "forks": 1222,
   "watchers": null,
-  "open_issues": 28,
+  "open_issues": 29,
   "created_at": "2026-09-21T11:12:53Z",
   "pushed_at": "2026-10-03T08:21:25Z",
   "is_archived": false,
@@ -33,10 +33,10 @@
   "category": "ai-agent",
   "flags": [],
   "usability_score": 100,
-  "snapshot_days": 10,
+  "snapshot_days": 11,
   "is_indexable": true,
   "first_seen_at": "2026-09-24T23:48:41.711Z",
   "tracking_tier": "hot",
-  "last_fetched_date": "2026-10-04",
+  "last_fetched_date": "2026-10-05",
   "stars_stagnant_days": 0
 }

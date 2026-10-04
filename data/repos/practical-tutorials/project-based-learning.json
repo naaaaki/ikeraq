@@ -15,9 +15,9 @@
     "tutorial",
     "webdevelopment"
   ],
-  "stars": 285739,
-  "forks": 36519,
-  "watchers": 3472,
+  "stars": 285836,
+  "forks": 36524,
+  "watchers": 3474,
   "open_issues": 259,
   "created_at": "2017-04-12T05:07:46Z",
   "pushed_at": "2026-09-28T07:15:21Z",
@@ -33,10 +33,10 @@
   "category": "learning",
   "flags": [],
   "usability_score": 100,
-  "snapshot_days": 36,
+  "snapshot_days": 37,
   "is_indexable": true,
   "first_seen_at": "2026-08-29T15:46:21.820Z",
   "tracking_tier": "hot",
-  "last_fetched_date": "2026-10-04",
+  "last_fetched_date": "2026-10-05",
   "stars_stagnant_days": 0
 }

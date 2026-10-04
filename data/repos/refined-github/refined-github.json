@@ -14,8 +14,8 @@
     "safari-extension",
     "userstyle"
   ],
-  "stars": 32258,
-  "forks": 1922,
+  "stars": 32260,
+  "forks": 1923,
   "watchers": null,
   "open_issues": 77,
   "created_at": "2016-02-15T16:45:02Z",
@@ -32,10 +32,10 @@
   "category": "other",
   "flags": [],
   "usability_score": 100,
-  "snapshot_days": 33,
+  "snapshot_days": 34,
   "is_indexable": true,
   "first_seen_at": "2026-09-01T23:05:22.650Z",
   "tracking_tier": "hot",
-  "last_fetched_date": "2026-10-04",
+  "last_fetched_date": "2026-10-05",
   "stars_stagnant_days": 0
 }

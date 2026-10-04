@@ -12,12 +12,12 @@
     "text-editor",
     "vim"
   ],
-  "stars": 38891,
-  "forks": 1344,
+  "stars": 38897,
+  "forks": 1343,
   "watchers": null,
   "open_issues": 900,
   "created_at": "2018-02-06T08:41:06Z",
-  "pushed_at": "2026-10-03T00:48:36Z",
+  "pushed_at": "2026-10-04T01:29:42Z",
   "is_archived": false,
   "license_spdx": "Apache-2.0",
   "license_category": "permissive",
@@ -30,10 +30,10 @@
   "category": "dev-tool",
   "flags": [],
   "usability_score": 100,
-  "snapshot_days": 33,
+  "snapshot_days": 34,
   "is_indexable": true,
   "first_seen_at": "2026-09-01T23:05:22.650Z",
   "tracking_tier": "hot",
-  "last_fetched_date": "2026-10-04",
+  "last_fetched_date": "2026-10-05",
   "stars_stagnant_days": 0
 }

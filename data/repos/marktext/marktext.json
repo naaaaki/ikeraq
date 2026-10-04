@@ -21,10 +21,10 @@
     "vue",
     "windows"
   ],
-  "stars": 62087,
-  "forks": 4584,
+  "stars": 62112,
+  "forks": 4586,
   "watchers": null,
-  "open_issues": 346,
+  "open_issues": 350,
   "created_at": "2017-11-12T16:05:25Z",
   "pushed_at": "2026-10-03T16:58:51Z",
   "is_archived": false,
@@ -39,10 +39,10 @@
   "category": "web-frontend",
   "flags": [],
   "usability_score": 100,
-  "snapshot_days": 33,
+  "snapshot_days": 34,
   "is_indexable": true,
   "first_seen_at": "2026-09-01T23:05:22.650Z",
   "tracking_tier": "hot",
-  "last_fetched_date": "2026-10-04",
+  "last_fetched_date": "2026-10-05",
   "stars_stagnant_days": 0
 }

@@ -13,12 +13,12 @@
     "rust",
     "rust-lang"
   ],
-  "stars": 29432,
+  "stars": 29440,
   "forks": 2547,
   "watchers": null,
-  "open_issues": 913,
+  "open_issues": 912,
   "created_at": "2022-10-05T17:58:44Z",
-  "pushed_at": "2026-10-02T21:16:19Z",
+  "pushed_at": "2026-10-04T02:01:27Z",
   "is_archived": false,
   "license_spdx": "Apache-2.0",
   "license_category": "permissive",
@@ -31,10 +31,10 @@
   "category": "ai-agent",
   "flags": [],
   "usability_score": 100,
-  "snapshot_days": 32,
+  "snapshot_days": 33,
   "is_indexable": true,
   "first_seen_at": "2026-09-02T23:02:41.773Z",
   "tracking_tier": "hot",
-  "last_fetched_date": "2026-10-04",
+  "last_fetched_date": "2026-10-05",
   "stars_stagnant_days": 0
 }

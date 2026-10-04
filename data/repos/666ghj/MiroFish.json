@@ -17,10 +17,10 @@
     "social-prediction",
     "swarm-intelligence"
   ],
-  "stars": 75693,
-  "forks": 11627,
+  "stars": 75960,
+  "forks": 11650,
   "watchers": 460,
-  "open_issues": 124,
+  "open_issues": 126,
   "created_at": "2025-11-26T04:23:02Z",
   "pushed_at": "2026-10-01T18:28:51Z",
   "is_archived": false,
@@ -41,10 +41,10 @@
     }
   ],
   "usability_score": 85,
-  "snapshot_days": 33,
+  "snapshot_days": 34,
   "is_indexable": true,
   "first_seen_at": "2026-09-01T23:05:22.650Z",
   "tracking_tier": "hot",
-  "last_fetched_date": "2026-10-04",
+  "last_fetched_date": "2026-10-05",
   "stars_stagnant_days": 0
 }

@@ -16,7 +16,7 @@
     "style-tokens",
     "styleguide"
   ],
-  "stars": 4846,
+  "stars": 4850,
   "forks": 634,
   "watchers": 50,
   "open_issues": 238,
@@ -34,10 +34,10 @@
   "category": "web-frontend",
   "flags": [],
   "usability_score": 100,
-  "snapshot_days": 9,
+  "snapshot_days": 10,
   "is_indexable": true,
   "first_seen_at": "2026-09-25T23:53:23.593Z",
   "tracking_tier": "hot",
-  "last_fetched_date": "2026-10-04",
+  "last_fetched_date": "2026-10-05",
   "stars_stagnant_days": 0
 }

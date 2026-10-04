@@ -21,10 +21,10 @@
     "rag",
     "state-management"
   ],
-  "stars": 66536,
-  "forks": 7843,
+  "stars": 66574,
+  "forks": 7846,
   "watchers": null,
-  "open_issues": 781,
+  "open_issues": 783,
   "created_at": "2023-06-20T08:58:36Z",
   "pushed_at": "2026-10-01T20:07:39Z",
   "is_archived": false,
@@ -39,10 +39,10 @@
   "category": "ai-agent",
   "flags": [],
   "usability_score": 100,
-  "snapshot_days": 36,
+  "snapshot_days": 37,
   "is_indexable": true,
   "first_seen_at": "2026-08-29T23:02:08.747Z",
   "tracking_tier": "hot",
-  "last_fetched_date": "2026-10-04",
+  "last_fetched_date": "2026-10-05",
   "stars_stagnant_days": 0
 }

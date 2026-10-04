@@ -15,8 +15,8 @@
     "peer-review",
     "prompt-engineering"
   ],
-  "stars": 50292,
-  "forks": 3878,
+  "stars": 50389,
+  "forks": 3889,
   "watchers": null,
   "open_issues": 31,
   "created_at": "2026-02-26T06:31:01Z",
@@ -33,10 +33,10 @@
   "category": "llm",
   "flags": [],
   "usability_score": 100,
-  "snapshot_days": 35,
+  "snapshot_days": 36,
   "is_indexable": true,
   "first_seen_at": "2026-08-30T23:15:18.750Z",
   "tracking_tier": "hot",
-  "last_fetched_date": "2026-10-04",
+  "last_fetched_date": "2026-10-05",
   "stars_stagnant_days": 0
 }

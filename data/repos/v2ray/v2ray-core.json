@@ -16,7 +16,7 @@
     "vmess"
   ],
   "stars": 46932,
-  "forks": 8800,
+  "forks": 8795,
   "watchers": 1335,
   "open_issues": 15,
   "created_at": "2015-09-04T11:42:53Z",
@@ -33,10 +33,10 @@
   "category": "infra",
   "flags": [],
   "usability_score": 100,
-  "snapshot_days": 33,
+  "snapshot_days": 34,
   "is_indexable": true,
   "first_seen_at": "2026-08-30T23:15:18.749Z",
   "tracking_tier": "normal",
-  "last_fetched_date": "2026-10-02",
+  "last_fetched_date": "2026-10-05",
   "stars_stagnant_days": 1
 }

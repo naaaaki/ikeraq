@@ -13,9 +13,9 @@
     "arsc",
     "reverse-engineering"
   ],
-  "stars": 25728,
+  "stars": 25733,
   "forks": 4027,
-  "watchers": null,
+  "watchers": 671,
   "open_issues": 77,
   "created_at": "2012-03-19T17:46:53Z",
   "pushed_at": "2026-09-28T10:39:51Z",
@@ -31,10 +31,10 @@
   "category": "mobile",
   "flags": [],
   "usability_score": 100,
-  "snapshot_days": 11,
+  "snapshot_days": 12,
   "is_indexable": true,
   "first_seen_at": "2026-09-23T23:28:32.617Z",
   "tracking_tier": "hot",
-  "last_fetched_date": "2026-10-04",
+  "last_fetched_date": "2026-10-05",
   "stars_stagnant_days": 0
 }

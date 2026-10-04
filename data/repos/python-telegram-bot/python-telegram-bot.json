@@ -12,8 +12,8 @@
     "python",
     "telegram"
   ],
-  "stars": 29507,
-  "forks": 6154,
+  "stars": 29511,
+  "forks": 6156,
   "watchers": null,
   "open_issues": 29,
   "created_at": "2015-07-07T15:30:39Z",
@@ -36,10 +36,10 @@
     }
   ],
   "usability_score": 85,
-  "snapshot_days": 32,
+  "snapshot_days": 33,
   "is_indexable": true,
   "first_seen_at": "2026-09-02T23:02:41.773Z",
   "tracking_tier": "hot",
-  "last_fetched_date": "2026-10-04",
+  "last_fetched_date": "2026-10-05",
   "stars_stagnant_days": 0
 }

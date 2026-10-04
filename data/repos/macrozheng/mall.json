@@ -24,7 +24,7 @@
     "swagger-ui"
   ],
   "stars": 84856,
-  "forks": 29836,
+  "forks": 29839,
   "watchers": 2212,
   "open_issues": 15,
   "created_at": "2018-04-04T01:11:44Z",
@@ -41,10 +41,10 @@
   "category": "security",
   "flags": [],
   "usability_score": 100,
-  "snapshot_days": 19,
+  "snapshot_days": 20,
   "is_indexable": true,
   "first_seen_at": "2026-09-15T23:27:33.829Z",
   "tracking_tier": "hot",
-  "last_fetched_date": "2026-10-04",
-  "stars_stagnant_days": 2
+  "last_fetched_date": "2026-10-05",
+  "stars_stagnant_days": 3
 }

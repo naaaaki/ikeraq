@@ -12,7 +12,7 @@
     "beginners-friendly",
     "list"
   ],
-  "stars": 89833,
+  "stars": 89867,
   "forks": 8015,
   "watchers": null,
   "open_issues": 144,
@@ -36,10 +36,10 @@
     }
   ],
   "usability_score": 60,
-  "snapshot_days": 4,
+  "snapshot_days": 5,
   "is_indexable": true,
   "first_seen_at": "2026-10-01T00:25:07.402Z",
   "tracking_tier": "hot",
-  "last_fetched_date": "2026-10-04",
+  "last_fetched_date": "2026-10-05",
   "stars_stagnant_days": 0
 }

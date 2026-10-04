@@ -15,7 +15,7 @@
     "ssl",
     "tls"
   ],
-  "stars": 4768,
+  "stars": 4769,
   "forks": 804,
   "watchers": null,
   "open_issues": 299,
@@ -33,10 +33,10 @@
   "category": "security",
   "flags": [],
   "usability_score": 100,
-  "snapshot_days": 9,
+  "snapshot_days": 10,
   "is_indexable": true,
   "first_seen_at": "2026-09-25T23:53:23.595Z",
   "tracking_tier": "hot",
-  "last_fetched_date": "2026-10-04",
-  "stars_stagnant_days": 4
+  "last_fetched_date": "2026-10-05",
+  "stars_stagnant_days": 0
 }

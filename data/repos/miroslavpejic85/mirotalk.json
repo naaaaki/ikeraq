@@ -28,11 +28,11 @@
     "whiteboard"
   ],
   "stars": 4766,
-  "forks": 778,
+  "forks": 777,
   "watchers": null,
   "open_issues": 0,
   "created_at": "2021-01-01T21:31:15Z",
-  "pushed_at": "2026-10-03T23:04:13Z",
+  "pushed_at": "2026-10-04T19:10:24Z",
   "is_archived": false,
   "license_spdx": "AGPL-3.0",
   "license_category": "strong-copyleft",
@@ -51,10 +51,10 @@
     }
   ],
   "usability_score": 85,
-  "snapshot_days": 9,
+  "snapshot_days": 10,
   "is_indexable": true,
   "first_seen_at": "2026-09-25T23:53:23.595Z",
   "tracking_tier": "hot",
-  "last_fetched_date": "2026-10-04",
-  "stars_stagnant_days": 2
+  "last_fetched_date": "2026-10-05",
+  "stars_stagnant_days": 3
 }

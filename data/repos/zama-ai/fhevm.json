@@ -10,12 +10,12 @@
     "fhe",
     "privacy"
   ],
-  "stars": 24800,
+  "stars": 24798,
   "forks": 1783,
   "watchers": null,
   "open_issues": 103,
   "created_at": "2025-05-02T10:48:20Z",
-  "pushed_at": "2026-10-03T20:34:09Z",
+  "pushed_at": "2026-10-04T01:49:32Z",
   "is_archived": false,
   "license_spdx": "NOASSERTION",
   "license_category": "unknown",
@@ -28,10 +28,10 @@
   "category": "other",
   "flags": [],
   "usability_score": 100,
-  "snapshot_days": 11,
+  "snapshot_days": 12,
   "is_indexable": true,
   "first_seen_at": "2026-09-23T23:28:32.618Z",
   "tracking_tier": "hot",
-  "last_fetched_date": "2026-10-04",
-  "stars_stagnant_days": 10
+  "last_fetched_date": "2026-10-05",
+  "stars_stagnant_days": 11
 }

@@ -18,12 +18,12 @@
     "spotify",
     "windows"
   ],
-  "stars": 24774,
+  "stars": 24793,
   "forks": 954,
   "watchers": 119,
-  "open_issues": 11,
+  "open_issues": 12,
   "created_at": "2018-12-01T19:55:18Z",
-  "pushed_at": "2026-10-03T05:18:05Z",
+  "pushed_at": "2026-10-04T15:22:46Z",
   "is_archived": false,
   "license_spdx": "LGPL-2.1",
   "license_category": "weak-copyleft",
@@ -36,10 +36,10 @@
   "category": "dev-tool",
   "flags": [],
   "usability_score": 100,
-  "snapshot_days": 11,
+  "snapshot_days": 12,
   "is_indexable": true,
   "first_seen_at": "2026-09-23T23:28:32.618Z",
   "tracking_tier": "hot",
-  "last_fetched_date": "2026-10-04",
+  "last_fetched_date": "2026-10-05",
   "stars_stagnant_days": 0
 }

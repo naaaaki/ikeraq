@@ -13,7 +13,7 @@
     "updates",
     "windows"
   ],
-  "stars": 4943,
+  "stars": 4944,
   "forks": 608,
   "watchers": 95,
   "open_issues": 9,
@@ -31,10 +31,10 @@
   "category": "other",
   "flags": [],
   "usability_score": 100,
-  "snapshot_days": 9,
+  "snapshot_days": 10,
   "is_indexable": true,
   "first_seen_at": "2026-09-25T23:53:23.592Z",
   "tracking_tier": "hot",
-  "last_fetched_date": "2026-10-04",
-  "stars_stagnant_days": 2
+  "last_fetched_date": "2026-10-05",
+  "stars_stagnant_days": 0
 }

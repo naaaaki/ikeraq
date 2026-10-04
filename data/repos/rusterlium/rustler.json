@@ -13,7 +13,7 @@
     "nif",
     "rust"
   ],
-  "stars": 4870,
+  "stars": 4873,
   "forks": 247,
   "watchers": null,
   "open_issues": 50,
@@ -31,10 +31,10 @@
   "category": "other",
   "flags": [],
   "usability_score": 100,
-  "snapshot_days": 10,
+  "snapshot_days": 11,
   "is_indexable": true,
   "first_seen_at": "2026-09-24T23:48:41.712Z",
   "tracking_tier": "hot",
-  "last_fetched_date": "2026-10-04",
+  "last_fetched_date": "2026-10-05",
   "stars_stagnant_days": 0
 }

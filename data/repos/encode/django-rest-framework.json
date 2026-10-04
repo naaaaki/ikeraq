@@ -12,7 +12,7 @@
     "rest"
   ],
   "stars": 30202,
-  "forks": 7086,
+  "forks": 7087,
   "watchers": 606,
   "open_issues": 50,
   "created_at": "2011-03-02T17:13:56Z",
@@ -29,10 +29,10 @@
   "category": "backend",
   "flags": [],
   "usability_score": 100,
-  "snapshot_days": 32,
+  "snapshot_days": 33,
   "is_indexable": true,
   "first_seen_at": "2026-09-02T23:02:41.773Z",
-  "tracking_tier": "hot",
-  "last_fetched_date": "2026-10-04",
-  "stars_stagnant_days": 0
+  "tracking_tier": "normal",
+  "last_fetched_date": "2026-10-05",
+  "stars_stagnant_days": 1
 }

@@ -6,7 +6,7 @@
   "human_note": null,
   "language": "Kotlin",
   "topics": [],
-  "stars": 24836,
+  "stars": 24845,
   "forks": 2710,
   "watchers": null,
   "open_issues": 392,
@@ -24,10 +24,10 @@
   "category": "other",
   "flags": [],
   "usability_score": 100,
-  "snapshot_days": 11,
+  "snapshot_days": 12,
   "is_indexable": true,
   "first_seen_at": "2026-09-23T23:28:32.618Z",
   "tracking_tier": "hot",
-  "last_fetched_date": "2026-10-04",
+  "last_fetched_date": "2026-10-05",
   "stars_stagnant_days": 0
 }

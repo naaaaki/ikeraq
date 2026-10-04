@@ -17,10 +17,10 @@
     "rag",
     "vector-database"
   ],
-  "stars": 52397,
-  "forks": 8274,
+  "stars": 52410,
+  "forks": 8277,
   "watchers": null,
-  "open_issues": 854,
+  "open_issues": 863,
   "created_at": "2022-11-02T04:24:54Z",
   "pushed_at": "2026-10-01T18:39:47Z",
   "is_archived": false,
@@ -35,10 +35,10 @@
   "category": "ai-agent",
   "flags": [],
   "usability_score": 100,
-  "snapshot_days": 35,
+  "snapshot_days": 36,
   "is_indexable": true,
   "first_seen_at": "2026-08-30T23:15:18.749Z",
   "tracking_tier": "hot",
-  "last_fetched_date": "2026-10-04",
+  "last_fetched_date": "2026-10-05",
   "stars_stagnant_days": 0
 }

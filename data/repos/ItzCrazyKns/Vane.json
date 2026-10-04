@@ -21,8 +21,8 @@
     "self-hosted-ai",
     "vane"
   ],
-  "stars": 36992,
-  "forks": 4099,
+  "stars": 37012,
+  "forks": 4101,
   "watchers": 211,
   "open_issues": 355,
   "created_at": "2024-04-09T10:51:32Z",
@@ -39,10 +39,10 @@
   "category": "ai-agent",
   "flags": [],
   "usability_score": 100,
-  "snapshot_days": 33,
+  "snapshot_days": 34,
   "is_indexable": true,
   "first_seen_at": "2026-09-01T23:05:22.650Z",
   "tracking_tier": "hot",
-  "last_fetched_date": "2026-10-04",
+  "last_fetched_date": "2026-10-05",
   "stars_stagnant_days": 0
 }

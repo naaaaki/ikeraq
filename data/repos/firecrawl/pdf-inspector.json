@@ -17,10 +17,10 @@
     "rust",
     "text-extraction"
   ],
-  "stars": 19472,
-  "forks": 1316,
+  "stars": 19486,
+  "forks": 1319,
   "watchers": 58,
-  "open_issues": 228,
+  "open_issues": 230,
   "created_at": "2026-02-06T19:44:47Z",
   "pushed_at": "2026-09-30T23:28:35Z",
   "is_archived": false,
@@ -35,10 +35,10 @@
   "category": "backend",
   "flags": [],
   "usability_score": 100,
-  "snapshot_days": 34,
+  "snapshot_days": 35,
   "is_indexable": true,
   "first_seen_at": "2026-09-01T00:26:13.030Z",
   "tracking_tier": "hot",
-  "last_fetched_date": "2026-10-04",
+  "last_fetched_date": "2026-10-05",
   "stars_stagnant_days": 0
 }

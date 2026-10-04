@@ -13,10 +13,10 @@
     "shell",
     "zsh"
   ],
-  "stars": 31889,
-  "forks": 986,
+  "stars": 31896,
+  "forks": 988,
   "watchers": null,
-  "open_issues": 405,
+  "open_issues": 409,
   "created_at": "2020-10-04T23:01:58Z",
   "pushed_at": "2026-10-03T19:11:10Z",
   "is_archived": false,
@@ -31,10 +31,10 @@
   "category": "other",
   "flags": [],
   "usability_score": 100,
-  "snapshot_days": 33,
+  "snapshot_days": 34,
   "is_indexable": true,
   "first_seen_at": "2026-09-01T23:05:22.650Z",
   "tracking_tier": "hot",
-  "last_fetched_date": "2026-10-04",
+  "last_fetched_date": "2026-10-05",
   "stars_stagnant_days": 0
 }

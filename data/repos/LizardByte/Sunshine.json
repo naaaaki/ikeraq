@@ -23,12 +23,12 @@
     "rtd",
     "winget-pkg"
   ],
-  "stars": 41801,
-  "forks": 2180,
+  "stars": 41849,
+  "forks": 2186,
   "watchers": null,
-  "open_issues": 166,
+  "open_issues": 167,
   "created_at": "2021-12-15T23:38:57Z",
-  "pushed_at": "2026-10-03T23:22:50Z",
+  "pushed_at": "2026-10-04T23:19:45Z",
   "is_archived": false,
   "license_spdx": "GPL-3.0",
   "license_category": "strong-copyleft",
@@ -47,10 +47,10 @@
     }
   ],
   "usability_score": 85,
-  "snapshot_days": 35,
+  "snapshot_days": 36,
   "is_indexable": true,
   "first_seen_at": "2026-08-30T23:15:18.750Z",
   "tracking_tier": "hot",
-  "last_fetched_date": "2026-10-04",
+  "last_fetched_date": "2026-10-05",
   "stars_stagnant_days": 0
 }

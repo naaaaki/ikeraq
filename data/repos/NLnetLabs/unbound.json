@@ -12,10 +12,10 @@
     "recursor",
     "resolver"
   ],
-  "stars": 4963,
-  "forks": 457,
+  "stars": 4967,
+  "forks": 456,
   "watchers": null,
-  "open_issues": 397,
+  "open_issues": 395,
   "created_at": "2017-06-13T09:27:49Z",
   "pushed_at": "2026-10-02T14:01:46Z",
   "is_archived": false,
@@ -30,10 +30,10 @@
   "category": "dev-tool",
   "flags": [],
   "usability_score": 100,
-  "snapshot_days": 10,
+  "snapshot_days": 11,
   "is_indexable": true,
   "first_seen_at": "2026-09-24T23:48:41.712Z",
   "tracking_tier": "hot",
-  "last_fetched_date": "2026-10-04",
+  "last_fetched_date": "2026-10-05",
   "stars_stagnant_days": 0
 }

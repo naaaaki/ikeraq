@@ -11,11 +11,11 @@
     "linux-kernel"
   ],
   "stars": 33620,
-  "forks": 3568,
+  "forks": 3567,
   "watchers": null,
   "open_issues": 23,
   "created_at": "2015-01-03T18:44:57Z",
-  "pushed_at": "2026-10-03T15:15:42Z",
+  "pushed_at": "2026-10-04T14:34:07Z",
   "is_archived": false,
   "license_spdx": "NOASSERTION",
   "license_category": "unknown",
@@ -28,10 +28,10 @@
   "category": "other",
   "flags": [],
   "usability_score": 100,
-  "snapshot_days": 33,
+  "snapshot_days": 34,
   "is_indexable": true,
   "first_seen_at": "2026-09-01T23:05:22.650Z",
-  "tracking_tier": "hot",
-  "last_fetched_date": "2026-10-04",
-  "stars_stagnant_days": 0
+  "tracking_tier": "normal",
+  "last_fetched_date": "2026-10-05",
+  "stars_stagnant_days": 1
 }
