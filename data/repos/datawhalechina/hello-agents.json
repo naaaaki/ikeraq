@@ -11,9 +11,9 @@
     "rag",
     "tutorial"
   ],
-  "stars": 81669,
-  "forks": 10144,
-  "watchers": 229,
+  "stars": 81733,
+  "forks": 10151,
+  "watchers": 230,
   "open_issues": 109,
   "created_at": "2025-09-07T09:50:24Z",
   "pushed_at": "2026-09-29T11:53:44Z",
@@ -29,10 +29,10 @@
   "category": "ai-agent",
   "flags": [],
   "usability_score": 100,
-  "snapshot_days": 28,
+  "snapshot_days": 29,
   "is_indexable": true,
   "first_seen_at": "2026-09-07T23:19:48.974Z",
   "tracking_tier": "hot",
-  "last_fetched_date": "2026-10-05",
+  "last_fetched_date": "2026-10-06",
   "stars_stagnant_days": 0
 }

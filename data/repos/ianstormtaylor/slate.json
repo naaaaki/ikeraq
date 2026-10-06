@@ -15,10 +15,10 @@
     "slate",
     "text-editor"
   ],
-  "stars": 31753,
+  "stars": 31751,
   "forks": 3302,
   "watchers": 294,
-  "open_issues": 659,
+  "open_issues": 660,
   "created_at": "2016-06-18T01:52:42Z",
   "pushed_at": "2026-09-28T20:50:04Z",
   "is_archived": false,
@@ -33,10 +33,10 @@
   "category": "web-frontend",
   "flags": [],
   "usability_score": 100,
-  "snapshot_days": 32,
+  "snapshot_days": 33,
   "is_indexable": true,
   "first_seen_at": "2026-09-01T23:05:22.650Z",
   "tracking_tier": "normal",
-  "last_fetched_date": "2026-10-03",
+  "last_fetched_date": "2026-10-06",
   "stars_stagnant_days": 1
 }

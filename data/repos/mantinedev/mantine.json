@@ -13,12 +13,12 @@
     "typescript",
     "uikit"
   ],
-  "stars": 31791,
+  "stars": 31797,
   "forks": 2386,
   "watchers": 106,
-  "open_issues": 33,
+  "open_issues": 40,
   "created_at": "2021-01-07T14:02:19Z",
-  "pushed_at": "2026-09-26T15:08:37Z",
+  "pushed_at": "2026-10-05T08:10:19Z",
   "is_archived": false,
   "license_spdx": "MIT",
   "license_category": "permissive",
@@ -31,10 +31,10 @@
   "category": "web-frontend",
   "flags": [],
   "usability_score": 100,
-  "snapshot_days": 32,
+  "snapshot_days": 33,
   "is_indexable": true,
   "first_seen_at": "2026-09-01T23:05:22.650Z",
   "tracking_tier": "normal",
-  "last_fetched_date": "2026-10-03",
+  "last_fetched_date": "2026-10-06",
   "stars_stagnant_days": 1
 }

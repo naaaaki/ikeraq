@@ -13,12 +13,12 @@
     "solidjs",
     "webdav"
   ],
-  "stars": 50247,
-  "forks": 7934,
+  "stars": 50260,
+  "forks": 7931,
   "watchers": 223,
-  "open_issues": 564,
+  "open_issues": 560,
   "created_at": "2020-12-23T17:40:29Z",
-  "pushed_at": "2026-09-29T07:08:52Z",
+  "pushed_at": "2026-10-05T06:55:37Z",
   "is_archived": false,
   "license_spdx": "AGPL-3.0",
   "license_category": "strong-copyleft",
@@ -37,10 +37,10 @@
     }
   ],
   "usability_score": 85,
-  "snapshot_days": 33,
+  "snapshot_days": 34,
   "is_indexable": true,
   "first_seen_at": "2026-09-01T00:26:13.031Z",
   "tracking_tier": "normal",
-  "last_fetched_date": "2026-10-03",
+  "last_fetched_date": "2026-10-06",
   "stars_stagnant_days": 1
 }

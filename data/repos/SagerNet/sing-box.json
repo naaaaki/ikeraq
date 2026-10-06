@@ -6,8 +6,8 @@
   "human_note": null,
   "language": "Go",
   "topics": [],
-  "stars": 38565,
-  "forks": 4686,
+  "stars": 38596,
+  "forks": 4690,
   "watchers": null,
   "open_issues": 361,
   "created_at": "2022-06-30T13:27:22Z",
@@ -24,10 +24,10 @@
   "category": "other",
   "flags": [],
   "usability_score": 100,
-  "snapshot_days": 35,
+  "snapshot_days": 36,
   "is_indexable": true,
   "first_seen_at": "2026-09-01T00:26:13.032Z",
   "tracking_tier": "hot",
-  "last_fetched_date": "2026-10-05",
+  "last_fetched_date": "2026-10-06",
   "stars_stagnant_days": 0
 }

@@ -19,8 +19,8 @@
     "ranges",
     "unicode"
   ],
-  "stars": 25869,
-  "forks": 3080,
+  "stars": 25867,
+  "forks": 3081,
   "watchers": null,
   "open_issues": 13,
   "created_at": "2012-12-07T16:26:46Z",
@@ -37,10 +37,10 @@
   "category": "other",
   "flags": [],
   "usability_score": 100,
-  "snapshot_days": 33,
+  "snapshot_days": 34,
   "is_indexable": true,
   "first_seen_at": "2026-09-02T23:02:38.950Z",
-  "tracking_tier": "hot",
-  "last_fetched_date": "2026-10-05",
-  "stars_stagnant_days": 0
+  "tracking_tier": "normal",
+  "last_fetched_date": "2026-10-06",
+  "stars_stagnant_days": 1
 }

@@ -13,10 +13,10 @@
     "machine-learning",
     "xgboost"
   ],
-  "stars": 28827,
-  "forks": 8925,
+  "stars": 28829,
+  "forks": 8927,
   "watchers": null,
-  "open_issues": 449,
+  "open_issues": 453,
   "created_at": "2014-02-06T17:28:03Z",
   "pushed_at": "2026-10-04T13:56:26Z",
   "is_archived": false,
@@ -31,10 +31,10 @@
   "category": "learning",
   "flags": [],
   "usability_score": 100,
-  "snapshot_days": 33,
+  "snapshot_days": 34,
   "is_indexable": true,
   "first_seen_at": "2026-09-02T23:02:41.773Z",
   "tracking_tier": "hot",
-  "last_fetched_date": "2026-10-05",
+  "last_fetched_date": "2026-10-06",
   "stars_stagnant_days": 0
 }

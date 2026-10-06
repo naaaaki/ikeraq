@@ -22,7 +22,7 @@
   "stars": 4744,
   "forks": 415,
   "watchers": null,
-  "open_issues": 312,
+  "open_issues": 315,
   "created_at": "2013-04-08T16:41:47Z",
   "pushed_at": "2026-10-04T20:54:17Z",
   "is_archived": false,
@@ -43,10 +43,10 @@
     }
   ],
   "usability_score": 85,
-  "snapshot_days": 10,
+  "snapshot_days": 11,
   "is_indexable": true,
   "first_seen_at": "2026-09-25T23:53:23.595Z",
   "tracking_tier": "hot",
-  "last_fetched_date": "2026-10-05",
-  "stars_stagnant_days": 0
+  "last_fetched_date": "2026-10-06",
+  "stars_stagnant_days": 1
 }

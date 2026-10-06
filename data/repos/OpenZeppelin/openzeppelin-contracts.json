@@ -12,12 +12,12 @@
     "smart-contracts",
     "solidity"
   ],
-  "stars": 27267,
-  "forks": 12392,
+  "stars": 27266,
+  "forks": 12393,
   "watchers": null,
-  "open_issues": 358,
+  "open_issues": 363,
   "created_at": "2016-08-01T20:54:54Z",
-  "pushed_at": "2026-10-01T13:14:16Z",
+  "pushed_at": "2026-10-05T20:22:10Z",
   "is_archived": false,
   "license_spdx": "MIT",
   "license_category": "permissive",
@@ -30,10 +30,10 @@
   "category": "security",
   "flags": [],
   "usability_score": 100,
-  "snapshot_days": 32,
+  "snapshot_days": 33,
   "is_indexable": true,
   "first_seen_at": "2026-09-03T23:03:15.575Z",
-  "tracking_tier": "hot",
-  "last_fetched_date": "2026-10-05",
-  "stars_stagnant_days": 0
+  "tracking_tier": "normal",
+  "last_fetched_date": "2026-10-06",
+  "stars_stagnant_days": 1
 }

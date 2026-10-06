@@ -27,12 +27,12 @@
     "wget",
     "youtube-dl"
   ],
-  "stars": 28685,
+  "stars": 28688,
   "forks": 1611,
   "watchers": null,
   "open_issues": 162,
   "created_at": "2017-05-05T08:50:14Z",
-  "pushed_at": "2026-10-04T23:44:31Z",
+  "pushed_at": "2026-10-05T23:31:01Z",
   "is_archived": false,
   "license_spdx": "MIT",
   "license_category": "permissive",
@@ -45,10 +45,10 @@
   "category": "infra",
   "flags": [],
   "usability_score": 100,
-  "snapshot_days": 33,
+  "snapshot_days": 34,
   "is_indexable": true,
   "first_seen_at": "2026-09-02T23:02:41.773Z",
   "tracking_tier": "hot",
-  "last_fetched_date": "2026-10-05",
+  "last_fetched_date": "2026-10-06",
   "stars_stagnant_days": 0
 }

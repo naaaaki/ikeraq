@@ -18,7 +18,7 @@
     "teleport",
     "terminal"
   ],
-  "stars": 31710,
+  "stars": 31715,
   "forks": 5802,
   "watchers": null,
   "open_issues": 84,
@@ -42,10 +42,10 @@
     }
   ],
   "usability_score": 85,
-  "snapshot_days": 34,
+  "snapshot_days": 35,
   "is_indexable": true,
   "first_seen_at": "2026-09-01T23:05:22.650Z",
   "tracking_tier": "hot",
-  "last_fetched_date": "2026-10-05",
+  "last_fetched_date": "2026-10-06",
   "stars_stagnant_days": 0
 }

@@ -23,7 +23,7 @@
     "python",
     "xlsx"
   ],
-  "stars": 81088,
+  "stars": 81125,
   "forks": 6759,
   "watchers": null,
   "open_issues": 131,
@@ -41,10 +41,10 @@
   "category": "llm",
   "flags": [],
   "usability_score": 100,
-  "snapshot_days": 37,
+  "snapshot_days": 38,
   "is_indexable": true,
   "first_seen_at": "2026-08-29T23:02:08.747Z",
   "tracking_tier": "hot",
-  "last_fetched_date": "2026-10-05",
+  "last_fetched_date": "2026-10-06",
   "stars_stagnant_days": 0
 }

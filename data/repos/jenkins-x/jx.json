@@ -20,7 +20,7 @@
     "pipeline",
     "tekton"
   ],
-  "stars": 4691,
+  "stars": 4690,
   "forks": 790,
   "watchers": 118,
   "open_issues": 149,
@@ -38,10 +38,10 @@
   "category": "infra",
   "flags": [],
   "usability_score": 100,
-  "snapshot_days": 10,
+  "snapshot_days": 11,
   "is_indexable": true,
   "first_seen_at": "2026-09-25T23:53:23.596Z",
   "tracking_tier": "hot",
-  "last_fetched_date": "2026-10-05",
-  "stars_stagnant_days": 6
+  "last_fetched_date": "2026-10-06",
+  "stars_stagnant_days": 7
 }

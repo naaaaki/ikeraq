@@ -11,8 +11,8 @@
     "markdown"
   ],
   "stars": 4886,
-  "forks": 579,
-  "watchers": null,
+  "forks": 580,
+  "watchers": 51,
   "open_issues": 156,
   "created_at": "2021-10-15T11:38:22Z",
   "pushed_at": "2026-09-29T07:36:32Z",
@@ -28,10 +28,10 @@
   "category": "dev-tool",
   "flags": [],
   "usability_score": 100,
-  "snapshot_days": 11,
+  "snapshot_days": 12,
   "is_indexable": true,
   "first_seen_at": "2026-09-24T23:48:41.712Z",
   "tracking_tier": "hot",
-  "last_fetched_date": "2026-10-05",
-  "stars_stagnant_days": 5
+  "last_fetched_date": "2026-10-06",
+  "stars_stagnant_days": 6
 }

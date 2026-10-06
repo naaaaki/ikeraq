@@ -9,12 +9,12 @@
     "embedding",
     "visualization"
   ],
-  "stars": 4965,
-  "forks": 329,
+  "stars": 4964,
+  "forks": 330,
   "watchers": null,
-  "open_issues": 31,
+  "open_issues": 34,
   "created_at": "2025-05-07T00:56:44Z",
-  "pushed_at": "2026-10-03T04:55:47Z",
+  "pushed_at": "2026-10-05T23:49:32Z",
   "is_archived": false,
   "license_spdx": "MIT",
   "license_category": "permissive",
@@ -27,10 +27,10 @@
   "category": "other",
   "flags": [],
   "usability_score": 100,
-  "snapshot_days": 11,
+  "snapshot_days": 12,
   "is_indexable": true,
   "first_seen_at": "2026-09-24T23:48:41.712Z",
   "tracking_tier": "hot",
-  "last_fetched_date": "2026-10-05",
-  "stars_stagnant_days": 1
+  "last_fetched_date": "2026-10-06",
+  "stars_stagnant_days": 2
 }

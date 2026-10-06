@@ -22,10 +22,10 @@
     "startpage",
     "yahoo"
   ],
-  "stars": 37966,
-  "forks": 3466,
+  "stars": 38009,
+  "forks": 3469,
   "watchers": null,
-  "open_issues": 190,
+  "open_issues": 191,
   "created_at": "2021-04-12T15:18:15Z",
   "pushed_at": "2026-10-04T06:19:54Z",
   "is_archived": false,
@@ -46,10 +46,10 @@
     }
   ],
   "usability_score": 85,
-  "snapshot_days": 35,
+  "snapshot_days": 36,
   "is_indexable": true,
   "first_seen_at": "2026-09-01T00:26:13.032Z",
   "tracking_tier": "hot",
-  "last_fetched_date": "2026-10-05",
+  "last_fetched_date": "2026-10-06",
   "stars_stagnant_days": 0
 }

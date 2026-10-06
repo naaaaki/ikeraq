@@ -12,10 +12,10 @@
     "golang",
     "orchestration"
   ],
-  "stars": 38279,
-  "forks": 5845,
+  "stars": 38290,
+  "forks": 5850,
   "watchers": null,
-  "open_issues": 88,
+  "open_issues": 92,
   "created_at": "2013-12-09T11:40:58Z",
   "pushed_at": "2026-10-02T15:37:02Z",
   "is_archived": false,
@@ -30,10 +30,10 @@
   "category": "infra",
   "flags": [],
   "usability_score": 100,
-  "snapshot_days": 33,
+  "snapshot_days": 34,
   "is_indexable": true,
   "first_seen_at": "2026-09-01T00:26:13.031Z",
   "tracking_tier": "normal",
-  "last_fetched_date": "2026-10-03",
+  "last_fetched_date": "2026-10-06",
   "stars_stagnant_days": 1
 }

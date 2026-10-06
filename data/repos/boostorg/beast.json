@@ -27,10 +27,10 @@
     "websockets",
     "windows"
   ],
-  "stars": 4827,
+  "stars": 4830,
   "forks": 696,
   "watchers": null,
-  "open_issues": 106,
+  "open_issues": 107,
   "created_at": "2013-06-16T22:26:09Z",
   "pushed_at": "2026-10-01T10:43:58Z",
   "is_archived": false,
@@ -45,10 +45,10 @@
   "category": "infra",
   "flags": [],
   "usability_score": 100,
-  "snapshot_days": 10,
+  "snapshot_days": 11,
   "is_indexable": true,
   "first_seen_at": "2026-09-25T23:53:23.594Z",
   "tracking_tier": "hot",
-  "last_fetched_date": "2026-10-05",
-  "stars_stagnant_days": 5
+  "last_fetched_date": "2026-10-06",
+  "stars_stagnant_days": 0
 }

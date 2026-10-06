@@ -19,11 +19,11 @@
     "structured-data"
   ],
   "stars": 38920,
-  "forks": 2717,
+  "forks": 2721,
   "watchers": 172,
-  "open_issues": 123,
+  "open_issues": 120,
   "created_at": "2025-07-08T20:46:06Z",
-  "pushed_at": "2026-09-21T20:54:13Z",
+  "pushed_at": "2026-10-05T06:43:24Z",
   "is_archived": false,
   "license_spdx": "Apache-2.0",
   "license_category": "permissive",
@@ -36,10 +36,10 @@
   "category": "llm",
   "flags": [],
   "usability_score": 100,
-  "snapshot_days": 33,
+  "snapshot_days": 34,
   "is_indexable": true,
   "first_seen_at": "2026-09-01T00:26:13.031Z",
   "tracking_tier": "normal",
-  "last_fetched_date": "2026-10-03",
+  "last_fetched_date": "2026-10-06",
   "stars_stagnant_days": 1
 }

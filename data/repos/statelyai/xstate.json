@@ -26,12 +26,12 @@
     "workflow",
     "xstate"
   ],
-  "stars": 30236,
+  "stars": 30241,
   "forks": 1395,
   "watchers": null,
-  "open_issues": 121,
+  "open_issues": 120,
   "created_at": "2015-09-14T15:04:15Z",
-  "pushed_at": "2026-10-04T15:05:42Z",
+  "pushed_at": "2026-10-05T20:54:10Z",
   "is_archived": false,
   "license_spdx": "MIT",
   "license_category": "permissive",
@@ -44,10 +44,10 @@
   "category": "other",
   "flags": [],
   "usability_score": 100,
-  "snapshot_days": 33,
+  "snapshot_days": 34,
   "is_indexable": true,
   "first_seen_at": "2026-09-02T23:02:41.773Z",
   "tracking_tier": "hot",
-  "last_fetched_date": "2026-10-05",
+  "last_fetched_date": "2026-10-06",
   "stars_stagnant_days": 0
 }

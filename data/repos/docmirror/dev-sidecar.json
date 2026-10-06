@@ -4,7 +4,7 @@
   "name": "dev-sidecar",
   "description_en": "开发者边车，github打不开，github加速，git clone加速，git release下载加速，stackoverflow加速",
   "human_note": null,
-  "language": "JavaScript",
+  "language": "Vue",
   "topics": [
     "dev-sidecar",
     "dns-ip",
@@ -17,12 +17,12 @@
     "pnpm",
     "proxy"
   ],
-  "stars": 24325,
-  "forks": 2984,
+  "stars": 24336,
+  "forks": 2990,
   "watchers": 142,
-  "open_issues": 38,
+  "open_issues": 39,
   "created_at": "2020-09-29T10:38:20Z",
-  "pushed_at": "2026-10-03T19:48:27Z",
+  "pushed_at": "2026-10-05T21:19:06Z",
   "is_archived": false,
   "license_spdx": "MPL-2.0",
   "license_category": "weak-copyleft",
@@ -35,10 +35,10 @@
   "category": "infra",
   "flags": [],
   "usability_score": 100,
-  "snapshot_days": 9,
+  "snapshot_days": 10,
   "is_indexable": true,
   "first_seen_at": "2026-09-26T23:25:20.108Z",
   "tracking_tier": "hot",
-  "last_fetched_date": "2026-10-05",
+  "last_fetched_date": "2026-10-06",
   "stars_stagnant_days": 0
 }

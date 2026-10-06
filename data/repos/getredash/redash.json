@@ -26,10 +26,10 @@
     "spark-sql",
     "visualization"
   ],
-  "stars": 28833,
-  "forks": 4632,
+  "stars": 28831,
+  "forks": 4631,
   "watchers": 568,
-  "open_issues": 811,
+  "open_issues": 812,
   "created_at": "2013-10-28T13:19:39Z",
   "pushed_at": "2026-10-04T18:55:34Z",
   "is_archived": false,
@@ -44,10 +44,10 @@
   "category": "data",
   "flags": [],
   "usability_score": 100,
-  "snapshot_days": 33,
+  "snapshot_days": 34,
   "is_indexable": true,
   "first_seen_at": "2026-09-02T23:02:41.773Z",
-  "tracking_tier": "hot",
-  "last_fetched_date": "2026-10-05",
-  "stars_stagnant_days": 0
+  "tracking_tier": "normal",
+  "last_fetched_date": "2026-10-06",
+  "stars_stagnant_days": 1
 }

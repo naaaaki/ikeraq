@@ -15,9 +15,9 @@
     "python-requests",
     "requests"
   ],
-  "stars": 54371,
-  "forks": 11625,
-  "watchers": 1322,
+  "stars": 54469,
+  "forks": 11931,
+  "watchers": 1323,
   "open_issues": 242,
   "created_at": "2011-02-13T18:38:17Z",
   "pushed_at": "2026-09-28T16:55:48Z",
@@ -33,10 +33,10 @@
   "category": "backend",
   "flags": [],
   "usability_score": 100,
-  "snapshot_days": 35,
+  "snapshot_days": 36,
   "is_indexable": true,
   "first_seen_at": "2026-08-29T23:02:08.747Z",
   "tracking_tier": "normal",
-  "last_fetched_date": "2026-10-03",
+  "last_fetched_date": "2026-10-06",
   "stars_stagnant_days": 1
 }

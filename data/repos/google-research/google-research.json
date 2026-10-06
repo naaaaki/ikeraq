@@ -10,7 +10,7 @@
     "machine-learning",
     "research"
   ],
-  "stars": 38871,
+  "stars": 38873,
   "forks": 8477,
   "watchers": 790,
   "open_issues": 1997,
@@ -28,10 +28,10 @@
   "category": "learning",
   "flags": [],
   "usability_score": 100,
-  "snapshot_days": 35,
+  "snapshot_days": 36,
   "is_indexable": true,
   "first_seen_at": "2026-09-01T00:26:13.031Z",
   "tracking_tier": "hot",
-  "last_fetched_date": "2026-10-05",
+  "last_fetched_date": "2026-10-06",
   "stars_stagnant_days": 0
 }

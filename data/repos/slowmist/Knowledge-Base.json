@@ -11,8 +11,8 @@
     "knowledge-base",
     "security"
   ],
-  "stars": 4609,
-  "forks": 599,
+  "stars": 4608,
+  "forks": 597,
   "watchers": 131,
   "open_issues": 0,
   "created_at": "2018-06-21T16:18:26Z",
@@ -35,10 +35,10 @@
     }
   ],
   "usability_score": 60,
-  "snapshot_days": 9,
+  "snapshot_days": 10,
   "is_indexable": true,
   "first_seen_at": "2026-09-26T23:25:20.111Z",
   "tracking_tier": "hot",
-  "last_fetched_date": "2026-10-05",
-  "stars_stagnant_days": 3
+  "last_fetched_date": "2026-10-06",
+  "stars_stagnant_days": 4
 }

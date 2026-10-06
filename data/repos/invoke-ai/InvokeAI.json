@@ -21,11 +21,11 @@
     "windows"
   ],
   "stars": 28345,
-  "forks": 2987,
+  "forks": 2986,
   "watchers": 211,
-  "open_issues": 404,
+  "open_issues": 354,
   "created_at": "2022-08-17T01:04:27Z",
-  "pushed_at": "2026-10-04T23:04:13Z",
+  "pushed_at": "2026-10-06T00:56:57Z",
   "is_archived": false,
   "license_spdx": "Apache-2.0",
   "license_category": "permissive",
@@ -38,10 +38,10 @@
   "category": "other",
   "flags": [],
   "usability_score": 100,
-  "snapshot_days": 33,
+  "snapshot_days": 34,
   "is_indexable": true,
   "first_seen_at": "2026-09-02T23:02:41.773Z",
-  "tracking_tier": "hot",
-  "last_fetched_date": "2026-10-05",
-  "stars_stagnant_days": 0
+  "tracking_tier": "normal",
+  "last_fetched_date": "2026-10-06",
+  "stars_stagnant_days": 1
 }

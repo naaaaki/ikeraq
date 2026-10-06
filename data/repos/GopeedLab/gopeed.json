@@ -22,8 +22,8 @@
     "ubuntu",
     "windows"
   ],
-  "stars": 26680,
-  "forks": 1742,
+  "stars": 26702,
+  "forks": 1744,
   "watchers": 180,
   "open_issues": 339,
   "created_at": "2019-04-21T07:23:32Z",
@@ -46,10 +46,10 @@
     }
   ],
   "usability_score": 85,
-  "snapshot_days": 32,
+  "snapshot_days": 33,
   "is_indexable": true,
   "first_seen_at": "2026-09-03T23:03:15.575Z",
   "tracking_tier": "hot",
-  "last_fetched_date": "2026-10-05",
+  "last_fetched_date": "2026-10-06",
   "stars_stagnant_days": 0
 }

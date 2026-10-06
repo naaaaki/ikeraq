@@ -27,7 +27,7 @@
     "unicode-characters",
     "video-games"
   ],
-  "stars": 27749,
+  "stars": 27748,
   "forks": 645,
   "watchers": 379,
   "open_issues": 4,
@@ -45,10 +45,10 @@
   "category": "learning",
   "flags": [],
   "usability_score": 100,
-  "snapshot_days": 12,
+  "snapshot_days": 13,
   "is_indexable": true,
   "first_seen_at": "2026-09-23T23:28:32.617Z",
   "tracking_tier": "hot",
-  "last_fetched_date": "2026-10-05",
-  "stars_stagnant_days": 0
+  "last_fetched_date": "2026-10-06",
+  "stars_stagnant_days": 1
 }

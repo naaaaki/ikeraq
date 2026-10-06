@@ -16,11 +16,11 @@
     "tls"
   ],
   "stars": 4769,
-  "forks": 804,
+  "forks": 805,
   "watchers": null,
-  "open_issues": 299,
+  "open_issues": 300,
   "created_at": "2014-06-27T19:37:59Z",
-  "pushed_at": "2026-10-02T22:21:17Z",
+  "pushed_at": "2026-10-06T00:20:25Z",
   "is_archived": false,
   "license_spdx": "Apache-2.0",
   "license_category": "permissive",
@@ -33,10 +33,10 @@
   "category": "security",
   "flags": [],
   "usability_score": 100,
-  "snapshot_days": 10,
+  "snapshot_days": 11,
   "is_indexable": true,
   "first_seen_at": "2026-09-25T23:53:23.595Z",
   "tracking_tier": "hot",
-  "last_fetched_date": "2026-10-05",
-  "stars_stagnant_days": 0
+  "last_fetched_date": "2026-10-06",
+  "stars_stagnant_days": 1
 }

@@ -26,12 +26,12 @@
     "web-scraping",
     "website-clone"
   ],
-  "stars": 35654,
-  "forks": 5201,
+  "stars": 35909,
+  "forks": 5248,
   "watchers": 169,
   "open_issues": 2,
   "created_at": "2026-03-13T11:14:39Z",
-  "pushed_at": "2026-09-27T04:51:46Z",
+  "pushed_at": "2026-10-05T08:07:48Z",
   "is_archived": false,
   "license_spdx": "MIT",
   "license_category": "permissive",
@@ -44,10 +44,10 @@
   "category": "ai-agent",
   "flags": [],
   "usability_score": 100,
-  "snapshot_days": 12,
+  "snapshot_days": 13,
   "is_indexable": true,
   "first_seen_at": "2026-09-23T23:28:32.616Z",
   "tracking_tier": "hot",
-  "last_fetched_date": "2026-10-05",
+  "last_fetched_date": "2026-10-06",
   "stars_stagnant_days": 0
 }

@@ -14,7 +14,7 @@
     "php-installation",
     "php-library"
   ],
-  "stars": 32726,
+  "stars": 32727,
   "forks": 5140,
   "watchers": 1674,
   "open_issues": 94,
@@ -32,10 +32,10 @@
   "category": "learning",
   "flags": [],
   "usability_score": 100,
-  "snapshot_days": 8,
+  "snapshot_days": 9,
   "is_indexable": true,
   "first_seen_at": "2026-09-27T23:42:32.511Z",
   "tracking_tier": "hot",
-  "last_fetched_date": "2026-10-05",
+  "last_fetched_date": "2026-10-06",
   "stars_stagnant_days": 0
 }
