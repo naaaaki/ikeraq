@@ -26,12 +26,12 @@
     "vuetify",
     "vuetifyjs"
   ],
-  "stars": 41033,
+  "stars": 41037,
   "forks": 7115,
   "watchers": null,
   "open_issues": 390,
   "created_at": "2016-09-12T00:39:35Z",
-  "pushed_at": "2026-10-02T23:01:56Z",
+  "pushed_at": "2026-10-06T20:19:43Z",
   "is_archived": false,
   "license_spdx": "NOASSERTION",
   "license_category": "unknown",
@@ -44,10 +44,10 @@
   "category": "web-frontend",
   "flags": [],
   "usability_score": 100,
-  "snapshot_days": 33,
+  "snapshot_days": 34,
   "is_indexable": true,
   "first_seen_at": "2026-08-30T23:15:18.750Z",
   "tracking_tier": "normal",
-  "last_fetched_date": "2026-10-04",
+  "last_fetched_date": "2026-10-07",
   "stars_stagnant_days": 3
 }

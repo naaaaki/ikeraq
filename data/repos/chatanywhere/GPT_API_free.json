@@ -15,7 +15,7 @@
     "grok",
     "llm-agents"
   ],
-  "stars": 43664,
+  "stars": 43697,
   "forks": 2737,
   "watchers": 184,
   "open_issues": 11,
@@ -33,10 +33,10 @@
   "category": "ai-agent",
   "flags": [],
   "usability_score": 100,
-  "snapshot_days": 29,
+  "snapshot_days": 30,
   "is_indexable": true,
   "first_seen_at": "2026-09-07T23:19:48.975Z",
   "tracking_tier": "hot",
-  "last_fetched_date": "2026-10-06",
+  "last_fetched_date": "2026-10-07",
   "stars_stagnant_days": 0
 }

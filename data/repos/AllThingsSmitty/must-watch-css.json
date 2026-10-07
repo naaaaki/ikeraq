@@ -17,7 +17,7 @@
     "sass",
     "web-development"
   ],
-  "stars": 4879,
+  "stars": 4878,
   "forks": 239,
   "watchers": 314,
   "open_issues": 0,
@@ -35,10 +35,10 @@
   "category": "web-frontend",
   "flags": [],
   "usability_score": 100,
-  "snapshot_days": 12,
+  "snapshot_days": 13,
   "is_indexable": true,
   "first_seen_at": "2026-09-24T23:48:41.712Z",
   "tracking_tier": "hot",
-  "last_fetched_date": "2026-10-06",
-  "stars_stagnant_days": 11
+  "last_fetched_date": "2026-10-07",
+  "stars_stagnant_days": 12
 }

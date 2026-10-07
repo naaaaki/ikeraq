@@ -14,8 +14,8 @@
     "tesseract",
     "tesseract-ocr"
   ],
-  "stars": 76831,
-  "forks": 10822,
+  "stars": 76841,
+  "forks": 10824,
   "watchers": 1719,
   "open_issues": 493,
   "created_at": "2014-08-12T18:04:59Z",
@@ -32,10 +32,10 @@
   "category": "learning",
   "flags": [],
   "usability_score": 100,
-  "snapshot_days": 38,
+  "snapshot_days": 39,
   "is_indexable": true,
   "first_seen_at": "2026-08-29T23:02:08.747Z",
   "tracking_tier": "hot",
-  "last_fetched_date": "2026-10-06",
+  "last_fetched_date": "2026-10-07",
   "stars_stagnant_days": 0
 }

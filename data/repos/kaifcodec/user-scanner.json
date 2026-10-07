@@ -24,7 +24,7 @@
     "redteaming",
     "threat-intelligence"
   ],
-  "stars": 5265,
+  "stars": 5291,
   "forks": 532,
   "watchers": 45,
   "open_issues": 17,
@@ -42,10 +42,10 @@
   "category": "security",
   "flags": [],
   "usability_score": 100,
-  "snapshot_days": 12,
+  "snapshot_days": 13,
   "is_indexable": true,
   "first_seen_at": "2026-09-24T23:48:41.711Z",
   "tracking_tier": "hot",
-  "last_fetched_date": "2026-10-06",
+  "last_fetched_date": "2026-10-07",
   "stars_stagnant_days": 0
 }

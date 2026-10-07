@@ -12,12 +12,12 @@
     "shadowrocket",
     "v2ray"
   ],
-  "stars": 30827,
-  "forks": 2057,
+  "stars": 30844,
+  "forks": 2060,
   "watchers": null,
   "open_issues": 26,
   "created_at": "2021-12-06T09:06:28Z",
-  "pushed_at": "2026-10-05T23:04:46Z",
+  "pushed_at": "2026-10-06T23:04:50Z",
   "is_archived": false,
   "license_spdx": "NOASSERTION",
   "license_category": "unknown",
@@ -30,10 +30,10 @@
   "category": "infra",
   "flags": [],
   "usability_score": 100,
-  "snapshot_days": 34,
+  "snapshot_days": 35,
   "is_indexable": true,
   "first_seen_at": "2026-09-02T23:02:41.773Z",
   "tracking_tier": "hot",
-  "last_fetched_date": "2026-10-06",
+  "last_fetched_date": "2026-10-07",
   "stars_stagnant_days": 0
 }

@@ -16,9 +16,9 @@
   "stars": 4832,
   "forks": 1055,
   "watchers": null,
-  "open_issues": 422,
+  "open_issues": 409,
   "created_at": "2014-11-04T22:40:52Z",
-  "pushed_at": "2026-10-05T17:14:27Z",
+  "pushed_at": "2026-10-06T15:28:46Z",
   "is_archived": false,
   "license_spdx": "AGPL-3.0",
   "license_category": "strong-copyleft",
@@ -37,10 +37,10 @@
     }
   ],
   "usability_score": 85,
-  "snapshot_days": 12,
+  "snapshot_days": 13,
   "is_indexable": true,
   "first_seen_at": "2026-09-24T23:48:41.713Z",
   "tracking_tier": "hot",
-  "last_fetched_date": "2026-10-06",
-  "stars_stagnant_days": 3
+  "last_fetched_date": "2026-10-07",
+  "stars_stagnant_days": 4
 }

@@ -18,12 +18,12 @@
     "model-context-protocol",
     "python"
   ],
-  "stars": 30035,
-  "forks": 2730,
+  "stars": 30106,
+  "forks": 2733,
   "watchers": 205,
   "open_issues": 39,
   "created_at": "2025-03-07T09:58:58Z",
-  "pushed_at": "2026-10-05T12:42:29Z",
+  "pushed_at": "2026-10-06T15:08:04Z",
   "is_archived": false,
   "license_spdx": "MIT",
   "license_category": "permissive",
@@ -36,10 +36,10 @@
   "category": "ai-agent",
   "flags": [],
   "usability_score": 100,
-  "snapshot_days": 33,
+  "snapshot_days": 34,
   "is_indexable": true,
   "first_seen_at": "2026-09-03T23:03:15.575Z",
   "tracking_tier": "hot",
-  "last_fetched_date": "2026-10-06",
+  "last_fetched_date": "2026-10-07",
   "stars_stagnant_days": 0
 }

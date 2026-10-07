@@ -18,12 +18,12 @@
     "watch",
     "youtube-video"
   ],
-  "stars": 39915,
-  "forks": 3850,
+  "stars": 39934,
+  "forks": 3854,
   "watchers": 618,
-  "open_issues": 1476,
+  "open_issues": 1463,
   "created_at": "2015-09-03T23:39:26Z",
-  "pushed_at": "2026-10-05T14:08:02Z",
+  "pushed_at": "2026-10-07T00:13:24Z",
   "is_archived": false,
   "license_spdx": "GPL-3.0",
   "license_category": "strong-copyleft",
@@ -42,10 +42,10 @@
     }
   ],
   "usability_score": 85,
-  "snapshot_days": 36,
+  "snapshot_days": 37,
   "is_indexable": true,
   "first_seen_at": "2026-09-01T00:26:13.031Z",
   "tracking_tier": "hot",
-  "last_fetched_date": "2026-10-06",
+  "last_fetched_date": "2026-10-07",
   "stars_stagnant_days": 0
 }

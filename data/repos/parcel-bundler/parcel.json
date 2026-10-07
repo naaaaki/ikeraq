@@ -18,10 +18,10 @@
     "modules",
     "web"
   ],
-  "stars": 44019,
-  "forks": 2291,
+  "stars": 44014,
+  "forks": 2292,
   "watchers": 446,
-  "open_issues": 610,
+  "open_issues": 609,
   "created_at": "2017-08-07T16:36:47Z",
   "pushed_at": "2026-09-29T06:12:26Z",
   "is_archived": false,
@@ -36,10 +36,10 @@
   "category": "web-frontend",
   "flags": [],
   "usability_score": 100,
-  "snapshot_days": 33,
+  "snapshot_days": 34,
   "is_indexable": true,
   "first_seen_at": "2026-08-30T23:15:18.750Z",
   "tracking_tier": "normal",
-  "last_fetched_date": "2026-10-04",
+  "last_fetched_date": "2026-10-07",
   "stars_stagnant_days": 6
 }

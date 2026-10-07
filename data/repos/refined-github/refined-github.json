@@ -14,12 +14,12 @@
     "safari-extension",
     "userstyle"
   ],
-  "stars": 32266,
-  "forks": 1924,
+  "stars": 32268,
+  "forks": 1925,
   "watchers": null,
   "open_issues": 77,
   "created_at": "2016-02-15T16:45:02Z",
-  "pushed_at": "2026-10-03T08:23:49Z",
+  "pushed_at": "2026-10-06T08:13:59Z",
   "is_archived": false,
   "license_spdx": "MIT",
   "license_category": "permissive",
@@ -32,10 +32,10 @@
   "category": "other",
   "flags": [],
   "usability_score": 100,
-  "snapshot_days": 35,
+  "snapshot_days": 36,
   "is_indexable": true,
   "first_seen_at": "2026-09-01T23:05:22.650Z",
   "tracking_tier": "hot",
-  "last_fetched_date": "2026-10-06",
+  "last_fetched_date": "2026-10-07",
   "stars_stagnant_days": 0
 }

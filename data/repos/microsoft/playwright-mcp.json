@@ -9,8 +9,8 @@
     "mcp",
     "playwright"
   ],
-  "stars": 37840,
-  "forks": 3217,
+  "stars": 37881,
+  "forks": 3221,
   "watchers": 152,
   "open_issues": 1,
   "created_at": "2025-03-21T17:48:36Z",
@@ -27,10 +27,10 @@
   "category": "ai-agent",
   "flags": [],
   "usability_score": 100,
-  "snapshot_days": 36,
+  "snapshot_days": 37,
   "is_indexable": true,
   "first_seen_at": "2026-09-01T00:26:13.032Z",
   "tracking_tier": "hot",
-  "last_fetched_date": "2026-10-06",
+  "last_fetched_date": "2026-10-07",
   "stars_stagnant_days": 0
 }

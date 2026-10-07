@@ -6,9 +6,9 @@
   "human_note": null,
   "language": "JavaScript",
   "topics": [],
-  "stars": 7311,
-  "forks": 949,
-  "watchers": 79,
+  "stars": 7329,
+  "forks": 950,
+  "watchers": 80,
   "open_issues": 36,
   "created_at": "2026-03-04T21:52:32Z",
   "pushed_at": "2026-09-28T17:08:10Z",
@@ -30,10 +30,10 @@
     }
   ],
   "usability_score": 60,
-  "snapshot_days": 28,
+  "snapshot_days": 29,
   "is_indexable": true,
   "first_seen_at": "2026-09-08T23:15:15.920Z",
   "tracking_tier": "hot",
-  "last_fetched_date": "2026-10-06",
+  "last_fetched_date": "2026-10-07",
   "stars_stagnant_days": 0
 }

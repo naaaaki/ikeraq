@@ -11,12 +11,12 @@
     "wayland",
     "wayland-compositor"
   ],
-  "stars": 38797,
-  "forks": 2048,
+  "stars": 38796,
+  "forks": 2053,
   "watchers": null,
-  "open_issues": 199,
+  "open_issues": 197,
   "created_at": "2022-03-16T19:49:13Z",
-  "pushed_at": "2026-10-04T16:17:34Z",
+  "pushed_at": "2026-10-06T13:20:45Z",
   "is_archived": false,
   "license_spdx": "BSD-3-Clause",
   "license_category": "permissive",
@@ -29,10 +29,10 @@
   "category": "other",
   "flags": [],
   "usability_score": 100,
-  "snapshot_days": 36,
+  "snapshot_days": 37,
   "is_indexable": true,
   "first_seen_at": "2026-09-01T00:26:13.031Z",
-  "tracking_tier": "hot",
-  "last_fetched_date": "2026-10-06",
-  "stars_stagnant_days": 0
+  "tracking_tier": "normal",
+  "last_fetched_date": "2026-10-07",
+  "stars_stagnant_days": 1
 }

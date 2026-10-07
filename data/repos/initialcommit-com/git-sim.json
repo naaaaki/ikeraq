@@ -2,16 +2,28 @@
   "id": "initialcommit-com/git-sim",
   "owner": "initialcommit-com",
   "name": "git-sim",
-  "description_en": "Visually simulate Git operations in your own repos with a single terminal command.",
+  "description_en": "The visual layer for Git in your own repos: simulate, record, replay, audit, and share entire Git workflows, wherever you or your agents run them.",
   "human_note": null,
   "language": "Python",
   "topics": [
+    "developer-tools",
+    "devops",
+    "devtools",
     "git",
+    "git-learn",
+    "git-learning",
+    "git-learning-tutorial",
+    "git-viewer",
+    "git-visualization",
+    "git-visualizer",
     "gitpython",
+    "learn-git",
     "manim",
-    "opencv",
     "python",
     "python3",
+    "vcs",
+    "version-control",
+    "version-control-system",
     "visualization"
   ],
   "stars": 4681,
@@ -19,7 +31,7 @@
   "watchers": 27,
   "open_issues": 9,
   "created_at": "2022-10-18T15:36:17Z",
-  "pushed_at": "2026-10-05T19:18:34Z",
+  "pushed_at": "2026-10-06T21:11:25Z",
   "is_archived": false,
   "license_spdx": "GPL-2.0",
   "license_category": "strong-copyleft",
@@ -29,7 +41,7 @@
   "contributors_count": 8,
   "releases_count": 17,
   "ossf_scorecard": null,
-  "category": "dev-tool",
+  "category": "infra",
   "flags": [
     {
       "id": "copyleft",
@@ -38,10 +50,10 @@
     }
   ],
   "usability_score": 85,
-  "snapshot_days": 11,
+  "snapshot_days": 12,
   "is_indexable": true,
   "first_seen_at": "2026-09-25T23:53:23.596Z",
   "tracking_tier": "hot",
-  "last_fetched_date": "2026-10-06",
-  "stars_stagnant_days": 6
+  "last_fetched_date": "2026-10-07",
+  "stars_stagnant_days": 7
 }

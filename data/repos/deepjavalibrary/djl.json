@@ -23,9 +23,9 @@
   "stars": 4855,
   "forks": 758,
   "watchers": 114,
-  "open_issues": 230,
+  "open_issues": 231,
   "created_at": "2019-10-29T22:38:54Z",
-  "pushed_at": "2026-10-05T20:42:55Z",
+  "pushed_at": "2026-10-06T21:47:26Z",
   "is_archived": false,
   "license_spdx": "Apache-2.0",
   "license_category": "permissive",
@@ -38,10 +38,10 @@
   "category": "learning",
   "flags": [],
   "usability_score": 100,
-  "snapshot_days": 12,
+  "snapshot_days": 13,
   "is_indexable": true,
   "first_seen_at": "2026-09-24T23:48:41.713Z",
   "tracking_tier": "hot",
-  "last_fetched_date": "2026-10-06",
-  "stars_stagnant_days": 1
+  "last_fetched_date": "2026-10-07",
+  "stars_stagnant_days": 2
 }

@@ -2,7 +2,7 @@
   "id": "tabler/tabler",
   "owner": "tabler",
   "name": "tabler",
-  "description_en": "Tabler is free and open-source HTML Dashboard UI Kit built on Bootstrap",
+  "description_en": "Free and open source admin dashboard UI kit built on Bootstrap: 100+ pages, 5,000+ icons, dark mode, RTL.",
   "human_note": null,
   "language": "Astro",
   "topics": [
@@ -27,12 +27,12 @@
     "ui-kit",
     "uikit"
   ],
-  "stars": 41810,
-  "forks": 4434,
+  "stars": 41822,
+  "forks": 4430,
   "watchers": null,
-  "open_issues": 57,
+  "open_issues": 64,
   "created_at": "2018-02-01T09:08:59Z",
-  "pushed_at": "2026-10-02T11:22:23Z",
+  "pushed_at": "2026-10-06T22:39:30Z",
   "is_archived": false,
   "license_spdx": "MIT",
   "license_category": "permissive",
@@ -45,10 +45,10 @@
   "category": "web-frontend",
   "flags": [],
   "usability_score": 100,
-  "snapshot_days": 33,
+  "snapshot_days": 34,
   "is_indexable": true,
   "first_seen_at": "2026-08-30T23:15:18.750Z",
   "tracking_tier": "normal",
-  "last_fetched_date": "2026-10-04",
+  "last_fetched_date": "2026-10-07",
   "stars_stagnant_days": 1
 }

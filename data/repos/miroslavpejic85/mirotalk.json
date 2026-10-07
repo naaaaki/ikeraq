@@ -27,12 +27,12 @@
     "webrtc-video",
     "whiteboard"
   ],
-  "stars": 4766,
-  "forks": 777,
+  "stars": 4769,
+  "forks": 776,
   "watchers": null,
   "open_issues": 0,
   "created_at": "2021-01-01T21:31:15Z",
-  "pushed_at": "2026-10-06T01:32:51Z",
+  "pushed_at": "2026-10-06T15:36:11Z",
   "is_archived": false,
   "license_spdx": "AGPL-3.0",
   "license_category": "strong-copyleft",
@@ -51,10 +51,10 @@
     }
   ],
   "usability_score": 85,
-  "snapshot_days": 11,
+  "snapshot_days": 12,
   "is_indexable": true,
   "first_seen_at": "2026-09-25T23:53:23.595Z",
   "tracking_tier": "hot",
-  "last_fetched_date": "2026-10-06",
-  "stars_stagnant_days": 4
+  "last_fetched_date": "2026-10-07",
+  "stars_stagnant_days": 0
 }

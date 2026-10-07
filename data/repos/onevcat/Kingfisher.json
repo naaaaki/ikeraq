@@ -16,12 +16,12 @@
     "swift",
     "xcode"
   ],
-  "stars": 24405,
+  "stars": 24403,
   "forks": 2770,
   "watchers": 358,
-  "open_issues": 168,
+  "open_issues": 166,
   "created_at": "2015-04-06T14:26:21Z",
-  "pushed_at": "2026-10-03T15:18:49Z",
+  "pushed_at": "2026-10-06T15:09:25Z",
   "is_archived": false,
   "license_spdx": "MIT",
   "license_category": "permissive",
@@ -34,10 +34,10 @@
   "category": "mobile",
   "flags": [],
   "usability_score": 100,
-  "snapshot_days": 13,
+  "snapshot_days": 14,
   "is_indexable": true,
   "first_seen_at": "2026-09-23T23:28:32.618Z",
   "tracking_tier": "hot",
-  "last_fetched_date": "2026-10-06",
-  "stars_stagnant_days": 1
+  "last_fetched_date": "2026-10-07",
+  "stars_stagnant_days": 2
 }

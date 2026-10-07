@@ -13,9 +13,9 @@
     "rsc",
     "styled-components"
   ],
-  "stars": 41096,
-  "forks": 2671,
-  "watchers": 397,
+  "stars": 41095,
+  "forks": 2666,
+  "watchers": 395,
   "open_issues": 24,
   "created_at": "2016-08-16T06:41:32Z",
   "pushed_at": "2026-09-28T13:11:19Z",
@@ -31,10 +31,10 @@
   "category": "web-frontend",
   "flags": [],
   "usability_score": 100,
-  "snapshot_days": 33,
+  "snapshot_days": 34,
   "is_indexable": true,
   "first_seen_at": "2026-08-30T23:15:18.750Z",
   "tracking_tier": "normal",
-  "last_fetched_date": "2026-10-04",
+  "last_fetched_date": "2026-10-07",
   "stars_stagnant_days": 2
 }

@@ -17,8 +17,8 @@
     "system-design",
     "system-design-interview"
   ],
-  "stars": 90240,
-  "forks": 10018,
+  "stars": 90260,
+  "forks": 10023,
   "watchers": 1079,
   "open_issues": 69,
   "created_at": "2023-09-18T20:52:03Z",
@@ -37,14 +37,14 @@
     {
       "id": "stale",
       "label": "メンテ停止の疑い",
-      "reason": "最終コミットから 549 日が経過しています（判定は 180 日以上）。"
+      "reason": "最終コミットから 550 日が経過しています（判定は 180 日以上）。"
     }
   ],
   "usability_score": 70,
-  "snapshot_days": 33,
+  "snapshot_days": 34,
   "is_indexable": true,
   "first_seen_at": "2026-09-03T23:03:15.173Z",
   "tracking_tier": "hot",
-  "last_fetched_date": "2026-10-06",
+  "last_fetched_date": "2026-10-07",
   "stars_stagnant_days": 0
 }

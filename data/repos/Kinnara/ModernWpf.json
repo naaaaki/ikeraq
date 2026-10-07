@@ -14,7 +14,7 @@
     "wpf",
     "xaml"
   ],
-  "stars": 4961,
+  "stars": 4963,
   "forks": 488,
   "watchers": 71,
   "open_issues": 3,
@@ -32,10 +32,10 @@
   "category": "web-frontend",
   "flags": [],
   "usability_score": 100,
-  "snapshot_days": 12,
+  "snapshot_days": 13,
   "is_indexable": true,
   "first_seen_at": "2026-09-24T23:48:41.712Z",
   "tracking_tier": "hot",
-  "last_fetched_date": "2026-10-06",
-  "stars_stagnant_days": 2
+  "last_fetched_date": "2026-10-07",
+  "stars_stagnant_days": 0
 }

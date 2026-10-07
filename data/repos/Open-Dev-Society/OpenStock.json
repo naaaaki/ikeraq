@@ -13,12 +13,12 @@
     "stock-market",
     "tailwindcss"
   ],
-  "stars": 19725,
-  "forks": 2415,
+  "stars": 19785,
+  "forks": 2425,
   "watchers": 105,
-  "open_issues": 37,
+  "open_issues": 36,
   "created_at": "2025-09-28T18:16:32Z",
-  "pushed_at": "2026-10-01T15:54:43Z",
+  "pushed_at": "2026-10-06T16:12:47Z",
   "is_archived": false,
   "license_spdx": "AGPL-3.0",
   "license_category": "strong-copyleft",
@@ -37,10 +37,10 @@
     }
   ],
   "usability_score": 85,
-  "snapshot_days": 13,
+  "snapshot_days": 14,
   "is_indexable": true,
   "first_seen_at": "2026-09-23T23:28:31.339Z",
   "tracking_tier": "hot",
-  "last_fetched_date": "2026-10-06",
+  "last_fetched_date": "2026-10-07",
   "stars_stagnant_days": 0
 }

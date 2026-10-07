@@ -17,11 +17,11 @@
     "validation"
   ],
   "stars": 44869,
-  "forks": 2484,
+  "forks": 2485,
   "watchers": null,
-  "open_issues": 7,
+  "open_issues": 8,
   "created_at": "2019-03-05T23:47:10Z",
-  "pushed_at": "2026-10-03T21:30:33Z",
+  "pushed_at": "2026-10-06T09:24:22Z",
   "is_archived": false,
   "license_spdx": "MIT",
   "license_category": "permissive",
@@ -34,10 +34,10 @@
   "category": "web-frontend",
   "flags": [],
   "usability_score": 100,
-  "snapshot_days": 35,
+  "snapshot_days": 36,
   "is_indexable": true,
   "first_seen_at": "2026-08-30T23:15:18.750Z",
   "tracking_tier": "normal",
-  "last_fetched_date": "2026-10-04",
+  "last_fetched_date": "2026-10-07",
   "stars_stagnant_days": 1
 }

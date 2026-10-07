@@ -16,7 +16,7 @@
     "offline",
     "pwa"
   ],
-  "stars": 39531,
+  "stars": 39535,
   "forks": 2653,
   "watchers": null,
   "open_issues": 201,
@@ -34,10 +34,10 @@
   "category": "backend",
   "flags": [],
   "usability_score": 100,
-  "snapshot_days": 36,
+  "snapshot_days": 37,
   "is_indexable": true,
   "first_seen_at": "2026-09-01T00:26:13.031Z",
   "tracking_tier": "hot",
-  "last_fetched_date": "2026-10-06",
+  "last_fetched_date": "2026-10-07",
   "stars_stagnant_days": 0
 }

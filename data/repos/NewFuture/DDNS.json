@@ -18,12 +18,12 @@
     "ipv4",
     "ipv6"
   ],
-  "stars": 4697,
-  "forks": 674,
+  "stars": 4696,
+  "forks": 673,
   "watchers": null,
-  "open_issues": 15,
+  "open_issues": 16,
   "created_at": "2016-06-10T11:51:51Z",
-  "pushed_at": "2026-10-06T00:14:15Z",
+  "pushed_at": "2026-10-06T08:50:29Z",
   "is_archived": false,
   "license_spdx": "MIT",
   "license_category": "permissive",
@@ -36,10 +36,10 @@
   "category": "infra",
   "flags": [],
   "usability_score": 100,
-  "snapshot_days": 11,
+  "snapshot_days": 12,
   "is_indexable": true,
   "first_seen_at": "2026-09-25T23:53:23.596Z",
   "tracking_tier": "hot",
-  "last_fetched_date": "2026-10-06",
-  "stars_stagnant_days": 2
+  "last_fetched_date": "2026-10-07",
+  "stars_stagnant_days": 3
 }

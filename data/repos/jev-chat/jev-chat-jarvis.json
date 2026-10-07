@@ -2,7 +2,7 @@
   "id": "jev-chat/jev-chat-jarvis",
   "owner": "jev-chat",
   "name": "jev-chat-jarvis",
-  "description_en": "装在手机上的对话副驾：在 QQ / X / 飞书里读懂对方、给出候选回复、一键填入输入框，发不发由你。非侵入，只读屏幕，不 hook 不改包。",
+  "description_en": "The chat decision assistant: before you reply, Jev reads the chat, judges intent and risk, and drafts replies you fill in with one tap. You press send. Android · Windows · macOS · iOS | 聊天辅助决策工具：先看懂对方再回复，发不发由你。",
   "human_note": null,
   "language": "Kotlin",
   "topics": [
@@ -13,14 +13,15 @@
     "chat-copilot",
     "llm",
     "ocr",
-    "qq"
+    "qq",
+    "whatsapp"
   ],
-  "stars": 7363,
-  "forks": 1224,
+  "stars": 7398,
+  "forks": 1225,
   "watchers": null,
   "open_issues": 25,
   "created_at": "2026-09-21T11:12:53Z",
-  "pushed_at": "2026-10-05T16:12:08Z",
+  "pushed_at": "2026-10-06T15:18:48Z",
   "is_archived": false,
   "license_spdx": "MIT",
   "license_category": "permissive",
@@ -33,10 +34,10 @@
   "category": "ai-agent",
   "flags": [],
   "usability_score": 100,
-  "snapshot_days": 12,
+  "snapshot_days": 13,
   "is_indexable": true,
   "first_seen_at": "2026-09-24T23:48:41.711Z",
   "tracking_tier": "hot",
-  "last_fetched_date": "2026-10-06",
+  "last_fetched_date": "2026-10-07",
   "stars_stagnant_days": 0
 }

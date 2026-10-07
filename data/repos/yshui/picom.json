@@ -14,7 +14,7 @@
     "xcompmgr",
     "xorg"
   ],
-  "stars": 4808,
+  "stars": 4810,
   "forks": 632,
   "watchers": 49,
   "open_issues": 277,
@@ -32,10 +32,10 @@
   "category": "other",
   "flags": [],
   "usability_score": 100,
-  "snapshot_days": 11,
+  "snapshot_days": 12,
   "is_indexable": true,
   "first_seen_at": "2026-09-25T23:53:23.594Z",
   "tracking_tier": "hot",
-  "last_fetched_date": "2026-10-06",
-  "stars_stagnant_days": 1
+  "last_fetched_date": "2026-10-07",
+  "stars_stagnant_days": 0
 }

@@ -20,10 +20,10 @@
     "resources",
     "software"
   ],
-  "stars": 486329,
-  "forks": 53772,
+  "stars": 486572,
+  "forks": 53810,
   "watchers": null,
-  "open_issues": 2019,
+  "open_issues": 2042,
   "created_at": "2016-03-20T23:49:42Z",
   "pushed_at": "2026-10-05T22:52:00Z",
   "is_archived": false,
@@ -38,10 +38,10 @@
   "category": "backend",
   "flags": [],
   "usability_score": 100,
-  "snapshot_days": 38,
+  "snapshot_days": 39,
   "is_indexable": true,
   "first_seen_at": "2026-08-29T15:46:21.820Z",
   "tracking_tier": "hot",
-  "last_fetched_date": "2026-10-06",
+  "last_fetched_date": "2026-10-07",
   "stars_stagnant_days": 0
 }

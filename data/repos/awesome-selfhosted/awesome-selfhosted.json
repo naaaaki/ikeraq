@@ -15,12 +15,12 @@
     "self-hosted",
     "selfhosted"
   ],
-  "stars": 324147,
-  "forks": 15176,
+  "stars": 324402,
+  "forks": 15186,
   "watchers": null,
   "open_issues": 0,
   "created_at": "2015-06-01T02:33:17Z",
-  "pushed_at": "2026-10-04T14:07:07Z",
+  "pushed_at": "2026-10-06T18:10:01Z",
   "is_archived": false,
   "license_spdx": "NOASSERTION",
   "license_category": "unknown",
@@ -33,10 +33,10 @@
   "category": "infra",
   "flags": [],
   "usability_score": 100,
-  "snapshot_days": 38,
+  "snapshot_days": 39,
   "is_indexable": true,
   "first_seen_at": "2026-08-29T15:46:21.820Z",
   "tracking_tier": "hot",
-  "last_fetched_date": "2026-10-06",
+  "last_fetched_date": "2026-10-07",
   "stars_stagnant_days": 0
 }

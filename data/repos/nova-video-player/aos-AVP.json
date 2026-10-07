@@ -13,9 +13,9 @@
     "player",
     "video"
   ],
-  "stars": 4711,
-  "forks": 272,
-  "watchers": null,
+  "stars": 4717,
+  "forks": 274,
+  "watchers": 45,
   "open_issues": 978,
   "created_at": "2018-05-15T11:59:08Z",
   "pushed_at": "2026-09-30T17:40:48Z",
@@ -31,10 +31,10 @@
   "category": "mobile",
   "flags": [],
   "usability_score": 100,
-  "snapshot_days": 11,
+  "snapshot_days": 12,
   "is_indexable": true,
   "first_seen_at": "2026-09-25T23:53:23.596Z",
   "tracking_tier": "hot",
-  "last_fetched_date": "2026-10-06",
+  "last_fetched_date": "2026-10-07",
   "stars_stagnant_days": 0
 }

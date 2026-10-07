@@ -22,12 +22,12 @@
     "rules",
     "web-development"
   ],
-  "stars": 74370,
-  "forks": 6760,
+  "stars": 74384,
+  "forks": 6757,
   "watchers": null,
   "open_issues": 5,
   "created_at": "2017-10-16T10:12:36Z",
-  "pushed_at": "2026-10-05T12:37:30Z",
+  "pushed_at": "2026-10-06T12:58:18Z",
   "is_archived": false,
   "license_spdx": "MIT",
   "license_category": "permissive",
@@ -40,10 +40,10 @@
   "category": "ai-agent",
   "flags": [],
   "usability_score": 100,
-  "snapshot_days": 2,
+  "snapshot_days": 3,
   "is_indexable": false,
   "first_seen_at": "2026-10-04T23:52:52.311Z",
   "tracking_tier": "hot",
-  "last_fetched_date": "2026-10-06",
+  "last_fetched_date": "2026-10-07",
   "stars_stagnant_days": 0
 }

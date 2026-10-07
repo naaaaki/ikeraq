@@ -14,8 +14,8 @@
     "status",
     "svg"
   ],
-  "stars": 27243,
-  "forks": 5616,
+  "stars": 27239,
+  "forks": 5618,
   "watchers": null,
   "open_issues": 317,
   "created_at": "2013-01-30T07:41:54Z",
@@ -32,10 +32,10 @@
   "category": "other",
   "flags": [],
   "usability_score": 100,
-  "snapshot_days": 33,
+  "snapshot_days": 34,
   "is_indexable": true,
   "first_seen_at": "2026-09-03T23:03:15.575Z",
-  "tracking_tier": "hot",
-  "last_fetched_date": "2026-10-06",
-  "stars_stagnant_days": 0
+  "tracking_tier": "normal",
+  "last_fetched_date": "2026-10-07",
+  "stars_stagnant_days": 1
 }

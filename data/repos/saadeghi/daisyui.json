@@ -27,10 +27,10 @@
     "ui-library",
     "ui-pattern"
   ],
-  "stars": 42544,
+  "stars": 42552,
   "forks": 1702,
-  "watchers": null,
-  "open_issues": 52,
+  "watchers": 169,
+  "open_issues": 51,
   "created_at": "2020-11-28T22:57:27Z",
   "pushed_at": "2026-09-30T02:05:20Z",
   "is_archived": false,
@@ -45,10 +45,10 @@
   "category": "web-frontend",
   "flags": [],
   "usability_score": 100,
-  "snapshot_days": 36,
+  "snapshot_days": 37,
   "is_indexable": true,
   "first_seen_at": "2026-09-01T00:26:13.031Z",
   "tracking_tier": "hot",
-  "last_fetched_date": "2026-10-06",
+  "last_fetched_date": "2026-10-07",
   "stars_stagnant_days": 0
 }

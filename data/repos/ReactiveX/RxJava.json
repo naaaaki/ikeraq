@@ -12,11 +12,11 @@
     "rxjava"
   ],
   "stars": 48185,
-  "forks": 7585,
+  "forks": 7586,
   "watchers": 2149,
   "open_issues": 11,
   "created_at": "2013-01-08T20:11:48Z",
-  "pushed_at": "2026-10-03T10:59:10Z",
+  "pushed_at": "2026-10-05T05:02:37Z",
   "is_archived": false,
   "license_spdx": "Apache-2.0",
   "license_category": "permissive",
@@ -29,10 +29,10 @@
   "category": "other",
   "flags": [],
   "usability_score": 100,
-  "snapshot_days": 33,
+  "snapshot_days": 34,
   "is_indexable": true,
   "first_seen_at": "2026-08-30T23:15:18.749Z",
   "tracking_tier": "normal",
-  "last_fetched_date": "2026-10-04",
+  "last_fetched_date": "2026-10-07",
   "stars_stagnant_days": 7
 }

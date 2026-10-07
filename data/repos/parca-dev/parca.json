@@ -27,7 +27,7 @@
     "ruby",
     "rust"
   ],
-  "stars": 4987,
+  "stars": 4988,
   "forks": 265,
   "watchers": 39,
   "open_issues": 213,
@@ -45,10 +45,10 @@
   "category": "infra",
   "flags": [],
   "usability_score": 100,
-  "snapshot_days": 12,
+  "snapshot_days": 13,
   "is_indexable": true,
   "first_seen_at": "2026-09-24T23:48:41.711Z",
   "tracking_tier": "hot",
-  "last_fetched_date": "2026-10-06",
-  "stars_stagnant_days": 2
+  "last_fetched_date": "2026-10-07",
+  "stars_stagnant_days": 0
 }
