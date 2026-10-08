@@ -11,10 +11,10 @@
     "react",
     "react-native"
   ],
-  "stars": 35713,
-  "forks": 4042,
+  "stars": 35712,
+  "forks": 4043,
   "watchers": 1053,
-  "open_issues": 25,
+  "open_issues": 26,
   "created_at": "2015-03-26T19:58:06Z",
   "pushed_at": "2026-08-26T14:11:18Z",
   "is_archived": false,
@@ -35,10 +35,10 @@
     }
   ],
   "usability_score": 60,
-  "snapshot_days": 33,
+  "snapshot_days": 34,
   "is_indexable": true,
   "first_seen_at": "2026-09-01T00:26:13.032Z",
   "tracking_tier": "normal",
-  "last_fetched_date": "2026-10-05",
+  "last_fetched_date": "2026-10-08",
   "stars_stagnant_days": 1
 }

@@ -12,7 +12,7 @@
     "image-classification",
     "transformers"
   ],
-  "stars": 25537,
+  "stars": 25539,
   "forks": 3498,
   "watchers": 156,
   "open_issues": 144,
@@ -30,10 +30,10 @@
   "category": "llm",
   "flags": [],
   "usability_score": 100,
-  "snapshot_days": 14,
+  "snapshot_days": 15,
   "is_indexable": true,
   "first_seen_at": "2026-09-23T23:28:32.618Z",
   "tracking_tier": "hot",
-  "last_fetched_date": "2026-10-07",
+  "last_fetched_date": "2026-10-08",
   "stars_stagnant_days": 0
 }

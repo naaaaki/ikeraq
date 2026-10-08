@@ -9,7 +9,7 @@
     "koa"
   ],
   "stars": 35682,
-  "forks": 3232,
+  "forks": 3234,
   "watchers": 798,
   "open_issues": 41,
   "created_at": "2013-07-20T18:53:45Z",
@@ -26,10 +26,10 @@
   "category": "other",
   "flags": [],
   "usability_score": 100,
-  "snapshot_days": 33,
+  "snapshot_days": 34,
   "is_indexable": true,
   "first_seen_at": "2026-09-01T00:26:13.032Z",
   "tracking_tier": "normal",
-  "last_fetched_date": "2026-10-05",
+  "last_fetched_date": "2026-10-08",
   "stars_stagnant_days": 4
 }

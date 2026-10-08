@@ -15,10 +15,10 @@
     "peer-review",
     "prompt-engineering"
   ],
-  "stars": 50658,
-  "forks": 3905,
+  "stars": 50781,
+  "forks": 3912,
   "watchers": null,
-  "open_issues": 31,
+  "open_issues": 32,
   "created_at": "2026-02-26T06:31:01Z",
   "pushed_at": "2026-10-03T14:29:44Z",
   "is_archived": false,
@@ -33,10 +33,10 @@
   "category": "llm",
   "flags": [],
   "usability_score": 100,
-  "snapshot_days": 38,
+  "snapshot_days": 39,
   "is_indexable": true,
   "first_seen_at": "2026-08-30T23:15:18.750Z",
   "tracking_tier": "hot",
-  "last_fetched_date": "2026-10-07",
+  "last_fetched_date": "2026-10-08",
   "stars_stagnant_days": 0
 }

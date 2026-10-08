@@ -13,7 +13,7 @@
     "structural-regex",
     "text-editor"
   ],
-  "stars": 5046,
+  "stars": 5054,
   "forks": 292,
   "watchers": 97,
   "open_issues": 152,
@@ -31,10 +31,10 @@
   "category": "dev-tool",
   "flags": [],
   "usability_score": 100,
-  "snapshot_days": 12,
+  "snapshot_days": 13,
   "is_indexable": true,
   "first_seen_at": "2026-09-25T23:53:23.595Z",
   "tracking_tier": "hot",
-  "last_fetched_date": "2026-10-07",
+  "last_fetched_date": "2026-10-08",
   "stars_stagnant_days": 0
 }

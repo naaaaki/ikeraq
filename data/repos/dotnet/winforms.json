@@ -12,12 +12,12 @@
     "windows-forms",
     "winforms"
   ],
-  "stars": 4861,
-  "forks": 1120,
+  "stars": 4863,
+  "forks": 1121,
   "watchers": null,
   "open_issues": 938,
   "created_at": "2018-10-19T01:54:02Z",
-  "pushed_at": "2026-10-06T23:03:01Z",
+  "pushed_at": "2026-10-07T22:19:08Z",
   "is_archived": false,
   "license_spdx": "MIT",
   "license_category": "permissive",
@@ -30,10 +30,10 @@
   "category": "other",
   "flags": [],
   "usability_score": 100,
-  "snapshot_days": 13,
+  "snapshot_days": 14,
   "is_indexable": true,
   "first_seen_at": "2026-09-24T23:48:41.712Z",
   "tracking_tier": "hot",
-  "last_fetched_date": "2026-10-07",
-  "stars_stagnant_days": 1
+  "last_fetched_date": "2026-10-08",
+  "stars_stagnant_days": 0
 }

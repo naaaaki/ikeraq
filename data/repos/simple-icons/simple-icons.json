@@ -26,10 +26,10 @@
     "svg-icons",
     "svg-images"
   ],
-  "stars": 25973,
+  "stars": 25984,
   "forks": 3176,
   "watchers": null,
-  "open_issues": 982,
+  "open_issues": 984,
   "created_at": "2012-11-16T11:09:13Z",
   "pushed_at": "2026-10-04T10:43:49Z",
   "is_archived": false,
@@ -44,10 +44,10 @@
   "category": "web-frontend",
   "flags": [],
   "usability_score": 100,
-  "snapshot_days": 34,
+  "snapshot_days": 35,
   "is_indexable": true,
   "first_seen_at": "2026-09-03T23:03:15.575Z",
   "tracking_tier": "hot",
-  "last_fetched_date": "2026-10-07",
+  "last_fetched_date": "2026-10-08",
   "stars_stagnant_days": 0
 }

@@ -19,8 +19,8 @@
     "shop-app",
     "shopapp"
   ],
-  "stars": 4839,
-  "forks": 1984,
+  "stars": 4838,
+  "forks": 1983,
   "watchers": 136,
   "open_issues": 35,
   "created_at": "2020-08-06T17:41:44Z",
@@ -43,10 +43,10 @@
     }
   ],
   "usability_score": 60,
-  "snapshot_days": 11,
+  "snapshot_days": 12,
   "is_indexable": true,
   "first_seen_at": "2026-09-26T23:25:20.109Z",
   "tracking_tier": "hot",
-  "last_fetched_date": "2026-10-07",
-  "stars_stagnant_days": 0
+  "last_fetched_date": "2026-10-08",
+  "stars_stagnant_days": 1
 }

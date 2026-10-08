@@ -13,8 +13,8 @@
     "stock-market",
     "tailwindcss"
   ],
-  "stars": 19785,
-  "forks": 2425,
+  "stars": 19848,
+  "forks": 2429,
   "watchers": 105,
   "open_issues": 36,
   "created_at": "2025-09-28T18:16:32Z",
@@ -37,10 +37,10 @@
     }
   ],
   "usability_score": 85,
-  "snapshot_days": 14,
+  "snapshot_days": 15,
   "is_indexable": true,
   "first_seen_at": "2026-09-23T23:28:31.339Z",
   "tracking_tier": "hot",
-  "last_fetched_date": "2026-10-07",
+  "last_fetched_date": "2026-10-08",
   "stars_stagnant_days": 0
 }

@@ -4,7 +4,7 @@
   "name": "marked",
   "description_en": "A markdown parser and compiler. Built for speed.",
   "human_note": null,
-  "language": "TypeScript",
+  "language": "JavaScript",
   "topics": [
     "commonmark",
     "compiler",
@@ -13,12 +13,12 @@
     "markdown",
     "parser"
   ],
-  "stars": 37221,
-  "forks": 3745,
+  "stars": 37227,
+  "forks": 3754,
   "watchers": 384,
-  "open_issues": 27,
+  "open_issues": 20,
   "created_at": "2011-07-24T13:15:51Z",
-  "pushed_at": "2026-10-02T14:33:27Z",
+  "pushed_at": "2026-10-06T22:35:49Z",
   "is_archived": false,
   "license_spdx": "NOASSERTION",
   "license_category": "unknown",
@@ -31,10 +31,10 @@
   "category": "dev-tool",
   "flags": [],
   "usability_score": 100,
-  "snapshot_days": 33,
+  "snapshot_days": 34,
   "is_indexable": true,
   "first_seen_at": "2026-09-01T00:26:13.032Z",
   "tracking_tier": "normal",
-  "last_fetched_date": "2026-10-05",
+  "last_fetched_date": "2026-10-08",
   "stars_stagnant_days": 2
 }

@@ -12,12 +12,12 @@
     "linux",
     "oci"
   ],
-  "stars": 33004,
+  "stars": 33009,
   "forks": 3401,
   "watchers": null,
-  "open_issues": 1015,
+  "open_issues": 1012,
   "created_at": "2017-11-01T15:01:27Z",
-  "pushed_at": "2026-10-06T20:34:33Z",
+  "pushed_at": "2026-10-07T17:48:27Z",
   "is_archived": false,
   "license_spdx": "Apache-2.0",
   "license_category": "permissive",
@@ -30,10 +30,10 @@
   "category": "infra",
   "flags": [],
   "usability_score": 100,
-  "snapshot_days": 36,
+  "snapshot_days": 37,
   "is_indexable": true,
   "first_seen_at": "2026-09-01T23:05:22.650Z",
   "tracking_tier": "hot",
-  "last_fetched_date": "2026-10-07",
+  "last_fetched_date": "2026-10-08",
   "stars_stagnant_days": 0
 }

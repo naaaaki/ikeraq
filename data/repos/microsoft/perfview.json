@@ -12,12 +12,12 @@
     "performance-analysis",
     "windows"
   ],
-  "stars": 4759,
+  "stars": 4761,
   "forks": 777,
   "watchers": null,
-  "open_issues": 94,
+  "open_issues": 92,
   "created_at": "2015-03-27T21:48:45Z",
-  "pushed_at": "2026-10-06T23:59:49Z",
+  "pushed_at": "2026-10-07T17:02:15Z",
   "is_archived": false,
   "license_spdx": "MIT",
   "license_category": "permissive",
@@ -30,10 +30,10 @@
   "category": "other",
   "flags": [],
   "usability_score": 100,
-  "snapshot_days": 12,
+  "snapshot_days": 13,
   "is_indexable": true,
   "first_seen_at": "2026-09-25T23:53:23.595Z",
   "tracking_tier": "hot",
-  "last_fetched_date": "2026-10-07",
+  "last_fetched_date": "2026-10-08",
   "stars_stagnant_days": 0
 }

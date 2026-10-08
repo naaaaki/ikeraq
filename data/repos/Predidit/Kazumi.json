@@ -15,12 +15,12 @@
     "macos",
     "windows"
   ],
-  "stars": 31241,
-  "forks": 942,
+  "stars": 31575,
+  "forks": 958,
   "watchers": null,
-  "open_issues": 548,
+  "open_issues": 554,
   "created_at": "2024-05-09T01:56:22Z",
-  "pushed_at": "2026-10-06T12:18:23Z",
+  "pushed_at": "2026-10-07T03:13:30Z",
   "is_archived": false,
   "license_spdx": "GPL-3.0",
   "license_category": "strong-copyleft",
@@ -39,10 +39,10 @@
     }
   ],
   "usability_score": 85,
-  "snapshot_days": 35,
+  "snapshot_days": 36,
   "is_indexable": true,
   "first_seen_at": "2026-09-02T23:02:41.773Z",
   "tracking_tier": "hot",
-  "last_fetched_date": "2026-10-07",
+  "last_fetched_date": "2026-10-08",
   "stars_stagnant_days": 0
 }

@@ -11,12 +11,12 @@
     "go",
     "golang"
   ],
-  "stars": 72147,
-  "forks": 19235,
+  "stars": 72159,
+  "forks": 19236,
   "watchers": null,
   "open_issues": 3923,
   "created_at": "2013-01-18T18:10:57Z",
-  "pushed_at": "2026-10-03T16:25:36Z",
+  "pushed_at": "2026-10-07T22:28:36Z",
   "is_archived": false,
   "license_spdx": "Apache-2.0",
   "license_category": "permissive",
@@ -29,10 +29,10 @@
   "category": "infra",
   "flags": [],
   "usability_score": 100,
-  "snapshot_days": 35,
+  "snapshot_days": 36,
   "is_indexable": true,
   "first_seen_at": "2026-08-29T23:02:08.747Z",
   "tracking_tier": "normal",
-  "last_fetched_date": "2026-10-05",
+  "last_fetched_date": "2026-10-08",
   "stars_stagnant_days": 1
 }

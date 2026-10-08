@@ -27,10 +27,10 @@
     "security",
     "security-tools"
   ],
-  "stars": 29750,
-  "forks": 2267,
+  "stars": 29783,
+  "forks": 2270,
   "watchers": 184,
-  "open_issues": 493,
+  "open_issues": 492,
   "created_at": "2018-01-27T18:19:31Z",
   "pushed_at": "2026-09-30T04:14:02Z",
   "is_archived": false,
@@ -45,10 +45,10 @@
   "category": "llm",
   "flags": [],
   "usability_score": 100,
-  "snapshot_days": 14,
+  "snapshot_days": 15,
   "is_indexable": true,
   "first_seen_at": "2026-09-23T23:28:32.617Z",
   "tracking_tier": "hot",
-  "last_fetched_date": "2026-10-07",
+  "last_fetched_date": "2026-10-08",
   "stars_stagnant_days": 0
 }

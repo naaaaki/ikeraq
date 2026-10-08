@@ -10,8 +10,8 @@
     "jev",
     "qwen3"
   ],
-  "stars": 8604,
-  "forks": 564,
+  "stars": 8654,
+  "forks": 569,
   "watchers": null,
   "open_issues": 35,
   "created_at": "2026-09-17T20:49:39Z",
@@ -28,10 +28,10 @@
   "category": "other",
   "flags": [],
   "usability_score": 100,
-  "snapshot_days": 13,
+  "snapshot_days": 14,
   "is_indexable": true,
   "first_seen_at": "2026-09-24T23:48:41.710Z",
   "tracking_tier": "hot",
-  "last_fetched_date": "2026-10-07",
+  "last_fetched_date": "2026-10-08",
   "stars_stagnant_days": 0
 }

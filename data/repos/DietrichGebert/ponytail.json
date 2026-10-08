@@ -17,10 +17,10 @@
     "prompt-engineering",
     "yagni"
   ],
-  "stars": 156834,
-  "forks": 8422,
+  "stars": 157593,
+  "forks": 8467,
   "watchers": 358,
-  "open_issues": 13,
+  "open_issues": 17,
   "created_at": "2026-06-12T00:52:37Z",
   "pushed_at": "2026-10-05T20:46:39Z",
   "is_archived": false,
@@ -35,10 +35,10 @@
   "category": "ai-agent",
   "flags": [],
   "usability_score": 100,
-  "snapshot_days": 30,
+  "snapshot_days": 31,
   "is_indexable": true,
   "first_seen_at": "2026-09-07T23:19:48.974Z",
   "tracking_tier": "hot",
-  "last_fetched_date": "2026-10-07",
+  "last_fetched_date": "2026-10-08",
   "stars_stagnant_days": 0
 }

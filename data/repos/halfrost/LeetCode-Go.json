@@ -25,10 +25,10 @@
     "leetcode-solutions",
     "math"
   ],
-  "stars": 33814,
-  "forks": 5702,
-  "watchers": 607,
-  "open_issues": 5,
+  "stars": 33812,
+  "forks": 5701,
+  "watchers": 606,
+  "open_issues": 4,
   "created_at": "2017-07-18T00:06:14Z",
   "pushed_at": "2026-09-11T01:48:08Z",
   "is_archived": false,
@@ -43,10 +43,10 @@
   "category": "learning",
   "flags": [],
   "usability_score": 100,
-  "snapshot_days": 33,
+  "snapshot_days": 34,
   "is_indexable": true,
   "first_seen_at": "2026-09-02T23:02:41.773Z",
   "tracking_tier": "normal",
-  "last_fetched_date": "2026-10-05",
+  "last_fetched_date": "2026-10-08",
   "stars_stagnant_days": 1
 }

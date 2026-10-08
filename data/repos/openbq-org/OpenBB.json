@@ -20,7 +20,7 @@
     "quantitative-finance",
     "stocks"
   ],
-  "stars": 73917,
+  "stars": 73953,
   "forks": 7640,
   "watchers": null,
   "open_issues": 88,
@@ -38,10 +38,10 @@
   "category": "learning",
   "flags": [],
   "usability_score": 100,
-  "snapshot_days": 1,
+  "snapshot_days": 2,
   "is_indexable": false,
   "first_seen_at": "2026-10-07T00:25:19.700Z",
   "tracking_tier": "hot",
-  "last_fetched_date": "2026-10-07",
+  "last_fetched_date": "2026-10-08",
   "stars_stagnant_days": 0
 }

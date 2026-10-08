@@ -14,7 +14,7 @@
     "spring-cloud"
   ],
   "stars": 29816,
-  "forks": 10151,
+  "forks": 10148,
   "watchers": 1235,
   "open_issues": 159,
   "created_at": "2016-03-04T10:24:23Z",
@@ -31,10 +31,10 @@
   "category": "backend",
   "flags": [],
   "usability_score": 100,
-  "snapshot_days": 33,
+  "snapshot_days": 34,
   "is_indexable": true,
   "first_seen_at": "2026-09-02T23:02:41.773Z",
   "tracking_tier": "normal",
-  "last_fetched_date": "2026-10-05",
+  "last_fetched_date": "2026-10-08",
   "stars_stagnant_days": 1
 }

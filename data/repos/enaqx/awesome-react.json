@@ -17,9 +17,9 @@
     "tutorial",
     "typescript"
   ],
-  "stars": 74812,
-  "forks": 7677,
-  "watchers": 1471,
+  "stars": 74813,
+  "forks": 7674,
+  "watchers": 1470,
   "open_issues": 19,
   "created_at": "2014-08-06T05:31:44Z",
   "pushed_at": "2026-09-04T01:13:20Z",
@@ -41,10 +41,10 @@
     }
   ],
   "usability_score": 60,
-  "snapshot_days": 34,
+  "snapshot_days": 35,
   "is_indexable": true,
   "first_seen_at": "2026-09-03T23:03:15.574Z",
   "tracking_tier": "hot",
-  "last_fetched_date": "2026-10-07",
+  "last_fetched_date": "2026-10-08",
   "stars_stagnant_days": 0
 }

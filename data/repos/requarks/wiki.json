@@ -14,8 +14,8 @@
     "open-source",
     "wiki"
   ],
-  "stars": 29014,
-  "forks": 3322,
+  "stars": 29017,
+  "forks": 3321,
   "watchers": null,
   "open_issues": 6,
   "created_at": "2016-08-16T19:35:26Z",
@@ -38,10 +38,10 @@
     }
   ],
   "usability_score": 85,
-  "snapshot_days": 35,
+  "snapshot_days": 36,
   "is_indexable": true,
   "first_seen_at": "2026-09-02T23:02:41.773Z",
   "tracking_tier": "hot",
-  "last_fetched_date": "2026-10-07",
+  "last_fetched_date": "2026-10-08",
   "stars_stagnant_days": 0
 }

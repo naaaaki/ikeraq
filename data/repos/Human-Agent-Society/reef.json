@@ -15,12 +15,12 @@
     "reinforcement-learning",
     "self-improving-agents"
   ],
-  "stars": 7480,
-  "forks": 698,
+  "stars": 7490,
+  "forks": 697,
   "watchers": 554,
   "open_issues": 80,
   "created_at": "2026-08-31T01:39:18Z",
-  "pushed_at": "2026-10-06T23:12:28Z",
+  "pushed_at": "2026-10-07T20:46:46Z",
   "is_archived": false,
   "license_spdx": "Apache-2.0",
   "license_category": "permissive",
@@ -33,10 +33,10 @@
   "category": "ai-agent",
   "flags": [],
   "usability_score": 100,
-  "snapshot_days": 12,
+  "snapshot_days": 13,
   "is_indexable": true,
   "first_seen_at": "2026-09-25T23:53:23.592Z",
   "tracking_tier": "hot",
-  "last_fetched_date": "2026-10-07",
+  "last_fetched_date": "2026-10-08",
   "stars_stagnant_days": 0
 }

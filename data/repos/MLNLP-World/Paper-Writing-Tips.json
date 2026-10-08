@@ -8,7 +8,7 @@
   "topics": [
     "mlnlp"
   ],
-  "stars": 4665,
+  "stars": 4666,
   "forks": 542,
   "watchers": 43,
   "open_issues": 5,
@@ -32,10 +32,10 @@
     }
   ],
   "usability_score": 60,
-  "snapshot_days": 11,
+  "snapshot_days": 12,
   "is_indexable": true,
   "first_seen_at": "2026-09-26T23:25:20.110Z",
   "tracking_tier": "hot",
-  "last_fetched_date": "2026-10-07",
-  "stars_stagnant_days": 1
+  "last_fetched_date": "2026-10-08",
+  "stars_stagnant_days": 0
 }

@@ -14,12 +14,12 @@
     "toml",
     "yaml"
   ],
-  "stars": 24286,
-  "forks": 1837,
+  "stars": 24287,
+  "forks": 1840,
   "watchers": 282,
   "open_issues": 37,
   "created_at": "2013-07-13T19:32:06Z",
-  "pushed_at": "2026-10-02T01:46:47Z",
+  "pushed_at": "2026-10-07T17:05:03Z",
   "is_archived": false,
   "license_spdx": "MIT",
   "license_category": "permissive",
@@ -32,10 +32,10 @@
   "category": "dev-tool",
   "flags": [],
   "usability_score": 100,
-  "snapshot_days": 14,
+  "snapshot_days": 15,
   "is_indexable": true,
   "first_seen_at": "2026-09-23T23:28:32.619Z",
   "tracking_tier": "hot",
-  "last_fetched_date": "2026-10-07",
+  "last_fetched_date": "2026-10-08",
   "stars_stagnant_days": 0
 }

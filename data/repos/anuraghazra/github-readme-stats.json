@@ -12,9 +12,9 @@
     "readme-stats",
     "serverless"
   ],
-  "stars": 79829,
-  "forks": 38119,
-  "watchers": 315,
+  "stars": 79822,
+  "forks": 38113,
+  "watchers": 314,
   "open_issues": 294,
   "created_at": "2020-07-09T10:34:22Z",
   "pushed_at": "2026-10-01T01:02:55Z",
@@ -30,10 +30,10 @@
   "category": "other",
   "flags": [],
   "usability_score": 100,
-  "snapshot_days": 33,
+  "snapshot_days": 34,
   "is_indexable": true,
   "first_seen_at": "2026-09-01T00:26:13.031Z",
   "tracking_tier": "normal",
-  "last_fetched_date": "2026-10-05",
+  "last_fetched_date": "2026-10-08",
   "stars_stagnant_days": 2
 }

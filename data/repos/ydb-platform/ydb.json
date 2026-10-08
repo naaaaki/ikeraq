@@ -16,12 +16,12 @@
     "distributed-sql-database",
     "sql"
   ],
-  "stars": 4775,
+  "stars": 4776,
   "forks": 822,
   "watchers": null,
-  "open_issues": 4834,
+  "open_issues": 4826,
   "created_at": "2022-02-07T14:52:36Z",
-  "pushed_at": "2026-10-07T00:22:15Z",
+  "pushed_at": "2026-10-08T00:06:31Z",
   "is_archived": false,
   "license_spdx": "Apache-2.0",
   "license_category": "permissive",
@@ -34,10 +34,10 @@
   "category": "data",
   "flags": [],
   "usability_score": 100,
-  "snapshot_days": 12,
+  "snapshot_days": 13,
   "is_indexable": true,
   "first_seen_at": "2026-09-25T23:53:23.595Z",
   "tracking_tier": "hot",
-  "last_fetched_date": "2026-10-07",
-  "stars_stagnant_days": 1
+  "last_fetched_date": "2026-10-08",
+  "stars_stagnant_days": 0
 }

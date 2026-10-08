@@ -24,7 +24,7 @@
     "time-series-database",
     "tsdb"
   ],
-  "stars": 25152,
+  "stars": 25151,
   "forks": 5020,
   "watchers": 679,
   "open_issues": 439,
@@ -48,10 +48,10 @@
     }
   ],
   "usability_score": 85,
-  "snapshot_days": 12,
+  "snapshot_days": 13,
   "is_indexable": true,
   "first_seen_at": "2026-09-25T23:53:23.592Z",
   "tracking_tier": "hot",
-  "last_fetched_date": "2026-10-07",
-  "stars_stagnant_days": 0
+  "last_fetched_date": "2026-10-08",
+  "stars_stagnant_days": 1
 }

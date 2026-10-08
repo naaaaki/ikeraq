@@ -27,10 +27,10 @@
     "resnet",
     "vision-transformer-models"
   ],
-  "stars": 37196,
-  "forks": 5215,
+  "stars": 37199,
+  "forks": 5216,
   "watchers": null,
-  "open_issues": 40,
+  "open_issues": 42,
   "created_at": "2019-02-02T05:51:12Z",
   "pushed_at": "2026-10-06T21:03:11Z",
   "is_archived": false,
@@ -45,10 +45,10 @@
   "category": "mobile",
   "flags": [],
   "usability_score": 100,
-  "snapshot_days": 37,
+  "snapshot_days": 38,
   "is_indexable": true,
   "first_seen_at": "2026-09-01T00:26:13.032Z",
   "tracking_tier": "hot",
-  "last_fetched_date": "2026-10-07",
+  "last_fetched_date": "2026-10-08",
   "stars_stagnant_days": 0
 }
