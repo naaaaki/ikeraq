@@ -20,12 +20,12 @@
     "vmess",
     "vpn"
   ],
-  "stars": 34664,
-  "forks": 5076,
+  "stars": 34666,
+  "forks": 5074,
   "watchers": 453,
   "open_issues": 34,
   "created_at": "2019-04-15T10:05:54Z",
-  "pushed_at": "2026-10-05T22:53:18Z",
+  "pushed_at": "2026-10-08T22:53:26Z",
   "is_archived": false,
   "license_spdx": "MIT",
   "license_category": "permissive",
@@ -38,10 +38,10 @@
   "category": "infra",
   "flags": [],
   "usability_score": 100,
-  "snapshot_days": 31,
+  "snapshot_days": 32,
   "is_indexable": true,
   "first_seen_at": "2026-09-07T23:19:48.975Z",
   "tracking_tier": "hot",
-  "last_fetched_date": "2026-10-08",
+  "last_fetched_date": "2026-10-09",
   "stars_stagnant_days": 0
 }

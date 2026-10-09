@@ -24,7 +24,7 @@
     "youtube-playlist"
   ],
   "stars": 4617,
-  "forks": 1006,
+  "forks": 1005,
   "watchers": 274,
   "open_issues": 1485,
   "created_at": "2018-03-02T10:05:24Z",
@@ -41,10 +41,10 @@
   "category": "dev-tool",
   "flags": [],
   "usability_score": 100,
-  "snapshot_days": 12,
+  "snapshot_days": 13,
   "is_indexable": true,
   "first_seen_at": "2026-09-26T23:25:20.111Z",
   "tracking_tier": "hot",
-  "last_fetched_date": "2026-10-08",
-  "stars_stagnant_days": 0
+  "last_fetched_date": "2026-10-09",
+  "stars_stagnant_days": 1
 }

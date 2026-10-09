@@ -36,10 +36,10 @@
     }
   ],
   "usability_score": 60,
-  "snapshot_days": 13,
+  "snapshot_days": 14,
   "is_indexable": true,
   "first_seen_at": "2026-09-25T23:53:23.594Z",
   "tracking_tier": "hot",
-  "last_fetched_date": "2026-10-08",
-  "stars_stagnant_days": 1
+  "last_fetched_date": "2026-10-09",
+  "stars_stagnant_days": 2
 }

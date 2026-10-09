@@ -13,12 +13,12 @@
     "rfc8489",
     "stun"
   ],
-  "stars": 4870,
+  "stars": 4872,
   "forks": 273,
   "watchers": null,
   "open_issues": 1,
   "created_at": "2018-05-18T14:15:18Z",
-  "pushed_at": "2026-10-04T15:57:56Z",
+  "pushed_at": "2026-10-08T06:47:37Z",
   "is_archived": false,
   "license_spdx": "MIT",
   "license_category": "permissive",
@@ -31,10 +31,10 @@
   "category": "other",
   "flags": [],
   "usability_score": 100,
-  "snapshot_days": 14,
+  "snapshot_days": 15,
   "is_indexable": true,
   "first_seen_at": "2026-09-24T23:48:41.713Z",
   "tracking_tier": "hot",
-  "last_fetched_date": "2026-10-08",
-  "stars_stagnant_days": 1
+  "last_fetched_date": "2026-10-09",
+  "stars_stagnant_days": 0
 }

@@ -11,7 +11,7 @@
     "semantic-engine",
     "vim"
   ],
-  "stars": 25871,
+  "stars": 25868,
   "forks": 2746,
   "watchers": 544,
   "open_issues": 38,
@@ -35,10 +35,10 @@
     }
   ],
   "usability_score": 85,
-  "snapshot_days": 33,
+  "snapshot_days": 34,
   "is_indexable": true,
   "first_seen_at": "2026-09-03T23:03:15.575Z",
   "tracking_tier": "normal",
-  "last_fetched_date": "2026-10-06",
+  "last_fetched_date": "2026-10-09",
   "stars_stagnant_days": 1
 }

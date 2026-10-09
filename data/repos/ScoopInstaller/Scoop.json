@@ -11,8 +11,8 @@
     "scoop",
     "windows"
   ],
-  "stars": 24721,
-  "forks": 1542,
+  "stars": 24724,
+  "forks": 1541,
   "watchers": null,
   "open_issues": 508,
   "created_at": "2013-05-11T03:52:15Z",
@@ -29,10 +29,10 @@
   "category": "other",
   "flags": [],
   "usability_score": 100,
-  "snapshot_days": 15,
+  "snapshot_days": 16,
   "is_indexable": true,
   "first_seen_at": "2026-09-23T23:28:32.618Z",
   "tracking_tier": "hot",
-  "last_fetched_date": "2026-10-08",
-  "stars_stagnant_days": 2
+  "last_fetched_date": "2026-10-09",
+  "stars_stagnant_days": 0
 }

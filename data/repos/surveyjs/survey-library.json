@@ -27,12 +27,12 @@
     "vue3",
     "web-forms"
   ],
-  "stars": 4888,
+  "stars": 4891,
   "forks": 926,
   "watchers": null,
-  "open_issues": 464,
+  "open_issues": 467,
   "created_at": "2015-08-14T08:53:22Z",
-  "pushed_at": "2026-10-07T14:29:39Z",
+  "pushed_at": "2026-10-08T17:45:56Z",
   "is_archived": false,
   "license_spdx": "MIT",
   "license_category": "permissive",
@@ -45,10 +45,10 @@
   "category": "web-frontend",
   "flags": [],
   "usability_score": 100,
-  "snapshot_days": 14,
+  "snapshot_days": 15,
   "is_indexable": true,
   "first_seen_at": "2026-09-24T23:48:41.712Z",
   "tracking_tier": "hot",
-  "last_fetched_date": "2026-10-08",
-  "stars_stagnant_days": 1
+  "last_fetched_date": "2026-10-09",
+  "stars_stagnant_days": 0
 }

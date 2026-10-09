@@ -18,12 +18,12 @@
     "raspberry-pi",
     "shell"
   ],
-  "stars": 61197,
+  "stars": 61210,
   "forks": 3319,
   "watchers": 713,
-  "open_issues": 45,
+  "open_issues": 46,
   "created_at": "2014-06-08T15:02:55Z",
-  "pushed_at": "2026-10-07T18:59:18Z",
+  "pushed_at": "2026-10-08T21:23:45Z",
   "is_archived": false,
   "license_spdx": "NOASSERTION",
   "license_category": "unknown",
@@ -36,10 +36,10 @@
   "category": "backend",
   "flags": [],
   "usability_score": 100,
-  "snapshot_days": 40,
+  "snapshot_days": 41,
   "is_indexable": true,
   "first_seen_at": "2026-08-29T23:02:08.747Z",
   "tracking_tier": "hot",
-  "last_fetched_date": "2026-10-08",
+  "last_fetched_date": "2026-10-09",
   "stars_stagnant_days": 0
 }

@@ -13,11 +13,11 @@
     "winforms"
   ],
   "stars": 4863,
-  "forks": 1121,
+  "forks": 1122,
   "watchers": null,
-  "open_issues": 938,
+  "open_issues": 941,
   "created_at": "2018-10-19T01:54:02Z",
-  "pushed_at": "2026-10-07T22:19:08Z",
+  "pushed_at": "2026-10-08T20:36:25Z",
   "is_archived": false,
   "license_spdx": "MIT",
   "license_category": "permissive",
@@ -30,10 +30,10 @@
   "category": "other",
   "flags": [],
   "usability_score": 100,
-  "snapshot_days": 14,
+  "snapshot_days": 15,
   "is_indexable": true,
   "first_seen_at": "2026-09-24T23:48:41.712Z",
   "tracking_tier": "hot",
-  "last_fetched_date": "2026-10-08",
-  "stars_stagnant_days": 0
+  "last_fetched_date": "2026-10-09",
+  "stars_stagnant_days": 1
 }

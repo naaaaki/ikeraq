@@ -24,7 +24,7 @@
     "xamarin",
     "xamarin-android"
   ],
-  "stars": 4607,
+  "stars": 4611,
   "forks": 282,
   "watchers": null,
   "open_issues": 80,
@@ -48,10 +48,10 @@
     }
   ],
   "usability_score": 85,
-  "snapshot_days": 12,
+  "snapshot_days": 13,
   "is_indexable": true,
   "first_seen_at": "2026-09-26T23:25:20.111Z",
   "tracking_tier": "hot",
-  "last_fetched_date": "2026-10-08",
+  "last_fetched_date": "2026-10-09",
   "stars_stagnant_days": 0
 }

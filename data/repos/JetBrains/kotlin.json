@@ -16,12 +16,12 @@
     "wasm",
     "webassembly"
   ],
-  "stars": 53480,
-  "forks": 6434,
+  "stars": 53487,
+  "forks": 6436,
   "watchers": null,
-  "open_issues": 448,
+  "open_issues": 437,
   "created_at": "2012-02-13T17:29:58Z",
-  "pushed_at": "2026-10-06T01:05:28Z",
+  "pushed_at": "2026-10-09T00:49:55Z",
   "is_archived": false,
   "license_spdx": null,
   "license_category": "none",
@@ -40,10 +40,10 @@
     }
   ],
   "usability_score": 60,
-  "snapshot_days": 36,
+  "snapshot_days": 37,
   "is_indexable": true,
   "first_seen_at": "2026-08-29T23:02:08.747Z",
   "tracking_tier": "normal",
-  "last_fetched_date": "2026-10-06",
+  "last_fetched_date": "2026-10-09",
   "stars_stagnant_days": 1
 }

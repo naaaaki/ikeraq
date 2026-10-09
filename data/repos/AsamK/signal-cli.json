@@ -14,10 +14,10 @@
     "signal",
     "signal-cli"
   ],
-  "stars": 4962,
+  "stars": 4968,
   "forks": 462,
   "watchers": 68,
-  "open_issues": 107,
+  "open_issues": 108,
   "created_at": "2015-05-11T10:49:42Z",
   "pushed_at": "2026-10-07T11:16:58Z",
   "is_archived": false,
@@ -38,10 +38,10 @@
     }
   ],
   "usability_score": 85,
-  "snapshot_days": 14,
+  "snapshot_days": 15,
   "is_indexable": true,
   "first_seen_at": "2026-09-24T23:48:41.712Z",
   "tracking_tier": "hot",
-  "last_fetched_date": "2026-10-08",
+  "last_fetched_date": "2026-10-09",
   "stars_stagnant_days": 0
 }

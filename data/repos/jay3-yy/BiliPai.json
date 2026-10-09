@@ -6,12 +6,12 @@
   "human_note": null,
   "language": "Kotlin",
   "topics": [],
-  "stars": 4767,
+  "stars": 4785,
   "forks": 409,
   "watchers": null,
   "open_issues": 512,
   "created_at": "2025-11-28T11:17:48Z",
-  "pushed_at": "2026-10-07T15:31:29Z",
+  "pushed_at": "2026-10-08T14:33:51Z",
   "is_archived": false,
   "license_spdx": "GPL-3.0",
   "license_category": "strong-copyleft",
@@ -30,10 +30,10 @@
     }
   ],
   "usability_score": 85,
-  "snapshot_days": 12,
+  "snapshot_days": 13,
   "is_indexable": true,
   "first_seen_at": "2026-09-26T23:25:20.110Z",
   "tracking_tier": "hot",
-  "last_fetched_date": "2026-10-08",
+  "last_fetched_date": "2026-10-09",
   "stars_stagnant_days": 0
 }

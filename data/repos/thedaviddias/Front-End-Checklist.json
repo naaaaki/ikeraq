@@ -22,7 +22,7 @@
     "rules",
     "web-development"
   ],
-  "stars": 74397,
+  "stars": 74409,
   "forks": 6757,
   "watchers": null,
   "open_issues": 5,
@@ -40,10 +40,10 @@
   "category": "ai-agent",
   "flags": [],
   "usability_score": 100,
-  "snapshot_days": 4,
+  "snapshot_days": 5,
   "is_indexable": false,
   "first_seen_at": "2026-10-04T23:52:52.311Z",
   "tracking_tier": "hot",
-  "last_fetched_date": "2026-10-08",
+  "last_fetched_date": "2026-10-09",
   "stars_stagnant_days": 0
 }

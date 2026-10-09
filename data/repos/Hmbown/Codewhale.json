@@ -2,7 +2,7 @@
   "id": "Hmbown/Codewhale",
   "owner": "Hmbown",
   "name": "Codewhale",
-  "description_en": "Open-source coding agent for your terminal, built in Rust and on a journey of continuous community improvement. Issues and PRs welcome.",
+  "description_en": "Open-source Rust agent engine and terminal client for Codewhale, with provider choice, tools, approvals and receipts.",
   "human_note": null,
   "language": "Rust",
   "topics": [
@@ -21,12 +21,12 @@
     "terminal",
     "tui"
   ],
-  "stars": 41078,
-  "forks": 3569,
+  "stars": 41083,
+  "forks": 3567,
   "watchers": 166,
-  "open_issues": 204,
+  "open_issues": 208,
   "created_at": "2026-01-19T18:21:01Z",
-  "pushed_at": "2026-10-08T00:11:05Z",
+  "pushed_at": "2026-10-09T00:37:52Z",
   "is_archived": false,
   "license_spdx": "MIT",
   "license_category": "permissive",
@@ -39,10 +39,10 @@
   "category": "ai-agent",
   "flags": [],
   "usability_score": 100,
-  "snapshot_days": 36,
+  "snapshot_days": 37,
   "is_indexable": true,
   "first_seen_at": "2026-09-02T23:02:41.773Z",
   "tracking_tier": "hot",
-  "last_fetched_date": "2026-10-08",
+  "last_fetched_date": "2026-10-09",
   "stars_stagnant_days": 0
 }

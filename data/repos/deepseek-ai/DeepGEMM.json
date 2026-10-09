@@ -6,8 +6,8 @@
   "human_note": null,
   "language": "Cuda",
   "topics": [],
-  "stars": 8859,
-  "forks": 1390,
+  "stars": 8880,
+  "forks": 1396,
   "watchers": 72,
   "open_issues": 151,
   "created_at": "2025-02-13T09:09:21Z",
@@ -24,10 +24,10 @@
   "category": "other",
   "flags": [],
   "usability_score": 100,
-  "snapshot_days": 2,
+  "snapshot_days": 3,
   "is_indexable": false,
   "first_seen_at": "2026-10-07T00:25:19.284Z",
   "tracking_tier": "hot",
-  "last_fetched_date": "2026-10-08",
+  "last_fetched_date": "2026-10-09",
   "stars_stagnant_days": 0
 }

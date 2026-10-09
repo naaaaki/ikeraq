@@ -14,7 +14,7 @@
     "file-sharing",
     "golang"
   ],
-  "stars": 28800,
+  "stars": 28810,
   "forks": 3915,
   "watchers": 243,
   "open_issues": 144,
@@ -38,10 +38,10 @@
     }
   ],
   "usability_score": 85,
-  "snapshot_days": 15,
+  "snapshot_days": 16,
   "is_indexable": true,
   "first_seen_at": "2026-09-23T23:28:32.617Z",
   "tracking_tier": "hot",
-  "last_fetched_date": "2026-10-08",
-  "stars_stagnant_days": 1
+  "last_fetched_date": "2026-10-09",
+  "stars_stagnant_days": 0
 }

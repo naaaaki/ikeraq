@@ -17,12 +17,12 @@
     "terraform",
     "vscode"
   ],
-  "stars": 16882,
-  "forks": 1610,
+  "stars": 16908,
+  "forks": 1613,
   "watchers": 85,
-  "open_issues": 1154,
+  "open_issues": 1147,
   "created_at": "2021-12-22T06:08:52Z",
-  "pushed_at": "2026-10-08T00:36:41Z",
+  "pushed_at": "2026-10-09T00:54:36Z",
   "is_archived": false,
   "license_spdx": "AGPL-3.0",
   "license_category": "strong-copyleft",
@@ -41,10 +41,10 @@
     }
   ],
   "usability_score": 85,
-  "snapshot_days": 20,
+  "snapshot_days": 21,
   "is_indexable": true,
   "first_seen_at": "2026-09-18T23:04:17.420Z",
   "tracking_tier": "hot",
-  "last_fetched_date": "2026-10-08",
+  "last_fetched_date": "2026-10-09",
   "stars_stagnant_days": 0
 }

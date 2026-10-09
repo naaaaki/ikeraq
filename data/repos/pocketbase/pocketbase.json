@@ -11,12 +11,12 @@
     "golang",
     "realtime"
   ],
-  "stars": 61324,
-  "forks": 3727,
+  "stars": 61333,
+  "forks": 3728,
   "watchers": null,
   "open_issues": 19,
   "created_at": "2022-07-05T06:06:21Z",
-  "pushed_at": "2026-10-02T08:39:50Z",
+  "pushed_at": "2026-10-08T16:38:14Z",
   "is_archived": false,
   "license_spdx": "MIT",
   "license_category": "permissive",
@@ -29,10 +29,10 @@
   "category": "backend",
   "flags": [],
   "usability_score": 100,
-  "snapshot_days": 40,
+  "snapshot_days": 41,
   "is_indexable": true,
   "first_seen_at": "2026-08-29T23:02:08.747Z",
   "tracking_tier": "hot",
-  "last_fetched_date": "2026-10-08",
+  "last_fetched_date": "2026-10-09",
   "stars_stagnant_days": 0
 }

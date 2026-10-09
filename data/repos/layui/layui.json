@@ -14,8 +14,8 @@
     "ui-kit",
     "ui-library"
   ],
-  "stars": 30581,
-  "forks": 7352,
+  "stars": 30580,
+  "forks": 7350,
   "watchers": 926,
   "open_issues": 43,
   "created_at": "2015-09-22T08:12:03Z",
@@ -32,10 +32,10 @@
   "category": "web-frontend",
   "flags": [],
   "usability_score": 100,
-  "snapshot_days": 33,
+  "snapshot_days": 34,
   "is_indexable": true,
   "first_seen_at": "2026-09-01T23:05:22.650Z",
   "tracking_tier": "normal",
-  "last_fetched_date": "2026-10-06",
+  "last_fetched_date": "2026-10-09",
   "stars_stagnant_days": 3
 }

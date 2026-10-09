@@ -11,12 +11,12 @@
     "diagram-as-code",
     "graphviz"
   ],
-  "stars": 42686,
+  "stars": 42693,
   "forks": 2732,
   "watchers": 403,
-  "open_issues": 395,
+  "open_issues": 396,
   "created_at": "2020-02-02T15:23:24Z",
-  "pushed_at": "2026-10-04T14:22:43Z",
+  "pushed_at": "2026-10-08T18:12:26Z",
   "is_archived": false,
   "license_spdx": "MIT",
   "license_category": "permissive",
@@ -29,10 +29,10 @@
   "category": "other",
   "flags": [],
   "usability_score": 100,
-  "snapshot_days": 15,
+  "snapshot_days": 16,
   "is_indexable": true,
   "first_seen_at": "2026-09-23T23:28:32.616Z",
   "tracking_tier": "hot",
-  "last_fetched_date": "2026-10-08",
+  "last_fetched_date": "2026-10-09",
   "stars_stagnant_days": 0
 }

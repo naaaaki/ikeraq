@@ -26,12 +26,12 @@
     "skills",
     "workflow"
   ],
-  "stars": 158041,
-  "forks": 24935,
+  "stars": 157931,
+  "forks": 24945,
   "watchers": null,
-  "open_issues": 1075,
+  "open_issues": 1113,
   "created_at": "2023-04-12T07:40:24Z",
-  "pushed_at": "2026-10-07T22:55:59Z",
+  "pushed_at": "2026-10-09T00:42:00Z",
   "is_archived": false,
   "license_spdx": "NOASSERTION",
   "license_category": "unknown",
@@ -44,10 +44,10 @@
   "category": "ai-agent",
   "flags": [],
   "usability_score": 100,
-  "snapshot_days": 40,
+  "snapshot_days": 41,
   "is_indexable": true,
   "first_seen_at": "2026-08-29T15:46:21.820Z",
-  "tracking_tier": "hot",
-  "last_fetched_date": "2026-10-08",
-  "stars_stagnant_days": 0
+  "tracking_tier": "normal",
+  "last_fetched_date": "2026-10-09",
+  "stars_stagnant_days": 1
 }

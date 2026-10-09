@@ -18,12 +18,12 @@
     "typography",
     "variable-font"
   ],
-  "stars": 29155,
-  "forks": 1196,
+  "stars": 29174,
+  "forks": 1197,
   "watchers": 65,
-  "open_issues": 38,
+  "open_issues": 39,
   "created_at": "2022-04-08T15:51:22Z",
-  "pushed_at": "2026-09-20T15:10:42Z",
+  "pushed_at": "2026-10-08T13:28:21Z",
   "is_archived": false,
   "license_spdx": "OFL-1.1",
   "license_category": "strong-copyleft",
@@ -42,10 +42,10 @@
     }
   ],
   "usability_score": 85,
-  "snapshot_days": 15,
+  "snapshot_days": 16,
   "is_indexable": true,
   "first_seen_at": "2026-09-23T23:28:32.617Z",
   "tracking_tier": "hot",
-  "last_fetched_date": "2026-10-08",
+  "last_fetched_date": "2026-10-09",
   "stars_stagnant_days": 0
 }

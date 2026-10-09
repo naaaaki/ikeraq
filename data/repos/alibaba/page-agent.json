@@ -15,7 +15,7 @@
     "typescript",
     "web"
   ],
-  "stars": 29350,
+  "stars": 29362,
   "forks": 2640,
   "watchers": 117,
   "open_issues": 105,
@@ -33,10 +33,10 @@
   "category": "ai-agent",
   "flags": [],
   "usability_score": 100,
-  "snapshot_days": 36,
+  "snapshot_days": 37,
   "is_indexable": true,
   "first_seen_at": "2026-09-02T23:02:41.773Z",
   "tracking_tier": "hot",
-  "last_fetched_date": "2026-10-08",
+  "last_fetched_date": "2026-10-09",
   "stars_stagnant_days": 0
 }

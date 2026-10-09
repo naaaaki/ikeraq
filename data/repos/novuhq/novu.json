@@ -22,12 +22,12 @@
     "transactional",
     "typescript"
   ],
-  "stars": 40117,
+  "stars": 40133,
   "forks": 4508,
   "watchers": null,
-  "open_issues": 120,
+  "open_issues": 126,
   "created_at": "2021-08-26T15:22:44Z",
-  "pushed_at": "2026-10-05T16:16:55Z",
+  "pushed_at": "2026-10-09T00:55:47Z",
   "is_archived": false,
   "license_spdx": "NOASSERTION",
   "license_category": "unknown",
@@ -40,10 +40,10 @@
   "category": "ai-agent",
   "flags": [],
   "usability_score": 100,
-  "snapshot_days": 34,
+  "snapshot_days": 35,
   "is_indexable": true,
   "first_seen_at": "2026-09-01T00:26:13.031Z",
   "tracking_tier": "normal",
-  "last_fetched_date": "2026-10-06",
+  "last_fetched_date": "2026-10-09",
   "stars_stagnant_days": 1
 }

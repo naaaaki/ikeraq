@@ -17,12 +17,12 @@
     "webrtc",
     "webtorrent"
   ],
-  "stars": 31429,
-  "forks": 2898,
+  "stars": 31428,
+  "forks": 2897,
   "watchers": 691,
   "open_issues": 79,
   "created_at": "2013-10-15T08:16:40Z",
-  "pushed_at": "2026-10-04T00:22:19Z",
+  "pushed_at": "2026-10-08T13:10:24Z",
   "is_archived": false,
   "license_spdx": "MIT",
   "license_category": "permissive",
@@ -35,10 +35,10 @@
   "category": "backend",
   "flags": [],
   "usability_score": 100,
-  "snapshot_days": 33,
+  "snapshot_days": 34,
   "is_indexable": true,
   "first_seen_at": "2026-09-01T23:05:22.650Z",
   "tracking_tier": "normal",
-  "last_fetched_date": "2026-10-06",
+  "last_fetched_date": "2026-10-09",
   "stars_stagnant_days": 2
 }

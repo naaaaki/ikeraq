@@ -12,12 +12,12 @@
     "wifi-security",
     "wireless-security"
   ],
-  "stars": 1936,
-  "forks": 171,
+  "stars": 2019,
+  "forks": 179,
   "watchers": 11,
-  "open_issues": 13,
+  "open_issues": 11,
   "created_at": "2026-06-20T18:15:05Z",
-  "pushed_at": "2026-10-07T11:42:38Z",
+  "pushed_at": "2026-10-08T03:23:14Z",
   "is_archived": false,
   "license_spdx": "GPL-2.0",
   "license_category": "strong-copyleft",
@@ -36,10 +36,10 @@
     }
   ],
   "usability_score": 85,
-  "snapshot_days": 13,
+  "snapshot_days": 14,
   "is_indexable": true,
   "first_seen_at": "2026-09-25T23:53:22.872Z",
   "tracking_tier": "hot",
-  "last_fetched_date": "2026-10-08",
+  "last_fetched_date": "2026-10-09",
   "stars_stagnant_days": 0
 }

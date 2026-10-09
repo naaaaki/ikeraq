@@ -24,12 +24,12 @@
     "statamic",
     "vuejs"
   ],
-  "stars": 4905,
+  "stars": 4906,
   "forks": 647,
   "watchers": null,
   "open_issues": 230,
   "created_at": "2017-11-21T14:56:36Z",
-  "pushed_at": "2026-10-07T20:41:18Z",
+  "pushed_at": "2026-10-08T22:31:50Z",
   "is_archived": false,
   "license_spdx": "NOASSERTION",
   "license_category": "unknown",
@@ -42,10 +42,10 @@
   "category": "backend",
   "flags": [],
   "usability_score": 100,
-  "snapshot_days": 14,
+  "snapshot_days": 15,
   "is_indexable": true,
   "first_seen_at": "2026-09-24T23:48:41.712Z",
   "tracking_tier": "hot",
-  "last_fetched_date": "2026-10-08",
-  "stars_stagnant_days": 3
+  "last_fetched_date": "2026-10-09",
+  "stars_stagnant_days": 0
 }

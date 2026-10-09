@@ -15,7 +15,7 @@
     "pomodoro-timer",
     "time-management"
   ],
-  "stars": 4895,
+  "stars": 4899,
   "forks": 203,
   "watchers": 20,
   "open_issues": 154,
@@ -33,10 +33,10 @@
   "category": "other",
   "flags": [],
   "usability_score": 100,
-  "snapshot_days": 14,
+  "snapshot_days": 15,
   "is_indexable": true,
   "first_seen_at": "2026-09-24T23:48:41.713Z",
   "tracking_tier": "hot",
-  "last_fetched_date": "2026-10-08",
+  "last_fetched_date": "2026-10-09",
   "stars_stagnant_days": 0
 }

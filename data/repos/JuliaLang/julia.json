@@ -17,12 +17,12 @@
     "science",
     "scientific"
   ],
-  "stars": 49190,
-  "forks": 5977,
+  "stars": 49189,
+  "forks": 5978,
   "watchers": null,
-  "open_issues": 4694,
+  "open_issues": 4682,
   "created_at": "2011-04-21T07:01:50Z",
-  "pushed_at": "2026-10-08T00:17:20Z",
+  "pushed_at": "2026-10-09T00:44:03Z",
   "is_archived": false,
   "license_spdx": "MIT",
   "license_category": "permissive",
@@ -35,10 +35,10 @@
   "category": "learning",
   "flags": [],
   "usability_score": 100,
-  "snapshot_days": 39,
+  "snapshot_days": 40,
   "is_indexable": true,
   "first_seen_at": "2026-08-30T23:15:18.749Z",
-  "tracking_tier": "hot",
-  "last_fetched_date": "2026-10-08",
-  "stars_stagnant_days": 0
+  "tracking_tier": "normal",
+  "last_fetched_date": "2026-10-09",
+  "stars_stagnant_days": 1
 }

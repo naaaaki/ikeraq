@@ -12,7 +12,7 @@
     "management",
     "task-manager"
   ],
-  "stars": 28279,
+  "stars": 28297,
   "forks": 3033,
   "watchers": 119,
   "open_issues": 544,
@@ -30,10 +30,10 @@
   "category": "ai-agent",
   "flags": [],
   "usability_score": 100,
-  "snapshot_days": 15,
+  "snapshot_days": 16,
   "is_indexable": true,
   "first_seen_at": "2026-09-23T23:28:32.617Z",
   "tracking_tier": "hot",
-  "last_fetched_date": "2026-10-08",
+  "last_fetched_date": "2026-10-09",
   "stars_stagnant_days": 0
 }

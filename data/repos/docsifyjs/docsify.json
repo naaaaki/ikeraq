@@ -15,10 +15,10 @@
     "markdown",
     "vue"
   ],
-  "stars": 31542,
-  "forks": 5787,
+  "stars": 31537,
+  "forks": 5783,
   "watchers": 271,
-  "open_issues": 105,
+  "open_issues": 106,
   "created_at": "2016-11-20T07:55:43Z",
   "pushed_at": "2026-10-02T05:32:42Z",
   "is_archived": false,
@@ -33,10 +33,10 @@
   "category": "web-frontend",
   "flags": [],
   "usability_score": 100,
-  "snapshot_days": 33,
+  "snapshot_days": 34,
   "is_indexable": true,
   "first_seen_at": "2026-09-01T23:05:22.650Z",
   "tracking_tier": "normal",
-  "last_fetched_date": "2026-10-06",
+  "last_fetched_date": "2026-10-09",
   "stars_stagnant_days": 1
 }

@@ -6,12 +6,12 @@
   "human_note": null,
   "language": "C++",
   "topics": [],
-  "stars": 5003,
-  "forks": 347,
+  "stars": 5005,
+  "forks": 348,
   "watchers": 97,
   "open_issues": 22,
   "created_at": "2015-08-22T09:13:13Z",
-  "pushed_at": "2026-10-06T21:30:47Z",
+  "pushed_at": "2026-10-08T09:50:51Z",
   "is_archived": false,
   "license_spdx": "GPL-3.0",
   "license_category": "strong-copyleft",
@@ -30,10 +30,10 @@
     }
   ],
   "usability_score": 85,
-  "snapshot_days": 14,
+  "snapshot_days": 15,
   "is_indexable": true,
   "first_seen_at": "2026-09-24T23:48:41.711Z",
   "tracking_tier": "hot",
-  "last_fetched_date": "2026-10-08",
+  "last_fetched_date": "2026-10-09",
   "stars_stagnant_days": 0
 }

@@ -13,12 +13,12 @@
     "rust",
     "vmm"
   ],
-  "stars": 4709,
+  "stars": 4710,
   "forks": 216,
   "watchers": null,
   "open_issues": 226,
   "created_at": "2024-11-05T16:39:07Z",
-  "pushed_at": "2026-10-08T00:11:49Z",
+  "pushed_at": "2026-10-09T00:39:43Z",
   "is_archived": false,
   "license_spdx": "Apache-2.0",
   "license_category": "permissive",
@@ -31,10 +31,10 @@
   "category": "other",
   "flags": [],
   "usability_score": 100,
-  "snapshot_days": 13,
+  "snapshot_days": 14,
   "is_indexable": true,
   "first_seen_at": "2026-09-25T23:53:23.596Z",
   "tracking_tier": "hot",
-  "last_fetched_date": "2026-10-08",
+  "last_fetched_date": "2026-10-09",
   "stars_stagnant_days": 0
 }

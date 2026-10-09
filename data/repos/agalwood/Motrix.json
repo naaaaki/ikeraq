@@ -18,8 +18,8 @@
     "torrent",
     "windows"
   ],
-  "stars": 56178,
-  "forks": 5044,
+  "stars": 56203,
+  "forks": 5041,
   "watchers": null,
   "open_issues": 151,
   "created_at": "2018-12-18T11:45:05Z",
@@ -36,10 +36,10 @@
   "category": "other",
   "flags": [],
   "usability_score": 100,
-  "snapshot_days": 40,
+  "snapshot_days": 41,
   "is_indexable": true,
   "first_seen_at": "2026-08-29T23:02:08.747Z",
   "tracking_tier": "hot",
-  "last_fetched_date": "2026-10-08",
+  "last_fetched_date": "2026-10-09",
   "stars_stagnant_days": 0
 }

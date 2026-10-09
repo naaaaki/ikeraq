@@ -20,8 +20,8 @@
     "wx",
     "wxsprider"
   ],
-  "stars": 4838,
-  "forks": 799,
+  "stars": 4854,
+  "forks": 802,
   "watchers": 22,
   "open_issues": 30,
   "created_at": "2025-05-14T07:28:21Z",
@@ -38,10 +38,10 @@
   "category": "other",
   "flags": [],
   "usability_score": 100,
-  "snapshot_days": 13,
+  "snapshot_days": 14,
   "is_indexable": true,
   "first_seen_at": "2026-09-25T23:53:23.595Z",
   "tracking_tier": "hot",
-  "last_fetched_date": "2026-10-08",
+  "last_fetched_date": "2026-10-09",
   "stars_stagnant_days": 0
 }
