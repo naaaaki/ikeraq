@@ -13,7 +13,7 @@
     "react"
   ],
   "stars": 4802,
-  "forks": 1164,
+  "forks": 1163,
   "watchers": 28,
   "open_issues": 174,
   "created_at": "2024-05-09T11:19:21Z",
@@ -36,10 +36,10 @@
     }
   ],
   "usability_score": 60,
-  "snapshot_days": 14,
+  "snapshot_days": 15,
   "is_indexable": true,
   "first_seen_at": "2026-09-25T23:53:23.594Z",
   "tracking_tier": "hot",
-  "last_fetched_date": "2026-10-09",
-  "stars_stagnant_days": 2
+  "last_fetched_date": "2026-10-10",
+  "stars_stagnant_days": 3
 }

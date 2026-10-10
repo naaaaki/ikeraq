@@ -27,8 +27,8 @@
     "spring-cloud-alibaba",
     "spring-cloud-core"
   ],
-  "stars": 29172,
-  "forks": 8479,
+  "stars": 29173,
+  "forks": 8478,
   "watchers": 956,
   "open_issues": 77,
   "created_at": "2017-12-01T20:49:15Z",
@@ -45,10 +45,10 @@
   "category": "backend",
   "flags": [],
   "usability_score": 100,
-  "snapshot_days": 33,
+  "snapshot_days": 34,
   "is_indexable": true,
   "first_seen_at": "2026-09-02T23:02:41.773Z",
   "tracking_tier": "normal",
-  "last_fetched_date": "2026-10-07",
+  "last_fetched_date": "2026-10-10",
   "stars_stagnant_days": 4
 }

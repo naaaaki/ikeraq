@@ -13,12 +13,12 @@
     "renderer",
     "threejs"
   ],
-  "stars": 32803,
+  "stars": 32820,
   "forks": 2012,
   "watchers": null,
-  "open_issues": 15,
+  "open_issues": 17,
   "created_at": "2019-02-25T14:31:51Z",
-  "pushed_at": "2026-10-09T00:44:48Z",
+  "pushed_at": "2026-10-09T09:28:11Z",
   "is_archived": false,
   "license_spdx": "MIT",
   "license_category": "permissive",
@@ -31,10 +31,10 @@
   "category": "web-frontend",
   "flags": [],
   "usability_score": 100,
-  "snapshot_days": 38,
+  "snapshot_days": 39,
   "is_indexable": true,
   "first_seen_at": "2026-09-01T23:05:22.650Z",
   "tracking_tier": "hot",
-  "last_fetched_date": "2026-10-09",
+  "last_fetched_date": "2026-10-10",
   "stars_stagnant_days": 0
 }

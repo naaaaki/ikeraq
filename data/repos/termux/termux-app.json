@@ -12,8 +12,8 @@
     "terminal",
     "termux"
   ],
-  "stars": 62227,
-  "forks": 7808,
+  "stars": 62279,
+  "forks": 7820,
   "watchers": 1652,
   "open_issues": 634,
   "created_at": "2015-10-23T09:42:46Z",
@@ -30,10 +30,10 @@
   "category": "mobile",
   "flags": [],
   "usability_score": 100,
-  "snapshot_days": 41,
+  "snapshot_days": 42,
   "is_indexable": true,
   "first_seen_at": "2026-08-29T23:02:08.747Z",
   "tracking_tier": "hot",
-  "last_fetched_date": "2026-10-09",
+  "last_fetched_date": "2026-10-10",
   "stars_stagnant_days": 0
 }

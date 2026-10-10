@@ -2,7 +2,7 @@
   "id": "netbirdio/netbird",
   "owner": "netbirdio",
   "name": "netbird",
-  "description_en": "Connect your devices, users, and agents into a secure WireGuard®-based overlay network with SSO, MFA and granular access controls.",
+  "description_en": "NetBird securely connects people, machines and AI agents across any network with one identity-based Zero Trust platform. Powered by peer-to-peer WireGuard®",
   "human_note": null,
   "language": "Go",
   "topics": [
@@ -17,12 +17,12 @@
     "wiretrustee",
     "zero-trust-network-access"
   ],
-  "stars": 29816,
+  "stars": 29837,
   "forks": 1740,
   "watchers": null,
-  "open_issues": 962,
+  "open_issues": 918,
   "created_at": "2021-04-14T12:27:20Z",
-  "pushed_at": "2026-10-08T17:13:56Z",
+  "pushed_at": "2026-10-09T18:01:10Z",
   "is_archived": false,
   "license_spdx": "NOASSERTION",
   "license_category": "unknown",
@@ -35,10 +35,10 @@
   "category": "infra",
   "flags": [],
   "usability_score": 100,
-  "snapshot_days": 37,
+  "snapshot_days": 38,
   "is_indexable": true,
   "first_seen_at": "2026-09-02T23:02:41.773Z",
   "tracking_tier": "hot",
-  "last_fetched_date": "2026-10-09",
+  "last_fetched_date": "2026-10-10",
   "stars_stagnant_days": 0
 }

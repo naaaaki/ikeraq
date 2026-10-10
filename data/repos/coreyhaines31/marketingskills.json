@@ -27,10 +27,10 @@
     "seo",
     "skill-md"
   ],
-  "stars": 53770,
-  "forks": 7998,
+  "stars": 53935,
+  "forks": 8019,
   "watchers": 428,
-  "open_issues": 29,
+  "open_issues": 30,
   "created_at": "2026-01-15T19:45:23Z",
   "pushed_at": "2026-10-08T21:51:51Z",
   "is_archived": false,
@@ -45,10 +45,10 @@
   "category": "ai-agent",
   "flags": [],
   "usability_score": 100,
-  "snapshot_days": 40,
+  "snapshot_days": 41,
   "is_indexable": true,
   "first_seen_at": "2026-08-30T23:15:18.749Z",
   "tracking_tier": "hot",
-  "last_fetched_date": "2026-10-09",
+  "last_fetched_date": "2026-10-10",
   "stars_stagnant_days": 0
 }

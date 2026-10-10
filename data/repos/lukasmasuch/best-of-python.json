@@ -23,7 +23,7 @@
     "utilities",
     "utility-library"
   ],
-  "stars": 4621,
+  "stars": 4623,
   "forks": 346,
   "watchers": 101,
   "open_issues": 54,
@@ -47,10 +47,10 @@
     }
   ],
   "usability_score": 85,
-  "snapshot_days": 13,
+  "snapshot_days": 14,
   "is_indexable": true,
   "first_seen_at": "2026-09-26T23:25:20.111Z",
   "tracking_tier": "hot",
-  "last_fetched_date": "2026-10-09",
-  "stars_stagnant_days": 1
+  "last_fetched_date": "2026-10-10",
+  "stars_stagnant_days": 0
 }

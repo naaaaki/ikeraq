@@ -15,7 +15,7 @@
     "youtube-downloader",
     "yt-dlp"
   ],
-  "stars": 29555,
+  "stars": 29597,
   "forks": 1461,
   "watchers": 164,
   "open_issues": 733,
@@ -39,10 +39,10 @@
     }
   ],
   "usability_score": 85,
-  "snapshot_days": 14,
+  "snapshot_days": 15,
   "is_indexable": true,
   "first_seen_at": "2026-09-25T23:53:23.592Z",
   "tracking_tier": "hot",
-  "last_fetched_date": "2026-10-09",
+  "last_fetched_date": "2026-10-10",
   "stars_stagnant_days": 0
 }

@@ -12,10 +12,10 @@
     "beginners-friendly",
     "list"
   ],
-  "stars": 90011,
-  "forks": 8014,
-  "watchers": 1271,
-  "open_issues": 147,
+  "stars": 90049,
+  "forks": 8015,
+  "watchers": 1270,
+  "open_issues": 148,
   "created_at": "2015-10-24T19:53:36Z",
   "pushed_at": "2026-10-01T14:58:51Z",
   "is_archived": false,
@@ -36,10 +36,10 @@
     }
   ],
   "usability_score": 60,
-  "snapshot_days": 9,
+  "snapshot_days": 10,
   "is_indexable": true,
   "first_seen_at": "2026-10-01T00:25:07.402Z",
   "tracking_tier": "hot",
-  "last_fetched_date": "2026-10-09",
+  "last_fetched_date": "2026-10-10",
   "stars_stagnant_days": 0
 }

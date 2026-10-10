@@ -2,7 +2,7 @@
   "id": "tw93/Pake",
   "owner": "tw93",
   "name": "Pake",
-  "description_en": "🤱🏻 Turn any webpage into a desktop app with one command.",
+  "description_en": "🤱🏻 Turn any website into a tiny, fast desktop app.",
   "human_note": null,
   "language": "Rust",
   "topics": [
@@ -20,12 +20,12 @@
     "windows",
     "youtube"
   ],
-  "stars": 61945,
-  "forks": 12758,
+  "stars": 61958,
+  "forks": 12766,
   "watchers": null,
   "open_issues": 2,
   "created_at": "2022-10-14T09:32:57Z",
-  "pushed_at": "2026-10-07T00:43:04Z",
+  "pushed_at": "2026-10-10T00:20:41Z",
   "is_archived": false,
   "license_spdx": "GPL-3.0",
   "license_category": "strong-copyleft",
@@ -44,10 +44,10 @@
     }
   ],
   "usability_score": 85,
-  "snapshot_days": 41,
+  "snapshot_days": 42,
   "is_indexable": true,
   "first_seen_at": "2026-08-29T23:02:08.747Z",
   "tracking_tier": "hot",
-  "last_fetched_date": "2026-10-09",
+  "last_fetched_date": "2026-10-10",
   "stars_stagnant_days": 0
 }

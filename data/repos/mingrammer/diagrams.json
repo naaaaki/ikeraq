@@ -11,8 +11,8 @@
     "diagram-as-code",
     "graphviz"
   ],
-  "stars": 42693,
-  "forks": 2732,
+  "stars": 42696,
+  "forks": 2731,
   "watchers": 403,
   "open_issues": 396,
   "created_at": "2020-02-02T15:23:24Z",
@@ -29,10 +29,10 @@
   "category": "other",
   "flags": [],
   "usability_score": 100,
-  "snapshot_days": 16,
+  "snapshot_days": 17,
   "is_indexable": true,
   "first_seen_at": "2026-09-23T23:28:32.616Z",
   "tracking_tier": "hot",
-  "last_fetched_date": "2026-10-09",
+  "last_fetched_date": "2026-10-10",
   "stars_stagnant_days": 0
 }

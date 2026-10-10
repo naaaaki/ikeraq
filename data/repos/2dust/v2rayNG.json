@@ -19,8 +19,8 @@
     "xray",
     "xtls"
   ],
-  "stars": 63673,
-  "forks": 8244,
+  "stars": 63709,
+  "forks": 8252,
   "watchers": 713,
   "open_issues": 32,
   "created_at": "2019-05-15T02:15:31Z",
@@ -43,10 +43,10 @@
     }
   ],
   "usability_score": 85,
-  "snapshot_days": 41,
+  "snapshot_days": 42,
   "is_indexable": true,
   "first_seen_at": "2026-08-29T23:02:08.747Z",
   "tracking_tier": "hot",
-  "last_fetched_date": "2026-10-09",
+  "last_fetched_date": "2026-10-10",
   "stars_stagnant_days": 0
 }

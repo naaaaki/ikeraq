@@ -15,10 +15,10 @@
     "python",
     "pytorch"
   ],
-  "stars": 28212,
-  "forks": 7641,
-  "watchers": 614,
-  "open_issues": 275,
+  "stars": 28218,
+  "forks": 7642,
+  "watchers": 615,
+  "open_issues": 274,
   "created_at": "2017-09-09T17:43:36Z",
   "pushed_at": "2026-09-21T10:41:46Z",
   "is_archived": false,
@@ -33,10 +33,10 @@
   "category": "learning",
   "flags": [],
   "usability_score": 100,
-  "snapshot_days": 33,
+  "snapshot_days": 34,
   "is_indexable": true,
   "first_seen_at": "2026-09-02T23:02:41.773Z",
   "tracking_tier": "normal",
-  "last_fetched_date": "2026-10-07",
+  "last_fetched_date": "2026-10-10",
   "stars_stagnant_days": 2
 }

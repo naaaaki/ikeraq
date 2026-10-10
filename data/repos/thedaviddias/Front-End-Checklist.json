@@ -22,10 +22,10 @@
     "rules",
     "web-development"
   ],
-  "stars": 74409,
-  "forks": 6757,
+  "stars": 74416,
+  "forks": 6759,
   "watchers": null,
-  "open_issues": 5,
+  "open_issues": 7,
   "created_at": "2017-10-16T10:12:36Z",
   "pushed_at": "2026-10-06T12:58:18Z",
   "is_archived": false,
@@ -40,10 +40,10 @@
   "category": "ai-agent",
   "flags": [],
   "usability_score": 100,
-  "snapshot_days": 5,
+  "snapshot_days": 6,
   "is_indexable": false,
   "first_seen_at": "2026-10-04T23:52:52.311Z",
   "tracking_tier": "hot",
-  "last_fetched_date": "2026-10-09",
+  "last_fetched_date": "2026-10-10",
   "stars_stagnant_days": 0
 }

@@ -17,12 +17,12 @@
     "rag",
     "workflow"
   ],
-  "stars": 29790,
-  "forks": 7327,
+  "stars": 29788,
+  "forks": 7325,
   "watchers": null,
-  "open_issues": 172,
+  "open_issues": 169,
   "created_at": "2023-02-23T16:53:25Z",
-  "pushed_at": "2026-10-08T17:51:03Z",
+  "pushed_at": "2026-10-09T14:18:59Z",
   "is_archived": false,
   "license_spdx": "NOASSERTION",
   "license_category": "unknown",
@@ -35,10 +35,10 @@
   "category": "ai-agent",
   "flags": [],
   "usability_score": 100,
-  "snapshot_days": 37,
+  "snapshot_days": 38,
   "is_indexable": true,
   "first_seen_at": "2026-09-02T23:02:41.773Z",
-  "tracking_tier": "hot",
-  "last_fetched_date": "2026-10-09",
-  "stars_stagnant_days": 0
+  "tracking_tier": "normal",
+  "last_fetched_date": "2026-10-10",
+  "stars_stagnant_days": 1
 }

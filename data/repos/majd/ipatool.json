@@ -2,7 +2,7 @@
   "id": "majd/ipatool",
   "owner": "majd",
   "name": "ipatool",
-  "description_en": "Command-line tool that allows you to search for iOS, iPadOS, tvOS, visionOS, and macOS apps on the App Store, and download .ipa or macOS .pkg app packages.",
+  "description_en": "Command-line tool that allows you to search for iOS, iPadOS, tvOS, watchOS, visionOS, and macOS apps on the App Store, and download .ipa or macOS .pkg app packages.",
   "human_note": null,
   "language": "Go",
   "topics": [
@@ -25,12 +25,12 @@
     "tool",
     "visionos"
   ],
-  "stars": 11518,
-  "forks": 964,
+  "stars": 11548,
+  "forks": 967,
   "watchers": 76,
-  "open_issues": 10,
+  "open_issues": 9,
   "created_at": "2021-05-22T08:27:21Z",
-  "pushed_at": "2026-10-07T23:02:32Z",
+  "pushed_at": "2026-10-09T21:55:42Z",
   "is_archived": false,
   "license_spdx": "MIT",
   "license_category": "permissive",
@@ -43,10 +43,10 @@
   "category": "security",
   "flags": [],
   "usability_score": 100,
-  "snapshot_days": 40,
+  "snapshot_days": 41,
   "is_indexable": true,
   "first_seen_at": "2026-08-30T23:15:17.600Z",
   "tracking_tier": "hot",
-  "last_fetched_date": "2026-10-09",
+  "last_fetched_date": "2026-10-10",
   "stars_stagnant_days": 0
 }

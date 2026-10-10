@@ -16,10 +16,10 @@
     "puppeteer",
     "rust"
   ],
-  "stars": 28701,
-  "forks": 2132,
+  "stars": 28729,
+  "forks": 2134,
   "watchers": null,
-  "open_issues": 189,
+  "open_issues": 196,
   "created_at": "2026-04-13T10:31:41Z",
   "pushed_at": "2026-10-08T19:51:15Z",
   "is_archived": false,
@@ -34,10 +34,10 @@
   "category": "dev-tool",
   "flags": [],
   "usability_score": 100,
-  "snapshot_days": 16,
+  "snapshot_days": 17,
   "is_indexable": true,
   "first_seen_at": "2026-09-23T23:28:32.617Z",
   "tracking_tier": "hot",
-  "last_fetched_date": "2026-10-09",
+  "last_fetched_date": "2026-10-10",
   "stars_stagnant_days": 0
 }

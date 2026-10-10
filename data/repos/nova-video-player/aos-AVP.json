@@ -13,12 +13,12 @@
     "player",
     "video"
   ],
-  "stars": 4722,
-  "forks": 274,
+  "stars": 4724,
+  "forks": 275,
   "watchers": 45,
   "open_issues": 981,
   "created_at": "2018-05-15T11:59:08Z",
-  "pushed_at": "2026-09-30T17:40:48Z",
+  "pushed_at": "2026-10-09T19:19:45Z",
   "is_archived": false,
   "license_spdx": "Apache-2.0",
   "license_category": "permissive",
@@ -31,10 +31,10 @@
   "category": "mobile",
   "flags": [],
   "usability_score": 100,
-  "snapshot_days": 14,
+  "snapshot_days": 15,
   "is_indexable": true,
   "first_seen_at": "2026-09-25T23:53:23.596Z",
   "tracking_tier": "hot",
-  "last_fetched_date": "2026-10-09",
+  "last_fetched_date": "2026-10-10",
   "stars_stagnant_days": 0
 }

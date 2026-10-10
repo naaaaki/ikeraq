@@ -2,7 +2,7 @@
   "id": "tinyhumansai/openhuman",
   "owner": "tinyhumansai",
   "name": "openhuman",
-  "description_en": "OpenHuman is the fastest, cheapest, most efficient open-source agent harness. Written in Rust",
+  "description_en": "The fastest, cheapest, most efficient open-source agent harness. Run more than 500 agents on a $10 VPS.",
   "human_note": null,
   "language": "Rust",
   "topics": [
@@ -19,12 +19,12 @@
     "second-brain",
     "tauri"
   ],
-  "stars": 41690,
-  "forks": 4101,
+  "stars": 41750,
+  "forks": 4108,
   "watchers": null,
-  "open_issues": 295,
+  "open_issues": 268,
   "created_at": "2026-02-18T20:01:27Z",
-  "pushed_at": "2026-10-08T22:38:44Z",
+  "pushed_at": "2026-10-10T00:31:30Z",
   "is_archived": false,
   "license_spdx": "GPL-3.0",
   "license_category": "strong-copyleft",
@@ -43,10 +43,10 @@
     }
   ],
   "usability_score": 85,
-  "snapshot_days": 39,
+  "snapshot_days": 40,
   "is_indexable": true,
   "first_seen_at": "2026-09-01T00:26:13.031Z",
   "tracking_tier": "hot",
-  "last_fetched_date": "2026-10-09",
+  "last_fetched_date": "2026-10-10",
   "stars_stagnant_days": 0
 }

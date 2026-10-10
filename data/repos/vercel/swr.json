@@ -20,10 +20,10 @@
     "swr",
     "vercel"
   ],
-  "stars": 32492,
-  "forks": 1392,
+  "stars": 32494,
+  "forks": 1396,
   "watchers": 216,
-  "open_issues": 229,
+  "open_issues": 232,
   "created_at": "2019-10-28T18:16:01Z",
   "pushed_at": "2026-09-22T12:47:45Z",
   "is_archived": false,
@@ -38,10 +38,10 @@
   "category": "web-frontend",
   "flags": [],
   "usability_score": 100,
-  "snapshot_days": 33,
+  "snapshot_days": 34,
   "is_indexable": true,
   "first_seen_at": "2026-09-02T23:02:41.773Z",
   "tracking_tier": "normal",
-  "last_fetched_date": "2026-10-07",
+  "last_fetched_date": "2026-10-10",
   "stars_stagnant_days": 4
 }

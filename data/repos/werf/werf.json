@@ -23,11 +23,11 @@
     "werf"
   ],
   "stars": 4734,
-  "forks": 241,
+  "forks": 240,
   "watchers": null,
-  "open_issues": 21,
+  "open_issues": 17,
   "created_at": "2016-01-25T16:46:58Z",
-  "pushed_at": "2026-10-08T21:47:41Z",
+  "pushed_at": "2026-10-09T11:26:38Z",
   "is_archived": false,
   "license_spdx": "Apache-2.0",
   "license_category": "permissive",
@@ -40,10 +40,10 @@
   "category": "infra",
   "flags": [],
   "usability_score": 100,
-  "snapshot_days": 14,
+  "snapshot_days": 15,
   "is_indexable": true,
   "first_seen_at": "2026-09-25T23:53:23.595Z",
   "tracking_tier": "hot",
-  "last_fetched_date": "2026-10-09",
-  "stars_stagnant_days": 0
+  "last_fetched_date": "2026-10-10",
+  "stars_stagnant_days": 1
 }

@@ -13,7 +13,7 @@
     "machine-learning",
     "treatment-effects"
   ],
-  "stars": 4805,
+  "stars": 4810,
   "forks": 828,
   "watchers": 90,
   "open_issues": 426,
@@ -31,10 +31,10 @@
   "category": "llm",
   "flags": [],
   "usability_score": 100,
-  "snapshot_days": 14,
+  "snapshot_days": 15,
   "is_indexable": true,
   "first_seen_at": "2026-09-25T23:53:23.594Z",
   "tracking_tier": "hot",
-  "last_fetched_date": "2026-10-09",
-  "stars_stagnant_days": 3
+  "last_fetched_date": "2026-10-10",
+  "stars_stagnant_days": 0
 }

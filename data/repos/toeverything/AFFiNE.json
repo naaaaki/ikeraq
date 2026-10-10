@@ -25,12 +25,12 @@
     "wiki",
     "workspace"
   ],
-  "stars": 73327,
+  "stars": 73347,
   "forks": 5342,
   "watchers": null,
-  "open_issues": 775,
+  "open_issues": 774,
   "created_at": "2022-07-31T18:45:21Z",
-  "pushed_at": "2026-10-08T09:39:26Z",
+  "pushed_at": "2026-10-09T21:28:35Z",
   "is_archived": false,
   "license_spdx": "NOASSERTION",
   "license_category": "unknown",
@@ -43,10 +43,10 @@
   "category": "web-frontend",
   "flags": [],
   "usability_score": 100,
-  "snapshot_days": 41,
+  "snapshot_days": 42,
   "is_indexable": true,
   "first_seen_at": "2026-08-29T23:02:08.747Z",
   "tracking_tier": "hot",
-  "last_fetched_date": "2026-10-09",
+  "last_fetched_date": "2026-10-10",
   "stars_stagnant_days": 0
 }

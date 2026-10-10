@@ -20,12 +20,12 @@
     "skills",
     "vibecoding"
   ],
-  "stars": 93828,
-  "forks": 6370,
+  "stars": 94103,
+  "forks": 6405,
   "watchers": 296,
   "open_issues": 78,
   "created_at": "2026-02-19T21:44:05Z",
-  "pushed_at": "2026-10-08T20:35:00Z",
+  "pushed_at": "2026-10-09T21:58:20Z",
   "is_archived": false,
   "license_spdx": "MIT",
   "license_category": "permissive",
@@ -38,10 +38,10 @@
   "category": "ai-agent",
   "flags": [],
   "usability_score": 100,
-  "snapshot_days": 41,
+  "snapshot_days": 42,
   "is_indexable": true,
   "first_seen_at": "2026-08-29T15:46:21.821Z",
   "tracking_tier": "hot",
-  "last_fetched_date": "2026-10-09",
+  "last_fetched_date": "2026-10-10",
   "stars_stagnant_days": 0
 }

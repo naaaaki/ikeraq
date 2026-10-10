@@ -12,12 +12,12 @@
     "hacktoberfest",
     "translations"
   ],
-  "stars": 4846,
+  "stars": 4845,
   "forks": 1411,
   "watchers": null,
-  "open_issues": 193,
+  "open_issues": 185,
   "created_at": "2017-01-13T17:11:25Z",
-  "pushed_at": "2026-10-08T23:04:53Z",
+  "pushed_at": "2026-10-09T22:42:02Z",
   "is_archived": false,
   "license_spdx": "Apache-2.0",
   "license_category": "permissive",
@@ -30,10 +30,10 @@
   "category": "mobile",
   "flags": [],
   "usability_score": 100,
-  "snapshot_days": 15,
+  "snapshot_days": 16,
   "is_indexable": true,
   "first_seen_at": "2026-09-24T23:48:41.713Z",
   "tracking_tier": "hot",
-  "last_fetched_date": "2026-10-09",
-  "stars_stagnant_days": 1
+  "last_fetched_date": "2026-10-10",
+  "stars_stagnant_days": 2
 }

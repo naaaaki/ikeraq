@@ -13,7 +13,7 @@
     "npm-package",
     "translation"
   ],
-  "stars": 4661,
+  "stars": 4660,
   "forks": 591,
   "watchers": 97,
   "open_issues": 57,
@@ -31,10 +31,10 @@
   "category": "other",
   "flags": [],
   "usability_score": 100,
-  "snapshot_days": 14,
+  "snapshot_days": 15,
   "is_indexable": true,
   "first_seen_at": "2026-09-25T23:53:23.596Z",
   "tracking_tier": "hot",
-  "last_fetched_date": "2026-10-09",
-  "stars_stagnant_days": 1
+  "last_fetched_date": "2026-10-10",
+  "stars_stagnant_days": 2
 }

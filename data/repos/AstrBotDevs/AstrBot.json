@@ -24,12 +24,12 @@
     "qqbot",
     "telegram"
   ],
-  "stars": 41568,
-  "forks": 3026,
+  "stars": 41618,
+  "forks": 3030,
   "watchers": null,
-  "open_issues": 1625,
+  "open_issues": 1634,
   "created_at": "2022-12-08T13:27:46Z",
-  "pushed_at": "2026-10-08T13:45:05Z",
+  "pushed_at": "2026-10-09T18:10:58Z",
   "is_archived": false,
   "license_spdx": "AGPL-3.0",
   "license_category": "strong-copyleft",
@@ -48,10 +48,10 @@
     }
   ],
   "usability_score": 85,
-  "snapshot_days": 39,
+  "snapshot_days": 40,
   "is_indexable": true,
   "first_seen_at": "2026-09-01T00:26:13.031Z",
   "tracking_tier": "hot",
-  "last_fetched_date": "2026-10-09",
+  "last_fetched_date": "2026-10-10",
   "stars_stagnant_days": 0
 }

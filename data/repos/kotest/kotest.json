@@ -17,12 +17,12 @@
     "testing",
     "testing-tools"
   ],
-  "stars": 4790,
+  "stars": 4789,
   "forks": 703,
   "watchers": 51,
-  "open_issues": 55,
+  "open_issues": 51,
   "created_at": "2015-11-29T16:32:15Z",
-  "pushed_at": "2026-10-07T06:18:05Z",
+  "pushed_at": "2026-10-09T23:45:31Z",
   "is_archived": false,
   "license_spdx": "Apache-2.0",
   "license_category": "permissive",
@@ -35,10 +35,10 @@
   "category": "mobile",
   "flags": [],
   "usability_score": 100,
-  "snapshot_days": 14,
+  "snapshot_days": 15,
   "is_indexable": true,
   "first_seen_at": "2026-09-25T23:53:23.594Z",
   "tracking_tier": "hot",
-  "last_fetched_date": "2026-10-09",
-  "stars_stagnant_days": 2
+  "last_fetched_date": "2026-10-10",
+  "stars_stagnant_days": 3
 }

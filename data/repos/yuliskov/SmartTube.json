@@ -14,12 +14,12 @@
     "retrofit2",
     "rxjava-android"
   ],
-  "stars": 34702,
-  "forks": 2123,
+  "stars": 34744,
+  "forks": 2127,
   "watchers": null,
   "open_issues": 771,
   "created_at": "2020-07-28T12:53:52Z",
-  "pushed_at": "2026-10-08T21:09:20Z",
+  "pushed_at": "2026-10-10T00:24:14Z",
   "is_archived": false,
   "license_spdx": "MIT",
   "license_category": "permissive",
@@ -32,10 +32,10 @@
   "category": "mobile",
   "flags": [],
   "usability_score": 100,
-  "snapshot_days": 38,
+  "snapshot_days": 39,
   "is_indexable": true,
   "first_seen_at": "2026-09-01T23:05:22.650Z",
   "tracking_tier": "hot",
-  "last_fetched_date": "2026-10-09",
+  "last_fetched_date": "2026-10-10",
   "stars_stagnant_days": 0
 }

@@ -11,11 +11,11 @@
     "shell"
   ],
   "stars": 40638,
-  "forks": 2295,
+  "forks": 2296,
   "watchers": null,
-  "open_issues": 1471,
+  "open_issues": 1455,
   "created_at": "2019-05-10T16:59:42Z",
-  "pushed_at": "2026-10-08T23:49:22Z",
+  "pushed_at": "2026-10-09T16:49:32Z",
   "is_archived": false,
   "license_spdx": "MIT",
   "license_category": "permissive",
@@ -28,10 +28,10 @@
   "category": "other",
   "flags": [],
   "usability_score": 100,
-  "snapshot_days": 39,
+  "snapshot_days": 40,
   "is_indexable": true,
   "first_seen_at": "2026-09-01T00:26:13.031Z",
-  "tracking_tier": "hot",
-  "last_fetched_date": "2026-10-09",
-  "stars_stagnant_days": 0
+  "tracking_tier": "normal",
+  "last_fetched_date": "2026-10-10",
+  "stars_stagnant_days": 1
 }

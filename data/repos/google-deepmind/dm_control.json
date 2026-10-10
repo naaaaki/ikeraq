@@ -14,7 +14,7 @@
     "physics-simulation",
     "reinforcement-learning"
   ],
-  "stars": 4706,
+  "stars": 4708,
   "forks": 769,
   "watchers": 129,
   "open_issues": 140,
@@ -32,10 +32,10 @@
   "category": "learning",
   "flags": [],
   "usability_score": 100,
-  "snapshot_days": 14,
+  "snapshot_days": 15,
   "is_indexable": true,
   "first_seen_at": "2026-09-25T23:53:23.596Z",
   "tracking_tier": "hot",
-  "last_fetched_date": "2026-10-09",
-  "stars_stagnant_days": 8
+  "last_fetched_date": "2026-10-10",
+  "stars_stagnant_days": 0
 }

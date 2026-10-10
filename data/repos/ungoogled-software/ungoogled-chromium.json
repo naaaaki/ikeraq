@@ -14,7 +14,7 @@
     "privacy",
     "transparency"
   ],
-  "stars": 27922,
+  "stars": 27935,
   "forks": 1264,
   "watchers": 310,
   "open_issues": 181,
@@ -32,10 +32,10 @@
   "category": "other",
   "flags": [],
   "usability_score": 100,
-  "snapshot_days": 37,
+  "snapshot_days": 38,
   "is_indexable": true,
   "first_seen_at": "2026-09-02T23:02:41.773Z",
   "tracking_tier": "hot",
-  "last_fetched_date": "2026-10-09",
+  "last_fetched_date": "2026-10-10",
   "stars_stagnant_days": 0
 }

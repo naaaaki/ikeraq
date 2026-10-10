@@ -18,7 +18,7 @@
   "watchers": null,
   "open_issues": 394,
   "created_at": "2014-11-27T17:38:28Z",
-  "pushed_at": "2026-10-08T22:55:50Z",
+  "pushed_at": "2026-10-09T16:56:19Z",
   "is_archived": false,
   "license_spdx": "NOASSERTION",
   "license_category": "unknown",
@@ -31,10 +31,10 @@
   "category": "dev-tool",
   "flags": [],
   "usability_score": 100,
-  "snapshot_days": 14,
+  "snapshot_days": 15,
   "is_indexable": true,
   "first_seen_at": "2026-09-25T23:53:23.596Z",
   "tracking_tier": "hot",
-  "last_fetched_date": "2026-10-09",
-  "stars_stagnant_days": 0
+  "last_fetched_date": "2026-10-10",
+  "stars_stagnant_days": 1
 }
