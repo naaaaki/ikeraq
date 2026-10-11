@@ -11,7 +11,7 @@
     "html",
     "website"
   ],
-  "stars": 29797,
+  "stars": 29799,
   "forks": 5392,
   "watchers": 1221,
   "open_issues": 81,
@@ -29,10 +29,10 @@
   "category": "web-frontend",
   "flags": [],
   "usability_score": 100,
-  "snapshot_days": 17,
+  "snapshot_days": 18,
   "is_indexable": true,
   "first_seen_at": "2026-09-23T23:28:32.617Z",
   "tracking_tier": "hot",
-  "last_fetched_date": "2026-10-10",
-  "stars_stagnant_days": 2
+  "last_fetched_date": "2026-10-11",
+  "stars_stagnant_days": 0
 }

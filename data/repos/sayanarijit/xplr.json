@@ -25,7 +25,7 @@
     "wsl"
   ],
   "stars": 4838,
-  "forks": 96,
+  "forks": 97,
   "watchers": 36,
   "open_issues": 13,
   "created_at": "2021-02-24T20:42:17Z",
@@ -42,10 +42,10 @@
   "category": "dev-tool",
   "flags": [],
   "usability_score": 100,
-  "snapshot_days": 15,
+  "snapshot_days": 16,
   "is_indexable": true,
   "first_seen_at": "2026-09-25T23:53:23.593Z",
   "tracking_tier": "hot",
-  "last_fetched_date": "2026-10-10",
-  "stars_stagnant_days": 3
+  "last_fetched_date": "2026-10-11",
+  "stars_stagnant_days": 4
 }

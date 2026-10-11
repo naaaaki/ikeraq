@@ -17,8 +17,8 @@
     "social-media-scheduling-tool",
     "typescript"
   ],
-  "stars": 36947,
-  "forks": 7160,
+  "stars": 36998,
+  "forks": 7170,
   "watchers": null,
   "open_issues": 231,
   "created_at": "2023-07-08T17:24:22Z",
@@ -41,10 +41,10 @@
     }
   ],
   "usability_score": 85,
-  "snapshot_days": 40,
+  "snapshot_days": 41,
   "is_indexable": true,
   "first_seen_at": "2026-09-01T00:26:13.032Z",
   "tracking_tier": "hot",
-  "last_fetched_date": "2026-10-10",
+  "last_fetched_date": "2026-10-11",
   "stars_stagnant_days": 0
 }

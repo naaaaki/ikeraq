@@ -17,9 +17,9 @@
     "spring-cloud-core"
   ],
   "stars": 4912,
-  "forks": 3479,
+  "forks": 3478,
   "watchers": null,
-  "open_issues": 558,
+  "open_issues": 560,
   "created_at": "2016-11-16T21:42:51Z",
   "pushed_at": "2026-10-07T10:32:21Z",
   "is_archived": false,
@@ -34,10 +34,10 @@
   "category": "infra",
   "flags": [],
   "usability_score": 100,
-  "snapshot_days": 16,
+  "snapshot_days": 17,
   "is_indexable": true,
   "first_seen_at": "2026-09-24T23:48:41.712Z",
   "tracking_tier": "hot",
-  "last_fetched_date": "2026-10-10",
-  "stars_stagnant_days": 3
+  "last_fetched_date": "2026-10-11",
+  "stars_stagnant_days": 4
 }

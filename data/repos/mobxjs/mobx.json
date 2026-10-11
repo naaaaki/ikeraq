@@ -12,12 +12,12 @@
     "reactive-programming",
     "typescript"
   ],
-  "stars": 28209,
+  "stars": 28208,
   "forks": 1801,
   "watchers": null,
-  "open_issues": 43,
+  "open_issues": 37,
   "created_at": "2015-03-14T14:31:38Z",
-  "pushed_at": "2026-10-08T11:58:29Z",
+  "pushed_at": "2026-10-10T17:38:40Z",
   "is_archived": false,
   "license_spdx": "MIT",
   "license_category": "permissive",
@@ -30,10 +30,10 @@
   "category": "web-frontend",
   "flags": [],
   "usability_score": 100,
-  "snapshot_days": 17,
+  "snapshot_days": 18,
   "is_indexable": true,
   "first_seen_at": "2026-09-23T23:28:32.617Z",
   "tracking_tier": "hot",
-  "last_fetched_date": "2026-10-10",
-  "stars_stagnant_days": 3
+  "last_fetched_date": "2026-10-11",
+  "stars_stagnant_days": 4
 }

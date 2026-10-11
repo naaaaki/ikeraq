@@ -13,10 +13,10 @@
     "model-context-protocol",
     "oauth"
   ],
-  "stars": 7171,
-  "forks": 669,
+  "stars": 7220,
+  "forks": 675,
   "watchers": 11,
-  "open_issues": 15,
+  "open_issues": 16,
   "created_at": "2026-08-28T12:57:24Z",
   "pushed_at": "2026-10-01T05:19:24Z",
   "is_archived": false,
@@ -31,10 +31,10 @@
   "category": "ai-agent",
   "flags": [],
   "usability_score": 100,
-  "snapshot_days": 16,
+  "snapshot_days": 17,
   "is_indexable": true,
   "first_seen_at": "2026-09-24T23:48:41.711Z",
   "tracking_tier": "hot",
-  "last_fetched_date": "2026-10-10",
+  "last_fetched_date": "2026-10-11",
   "stars_stagnant_days": 0
 }

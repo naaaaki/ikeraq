@@ -16,10 +16,10 @@
     "virtual-machine",
     "virtualization"
   ],
-  "stars": 37265,
-  "forks": 2664,
+  "stars": 37282,
+  "forks": 2668,
   "watchers": null,
-  "open_issues": 94,
+  "open_issues": 95,
   "created_at": "2017-10-19T06:18:47Z",
   "pushed_at": "2026-10-09T13:46:25Z",
   "is_archived": false,
@@ -34,10 +34,10 @@
   "category": "other",
   "flags": [],
   "usability_score": 100,
-  "snapshot_days": 40,
+  "snapshot_days": 41,
   "is_indexable": true,
   "first_seen_at": "2026-09-01T00:26:13.032Z",
   "tracking_tier": "hot",
-  "last_fetched_date": "2026-10-10",
+  "last_fetched_date": "2026-10-11",
   "stars_stagnant_days": 0
 }

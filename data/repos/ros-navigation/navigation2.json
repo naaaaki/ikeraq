@@ -10,10 +10,10 @@
     "robotics",
     "ros2"
   ],
-  "stars": 4784,
-  "forks": 1976,
+  "stars": 4786,
+  "forks": 1977,
   "watchers": null,
-  "open_issues": 97,
+  "open_issues": 99,
   "created_at": "2018-05-29T23:35:08Z",
   "pushed_at": "2026-10-09T21:01:26Z",
   "is_archived": false,
@@ -28,10 +28,10 @@
   "category": "other",
   "flags": [],
   "usability_score": 100,
-  "snapshot_days": 15,
+  "snapshot_days": 16,
   "is_indexable": true,
   "first_seen_at": "2026-09-25T23:53:23.595Z",
   "tracking_tier": "hot",
-  "last_fetched_date": "2026-10-10",
+  "last_fetched_date": "2026-10-11",
   "stars_stagnant_days": 0
 }

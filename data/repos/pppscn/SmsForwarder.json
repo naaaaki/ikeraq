@@ -24,12 +24,12 @@
     "webhook",
     "wechatapp"
   ],
-  "stars": 28343,
-  "forks": 3452,
+  "stars": 28352,
+  "forks": 3454,
   "watchers": null,
   "open_issues": 17,
   "created_at": "2021-02-10T02:23:07Z",
-  "pushed_at": "2026-10-09T01:48:16Z",
+  "pushed_at": "2026-10-10T01:44:47Z",
   "is_archived": false,
   "license_spdx": "BSD-2-Clause",
   "license_category": "permissive",
@@ -42,10 +42,10 @@
   "category": "llm",
   "flags": [],
   "usability_score": 100,
-  "snapshot_days": 38,
+  "snapshot_days": 39,
   "is_indexable": true,
   "first_seen_at": "2026-09-02T23:02:41.773Z",
   "tracking_tier": "hot",
-  "last_fetched_date": "2026-10-10",
+  "last_fetched_date": "2026-10-11",
   "stars_stagnant_days": 0
 }

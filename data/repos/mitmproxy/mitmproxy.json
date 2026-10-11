@@ -18,7 +18,7 @@
     "tls",
     "websocket"
   ],
-  "stars": 45383,
+  "stars": 45400,
   "forks": 4774,
   "watchers": 632,
   "open_issues": 491,
@@ -36,10 +36,10 @@
   "category": "security",
   "flags": [],
   "usability_score": 100,
-  "snapshot_days": 41,
+  "snapshot_days": 42,
   "is_indexable": true,
   "first_seen_at": "2026-08-30T23:15:18.750Z",
   "tracking_tier": "hot",
-  "last_fetched_date": "2026-10-10",
+  "last_fetched_date": "2026-10-11",
   "stars_stagnant_days": 0
 }

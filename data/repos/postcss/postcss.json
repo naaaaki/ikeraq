@@ -12,10 +12,10 @@
     "parser",
     "postcss"
   ],
-  "stars": 28973,
-  "forks": 1650,
+  "stars": 28972,
+  "forks": 1651,
   "watchers": 499,
-  "open_issues": 28,
+  "open_issues": 30,
   "created_at": "2013-09-24T23:06:48Z",
   "pushed_at": "2026-10-05T09:31:28Z",
   "is_archived": false,
@@ -30,10 +30,10 @@
   "category": "web-frontend",
   "flags": [],
   "usability_score": 100,
-  "snapshot_days": 33,
+  "snapshot_days": 34,
   "is_indexable": true,
   "first_seen_at": "2026-09-03T23:03:15.575Z",
   "tracking_tier": "normal",
-  "last_fetched_date": "2026-10-08",
+  "last_fetched_date": "2026-10-11",
   "stars_stagnant_days": 7
 }

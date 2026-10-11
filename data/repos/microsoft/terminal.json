@@ -18,10 +18,10 @@
     "windows-terminal",
     "wsl"
   ],
-  "stars": 105115,
-  "forks": 9658,
+  "stars": 105129,
+  "forks": 9660,
   "watchers": null,
-  "open_issues": 1775,
+  "open_issues": 1780,
   "created_at": "2017-08-11T18:38:22Z",
   "pushed_at": "2026-10-09T21:11:18Z",
   "is_archived": false,
@@ -36,10 +36,10 @@
   "category": "dev-tool",
   "flags": [],
   "usability_score": 100,
-  "snapshot_days": 42,
+  "snapshot_days": 43,
   "is_indexable": true,
   "first_seen_at": "2026-08-29T15:46:21.821Z",
   "tracking_tier": "hot",
-  "last_fetched_date": "2026-10-10",
+  "last_fetched_date": "2026-10-11",
   "stars_stagnant_days": 0
 }

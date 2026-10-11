@@ -20,10 +20,10 @@
     "rust",
     "token-optimization"
   ],
-  "stars": 82788,
-  "forks": 5255,
+  "stars": 82873,
+  "forks": 5258,
   "watchers": null,
-  "open_issues": 1521,
+  "open_issues": 1512,
   "created_at": "2026-01-22T16:54:16Z",
   "pushed_at": "2026-10-09T23:52:19Z",
   "is_archived": false,
@@ -38,10 +38,10 @@
   "category": "ai-agent",
   "flags": [],
   "usability_score": 100,
-  "snapshot_days": 42,
+  "snapshot_days": 43,
   "is_indexable": true,
   "first_seen_at": "2026-08-29T23:02:08.747Z",
   "tracking_tier": "hot",
-  "last_fetched_date": "2026-10-10",
+  "last_fetched_date": "2026-10-11",
   "stars_stagnant_days": 0
 }

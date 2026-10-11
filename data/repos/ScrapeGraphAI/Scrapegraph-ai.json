@@ -27,8 +27,8 @@
     "web-search",
     "webscraping"
   ],
-  "stars": 31659,
-  "forks": 3228,
+  "stars": 31676,
+  "forks": 3233,
   "watchers": 176,
   "open_issues": 17,
   "created_at": "2024-01-27T16:54:38Z",
@@ -45,10 +45,10 @@
   "category": "llm",
   "flags": [],
   "usability_score": 100,
-  "snapshot_days": 33,
+  "snapshot_days": 34,
   "is_indexable": true,
   "first_seen_at": "2026-09-07T23:19:48.975Z",
   "tracking_tier": "hot",
-  "last_fetched_date": "2026-10-10",
+  "last_fetched_date": "2026-10-11",
   "stars_stagnant_days": 0
 }

@@ -14,11 +14,11 @@
     "scala-native"
   ],
   "stars": 4694,
-  "forks": 397,
+  "forks": 398,
   "watchers": null,
-  "open_issues": 394,
+  "open_issues": 388,
   "created_at": "2014-11-27T17:38:28Z",
-  "pushed_at": "2026-10-09T16:56:19Z",
+  "pushed_at": "2026-10-10T15:42:37Z",
   "is_archived": false,
   "license_spdx": "NOASSERTION",
   "license_category": "unknown",
@@ -31,10 +31,10 @@
   "category": "dev-tool",
   "flags": [],
   "usability_score": 100,
-  "snapshot_days": 15,
+  "snapshot_days": 16,
   "is_indexable": true,
   "first_seen_at": "2026-09-25T23:53:23.596Z",
   "tracking_tier": "hot",
-  "last_fetched_date": "2026-10-10",
-  "stars_stagnant_days": 1
+  "last_fetched_date": "2026-10-11",
+  "stars_stagnant_days": 2
 }

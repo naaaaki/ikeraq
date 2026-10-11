@@ -15,7 +15,7 @@
     "wanfang",
     "zotero"
   ],
-  "stars": 4766,
+  "stars": 4767,
   "forks": 548,
   "watchers": 45,
   "open_issues": 30,
@@ -39,10 +39,10 @@
     }
   ],
   "usability_score": 85,
-  "snapshot_days": 14,
+  "snapshot_days": 15,
   "is_indexable": true,
   "first_seen_at": "2026-09-26T23:25:20.109Z",
   "tracking_tier": "hot",
-  "last_fetched_date": "2026-10-10",
+  "last_fetched_date": "2026-10-11",
   "stars_stagnant_days": 0
 }

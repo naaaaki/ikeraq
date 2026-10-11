@@ -10,7 +10,7 @@
     "azure-cli",
     "cloud"
   ],
-  "stars": 4648,
+  "stars": 4649,
   "forks": 3500,
   "watchers": null,
   "open_issues": 3951,
@@ -28,10 +28,10 @@
   "category": "dev-tool",
   "flags": [],
   "usability_score": 100,
-  "snapshot_days": 14,
+  "snapshot_days": 15,
   "is_indexable": true,
   "first_seen_at": "2026-09-26T23:25:20.110Z",
   "tracking_tier": "hot",
-  "last_fetched_date": "2026-10-10",
-  "stars_stagnant_days": 5
+  "last_fetched_date": "2026-10-11",
+  "stars_stagnant_days": 0
 }

@@ -8,9 +8,9 @@
   "topics": [
     "telegram"
   ],
-  "stars": 30039,
-  "forks": 10201,
-  "watchers": 1280,
+  "stars": 30052,
+  "forks": 10206,
+  "watchers": 1282,
   "open_issues": 616,
   "created_at": "2013-10-25T14:08:10Z",
   "pushed_at": "2026-09-30T17:52:20Z",
@@ -32,10 +32,10 @@
     }
   ],
   "usability_score": 85,
-  "snapshot_days": 16,
+  "snapshot_days": 17,
   "is_indexable": true,
   "first_seen_at": "2026-09-24T23:48:41.710Z",
   "tracking_tier": "hot",
-  "last_fetched_date": "2026-10-10",
+  "last_fetched_date": "2026-10-11",
   "stars_stagnant_days": 0
 }

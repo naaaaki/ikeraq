@@ -23,12 +23,12 @@
     "pixel-font",
     "pixel-fonts"
   ],
-  "stars": 4781,
+  "stars": 4783,
   "forks": 100,
   "watchers": 34,
   "open_issues": 5,
   "created_at": "2021-05-11T18:12:13Z",
-  "pushed_at": "2026-10-08T04:29:03Z",
+  "pushed_at": "2026-10-10T09:28:22Z",
   "is_archived": false,
   "license_spdx": "MIT",
   "license_category": "permissive",
@@ -41,10 +41,10 @@
   "category": "other",
   "flags": [],
   "usability_score": 100,
-  "snapshot_days": 15,
+  "snapshot_days": 16,
   "is_indexable": true,
   "first_seen_at": "2026-09-25T23:53:23.595Z",
   "tracking_tier": "hot",
-  "last_fetched_date": "2026-10-10",
+  "last_fetched_date": "2026-10-11",
   "stars_stagnant_days": 0
 }

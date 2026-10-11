@@ -14,7 +14,7 @@
     "cursor",
     "skills"
   ],
-  "stars": 7045,
+  "stars": 7046,
   "forks": 559,
   "watchers": 70,
   "open_issues": 37,
@@ -32,10 +32,10 @@
   "category": "ai-agent",
   "flags": [],
   "usability_score": 100,
-  "snapshot_days": 27,
+  "snapshot_days": 28,
   "is_indexable": true,
   "first_seen_at": "2026-09-13T22:56:42.363Z",
   "tracking_tier": "hot",
-  "last_fetched_date": "2026-10-10",
+  "last_fetched_date": "2026-10-11",
   "stars_stagnant_days": 0
 }

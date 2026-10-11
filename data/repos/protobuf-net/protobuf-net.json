@@ -6,7 +6,7 @@
   "human_note": null,
   "language": "C#",
   "topics": [],
-  "stars": 4972,
+  "stars": 4973,
   "forks": 1092,
   "watchers": 216,
   "open_issues": 540,
@@ -24,10 +24,10 @@
   "category": "other",
   "flags": [],
   "usability_score": 100,
-  "snapshot_days": 16,
+  "snapshot_days": 17,
   "is_indexable": true,
   "first_seen_at": "2026-09-24T23:48:41.711Z",
   "tracking_tier": "hot",
-  "last_fetched_date": "2026-10-10",
-  "stars_stagnant_days": 2
+  "last_fetched_date": "2026-10-11",
+  "stars_stagnant_days": 0
 }

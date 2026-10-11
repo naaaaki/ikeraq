@@ -14,9 +14,9 @@
     "minikube"
   ],
   "stars": 32188,
-  "forks": 5338,
+  "forks": 5339,
   "watchers": 475,
-  "open_issues": 638,
+  "open_issues": 642,
   "created_at": "2016-04-15T22:38:35Z",
   "pushed_at": "2026-09-28T18:04:43Z",
   "is_archived": false,
@@ -31,10 +31,10 @@
   "category": "infra",
   "flags": [],
   "usability_score": 100,
-  "snapshot_days": 39,
+  "snapshot_days": 40,
   "is_indexable": true,
   "first_seen_at": "2026-09-01T23:05:22.650Z",
-  "tracking_tier": "hot",
-  "last_fetched_date": "2026-10-10",
-  "stars_stagnant_days": 0
+  "tracking_tier": "normal",
+  "last_fetched_date": "2026-10-11",
+  "stars_stagnant_days": 1
 }

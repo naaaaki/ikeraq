@@ -26,12 +26,12 @@
     "version-control-system",
     "visualization"
   ],
-  "stars": 4681,
-  "forks": 124,
+  "stars": 4683,
+  "forks": 125,
   "watchers": 27,
-  "open_issues": 9,
+  "open_issues": 10,
   "created_at": "2022-10-18T15:36:17Z",
-  "pushed_at": "2026-10-09T06:03:59Z",
+  "pushed_at": "2026-10-10T20:24:39Z",
   "is_archived": false,
   "license_spdx": "GPL-2.0",
   "license_category": "strong-copyleft",
@@ -50,10 +50,10 @@
     }
   ],
   "usability_score": 85,
-  "snapshot_days": 15,
+  "snapshot_days": 16,
   "is_indexable": true,
   "first_seen_at": "2026-09-25T23:53:23.596Z",
   "tracking_tier": "hot",
-  "last_fetched_date": "2026-10-10",
-  "stars_stagnant_days": 10
+  "last_fetched_date": "2026-10-11",
+  "stars_stagnant_days": 0
 }

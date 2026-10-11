@@ -27,7 +27,7 @@
     "static-analysis",
     "windows"
   ],
-  "stars": 55033,
+  "stars": 55045,
   "forks": 2485,
   "watchers": 518,
   "open_issues": 409,
@@ -51,10 +51,10 @@
     }
   ],
   "usability_score": 85,
-  "snapshot_days": 42,
+  "snapshot_days": 43,
   "is_indexable": true,
   "first_seen_at": "2026-08-29T23:02:08.747Z",
   "tracking_tier": "hot",
-  "last_fetched_date": "2026-10-10",
+  "last_fetched_date": "2026-10-11",
   "stars_stagnant_days": 0
 }

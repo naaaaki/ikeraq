@@ -9,10 +9,10 @@
     "diff",
     "tree-sitter"
   ],
-  "stars": 25994,
+  "stars": 25999,
   "forks": 525,
   "watchers": 66,
-  "open_issues": 288,
+  "open_issues": 287,
   "created_at": "2018-12-18T11:19:45Z",
   "pushed_at": "2026-10-07T22:48:45Z",
   "is_archived": false,
@@ -27,10 +27,10 @@
   "category": "other",
   "flags": [],
   "usability_score": 100,
-  "snapshot_days": 37,
+  "snapshot_days": 38,
   "is_indexable": true,
   "first_seen_at": "2026-09-03T23:03:15.575Z",
   "tracking_tier": "hot",
-  "last_fetched_date": "2026-10-10",
+  "last_fetched_date": "2026-10-11",
   "stars_stagnant_days": 0
 }

@@ -8,12 +8,12 @@
   "topics": [
     "jquery"
   ],
-  "stars": 59892,
-  "forks": 20394,
+  "stars": 59900,
+  "forks": 20403,
   "watchers": 3098,
-  "open_issues": 100,
+  "open_issues": 95,
   "created_at": "2009-04-03T15:20:14Z",
-  "pushed_at": "2026-10-06T21:19:33Z",
+  "pushed_at": "2026-10-08T11:51:33Z",
   "is_archived": false,
   "license_spdx": "MIT",
   "license_category": "permissive",
@@ -26,10 +26,10 @@
   "category": "other",
   "flags": [],
   "usability_score": 100,
-  "snapshot_days": 34,
+  "snapshot_days": 35,
   "is_indexable": true,
   "first_seen_at": "2026-09-01T00:26:13.031Z",
   "tracking_tier": "normal",
-  "last_fetched_date": "2026-10-08",
+  "last_fetched_date": "2026-10-11",
   "stars_stagnant_days": 3
 }

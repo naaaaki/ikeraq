@@ -25,8 +25,8 @@
     "sqlite",
     "sqlserver"
   ],
-  "stars": 51987,
-  "forks": 4398,
+  "stars": 52011,
+  "forks": 4399,
   "watchers": null,
   "open_issues": 3344,
   "created_at": "2015-10-21T08:26:28Z",
@@ -43,10 +43,10 @@
   "category": "data",
   "flags": [],
   "usability_score": 100,
-  "snapshot_days": 41,
+  "snapshot_days": 42,
   "is_indexable": true,
   "first_seen_at": "2026-08-30T23:15:18.749Z",
   "tracking_tier": "hot",
-  "last_fetched_date": "2026-10-10",
+  "last_fetched_date": "2026-10-11",
   "stars_stagnant_days": 0
 }
