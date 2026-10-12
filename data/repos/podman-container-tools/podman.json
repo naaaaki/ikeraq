@@ -12,7 +12,7 @@
     "linux",
     "oci"
   ],
-  "stars": 33023,
+  "stars": 33027,
   "forks": 3404,
   "watchers": null,
   "open_issues": 1018,
@@ -30,10 +30,10 @@
   "category": "infra",
   "flags": [],
   "usability_score": 100,
-  "snapshot_days": 40,
+  "snapshot_days": 41,
   "is_indexable": true,
   "first_seen_at": "2026-09-01T23:05:22.650Z",
   "tracking_tier": "hot",
-  "last_fetched_date": "2026-10-11",
+  "last_fetched_date": "2026-10-12",
   "stars_stagnant_days": 0
 }

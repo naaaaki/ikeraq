@@ -12,10 +12,10 @@
     "spacemacs",
     "vim"
   ],
-  "stars": 24540,
+  "stars": 24541,
   "forks": 4826,
   "watchers": 473,
-  "open_issues": 59,
+  "open_issues": 60,
   "created_at": "2012-12-17T21:34:03Z",
   "pushed_at": "2026-10-10T19:56:17Z",
   "is_archived": false,
@@ -36,10 +36,10 @@
     }
   ],
   "usability_score": 85,
-  "snapshot_days": 18,
+  "snapshot_days": 19,
   "is_indexable": true,
   "first_seen_at": "2026-09-23T23:28:32.618Z",
   "tracking_tier": "hot",
-  "last_fetched_date": "2026-10-11",
-  "stars_stagnant_days": 4
+  "last_fetched_date": "2026-10-12",
+  "stars_stagnant_days": 0
 }

@@ -4,7 +4,7 @@
   "name": "kuboard-press",
   "description_en": "Kuboard v4 官方文档（zh/en 双语）：Kuboard 是基于 Kubernetes 的微服务管理界面。本仓库为 v4 版本文档站源码，涵盖安装升级、集群管理、工作负载、网络、存储、Kuboard MCP 等。",
   "human_note": null,
-  "language": "Dockerfile",
+  "language": "Shell",
   "topics": [
     "docker",
     "k8s",
@@ -14,9 +14,9 @@
   "stars": 25250,
   "forks": 1592,
   "watchers": null,
-  "open_issues": 9,
+  "open_issues": 7,
   "created_at": "2019-07-24T16:45:29Z",
-  "pushed_at": "2026-10-07T15:17:09Z",
+  "pushed_at": "2026-10-11T23:16:51Z",
   "is_archived": false,
   "license_spdx": null,
   "license_category": "none",
@@ -35,10 +35,10 @@
     }
   ],
   "usability_score": 60,
-  "snapshot_days": 18,
+  "snapshot_days": 19,
   "is_indexable": true,
   "first_seen_at": "2026-09-23T23:28:32.618Z",
   "tracking_tier": "hot",
-  "last_fetched_date": "2026-10-11",
-  "stars_stagnant_days": 0
+  "last_fetched_date": "2026-10-12",
+  "stars_stagnant_days": 1
 }

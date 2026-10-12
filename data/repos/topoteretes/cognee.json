@@ -26,10 +26,10 @@
     "open-source",
     "vector-database"
   ],
-  "stars": 31972,
-  "forks": 3308,
+  "stars": 32038,
+  "forks": 3322,
   "watchers": null,
-  "open_issues": 609,
+  "open_issues": 647,
   "created_at": "2023-08-16T16:16:33Z",
   "pushed_at": "2026-10-09T22:31:57Z",
   "is_archived": false,
@@ -44,10 +44,10 @@
   "category": "ai-agent",
   "flags": [],
   "usability_score": 100,
-  "snapshot_days": 39,
+  "snapshot_days": 40,
   "is_indexable": true,
   "first_seen_at": "2026-09-02T23:02:41.773Z",
   "tracking_tier": "hot",
-  "last_fetched_date": "2026-10-11",
+  "last_fetched_date": "2026-10-12",
   "stars_stagnant_days": 0
 }

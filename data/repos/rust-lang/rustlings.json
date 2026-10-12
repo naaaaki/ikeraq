@@ -11,7 +11,7 @@
     "rust",
     "rustlings"
   ],
-  "stars": 64313,
+  "stars": 64320,
   "forks": 11255,
   "watchers": 371,
   "open_issues": 37,
@@ -35,10 +35,10 @@
     }
   ],
   "usability_score": 90,
-  "snapshot_days": 43,
+  "snapshot_days": 44,
   "is_indexable": true,
   "first_seen_at": "2026-08-29T23:02:08.747Z",
   "tracking_tier": "hot",
-  "last_fetched_date": "2026-10-11",
+  "last_fetched_date": "2026-10-12",
   "stars_stagnant_days": 0
 }

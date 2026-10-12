@@ -19,9 +19,9 @@
     "swagger",
     "typescript"
   ],
-  "stars": 4794,
+  "stars": 4793,
   "forks": 736,
-  "watchers": 960,
+  "watchers": 958,
   "open_issues": 22,
   "created_at": "2015-02-20T23:02:54Z",
   "pushed_at": "2026-10-05T17:58:35Z",
@@ -37,10 +37,10 @@
   "category": "backend",
   "flags": [],
   "usability_score": 100,
-  "snapshot_days": 16,
+  "snapshot_days": 17,
   "is_indexable": true,
   "first_seen_at": "2026-09-25T23:53:23.594Z",
   "tracking_tier": "hot",
-  "last_fetched_date": "2026-10-11",
-  "stars_stagnant_days": 3
+  "last_fetched_date": "2026-10-12",
+  "stars_stagnant_days": 4
 }

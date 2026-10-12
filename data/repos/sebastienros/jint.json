@@ -6,12 +6,12 @@
   "human_note": null,
   "language": "C#",
   "topics": [],
-  "stars": 4736,
+  "stars": 4735,
   "forks": 605,
   "watchers": null,
   "open_issues": 13,
   "created_at": "2014-01-10T01:51:04Z",
-  "pushed_at": "2026-10-10T08:06:28Z",
+  "pushed_at": "2026-10-11T06:57:09Z",
   "is_archived": false,
   "license_spdx": "BSD-2-Clause",
   "license_category": "permissive",
@@ -24,10 +24,10 @@
   "category": "other",
   "flags": [],
   "usability_score": 100,
-  "snapshot_days": 16,
+  "snapshot_days": 17,
   "is_indexable": true,
   "first_seen_at": "2026-09-25T23:53:23.595Z",
   "tracking_tier": "hot",
-  "last_fetched_date": "2026-10-11",
-  "stars_stagnant_days": 1
+  "last_fetched_date": "2026-10-12",
+  "stars_stagnant_days": 2
 }

@@ -25,10 +25,10 @@
     "x86",
     "x86-64"
   ],
-  "stars": 79884,
+  "stars": 79922,
   "forks": 4977,
   "watchers": 700,
-  "open_issues": 1001,
+  "open_issues": 1004,
   "created_at": "2020-03-10T15:19:19Z",
   "pushed_at": "2026-10-09T05:20:44Z",
   "is_archived": false,
@@ -49,10 +49,10 @@
     }
   ],
   "usability_score": 85,
-  "snapshot_days": 10,
+  "snapshot_days": 11,
   "is_indexable": true,
   "first_seen_at": "2026-10-02T00:34:58.804Z",
   "tracking_tier": "hot",
-  "last_fetched_date": "2026-10-11",
+  "last_fetched_date": "2026-10-12",
   "stars_stagnant_days": 0
 }

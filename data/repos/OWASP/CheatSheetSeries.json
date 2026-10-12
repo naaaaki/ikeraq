@@ -14,8 +14,8 @@
     "owasp",
     "security"
   ],
-  "stars": 33631,
-  "forks": 4671,
+  "stars": 33647,
+  "forks": 4674,
   "watchers": null,
   "open_issues": 14,
   "created_at": "2018-12-21T14:26:43Z",
@@ -38,10 +38,10 @@
     }
   ],
   "usability_score": 85,
-  "snapshot_days": 40,
+  "snapshot_days": 41,
   "is_indexable": true,
   "first_seen_at": "2026-09-01T23:05:22.650Z",
   "tracking_tier": "hot",
-  "last_fetched_date": "2026-10-11",
+  "last_fetched_date": "2026-10-12",
   "stars_stagnant_days": 0
 }

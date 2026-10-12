@@ -18,12 +18,12 @@
     "python",
     "structured-data"
   ],
-  "stars": 38931,
+  "stars": 38936,
   "forks": 2719,
   "watchers": 172,
-  "open_issues": 120,
+  "open_issues": 113,
   "created_at": "2025-07-08T20:46:06Z",
-  "pushed_at": "2026-10-08T22:57:19Z",
+  "pushed_at": "2026-10-11T20:00:23Z",
   "is_archived": false,
   "license_spdx": "Apache-2.0",
   "license_category": "permissive",
@@ -36,10 +36,10 @@
   "category": "llm",
   "flags": [],
   "usability_score": 100,
-  "snapshot_days": 35,
+  "snapshot_days": 36,
   "is_indexable": true,
   "first_seen_at": "2026-09-01T00:26:13.031Z",
   "tracking_tier": "normal",
-  "last_fetched_date": "2026-10-09",
+  "last_fetched_date": "2026-10-12",
   "stars_stagnant_days": 1
 }

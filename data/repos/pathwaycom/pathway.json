@@ -24,12 +24,12 @@
     "streaming",
     "time-series-analysis"
   ],
-  "stars": 62151,
+  "stars": 62135,
   "forks": 1681,
   "watchers": null,
   "open_issues": 37,
   "created_at": "2022-11-27T13:01:14Z",
-  "pushed_at": "2026-10-08T05:39:29Z",
+  "pushed_at": "2026-10-11T05:40:57Z",
   "is_archived": false,
   "license_spdx": "NOASSERTION",
   "license_category": "unknown",
@@ -42,10 +42,10 @@
   "category": "data",
   "flags": [],
   "usability_score": 100,
-  "snapshot_days": 35,
+  "snapshot_days": 36,
   "is_indexable": true,
   "first_seen_at": "2026-08-29T23:02:08.747Z",
   "tracking_tier": "normal",
-  "last_fetched_date": "2026-10-09",
+  "last_fetched_date": "2026-10-12",
   "stars_stagnant_days": 31
 }

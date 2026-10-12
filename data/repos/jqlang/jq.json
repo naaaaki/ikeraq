@@ -8,12 +8,12 @@
   "topics": [
     "jq"
   ],
-  "stars": 35777,
-  "forks": 4106,
+  "stars": 35785,
+  "forks": 4252,
   "watchers": 357,
-  "open_issues": 419,
+  "open_issues": 420,
   "created_at": "2012-07-18T19:57:25Z",
-  "pushed_at": "2026-10-10T12:50:10Z",
+  "pushed_at": "2026-10-11T15:24:32Z",
   "is_archived": false,
   "license_spdx": "NOASSERTION",
   "license_category": "unknown",
@@ -26,10 +26,10 @@
   "category": "other",
   "flags": [],
   "usability_score": 100,
-  "snapshot_days": 40,
+  "snapshot_days": 41,
   "is_indexable": true,
   "first_seen_at": "2026-09-01T23:05:22.650Z",
   "tracking_tier": "hot",
-  "last_fetched_date": "2026-10-11",
+  "last_fetched_date": "2026-10-12",
   "stars_stagnant_days": 0
 }

@@ -2,7 +2,7 @@
   "id": "guokaigdg/animal-island-ui",
   "owner": "guokaigdg",
   "name": "animal-island-ui",
-  "description_en": "A Kawaii React UI component library  一个可爱的 React UI 组件库",
+  "description_en": "A Kawaii React UI component library  一个可爱的 React UI  组件库",
   "human_note": null,
   "language": "TypeScript",
   "topics": [
@@ -12,12 +12,12 @@
     "ui-components",
     "ui-design"
   ],
-  "stars": 4976,
+  "stars": 4984,
   "forks": 29,
   "watchers": 12,
   "open_issues": 3,
   "created_at": "2026-04-12T16:53:42Z",
-  "pushed_at": "2026-10-09T14:39:54Z",
+  "pushed_at": "2026-10-11T16:45:32Z",
   "is_archived": false,
   "license_spdx": "MIT",
   "license_category": "permissive",
@@ -30,10 +30,10 @@
   "category": "web-frontend",
   "flags": [],
   "usability_score": 100,
-  "snapshot_days": 16,
+  "snapshot_days": 17,
   "is_indexable": true,
   "first_seen_at": "2026-09-25T23:53:23.596Z",
   "tracking_tier": "hot",
-  "last_fetched_date": "2026-10-11",
+  "last_fetched_date": "2026-10-12",
   "stars_stagnant_days": 0
 }

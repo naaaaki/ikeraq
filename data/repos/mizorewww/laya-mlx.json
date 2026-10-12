@@ -17,8 +17,8 @@
     "system-one",
     "typed-decisions"
   ],
-  "stars": 6863,
-  "forks": 553,
+  "stars": 6876,
+  "forks": 555,
   "watchers": null,
   "open_issues": 0,
   "created_at": "2026-09-19T13:50:26Z",
@@ -35,10 +35,10 @@
   "category": "llm",
   "flags": [],
   "usability_score": 100,
-  "snapshot_days": 17,
+  "snapshot_days": 18,
   "is_indexable": true,
   "first_seen_at": "2026-09-24T23:48:41.711Z",
   "tracking_tier": "hot",
-  "last_fetched_date": "2026-10-11",
+  "last_fetched_date": "2026-10-12",
   "stars_stagnant_days": 0
 }

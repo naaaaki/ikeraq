@@ -10,10 +10,10 @@
     "secret-management",
     "security"
   ],
-  "stars": 8378,
-  "forks": 622,
+  "stars": 8390,
+  "forks": 623,
   "watchers": 40,
-  "open_issues": 340,
+  "open_issues": 345,
   "created_at": "2023-11-09T18:17:33Z",
   "pushed_at": "2026-10-10T17:46:24Z",
   "is_archived": false,
@@ -28,10 +28,10 @@
   "category": "security",
   "flags": [],
   "usability_score": 100,
-  "snapshot_days": 16,
+  "snapshot_days": 17,
   "is_indexable": true,
   "first_seen_at": "2026-09-25T23:53:23.591Z",
   "tracking_tier": "hot",
-  "last_fetched_date": "2026-10-11",
+  "last_fetched_date": "2026-10-12",
   "stars_stagnant_days": 0
 }

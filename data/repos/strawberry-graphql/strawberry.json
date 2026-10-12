@@ -21,11 +21,11 @@
     "strawberry"
   ],
   "stars": 4722,
-  "forks": 666,
+  "forks": 665,
   "watchers": null,
-  "open_issues": 312,
+  "open_issues": 317,
   "created_at": "2018-12-21T08:56:55Z",
-  "pushed_at": "2026-10-10T18:03:45Z",
+  "pushed_at": "2026-10-12T00:00:27Z",
   "is_archived": false,
   "license_spdx": "MIT",
   "license_category": "permissive",
@@ -38,10 +38,10 @@
   "category": "backend",
   "flags": [],
   "usability_score": 100,
-  "snapshot_days": 16,
+  "snapshot_days": 17,
   "is_indexable": true,
   "first_seen_at": "2026-09-25T23:53:23.595Z",
   "tracking_tier": "hot",
-  "last_fetched_date": "2026-10-11",
-  "stars_stagnant_days": 0
+  "last_fetched_date": "2026-10-12",
+  "stars_stagnant_days": 1
 }

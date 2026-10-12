@@ -25,12 +25,12 @@
     "tls-certificate",
     "zerossl"
   ],
-  "stars": 47789,
-  "forks": 5677,
+  "stars": 47808,
+  "forks": 5684,
   "watchers": null,
-  "open_issues": 106,
+  "open_issues": 109,
   "created_at": "2015-12-26T12:56:33Z",
-  "pushed_at": "2026-10-03T05:48:58Z",
+  "pushed_at": "2026-10-09T15:41:25Z",
   "is_archived": false,
   "license_spdx": "GPL-3.0",
   "license_category": "strong-copyleft",
@@ -49,10 +49,10 @@
     }
   ],
   "usability_score": 85,
-  "snapshot_days": 36,
+  "snapshot_days": 37,
   "is_indexable": true,
   "first_seen_at": "2026-08-30T23:15:18.749Z",
   "tracking_tier": "normal",
-  "last_fetched_date": "2026-10-09",
+  "last_fetched_date": "2026-10-12",
   "stars_stagnant_days": 1
 }

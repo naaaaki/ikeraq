@@ -27,7 +27,7 @@
     "synthetic-data",
     "testing"
   ],
-  "stars": 4846,
+  "stars": 4847,
   "forks": 365,
   "watchers": 57,
   "open_issues": 16,
@@ -45,10 +45,10 @@
   "category": "data",
   "flags": [],
   "usability_score": 100,
-  "snapshot_days": 17,
+  "snapshot_days": 18,
   "is_indexable": true,
   "first_seen_at": "2026-09-24T23:48:41.713Z",
   "tracking_tier": "hot",
-  "last_fetched_date": "2026-10-11",
+  "last_fetched_date": "2026-10-12",
   "stars_stagnant_days": 0
 }

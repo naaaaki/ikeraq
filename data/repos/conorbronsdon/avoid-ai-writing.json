@@ -14,8 +14,8 @@
     "skill",
     "writing"
   ],
-  "stars": 4947,
-  "forks": 440,
+  "stars": 4964,
+  "forks": 443,
   "watchers": null,
   "open_issues": 24,
   "created_at": "2026-03-06T07:47:40Z",
@@ -32,10 +32,10 @@
   "category": "llm",
   "flags": [],
   "usability_score": 100,
-  "snapshot_days": 16,
+  "snapshot_days": 17,
   "is_indexable": true,
   "first_seen_at": "2026-09-25T23:53:23.595Z",
   "tracking_tier": "hot",
-  "last_fetched_date": "2026-10-11",
+  "last_fetched_date": "2026-10-12",
   "stars_stagnant_days": 0
 }
