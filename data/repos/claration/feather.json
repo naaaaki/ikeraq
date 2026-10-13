@@ -19,9 +19,9 @@
     "signing",
     "zsign"
   ],
-  "stars": 4820,
-  "forks": 437,
-  "watchers": 47,
+  "stars": 4831,
+  "forks": 439,
+  "watchers": 48,
   "open_issues": 30,
   "created_at": "2024-05-19T17:44:22Z",
   "pushed_at": "2026-10-06T20:46:10Z",
@@ -43,10 +43,10 @@
     }
   ],
   "usability_score": 85,
-  "snapshot_days": 17,
+  "snapshot_days": 18,
   "is_indexable": true,
   "first_seen_at": "2026-09-25T23:53:23.595Z",
   "tracking_tier": "hot",
-  "last_fetched_date": "2026-10-12",
+  "last_fetched_date": "2026-10-13",
   "stars_stagnant_days": 0
 }

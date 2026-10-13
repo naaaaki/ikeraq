@@ -11,7 +11,7 @@
     "golang"
   ],
   "stars": 24945,
-  "forks": 2218,
+  "forks": 2217,
   "watchers": 354,
   "open_issues": 82,
   "created_at": "2014-05-20T19:24:43Z",
@@ -28,10 +28,10 @@
   "category": "dev-tool",
   "flags": [],
   "usability_score": 100,
-  "snapshot_days": 19,
+  "snapshot_days": 20,
   "is_indexable": true,
   "first_seen_at": "2026-09-23T23:28:32.618Z",
   "tracking_tier": "hot",
-  "last_fetched_date": "2026-10-12",
-  "stars_stagnant_days": 0
+  "last_fetched_date": "2026-10-13",
+  "stars_stagnant_days": 1
 }

@@ -13,12 +13,12 @@
     "opencc",
     "rime"
   ],
-  "stars": 4708,
-  "forks": 546,
+  "stars": 4711,
+  "forks": 547,
   "watchers": null,
-  "open_issues": 118,
+  "open_issues": 119,
   "created_at": "2015-05-28T07:43:37Z",
-  "pushed_at": "2026-10-11T16:18:04Z",
+  "pushed_at": "2026-10-12T16:18:03Z",
   "is_archived": false,
   "license_spdx": "GPL-3.0",
   "license_category": "strong-copyleft",
@@ -37,10 +37,10 @@
     }
   ],
   "usability_score": 85,
-  "snapshot_days": 17,
+  "snapshot_days": 18,
   "is_indexable": true,
   "first_seen_at": "2026-09-25T23:53:23.596Z",
   "tracking_tier": "hot",
-  "last_fetched_date": "2026-10-12",
-  "stars_stagnant_days": 1
+  "last_fetched_date": "2026-10-13",
+  "stars_stagnant_days": 0
 }

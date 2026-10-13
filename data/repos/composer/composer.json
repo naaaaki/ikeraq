@@ -12,10 +12,10 @@
     "packages",
     "php"
   ],
-  "stars": 29548,
+  "stars": 29551,
   "forks": 4843,
   "watchers": 590,
-  "open_issues": 142,
+  "open_issues": 143,
   "created_at": "2011-06-08T08:53:00Z",
   "pushed_at": "2026-10-08T23:10:40Z",
   "is_archived": false,
@@ -30,10 +30,10 @@
   "category": "other",
   "flags": [],
   "usability_score": 100,
-  "snapshot_days": 34,
+  "snapshot_days": 35,
   "is_indexable": true,
   "first_seen_at": "2026-09-02T23:02:41.773Z",
   "tracking_tier": "normal",
-  "last_fetched_date": "2026-10-10",
+  "last_fetched_date": "2026-10-13",
   "stars_stagnant_days": 2
 }

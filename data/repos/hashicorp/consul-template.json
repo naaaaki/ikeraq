@@ -10,7 +10,7 @@
     "golang",
     "vault"
   ],
-  "stars": 4823,
+  "stars": 4822,
   "forks": 804,
   "watchers": 313,
   "open_issues": 230,
@@ -28,10 +28,10 @@
   "category": "other",
   "flags": [],
   "usability_score": 100,
-  "snapshot_days": 17,
+  "snapshot_days": 18,
   "is_indexable": true,
   "first_seen_at": "2026-09-25T23:53:23.594Z",
   "tracking_tier": "hot",
-  "last_fetched_date": "2026-10-12",
-  "stars_stagnant_days": 9
+  "last_fetched_date": "2026-10-13",
+  "stars_stagnant_days": 10
 }

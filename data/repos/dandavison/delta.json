@@ -15,10 +15,10 @@
     "rust",
     "syntax-highlighter"
   ],
-  "stars": 32481,
-  "forks": 594,
+  "stars": 32488,
+  "forks": 596,
   "watchers": 115,
-  "open_issues": 467,
+  "open_issues": 469,
   "created_at": "2019-06-24T15:00:13Z",
   "pushed_at": "2026-10-10T22:37:00Z",
   "is_archived": false,
@@ -33,10 +33,10 @@
   "category": "dev-tool",
   "flags": [],
   "usability_score": 100,
-  "snapshot_days": 40,
+  "snapshot_days": 41,
   "is_indexable": true,
   "first_seen_at": "2026-09-02T23:02:41.773Z",
   "tracking_tier": "hot",
-  "last_fetched_date": "2026-10-12",
+  "last_fetched_date": "2026-10-13",
   "stars_stagnant_days": 0
 }

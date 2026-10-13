@@ -26,12 +26,12 @@
     "web-search",
     "webscraping"
   ],
-  "stars": 190536,
-  "forks": 10123,
+  "stars": 190887,
+  "forks": 10133,
   "watchers": null,
-  "open_issues": 573,
+  "open_issues": 578,
   "created_at": "2024-04-15T21:02:29Z",
-  "pushed_at": "2026-10-11T23:03:39Z",
+  "pushed_at": "2026-10-12T23:27:53Z",
   "is_archived": false,
   "license_spdx": "AGPL-3.0",
   "license_category": "strong-copyleft",
@@ -50,10 +50,10 @@
     }
   ],
   "usability_score": 85,
-  "snapshot_days": 44,
+  "snapshot_days": 45,
   "is_indexable": true,
   "first_seen_at": "2026-08-29T15:46:21.820Z",
   "tracking_tier": "hot",
-  "last_fetched_date": "2026-10-12",
+  "last_fetched_date": "2026-10-13",
   "stars_stagnant_days": 0
 }

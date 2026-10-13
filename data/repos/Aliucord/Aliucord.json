@@ -11,7 +11,7 @@
     "java",
     "kotlin"
   ],
-  "stars": 4893,
+  "stars": 4895,
   "forks": 233,
   "watchers": null,
   "open_issues": 105,
@@ -29,10 +29,10 @@
   "category": "mobile",
   "flags": [],
   "usability_score": 100,
-  "snapshot_days": 18,
+  "snapshot_days": 19,
   "is_indexable": true,
   "first_seen_at": "2026-09-24T23:48:41.712Z",
   "tracking_tier": "hot",
-  "last_fetched_date": "2026-10-12",
+  "last_fetched_date": "2026-10-13",
   "stars_stagnant_days": 0
 }

@@ -27,8 +27,8 @@
     "typescript",
     "vite"
   ],
-  "stars": 45946,
-  "forks": 9144,
+  "stars": 45960,
+  "forks": 9145,
   "watchers": 311,
   "open_issues": 12,
   "created_at": "2019-02-23T15:08:34Z",
@@ -45,10 +45,10 @@
   "category": "infra",
   "flags": [],
   "usability_score": 100,
-  "snapshot_days": 43,
+  "snapshot_days": 44,
   "is_indexable": true,
   "first_seen_at": "2026-08-30T23:15:18.750Z",
   "tracking_tier": "hot",
-  "last_fetched_date": "2026-10-12",
+  "last_fetched_date": "2026-10-13",
   "stars_stagnant_days": 0
 }

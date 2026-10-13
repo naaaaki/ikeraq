@@ -27,12 +27,12 @@
     "xtls",
     "xudp"
   ],
-  "stars": 42059,
+  "stars": 42077,
   "forks": 5972,
   "watchers": null,
-  "open_issues": 58,
+  "open_issues": 53,
   "created_at": "2020-11-09T11:23:10Z",
-  "pushed_at": "2026-10-11T20:34:45Z",
+  "pushed_at": "2026-10-13T02:21:20Z",
   "is_archived": false,
   "license_spdx": "MPL-2.0",
   "license_category": "weak-copyleft",
@@ -45,10 +45,10 @@
   "category": "infra",
   "flags": [],
   "usability_score": 100,
-  "snapshot_days": 43,
+  "snapshot_days": 44,
   "is_indexable": true,
   "first_seen_at": "2026-08-30T23:15:18.750Z",
   "tracking_tier": "hot",
-  "last_fetched_date": "2026-10-12",
+  "last_fetched_date": "2026-10-13",
   "stars_stagnant_days": 0
 }

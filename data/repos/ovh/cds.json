@@ -15,12 +15,12 @@
     "golang",
     "hacktoberfest"
   ],
-  "stars": 4846,
+  "stars": 4845,
   "forks": 454,
   "watchers": null,
   "open_issues": 163,
   "created_at": "2016-10-11T08:28:23Z",
-  "pushed_at": "2026-10-08T15:35:34Z",
+  "pushed_at": "2026-10-12T13:21:46Z",
   "is_archived": false,
   "license_spdx": "BSD-3-Clause",
   "license_category": "permissive",
@@ -33,10 +33,10 @@
   "category": "infra",
   "flags": [],
   "usability_score": 100,
-  "snapshot_days": 18,
+  "snapshot_days": 19,
   "is_indexable": true,
   "first_seen_at": "2026-09-24T23:48:41.713Z",
   "tracking_tier": "hot",
-  "last_fetched_date": "2026-10-12",
-  "stars_stagnant_days": 4
+  "last_fetched_date": "2026-10-13",
+  "stars_stagnant_days": 5
 }

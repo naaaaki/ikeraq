@@ -24,7 +24,7 @@
     "version-manager",
     "zsh"
   ],
-  "stars": 25600,
+  "stars": 25598,
   "forks": 946,
   "watchers": 115,
   "open_issues": 149,
@@ -42,10 +42,10 @@
   "category": "dev-tool",
   "flags": [],
   "usability_score": 100,
-  "snapshot_days": 19,
+  "snapshot_days": 20,
   "is_indexable": true,
   "first_seen_at": "2026-09-23T23:28:32.617Z",
   "tracking_tier": "hot",
-  "last_fetched_date": "2026-10-12",
-  "stars_stagnant_days": 0
+  "last_fetched_date": "2026-10-13",
+  "stars_stagnant_days": 1
 }

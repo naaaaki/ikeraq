@@ -13,7 +13,7 @@
     "torrent-client"
   ],
   "stars": 4873,
-  "forks": 489,
+  "forks": 488,
   "watchers": null,
   "open_issues": 384,
   "created_at": "2011-10-03T04:07:26Z",
@@ -36,10 +36,10 @@
     }
   ],
   "usability_score": 85,
-  "snapshot_days": 18,
+  "snapshot_days": 19,
   "is_indexable": true,
   "first_seen_at": "2026-09-24T23:48:41.712Z",
   "tracking_tier": "hot",
-  "last_fetched_date": "2026-10-12",
-  "stars_stagnant_days": 1
+  "last_fetched_date": "2026-10-13",
+  "stars_stagnant_days": 2
 }

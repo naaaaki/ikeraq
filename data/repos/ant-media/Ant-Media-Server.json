@@ -27,11 +27,11 @@
     "webrtc"
   ],
   "stars": 4742,
-  "forks": 693,
+  "forks": 692,
   "watchers": null,
-  "open_issues": 1466,
+  "open_issues": 1461,
   "created_at": "2017-03-01T08:21:13Z",
-  "pushed_at": "2026-10-11T11:12:40Z",
+  "pushed_at": "2026-10-12T21:31:39Z",
   "is_archived": false,
   "license_spdx": "NOASSERTION",
   "license_category": "unknown",
@@ -44,10 +44,10 @@
   "category": "mobile",
   "flags": [],
   "usability_score": 100,
-  "snapshot_days": 17,
+  "snapshot_days": 18,
   "is_indexable": true,
   "first_seen_at": "2026-09-25T23:53:23.595Z",
   "tracking_tier": "hot",
-  "last_fetched_date": "2026-10-12",
-  "stars_stagnant_days": 6
+  "last_fetched_date": "2026-10-13",
+  "stars_stagnant_days": 7
 }

@@ -27,12 +27,12 @@
     "threathunting",
     "threatintel"
   ],
-  "stars": 4745,
-  "forks": 689,
+  "stars": 4751,
+  "forks": 690,
   "watchers": 84,
-  "open_issues": 81,
+  "open_issues": 83,
   "created_at": "2019-12-31T15:18:52Z",
-  "pushed_at": "2026-10-07T16:13:21Z",
+  "pushed_at": "2026-10-12T14:11:49Z",
   "is_archived": false,
   "license_spdx": "AGPL-3.0",
   "license_category": "strong-copyleft",
@@ -51,10 +51,10 @@
     }
   ],
   "usability_score": 85,
-  "snapshot_days": 17,
+  "snapshot_days": 18,
   "is_indexable": true,
   "first_seen_at": "2026-09-25T23:53:23.595Z",
   "tracking_tier": "hot",
-  "last_fetched_date": "2026-10-12",
+  "last_fetched_date": "2026-10-13",
   "stars_stagnant_days": 0
 }

@@ -13,10 +13,10 @@
     "restic",
     "secure-by-default"
   ],
-  "stars": 36522,
-  "forks": 1918,
+  "stars": 36541,
+  "forks": 1921,
   "watchers": 238,
-  "open_issues": 621,
+  "open_issues": 622,
   "created_at": "2014-04-27T14:07:58Z",
   "pushed_at": "2026-10-11T20:17:42Z",
   "is_archived": false,
@@ -31,10 +31,10 @@
   "category": "other",
   "flags": [],
   "usability_score": 100,
-  "snapshot_days": 42,
+  "snapshot_days": 43,
   "is_indexable": true,
   "first_seen_at": "2026-09-01T00:26:13.032Z",
   "tracking_tier": "hot",
-  "last_fetched_date": "2026-10-12",
+  "last_fetched_date": "2026-10-13",
   "stars_stagnant_days": 0
 }

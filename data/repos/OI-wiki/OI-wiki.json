@@ -19,12 +19,12 @@
     "oi-handbook",
     "oi-training"
   ],
-  "stars": 26835,
-  "forks": 4694,
+  "stars": 26848,
+  "forks": 4693,
   "watchers": null,
-  "open_issues": 138,
+  "open_issues": 134,
   "created_at": "2018-07-11T03:28:14Z",
-  "pushed_at": "2026-10-09T16:09:37Z",
+  "pushed_at": "2026-10-12T16:13:32Z",
   "is_archived": false,
   "license_spdx": null,
   "license_category": "none",
@@ -43,10 +43,10 @@
     }
   ],
   "usability_score": 60,
-  "snapshot_days": 35,
+  "snapshot_days": 36,
   "is_indexable": true,
   "first_seen_at": "2026-09-03T23:03:15.575Z",
   "tracking_tier": "normal",
-  "last_fetched_date": "2026-10-10",
+  "last_fetched_date": "2026-10-13",
   "stars_stagnant_days": 1
 }

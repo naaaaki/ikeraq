@@ -22,8 +22,8 @@
     "wagmi",
     "web3"
   ],
-  "stars": 29346,
-  "forks": 1802,
+  "stars": 29349,
+  "forks": 1803,
   "watchers": 169,
   "open_issues": 7,
   "created_at": "2022-03-19T15:01:46Z",
@@ -46,10 +46,10 @@
     }
   ],
   "usability_score": 85,
-  "snapshot_days": 33,
+  "snapshot_days": 34,
   "is_indexable": true,
   "first_seen_at": "2026-09-07T23:19:48.976Z",
   "tracking_tier": "normal",
-  "last_fetched_date": "2026-10-10",
+  "last_fetched_date": "2026-10-13",
   "stars_stagnant_days": 1
 }
