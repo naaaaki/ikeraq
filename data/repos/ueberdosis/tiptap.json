@@ -18,12 +18,12 @@
     "wysiwyg",
     "wysiwyg-editor"
   ],
-  "stars": 38698,
-  "forks": 3152,
+  "stars": 38708,
+  "forks": 3155,
   "watchers": null,
   "open_issues": 863,
   "created_at": "2018-08-20T19:58:58Z",
-  "pushed_at": "2026-10-12T14:26:59Z",
+  "pushed_at": "2026-10-13T17:58:47Z",
   "is_archived": false,
   "license_spdx": "MIT",
   "license_category": "permissive",
@@ -36,10 +36,10 @@
   "category": "web-frontend",
   "flags": [],
   "usability_score": 100,
-  "snapshot_days": 43,
+  "snapshot_days": 44,
   "is_indexable": true,
   "first_seen_at": "2026-09-01T00:26:13.031Z",
   "tracking_tier": "hot",
-  "last_fetched_date": "2026-10-13",
+  "last_fetched_date": "2026-10-14",
   "stars_stagnant_days": 0
 }

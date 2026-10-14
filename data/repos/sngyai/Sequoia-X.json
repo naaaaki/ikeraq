@@ -16,10 +16,10 @@
     "trading",
     "turtle-trade"
   ],
-  "stars": 8029,
-  "forks": 1619,
+  "stars": 8034,
+  "forks": 1622,
   "watchers": 124,
-  "open_issues": 43,
+  "open_issues": 42,
   "created_at": "2018-07-20T16:33:48Z",
   "pushed_at": "2026-07-10T23:17:43Z",
   "is_archived": false,
@@ -40,10 +40,10 @@
     }
   ],
   "usability_score": 60,
-  "snapshot_days": 41,
+  "snapshot_days": 42,
   "is_indexable": true,
   "first_seen_at": "2026-09-02T23:02:39.602Z",
   "tracking_tier": "hot",
-  "last_fetched_date": "2026-10-13",
+  "last_fetched_date": "2026-10-14",
   "stars_stagnant_days": 0
 }

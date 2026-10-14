@@ -9,12 +9,12 @@
     "k8s",
     "kubernetes"
   ],
-  "stars": 34179,
+  "stars": 34189,
   "forks": 2756,
   "watchers": null,
-  "open_issues": 86,
+  "open_issues": 98,
   "created_at": "2018-05-31T01:37:46Z",
-  "pushed_at": "2026-10-12T22:08:25Z",
+  "pushed_at": "2026-10-13T18:30:45Z",
   "is_archived": false,
   "license_spdx": "Apache-2.0",
   "license_category": "permissive",
@@ -27,10 +27,10 @@
   "category": "infra",
   "flags": [],
   "usability_score": 100,
-  "snapshot_days": 42,
+  "snapshot_days": 43,
   "is_indexable": true,
   "first_seen_at": "2026-09-01T23:05:22.650Z",
   "tracking_tier": "hot",
-  "last_fetched_date": "2026-10-13",
+  "last_fetched_date": "2026-10-14",
   "stars_stagnant_days": 0
 }

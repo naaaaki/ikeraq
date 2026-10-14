@@ -6,9 +6,9 @@
   "human_note": null,
   "language": "Jupyter Notebook",
   "topics": [],
-  "stars": 38495,
-  "forks": 4273,
-  "watchers": 372,
+  "stars": 38550,
+  "forks": 4276,
+  "watchers": 374,
   "open_issues": 64,
   "created_at": "2024-04-02T15:52:00Z",
   "pushed_at": "2026-08-28T05:31:39Z",
@@ -30,10 +30,10 @@
     }
   ],
   "usability_score": 60,
-  "snapshot_days": 43,
+  "snapshot_days": 44,
   "is_indexable": true,
   "first_seen_at": "2026-09-01T00:26:13.031Z",
   "tracking_tier": "hot",
-  "last_fetched_date": "2026-10-13",
+  "last_fetched_date": "2026-10-14",
   "stars_stagnant_days": 0
 }

@@ -2,7 +2,7 @@
   "id": "nexu-io/open-design",
   "owner": "nexu-io",
   "name": "open-design",
-  "description_en": "🎨 Best DeepSeek Harness Design Plugin. The open-source Claude Design alternative. 🖥️ Local-first desktop app. 🖼️ Your coding agent becomes the design engine: prototypes, landing pages, dashboards, slides, images & video — real files, HTML/PDF/PPTX/MP4 export. 🤖 Claude Code / Codex / Cursor / DeepSeek Harness / OpenCode & 20+ CLIs via BYOK.",
+  "description_en": "OpenDesign is the 1st Collaborative AI Design Agent Workspace. Local-first and open source. Create prototypes, websites, apps, dashboards, presentations, images, and videos with your team and AI agents. Share work, exchange feedback, and iterate together in one workspace.",
   "human_note": null,
   "language": "TypeScript",
   "topics": [
@@ -27,12 +27,12 @@
     "ui-generator",
     "vibe-coding"
   ],
-  "stars": 100773,
-  "forks": 11595,
+  "stars": 100959,
+  "forks": 11627,
   "watchers": null,
-  "open_issues": 1155,
+  "open_issues": 1163,
   "created_at": "2026-04-28T04:25:20Z",
-  "pushed_at": "2026-10-13T02:18:26Z",
+  "pushed_at": "2026-10-13T19:40:17Z",
   "is_archived": false,
   "license_spdx": "Apache-2.0",
   "license_category": "permissive",
@@ -45,10 +45,10 @@
   "category": "ai-agent",
   "flags": [],
   "usability_score": 100,
-  "snapshot_days": 45,
+  "snapshot_days": 46,
   "is_indexable": true,
   "first_seen_at": "2026-08-29T15:46:21.821Z",
   "tracking_tier": "hot",
-  "last_fetched_date": "2026-10-13",
+  "last_fetched_date": "2026-10-14",
   "stars_stagnant_days": 0
 }

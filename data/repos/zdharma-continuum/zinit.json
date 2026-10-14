@@ -14,12 +14,12 @@
     "zsh-configuration",
     "zsh-plugin"
   ],
-  "stars": 4869,
+  "stars": 4871,
   "forks": 158,
   "watchers": 20,
-  "open_issues": 113,
+  "open_issues": 114,
   "created_at": "2021-10-30T01:07:44Z",
-  "pushed_at": "2026-10-10T11:28:14Z",
+  "pushed_at": "2026-10-13T09:21:22Z",
   "is_archived": false,
   "license_spdx": "MIT",
   "license_category": "permissive",
@@ -32,10 +32,10 @@
   "category": "other",
   "flags": [],
   "usability_score": 100,
-  "snapshot_days": 19,
+  "snapshot_days": 20,
   "is_indexable": true,
   "first_seen_at": "2026-09-24T23:48:41.713Z",
   "tracking_tier": "hot",
-  "last_fetched_date": "2026-10-13",
+  "last_fetched_date": "2026-10-14",
   "stars_stagnant_days": 0
 }

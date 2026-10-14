@@ -27,12 +27,12 @@
     "scientific-computing",
     "scientific-research"
   ],
-  "stars": 5532,
-  "forks": 514,
+  "stars": 4840,
+  "forks": 478,
   "watchers": 252,
-  "open_issues": 51,
+  "open_issues": 54,
   "created_at": "2026-07-03T02:50:10Z",
-  "pushed_at": "2026-10-13T02:25:52Z",
+  "pushed_at": "2026-10-13T23:10:20Z",
   "is_archived": false,
   "license_spdx": "Apache-2.0",
   "license_category": "permissive",
@@ -45,10 +45,10 @@
   "category": "ai-agent",
   "flags": [],
   "usability_score": 100,
-  "snapshot_days": 19,
+  "snapshot_days": 20,
   "is_indexable": true,
   "first_seen_at": "2026-09-24T23:48:41.712Z",
   "tracking_tier": "hot",
-  "last_fetched_date": "2026-10-13",
-  "stars_stagnant_days": 0
+  "last_fetched_date": "2026-10-14",
+  "stars_stagnant_days": 1
 }

@@ -10,10 +10,10 @@
     "esp32",
     "mcp"
   ],
-  "stars": 30801,
-  "forks": 7215,
+  "stars": 30920,
+  "forks": 7237,
   "watchers": null,
-  "open_issues": 672,
+  "open_issues": 673,
   "created_at": "2024-08-31T10:08:16Z",
   "pushed_at": "2026-10-12T17:03:24Z",
   "is_archived": false,
@@ -28,10 +28,10 @@
   "category": "ai-agent",
   "flags": [],
   "usability_score": 100,
-  "snapshot_days": 41,
+  "snapshot_days": 42,
   "is_indexable": true,
   "first_seen_at": "2026-09-02T23:02:41.773Z",
   "tracking_tier": "hot",
-  "last_fetched_date": "2026-10-13",
+  "last_fetched_date": "2026-10-14",
   "stars_stagnant_days": 0
 }

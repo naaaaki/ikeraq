@@ -10,12 +10,12 @@
     "hacktoberfest",
     "shell"
   ],
-  "stars": 63848,
-  "forks": 28514,
+  "stars": 63868,
+  "forks": 28530,
   "watchers": null,
   "open_issues": 402,
   "created_at": "2008-07-23T14:21:26Z",
-  "pushed_at": "2026-10-12T21:28:26Z",
+  "pushed_at": "2026-10-13T21:41:06Z",
   "is_archived": false,
   "license_spdx": "NOASSERTION",
   "license_category": "unknown",
@@ -28,10 +28,10 @@
   "category": "other",
   "flags": [],
   "usability_score": 100,
-  "snapshot_days": 45,
+  "snapshot_days": 46,
   "is_indexable": true,
   "first_seen_at": "2026-08-29T23:02:08.747Z",
   "tracking_tier": "hot",
-  "last_fetched_date": "2026-10-13",
+  "last_fetched_date": "2026-10-14",
   "stars_stagnant_days": 0
 }

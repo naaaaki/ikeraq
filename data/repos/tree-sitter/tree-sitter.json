@@ -14,12 +14,12 @@
     "tree-sitter",
     "wasm"
   ],
-  "stars": 27174,
-  "forks": 2964,
+  "stars": 27179,
+  "forks": 2968,
   "watchers": null,
   "open_issues": 108,
   "created_at": "2013-11-06T06:16:00Z",
-  "pushed_at": "2026-10-12T05:35:54Z",
+  "pushed_at": "2026-10-13T05:32:50Z",
   "is_archived": false,
   "license_spdx": "MIT",
   "license_category": "permissive",
@@ -32,10 +32,10 @@
   "category": "other",
   "flags": [],
   "usability_score": 100,
-  "snapshot_days": 40,
+  "snapshot_days": 41,
   "is_indexable": true,
   "first_seen_at": "2026-09-03T23:03:15.575Z",
   "tracking_tier": "hot",
-  "last_fetched_date": "2026-10-13",
+  "last_fetched_date": "2026-10-14",
   "stars_stagnant_days": 0
 }

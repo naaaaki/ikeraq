@@ -24,8 +24,8 @@
     "scientific-computing",
     "scientific-visualization"
   ],
-  "stars": 48579,
-  "forks": 4364,
+  "stars": 48726,
+  "forks": 4379,
   "watchers": 203,
   "open_issues": 24,
   "created_at": "2025-10-19T20:54:15Z",
@@ -42,10 +42,10 @@
   "category": "ai-agent",
   "flags": [],
   "usability_score": 100,
-  "snapshot_days": 45,
+  "snapshot_days": 46,
   "is_indexable": true,
   "first_seen_at": "2026-08-29T15:46:17.176Z",
   "tracking_tier": "hot",
-  "last_fetched_date": "2026-10-13",
+  "last_fetched_date": "2026-10-14",
   "stars_stagnant_days": 0
 }

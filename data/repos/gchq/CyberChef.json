@@ -14,8 +14,8 @@
     "hashing",
     "parsing"
   ],
-  "stars": 36093,
-  "forks": 4171,
+  "stars": 36109,
+  "forks": 4172,
   "watchers": null,
   "open_issues": 597,
   "created_at": "2016-11-28T10:34:07Z",
@@ -32,10 +32,10 @@
   "category": "other",
   "flags": [],
   "usability_score": 100,
-  "snapshot_days": 43,
+  "snapshot_days": 44,
   "is_indexable": true,
   "first_seen_at": "2026-09-01T00:26:13.032Z",
   "tracking_tier": "hot",
-  "last_fetched_date": "2026-10-13",
+  "last_fetched_date": "2026-10-14",
   "stars_stagnant_days": 0
 }
