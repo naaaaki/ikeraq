@@ -22,12 +22,12 @@
     "web-standards",
     "webassembly"
   ],
-  "stars": 4850,
+  "stars": 4852,
   "forks": 487,
   "watchers": null,
-  "open_issues": 24,
+  "open_issues": 28,
   "created_at": "2021-03-15T21:48:18Z",
-  "pushed_at": "2026-10-13T18:07:44Z",
+  "pushed_at": "2026-10-14T19:24:32Z",
   "is_archived": false,
   "license_spdx": "MIT",
   "license_category": "permissive",
@@ -40,10 +40,10 @@
   "category": "web-frontend",
   "flags": [],
   "usability_score": 100,
-  "snapshot_days": 19,
+  "snapshot_days": 20,
   "is_indexable": true,
   "first_seen_at": "2026-09-25T23:53:23.594Z",
   "tracking_tier": "hot",
-  "last_fetched_date": "2026-10-14",
-  "stars_stagnant_days": 1
+  "last_fetched_date": "2026-10-15",
+  "stars_stagnant_days": 0
 }

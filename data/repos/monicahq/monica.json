@@ -15,8 +15,8 @@
     "prm",
     "social"
   ],
-  "stars": 25479,
-  "forks": 2622,
+  "stars": 25482,
+  "forks": 2623,
   "watchers": 295,
   "open_issues": 791,
   "created_at": "2017-02-17T00:02:58Z",
@@ -39,10 +39,10 @@
     }
   ],
   "usability_score": 85,
-  "snapshot_days": 20,
+  "snapshot_days": 21,
   "is_indexable": true,
   "first_seen_at": "2026-09-24T23:48:41.710Z",
   "tracking_tier": "hot",
-  "last_fetched_date": "2026-10-14",
+  "last_fetched_date": "2026-10-15",
   "stars_stagnant_days": 0
 }

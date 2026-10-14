@@ -20,12 +20,12 @@
     "startpage",
     "vue"
   ],
-  "stars": 26707,
-  "forks": 1953,
+  "stars": 26714,
+  "forks": 1957,
   "watchers": null,
   "open_issues": 20,
   "created_at": "2021-02-28T10:35:44Z",
-  "pushed_at": "2026-10-13T12:24:24Z",
+  "pushed_at": "2026-10-14T09:20:55Z",
   "is_archived": false,
   "license_spdx": "MIT",
   "license_category": "permissive",
@@ -38,10 +38,10 @@
   "category": "infra",
   "flags": [],
   "usability_score": 100,
-  "snapshot_days": 41,
+  "snapshot_days": 42,
   "is_indexable": true,
   "first_seen_at": "2026-09-03T23:03:15.575Z",
   "tracking_tier": "hot",
-  "last_fetched_date": "2026-10-14",
+  "last_fetched_date": "2026-10-15",
   "stars_stagnant_days": 0
 }

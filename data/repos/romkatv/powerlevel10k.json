@@ -8,10 +8,10 @@
   "topics": [
     "zsh"
   ],
-  "stars": 55232,
-  "forks": 2448,
+  "stars": 55245,
+  "forks": 2447,
   "watchers": 194,
-  "open_issues": 153,
+  "open_issues": 154,
   "created_at": "2019-02-24T19:09:45Z",
   "pushed_at": "2026-09-14T08:10:04Z",
   "is_archived": false,
@@ -26,10 +26,10 @@
   "category": "other",
   "flags": [],
   "usability_score": 100,
-  "snapshot_days": 33,
+  "snapshot_days": 34,
   "is_indexable": true,
   "first_seen_at": "2026-09-07T23:19:48.975Z",
   "tracking_tier": "normal",
-  "last_fetched_date": "2026-10-12",
+  "last_fetched_date": "2026-10-15",
   "stars_stagnant_days": 1
 }

@@ -25,12 +25,12 @@
     "youtube",
     "zhihu"
   ],
-  "stars": 46514,
-  "forks": 10272,
+  "stars": 46527,
+  "forks": 10274,
   "watchers": null,
-  "open_issues": 52,
+  "open_issues": 42,
   "created_at": "2018-04-02T14:43:21Z",
-  "pushed_at": "2026-10-13T17:59:52Z",
+  "pushed_at": "2026-10-14T20:34:59Z",
   "is_archived": false,
   "license_spdx": "AGPL-3.0",
   "license_category": "strong-copyleft",
@@ -49,10 +49,10 @@
     }
   ],
   "usability_score": 85,
-  "snapshot_days": 45,
+  "snapshot_days": 46,
   "is_indexable": true,
   "first_seen_at": "2026-08-30T23:15:18.750Z",
   "tracking_tier": "hot",
-  "last_fetched_date": "2026-10-14",
+  "last_fetched_date": "2026-10-15",
   "stars_stagnant_days": 0
 }

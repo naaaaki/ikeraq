@@ -27,12 +27,12 @@
     "utility",
     "windows"
   ],
-  "stars": 41504,
-  "forks": 1968,
+  "stars": 41532,
+  "forks": 1970,
   "watchers": 199,
   "open_issues": 66,
   "created_at": "2022-07-31T21:55:56Z",
-  "pushed_at": "2026-10-13T11:25:21Z",
+  "pushed_at": "2026-10-14T21:16:28Z",
   "is_archived": false,
   "license_spdx": "Apache-2.0",
   "license_category": "permissive",
@@ -45,10 +45,10 @@
   "category": "security",
   "flags": [],
   "usability_score": 100,
-  "snapshot_days": 45,
+  "snapshot_days": 46,
   "is_indexable": true,
   "first_seen_at": "2026-08-30T23:15:18.750Z",
   "tracking_tier": "hot",
-  "last_fetched_date": "2026-10-14",
+  "last_fetched_date": "2026-10-15",
   "stars_stagnant_days": 0
 }

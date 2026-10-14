@@ -2,7 +2,7 @@
   "id": "nexu-io/open-design",
   "owner": "nexu-io",
   "name": "open-design",
-  "description_en": "OpenDesign is the 1st Collaborative AI Design Agent Workspace. Local-first and open source. Create prototypes, websites, apps, dashboards, presentations, images, and videos with your team and AI agents. Share work, exchange feedback, and iterate together in one workspace.",
+  "description_en": "The 1st Collaborative AI Design Agent Workspace. Local-first and open source. Create prototypes, websites, apps, dashboards, presentations, images, and videos with your team and AI agents. Share work, exchange feedback, and iterate together in one workspace.",
   "human_note": null,
   "language": "TypeScript",
   "topics": [
@@ -27,12 +27,12 @@
     "ui-generator",
     "vibe-coding"
   ],
-  "stars": 100959,
-  "forks": 11627,
+  "stars": 101168,
+  "forks": 11643,
   "watchers": null,
-  "open_issues": 1163,
+  "open_issues": 1165,
   "created_at": "2026-04-28T04:25:20Z",
-  "pushed_at": "2026-10-13T19:40:17Z",
+  "pushed_at": "2026-10-14T18:16:38Z",
   "is_archived": false,
   "license_spdx": "Apache-2.0",
   "license_category": "permissive",
@@ -45,10 +45,10 @@
   "category": "ai-agent",
   "flags": [],
   "usability_score": 100,
-  "snapshot_days": 46,
+  "snapshot_days": 47,
   "is_indexable": true,
   "first_seen_at": "2026-08-29T15:46:21.821Z",
   "tracking_tier": "hot",
-  "last_fetched_date": "2026-10-14",
+  "last_fetched_date": "2026-10-15",
   "stars_stagnant_days": 0
 }

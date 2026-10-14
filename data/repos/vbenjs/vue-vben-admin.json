@@ -4,7 +4,7 @@
   "name": "vue-vben-admin",
   "description_en": "A modern vue admin panel built with Vue3, Shadcn UI, Vite, TypeScript, and Monorepo. It's fast!",
   "human_note": null,
-  "language": "Vue",
+  "language": "TypeScript",
   "topics": [
     "admin-template",
     "ant-design",
@@ -21,12 +21,12 @@
     "vue3",
     "vuex"
   ],
-  "stars": 33578,
-  "forks": 8972,
+  "stars": 33601,
+  "forks": 8978,
   "watchers": null,
-  "open_issues": 38,
+  "open_issues": 40,
   "created_at": "2020-07-11T02:29:21Z",
-  "pushed_at": "2026-10-10T14:28:14Z",
+  "pushed_at": "2026-10-14T01:23:34Z",
   "is_archived": false,
   "license_spdx": "MIT",
   "license_category": "permissive",
@@ -39,10 +39,10 @@
   "category": "web-frontend",
   "flags": [],
   "usability_score": 100,
-  "snapshot_days": 35,
+  "snapshot_days": 36,
   "is_indexable": true,
   "first_seen_at": "2026-09-01T23:05:22.650Z",
   "tracking_tier": "normal",
-  "last_fetched_date": "2026-10-12",
+  "last_fetched_date": "2026-10-15",
   "stars_stagnant_days": 1
 }

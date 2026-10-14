@@ -10,7 +10,6 @@
     "digital-asset-manager",
     "duplicate-detection",
     "face-recognition",
-    "family-photos",
     "image-search",
     "large-photo-collections",
     "linux-app",
@@ -22,14 +21,17 @@
     "photo-management",
     "photo-organizer",
     "privacy",
+    "rust",
+    "tauri",
+    "vue",
     "windows-app"
   ],
-  "stars": 3848,
-  "forks": 226,
+  "stars": 3867,
+  "forks": 227,
   "watchers": 28,
-  "open_issues": 38,
+  "open_issues": 43,
   "created_at": "2024-08-11T16:24:28Z",
-  "pushed_at": "2026-10-12T12:05:42Z",
+  "pushed_at": "2026-10-14T13:36:13Z",
   "is_archived": false,
   "license_spdx": "GPL-3.0",
   "license_category": "strong-copyleft",
@@ -39,7 +41,7 @@
   "contributors_count": 9,
   "releases_count": 23,
   "ossf_scorecard": null,
-  "category": "other",
+  "category": "web-frontend",
   "flags": [
     {
       "id": "copyleft",
@@ -48,10 +50,10 @@
     }
   ],
   "usability_score": 85,
-  "snapshot_days": 20,
+  "snapshot_days": 21,
   "is_indexable": true,
   "first_seen_at": "2026-09-24T23:48:41.504Z",
   "tracking_tier": "hot",
-  "last_fetched_date": "2026-10-14",
+  "last_fetched_date": "2026-10-15",
   "stars_stagnant_days": 0
 }

@@ -8,8 +8,8 @@
   "topics": [
     "jq"
   ],
-  "stars": 35800,
-  "forks": 4459,
+  "stars": 35816,
+  "forks": 4568,
   "watchers": 357,
   "open_issues": 418,
   "created_at": "2012-07-18T19:57:25Z",
@@ -26,10 +26,10 @@
   "category": "other",
   "flags": [],
   "usability_score": 100,
-  "snapshot_days": 43,
+  "snapshot_days": 44,
   "is_indexable": true,
   "first_seen_at": "2026-09-01T23:05:22.650Z",
   "tracking_tier": "hot",
-  "last_fetched_date": "2026-10-14",
+  "last_fetched_date": "2026-10-15",
   "stars_stagnant_days": 0
 }

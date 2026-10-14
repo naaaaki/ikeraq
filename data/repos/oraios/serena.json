@@ -19,12 +19,12 @@
     "programming",
     "vibe-coding"
   ],
-  "stars": 30235,
-  "forks": 2063,
+  "stars": 30268,
+  "forks": 2075,
   "watchers": null,
   "open_issues": 98,
   "created_at": "2025-03-23T22:35:24Z",
-  "pushed_at": "2026-10-13T12:25:22Z",
+  "pushed_at": "2026-10-14T16:08:14Z",
   "is_archived": false,
   "license_spdx": "NOASSERTION",
   "license_category": "unknown",
@@ -37,10 +37,10 @@
   "category": "ai-agent",
   "flags": [],
   "usability_score": 100,
-  "snapshot_days": 42,
+  "snapshot_days": 43,
   "is_indexable": true,
   "first_seen_at": "2026-09-02T23:02:41.773Z",
   "tracking_tier": "hot",
-  "last_fetched_date": "2026-10-14",
+  "last_fetched_date": "2026-10-15",
   "stars_stagnant_days": 0
 }

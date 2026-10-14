@@ -19,12 +19,12 @@
     "web-builder-framework",
     "website-builder"
   ],
-  "stars": 26308,
+  "stars": 26310,
   "forks": 4652,
   "watchers": 467,
-  "open_issues": 31,
+  "open_issues": 32,
   "created_at": "2016-01-22T00:23:19Z",
-  "pushed_at": "2026-10-13T14:26:30Z",
+  "pushed_at": "2026-10-14T09:26:43Z",
   "is_archived": false,
   "license_spdx": "NOASSERTION",
   "license_category": "unknown",
@@ -37,10 +37,10 @@
   "category": "web-frontend",
   "flags": [],
   "usability_score": 100,
-  "snapshot_days": 21,
+  "snapshot_days": 22,
   "is_indexable": true,
   "first_seen_at": "2026-09-23T23:28:32.617Z",
   "tracking_tier": "hot",
-  "last_fetched_date": "2026-10-14",
+  "last_fetched_date": "2026-10-15",
   "stars_stagnant_days": 0
 }

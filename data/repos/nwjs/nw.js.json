@@ -13,7 +13,7 @@
     "nwjs",
     "web-application-framework"
   ],
-  "stars": 41138,
+  "stars": 41136,
   "forks": 3848,
   "watchers": 1542,
   "open_issues": 912,
@@ -31,10 +31,10 @@
   "category": "backend",
   "flags": [],
   "usability_score": 100,
-  "snapshot_days": 21,
+  "snapshot_days": 22,
   "is_indexable": true,
   "first_seen_at": "2026-09-23T23:28:32.616Z",
   "tracking_tier": "hot",
-  "last_fetched_date": "2026-10-14",
-  "stars_stagnant_days": 9
+  "last_fetched_date": "2026-10-15",
+  "stars_stagnant_days": 10
 }

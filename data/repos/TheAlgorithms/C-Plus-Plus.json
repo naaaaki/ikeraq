@@ -23,7 +23,7 @@
     "search",
     "sort"
   ],
-  "stars": 34769,
+  "stars": 34778,
   "forks": 7885,
   "watchers": 514,
   "open_issues": 30,
@@ -41,10 +41,10 @@
   "category": "learning",
   "flags": [],
   "usability_score": 100,
-  "snapshot_days": 21,
+  "snapshot_days": 22,
   "is_indexable": true,
   "first_seen_at": "2026-09-23T23:28:32.616Z",
   "tracking_tier": "hot",
-  "last_fetched_date": "2026-10-14",
+  "last_fetched_date": "2026-10-15",
   "stars_stagnant_days": 0
 }

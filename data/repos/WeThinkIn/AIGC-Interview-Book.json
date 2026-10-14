@@ -4,7 +4,7 @@
   "name": "AIGC-Interview-Book",
   "description_en": "【三年面试五年模拟】AIGC/LLM/AI Agent算法工程师面试资源平台。涵盖AIGC、LLM大模型、AI Agent、具身智能、传统深度学习、计算机视觉、自然语言处理、自动驾驶、机器学习、强化学习、大数据挖掘、世界模型、元宇宙、AGI等AI行业面试笔试干货经验与核心跨周期知识。",
   "human_note": null,
-  "language": null,
+  "language": "Python",
   "topics": [
     "ai-agent",
     "aigc",
@@ -21,12 +21,12 @@
     "stable-diffusion",
     "transformer"
   ],
-  "stars": 4965,
-  "forks": 477,
+  "stars": 4972,
+  "forks": 478,
   "watchers": null,
   "open_issues": 1,
   "created_at": "2023-10-14T16:15:40Z",
-  "pushed_at": "2026-10-12T11:58:24Z",
+  "pushed_at": "2026-10-14T13:40:05Z",
   "is_archived": false,
   "license_spdx": "GPL-3.0",
   "license_category": "strong-copyleft",
@@ -45,10 +45,10 @@
     }
   ],
   "usability_score": 85,
-  "snapshot_days": 19,
+  "snapshot_days": 20,
   "is_indexable": true,
   "first_seen_at": "2026-09-25T23:53:23.594Z",
   "tracking_tier": "hot",
-  "last_fetched_date": "2026-10-14",
+  "last_fetched_date": "2026-10-15",
   "stars_stagnant_days": 0
 }

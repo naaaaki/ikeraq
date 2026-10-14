@@ -17,12 +17,12 @@
     "kindle",
     "python"
   ],
-  "stars": 26123,
-  "forks": 2714,
+  "stars": 26144,
+  "forks": 2715,
   "watchers": null,
   "open_issues": 7,
   "created_at": "2013-05-28T10:03:23Z",
-  "pushed_at": "2026-10-11T10:11:49Z",
+  "pushed_at": "2026-10-14T10:19:16Z",
   "is_archived": false,
   "license_spdx": "GPL-3.0",
   "license_category": "strong-copyleft",
@@ -41,10 +41,10 @@
     }
   ],
   "usability_score": 85,
-  "snapshot_days": 35,
+  "snapshot_days": 36,
   "is_indexable": true,
   "first_seen_at": "2026-09-03T23:03:15.575Z",
   "tracking_tier": "normal",
-  "last_fetched_date": "2026-10-12",
+  "last_fetched_date": "2026-10-15",
   "stars_stagnant_days": 1
 }
