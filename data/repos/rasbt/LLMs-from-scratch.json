@@ -26,9 +26,9 @@
     "tokenizer",
     "transformers"
   ],
-  "stars": 106539,
-  "forks": 16395,
-  "watchers": 868,
+  "stars": 106619,
+  "forks": 16411,
+  "watchers": 870,
   "open_issues": 3,
   "created_at": "2023-07-23T18:15:57Z",
   "pushed_at": "2026-10-02T14:55:52Z",
@@ -44,10 +44,10 @@
   "category": "llm",
   "flags": [],
   "usability_score": 100,
-  "snapshot_days": 47,
+  "snapshot_days": 48,
   "is_indexable": true,
   "first_seen_at": "2026-08-29T15:46:21.821Z",
   "tracking_tier": "hot",
-  "last_fetched_date": "2026-10-15",
+  "last_fetched_date": "2026-10-16",
   "stars_stagnant_days": 0
 }

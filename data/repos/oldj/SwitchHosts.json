@@ -13,7 +13,7 @@
     "switch-hosts",
     "switchhosts"
   ],
-  "stars": 27269,
+  "stars": 27273,
   "forks": 2687,
   "watchers": 402,
   "open_issues": 421,
@@ -31,10 +31,10 @@
   "category": "other",
   "flags": [],
   "usability_score": 100,
-  "snapshot_days": 36,
+  "snapshot_days": 37,
   "is_indexable": true,
   "first_seen_at": "2026-09-03T23:03:15.575Z",
   "tracking_tier": "normal",
-  "last_fetched_date": "2026-10-13",
+  "last_fetched_date": "2026-10-16",
   "stars_stagnant_days": 1
 }

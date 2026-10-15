@@ -19,7 +19,7 @@
     "sinatra",
     "typesense-rails"
   ],
-  "stars": 4995,
+  "stars": 4996,
   "forks": 443,
   "watchers": 36,
   "open_issues": 0,
@@ -37,10 +37,10 @@
   "category": "data",
   "flags": [],
   "usability_score": 100,
-  "snapshot_days": 21,
+  "snapshot_days": 22,
   "is_indexable": true,
   "first_seen_at": "2026-09-24T23:48:41.711Z",
   "tracking_tier": "hot",
-  "last_fetched_date": "2026-10-15",
-  "stars_stagnant_days": 1
+  "last_fetched_date": "2026-10-16",
+  "stars_stagnant_days": 0
 }

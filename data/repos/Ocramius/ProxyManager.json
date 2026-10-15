@@ -11,7 +11,7 @@
     "oop",
     "proxy"
   ],
-  "stars": 4942,
+  "stars": 4941,
   "forks": 191,
   "watchers": 46,
   "open_issues": 55,
@@ -29,10 +29,10 @@
   "category": "infra",
   "flags": [],
   "usability_score": 100,
-  "snapshot_days": 20,
+  "snapshot_days": 21,
   "is_indexable": true,
   "first_seen_at": "2026-09-25T23:53:23.592Z",
   "tracking_tier": "hot",
-  "last_fetched_date": "2026-10-15",
-  "stars_stagnant_days": 4
+  "last_fetched_date": "2026-10-16",
+  "stars_stagnant_days": 5
 }

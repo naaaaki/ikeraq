@@ -16,12 +16,12 @@
     "svg",
     "visualization"
   ],
-  "stars": 67487,
+  "stars": 67520,
   "forks": 19815,
   "watchers": 1961,
-  "open_issues": 1488,
+  "open_issues": 1486,
   "created_at": "2013-04-03T03:18:59Z",
-  "pushed_at": "2026-10-12T01:12:04Z",
+  "pushed_at": "2026-10-13T09:27:20Z",
   "is_archived": false,
   "license_spdx": "Apache-2.0",
   "license_category": "permissive",
@@ -34,10 +34,10 @@
   "category": "web-frontend",
   "flags": [],
   "usability_score": 100,
-  "snapshot_days": 38,
+  "snapshot_days": 39,
   "is_indexable": true,
   "first_seen_at": "2026-09-03T23:03:15.574Z",
   "tracking_tier": "normal",
-  "last_fetched_date": "2026-10-13",
+  "last_fetched_date": "2026-10-16",
   "stars_stagnant_days": 1
 }

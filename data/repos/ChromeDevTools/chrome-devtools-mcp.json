@@ -15,12 +15,12 @@
     "mcp-server",
     "puppeteer"
   ],
-  "stars": 53546,
-  "forks": 6622,
+  "stars": 53606,
+  "forks": 6697,
   "watchers": null,
   "open_issues": 186,
   "created_at": "2025-09-11T10:39:55Z",
-  "pushed_at": "2026-10-14T18:13:50Z",
+  "pushed_at": "2026-10-15T17:32:28Z",
   "is_archived": false,
   "license_spdx": "Apache-2.0",
   "license_category": "permissive",
@@ -33,10 +33,10 @@
   "category": "ai-agent",
   "flags": [],
   "usability_score": 100,
-  "snapshot_days": 47,
+  "snapshot_days": 48,
   "is_indexable": true,
   "first_seen_at": "2026-08-29T15:46:20.952Z",
   "tracking_tier": "hot",
-  "last_fetched_date": "2026-10-15",
+  "last_fetched_date": "2026-10-16",
   "stars_stagnant_days": 0
 }

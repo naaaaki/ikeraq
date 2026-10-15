@@ -24,12 +24,12 @@
     "time-series-database",
     "tsdb"
   ],
-  "stars": 25159,
-  "forks": 5020,
+  "stars": 25161,
+  "forks": 5019,
   "watchers": 679,
-  "open_issues": 441,
+  "open_issues": 442,
   "created_at": "2019-07-11T08:33:48Z",
-  "pushed_at": "2026-10-13T03:09:47Z",
+  "pushed_at": "2026-10-15T12:18:24Z",
   "is_archived": false,
   "license_spdx": "AGPL-3.0",
   "license_category": "strong-copyleft",
@@ -48,10 +48,10 @@
     }
   ],
   "usability_score": 85,
-  "snapshot_days": 20,
+  "snapshot_days": 21,
   "is_indexable": true,
   "first_seen_at": "2026-09-25T23:53:23.592Z",
   "tracking_tier": "hot",
-  "last_fetched_date": "2026-10-15",
+  "last_fetched_date": "2026-10-16",
   "stars_stagnant_days": 0
 }

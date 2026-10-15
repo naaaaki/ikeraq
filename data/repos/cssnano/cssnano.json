@@ -12,12 +12,12 @@
     "optimisation",
     "postcss"
   ],
-  "stars": 4978,
+  "stars": 4981,
   "forks": 330,
   "watchers": null,
-  "open_issues": 21,
+  "open_issues": 22,
   "created_at": "2015-04-14T16:23:09Z",
-  "pushed_at": "2026-10-13T11:23:30Z",
+  "pushed_at": "2026-10-15T11:42:53Z",
   "is_archived": false,
   "license_spdx": "MIT",
   "license_category": "permissive",
@@ -30,10 +30,10 @@
   "category": "web-frontend",
   "flags": [],
   "usability_score": 100,
-  "snapshot_days": 21,
+  "snapshot_days": 22,
   "is_indexable": true,
   "first_seen_at": "2026-09-24T23:48:41.711Z",
   "tracking_tier": "hot",
-  "last_fetched_date": "2026-10-15",
-  "stars_stagnant_days": 1
+  "last_fetched_date": "2026-10-16",
+  "stars_stagnant_days": 0
 }

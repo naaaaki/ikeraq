@@ -17,12 +17,12 @@
     "parallel-execution",
     "vibe-coding"
   ],
-  "stars": 39915,
+  "stars": 39940,
   "forks": 3581,
   "watchers": null,
-  "open_issues": 11,
+  "open_issues": 6,
   "created_at": "2026-01-09T03:36:29Z",
-  "pushed_at": "2026-10-14T05:29:21Z",
+  "pushed_at": "2026-10-15T22:52:35Z",
   "is_archived": false,
   "license_spdx": "MIT",
   "license_category": "permissive",
@@ -35,10 +35,10 @@
   "category": "ai-agent",
   "flags": [],
   "usability_score": 100,
-  "snapshot_days": 45,
+  "snapshot_days": 46,
   "is_indexable": true,
   "first_seen_at": "2026-09-01T00:26:13.031Z",
   "tracking_tier": "hot",
-  "last_fetched_date": "2026-10-15",
+  "last_fetched_date": "2026-10-16",
   "stars_stagnant_days": 0
 }

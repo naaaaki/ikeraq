@@ -22,12 +22,12 @@
     "self-hosted",
     "skills"
   ],
-  "stars": 9599,
+  "stars": 9605,
   "forks": 377,
   "watchers": 58,
-  "open_issues": 41,
+  "open_issues": 42,
   "created_at": "2026-05-14T16:48:52Z",
-  "pushed_at": "2026-10-14T20:20:25Z",
+  "pushed_at": "2026-10-15T17:18:11Z",
   "is_archived": false,
   "license_spdx": "Apache-2.0",
   "license_category": "permissive",
@@ -40,10 +40,10 @@
   "category": "ai-agent",
   "flags": [],
   "usability_score": 100,
-  "snapshot_days": 43,
+  "snapshot_days": 44,
   "is_indexable": true,
   "first_seen_at": "2026-09-02T23:02:40.093Z",
   "tracking_tier": "hot",
-  "last_fetched_date": "2026-10-15",
+  "last_fetched_date": "2026-10-16",
   "stars_stagnant_days": 0
 }

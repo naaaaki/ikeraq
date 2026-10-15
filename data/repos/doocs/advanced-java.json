@@ -28,7 +28,7 @@
     "zookeeper"
   ],
   "stars": 79150,
-  "forks": 19128,
+  "forks": 19121,
   "watchers": 2534,
   "open_issues": 0,
   "created_at": "2018-10-06T11:38:30Z",
@@ -51,10 +51,10 @@
     }
   ],
   "usability_score": 85,
-  "snapshot_days": 37,
+  "snapshot_days": 38,
   "is_indexable": true,
   "first_seen_at": "2026-08-29T15:46:21.821Z",
   "tracking_tier": "normal",
-  "last_fetched_date": "2026-10-13",
+  "last_fetched_date": "2026-10-16",
   "stars_stagnant_days": 1
 }

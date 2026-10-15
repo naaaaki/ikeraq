@@ -11,12 +11,12 @@
     "firefox-browser",
     "zen-browser"
   ],
-  "stars": 44932,
-  "forks": 1836,
+  "stars": 44946,
+  "forks": 1842,
   "watchers": null,
   "open_issues": 756,
   "created_at": "2024-03-28T00:05:55Z",
-  "pushed_at": "2026-10-14T22:41:39Z",
+  "pushed_at": "2026-10-15T22:53:50Z",
   "is_archived": false,
   "license_spdx": "MPL-2.0",
   "license_category": "weak-copyleft",
@@ -29,10 +29,10 @@
   "category": "other",
   "flags": [],
   "usability_score": 100,
-  "snapshot_days": 46,
+  "snapshot_days": 47,
   "is_indexable": true,
   "first_seen_at": "2026-08-30T23:15:18.750Z",
   "tracking_tier": "hot",
-  "last_fetched_date": "2026-10-15",
+  "last_fetched_date": "2026-10-16",
   "stars_stagnant_days": 0
 }

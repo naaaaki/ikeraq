@@ -21,12 +21,12 @@
     "startpage",
     "youtube"
   ],
-  "stars": 37499,
-  "forks": 1487,
+  "stars": 37514,
+  "forks": 1488,
   "watchers": 86,
-  "open_issues": 328,
+  "open_issues": 321,
   "created_at": "2024-04-27T18:55:38Z",
-  "pushed_at": "2026-10-14T06:43:42Z",
+  "pushed_at": "2026-10-15T12:27:36Z",
   "is_archived": false,
   "license_spdx": "AGPL-3.0",
   "license_category": "strong-copyleft",
@@ -45,10 +45,10 @@
     }
   ],
   "usability_score": 85,
-  "snapshot_days": 45,
+  "snapshot_days": 46,
   "is_indexable": true,
   "first_seen_at": "2026-09-01T00:26:13.032Z",
   "tracking_tier": "hot",
-  "last_fetched_date": "2026-10-15",
+  "last_fetched_date": "2026-10-16",
   "stars_stagnant_days": 0
 }

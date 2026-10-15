@@ -17,7 +17,7 @@
     "process-manager",
     "production"
   ],
-  "stars": 43300,
+  "stars": 43309,
   "forks": 2733,
   "watchers": 629,
   "open_issues": 1109,
@@ -35,10 +35,10 @@
   "category": "infra",
   "flags": [],
   "usability_score": 100,
-  "snapshot_days": 36,
+  "snapshot_days": 37,
   "is_indexable": true,
   "first_seen_at": "2026-08-30T23:15:18.750Z",
   "tracking_tier": "normal",
-  "last_fetched_date": "2026-10-13",
+  "last_fetched_date": "2026-10-16",
   "stars_stagnant_days": 3
 }

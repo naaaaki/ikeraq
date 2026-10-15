@@ -20,7 +20,7 @@
     "responsive-web-design",
     "web-development"
   ],
-  "stars": 25284,
+  "stars": 25291,
   "forks": 1405,
   "watchers": 139,
   "open_issues": 326,
@@ -44,10 +44,10 @@
     }
   ],
   "usability_score": 85,
-  "snapshot_days": 22,
+  "snapshot_days": 23,
   "is_indexable": true,
   "first_seen_at": "2026-09-23T23:28:32.618Z",
   "tracking_tier": "hot",
-  "last_fetched_date": "2026-10-15",
+  "last_fetched_date": "2026-10-16",
   "stars_stagnant_days": 0
 }

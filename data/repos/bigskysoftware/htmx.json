@@ -13,12 +13,12 @@
     "javascript",
     "rest"
   ],
-  "stars": 49565,
+  "stars": 49572,
   "forks": 1683,
   "watchers": 219,
-  "open_issues": 306,
+  "open_issues": 297,
   "created_at": "2020-04-13T16:17:51Z",
-  "pushed_at": "2026-10-02T10:39:02Z",
+  "pushed_at": "2026-10-15T21:49:36Z",
   "is_archived": false,
   "license_spdx": "NOASSERTION",
   "license_category": "unknown",
@@ -31,10 +31,10 @@
   "category": "backend",
   "flags": [],
   "usability_score": 100,
-  "snapshot_days": 38,
+  "snapshot_days": 39,
   "is_indexable": true,
   "first_seen_at": "2026-08-30T23:15:18.749Z",
   "tracking_tier": "normal",
-  "last_fetched_date": "2026-10-13",
+  "last_fetched_date": "2026-10-16",
   "stars_stagnant_days": 1
 }

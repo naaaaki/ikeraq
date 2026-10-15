@@ -22,10 +22,10 @@
     "tls",
     "web-server"
   ],
-  "stars": 77975,
-  "forks": 5143,
+  "stars": 78022,
+  "forks": 5144,
   "watchers": null,
-  "open_issues": 282,
+  "open_issues": 294,
   "created_at": "2015-01-13T19:45:03Z",
   "pushed_at": "2026-10-14T07:45:34Z",
   "is_archived": false,
@@ -40,10 +40,10 @@
   "category": "security",
   "flags": [],
   "usability_score": 100,
-  "snapshot_days": 47,
+  "snapshot_days": 48,
   "is_indexable": true,
   "first_seen_at": "2026-08-29T23:02:08.747Z",
   "tracking_tier": "hot",
-  "last_fetched_date": "2026-10-15",
+  "last_fetched_date": "2026-10-16",
   "stars_stagnant_days": 0
 }

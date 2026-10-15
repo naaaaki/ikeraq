@@ -25,10 +25,10 @@
     "transactions",
     "typescript"
   ],
-  "stars": 30347,
-  "forks": 4349,
+  "stars": 30349,
+  "forks": 4351,
   "watchers": null,
-  "open_issues": 1112,
+  "open_issues": 1114,
   "created_at": "2010-07-22T07:11:11Z",
   "pushed_at": "2026-10-11T04:22:00Z",
   "is_archived": false,
@@ -43,10 +43,10 @@
   "category": "data",
   "flags": [],
   "usability_score": 100,
-  "snapshot_days": 35,
+  "snapshot_days": 36,
   "is_indexable": true,
   "first_seen_at": "2026-09-02T23:02:41.773Z",
   "tracking_tier": "normal",
-  "last_fetched_date": "2026-10-13",
+  "last_fetched_date": "2026-10-16",
   "stars_stagnant_days": 8
 }
