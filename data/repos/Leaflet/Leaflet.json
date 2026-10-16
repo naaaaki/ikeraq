@@ -10,9 +10,9 @@
     "leaflet",
     "maps"
   ],
-  "stars": 45759,
-  "forks": 6183,
-  "watchers": 888,
+  "stars": 45763,
+  "forks": 6184,
+  "watchers": 894,
   "open_issues": 592,
   "created_at": "2010-09-22T16:57:44Z",
   "pushed_at": "2026-10-13T12:01:42Z",
@@ -28,10 +28,10 @@
   "category": "other",
   "flags": [],
   "usability_score": 100,
-  "snapshot_days": 46,
+  "snapshot_days": 47,
   "is_indexable": true,
   "first_seen_at": "2026-09-01T00:26:13.031Z",
   "tracking_tier": "hot",
-  "last_fetched_date": "2026-10-16",
+  "last_fetched_date": "2026-10-17",
   "stars_stagnant_days": 0
 }

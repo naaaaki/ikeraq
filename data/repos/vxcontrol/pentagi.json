@@ -25,10 +25,10 @@
     "security-tools",
     "self-hosted"
   ],
-  "stars": 30462,
-  "forks": 4571,
-  "watchers": 161,
-  "open_issues": 31,
+  "stars": 30736,
+  "forks": 4678,
+  "watchers": 164,
+  "open_issues": 36,
   "created_at": "2025-01-06T22:22:48Z",
   "pushed_at": "2026-10-09T20:54:31Z",
   "is_archived": false,
@@ -43,10 +43,10 @@
   "category": "ai-agent",
   "flags": [],
   "usability_score": 100,
-  "snapshot_days": 33,
+  "snapshot_days": 34,
   "is_indexable": true,
   "first_seen_at": "2026-09-13T22:56:42.729Z",
   "tracking_tier": "hot",
-  "last_fetched_date": "2026-10-16",
+  "last_fetched_date": "2026-10-17",
   "stars_stagnant_days": 0
 }

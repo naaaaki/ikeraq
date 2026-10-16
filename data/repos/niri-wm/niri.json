@@ -12,10 +12,10 @@
     "wayland",
     "wayland-compositor"
   ],
-  "stars": 28436,
-  "forks": 1206,
-  "watchers": 87,
-  "open_issues": 440,
+  "stars": 28454,
+  "forks": 1210,
+  "watchers": 89,
+  "open_issues": 441,
   "created_at": "2023-08-10T10:53:14Z",
   "pushed_at": "2026-10-15T08:44:55Z",
   "is_archived": false,
@@ -36,10 +36,10 @@
     }
   ],
   "usability_score": 85,
-  "snapshot_days": 23,
+  "snapshot_days": 24,
   "is_indexable": true,
   "first_seen_at": "2026-09-23T23:28:32.617Z",
   "tracking_tier": "hot",
-  "last_fetched_date": "2026-10-16",
+  "last_fetched_date": "2026-10-17",
   "stars_stagnant_days": 0
 }

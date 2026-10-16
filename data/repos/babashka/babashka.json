@@ -13,12 +13,12 @@
     "scripting",
     "shell-scripting"
   ],
-  "stars": 4620,
+  "stars": 4621,
   "forks": 281,
-  "watchers": null,
-  "open_issues": 32,
+  "watchers": 45,
+  "open_issues": 31,
   "created_at": "2019-08-09T12:53:24Z",
-  "pushed_at": "2026-10-15T12:44:40Z",
+  "pushed_at": "2026-10-16T13:45:19Z",
   "is_archived": false,
   "license_spdx": "EPL-1.0",
   "license_category": "weak-copyleft",
@@ -31,10 +31,10 @@
   "category": "other",
   "flags": [],
   "usability_score": 100,
-  "snapshot_days": 20,
+  "snapshot_days": 21,
   "is_indexable": true,
   "first_seen_at": "2026-09-26T23:25:20.110Z",
   "tracking_tier": "hot",
-  "last_fetched_date": "2026-10-16",
-  "stars_stagnant_days": 1
+  "last_fetched_date": "2026-10-17",
+  "stars_stagnant_days": 0
 }

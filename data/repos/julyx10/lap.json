@@ -26,10 +26,10 @@
     "vue",
     "windows-app"
   ],
-  "stars": 3890,
+  "stars": 3901,
   "forks": 229,
   "watchers": 27,
-  "open_issues": 45,
+  "open_issues": 47,
   "created_at": "2024-08-11T16:24:28Z",
   "pushed_at": "2026-10-15T12:13:37Z",
   "is_archived": false,
@@ -50,10 +50,10 @@
     }
   ],
   "usability_score": 85,
-  "snapshot_days": 22,
+  "snapshot_days": 23,
   "is_indexable": true,
   "first_seen_at": "2026-09-24T23:48:41.504Z",
   "tracking_tier": "hot",
-  "last_fetched_date": "2026-10-16",
+  "last_fetched_date": "2026-10-17",
   "stars_stagnant_days": 0
 }

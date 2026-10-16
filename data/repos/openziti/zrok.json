@@ -14,10 +14,10 @@
     "security",
     "zero-trust"
   ],
-  "stars": 4776,
+  "stars": 4775,
   "forks": 228,
   "watchers": 30,
-  "open_issues": 123,
+  "open_issues": 121,
   "created_at": "2022-07-18T19:14:51Z",
   "pushed_at": "2026-10-08T18:10:46Z",
   "is_archived": false,
@@ -32,10 +32,10 @@
   "category": "security",
   "flags": [],
   "usability_score": 100,
-  "snapshot_days": 21,
+  "snapshot_days": 22,
   "is_indexable": true,
   "first_seen_at": "2026-09-25T23:53:23.595Z",
   "tracking_tier": "hot",
-  "last_fetched_date": "2026-10-16",
-  "stars_stagnant_days": 0
+  "last_fetched_date": "2026-10-17",
+  "stars_stagnant_days": 1
 }

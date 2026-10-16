@@ -12,7 +12,7 @@
     "copilot",
     "react"
   ],
-  "stars": 4812,
+  "stars": 4813,
   "forks": 1165,
   "watchers": 28,
   "open_issues": 177,
@@ -36,10 +36,10 @@
     }
   ],
   "usability_score": 60,
-  "snapshot_days": 21,
+  "snapshot_days": 22,
   "is_indexable": true,
   "first_seen_at": "2026-09-25T23:53:23.594Z",
   "tracking_tier": "hot",
-  "last_fetched_date": "2026-10-16",
-  "stars_stagnant_days": 1
+  "last_fetched_date": "2026-10-17",
+  "stars_stagnant_days": 0
 }

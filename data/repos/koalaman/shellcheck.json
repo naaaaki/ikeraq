@@ -13,10 +13,10 @@
     "shell",
     "static-analysis"
   ],
-  "stars": 40177,
-  "forks": 1959,
-  "watchers": null,
-  "open_issues": 1084,
+  "stars": 40181,
+  "forks": 1960,
+  "watchers": 409,
+  "open_issues": 1086,
   "created_at": "2012-11-17T03:15:11Z",
   "pushed_at": "2026-10-14T02:12:17Z",
   "is_archived": false,
@@ -37,10 +37,10 @@
     }
   ],
   "usability_score": 85,
-  "snapshot_days": 23,
+  "snapshot_days": 24,
   "is_indexable": true,
   "first_seen_at": "2026-09-23T23:28:32.616Z",
   "tracking_tier": "hot",
-  "last_fetched_date": "2026-10-16",
+  "last_fetched_date": "2026-10-17",
   "stars_stagnant_days": 0
 }

@@ -22,12 +22,12 @@
     "mcp",
     "mindsdb"
   ],
-  "stars": 39794,
+  "stars": 39801,
   "forks": 6240,
   "watchers": 444,
-  "open_issues": 8,
+  "open_issues": 7,
   "created_at": "2018-08-02T17:56:45Z",
-  "pushed_at": "2026-10-13T13:09:00Z",
+  "pushed_at": "2026-10-14T16:44:03Z",
   "is_archived": false,
   "license_spdx": "MIT",
   "license_category": "permissive",
@@ -40,10 +40,10 @@
   "category": "ai-agent",
   "flags": [],
   "usability_score": 100,
-  "snapshot_days": 36,
+  "snapshot_days": 37,
   "is_indexable": true,
   "first_seen_at": "2026-09-02T23:02:41.773Z",
   "tracking_tier": "normal",
-  "last_fetched_date": "2026-10-14",
+  "last_fetched_date": "2026-10-17",
   "stars_stagnant_days": 1
 }

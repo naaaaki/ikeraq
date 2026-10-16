@@ -13,10 +13,10 @@
     "cursor",
     "skills"
   ],
-  "stars": 107034,
-  "forks": 11131,
-  "watchers": 525,
-  "open_issues": 126,
+  "stars": 107385,
+  "forks": 11180,
+  "watchers": 537,
+  "open_issues": 128,
   "created_at": "2026-02-15T20:20:26Z",
   "pushed_at": "2026-10-13T20:24:07Z",
   "is_archived": false,
@@ -31,10 +31,10 @@
   "category": "ai-agent",
   "flags": [],
   "usability_score": 100,
-  "snapshot_days": 48,
+  "snapshot_days": 49,
   "is_indexable": true,
   "first_seen_at": "2026-08-29T15:46:21.821Z",
   "tracking_tier": "hot",
-  "last_fetched_date": "2026-10-16",
+  "last_fetched_date": "2026-10-17",
   "stars_stagnant_days": 0
 }

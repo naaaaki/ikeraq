@@ -28,11 +28,11 @@
     "valkey-client"
   ],
   "stars": 24414,
-  "forks": 5496,
+  "forks": 5495,
   "watchers": 861,
-  "open_issues": 256,
+  "open_issues": 240,
   "created_at": "2014-01-11T14:06:25Z",
-  "pushed_at": "2026-10-15T10:00:55Z",
+  "pushed_at": "2026-10-16T06:58:20Z",
   "is_archived": false,
   "license_spdx": "Apache-2.0",
   "license_category": "permissive",
@@ -45,10 +45,10 @@
   "category": "other",
   "flags": [],
   "usability_score": 100,
-  "snapshot_days": 23,
+  "snapshot_days": 24,
   "is_indexable": true,
   "first_seen_at": "2026-09-23T23:28:32.618Z",
   "tracking_tier": "hot",
-  "last_fetched_date": "2026-10-16",
-  "stars_stagnant_days": 3
+  "last_fetched_date": "2026-10-17",
+  "stars_stagnant_days": 4
 }
