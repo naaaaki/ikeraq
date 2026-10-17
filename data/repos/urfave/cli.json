@@ -14,10 +14,10 @@
     "toml",
     "yaml"
   ],
-  "stars": 24293,
-  "forks": 1867,
+  "stars": 24290,
+  "forks": 1893,
   "watchers": 282,
-  "open_issues": 29,
+  "open_issues": 31,
   "created_at": "2013-07-13T19:32:06Z",
   "pushed_at": "2026-10-16T15:38:19Z",
   "is_archived": false,
@@ -32,10 +32,10 @@
   "category": "dev-tool",
   "flags": [],
   "usability_score": 100,
-  "snapshot_days": 24,
+  "snapshot_days": 25,
   "is_indexable": true,
   "first_seen_at": "2026-09-23T23:28:32.619Z",
   "tracking_tier": "hot",
-  "last_fetched_date": "2026-10-17",
-  "stars_stagnant_days": 0
+  "last_fetched_date": "2026-10-18",
+  "stars_stagnant_days": 1
 }

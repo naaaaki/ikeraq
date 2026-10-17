@@ -13,12 +13,12 @@
     "lxc",
     "lxd"
   ],
-  "stars": 4837,
+  "stars": 4838,
   "forks": 1063,
   "watchers": 141,
-  "open_issues": 437,
+  "open_issues": 439,
   "created_at": "2014-11-04T22:40:52Z",
-  "pushed_at": "2026-10-16T18:37:46Z",
+  "pushed_at": "2026-10-17T08:50:55Z",
   "is_archived": false,
   "license_spdx": "AGPL-3.0",
   "license_category": "strong-copyleft",
@@ -37,10 +37,10 @@
     }
   ],
   "usability_score": 85,
-  "snapshot_days": 23,
+  "snapshot_days": 24,
   "is_indexable": true,
   "first_seen_at": "2026-09-24T23:48:41.713Z",
   "tracking_tier": "hot",
-  "last_fetched_date": "2026-10-17",
-  "stars_stagnant_days": 2
+  "last_fetched_date": "2026-10-18",
+  "stars_stagnant_days": 0
 }

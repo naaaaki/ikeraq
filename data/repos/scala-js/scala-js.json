@@ -11,7 +11,7 @@
     "language",
     "scala"
   ],
-  "stars": 4710,
+  "stars": 4709,
   "forks": 405,
   "watchers": 139,
   "open_issues": 49,
@@ -29,10 +29,10 @@
   "category": "dev-tool",
   "flags": [],
   "usability_score": 100,
-  "snapshot_days": 22,
+  "snapshot_days": 23,
   "is_indexable": true,
   "first_seen_at": "2026-09-25T23:53:23.596Z",
   "tracking_tier": "hot",
-  "last_fetched_date": "2026-10-17",
-  "stars_stagnant_days": 7
+  "last_fetched_date": "2026-10-18",
+  "stars_stagnant_days": 8
 }

@@ -6,8 +6,8 @@
   "human_note": null,
   "language": "PowerShell",
   "topics": [],
-  "stars": 64350,
-  "forks": 3764,
+  "stars": 64408,
+  "forks": 3772,
   "watchers": 416,
   "open_issues": 64,
   "created_at": "2022-04-28T02:25:19Z",
@@ -24,10 +24,10 @@
   "category": "other",
   "flags": [],
   "usability_score": 100,
-  "snapshot_days": 49,
+  "snapshot_days": 50,
   "is_indexable": true,
   "first_seen_at": "2026-08-29T23:02:08.747Z",
   "tracking_tier": "hot",
-  "last_fetched_date": "2026-10-17",
+  "last_fetched_date": "2026-10-18",
   "stars_stagnant_days": 0
 }

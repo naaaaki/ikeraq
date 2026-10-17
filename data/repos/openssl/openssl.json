@@ -13,10 +13,10 @@
     "ssl",
     "tls"
   ],
-  "stars": 30966,
+  "stars": 30971,
   "forks": 11525,
   "watchers": 1017,
-  "open_issues": 1562,
+  "open_issues": 1567,
   "created_at": "2013-01-15T22:34:48Z",
   "pushed_at": "2026-10-15T17:33:14Z",
   "is_archived": false,
@@ -31,10 +31,10 @@
   "category": "security",
   "flags": [],
   "usability_score": 100,
-  "snapshot_days": 46,
+  "snapshot_days": 47,
   "is_indexable": true,
   "first_seen_at": "2026-09-01T23:05:22.650Z",
   "tracking_tier": "hot",
-  "last_fetched_date": "2026-10-17",
+  "last_fetched_date": "2026-10-18",
   "stars_stagnant_days": 0
 }

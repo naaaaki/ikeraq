@@ -25,12 +25,12 @@
     "web-development-tools",
     "workflow-automation"
   ],
-  "stars": 41095,
-  "forks": 5498,
+  "stars": 41104,
+  "forks": 5504,
   "watchers": null,
-  "open_issues": 856,
+  "open_issues": 872,
   "created_at": "2021-03-30T08:51:34Z",
-  "pushed_at": "2026-10-14T22:27:17Z",
+  "pushed_at": "2026-10-17T21:51:43Z",
   "is_archived": false,
   "license_spdx": "AGPL-3.0",
   "license_category": "strong-copyleft",
@@ -49,10 +49,10 @@
     }
   ],
   "usability_score": 85,
-  "snapshot_days": 40,
+  "snapshot_days": 41,
   "is_indexable": true,
   "first_seen_at": "2026-08-30T23:15:18.750Z",
   "tracking_tier": "normal",
-  "last_fetched_date": "2026-10-15",
+  "last_fetched_date": "2026-10-18",
   "stars_stagnant_days": 1
 }

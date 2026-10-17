@@ -22,7 +22,7 @@
     "vulnerability-management",
     "vulnerability-scanners"
   ],
-  "stars": 4871,
+  "stars": 4873,
   "forks": 805,
   "watchers": 92,
   "open_issues": 25,
@@ -46,10 +46,10 @@
     }
   ],
   "usability_score": 85,
-  "snapshot_days": 23,
+  "snapshot_days": 24,
   "is_indexable": true,
   "first_seen_at": "2026-09-24T23:48:41.713Z",
   "tracking_tier": "hot",
-  "last_fetched_date": "2026-10-17",
+  "last_fetched_date": "2026-10-18",
   "stars_stagnant_days": 0
 }

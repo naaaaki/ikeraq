@@ -17,11 +17,11 @@
     "voice-support"
   ],
   "stars": 26817,
-  "forks": 4067,
+  "forks": 4064,
   "watchers": 425,
   "open_issues": 157,
   "created_at": "2015-08-10T13:36:26Z",
-  "pushed_at": "2026-10-14T01:06:30Z",
+  "pushed_at": "2026-10-16T14:01:28Z",
   "is_archived": false,
   "license_spdx": "Apache-2.0",
   "license_category": "permissive",
@@ -34,10 +34,10 @@
   "category": "backend",
   "flags": [],
   "usability_score": 100,
-  "snapshot_days": 36,
+  "snapshot_days": 37,
   "is_indexable": true,
   "first_seen_at": "2026-09-03T23:03:15.575Z",
   "tracking_tier": "normal",
-  "last_fetched_date": "2026-10-15",
+  "last_fetched_date": "2026-10-18",
   "stars_stagnant_days": 1
 }

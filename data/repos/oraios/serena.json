@@ -19,8 +19,8 @@
     "programming",
     "vibe-coding"
   ],
-  "stars": 30329,
-  "forks": 2114,
+  "stars": 30347,
+  "forks": 2169,
   "watchers": 95,
   "open_issues": 98,
   "created_at": "2025-03-23T22:35:24Z",
@@ -37,10 +37,10 @@
   "category": "ai-agent",
   "flags": [],
   "usability_score": 100,
-  "snapshot_days": 45,
+  "snapshot_days": 46,
   "is_indexable": true,
   "first_seen_at": "2026-09-02T23:02:41.773Z",
   "tracking_tier": "hot",
-  "last_fetched_date": "2026-10-17",
+  "last_fetched_date": "2026-10-18",
   "stars_stagnant_days": 0
 }

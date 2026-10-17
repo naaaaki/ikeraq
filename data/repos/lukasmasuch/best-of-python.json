@@ -23,8 +23,8 @@
     "utilities",
     "utility-library"
   ],
-  "stars": 4627,
-  "forks": 349,
+  "stars": 4630,
+  "forks": 352,
   "watchers": 101,
   "open_issues": 55,
   "created_at": "2021-01-11T19:11:32Z",
@@ -47,10 +47,10 @@
     }
   ],
   "usability_score": 85,
-  "snapshot_days": 21,
+  "snapshot_days": 22,
   "is_indexable": true,
   "first_seen_at": "2026-09-26T23:25:20.111Z",
   "tracking_tier": "hot",
-  "last_fetched_date": "2026-10-17",
-  "stars_stagnant_days": 1
+  "last_fetched_date": "2026-10-18",
+  "stars_stagnant_days": 0
 }

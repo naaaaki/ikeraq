@@ -25,12 +25,12 @@
     "txt",
     "xml"
   ],
-  "stars": 28527,
-  "forks": 2138,
+  "stars": 28546,
+  "forks": 2139,
   "watchers": 138,
   "open_issues": 273,
   "created_at": "2020-03-05T02:18:30Z",
-  "pushed_at": "2026-10-16T00:03:32Z",
+  "pushed_at": "2026-10-17T07:10:20Z",
   "is_archived": false,
   "license_spdx": "AGPL-3.0",
   "license_category": "strong-copyleft",
@@ -49,10 +49,10 @@
     }
   ],
   "usability_score": 85,
-  "snapshot_days": 45,
+  "snapshot_days": 46,
   "is_indexable": true,
   "first_seen_at": "2026-09-02T23:02:41.773Z",
   "tracking_tier": "hot",
-  "last_fetched_date": "2026-10-17",
+  "last_fetched_date": "2026-10-18",
   "stars_stagnant_days": 0
 }

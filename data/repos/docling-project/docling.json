@@ -22,10 +22,10 @@
     "tables",
     "xlsx"
   ],
-  "stars": 68991,
-  "forks": 5097,
+  "stars": 69023,
+  "forks": 5101,
   "watchers": 230,
-  "open_issues": 883,
+  "open_issues": 891,
   "created_at": "2024-07-09T07:50:26Z",
   "pushed_at": "2026-10-16T15:44:42Z",
   "is_archived": false,
@@ -40,10 +40,10 @@
   "category": "other",
   "flags": [],
   "usability_score": 100,
-  "snapshot_days": 49,
+  "snapshot_days": 50,
   "is_indexable": true,
   "first_seen_at": "2026-08-29T23:02:08.747Z",
   "tracking_tier": "hot",
-  "last_fetched_date": "2026-10-17",
+  "last_fetched_date": "2026-10-18",
   "stars_stagnant_days": 0
 }

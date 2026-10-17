@@ -23,10 +23,10 @@
     "skills",
     "spring-cloud"
   ],
-  "stars": 33447,
-  "forks": 13285,
+  "stars": 33461,
+  "forks": 13287,
   "watchers": 892,
-  "open_issues": 189,
+  "open_issues": 192,
   "created_at": "2018-06-15T06:49:27Z",
   "pushed_at": "2026-10-14T05:44:53Z",
   "is_archived": false,
@@ -41,10 +41,10 @@
   "category": "ai-agent",
   "flags": [],
   "usability_score": 100,
-  "snapshot_days": 36,
+  "snapshot_days": 37,
   "is_indexable": true,
   "first_seen_at": "2026-09-01T23:05:22.650Z",
   "tracking_tier": "normal",
-  "last_fetched_date": "2026-10-15",
+  "last_fetched_date": "2026-10-18",
   "stars_stagnant_days": 2
 }

@@ -21,12 +21,12 @@
     "sqlite",
     "swagger"
   ],
-  "stars": 65291,
-  "forks": 5096,
+  "stars": 65293,
+  "forks": 5095,
   "watchers": 389,
   "open_issues": 712,
   "created_at": "2017-10-29T18:51:48Z",
-  "pushed_at": "2026-10-16T21:54:04Z",
+  "pushed_at": "2026-10-17T06:26:30Z",
   "is_archived": false,
   "license_spdx": "NOASSERTION",
   "license_category": "unknown",
@@ -39,10 +39,10 @@
   "category": "data",
   "flags": [],
   "usability_score": 100,
-  "snapshot_days": 49,
+  "snapshot_days": 50,
   "is_indexable": true,
   "first_seen_at": "2026-08-29T23:02:08.747Z",
   "tracking_tier": "hot",
-  "last_fetched_date": "2026-10-17",
+  "last_fetched_date": "2026-10-18",
   "stars_stagnant_days": 0
 }

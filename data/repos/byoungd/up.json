@@ -14,8 +14,8 @@
     "self-directed-learning",
     "tutorial"
   ],
-  "stars": 68800,
-  "forks": 6843,
+  "stars": 68853,
+  "forks": 6845,
   "watchers": 989,
   "open_issues": 29,
   "created_at": "2017-05-30T07:18:52Z",
@@ -32,10 +32,10 @@
   "category": "learning",
   "flags": [],
   "usability_score": 100,
-  "snapshot_days": 49,
+  "snapshot_days": 50,
   "is_indexable": true,
   "first_seen_at": "2026-08-29T23:02:08.747Z",
   "tracking_tier": "hot",
-  "last_fetched_date": "2026-10-17",
+  "last_fetched_date": "2026-10-18",
   "stars_stagnant_days": 0
 }

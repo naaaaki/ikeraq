@@ -13,10 +13,10 @@
     "moment",
     "time"
   ],
-  "stars": 48662,
-  "forks": 5148,
-  "watchers": 284,
-  "open_issues": 1381,
+  "stars": 48659,
+  "forks": 5359,
+  "watchers": 285,
+  "open_issues": 1384,
   "created_at": "2018-04-10T09:26:44Z",
   "pushed_at": "2026-09-15T11:35:36Z",
   "is_archived": false,
@@ -31,10 +31,10 @@
   "category": "other",
   "flags": [],
   "usability_score": 100,
-  "snapshot_days": 37,
+  "snapshot_days": 38,
   "is_indexable": true,
   "first_seen_at": "2026-09-01T00:26:13.031Z",
   "tracking_tier": "normal",
-  "last_fetched_date": "2026-10-15",
+  "last_fetched_date": "2026-10-18",
   "stars_stagnant_days": 1
 }

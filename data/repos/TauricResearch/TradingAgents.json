@@ -12,10 +12,10 @@
     "multiagent",
     "trading"
   ],
-  "stars": 111518,
-  "forks": 21510,
+  "stars": 111732,
+  "forks": 21558,
   "watchers": 839,
-  "open_issues": 93,
+  "open_issues": 98,
   "created_at": "2024-12-28T03:31:08Z",
   "pushed_at": "2026-10-16T21:38:46Z",
   "is_archived": false,
@@ -30,10 +30,10 @@
   "category": "ai-agent",
   "flags": [],
   "usability_score": 100,
-  "snapshot_days": 48,
+  "snapshot_days": 49,
   "is_indexable": true,
   "first_seen_at": "2026-08-30T23:15:18.749Z",
   "tracking_tier": "hot",
-  "last_fetched_date": "2026-10-17",
+  "last_fetched_date": "2026-10-18",
   "stars_stagnant_days": 0
 }

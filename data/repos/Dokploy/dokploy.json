@@ -24,10 +24,10 @@
     "self-hosted",
     "vps"
   ],
-  "stars": 37826,
-  "forks": 3082,
+  "stars": 37842,
+  "forks": 3085,
   "watchers": 114,
-  "open_issues": 767,
+  "open_issues": 770,
   "created_at": "2024-04-19T07:49:30Z",
   "pushed_at": "2026-10-16T15:40:46Z",
   "is_archived": false,
@@ -42,10 +42,10 @@
   "category": "ai-agent",
   "flags": [],
   "usability_score": 100,
-  "snapshot_days": 47,
+  "snapshot_days": 48,
   "is_indexable": true,
   "first_seen_at": "2026-09-01T00:26:13.032Z",
   "tracking_tier": "hot",
-  "last_fetched_date": "2026-10-17",
+  "last_fetched_date": "2026-10-18",
   "stars_stagnant_days": 0
 }

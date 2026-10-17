@@ -4,7 +4,7 @@
   "name": "dify",
   "description_en": "Build Agentic workflows, RAG pipelines, with rich AI model and tool support on one collaborative workspace. Deploy on cloud, VPC, or self-hosted, so teams move from prototype to production without rebuilding the stack.",
   "human_note": null,
-  "language": "TypeScript",
+  "language": "Python",
   "topics": [
     "agent",
     "agentic-ai",
@@ -26,12 +26,12 @@
     "skills",
     "workflow"
   ],
-  "stars": 158487,
-  "forks": 25040,
+  "stars": 158728,
+  "forks": 25086,
   "watchers": null,
-  "open_issues": 1133,
+  "open_issues": 1138,
   "created_at": "2023-04-12T07:40:24Z",
-  "pushed_at": "2026-10-14T23:41:28Z",
+  "pushed_at": "2026-10-17T22:08:15Z",
   "is_archived": false,
   "license_spdx": "NOASSERTION",
   "license_category": "unknown",
@@ -44,10 +44,10 @@
   "category": "ai-agent",
   "flags": [],
   "usability_score": 100,
-  "snapshot_days": 43,
+  "snapshot_days": 44,
   "is_indexable": true,
   "first_seen_at": "2026-08-29T15:46:21.820Z",
   "tracking_tier": "normal",
-  "last_fetched_date": "2026-10-15",
+  "last_fetched_date": "2026-10-18",
   "stars_stagnant_days": 1
 }

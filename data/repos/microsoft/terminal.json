@@ -18,12 +18,12 @@
     "windows-terminal",
     "wsl"
   ],
-  "stars": 105177,
+  "stars": 105176,
   "forks": 9664,
   "watchers": 1373,
-  "open_issues": 1784,
+  "open_issues": 1786,
   "created_at": "2017-08-11T18:38:22Z",
-  "pushed_at": "2026-10-16T21:23:35Z",
+  "pushed_at": "2026-10-16T23:25:35Z",
   "is_archived": false,
   "license_spdx": "MIT",
   "license_category": "permissive",
@@ -36,10 +36,10 @@
   "category": "dev-tool",
   "flags": [],
   "usability_score": 100,
-  "snapshot_days": 49,
+  "snapshot_days": 50,
   "is_indexable": true,
   "first_seen_at": "2026-08-29T15:46:21.821Z",
-  "tracking_tier": "hot",
-  "last_fetched_date": "2026-10-17",
-  "stars_stagnant_days": 0
+  "tracking_tier": "normal",
+  "last_fetched_date": "2026-10-18",
+  "stars_stagnant_days": 1
 }

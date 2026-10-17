@@ -24,12 +24,12 @@
     "ui",
     "vite"
   ],
-  "stars": 125614,
-  "forks": 13265,
+  "stars": 125818,
+  "forks": 13464,
   "watchers": null,
-  "open_issues": 1792,
+  "open_issues": 1789,
   "created_at": "2023-01-04T12:43:27Z",
-  "pushed_at": "2026-10-14T15:57:47Z",
+  "pushed_at": "2026-10-17T06:06:44Z",
   "is_archived": false,
   "license_spdx": "MIT",
   "license_category": "permissive",
@@ -48,10 +48,10 @@
     }
   ],
   "usability_score": 90,
-  "snapshot_days": 43,
+  "snapshot_days": 44,
   "is_indexable": true,
   "first_seen_at": "2026-08-29T15:46:21.820Z",
   "tracking_tier": "normal",
-  "last_fetched_date": "2026-10-15",
+  "last_fetched_date": "2026-10-18",
   "stars_stagnant_days": 1
 }

@@ -14,12 +14,12 @@
     "version-manager",
     "windows"
   ],
-  "stars": 47970,
+  "stars": 47972,
   "forks": 3897,
   "watchers": 470,
-  "open_issues": 4,
+  "open_issues": 3,
   "created_at": "2014-09-20T16:37:28Z",
-  "pushed_at": "2026-10-15T19:51:59Z",
+  "pushed_at": "2026-10-17T19:49:32Z",
   "is_archived": false,
   "license_spdx": "MIT",
   "license_category": "permissive",
@@ -32,10 +32,10 @@
   "category": "backend",
   "flags": [],
   "usability_score": 100,
-  "snapshot_days": 48,
+  "snapshot_days": 49,
   "is_indexable": true,
   "first_seen_at": "2026-08-30T23:15:18.749Z",
   "tracking_tier": "hot",
-  "last_fetched_date": "2026-10-17",
+  "last_fetched_date": "2026-10-18",
   "stars_stagnant_days": 0
 }

@@ -20,8 +20,8 @@
     "webworkers"
   ],
   "stars": 32823,
-  "forks": 1453,
-  "watchers": 290,
+  "forks": 1452,
+  "watchers": 289,
   "open_issues": 122,
   "created_at": "2017-12-16T14:19:02Z",
   "pushed_at": "2026-10-09T03:20:23Z",
@@ -37,10 +37,10 @@
   "category": "backend",
   "flags": [],
   "usability_score": 100,
-  "snapshot_days": 36,
+  "snapshot_days": 37,
   "is_indexable": true,
   "first_seen_at": "2026-09-01T23:05:22.650Z",
   "tracking_tier": "normal",
-  "last_fetched_date": "2026-10-15",
+  "last_fetched_date": "2026-10-18",
   "stars_stagnant_days": 1
 }

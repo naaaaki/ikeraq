@@ -12,9 +12,9 @@
     "websocket"
   ],
   "stars": 63219,
-  "forks": 10268,
+  "forks": 10267,
   "watchers": 1494,
-  "open_issues": 183,
+  "open_issues": 186,
   "created_at": "2010-03-11T18:24:48Z",
   "pushed_at": "2026-09-29T09:18:54Z",
   "is_archived": false,
@@ -29,10 +29,10 @@
   "category": "backend",
   "flags": [],
   "usability_score": 100,
-  "snapshot_days": 36,
+  "snapshot_days": 37,
   "is_indexable": true,
   "first_seen_at": "2026-09-03T23:03:15.574Z",
   "tracking_tier": "normal",
-  "last_fetched_date": "2026-10-15",
+  "last_fetched_date": "2026-10-18",
   "stars_stagnant_days": 1
 }

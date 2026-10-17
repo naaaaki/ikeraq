@@ -19,12 +19,12 @@
     "tui",
     "web-application"
   ],
-  "stars": 4766,
+  "stars": 4769,
   "forks": 417,
   "watchers": 48,
-  "open_issues": 315,
+  "open_issues": 317,
   "created_at": "2013-04-08T16:41:47Z",
-  "pushed_at": "2026-10-15T18:25:37Z",
+  "pushed_at": "2026-10-17T19:54:04Z",
   "is_archived": false,
   "license_spdx": "GPL-3.0",
   "license_category": "strong-copyleft",
@@ -43,10 +43,10 @@
     }
   ],
   "usability_score": 85,
-  "snapshot_days": 22,
+  "snapshot_days": 23,
   "is_indexable": true,
   "first_seen_at": "2026-09-25T23:53:23.595Z",
   "tracking_tier": "hot",
-  "last_fetched_date": "2026-10-17",
-  "stars_stagnant_days": 1
+  "last_fetched_date": "2026-10-18",
+  "stars_stagnant_days": 0
 }
