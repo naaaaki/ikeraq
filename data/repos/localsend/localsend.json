@@ -11,10 +11,10 @@
     "flutter",
     "flutter-apps"
   ],
-  "stars": 94713,
-  "forks": 5300,
+  "stars": 94812,
+  "forks": 5309,
   "watchers": 345,
-  "open_issues": 1011,
+  "open_issues": 1017,
   "created_at": "2022-12-16T00:46:07Z",
   "pushed_at": "2026-10-17T20:26:37Z",
   "is_archived": false,
@@ -29,10 +29,10 @@
   "category": "mobile",
   "flags": [],
   "usability_score": 100,
-  "snapshot_days": 50,
+  "snapshot_days": 51,
   "is_indexable": true,
   "first_seen_at": "2026-08-29T15:46:21.821Z",
   "tracking_tier": "hot",
-  "last_fetched_date": "2026-10-18",
+  "last_fetched_date": "2026-10-19",
   "stars_stagnant_days": 0
 }

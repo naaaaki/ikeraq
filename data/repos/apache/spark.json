@@ -15,12 +15,12 @@
     "spark",
     "sql"
   ],
-  "stars": 44235,
+  "stars": 44242,
   "forks": 29458,
   "watchers": 1999,
-  "open_issues": 694,
+  "open_issues": 691,
   "created_at": "2014-02-25T08:00:08Z",
-  "pushed_at": "2026-10-17T13:18:41Z",
+  "pushed_at": "2026-10-18T22:29:30Z",
   "is_archived": false,
   "license_spdx": "Apache-2.0",
   "license_category": "permissive",
@@ -33,10 +33,10 @@
   "category": "data",
   "flags": [],
   "usability_score": 100,
-  "snapshot_days": 49,
+  "snapshot_days": 50,
   "is_indexable": true,
   "first_seen_at": "2026-08-30T23:15:18.750Z",
   "tracking_tier": "hot",
-  "last_fetched_date": "2026-10-18",
+  "last_fetched_date": "2026-10-19",
   "stars_stagnant_days": 0
 }

@@ -11,8 +11,8 @@
     "dex",
     "java"
   ],
-  "stars": 51037,
-  "forks": 5829,
+  "stars": 51065,
+  "forks": 5830,
   "watchers": 881,
   "open_issues": 457,
   "created_at": "2013-03-18T17:08:21Z",
@@ -29,10 +29,10 @@
   "category": "mobile",
   "flags": [],
   "usability_score": 100,
-  "snapshot_days": 49,
+  "snapshot_days": 50,
   "is_indexable": true,
   "first_seen_at": "2026-08-30T23:15:18.749Z",
   "tracking_tier": "hot",
-  "last_fetched_date": "2026-10-18",
+  "last_fetched_date": "2026-10-19",
   "stars_stagnant_days": 0
 }

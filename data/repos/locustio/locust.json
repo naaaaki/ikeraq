@@ -18,12 +18,12 @@
     "python",
     "socketio"
   ],
-  "stars": 28217,
-  "forks": 3255,
+  "stars": 28219,
+  "forks": 3257,
   "watchers": 418,
-  "open_issues": 6,
+  "open_issues": 3,
   "created_at": "2011-02-17T11:08:03Z",
-  "pushed_at": "2026-10-17T20:53:18Z",
+  "pushed_at": "2026-10-18T09:10:26Z",
   "is_archived": false,
   "license_spdx": "MIT",
   "license_category": "permissive",
@@ -36,10 +36,10 @@
   "category": "dev-tool",
   "flags": [],
   "usability_score": 100,
-  "snapshot_days": 25,
+  "snapshot_days": 26,
   "is_indexable": true,
   "first_seen_at": "2026-09-23T23:28:32.617Z",
   "tracking_tier": "hot",
-  "last_fetched_date": "2026-10-18",
-  "stars_stagnant_days": 1
+  "last_fetched_date": "2026-10-19",
+  "stars_stagnant_days": 0
 }

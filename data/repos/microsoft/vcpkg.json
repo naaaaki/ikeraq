@@ -18,11 +18,11 @@
     "windows"
   ],
   "stars": 27522,
-  "forks": 7760,
+  "forks": 7757,
   "watchers": null,
-  "open_issues": 1110,
+  "open_issues": 1104,
   "created_at": "2016-09-15T16:40:50Z",
-  "pushed_at": "2026-10-15T17:47:14Z",
+  "pushed_at": "2026-10-18T17:48:24Z",
   "is_archived": false,
   "license_spdx": "MIT",
   "license_category": "permissive",
@@ -35,10 +35,10 @@
   "category": "other",
   "flags": [],
   "usability_score": 100,
-  "snapshot_days": 37,
+  "snapshot_days": 38,
   "is_indexable": true,
   "first_seen_at": "2026-09-03T23:03:15.575Z",
   "tracking_tier": "normal",
-  "last_fetched_date": "2026-10-16",
+  "last_fetched_date": "2026-10-19",
   "stars_stagnant_days": 1
 }

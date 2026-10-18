@@ -12,8 +12,8 @@
     "terminal",
     "terminal-emulators"
   ],
-  "stars": 75007,
-  "forks": 4288,
+  "stars": 75020,
+  "forks": 4289,
   "watchers": 452,
   "open_issues": 2841,
   "created_at": "2016-12-23T09:06:10Z",
@@ -30,10 +30,10 @@
   "category": "dev-tool",
   "flags": [],
   "usability_score": 100,
-  "snapshot_days": 50,
+  "snapshot_days": 51,
   "is_indexable": true,
   "first_seen_at": "2026-08-29T23:02:08.747Z",
   "tracking_tier": "hot",
-  "last_fetched_date": "2026-10-18",
+  "last_fetched_date": "2026-10-19",
   "stars_stagnant_days": 0
 }

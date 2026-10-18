@@ -13,12 +13,12 @@
     "vue",
     "vueuse"
   ],
-  "stars": 49104,
-  "forks": 2226,
+  "stars": 49115,
+  "forks": 2227,
   "watchers": 173,
   "open_issues": 235,
   "created_at": "2021-04-24T01:25:23Z",
-  "pushed_at": "2026-10-02T07:30:24Z",
+  "pushed_at": "2026-10-18T20:01:39Z",
   "is_archived": false,
   "license_spdx": "MIT",
   "license_category": "permissive",
@@ -31,10 +31,10 @@
   "category": "web-frontend",
   "flags": [],
   "usability_score": 100,
-  "snapshot_days": 49,
+  "snapshot_days": 50,
   "is_indexable": true,
   "first_seen_at": "2026-08-30T23:15:18.749Z",
   "tracking_tier": "hot",
-  "last_fetched_date": "2026-10-18",
+  "last_fetched_date": "2026-10-19",
   "stars_stagnant_days": 0
 }

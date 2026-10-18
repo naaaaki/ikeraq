@@ -11,10 +11,10 @@
     "rust",
     "typescript"
   ],
-  "stars": 108697,
-  "forks": 6479,
-  "watchers": 1422,
-  "open_issues": 1710,
+  "stars": 108712,
+  "forks": 6487,
+  "watchers": 1421,
+  "open_issues": 1715,
   "created_at": "2018-05-15T01:34:26Z",
   "pushed_at": "2026-10-07T13:56:06Z",
   "is_archived": false,
@@ -29,10 +29,10 @@
   "category": "other",
   "flags": [],
   "usability_score": 100,
-  "snapshot_days": 38,
+  "snapshot_days": 39,
   "is_indexable": true,
   "first_seen_at": "2026-08-29T15:46:21.821Z",
   "tracking_tier": "normal",
-  "last_fetched_date": "2026-10-16",
+  "last_fetched_date": "2026-10-19",
   "stars_stagnant_days": 1
 }

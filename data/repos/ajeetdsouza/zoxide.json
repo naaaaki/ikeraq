@@ -27,12 +27,12 @@
     "z",
     "zsh"
   ],
-  "stars": 40164,
+  "stars": 40182,
   "forks": 928,
   "watchers": 81,
-  "open_issues": 155,
+  "open_issues": 158,
   "created_at": "2020-03-05T13:11:40Z",
-  "pushed_at": "2026-10-14T04:57:13Z",
+  "pushed_at": "2026-10-18T00:08:44Z",
   "is_archived": false,
   "license_spdx": "MIT",
   "license_category": "permissive",
@@ -45,10 +45,10 @@
   "category": "dev-tool",
   "flags": [],
   "usability_score": 100,
-  "snapshot_days": 48,
+  "snapshot_days": 49,
   "is_indexable": true,
   "first_seen_at": "2026-09-01T00:26:13.031Z",
   "tracking_tier": "hot",
-  "last_fetched_date": "2026-10-18",
+  "last_fetched_date": "2026-10-19",
   "stars_stagnant_days": 0
 }

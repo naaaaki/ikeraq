@@ -16,10 +16,10 @@
     "user-journey",
     "web-analytics"
   ],
-  "stars": 39443,
-  "forks": 8332,
+  "stars": 39452,
+  "forks": 8342,
   "watchers": 140,
-  "open_issues": 111,
+  "open_issues": 113,
   "created_at": "2020-07-17T07:59:00Z",
   "pushed_at": "2026-10-17T08:54:13Z",
   "is_archived": false,
@@ -34,10 +34,10 @@
   "category": "data",
   "flags": [],
   "usability_score": 100,
-  "snapshot_days": 48,
+  "snapshot_days": 49,
   "is_indexable": true,
   "first_seen_at": "2026-09-01T00:26:13.031Z",
   "tracking_tier": "hot",
-  "last_fetched_date": "2026-10-18",
+  "last_fetched_date": "2026-10-19",
   "stars_stagnant_days": 0
 }

@@ -12,12 +12,12 @@
     "microsoft-azure-powershell",
     "powershell"
   ],
-  "stars": 4801,
-  "forks": 4271,
+  "stars": 4804,
+  "forks": 4273,
   "watchers": 4096,
-  "open_issues": 1562,
+  "open_issues": 1563,
   "created_at": "2014-09-10T20:35:18Z",
-  "pushed_at": "2026-10-17T14:32:53Z",
+  "pushed_at": "2026-10-18T14:32:53Z",
   "is_archived": false,
   "license_spdx": "NOASSERTION",
   "license_category": "unknown",
@@ -30,10 +30,10 @@
   "category": "other",
   "flags": [],
   "usability_score": 100,
-  "snapshot_days": 23,
+  "snapshot_days": 24,
   "is_indexable": true,
   "first_seen_at": "2026-09-25T23:53:23.594Z",
   "tracking_tier": "hot",
-  "last_fetched_date": "2026-10-18",
-  "stars_stagnant_days": 4
+  "last_fetched_date": "2026-10-19",
+  "stars_stagnant_days": 0
 }

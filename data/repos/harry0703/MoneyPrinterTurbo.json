@@ -21,10 +21,10 @@
     "workflow-automation",
     "youtube-shorts"
   ],
-  "stars": 132379,
-  "forks": 20870,
+  "stars": 132769,
+  "forks": 20965,
   "watchers": 804,
-  "open_issues": 71,
+  "open_issues": 92,
   "created_at": "2024-03-11T02:57:34Z",
   "pushed_at": "2026-10-17T01:04:30Z",
   "is_archived": false,
@@ -39,10 +39,10 @@
   "category": "llm",
   "flags": [],
   "usability_score": 100,
-  "snapshot_days": 50,
+  "snapshot_days": 51,
   "is_indexable": true,
   "first_seen_at": "2026-08-29T15:46:21.820Z",
   "tracking_tier": "hot",
-  "last_fetched_date": "2026-10-18",
+  "last_fetched_date": "2026-10-19",
   "stars_stagnant_days": 0
 }

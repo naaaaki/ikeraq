@@ -6,8 +6,8 @@
   "human_note": null,
   "language": "Shell",
   "topics": [],
-  "stars": 68336,
-  "forks": 3267,
+  "stars": 68333,
+  "forks": 3268,
   "watchers": 326,
   "open_issues": 0,
   "created_at": "2023-02-01T13:55:02Z",
@@ -30,10 +30,10 @@
     }
   ],
   "usability_score": 50,
-  "snapshot_days": 34,
+  "snapshot_days": 35,
   "is_indexable": true,
   "first_seen_at": "2026-09-08T23:15:15.921Z",
   "tracking_tier": "normal",
-  "last_fetched_date": "2026-10-16",
+  "last_fetched_date": "2026-10-19",
   "stars_stagnant_days": 9
 }

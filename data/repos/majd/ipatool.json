@@ -25,12 +25,12 @@
     "tool",
     "visionos"
   ],
-  "stars": 11737,
-  "forks": 1031,
+  "stars": 11753,
+  "forks": 1062,
   "watchers": 75,
   "open_issues": 8,
   "created_at": "2021-05-22T08:27:21Z",
-  "pushed_at": "2026-10-15T18:59:43Z",
+  "pushed_at": "2026-10-18T16:22:17Z",
   "is_archived": false,
   "license_spdx": "MIT",
   "license_category": "permissive",
@@ -43,10 +43,10 @@
   "category": "security",
   "flags": [],
   "usability_score": 100,
-  "snapshot_days": 49,
+  "snapshot_days": 50,
   "is_indexable": true,
   "first_seen_at": "2026-08-30T23:15:17.600Z",
   "tracking_tier": "hot",
-  "last_fetched_date": "2026-10-18",
+  "last_fetched_date": "2026-10-19",
   "stars_stagnant_days": 0
 }

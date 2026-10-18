@@ -12,7 +12,7 @@
     "gitmoji-cli"
   ],
   "stars": 4829,
-  "forks": 216,
+  "forks": 219,
   "watchers": 23,
   "open_issues": 24,
   "created_at": "2016-11-17T21:40:32Z",
@@ -29,10 +29,10 @@
   "category": "dev-tool",
   "flags": [],
   "usability_score": 100,
-  "snapshot_days": 23,
+  "snapshot_days": 24,
   "is_indexable": true,
   "first_seen_at": "2026-09-25T23:53:23.594Z",
   "tracking_tier": "hot",
-  "last_fetched_date": "2026-10-18",
-  "stars_stagnant_days": 6
+  "last_fetched_date": "2026-10-19",
+  "stars_stagnant_days": 7
 }

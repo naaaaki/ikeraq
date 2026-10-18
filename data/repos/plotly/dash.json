@@ -25,8 +25,8 @@
     "technical-computing",
     "web-app"
   ],
-  "stars": 24456,
-  "forks": 2327,
+  "stars": 24457,
+  "forks": 2326,
   "watchers": 425,
   "open_issues": 433,
   "created_at": "2015-04-10T01:53:08Z",
@@ -43,10 +43,10 @@
   "category": "web-frontend",
   "flags": [],
   "usability_score": 100,
-  "snapshot_days": 25,
+  "snapshot_days": 26,
   "is_indexable": true,
   "first_seen_at": "2026-09-23T23:28:32.618Z",
   "tracking_tier": "hot",
-  "last_fetched_date": "2026-10-18",
-  "stars_stagnant_days": 1
+  "last_fetched_date": "2026-10-19",
+  "stars_stagnant_days": 0
 }

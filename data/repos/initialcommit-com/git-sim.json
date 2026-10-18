@@ -26,8 +26,8 @@
     "version-control-system",
     "visualization"
   ],
-  "stars": 4687,
-  "forks": 128,
+  "stars": 4688,
+  "forks": 131,
   "watchers": 27,
   "open_issues": 10,
   "created_at": "2022-10-18T15:36:17Z",
@@ -50,10 +50,10 @@
     }
   ],
   "usability_score": 85,
-  "snapshot_days": 23,
+  "snapshot_days": 24,
   "is_indexable": true,
   "first_seen_at": "2026-09-25T23:53:23.596Z",
   "tracking_tier": "hot",
-  "last_fetched_date": "2026-10-18",
-  "stars_stagnant_days": 1
+  "last_fetched_date": "2026-10-19",
+  "stars_stagnant_days": 0
 }

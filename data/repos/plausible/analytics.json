@@ -27,8 +27,8 @@
     "website-stats",
     "website-tracking"
   ],
-  "stars": 29531,
-  "forks": 1907,
+  "stars": 29544,
+  "forks": 1913,
   "watchers": 159,
   "open_issues": 60,
   "created_at": "2018-12-04T22:33:36Z",
@@ -51,10 +51,10 @@
     }
   ],
   "usability_score": 85,
-  "snapshot_days": 46,
+  "snapshot_days": 47,
   "is_indexable": true,
   "first_seen_at": "2026-09-02T23:02:41.773Z",
   "tracking_tier": "hot",
-  "last_fetched_date": "2026-10-18",
+  "last_fetched_date": "2026-10-19",
   "stars_stagnant_days": 0
 }

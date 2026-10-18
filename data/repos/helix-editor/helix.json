@@ -11,10 +11,10 @@
     "text-editor",
     "vim"
   ],
-  "stars": 46629,
-  "forks": 3843,
-  "watchers": 241,
-  "open_issues": 1738,
+  "stars": 46634,
+  "forks": 3853,
+  "watchers": 240,
+  "open_issues": 1739,
   "created_at": "2020-06-01T04:26:56Z",
   "pushed_at": "2026-09-29T02:36:33Z",
   "is_archived": false,
@@ -29,10 +29,10 @@
   "category": "dev-tool",
   "flags": [],
   "usability_score": 100,
-  "snapshot_days": 49,
+  "snapshot_days": 50,
   "is_indexable": true,
   "first_seen_at": "2026-08-30T23:15:18.750Z",
   "tracking_tier": "hot",
-  "last_fetched_date": "2026-10-18",
+  "last_fetched_date": "2026-10-19",
   "stars_stagnant_days": 0
 }

@@ -22,12 +22,12 @@
     "team-platform",
     "wiki"
   ],
-  "stars": 27934,
+  "stars": 27938,
   "forks": 2181,
   "watchers": 85,
-  "open_issues": 880,
+  "open_issues": 929,
   "created_at": "2021-08-02T19:39:23Z",
-  "pushed_at": "2026-10-14T05:50:21Z",
+  "pushed_at": "2026-10-18T16:56:22Z",
   "is_archived": false,
   "license_spdx": "EPL-2.0",
   "license_category": "weak-copyleft",
@@ -40,10 +40,10 @@
   "category": "other",
   "flags": [],
   "usability_score": 100,
-  "snapshot_days": 25,
+  "snapshot_days": 26,
   "is_indexable": true,
   "first_seen_at": "2026-09-23T23:28:32.617Z",
   "tracking_tier": "hot",
-  "last_fetched_date": "2026-10-18",
+  "last_fetched_date": "2026-10-19",
   "stars_stagnant_days": 0
 }

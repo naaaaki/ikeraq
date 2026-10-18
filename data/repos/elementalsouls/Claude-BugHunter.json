@@ -23,12 +23,12 @@
     "security-tools",
     "web-security"
   ],
-  "stars": 5147,
-  "forks": 783,
+  "stars": 5164,
+  "forks": 785,
   "watchers": 36,
   "open_issues": 2,
   "created_at": "2026-05-05T11:22:32Z",
-  "pushed_at": "2026-10-17T08:37:15Z",
+  "pushed_at": "2026-10-18T08:53:26Z",
   "is_archived": false,
   "license_spdx": "MIT",
   "license_category": "permissive",
@@ -41,10 +41,10 @@
   "category": "security",
   "flags": [],
   "usability_score": 100,
-  "snapshot_days": 23,
+  "snapshot_days": 24,
   "is_indexable": true,
   "first_seen_at": "2026-09-25T23:53:23.596Z",
   "tracking_tier": "hot",
-  "last_fetched_date": "2026-10-18",
+  "last_fetched_date": "2026-10-19",
   "stars_stagnant_days": 0
 }

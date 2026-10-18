@@ -27,12 +27,12 @@
     "uninstall",
     "windows"
   ],
-  "stars": 70936,
-  "forks": 2505,
+  "stars": 71363,
+  "forks": 2513,
   "watchers": 152,
-  "open_issues": 6,
+  "open_issues": 18,
   "created_at": "2025-09-23T06:38:40Z",
-  "pushed_at": "2026-10-17T16:08:19Z",
+  "pushed_at": "2026-10-18T09:41:02Z",
   "is_archived": false,
   "license_spdx": "GPL-3.0",
   "license_category": "strong-copyleft",
@@ -51,10 +51,10 @@
     }
   ],
   "usability_score": 85,
-  "snapshot_days": 50,
+  "snapshot_days": 51,
   "is_indexable": true,
   "first_seen_at": "2026-08-29T23:02:08.747Z",
   "tracking_tier": "hot",
-  "last_fetched_date": "2026-10-18",
+  "last_fetched_date": "2026-10-19",
   "stars_stagnant_days": 0
 }

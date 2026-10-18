@@ -15,10 +15,10 @@
     "screen-studio",
     "windows"
   ],
-  "stars": 34238,
-  "forks": 2768,
+  "stars": 34374,
+  "forks": 2781,
   "watchers": 78,
-  "open_issues": 488,
+  "open_issues": 489,
   "created_at": "2026-03-12T23:38:32Z",
   "pushed_at": "2026-10-17T07:32:21Z",
   "is_archived": false,
@@ -33,10 +33,10 @@
   "category": "other",
   "flags": [],
   "usability_score": 100,
-  "snapshot_days": 25,
+  "snapshot_days": 26,
   "is_indexable": true,
   "first_seen_at": "2026-09-23T23:28:32.617Z",
   "tracking_tier": "hot",
-  "last_fetched_date": "2026-10-18",
+  "last_fetched_date": "2026-10-19",
   "stars_stagnant_days": 0
 }
