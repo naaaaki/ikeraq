@@ -15,8 +15,8 @@
     "self-hosted",
     "selfhosted"
   ],
-  "stars": 328030,
-  "forks": 15403,
+  "stars": 328391,
+  "forks": 15430,
   "watchers": 3355,
   "open_issues": 0,
   "created_at": "2015-06-01T02:33:17Z",
@@ -33,10 +33,10 @@
   "category": "infra",
   "flags": [],
   "usability_score": 100,
-  "snapshot_days": 51,
+  "snapshot_days": 52,
   "is_indexable": true,
   "first_seen_at": "2026-08-29T15:46:21.820Z",
   "tracking_tier": "hot",
-  "last_fetched_date": "2026-10-19",
+  "last_fetched_date": "2026-10-20",
   "stars_stagnant_days": 0
 }

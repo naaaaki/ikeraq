@@ -16,7 +16,7 @@
     "sort",
     "tree"
   ],
-  "stars": 25570,
+  "stars": 25572,
   "forks": 4706,
   "watchers": 617,
   "open_issues": 18,
@@ -34,10 +34,10 @@
   "category": "other",
   "flags": [],
   "usability_score": 100,
-  "snapshot_days": 26,
+  "snapshot_days": 27,
   "is_indexable": true,
   "first_seen_at": "2026-09-23T23:28:32.617Z",
   "tracking_tier": "hot",
-  "last_fetched_date": "2026-10-19",
+  "last_fetched_date": "2026-10-20",
   "stars_stagnant_days": 0
 }

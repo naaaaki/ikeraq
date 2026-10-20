@@ -12,12 +12,12 @@
     "ui-components",
     "ui-design"
   ],
-  "stars": 5023,
-  "forks": 30,
+  "stars": 5027,
+  "forks": 31,
   "watchers": 12,
   "open_issues": 3,
   "created_at": "2026-04-12T16:53:42Z",
-  "pushed_at": "2026-10-17T15:49:31Z",
+  "pushed_at": "2026-10-19T14:18:59Z",
   "is_archived": false,
   "license_spdx": "MIT",
   "license_category": "permissive",
@@ -30,10 +30,10 @@
   "category": "web-frontend",
   "flags": [],
   "usability_score": 100,
-  "snapshot_days": 24,
+  "snapshot_days": 25,
   "is_indexable": true,
   "first_seen_at": "2026-09-25T23:53:23.596Z",
   "tracking_tier": "hot",
-  "last_fetched_date": "2026-10-19",
+  "last_fetched_date": "2026-10-20",
   "stars_stagnant_days": 0
 }

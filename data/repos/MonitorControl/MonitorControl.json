@@ -25,8 +25,8 @@
     "volume",
     "xcode"
   ],
-  "stars": 34507,
-  "forks": 1029,
+  "stars": 34517,
+  "forks": 1030,
   "watchers": 173,
   "open_issues": 28,
   "created_at": "2017-09-16T21:13:40Z",
@@ -43,10 +43,10 @@
   "category": "other",
   "flags": [],
   "usability_score": 100,
-  "snapshot_days": 48,
+  "snapshot_days": 49,
   "is_indexable": true,
   "first_seen_at": "2026-09-01T23:05:22.650Z",
   "tracking_tier": "hot",
-  "last_fetched_date": "2026-10-19",
+  "last_fetched_date": "2026-10-20",
   "stars_stagnant_days": 0
 }

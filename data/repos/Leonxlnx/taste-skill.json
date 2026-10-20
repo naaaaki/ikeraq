@@ -18,12 +18,12 @@
     "ui-design",
     "web-design"
   ],
-  "stars": 98830,
-  "forks": 6716,
+  "stars": 99352,
+  "forks": 6760,
   "watchers": 297,
   "open_issues": 2,
   "created_at": "2026-02-19T21:44:05Z",
-  "pushed_at": "2026-10-18T22:13:08Z",
+  "pushed_at": "2026-10-19T22:33:28Z",
   "is_archived": false,
   "license_spdx": "MIT",
   "license_category": "permissive",
@@ -36,10 +36,10 @@
   "category": "ai-agent",
   "flags": [],
   "usability_score": 100,
-  "snapshot_days": 51,
+  "snapshot_days": 52,
   "is_indexable": true,
   "first_seen_at": "2026-08-29T15:46:21.821Z",
   "tracking_tier": "hot",
-  "last_fetched_date": "2026-10-19",
+  "last_fetched_date": "2026-10-20",
   "stars_stagnant_days": 0
 }

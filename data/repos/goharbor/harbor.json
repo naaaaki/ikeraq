@@ -19,12 +19,12 @@
     "kubernetes",
     "registry"
   ],
-  "stars": 29564,
-  "forks": 5385,
+  "stars": 29573,
+  "forks": 5392,
   "watchers": 517,
   "open_issues": 955,
   "created_at": "2016-01-28T21:10:28Z",
-  "pushed_at": "2026-10-16T11:16:31Z",
+  "pushed_at": "2026-10-19T16:12:10Z",
   "is_archived": false,
   "license_spdx": "Apache-2.0",
   "license_category": "permissive",
@@ -37,10 +37,10 @@
   "category": "infra",
   "flags": [],
   "usability_score": 100,
-  "snapshot_days": 47,
+  "snapshot_days": 48,
   "is_indexable": true,
   "first_seen_at": "2026-09-02T23:02:41.773Z",
   "tracking_tier": "hot",
-  "last_fetched_date": "2026-10-19",
+  "last_fetched_date": "2026-10-20",
   "stars_stagnant_days": 0
 }

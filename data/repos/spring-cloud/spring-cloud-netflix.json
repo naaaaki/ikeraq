@@ -20,7 +20,7 @@
     "spring-cloud",
     "spring-cloud-core"
   ],
-  "stars": 4972,
+  "stars": 4973,
   "forks": 2452,
   "watchers": 356,
   "open_issues": 97,
@@ -38,10 +38,10 @@
   "category": "backend",
   "flags": [],
   "usability_score": 100,
-  "snapshot_days": 25,
+  "snapshot_days": 26,
   "is_indexable": true,
   "first_seen_at": "2026-09-24T23:48:41.711Z",
   "tracking_tier": "hot",
-  "last_fetched_date": "2026-10-19",
+  "last_fetched_date": "2026-10-20",
   "stars_stagnant_days": 0
 }

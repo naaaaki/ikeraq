@@ -27,10 +27,10 @@
     "web-search",
     "webscraping"
   ],
-  "stars": 31924,
-  "forks": 3366,
-  "watchers": 179,
-  "open_issues": 21,
+  "stars": 31989,
+  "forks": 3399,
+  "watchers": 181,
+  "open_issues": 23,
   "created_at": "2024-01-27T16:54:38Z",
   "pushed_at": "2026-10-06T08:27:54Z",
   "is_archived": false,
@@ -45,10 +45,10 @@
   "category": "llm",
   "flags": [],
   "usability_score": 100,
-  "snapshot_days": 42,
+  "snapshot_days": 43,
   "is_indexable": true,
   "first_seen_at": "2026-09-07T23:19:48.975Z",
   "tracking_tier": "hot",
-  "last_fetched_date": "2026-10-19",
+  "last_fetched_date": "2026-10-20",
   "stars_stagnant_days": 0
 }

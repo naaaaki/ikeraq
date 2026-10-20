@@ -17,10 +17,10 @@
     "open-source",
     "privacy"
   ],
-  "stars": 37523,
-  "forks": 2552,
+  "stars": 37547,
+  "forks": 2551,
   "watchers": 330,
-  "open_issues": 1258,
+  "open_issues": 1259,
   "created_at": "2016-07-06T10:31:47Z",
   "pushed_at": "2026-10-16T06:39:38Z",
   "is_archived": false,
@@ -41,10 +41,10 @@
     }
   ],
   "usability_score": 85,
-  "snapshot_days": 49,
+  "snapshot_days": 50,
   "is_indexable": true,
   "first_seen_at": "2026-09-01T00:26:13.032Z",
   "tracking_tier": "hot",
-  "last_fetched_date": "2026-10-19",
+  "last_fetched_date": "2026-10-20",
   "stars_stagnant_days": 0
 }

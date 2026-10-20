@@ -18,12 +18,12 @@
     "upstash",
     "vercel"
   ],
-  "stars": 24905,
-  "forks": 3332,
+  "stars": 24915,
+  "forks": 3333,
   "watchers": 90,
-  "open_issues": 111,
+  "open_issues": 113,
   "created_at": "2022-08-27T22:15:11Z",
-  "pushed_at": "2026-10-18T11:12:51Z",
+  "pushed_at": "2026-10-19T23:00:01Z",
   "is_archived": false,
   "license_spdx": "NOASSERTION",
   "license_category": "unknown",
@@ -36,10 +36,10 @@
   "category": "other",
   "flags": [],
   "usability_score": 100,
-  "snapshot_days": 26,
+  "snapshot_days": 27,
   "is_indexable": true,
   "first_seen_at": "2026-09-23T23:28:32.618Z",
   "tracking_tier": "hot",
-  "last_fetched_date": "2026-10-19",
-  "stars_stagnant_days": 1
+  "last_fetched_date": "2026-10-20",
+  "stars_stagnant_days": 0
 }

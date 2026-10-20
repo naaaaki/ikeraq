@@ -13,10 +13,10 @@
     "memory",
     "python"
   ],
-  "stars": 59624,
-  "forks": 7562,
+  "stars": 59646,
+  "forks": 7566,
   "watchers": 321,
-  "open_issues": 824,
+  "open_issues": 823,
   "created_at": "2026-04-05T01:12:07Z",
   "pushed_at": "2026-10-18T14:20:56Z",
   "is_archived": false,
@@ -31,10 +31,10 @@
   "category": "ai-agent",
   "flags": [],
   "usability_score": 100,
-  "snapshot_days": 51,
+  "snapshot_days": 52,
   "is_indexable": true,
   "first_seen_at": "2026-08-29T23:02:08.747Z",
   "tracking_tier": "hot",
-  "last_fetched_date": "2026-10-19",
+  "last_fetched_date": "2026-10-20",
   "stars_stagnant_days": 0
 }

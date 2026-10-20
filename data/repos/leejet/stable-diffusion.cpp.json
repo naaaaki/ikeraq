@@ -26,10 +26,10 @@
     "z-image",
     "z-image-turbo"
   ],
-  "stars": 7722,
-  "forks": 878,
+  "stars": 7732,
+  "forks": 880,
   "watchers": 79,
-  "open_issues": 260,
+  "open_issues": 264,
   "created_at": "2023-08-13T07:36:51Z",
   "pushed_at": "2026-10-18T10:25:34Z",
   "is_archived": false,
@@ -44,10 +44,10 @@
   "category": "other",
   "flags": [],
   "usability_score": 100,
-  "snapshot_days": 25,
+  "snapshot_days": 26,
   "is_indexable": true,
   "first_seen_at": "2026-09-24T23:48:41.708Z",
   "tracking_tier": "hot",
-  "last_fetched_date": "2026-10-19",
+  "last_fetched_date": "2026-10-20",
   "stars_stagnant_days": 0
 }

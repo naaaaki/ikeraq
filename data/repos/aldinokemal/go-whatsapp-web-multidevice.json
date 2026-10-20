@@ -19,8 +19,8 @@
     "whatsapp-multi-device",
     "whatsapp-web-multi-device"
   ],
-  "stars": 4919,
-  "forks": 1192,
+  "stars": 4920,
+  "forks": 1193,
   "watchers": 62,
   "open_issues": 46,
   "created_at": "2022-02-09T16:19:30Z",
@@ -37,10 +37,10 @@
   "category": "backend",
   "flags": [],
   "usability_score": 100,
-  "snapshot_days": 25,
+  "snapshot_days": 26,
   "is_indexable": true,
   "first_seen_at": "2026-09-24T23:48:41.712Z",
   "tracking_tier": "hot",
-  "last_fetched_date": "2026-10-19",
-  "stars_stagnant_days": 1
+  "last_fetched_date": "2026-10-20",
+  "stars_stagnant_days": 0
 }

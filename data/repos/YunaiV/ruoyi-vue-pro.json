@@ -15,10 +15,10 @@
     "springboot",
     "vue"
   ],
-  "stars": 39877,
-  "forks": 8590,
+  "stars": 39904,
+  "forks": 8595,
   "watchers": 275,
-  "open_issues": 34,
+  "open_issues": 35,
   "created_at": "2021-01-24T03:18:25Z",
   "pushed_at": "2026-10-09T04:42:29Z",
   "is_archived": false,
@@ -33,10 +33,10 @@
   "category": "security",
   "flags": [],
   "usability_score": 100,
-  "snapshot_days": 49,
+  "snapshot_days": 50,
   "is_indexable": true,
   "first_seen_at": "2026-09-01T00:26:13.031Z",
   "tracking_tier": "hot",
-  "last_fetched_date": "2026-10-19",
+  "last_fetched_date": "2026-10-20",
   "stars_stagnant_days": 0
 }

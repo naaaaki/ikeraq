@@ -18,10 +18,10 @@
     "sqlite3",
     "version-control"
   ],
-  "stars": 47874,
-  "forks": 5077,
-  "watchers": 1017,
-  "open_issues": 1011,
+  "stars": 47887,
+  "forks": 5079,
+  "watchers": 1018,
+  "open_issues": 1012,
   "created_at": "2014-02-12T01:57:08Z",
   "pushed_at": "2026-09-12T20:28:48Z",
   "is_archived": false,
@@ -36,10 +36,10 @@
   "category": "infra",
   "flags": [],
   "usability_score": 100,
-  "snapshot_days": 42,
+  "snapshot_days": 43,
   "is_indexable": true,
   "first_seen_at": "2026-08-30T23:15:18.749Z",
   "tracking_tier": "normal",
-  "last_fetched_date": "2026-10-17",
+  "last_fetched_date": "2026-10-20",
   "stars_stagnant_days": 1
 }

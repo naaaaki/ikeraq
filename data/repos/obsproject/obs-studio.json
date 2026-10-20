@@ -18,10 +18,10 @@
     "video-recording",
     "youtube-live"
   ],
-  "stars": 77737,
-  "forks": 10727,
+  "stars": 77788,
+  "forks": 10747,
   "watchers": 1557,
-  "open_issues": 1161,
+  "open_issues": 1164,
   "created_at": "2013-10-01T02:40:31Z",
   "pushed_at": "2026-10-16T22:36:24Z",
   "is_archived": false,
@@ -42,10 +42,10 @@
     }
   ],
   "usability_score": 85,
-  "snapshot_days": 51,
+  "snapshot_days": 52,
   "is_indexable": true,
   "first_seen_at": "2026-08-29T23:02:08.747Z",
   "tracking_tier": "hot",
-  "last_fetched_date": "2026-10-19",
+  "last_fetched_date": "2026-10-20",
   "stars_stagnant_days": 0
 }

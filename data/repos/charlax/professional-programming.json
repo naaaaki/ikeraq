@@ -20,7 +20,7 @@
     "scalability",
     "software-engineering"
   ],
-  "stars": 51628,
+  "stars": 51634,
   "forks": 4033,
   "watchers": 992,
   "open_issues": 14,
@@ -38,10 +38,10 @@
   "category": "learning",
   "flags": [],
   "usability_score": 100,
-  "snapshot_days": 38,
+  "snapshot_days": 39,
   "is_indexable": true,
   "first_seen_at": "2026-09-07T23:19:48.975Z",
   "tracking_tier": "normal",
-  "last_fetched_date": "2026-10-17",
+  "last_fetched_date": "2026-10-20",
   "stars_stagnant_days": 1
 }
