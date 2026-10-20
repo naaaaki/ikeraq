@@ -20,10 +20,10 @@
     "self-study",
     "study-tools"
   ],
-  "stars": 35368,
-  "forks": 3731,
+  "stars": 35468,
+  "forks": 3747,
   "watchers": 146,
-  "open_issues": 24,
+  "open_issues": 25,
   "created_at": "2026-05-01T02:09:39Z",
   "pushed_at": "2026-10-18T21:24:32Z",
   "is_archived": false,
@@ -38,10 +38,10 @@
   "category": "ai-agent",
   "flags": [],
   "usability_score": 100,
-  "snapshot_days": 48,
+  "snapshot_days": 49,
   "is_indexable": true,
   "first_seen_at": "2026-09-02T23:02:41.773Z",
   "tracking_tier": "hot",
-  "last_fetched_date": "2026-10-20",
+  "last_fetched_date": "2026-10-21",
   "stars_stagnant_days": 0
 }

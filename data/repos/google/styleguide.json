@@ -10,12 +10,12 @@
     "style-guide",
     "styleguide"
   ],
-  "stars": 39685,
+  "stars": 39687,
   "forks": 12925,
   "watchers": 1245,
   "open_issues": 88,
   "created_at": "2015-05-20T19:18:59Z",
-  "pushed_at": "2026-10-19T16:31:15Z",
+  "pushed_at": "2026-10-20T17:53:08Z",
   "is_archived": false,
   "license_spdx": "NOASSERTION",
   "license_category": "unknown",
@@ -28,10 +28,10 @@
   "category": "learning",
   "flags": [],
   "usability_score": 100,
-  "snapshot_days": 27,
+  "snapshot_days": 28,
   "is_indexable": true,
   "first_seen_at": "2026-09-23T23:28:32.616Z",
   "tracking_tier": "hot",
-  "last_fetched_date": "2026-10-20",
+  "last_fetched_date": "2026-10-21",
   "stars_stagnant_days": 0
 }

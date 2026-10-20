@@ -14,14 +14,15 @@
     "mcp",
     "note-taking",
     "self-hosted",
-    "siyuan"
+    "siyuan",
+    "workspace"
   ],
-  "stars": 46812,
-  "forks": 3071,
+  "stars": 46855,
+  "forks": 3076,
   "watchers": null,
-  "open_issues": 7,
+  "open_issues": 5,
   "created_at": "2020-08-30T09:21:35Z",
-  "pushed_at": "2026-10-17T18:12:09Z",
+  "pushed_at": "2026-10-20T17:10:38Z",
   "is_archived": false,
   "license_spdx": "AGPL-3.0",
   "license_category": "strong-copyleft",
@@ -40,10 +41,10 @@
     }
   ],
   "usability_score": 85,
-  "snapshot_days": 41,
+  "snapshot_days": 42,
   "is_indexable": true,
   "first_seen_at": "2026-08-30T23:15:18.750Z",
   "tracking_tier": "normal",
-  "last_fetched_date": "2026-10-18",
+  "last_fetched_date": "2026-10-21",
   "stars_stagnant_days": 1
 }

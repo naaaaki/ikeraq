@@ -11,10 +11,10 @@
     "windows",
     "winget"
   ],
-  "stars": 26508,
-  "forks": 1815,
+  "stars": 26513,
+  "forks": 1816,
   "watchers": 342,
-  "open_issues": 1311,
+  "open_issues": 1321,
   "created_at": "2019-07-16T22:16:49Z",
   "pushed_at": "2026-10-14T21:22:30Z",
   "is_archived": false,
@@ -29,10 +29,10 @@
   "category": "other",
   "flags": [],
   "usability_score": 100,
-  "snapshot_days": 37,
+  "snapshot_days": 38,
   "is_indexable": true,
   "first_seen_at": "2026-09-03T23:03:15.575Z",
   "tracking_tier": "normal",
-  "last_fetched_date": "2026-10-18",
+  "last_fetched_date": "2026-10-21",
   "stars_stagnant_days": 1
 }

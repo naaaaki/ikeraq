@@ -12,10 +12,10 @@
     "open-source-licensing",
     "vscode"
   ],
-  "stars": 33719,
-  "forks": 1895,
+  "stars": 33736,
+  "forks": 1898,
   "watchers": 242,
-  "open_issues": 145,
+  "open_issues": 147,
   "created_at": "2018-08-13T14:26:58Z",
   "pushed_at": "2026-10-14T20:23:20Z",
   "is_archived": false,
@@ -30,10 +30,10 @@
   "category": "dev-tool",
   "flags": [],
   "usability_score": 100,
-  "snapshot_days": 49,
+  "snapshot_days": 50,
   "is_indexable": true,
   "first_seen_at": "2026-09-01T23:05:22.650Z",
   "tracking_tier": "hot",
-  "last_fetched_date": "2026-10-20",
+  "last_fetched_date": "2026-10-21",
   "stars_stagnant_days": 0
 }

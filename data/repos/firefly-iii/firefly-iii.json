@@ -25,8 +25,8 @@
     "php",
     "php7"
   ],
-  "stars": 24945,
-  "forks": 2347,
+  "stars": 24951,
+  "forks": 2348,
   "watchers": 175,
   "open_issues": 166,
   "created_at": "2014-06-28T07:37:32Z",
@@ -49,10 +49,10 @@
     }
   ],
   "usability_score": 85,
-  "snapshot_days": 27,
+  "snapshot_days": 28,
   "is_indexable": true,
   "first_seen_at": "2026-09-23T23:28:32.618Z",
   "tracking_tier": "hot",
-  "last_fetched_date": "2026-10-20",
+  "last_fetched_date": "2026-10-21",
   "stars_stagnant_days": 0
 }

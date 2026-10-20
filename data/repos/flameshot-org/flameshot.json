@@ -16,10 +16,10 @@
     "qt",
     "screenshot"
   ],
-  "stars": 31249,
+  "stars": 31271,
   "forks": 2069,
   "watchers": 221,
-  "open_issues": 745,
+  "open_issues": 746,
   "created_at": "2017-05-10T19:44:51Z",
   "pushed_at": "2026-10-16T21:46:57Z",
   "is_archived": false,
@@ -40,10 +40,10 @@
     }
   ],
   "usability_score": 85,
-  "snapshot_days": 49,
+  "snapshot_days": 50,
   "is_indexable": true,
   "first_seen_at": "2026-09-01T23:05:22.650Z",
   "tracking_tier": "hot",
-  "last_fetched_date": "2026-10-20",
+  "last_fetched_date": "2026-10-21",
   "stars_stagnant_days": 0
 }

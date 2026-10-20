@@ -14,11 +14,11 @@
     "starter-kit"
   ],
   "stars": 35252,
-  "forks": 8109,
+  "forks": 8107,
   "watchers": null,
   "open_issues": 2,
   "created_at": "2013-11-13T17:24:12Z",
-  "pushed_at": "2026-10-14T17:26:15Z",
+  "pushed_at": "2026-10-20T13:30:07Z",
   "is_archived": false,
   "license_spdx": "MIT",
   "license_category": "permissive",
@@ -31,10 +31,10 @@
   "category": "backend",
   "flags": [],
   "usability_score": 100,
-  "snapshot_days": 38,
+  "snapshot_days": 39,
   "is_indexable": true,
   "first_seen_at": "2026-09-01T00:26:13.032Z",
   "tracking_tier": "normal",
-  "last_fetched_date": "2026-10-18",
+  "last_fetched_date": "2026-10-21",
   "stars_stagnant_days": 1
 }

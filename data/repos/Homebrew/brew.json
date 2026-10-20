@@ -12,12 +12,12 @@
     "package-manager",
     "ruby"
   ],
-  "stars": 50057,
-  "forks": 11394,
+  "stars": 50063,
+  "forks": 11399,
   "watchers": 748,
   "open_issues": 5,
   "created_at": "2016-03-06T05:08:38Z",
-  "pushed_at": "2026-10-19T16:31:53Z",
+  "pushed_at": "2026-10-20T13:41:32Z",
   "is_archived": false,
   "license_spdx": "BSD-2-Clause",
   "license_category": "permissive",
@@ -30,10 +30,10 @@
   "category": "other",
   "flags": [],
   "usability_score": 100,
-  "snapshot_days": 51,
+  "snapshot_days": 52,
   "is_indexable": true,
   "first_seen_at": "2026-08-30T23:15:18.749Z",
   "tracking_tier": "hot",
-  "last_fetched_date": "2026-10-20",
+  "last_fetched_date": "2026-10-21",
   "stars_stagnant_days": 0
 }

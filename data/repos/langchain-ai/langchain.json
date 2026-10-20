@@ -27,12 +27,12 @@
     "rag",
     "typescript"
   ],
-  "stars": 147997,
-  "forks": 24837,
+  "stars": 148154,
+  "forks": 24862,
   "watchers": null,
   "open_issues": 657,
   "created_at": "2022-10-17T02:58:36Z",
-  "pushed_at": "2026-10-17T08:50:05Z",
+  "pushed_at": "2026-10-20T18:35:35Z",
   "is_archived": false,
   "license_spdx": "MIT",
   "license_category": "permissive",
@@ -45,10 +45,10 @@
   "category": "ai-agent",
   "flags": [],
   "usability_score": 100,
-  "snapshot_days": 44,
+  "snapshot_days": 45,
   "is_indexable": true,
   "first_seen_at": "2026-08-29T15:46:21.820Z",
   "tracking_tier": "normal",
-  "last_fetched_date": "2026-10-18",
+  "last_fetched_date": "2026-10-21",
   "stars_stagnant_days": 1
 }

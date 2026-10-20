@@ -15,12 +15,12 @@
     "slate",
     "text-editor"
   ],
-  "stars": 31748,
+  "stars": 31745,
   "forks": 3305,
   "watchers": 294,
-  "open_issues": 6,
+  "open_issues": 4,
   "created_at": "2016-06-18T01:52:42Z",
-  "pushed_at": "2026-10-17T22:40:56Z",
+  "pushed_at": "2026-10-20T15:54:58Z",
   "is_archived": false,
   "license_spdx": "MIT",
   "license_category": "permissive",
@@ -33,10 +33,10 @@
   "category": "web-frontend",
   "flags": [],
   "usability_score": 100,
-  "snapshot_days": 37,
+  "snapshot_days": 38,
   "is_indexable": true,
   "first_seen_at": "2026-09-01T23:05:22.650Z",
   "tracking_tier": "normal",
-  "last_fetched_date": "2026-10-18",
+  "last_fetched_date": "2026-10-21",
   "stars_stagnant_days": 1
 }

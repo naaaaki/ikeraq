@@ -27,7 +27,7 @@
     "qwen",
     "science"
   ],
-  "stars": 4735,
+  "stars": 4737,
   "forks": 744,
   "watchers": 51,
   "open_issues": 27,
@@ -45,10 +45,10 @@
   "category": "ai-agent",
   "flags": [],
   "usability_score": 100,
-  "snapshot_days": 24,
+  "snapshot_days": 25,
   "is_indexable": true,
   "first_seen_at": "2026-09-26T23:25:20.110Z",
   "tracking_tier": "hot",
-  "last_fetched_date": "2026-10-20",
+  "last_fetched_date": "2026-10-21",
   "stars_stagnant_days": 0
 }

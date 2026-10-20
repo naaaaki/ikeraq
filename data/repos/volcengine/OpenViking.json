@@ -18,12 +18,12 @@
     "self-evolving",
     "vector-database"
   ],
-  "stars": 40353,
-  "forks": 3239,
+  "stars": 40446,
+  "forks": 3253,
   "watchers": 113,
-  "open_issues": 1010,
+  "open_issues": 1008,
   "created_at": "2026-01-05T07:11:17Z",
-  "pushed_at": "2026-10-19T17:03:43Z",
+  "pushed_at": "2026-10-20T14:22:04Z",
   "is_archived": false,
   "license_spdx": "AGPL-3.0",
   "license_category": "strong-copyleft",
@@ -42,10 +42,10 @@
     }
   ],
   "usability_score": 85,
-  "snapshot_days": 50,
+  "snapshot_days": 51,
   "is_indexable": true,
   "first_seen_at": "2026-09-01T00:26:13.032Z",
   "tracking_tier": "hot",
-  "last_fetched_date": "2026-10-20",
+  "last_fetched_date": "2026-10-21",
   "stars_stagnant_days": 0
 }

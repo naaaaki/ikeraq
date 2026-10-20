@@ -9,12 +9,12 @@
     "awesome-list",
     "free-for-developers"
   ],
-  "stars": 139718,
-  "forks": 14806,
+  "stars": 139857,
+  "forks": 14835,
   "watchers": null,
-  "open_issues": 11,
+  "open_issues": 12,
   "created_at": "2015-03-18T21:06:26Z",
-  "pushed_at": "2026-10-17T17:15:11Z",
+  "pushed_at": "2026-10-20T16:41:13Z",
   "is_archived": false,
   "license_spdx": null,
   "license_category": "none",
@@ -33,10 +33,10 @@
     }
   ],
   "usability_score": 60,
-  "snapshot_days": 44,
+  "snapshot_days": 45,
   "is_indexable": true,
   "first_seen_at": "2026-08-29T15:46:21.820Z",
   "tracking_tier": "normal",
-  "last_fetched_date": "2026-10-18",
+  "last_fetched_date": "2026-10-21",
   "stars_stagnant_days": 1
 }

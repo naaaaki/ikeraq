@@ -14,10 +14,10 @@
     "vqgan",
     "vqvae"
   ],
-  "stars": 33298,
-  "forks": 2892,
+  "stars": 33320,
+  "forks": 2895,
   "watchers": 168,
-  "open_issues": 21,
+  "open_issues": 22,
   "created_at": "2023-10-10T03:16:51Z",
   "pushed_at": "2026-10-14T06:14:59Z",
   "is_archived": false,
@@ -32,10 +32,10 @@
   "category": "other",
   "flags": [],
   "usability_score": 100,
-  "snapshot_days": 43,
+  "snapshot_days": 44,
   "is_indexable": true,
   "first_seen_at": "2026-09-07T23:19:48.975Z",
   "tracking_tier": "hot",
-  "last_fetched_date": "2026-10-20",
+  "last_fetched_date": "2026-10-21",
   "stars_stagnant_days": 0
 }

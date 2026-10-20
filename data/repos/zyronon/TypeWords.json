@@ -13,7 +13,7 @@
     "typing-practice",
     "typingspeedtest"
   ],
-  "stars": 10511,
+  "stars": 10514,
   "forks": 1270,
   "watchers": 49,
   "open_issues": 56,
@@ -37,10 +37,10 @@
     }
   ],
   "usability_score": 85,
-  "snapshot_days": 48,
+  "snapshot_days": 49,
   "is_indexable": true,
   "first_seen_at": "2026-09-02T23:02:40.892Z",
   "tracking_tier": "hot",
-  "last_fetched_date": "2026-10-20",
+  "last_fetched_date": "2026-10-21",
   "stars_stagnant_days": 0
 }
