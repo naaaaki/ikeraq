@@ -21,11 +21,11 @@
     "zero-configuration"
   ],
   "stars": 44793,
-  "forks": 5251,
+  "forks": 5252,
   "watchers": null,
-  "open_issues": 349,
+  "open_issues": 350,
   "created_at": "2012-01-19T01:58:17Z",
-  "pushed_at": "2026-10-16T18:05:58Z",
+  "pushed_at": "2026-10-21T22:52:37Z",
   "is_archived": false,
   "license_spdx": "NOASSERTION",
   "license_category": "unknown",
@@ -38,10 +38,10 @@
   "category": "web-frontend",
   "flags": [],
   "usability_score": 100,
-  "snapshot_days": 38,
+  "snapshot_days": 39,
   "is_indexable": true,
   "first_seen_at": "2026-08-30T23:15:18.750Z",
   "tracking_tier": "normal",
-  "last_fetched_date": "2026-10-19",
+  "last_fetched_date": "2026-10-22",
   "stars_stagnant_days": 5
 }

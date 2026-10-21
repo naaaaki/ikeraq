@@ -27,10 +27,10 @@
     "windows",
     "windows-to-go"
   ],
-  "stars": 38054,
+  "stars": 38061,
   "forks": 3180,
-  "watchers": 618,
-  "open_issues": 10,
+  "watchers": 619,
+  "open_issues": 9,
   "created_at": "2011-11-19T19:12:05Z",
   "pushed_at": "2026-10-15T19:09:46Z",
   "is_archived": false,
@@ -51,10 +51,10 @@
     }
   ],
   "usability_score": 85,
-  "snapshot_days": 28,
+  "snapshot_days": 29,
   "is_indexable": true,
   "first_seen_at": "2026-09-23T23:28:32.616Z",
   "tracking_tier": "hot",
-  "last_fetched_date": "2026-10-21",
+  "last_fetched_date": "2026-10-22",
   "stars_stagnant_days": 0
 }

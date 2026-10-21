@@ -14,12 +14,12 @@
     "statusline",
     "typescript"
   ],
-  "stars": 28688,
-  "forks": 1329,
+  "stars": 28738,
+  "forks": 1319,
   "watchers": 41,
   "open_issues": 0,
   "created_at": "2026-01-02T01:35:07Z",
-  "pushed_at": "2026-10-19T11:33:49Z",
+  "pushed_at": "2026-10-21T11:57:32Z",
   "is_archived": false,
   "license_spdx": "MIT",
   "license_category": "permissive",
@@ -32,10 +32,10 @@
   "category": "dev-tool",
   "flags": [],
   "usability_score": 100,
-  "snapshot_days": 49,
+  "snapshot_days": 50,
   "is_indexable": true,
   "first_seen_at": "2026-09-02T23:02:41.773Z",
   "tracking_tier": "hot",
-  "last_fetched_date": "2026-10-21",
+  "last_fetched_date": "2026-10-22",
   "stars_stagnant_days": 0
 }

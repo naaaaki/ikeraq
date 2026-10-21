@@ -13,9 +13,9 @@
     "redteam-tools",
     "skills"
   ],
-  "stars": 7638,
-  "forks": 1005,
-  "watchers": 51,
+  "stars": 7704,
+  "forks": 1019,
+  "watchers": 52,
   "open_issues": 17,
   "created_at": "2026-03-04T05:52:35Z",
   "pushed_at": "2026-10-12T15:02:40Z",
@@ -31,10 +31,10 @@
   "category": "other",
   "flags": [],
   "usability_score": 100,
-  "snapshot_days": 38,
+  "snapshot_days": 39,
   "is_indexable": true,
   "first_seen_at": "2026-09-13T22:56:43.247Z",
   "tracking_tier": "hot",
-  "last_fetched_date": "2026-10-21",
+  "last_fetched_date": "2026-10-22",
   "stars_stagnant_days": 0
 }

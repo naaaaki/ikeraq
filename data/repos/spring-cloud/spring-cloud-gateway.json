@@ -19,7 +19,7 @@
   "stars": 4915,
   "forks": 3475,
   "watchers": 212,
-  "open_issues": 568,
+  "open_issues": 570,
   "created_at": "2016-11-16T21:42:51Z",
   "pushed_at": "2026-10-19T16:33:48Z",
   "is_archived": false,
@@ -34,10 +34,10 @@
   "category": "infra",
   "flags": [],
   "usability_score": 100,
-  "snapshot_days": 27,
+  "snapshot_days": 28,
   "is_indexable": true,
   "first_seen_at": "2026-09-24T23:48:41.712Z",
   "tracking_tier": "hot",
-  "last_fetched_date": "2026-10-21",
-  "stars_stagnant_days": 1
+  "last_fetched_date": "2026-10-22",
+  "stars_stagnant_days": 2
 }

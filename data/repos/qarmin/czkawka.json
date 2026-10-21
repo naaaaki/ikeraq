@@ -16,10 +16,10 @@
     "similar-music",
     "similar-videos"
   ],
-  "stars": 34399,
+  "stars": 34425,
   "forks": 1225,
   "watchers": 165,
-  "open_issues": 350,
+  "open_issues": 351,
   "created_at": "2020-09-01T17:37:29Z",
   "pushed_at": "2026-09-16T17:34:11Z",
   "is_archived": false,
@@ -34,10 +34,10 @@
   "category": "other",
   "flags": [],
   "usability_score": 100,
-  "snapshot_days": 48,
+  "snapshot_days": 49,
   "is_indexable": true,
   "first_seen_at": "2026-09-03T23:03:15.575Z",
   "tracking_tier": "hot",
-  "last_fetched_date": "2026-10-21",
+  "last_fetched_date": "2026-10-22",
   "stars_stagnant_days": 0
 }

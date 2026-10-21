@@ -12,12 +12,12 @@
     "mouse-emulation",
     "network"
   ],
-  "stars": 29920,
-  "forks": 4990,
+  "stars": 29979,
+  "forks": 4997,
   "watchers": 391,
-  "open_issues": 235,
+  "open_issues": 238,
   "created_at": "2014-10-12T23:18:57Z",
-  "pushed_at": "2026-10-18T16:36:34Z",
+  "pushed_at": "2026-10-21T16:33:43Z",
   "is_archived": false,
   "license_spdx": "GPL-2.0",
   "license_category": "strong-copyleft",
@@ -36,10 +36,10 @@
     }
   ],
   "usability_score": 85,
-  "snapshot_days": 49,
+  "snapshot_days": 50,
   "is_indexable": true,
   "first_seen_at": "2026-09-02T23:02:41.773Z",
   "tracking_tier": "hot",
-  "last_fetched_date": "2026-10-21",
+  "last_fetched_date": "2026-10-22",
   "stars_stagnant_days": 0
 }

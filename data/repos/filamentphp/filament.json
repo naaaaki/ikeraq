@@ -19,12 +19,12 @@
     "tailwind-css",
     "tall-stack"
   ],
-  "stars": 32303,
+  "stars": 32309,
   "forks": 4223,
   "watchers": 178,
-  "open_issues": 13,
+  "open_issues": 14,
   "created_at": "2020-03-19T00:19:18Z",
-  "pushed_at": "2026-10-20T19:31:49Z",
+  "pushed_at": "2026-10-21T18:39:38Z",
   "is_archived": false,
   "license_spdx": "MIT",
   "license_category": "permissive",
@@ -37,10 +37,10 @@
   "category": "web-frontend",
   "flags": [],
   "usability_score": 100,
-  "snapshot_days": 50,
+  "snapshot_days": 51,
   "is_indexable": true,
   "first_seen_at": "2026-09-01T23:05:22.650Z",
   "tracking_tier": "hot",
-  "last_fetched_date": "2026-10-21",
+  "last_fetched_date": "2026-10-22",
   "stars_stagnant_days": 0
 }

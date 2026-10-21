@@ -15,10 +15,10 @@
     "macos",
     "windows"
   ],
-  "stars": 38542,
-  "forks": 1245,
+  "stars": 38780,
+  "forks": 1257,
   "watchers": 76,
-  "open_issues": 604,
+  "open_issues": 607,
   "created_at": "2024-05-09T01:56:22Z",
   "pushed_at": "2026-10-20T03:19:19Z",
   "is_archived": false,
@@ -39,10 +39,10 @@
     }
   ],
   "usability_score": 85,
-  "snapshot_days": 49,
+  "snapshot_days": 50,
   "is_indexable": true,
   "first_seen_at": "2026-09-02T23:02:41.773Z",
   "tracking_tier": "hot",
-  "last_fetched_date": "2026-10-21",
+  "last_fetched_date": "2026-10-22",
   "stars_stagnant_days": 0
 }

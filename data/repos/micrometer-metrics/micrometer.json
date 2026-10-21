@@ -13,12 +13,12 @@
     "monitoring",
     "observability"
   ],
-  "stars": 4911,
+  "stars": 4910,
   "forks": 1154,
   "watchers": 112,
-  "open_issues": 331,
+  "open_issues": 334,
   "created_at": "2017-04-10T21:36:51Z",
-  "pushed_at": "2026-10-20T21:13:52Z",
+  "pushed_at": "2026-10-21T21:22:40Z",
   "is_archived": false,
   "license_spdx": "Apache-2.0",
   "license_category": "permissive",
@@ -31,10 +31,10 @@
   "category": "infra",
   "flags": [],
   "usability_score": 100,
-  "snapshot_days": 27,
+  "snapshot_days": 28,
   "is_indexable": true,
   "first_seen_at": "2026-09-24T23:48:41.712Z",
   "tracking_tier": "hot",
-  "last_fetched_date": "2026-10-21",
-  "stars_stagnant_days": 1
+  "last_fetched_date": "2026-10-22",
+  "stars_stagnant_days": 2
 }

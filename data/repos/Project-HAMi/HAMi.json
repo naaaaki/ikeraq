@@ -24,12 +24,12 @@
     "vgpu",
     "vgpu-hypervisor"
   ],
-  "stars": 4894,
+  "stars": 4915,
   "forks": 872,
   "watchers": 27,
-  "open_issues": 35,
+  "open_issues": 36,
   "created_at": "2021-09-14T11:51:49Z",
-  "pushed_at": "2026-10-20T17:32:43Z",
+  "pushed_at": "2026-10-21T22:15:01Z",
   "is_archived": false,
   "license_spdx": "Apache-2.0",
   "license_category": "permissive",
@@ -42,10 +42,10 @@
   "category": "infra",
   "flags": [],
   "usability_score": 100,
-  "snapshot_days": 26,
+  "snapshot_days": 27,
   "is_indexable": true,
   "first_seen_at": "2026-09-25T23:53:23.596Z",
   "tracking_tier": "hot",
-  "last_fetched_date": "2026-10-21",
+  "last_fetched_date": "2026-10-22",
   "stars_stagnant_days": 0
 }

@@ -27,7 +27,7 @@
     "websockets",
     "windows"
   ],
-  "stars": 4829,
+  "stars": 4828,
   "forks": 696,
   "watchers": 127,
   "open_issues": 100,
@@ -45,10 +45,10 @@
   "category": "infra",
   "flags": [],
   "usability_score": 100,
-  "snapshot_days": 26,
+  "snapshot_days": 27,
   "is_indexable": true,
   "first_seen_at": "2026-09-25T23:53:23.594Z",
   "tracking_tier": "hot",
-  "last_fetched_date": "2026-10-21",
-  "stars_stagnant_days": 1
+  "last_fetched_date": "2026-10-22",
+  "stars_stagnant_days": 2
 }
