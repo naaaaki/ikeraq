@@ -10,12 +10,12 @@
     "puppeteer",
     "site-audit"
   ],
-  "stars": 4902,
+  "stars": 4903,
   "forks": 180,
   "watchers": 27,
-  "open_issues": 31,
+  "open_issues": 36,
   "created_at": "2021-10-31T07:14:30Z",
-  "pushed_at": "2026-10-21T06:26:06Z",
+  "pushed_at": "2026-10-22T05:46:57Z",
   "is_archived": false,
   "license_spdx": "MIT",
   "license_category": "permissive",
@@ -28,10 +28,10 @@
   "category": "other",
   "flags": [],
   "usability_score": 100,
-  "snapshot_days": 28,
+  "snapshot_days": 29,
   "is_indexable": true,
   "first_seen_at": "2026-09-24T23:48:41.712Z",
   "tracking_tier": "hot",
-  "last_fetched_date": "2026-10-22",
-  "stars_stagnant_days": 3
+  "last_fetched_date": "2026-10-23",
+  "stars_stagnant_days": 0
 }

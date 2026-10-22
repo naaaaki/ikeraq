@@ -25,12 +25,12 @@
     "typescript",
     "unified-api"
   ],
-  "stars": 15557,
+  "stars": 15578,
   "forks": 704,
   "watchers": 24,
-  "open_issues": 317,
+  "open_issues": 315,
   "created_at": "2025-10-14T18:50:32Z",
-  "pushed_at": "2026-10-21T23:25:56Z",
+  "pushed_at": "2026-10-22T14:53:41Z",
   "is_archived": false,
   "license_spdx": "NOASSERTION",
   "license_category": "unknown",
@@ -43,10 +43,10 @@
   "category": "ai-agent",
   "flags": [],
   "usability_score": 100,
-  "snapshot_days": 53,
+  "snapshot_days": 54,
   "is_indexable": true,
   "first_seen_at": "2026-08-30T23:15:18.491Z",
   "tracking_tier": "hot",
-  "last_fetched_date": "2026-10-22",
+  "last_fetched_date": "2026-10-23",
   "stars_stagnant_days": 0
 }

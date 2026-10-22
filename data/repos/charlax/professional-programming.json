@@ -20,12 +20,12 @@
     "scalability",
     "software-engineering"
   ],
-  "stars": 51634,
+  "stars": 51639,
   "forks": 4033,
   "watchers": 992,
   "open_issues": 14,
   "created_at": "2015-11-07T05:07:52Z",
-  "pushed_at": "2026-09-29T21:20:22Z",
+  "pushed_at": "2026-10-22T07:36:12Z",
   "is_archived": false,
   "license_spdx": "MIT",
   "license_category": "permissive",
@@ -38,10 +38,10 @@
   "category": "learning",
   "flags": [],
   "usability_score": 100,
-  "snapshot_days": 39,
+  "snapshot_days": 40,
   "is_indexable": true,
   "first_seen_at": "2026-09-07T23:19:48.975Z",
   "tracking_tier": "normal",
-  "last_fetched_date": "2026-10-20",
+  "last_fetched_date": "2026-10-23",
   "stars_stagnant_days": 1
 }

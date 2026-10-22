@@ -2,7 +2,7 @@
   "id": "prisma/orm",
   "owner": "prisma",
   "name": "orm",
-  "description_en": "Next-generation ORM for Node.js & TypeScript | PostgreSQL, MySQL, MariaDB, SQL Server, SQLite, MongoDB and CockroachDB",
+  "description_en": "The Prisma ORM: write your application in TypeScript with human-readable queries instead of SQL. Host your database on Prisma Postgres and your app on Prisma Compute.",
   "human_note": null,
   "language": "TypeScript",
   "topics": [
@@ -27,12 +27,12 @@
     "sqlserver",
     "typescript"
   ],
-  "stars": 47697,
-  "forks": 2564,
+  "stars": 47672,
+  "forks": 2499,
   "watchers": 326,
-  "open_issues": 2783,
+  "open_issues": 2802,
   "created_at": "2019-06-20T13:33:47Z",
-  "pushed_at": "2026-10-19T21:48:20Z",
+  "pushed_at": "2026-10-22T21:16:54Z",
   "is_archived": false,
   "license_spdx": "Apache-2.0",
   "license_category": "permissive",
@@ -45,10 +45,10 @@
   "category": "data",
   "flags": [],
   "usability_score": 100,
-  "snapshot_days": 39,
+  "snapshot_days": 40,
   "is_indexable": true,
   "first_seen_at": "2026-08-30T23:15:18.749Z",
   "tracking_tier": "normal",
-  "last_fetched_date": "2026-10-20",
+  "last_fetched_date": "2026-10-23",
   "stars_stagnant_days": 1
 }

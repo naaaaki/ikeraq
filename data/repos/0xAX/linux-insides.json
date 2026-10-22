@@ -10,7 +10,7 @@
     "linux-insides",
     "linux-kernel"
   ],
-  "stars": 33664,
+  "stars": 33673,
   "forks": 3574,
   "watchers": 1307,
   "open_issues": 22,
@@ -28,10 +28,10 @@
   "category": "other",
   "flags": [],
   "usability_score": 100,
-  "snapshot_days": 39,
+  "snapshot_days": 40,
   "is_indexable": true,
   "first_seen_at": "2026-09-01T23:05:22.650Z",
   "tracking_tier": "normal",
-  "last_fetched_date": "2026-10-20",
+  "last_fetched_date": "2026-10-23",
   "stars_stagnant_days": 1
 }

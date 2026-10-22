@@ -22,12 +22,12 @@
     "web",
     "webkit"
   ],
-  "stars": 98234,
+  "stars": 98318,
   "forks": 6665,
   "watchers": 612,
-  "open_issues": 188,
+  "open_issues": 207,
   "created_at": "2019-11-15T18:32:42Z",
-  "pushed_at": "2026-10-21T23:39:26Z",
+  "pushed_at": "2026-10-22T23:29:21Z",
   "is_archived": false,
   "license_spdx": "Apache-2.0",
   "license_category": "permissive",
@@ -40,10 +40,10 @@
   "category": "dev-tool",
   "flags": [],
   "usability_score": 100,
-  "snapshot_days": 54,
+  "snapshot_days": 55,
   "is_indexable": true,
   "first_seen_at": "2026-08-29T15:46:21.821Z",
   "tracking_tier": "hot",
-  "last_fetched_date": "2026-10-22",
+  "last_fetched_date": "2026-10-23",
   "stars_stagnant_days": 0
 }

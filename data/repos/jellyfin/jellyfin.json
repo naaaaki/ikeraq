@@ -11,12 +11,12 @@
     "hacktoberfest",
     "jellyfin"
   ],
-  "stars": 58345,
-  "forks": 5691,
+  "stars": 58400,
+  "forks": 5700,
   "watchers": 379,
-  "open_issues": 798,
+  "open_issues": 805,
   "created_at": "2018-12-09T06:36:45Z",
-  "pushed_at": "2026-10-20T14:23:59Z",
+  "pushed_at": "2026-10-22T23:27:36Z",
   "is_archived": false,
   "license_spdx": "GPL-2.0",
   "license_category": "strong-copyleft",
@@ -35,10 +35,10 @@
     }
   ],
   "usability_score": 85,
-  "snapshot_days": 54,
+  "snapshot_days": 55,
   "is_indexable": true,
   "first_seen_at": "2026-08-29T23:02:08.747Z",
   "tracking_tier": "hot",
-  "last_fetched_date": "2026-10-22",
+  "last_fetched_date": "2026-10-23",
   "stars_stagnant_days": 0
 }

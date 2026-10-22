@@ -14,12 +14,12 @@
     "tcc",
     "xa"
   ],
-  "stars": 26008,
-  "forks": 8838,
+  "stars": 26005,
+  "forks": 8837,
   "watchers": 826,
   "open_issues": 911,
   "created_at": "2018-12-28T08:37:22Z",
-  "pushed_at": "2026-10-19T13:12:26Z",
+  "pushed_at": "2026-10-20T03:31:10Z",
   "is_archived": false,
   "license_spdx": "Apache-2.0",
   "license_category": "permissive",
@@ -32,10 +32,10 @@
   "category": "other",
   "flags": [],
   "usability_score": 100,
-  "snapshot_days": 37,
+  "snapshot_days": 38,
   "is_indexable": true,
   "first_seen_at": "2026-09-03T23:03:15.575Z",
   "tracking_tier": "normal",
-  "last_fetched_date": "2026-10-20",
+  "last_fetched_date": "2026-10-23",
   "stars_stagnant_days": 2
 }

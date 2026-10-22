@@ -18,10 +18,10 @@
     "vulnerability-detection",
     "vulnerability-scanner"
   ],
-  "stars": 32196,
-  "forks": 3932,
+  "stars": 32239,
+  "forks": 3934,
   "watchers": 288,
-  "open_issues": 151,
+  "open_issues": 154,
   "created_at": "2020-04-03T18:47:11Z",
   "pushed_at": "2026-10-21T08:56:27Z",
   "is_archived": false,
@@ -36,10 +36,10 @@
   "category": "security",
   "flags": [],
   "usability_score": 100,
-  "snapshot_days": 51,
+  "snapshot_days": 52,
   "is_indexable": true,
   "first_seen_at": "2026-09-01T23:05:22.650Z",
   "tracking_tier": "hot",
-  "last_fetched_date": "2026-10-22",
+  "last_fetched_date": "2026-10-23",
   "stars_stagnant_days": 0
 }

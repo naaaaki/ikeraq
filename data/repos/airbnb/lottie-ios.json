@@ -16,7 +16,7 @@
     "swift",
     "transition-animation"
   ],
-  "stars": 26901,
+  "stars": 26914,
   "forks": 3837,
   "watchers": 457,
   "open_issues": 45,
@@ -34,10 +34,10 @@
   "category": "mobile",
   "flags": [],
   "usability_score": 100,
-  "snapshot_days": 37,
+  "snapshot_days": 38,
   "is_indexable": true,
   "first_seen_at": "2026-09-03T23:03:15.575Z",
   "tracking_tier": "normal",
-  "last_fetched_date": "2026-10-20",
+  "last_fetched_date": "2026-10-23",
   "stars_stagnant_days": 1
 }

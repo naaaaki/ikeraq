@@ -27,12 +27,12 @@
     "mcp",
     "skill-library"
   ],
-  "stars": 48269,
+  "stars": 48336,
   "forks": 7033,
   "watchers": 325,
-  "open_issues": 6,
+  "open_issues": 4,
   "created_at": "2026-01-14T17:48:09Z",
-  "pushed_at": "2026-10-21T08:53:03Z",
+  "pushed_at": "2026-10-22T15:03:11Z",
   "is_archived": false,
   "license_spdx": "MIT",
   "license_category": "permissive",
@@ -45,10 +45,10 @@
   "category": "ai-agent",
   "flags": [],
   "usability_score": 100,
-  "snapshot_days": 53,
+  "snapshot_days": 54,
   "is_indexable": true,
   "first_seen_at": "2026-08-30T23:15:18.750Z",
   "tracking_tier": "hot",
-  "last_fetched_date": "2026-10-22",
+  "last_fetched_date": "2026-10-23",
   "stars_stagnant_days": 0
 }

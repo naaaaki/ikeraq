@@ -14,10 +14,10 @@
     "generative-ai",
     "linux-foundation"
   ],
-  "stars": 26239,
+  "stars": 26259,
   "forks": 2677,
   "watchers": 240,
-  "open_issues": 282,
+  "open_issues": 284,
   "created_at": "2025-03-25T18:44:21Z",
   "pushed_at": "2026-10-21T23:12:06Z",
   "is_archived": false,
@@ -32,10 +32,10 @@
   "category": "ai-agent",
   "flags": [],
   "usability_score": 100,
-  "snapshot_days": 29,
+  "snapshot_days": 30,
   "is_indexable": true,
   "first_seen_at": "2026-09-23T23:28:32.617Z",
   "tracking_tier": "hot",
-  "last_fetched_date": "2026-10-22",
+  "last_fetched_date": "2026-10-23",
   "stars_stagnant_days": 0
 }

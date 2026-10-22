@@ -17,10 +17,10 @@
     "turso",
     "typescript"
   ],
-  "stars": 36108,
-  "forks": 1734,
+  "stars": 36118,
+  "forks": 1739,
   "watchers": 91,
-  "open_issues": 2033,
+  "open_issues": 2045,
   "created_at": "2021-06-24T09:03:05Z",
   "pushed_at": "2026-10-21T18:54:47Z",
   "is_archived": false,
@@ -35,10 +35,10 @@
   "category": "data",
   "flags": [],
   "usability_score": 100,
-  "snapshot_days": 52,
+  "snapshot_days": 53,
   "is_indexable": true,
   "first_seen_at": "2026-09-01T00:26:13.032Z",
   "tracking_tier": "hot",
-  "last_fetched_date": "2026-10-22",
+  "last_fetched_date": "2026-10-23",
   "stars_stagnant_days": 0
 }

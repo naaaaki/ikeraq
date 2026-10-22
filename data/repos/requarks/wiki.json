@@ -14,12 +14,12 @@
     "open-source",
     "wiki"
   ],
-  "stars": 29062,
-  "forks": 3326,
+  "stars": 29072,
+  "forks": 3327,
   "watchers": 319,
   "open_issues": 7,
   "created_at": "2016-08-16T19:35:26Z",
-  "pushed_at": "2026-10-21T07:12:51Z",
+  "pushed_at": "2026-10-22T23:12:04Z",
   "is_archived": false,
   "license_spdx": "AGPL-3.0",
   "license_category": "strong-copyleft",
@@ -38,10 +38,10 @@
     }
   ],
   "usability_score": 85,
-  "snapshot_days": 50,
+  "snapshot_days": 51,
   "is_indexable": true,
   "first_seen_at": "2026-09-02T23:02:41.773Z",
   "tracking_tier": "hot",
-  "last_fetched_date": "2026-10-22",
+  "last_fetched_date": "2026-10-23",
   "stars_stagnant_days": 0
 }

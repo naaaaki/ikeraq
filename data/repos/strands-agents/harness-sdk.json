@@ -4,7 +4,7 @@
   "name": "harness-sdk",
   "description_en": "Build an agent harness and control it end-to-end. Open-source SDK for production AI agents in Python & TypeScript - any model, any cloud.",
   "human_note": null,
-  "language": "TypeScript",
+  "language": "Python",
   "topics": [
     "agent-framework",
     "agentic",
@@ -27,12 +27,12 @@
     "strands-agents",
     "typescript"
   ],
-  "stars": 8900,
-  "forks": 1403,
+  "stars": 8921,
+  "forks": 1414,
   "watchers": 54,
-  "open_issues": 1015,
+  "open_issues": 1038,
   "created_at": "2025-05-14T19:59:51Z",
-  "pushed_at": "2026-10-21T23:36:24Z",
+  "pushed_at": "2026-10-22T21:16:47Z",
   "is_archived": false,
   "license_spdx": "Apache-2.0",
   "license_category": "permissive",
@@ -45,10 +45,10 @@
   "category": "ai-agent",
   "flags": [],
   "usability_score": 100,
-  "snapshot_days": 29,
+  "snapshot_days": 30,
   "is_indexable": true,
   "first_seen_at": "2026-09-23T23:28:31.866Z",
   "tracking_tier": "hot",
-  "last_fetched_date": "2026-10-22",
+  "last_fetched_date": "2026-10-23",
   "stars_stagnant_days": 0
 }

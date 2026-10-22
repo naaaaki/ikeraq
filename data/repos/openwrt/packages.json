@@ -8,12 +8,12 @@
   "topics": [
     "hacktoberfest"
   ],
-  "stars": 4633,
-  "forks": 3998,
+  "stars": 4641,
+  "forks": 4000,
   "watchers": 204,
-  "open_issues": 1025,
+  "open_issues": 1033,
   "created_at": "2014-05-29T20:43:16Z",
-  "pushed_at": "2026-10-21T19:45:56Z",
+  "pushed_at": "2026-10-22T20:09:22Z",
   "is_archived": false,
   "license_spdx": "GPL-2.0",
   "license_category": "strong-copyleft",
@@ -32,10 +32,10 @@
     }
   ],
   "usability_score": 85,
-  "snapshot_days": 26,
+  "snapshot_days": 27,
   "is_indexable": true,
   "first_seen_at": "2026-09-26T23:25:20.111Z",
   "tracking_tier": "hot",
-  "last_fetched_date": "2026-10-22",
+  "last_fetched_date": "2026-10-23",
   "stars_stagnant_days": 0
 }

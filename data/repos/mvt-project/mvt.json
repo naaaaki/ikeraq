@@ -13,10 +13,10 @@
     "mobile",
     "security"
   ],
-  "stars": 15486,
-  "forks": 1494,
+  "stars": 15496,
+  "forks": 1495,
   "watchers": 299,
-  "open_issues": 64,
+  "open_issues": 66,
   "created_at": "2021-07-16T05:50:44Z",
   "pushed_at": "2026-10-20T12:19:16Z",
   "is_archived": false,
@@ -31,10 +31,10 @@
   "category": "security",
   "flags": [],
   "usability_score": 100,
-  "snapshot_days": 29,
+  "snapshot_days": 30,
   "is_indexable": true,
   "first_seen_at": "2026-09-23T23:28:32.259Z",
   "tracking_tier": "hot",
-  "last_fetched_date": "2026-10-22",
+  "last_fetched_date": "2026-10-23",
   "stars_stagnant_days": 0
 }

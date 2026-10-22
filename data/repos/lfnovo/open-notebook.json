@@ -13,10 +13,10 @@
     "notes-app",
     "self-learning"
   ],
-  "stars": 40437,
-  "forks": 4650,
+  "stars": 40478,
+  "forks": 4656,
   "watchers": 189,
-  "open_issues": 180,
+  "open_issues": 182,
   "created_at": "2024-10-21T17:58:46Z",
   "pushed_at": "2026-10-20T10:52:09Z",
   "is_archived": false,
@@ -31,10 +31,10 @@
   "category": "learning",
   "flags": [],
   "usability_score": 100,
-  "snapshot_days": 51,
+  "snapshot_days": 52,
   "is_indexable": true,
   "first_seen_at": "2026-09-01T23:05:22.650Z",
   "tracking_tier": "hot",
-  "last_fetched_date": "2026-10-22",
+  "last_fetched_date": "2026-10-23",
   "stars_stagnant_days": 0
 }

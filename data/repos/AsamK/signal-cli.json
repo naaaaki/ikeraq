@@ -14,7 +14,7 @@
     "signal",
     "signal-cli"
   ],
-  "stars": 4998,
+  "stars": 4999,
   "forks": 466,
   "watchers": 66,
   "open_issues": 108,
@@ -38,10 +38,10 @@
     }
   ],
   "usability_score": 85,
-  "snapshot_days": 28,
+  "snapshot_days": 29,
   "is_indexable": true,
   "first_seen_at": "2026-09-24T23:48:41.712Z",
   "tracking_tier": "hot",
-  "last_fetched_date": "2026-10-22",
+  "last_fetched_date": "2026-10-23",
   "stars_stagnant_days": 0
 }

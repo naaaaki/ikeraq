@@ -19,7 +19,7 @@
     "snap",
     "swipe"
   ],
-  "stars": 35373,
+  "stars": 35371,
   "forks": 7079,
   "watchers": 818,
   "open_issues": 134,
@@ -43,10 +43,10 @@
     }
   ],
   "usability_score": 85,
-  "snapshot_days": 29,
+  "snapshot_days": 30,
   "is_indexable": true,
   "first_seen_at": "2026-09-23T23:28:32.616Z",
   "tracking_tier": "hot",
-  "last_fetched_date": "2026-10-22",
-  "stars_stagnant_days": 1
+  "last_fetched_date": "2026-10-23",
+  "stars_stagnant_days": 2
 }

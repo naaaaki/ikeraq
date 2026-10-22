@@ -14,8 +14,8 @@
     "psychology",
     "relationship-advice"
   ],
-  "stars": 8379,
-  "forks": 842,
+  "stars": 8426,
+  "forks": 854,
   "watchers": 16,
   "open_issues": 10,
   "created_at": "2026-07-20T14:58:48Z",
@@ -32,10 +32,10 @@
   "category": "ai-agent",
   "flags": [],
   "usability_score": 100,
-  "snapshot_days": 27,
+  "snapshot_days": 28,
   "is_indexable": true,
   "first_seen_at": "2026-09-25T23:53:23.592Z",
   "tracking_tier": "hot",
-  "last_fetched_date": "2026-10-22",
+  "last_fetched_date": "2026-10-23",
   "stars_stagnant_days": 0
 }
