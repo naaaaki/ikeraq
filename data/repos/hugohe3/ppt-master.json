@@ -17,12 +17,12 @@
     "slide",
     "slides"
   ],
-  "stars": 65985,
-  "forks": 5181,
+  "stars": 66742,
+  "forks": 5229,
   "watchers": 122,
   "open_issues": 1,
   "created_at": "2025-12-10T06:54:33Z",
-  "pushed_at": "2026-10-22T11:43:23Z",
+  "pushed_at": "2026-10-23T03:31:35Z",
   "is_archived": false,
   "license_spdx": "MIT",
   "license_category": "permissive",
@@ -35,10 +35,10 @@
   "category": "ai-agent",
   "flags": [],
   "usability_score": 100,
-  "snapshot_days": 54,
+  "snapshot_days": 55,
   "is_indexable": true,
   "first_seen_at": "2026-08-30T23:15:18.749Z",
   "tracking_tier": "hot",
-  "last_fetched_date": "2026-10-23",
+  "last_fetched_date": "2026-10-24",
   "stars_stagnant_days": 0
 }

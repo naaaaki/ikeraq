@@ -8,12 +8,12 @@
   "topics": [
     "jax"
   ],
-  "stars": 36475,
-  "forks": 3888,
+  "stars": 36488,
+  "forks": 3881,
   "watchers": null,
-  "open_issues": 2561,
+  "open_issues": 2560,
   "created_at": "2018-10-25T21:25:02Z",
-  "pushed_at": "2026-10-20T23:01:55Z",
+  "pushed_at": "2026-10-23T23:37:02Z",
   "is_archived": false,
   "license_spdx": "Apache-2.0",
   "license_category": "permissive",
@@ -26,10 +26,10 @@
   "category": "other",
   "flags": [],
   "usability_score": 100,
-  "snapshot_days": 39,
+  "snapshot_days": 40,
   "is_indexable": true,
   "first_seen_at": "2026-09-01T00:26:13.032Z",
   "tracking_tier": "normal",
-  "last_fetched_date": "2026-10-21",
+  "last_fetched_date": "2026-10-24",
   "stars_stagnant_days": 1
 }

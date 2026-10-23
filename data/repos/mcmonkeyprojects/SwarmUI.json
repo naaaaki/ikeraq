@@ -16,7 +16,7 @@
     "python",
     "stable-diffusion"
   ],
-  "stars": 4698,
+  "stars": 4699,
   "forks": 475,
   "watchers": 43,
   "open_issues": 154,
@@ -34,10 +34,10 @@
   "category": "learning",
   "flags": [],
   "usability_score": 100,
-  "snapshot_days": 27,
+  "snapshot_days": 28,
   "is_indexable": true,
   "first_seen_at": "2026-09-26T23:25:20.111Z",
   "tracking_tier": "hot",
-  "last_fetched_date": "2026-10-23",
-  "stars_stagnant_days": 1
+  "last_fetched_date": "2026-10-24",
+  "stars_stagnant_days": 0
 }

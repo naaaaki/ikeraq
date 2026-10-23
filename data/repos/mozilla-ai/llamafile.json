@@ -16,8 +16,8 @@
     "single-file-executable",
     "speech-to-text"
   ],
-  "stars": 26459,
-  "forks": 1658,
+  "stars": 26472,
+  "forks": 1659,
   "watchers": 222,
   "open_issues": 216,
   "created_at": "2023-09-10T21:12:32Z",
@@ -34,10 +34,10 @@
   "category": "llm",
   "flags": [],
   "usability_score": 100,
-  "snapshot_days": 30,
+  "snapshot_days": 31,
   "is_indexable": true,
   "first_seen_at": "2026-09-23T23:28:32.617Z",
   "tracking_tier": "hot",
-  "last_fetched_date": "2026-10-23",
+  "last_fetched_date": "2026-10-24",
   "stars_stagnant_days": 0
 }

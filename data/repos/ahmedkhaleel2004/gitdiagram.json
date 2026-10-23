@@ -23,12 +23,12 @@
     "system-design",
     "video"
   ],
-  "stars": 18390,
-  "forks": 1415,
+  "stars": 18410,
+  "forks": 1418,
   "watchers": 63,
   "open_issues": 53,
   "created_at": "2024-12-15T10:32:03Z",
-  "pushed_at": "2026-10-22T23:55:49Z",
+  "pushed_at": "2026-10-23T07:42:30Z",
   "is_archived": false,
   "license_spdx": "MIT",
   "license_category": "permissive",
@@ -41,10 +41,10 @@
   "category": "llm",
   "flags": [],
   "usability_score": 100,
-  "snapshot_days": 35,
+  "snapshot_days": 36,
   "is_indexable": true,
   "first_seen_at": "2026-09-18T23:04:17.616Z",
   "tracking_tier": "hot",
-  "last_fetched_date": "2026-10-23",
+  "last_fetched_date": "2026-10-24",
   "stars_stagnant_days": 0
 }

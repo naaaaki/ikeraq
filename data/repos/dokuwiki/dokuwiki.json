@@ -11,7 +11,7 @@
     "wiki",
     "wiki-engine"
   ],
-  "stars": 4730,
+  "stars": 4729,
   "forks": 922,
   "watchers": 176,
   "open_issues": 491,
@@ -40,10 +40,10 @@
     }
   ],
   "usability_score": 75,
-  "snapshot_days": 27,
+  "snapshot_days": 28,
   "is_indexable": true,
   "first_seen_at": "2026-09-26T23:25:20.109Z",
   "tracking_tier": "hot",
-  "last_fetched_date": "2026-10-23",
-  "stars_stagnant_days": 1
+  "last_fetched_date": "2026-10-24",
+  "stars_stagnant_days": 2
 }

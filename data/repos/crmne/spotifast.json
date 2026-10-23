@@ -23,10 +23,10 @@
     "spotify-connect",
     "windows"
   ],
-  "stars": 8941,
-  "forks": 518,
-  "watchers": 23,
-  "open_issues": 114,
+  "stars": 9048,
+  "forks": 523,
+  "watchers": 24,
+  "open_issues": 121,
   "created_at": "2026-08-27T12:46:32Z",
   "pushed_at": "2026-10-22T13:35:17Z",
   "is_archived": false,
@@ -41,10 +41,10 @@
   "category": "other",
   "flags": [],
   "usability_score": 100,
-  "snapshot_days": 27,
+  "snapshot_days": 28,
   "is_indexable": true,
   "first_seen_at": "2026-09-26T23:25:20.110Z",
   "tracking_tier": "hot",
-  "last_fetched_date": "2026-10-23",
+  "last_fetched_date": "2026-10-24",
   "stars_stagnant_days": 0
 }

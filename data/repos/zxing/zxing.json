@@ -15,12 +15,12 @@
     "upc",
     "zxing"
   ],
-  "stars": 34174,
-  "forks": 9440,
+  "stars": 34176,
+  "forks": 9441,
   "watchers": 1655,
   "open_issues": 0,
   "created_at": "2011-10-12T14:07:27Z",
-  "pushed_at": "2026-10-19T22:36:12Z",
+  "pushed_at": "2026-10-23T13:11:58Z",
   "is_archived": false,
   "license_spdx": "Apache-2.0",
   "license_category": "permissive",
@@ -33,10 +33,10 @@
   "category": "mobile",
   "flags": [],
   "usability_score": 100,
-  "snapshot_days": 38,
+  "snapshot_days": 39,
   "is_indexable": true,
   "first_seen_at": "2026-09-01T23:05:22.650Z",
   "tracking_tier": "normal",
-  "last_fetched_date": "2026-10-21",
+  "last_fetched_date": "2026-10-24",
   "stars_stagnant_days": 4
 }

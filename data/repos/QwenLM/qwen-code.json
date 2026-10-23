@@ -19,12 +19,12 @@
     "terminal",
     "typescript"
   ],
-  "stars": 28659,
+  "stars": 28677,
   "forks": 3252,
   "watchers": 149,
-  "open_issues": 2031,
+  "open_issues": 2059,
   "created_at": "2025-06-26T01:37:46Z",
-  "pushed_at": "2026-10-22T23:55:01Z",
+  "pushed_at": "2026-10-23T23:45:06Z",
   "is_archived": false,
   "license_spdx": "Apache-2.0",
   "license_category": "permissive",
@@ -37,10 +37,10 @@
   "category": "ai-agent",
   "flags": [],
   "usability_score": 100,
-  "snapshot_days": 51,
+  "snapshot_days": 52,
   "is_indexable": true,
   "first_seen_at": "2026-09-02T23:02:41.773Z",
   "tracking_tier": "hot",
-  "last_fetched_date": "2026-10-23",
+  "last_fetched_date": "2026-10-24",
   "stars_stagnant_days": 0
 }

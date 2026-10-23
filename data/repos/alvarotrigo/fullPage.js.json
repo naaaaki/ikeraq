@@ -19,10 +19,10 @@
     "snap",
     "swipe"
   ],
-  "stars": 35371,
-  "forks": 7079,
+  "stars": 35369,
+  "forks": 7078,
   "watchers": 818,
-  "open_issues": 134,
+  "open_issues": 135,
   "created_at": "2013-09-20T11:58:29Z",
   "pushed_at": "2026-09-20T10:56:49Z",
   "is_archived": false,
@@ -43,10 +43,10 @@
     }
   ],
   "usability_score": 85,
-  "snapshot_days": 30,
+  "snapshot_days": 31,
   "is_indexable": true,
   "first_seen_at": "2026-09-23T23:28:32.616Z",
   "tracking_tier": "hot",
-  "last_fetched_date": "2026-10-23",
-  "stars_stagnant_days": 2
+  "last_fetched_date": "2026-10-24",
+  "stars_stagnant_days": 3
 }

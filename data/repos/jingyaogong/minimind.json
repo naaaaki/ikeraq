@@ -9,8 +9,8 @@
     "artificial-intelligence",
     "large-language-model"
   ],
-  "stars": 64247,
-  "forks": 8361,
+  "stars": 64314,
+  "forks": 8368,
   "watchers": 290,
   "open_issues": 67,
   "created_at": "2024-07-27T04:34:12Z",
@@ -27,10 +27,10 @@
   "category": "other",
   "flags": [],
   "usability_score": 100,
-  "snapshot_days": 55,
+  "snapshot_days": 56,
   "is_indexable": true,
   "first_seen_at": "2026-08-29T23:02:08.747Z",
   "tracking_tier": "hot",
-  "last_fetched_date": "2026-10-23",
+  "last_fetched_date": "2026-10-24",
   "stars_stagnant_days": 0
 }

@@ -27,12 +27,12 @@
     "tts",
     "webdav"
   ],
-  "stars": 25523,
-  "forks": 1740,
+  "stars": 25555,
+  "forks": 1744,
   "watchers": 71,
-  "open_issues": 146,
+  "open_issues": 117,
   "created_at": "2024-10-12T23:16:55Z",
-  "pushed_at": "2026-10-22T12:47:17Z",
+  "pushed_at": "2026-10-23T20:23:41Z",
   "is_archived": false,
   "license_spdx": "AGPL-3.0",
   "license_category": "strong-copyleft",
@@ -51,10 +51,10 @@
     }
   ],
   "usability_score": 85,
-  "snapshot_days": 30,
+  "snapshot_days": 31,
   "is_indexable": true,
   "first_seen_at": "2026-09-23T23:28:32.618Z",
   "tracking_tier": "hot",
-  "last_fetched_date": "2026-10-23",
+  "last_fetched_date": "2026-10-24",
   "stars_stagnant_days": 0
 }

@@ -27,12 +27,12 @@
     "sharex",
     "url-shortener"
   ],
-  "stars": 40322,
-  "forks": 3988,
+  "stars": 40352,
+  "forks": 3997,
   "watchers": 552,
   "open_issues": 629,
   "created_at": "2013-10-08T23:32:10Z",
-  "pushed_at": "2026-10-22T08:56:22Z",
+  "pushed_at": "2026-10-23T06:26:24Z",
   "is_archived": false,
   "license_spdx": "GPL-3.0",
   "license_category": "strong-copyleft",
@@ -51,10 +51,10 @@
     }
   ],
   "usability_score": 85,
-  "snapshot_days": 53,
+  "snapshot_days": 54,
   "is_indexable": true,
   "first_seen_at": "2026-09-01T00:26:13.031Z",
   "tracking_tier": "hot",
-  "last_fetched_date": "2026-10-23",
+  "last_fetched_date": "2026-10-24",
   "stars_stagnant_days": 0
 }

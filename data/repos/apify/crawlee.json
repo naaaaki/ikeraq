@@ -24,12 +24,12 @@
     "web-crawling",
     "web-scraping"
   ],
-  "stars": 26224,
+  "stars": 26237,
   "forks": 1724,
   "watchers": 137,
-  "open_issues": 150,
+  "open_issues": 147,
   "created_at": "2016-08-26T18:35:03Z",
-  "pushed_at": "2026-10-22T22:09:56Z",
+  "pushed_at": "2026-10-23T21:36:03Z",
   "is_archived": false,
   "license_spdx": "Apache-2.0",
   "license_category": "permissive",
@@ -42,10 +42,10 @@
   "category": "data",
   "flags": [],
   "usability_score": 100,
-  "snapshot_days": 30,
+  "snapshot_days": 31,
   "is_indexable": true,
   "first_seen_at": "2026-09-23T23:28:32.617Z",
   "tracking_tier": "hot",
-  "last_fetched_date": "2026-10-23",
+  "last_fetched_date": "2026-10-24",
   "stars_stagnant_days": 0
 }

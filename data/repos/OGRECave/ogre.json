@@ -25,12 +25,12 @@
     "vulkan",
     "webassembly"
   ],
-  "stars": 4682,
-  "forks": 1040,
+  "stars": 4683,
+  "forks": 1041,
   "watchers": 147,
-  "open_issues": 168,
+  "open_issues": 167,
   "created_at": "2015-11-29T15:57:03Z",
-  "pushed_at": "2026-10-21T21:26:33Z",
+  "pushed_at": "2026-10-23T17:33:06Z",
   "is_archived": false,
   "license_spdx": "MIT",
   "license_category": "permissive",
@@ -43,10 +43,10 @@
   "category": "game",
   "flags": [],
   "usability_score": 100,
-  "snapshot_days": 28,
+  "snapshot_days": 29,
   "is_indexable": true,
   "first_seen_at": "2026-09-25T23:53:23.596Z",
   "tracking_tier": "hot",
-  "last_fetched_date": "2026-10-23",
-  "stars_stagnant_days": 3
+  "last_fetched_date": "2026-10-24",
+  "stars_stagnant_days": 0
 }

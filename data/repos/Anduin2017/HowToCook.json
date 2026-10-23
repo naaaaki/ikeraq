@@ -12,10 +12,10 @@
     "dishes",
     "recipes"
   ],
-  "stars": 102928,
-  "forks": 11142,
+  "stars": 103000,
+  "forks": 11149,
   "watchers": 491,
-  "open_issues": 470,
+  "open_issues": 472,
   "created_at": "2020-02-29T10:43:49Z",
   "pushed_at": "2026-10-20T10:07:05Z",
   "is_archived": false,
@@ -30,10 +30,10 @@
   "category": "learning",
   "flags": [],
   "usability_score": 100,
-  "snapshot_days": 41,
+  "snapshot_days": 42,
   "is_indexable": true,
   "first_seen_at": "2026-08-29T15:46:21.821Z",
   "tracking_tier": "normal",
-  "last_fetched_date": "2026-10-21",
+  "last_fetched_date": "2026-10-24",
   "stars_stagnant_days": 1
 }

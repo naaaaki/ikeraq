@@ -26,12 +26,12 @@
     "self-hosting",
     "wiki"
   ],
-  "stars": 38457,
-  "forks": 2597,
+  "stars": 38514,
+  "forks": 2600,
   "watchers": 282,
-  "open_issues": 577,
+  "open_issues": 572,
   "created_at": "2017-05-23T00:30:20Z",
-  "pushed_at": "2026-10-22T20:44:28Z",
+  "pushed_at": "2026-10-23T23:18:40Z",
   "is_archived": false,
   "license_spdx": "AGPL-3.0",
   "license_category": "strong-copyleft",
@@ -50,10 +50,10 @@
     }
   ],
   "usability_score": 85,
-  "snapshot_days": 53,
+  "snapshot_days": 54,
   "is_indexable": true,
   "first_seen_at": "2026-09-01T00:26:13.032Z",
   "tracking_tier": "hot",
-  "last_fetched_date": "2026-10-23",
+  "last_fetched_date": "2026-10-24",
   "stars_stagnant_days": 0
 }

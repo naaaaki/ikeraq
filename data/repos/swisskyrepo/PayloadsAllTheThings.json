@@ -24,9 +24,9 @@
     "vulnerability",
     "web-application"
   ],
-  "stars": 81915,
-  "forks": 17487,
-  "watchers": 1977,
+  "stars": 82008,
+  "forks": 17493,
+  "watchers": 1978,
   "open_issues": 37,
   "created_at": "2016-10-18T07:29:07Z",
   "pushed_at": "2026-08-27T07:52:21Z",
@@ -42,10 +42,10 @@
   "category": "security",
   "flags": [],
   "usability_score": 100,
-  "snapshot_days": 49,
+  "snapshot_days": 50,
   "is_indexable": true,
   "first_seen_at": "2026-08-29T15:46:21.821Z",
   "tracking_tier": "normal",
-  "last_fetched_date": "2026-10-21",
+  "last_fetched_date": "2026-10-24",
   "stars_stagnant_days": 1
 }

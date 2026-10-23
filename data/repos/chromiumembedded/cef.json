@@ -11,12 +11,12 @@
     "chromium",
     "framework"
   ],
-  "stars": 4841,
+  "stars": 4842,
   "forks": 675,
   "watchers": 116,
-  "open_issues": 198,
+  "open_issues": 192,
   "created_at": "2017-04-02T18:19:23Z",
-  "pushed_at": "2026-10-22T13:30:30Z",
+  "pushed_at": "2026-10-23T20:34:38Z",
   "is_archived": false,
   "license_spdx": "NOASSERTION",
   "license_category": "unknown",
@@ -29,10 +29,10 @@
   "category": "backend",
   "flags": [],
   "usability_score": 100,
-  "snapshot_days": 28,
+  "snapshot_days": 29,
   "is_indexable": true,
   "first_seen_at": "2026-09-25T23:53:23.594Z",
   "tracking_tier": "hot",
-  "last_fetched_date": "2026-10-23",
+  "last_fetched_date": "2026-10-24",
   "stars_stagnant_days": 0
 }

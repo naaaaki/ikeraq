@@ -17,9 +17,9 @@
   "stars": 4664,
   "forks": 1892,
   "watchers": 241,
-  "open_issues": 73,
+  "open_issues": 69,
   "created_at": "2015-09-28T23:20:08Z",
-  "pushed_at": "2026-10-22T18:25:27Z",
+  "pushed_at": "2026-10-23T20:09:33Z",
   "is_archived": false,
   "license_spdx": "Apache-2.0",
   "license_category": "permissive",
@@ -32,10 +32,10 @@
   "category": "other",
   "flags": [],
   "usability_score": 100,
-  "snapshot_days": 28,
+  "snapshot_days": 29,
   "is_indexable": true,
   "first_seen_at": "2026-09-25T23:53:23.596Z",
   "tracking_tier": "hot",
-  "last_fetched_date": "2026-10-23",
-  "stars_stagnant_days": 7
+  "last_fetched_date": "2026-10-24",
+  "stars_stagnant_days": 8
 }
