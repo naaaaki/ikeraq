@@ -15,12 +15,12 @@
     "puppeteer",
     "zig"
   ],
-  "stars": 36915,
-  "forks": 1787,
+  "stars": 36941,
+  "forks": 1786,
   "watchers": 98,
-  "open_issues": 98,
+  "open_issues": 105,
   "created_at": "2023-02-07T15:19:34Z",
-  "pushed_at": "2026-10-23T23:46:34Z",
+  "pushed_at": "2026-10-24T20:34:23Z",
   "is_archived": false,
   "license_spdx": "AGPL-3.0",
   "license_category": "strong-copyleft",
@@ -39,10 +39,10 @@
     }
   ],
   "usability_score": 85,
-  "snapshot_days": 53,
+  "snapshot_days": 54,
   "is_indexable": true,
   "first_seen_at": "2026-09-01T23:05:22.650Z",
   "tracking_tier": "hot",
-  "last_fetched_date": "2026-10-24",
+  "last_fetched_date": "2026-10-25",
   "stars_stagnant_days": 0
 }

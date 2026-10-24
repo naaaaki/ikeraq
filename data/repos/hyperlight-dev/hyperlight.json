@@ -13,7 +13,7 @@
     "rust",
     "vmm"
   ],
-  "stars": 4754,
+  "stars": 4755,
   "forks": 218,
   "watchers": 32,
   "open_issues": 236,
@@ -31,10 +31,10 @@
   "category": "other",
   "flags": [],
   "usability_score": 100,
-  "snapshot_days": 29,
+  "snapshot_days": 30,
   "is_indexable": true,
   "first_seen_at": "2026-09-25T23:53:23.596Z",
   "tracking_tier": "hot",
-  "last_fetched_date": "2026-10-24",
+  "last_fetched_date": "2026-10-25",
   "stars_stagnant_days": 0
 }

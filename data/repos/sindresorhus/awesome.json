@@ -12,9 +12,9 @@
     "resources",
     "unicorns"
   ],
-  "stars": 523650,
-  "forks": 37709,
-  "watchers": 8437,
+  "stars": 524156,
+  "forks": 37732,
+  "watchers": 8435,
   "open_issues": 105,
   "created_at": "2014-07-11T13:42:37Z",
   "pushed_at": "2026-09-02T02:10:47Z",
@@ -30,10 +30,10 @@
   "category": "learning",
   "flags": [],
   "usability_score": 100,
-  "snapshot_days": 52,
+  "snapshot_days": 53,
   "is_indexable": true,
   "first_seen_at": "2026-09-02T23:02:41.772Z",
   "tracking_tier": "hot",
-  "last_fetched_date": "2026-10-24",
+  "last_fetched_date": "2026-10-25",
   "stars_stagnant_days": 0
 }

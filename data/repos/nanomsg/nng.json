@@ -7,11 +7,11 @@
   "language": "C",
   "topics": [],
   "stars": 4691,
-  "forks": 569,
+  "forks": 570,
   "watchers": 131,
-  "open_issues": 44,
+  "open_issues": 45,
   "created_at": "2016-12-11T06:14:28Z",
-  "pushed_at": "2026-10-21T16:18:22Z",
+  "pushed_at": "2026-10-24T22:17:58Z",
   "is_archived": false,
   "license_spdx": "MIT",
   "license_category": "permissive",
@@ -24,10 +24,10 @@
   "category": "other",
   "flags": [],
   "usability_score": 100,
-  "snapshot_days": 29,
+  "snapshot_days": 30,
   "is_indexable": true,
   "first_seen_at": "2026-09-25T23:53:23.596Z",
   "tracking_tier": "hot",
-  "last_fetched_date": "2026-10-24",
-  "stars_stagnant_days": 2
+  "last_fetched_date": "2026-10-25",
+  "stars_stagnant_days": 3
 }

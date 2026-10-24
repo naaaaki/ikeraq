@@ -13,12 +13,12 @@
     "golang",
     "openapi"
   ],
-  "stars": 4846,
+  "stars": 4848,
   "forks": 528,
   "watchers": 16,
-  "open_issues": 39,
+  "open_issues": 48,
   "created_at": "2026-03-23T16:02:09Z",
-  "pushed_at": "2026-10-23T22:28:36Z",
+  "pushed_at": "2026-10-24T19:26:34Z",
   "is_archived": false,
   "license_spdx": "MIT",
   "license_category": "permissive",
@@ -31,10 +31,10 @@
   "category": "ai-agent",
   "flags": [],
   "usability_score": 100,
-  "snapshot_days": 29,
+  "snapshot_days": 30,
   "is_indexable": true,
   "first_seen_at": "2026-09-25T23:53:23.595Z",
   "tracking_tier": "hot",
-  "last_fetched_date": "2026-10-24",
-  "stars_stagnant_days": 1
+  "last_fetched_date": "2026-10-25",
+  "stars_stagnant_days": 0
 }

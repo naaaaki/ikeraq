@@ -2,7 +2,7 @@
   "id": "rlaope/oh-my-hermes",
   "owner": "rlaope",
   "name": "oh-my-hermes",
-  "description_en": "The packages for Hermes Agent ⚚ skills, coding harness, long-term memory, model optimized subagent & bot team workflows",
+  "description_en": "The coding intelligence and skills package for Hermes Agent ⚚ Install once, then just type 'dag-ulw' to be graph engineering master.",
   "human_note": null,
   "language": "Python",
   "topics": [
@@ -16,12 +16,12 @@
     "hermes-skill",
     "skills"
   ],
-  "stars": 3581,
-  "forks": 270,
+  "stars": 3893,
+  "forks": 285,
   "watchers": 14,
-  "open_issues": 13,
+  "open_issues": 14,
   "created_at": "2026-06-03T13:00:34Z",
-  "pushed_at": "2026-10-23T23:20:04Z",
+  "pushed_at": "2026-10-24T19:39:33Z",
   "is_archived": false,
   "license_spdx": "MIT",
   "license_category": "permissive",
@@ -34,10 +34,10 @@
   "category": "ai-agent",
   "flags": [],
   "usability_score": 100,
-  "snapshot_days": 40,
+  "snapshot_days": 41,
   "is_indexable": true,
   "first_seen_at": "2026-09-14T23:44:07.049Z",
   "tracking_tier": "hot",
-  "last_fetched_date": "2026-10-24",
+  "last_fetched_date": "2026-10-25",
   "stars_stagnant_days": 0
 }

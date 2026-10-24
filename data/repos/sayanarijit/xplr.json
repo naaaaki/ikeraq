@@ -24,12 +24,12 @@
     "vim",
     "wsl"
   ],
-  "stars": 4846,
+  "stars": 4845,
   "forks": 97,
   "watchers": 36,
-  "open_issues": 8,
+  "open_issues": 9,
   "created_at": "2021-02-24T20:42:17Z",
-  "pushed_at": "2026-10-23T13:33:42Z",
+  "pushed_at": "2026-10-24T20:15:42Z",
   "is_archived": false,
   "license_spdx": "MIT",
   "license_category": "permissive",
@@ -42,10 +42,10 @@
   "category": "dev-tool",
   "flags": [],
   "usability_score": 100,
-  "snapshot_days": 29,
+  "snapshot_days": 30,
   "is_indexable": true,
   "first_seen_at": "2026-09-25T23:53:23.593Z",
   "tracking_tier": "hot",
-  "last_fetched_date": "2026-10-24",
-  "stars_stagnant_days": 0
+  "last_fetched_date": "2026-10-25",
+  "stars_stagnant_days": 1
 }

@@ -13,7 +13,7 @@
     "transformer",
     "whisper"
   ],
-  "stars": 54602,
+  "stars": 54631,
   "forks": 6237,
   "watchers": 409,
   "open_issues": 363,
@@ -31,10 +31,10 @@
   "category": "llm",
   "flags": [],
   "usability_score": 100,
-  "snapshot_days": 56,
+  "snapshot_days": 57,
   "is_indexable": true,
   "first_seen_at": "2026-08-29T23:02:08.747Z",
   "tracking_tier": "hot",
-  "last_fetched_date": "2026-10-24",
+  "last_fetched_date": "2026-10-25",
   "stars_stagnant_days": 0
 }

@@ -11,12 +11,12 @@
     "mongodb",
     "nosql"
   ],
-  "stars": 28656,
-  "forks": 5843,
+  "stars": 28660,
+  "forks": 5823,
   "watchers": null,
   "open_issues": 37,
   "created_at": "2009-01-15T16:15:18Z",
-  "pushed_at": "2026-10-21T23:31:21Z",
+  "pushed_at": "2026-10-24T02:04:41Z",
   "is_archived": false,
   "license_spdx": "NOASSERTION",
   "license_category": "unknown",
@@ -29,10 +29,10 @@
   "category": "data",
   "flags": [],
   "usability_score": 100,
-  "snapshot_days": 38,
+  "snapshot_days": 39,
   "is_indexable": true,
   "first_seen_at": "2026-09-02T23:02:41.773Z",
   "tracking_tier": "normal",
-  "last_fetched_date": "2026-10-22",
+  "last_fetched_date": "2026-10-25",
   "stars_stagnant_days": 2
 }

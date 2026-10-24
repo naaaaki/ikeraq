@@ -6,9 +6,9 @@
   "human_note": null,
   "language": null,
   "topics": [],
-  "stars": 50456,
-  "forks": 15928,
-  "watchers": 949,
+  "stars": 50460,
+  "forks": 15926,
+  "watchers": 944,
   "open_issues": 56,
   "created_at": "2016-07-07T14:15:27Z",
   "pushed_at": "2025-04-10T06:11:47Z",
@@ -26,14 +26,14 @@
     {
       "id": "stale",
       "label": "メンテ停止の疑い",
-      "reason": "最終コミットから 561 日が経過しています（判定は 180 日以上）。"
+      "reason": "最終コミットから 562 日が経過しています（判定は 180 日以上）。"
     }
   ],
   "usability_score": 70,
-  "snapshot_days": 29,
+  "snapshot_days": 30,
   "is_indexable": true,
   "first_seen_at": "2026-09-25T23:53:23.097Z",
   "tracking_tier": "hot",
-  "last_fetched_date": "2026-10-24",
+  "last_fetched_date": "2026-10-25",
   "stars_stagnant_days": 0
 }

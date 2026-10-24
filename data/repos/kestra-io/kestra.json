@@ -2,7 +2,7 @@
   "id": "kestra-io/kestra",
   "owner": "kestra-io",
   "name": "kestra",
-  "description_en": "Event Driven Orchestration & Scheduling Platform for Mission Critical Applications",
+  "description_en": "Orchestrate everything, everywhere. The open-source control plane for workflows across data, infrastructure, business processes and AI agents. Declarative YAML, event-driven, any language, Git-versioned, scalable to millions of executions.",
   "human_note": null,
   "language": "Java",
   "topics": [
@@ -27,10 +27,10 @@
     "scheduler",
     "workflow"
   ],
-  "stars": 29964,
-  "forks": 3466,
+  "stars": 29982,
+  "forks": 3471,
   "watchers": 177,
-  "open_issues": 859,
+  "open_issues": 864,
   "created_at": "2019-08-24T13:56:15Z",
   "pushed_at": "2026-10-23T19:56:46Z",
   "is_archived": false,
@@ -45,10 +45,10 @@
   "category": "ai-agent",
   "flags": [],
   "usability_score": 100,
-  "snapshot_days": 52,
+  "snapshot_days": 53,
   "is_indexable": true,
   "first_seen_at": "2026-09-02T23:02:41.773Z",
   "tracking_tier": "hot",
-  "last_fetched_date": "2026-10-24",
+  "last_fetched_date": "2026-10-25",
   "stars_stagnant_days": 0
 }

@@ -13,10 +13,10 @@
     "harness",
     "repository-level-context"
   ],
-  "stars": 48150,
-  "forks": 3523,
+  "stars": 48202,
+  "forks": 3529,
   "watchers": 141,
-  "open_issues": 344,
+  "open_issues": 349,
   "created_at": "2026-05-18T02:16:36Z",
   "pushed_at": "2026-10-22T04:24:26Z",
   "is_archived": false,
@@ -31,10 +31,10 @@
   "category": "ai-agent",
   "flags": [],
   "usability_score": 100,
-  "snapshot_days": 40,
+  "snapshot_days": 41,
   "is_indexable": true,
   "first_seen_at": "2026-09-14T23:44:06.600Z",
   "tracking_tier": "hot",
-  "last_fetched_date": "2026-10-24",
+  "last_fetched_date": "2026-10-25",
   "stars_stagnant_days": 0
 }

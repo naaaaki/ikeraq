@@ -17,9 +17,9 @@
     "minecraft-tool",
     "minecraft-world"
   ],
-  "stars": 4940,
+  "stars": 4946,
   "forks": 237,
-  "watchers": 52,
+  "watchers": 48,
   "open_issues": 246,
   "created_at": "2018-04-22T22:23:26Z",
   "pushed_at": "2026-09-24T17:03:23Z",
@@ -35,10 +35,10 @@
   "category": "other",
   "flags": [],
   "usability_score": 100,
-  "snapshot_days": 30,
+  "snapshot_days": 31,
   "is_indexable": true,
   "first_seen_at": "2026-09-24T23:48:41.713Z",
   "tracking_tier": "hot",
-  "last_fetched_date": "2026-10-24",
+  "last_fetched_date": "2026-10-25",
   "stars_stagnant_days": 0
 }

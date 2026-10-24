@@ -26,7 +26,7 @@
     "ruby",
     "rust"
   ],
-  "stars": 4720,
+  "stars": 4719,
   "forks": 211,
   "watchers": 100,
   "open_issues": 528,
@@ -50,10 +50,10 @@
     }
   ],
   "usability_score": 60,
-  "snapshot_days": 29,
+  "snapshot_days": 30,
   "is_indexable": true,
   "first_seen_at": "2026-09-25T23:53:23.596Z",
   "tracking_tier": "hot",
-  "last_fetched_date": "2026-10-24",
-  "stars_stagnant_days": 0
+  "last_fetched_date": "2026-10-25",
+  "stars_stagnant_days": 1
 }

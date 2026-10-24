@@ -9,7 +9,7 @@
     "vue",
     "vue-router"
   ],
-  "stars": 4700,
+  "stars": 4701,
   "forks": 1307,
   "watchers": 53,
   "open_issues": 56,
@@ -27,10 +27,10 @@
   "category": "web-frontend",
   "flags": [],
   "usability_score": 100,
-  "snapshot_days": 29,
+  "snapshot_days": 30,
   "is_indexable": true,
   "first_seen_at": "2026-09-25T23:53:23.596Z",
   "tracking_tier": "hot",
-  "last_fetched_date": "2026-10-24",
+  "last_fetched_date": "2026-10-25",
   "stars_stagnant_days": 0
 }

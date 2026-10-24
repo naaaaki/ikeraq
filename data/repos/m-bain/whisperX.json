@@ -12,9 +12,9 @@
     "speech-to-text",
     "whisper"
   ],
-  "stars": 24809,
-  "forks": 2501,
-  "watchers": 158,
+  "stars": 24825,
+  "forks": 2502,
+  "watchers": 156,
   "open_issues": 214,
   "created_at": "2022-12-09T02:34:23Z",
   "pushed_at": "2026-10-22T14:53:44Z",
@@ -30,10 +30,10 @@
   "category": "other",
   "flags": [],
   "usability_score": 100,
-  "snapshot_days": 28,
+  "snapshot_days": 29,
   "is_indexable": true,
   "first_seen_at": "2026-09-26T23:25:20.107Z",
   "tracking_tier": "hot",
-  "last_fetched_date": "2026-10-24",
+  "last_fetched_date": "2026-10-25",
   "stars_stagnant_days": 0
 }

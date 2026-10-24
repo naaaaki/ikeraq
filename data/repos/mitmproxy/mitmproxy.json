@@ -18,10 +18,10 @@
     "tls",
     "websocket"
   ],
-  "stars": 46252,
-  "forks": 4873,
+  "stars": 46299,
+  "forks": 4883,
   "watchers": 635,
-  "open_issues": 505,
+  "open_issues": 510,
   "created_at": "2010-02-16T04:10:13Z",
   "pushed_at": "2026-10-23T06:45:35Z",
   "is_archived": false,
@@ -36,10 +36,10 @@
   "category": "security",
   "flags": [],
   "usability_score": 100,
-  "snapshot_days": 55,
+  "snapshot_days": 56,
   "is_indexable": true,
   "first_seen_at": "2026-08-30T23:15:18.750Z",
   "tracking_tier": "hot",
-  "last_fetched_date": "2026-10-24",
+  "last_fetched_date": "2026-10-25",
   "stars_stagnant_days": 0
 }

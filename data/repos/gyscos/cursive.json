@@ -11,9 +11,9 @@
     "terminal",
     "tui"
   ],
-  "stars": 4857,
+  "stars": 4858,
   "forks": 272,
-  "watchers": 39,
+  "watchers": 35,
   "open_issues": 207,
   "created_at": "2015-05-09T19:17:50Z",
   "pushed_at": "2026-09-25T17:05:47Z",
@@ -29,10 +29,10 @@
   "category": "dev-tool",
   "flags": [],
   "usability_score": 100,
-  "snapshot_days": 29,
+  "snapshot_days": 30,
   "is_indexable": true,
   "first_seen_at": "2026-09-25T23:53:23.593Z",
   "tracking_tier": "hot",
-  "last_fetched_date": "2026-10-24",
-  "stars_stagnant_days": 1
+  "last_fetched_date": "2026-10-25",
+  "stars_stagnant_days": 0
 }

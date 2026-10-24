@@ -17,9 +17,9 @@
     "sass",
     "web-development"
   ],
-  "stars": 4879,
+  "stars": 4880,
   "forks": 239,
-  "watchers": 314,
+  "watchers": 310,
   "open_issues": 0,
   "created_at": "2014-07-14T18:32:28Z",
   "pushed_at": "2026-09-24T00:40:26Z",
@@ -35,10 +35,10 @@
   "category": "web-frontend",
   "flags": [],
   "usability_score": 100,
-  "snapshot_days": 30,
+  "snapshot_days": 31,
   "is_indexable": true,
   "first_seen_at": "2026-09-24T23:48:41.712Z",
   "tracking_tier": "hot",
-  "last_fetched_date": "2026-10-24",
-  "stars_stagnant_days": 3
+  "last_fetched_date": "2026-10-25",
+  "stars_stagnant_days": 0
 }

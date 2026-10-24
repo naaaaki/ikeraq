@@ -6,7 +6,7 @@
   "human_note": null,
   "language": null,
   "topics": [],
-  "stars": 73508,
+  "stars": 73510,
   "forks": 9473,
   "watchers": 2050,
   "open_issues": 104,
@@ -24,10 +24,10 @@
   "category": "learning",
   "flags": [],
   "usability_score": 100,
-  "snapshot_days": 31,
+  "snapshot_days": 32,
   "is_indexable": true,
   "first_seen_at": "2026-09-23T23:28:32.616Z",
   "tracking_tier": "hot",
-  "last_fetched_date": "2026-10-24",
-  "stars_stagnant_days": 1
+  "last_fetched_date": "2026-10-25",
+  "stars_stagnant_days": 0
 }

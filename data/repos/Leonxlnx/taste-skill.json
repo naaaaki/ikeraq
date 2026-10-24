@@ -18,10 +18,10 @@
     "ui-design",
     "web-design"
   ],
-  "stars": 101614,
-  "forks": 6859,
+  "stars": 102003,
+  "forks": 6901,
   "watchers": 297,
-  "open_issues": 6,
+  "open_issues": 12,
   "created_at": "2026-02-19T21:44:05Z",
   "pushed_at": "2026-10-20T22:04:30Z",
   "is_archived": false,
@@ -36,10 +36,10 @@
   "category": "ai-agent",
   "flags": [],
   "usability_score": 100,
-  "snapshot_days": 56,
+  "snapshot_days": 57,
   "is_indexable": true,
   "first_seen_at": "2026-08-29T15:46:21.821Z",
   "tracking_tier": "hot",
-  "last_fetched_date": "2026-10-24",
+  "last_fetched_date": "2026-10-25",
   "stars_stagnant_days": 0
 }

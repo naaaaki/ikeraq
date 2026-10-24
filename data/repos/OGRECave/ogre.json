@@ -28,9 +28,9 @@
   "stars": 4683,
   "forks": 1041,
   "watchers": 147,
-  "open_issues": 167,
+  "open_issues": 168,
   "created_at": "2015-11-29T15:57:03Z",
-  "pushed_at": "2026-10-23T17:33:06Z",
+  "pushed_at": "2026-10-24T16:33:14Z",
   "is_archived": false,
   "license_spdx": "MIT",
   "license_category": "permissive",
@@ -43,10 +43,10 @@
   "category": "game",
   "flags": [],
   "usability_score": 100,
-  "snapshot_days": 29,
+  "snapshot_days": 30,
   "is_indexable": true,
   "first_seen_at": "2026-09-25T23:53:23.596Z",
   "tracking_tier": "hot",
-  "last_fetched_date": "2026-10-24",
-  "stars_stagnant_days": 0
+  "last_fetched_date": "2026-10-25",
+  "stars_stagnant_days": 1
 }
