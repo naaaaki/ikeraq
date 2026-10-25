@@ -10,10 +10,10 @@
     "reverse-engineering",
     "software-analysis"
   ],
-  "stars": 93965,
-  "forks": 10554,
+  "stars": 94294,
+  "forks": 10590,
   "watchers": 1186,
-  "open_issues": 2166,
+  "open_issues": 2170,
   "created_at": "2019-03-01T03:27:48Z",
   "pushed_at": "2026-10-22T13:16:26Z",
   "is_archived": false,
@@ -28,10 +28,10 @@
   "category": "other",
   "flags": [],
   "usability_score": 100,
-  "snapshot_days": 57,
+  "snapshot_days": 58,
   "is_indexable": true,
   "first_seen_at": "2026-08-29T15:46:19.887Z",
   "tracking_tier": "hot",
-  "last_fetched_date": "2026-10-25",
+  "last_fetched_date": "2026-10-26",
   "stars_stagnant_days": 0
 }

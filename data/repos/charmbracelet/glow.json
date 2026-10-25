@@ -11,7 +11,7 @@
     "hacktoberfest",
     "markdown"
   ],
-  "stars": 27787,
+  "stars": 27811,
   "forks": 800,
   "watchers": 84,
   "open_issues": 258,
@@ -29,10 +29,10 @@
   "category": "dev-tool",
   "flags": [],
   "usability_score": 100,
-  "snapshot_days": 52,
+  "snapshot_days": 53,
   "is_indexable": true,
   "first_seen_at": "2026-09-03T23:03:15.575Z",
   "tracking_tier": "hot",
-  "last_fetched_date": "2026-10-25",
+  "last_fetched_date": "2026-10-26",
   "stars_stagnant_days": 0
 }

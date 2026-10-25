@@ -18,7 +18,7 @@
     "frontend",
     "web-development"
   ],
-  "stars": 30298,
+  "stars": 30300,
   "forks": 2197,
   "watchers": 661,
   "open_issues": 1,
@@ -36,10 +36,10 @@
   "category": "web-frontend",
   "flags": [],
   "usability_score": 100,
-  "snapshot_days": 32,
+  "snapshot_days": 33,
   "is_indexable": true,
   "first_seen_at": "2026-09-23T23:28:32.617Z",
   "tracking_tier": "hot",
-  "last_fetched_date": "2026-10-25",
-  "stars_stagnant_days": 4
+  "last_fetched_date": "2026-10-26",
+  "stars_stagnant_days": 0
 }

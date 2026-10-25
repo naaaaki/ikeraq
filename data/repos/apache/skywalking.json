@@ -21,12 +21,12 @@
     "web-performance",
     "zabbix"
   ],
-  "stars": 24974,
+  "stars": 24975,
   "forks": 6634,
   "watchers": 806,
   "open_issues": 32,
   "created_at": "2015-11-07T03:30:36Z",
-  "pushed_at": "2026-10-23T14:07:56Z",
+  "pushed_at": "2026-10-25T15:27:07Z",
   "is_archived": false,
   "license_spdx": "Apache-2.0",
   "license_category": "permissive",
@@ -39,10 +39,10 @@
   "category": "infra",
   "flags": [],
   "usability_score": 100,
-  "snapshot_days": 32,
+  "snapshot_days": 33,
   "is_indexable": true,
   "first_seen_at": "2026-09-23T23:28:32.618Z",
   "tracking_tier": "hot",
-  "last_fetched_date": "2026-10-25",
-  "stars_stagnant_days": 3
+  "last_fetched_date": "2026-10-26",
+  "stars_stagnant_days": 0
 }

@@ -19,8 +19,8 @@
     "trufflehog",
     "verification"
   ],
-  "stars": 28687,
-  "forks": 2662,
+  "stars": 28701,
+  "forks": 2665,
   "watchers": 214,
   "open_issues": 583,
   "created_at": "2016-12-31T05:08:12Z",
@@ -43,10 +43,10 @@
     }
   ],
   "usability_score": 85,
-  "snapshot_days": 53,
+  "snapshot_days": 54,
   "is_indexable": true,
   "first_seen_at": "2026-09-02T23:02:41.773Z",
   "tracking_tier": "hot",
-  "last_fetched_date": "2026-10-25",
+  "last_fetched_date": "2026-10-26",
   "stars_stagnant_days": 0
 }

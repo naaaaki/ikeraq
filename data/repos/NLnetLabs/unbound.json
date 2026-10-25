@@ -12,7 +12,7 @@
     "recursor",
     "resolver"
   ],
-  "stars": 5008,
+  "stars": 5011,
   "forks": 466,
   "watchers": 74,
   "open_issues": 401,
@@ -30,10 +30,10 @@
   "category": "dev-tool",
   "flags": [],
   "usability_score": 100,
-  "snapshot_days": 31,
+  "snapshot_days": 32,
   "is_indexable": true,
   "first_seen_at": "2026-09-24T23:48:41.712Z",
   "tracking_tier": "hot",
-  "last_fetched_date": "2026-10-25",
+  "last_fetched_date": "2026-10-26",
   "stars_stagnant_days": 0
 }

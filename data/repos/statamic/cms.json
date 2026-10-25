@@ -27,7 +27,7 @@
   "stars": 4909,
   "forks": 651,
   "watchers": 34,
-  "open_issues": 210,
+  "open_issues": 212,
   "created_at": "2017-11-21T14:56:36Z",
   "pushed_at": "2026-10-23T21:32:37Z",
   "is_archived": false,
@@ -42,10 +42,10 @@
   "category": "backend",
   "flags": [],
   "usability_score": 100,
-  "snapshot_days": 31,
+  "snapshot_days": 32,
   "is_indexable": true,
   "first_seen_at": "2026-09-24T23:48:41.712Z",
   "tracking_tier": "hot",
-  "last_fetched_date": "2026-10-25",
-  "stars_stagnant_days": 0
+  "last_fetched_date": "2026-10-26",
+  "stars_stagnant_days": 1
 }

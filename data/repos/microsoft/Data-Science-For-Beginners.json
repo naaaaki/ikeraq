@@ -13,7 +13,7 @@
     "pandas",
     "python"
   ],
-  "stars": 37692,
+  "stars": 37702,
   "forks": 7595,
   "watchers": 554,
   "open_issues": 24,
@@ -31,10 +31,10 @@
   "category": "other",
   "flags": [],
   "usability_score": 100,
-  "snapshot_days": 53,
+  "snapshot_days": 54,
   "is_indexable": true,
   "first_seen_at": "2026-09-02T23:02:41.773Z",
   "tracking_tier": "hot",
-  "last_fetched_date": "2026-10-25",
+  "last_fetched_date": "2026-10-26",
   "stars_stagnant_days": 0
 }

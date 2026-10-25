@@ -12,12 +12,12 @@
     "torrent",
     "torrent-client"
   ],
-  "stars": 4877,
+  "stars": 4878,
   "forks": 490,
   "watchers": 146,
-  "open_issues": 388,
+  "open_issues": 387,
   "created_at": "2011-10-03T04:07:26Z",
-  "pushed_at": "2026-10-24T13:27:38Z",
+  "pushed_at": "2026-10-25T14:58:36Z",
   "is_archived": false,
   "license_spdx": "GPL-2.0",
   "license_category": "strong-copyleft",
@@ -36,10 +36,10 @@
     }
   ],
   "usability_score": 85,
-  "snapshot_days": 31,
+  "snapshot_days": 32,
   "is_indexable": true,
   "first_seen_at": "2026-09-24T23:48:41.712Z",
   "tracking_tier": "hot",
-  "last_fetched_date": "2026-10-25",
+  "last_fetched_date": "2026-10-26",
   "stars_stagnant_days": 0
 }

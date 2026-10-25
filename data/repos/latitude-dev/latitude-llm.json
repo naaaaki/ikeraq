@@ -15,10 +15,10 @@
     "llm-observability",
     "llm-tools"
   ],
-  "stars": 4735,
+  "stars": 4734,
   "forks": 404,
   "watchers": 15,
-  "open_issues": 103,
+  "open_issues": 100,
   "created_at": "2024-06-28T11:16:02Z",
   "pushed_at": "2026-10-24T08:06:50Z",
   "is_archived": false,
@@ -33,10 +33,10 @@
   "category": "ai-agent",
   "flags": [],
   "usability_score": 100,
-  "snapshot_days": 30,
+  "snapshot_days": 31,
   "is_indexable": true,
   "first_seen_at": "2026-09-25T23:53:23.596Z",
   "tracking_tier": "hot",
-  "last_fetched_date": "2026-10-25",
-  "stars_stagnant_days": 0
+  "last_fetched_date": "2026-10-26",
+  "stars_stagnant_days": 1
 }

@@ -27,10 +27,10 @@
     "ui",
     "zephyr"
   ],
-  "stars": 24999,
-  "forks": 4407,
+  "stars": 25005,
+  "forks": 4409,
   "watchers": 318,
-  "open_issues": 167,
+  "open_issues": 173,
   "created_at": "2016-06-08T04:14:34Z",
   "pushed_at": "2026-10-22T14:18:07Z",
   "is_archived": false,
@@ -45,10 +45,10 @@
   "category": "web-frontend",
   "flags": [],
   "usability_score": 100,
-  "snapshot_days": 32,
+  "snapshot_days": 33,
   "is_indexable": true,
   "first_seen_at": "2026-09-23T23:28:32.618Z",
   "tracking_tier": "hot",
-  "last_fetched_date": "2026-10-25",
+  "last_fetched_date": "2026-10-26",
   "stars_stagnant_days": 0
 }

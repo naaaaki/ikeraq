@@ -10,7 +10,7 @@
     "font",
     "typeface"
   ],
-  "stars": 26560,
+  "stars": 26583,
   "forks": 653,
   "watchers": 104,
   "open_issues": 4,
@@ -34,10 +34,10 @@
     }
   ],
   "usability_score": 85,
-  "snapshot_days": 32,
+  "snapshot_days": 33,
   "is_indexable": true,
   "first_seen_at": "2026-09-23T23:28:32.617Z",
   "tracking_tier": "hot",
-  "last_fetched_date": "2026-10-25",
+  "last_fetched_date": "2026-10-26",
   "stars_stagnant_days": 0
 }

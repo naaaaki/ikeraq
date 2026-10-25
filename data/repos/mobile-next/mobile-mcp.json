@@ -16,12 +16,12 @@
     "real",
     "simulator"
   ],
-  "stars": 9951,
-  "forks": 888,
+  "stars": 9976,
+  "forks": 893,
   "watchers": 53,
   "open_issues": 62,
   "created_at": "2025-03-28T16:21:06Z",
-  "pushed_at": "2026-10-24T19:22:20Z",
+  "pushed_at": "2026-10-25T10:24:39Z",
   "is_archived": false,
   "license_spdx": "Apache-2.0",
   "license_category": "permissive",
@@ -34,10 +34,10 @@
   "category": "ai-agent",
   "flags": [],
   "usability_score": 100,
-  "snapshot_days": 29,
+  "snapshot_days": 30,
   "is_indexable": true,
   "first_seen_at": "2026-09-26T23:25:20.106Z",
   "tracking_tier": "hot",
-  "last_fetched_date": "2026-10-25",
+  "last_fetched_date": "2026-10-26",
   "stars_stagnant_days": 0
 }

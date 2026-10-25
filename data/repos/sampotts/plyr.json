@@ -14,7 +14,7 @@
     "vimeo",
     "youtube"
   ],
-  "stars": 29994,
+  "stars": 29995,
   "forks": 3102,
   "watchers": 422,
   "open_issues": 1,
@@ -32,10 +32,10 @@
   "category": "other",
   "flags": [],
   "usability_score": 100,
-  "snapshot_days": 32,
+  "snapshot_days": 33,
   "is_indexable": true,
   "first_seen_at": "2026-09-23T23:28:32.617Z",
   "tracking_tier": "hot",
-  "last_fetched_date": "2026-10-25",
-  "stars_stagnant_days": 4
+  "last_fetched_date": "2026-10-26",
+  "stars_stagnant_days": 0
 }

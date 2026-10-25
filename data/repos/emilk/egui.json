@@ -14,10 +14,10 @@
     "rust",
     "wasm"
   ],
-  "stars": 31726,
-  "forks": 2245,
+  "stars": 31751,
+  "forks": 2255,
   "watchers": 147,
-  "open_issues": 1080,
+  "open_issues": 1081,
   "created_at": "2019-01-13T15:39:15Z",
   "pushed_at": "2026-10-22T10:03:41Z",
   "is_archived": false,
@@ -32,10 +32,10 @@
   "category": "game",
   "flags": [],
   "usability_score": 100,
-  "snapshot_days": 53,
+  "snapshot_days": 54,
   "is_indexable": true,
   "first_seen_at": "2026-09-02T23:02:41.773Z",
   "tracking_tier": "hot",
-  "last_fetched_date": "2026-10-25",
+  "last_fetched_date": "2026-10-26",
   "stars_stagnant_days": 0
 }

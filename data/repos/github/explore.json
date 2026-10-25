@@ -12,12 +12,12 @@
     "github",
     "topics"
   ],
-  "stars": 4926,
-  "forks": 14646,
+  "stars": 4928,
+  "forks": 14652,
   "watchers": 827,
   "open_issues": 21,
   "created_at": "2017-09-16T16:19:53Z",
-  "pushed_at": "2026-10-22T05:12:25Z",
+  "pushed_at": "2026-10-25T21:13:22Z",
   "is_archived": false,
   "license_spdx": "CC-BY-4.0",
   "license_category": "unknown",
@@ -30,10 +30,10 @@
   "category": "other",
   "flags": [],
   "usability_score": 100,
-  "snapshot_days": 31,
+  "snapshot_days": 32,
   "is_indexable": true,
   "first_seen_at": "2026-09-24T23:48:41.712Z",
   "tracking_tier": "hot",
-  "last_fetched_date": "2026-10-25",
+  "last_fetched_date": "2026-10-26",
   "stars_stagnant_days": 0
 }

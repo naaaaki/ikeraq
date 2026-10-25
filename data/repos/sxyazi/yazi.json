@@ -26,8 +26,8 @@
     "vim",
     "windows"
   ],
-  "stars": 43003,
-  "forks": 1053,
+  "stars": 43025,
+  "forks": 1052,
   "watchers": 103,
   "open_issues": 66,
   "created_at": "2023-07-08T11:45:55Z",
@@ -44,10 +44,10 @@
   "category": "mobile",
   "flags": [],
   "usability_score": 100,
-  "snapshot_days": 56,
+  "snapshot_days": 57,
   "is_indexable": true,
   "first_seen_at": "2026-08-30T23:15:18.750Z",
   "tracking_tier": "hot",
-  "last_fetched_date": "2026-10-25",
+  "last_fetched_date": "2026-10-26",
   "stars_stagnant_days": 0
 }

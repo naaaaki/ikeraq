@@ -15,12 +15,12 @@
     "muse",
     "openai"
   ],
-  "stars": 56152,
+  "stars": 56202,
   "forks": 8585,
   "watchers": 117,
-  "open_issues": 760,
+  "open_issues": 762,
   "created_at": "2025-07-01T19:43:27Z",
-  "pushed_at": "2026-10-24T14:21:00Z",
+  "pushed_at": "2026-10-25T15:37:10Z",
   "is_archived": false,
   "license_spdx": "MIT",
   "license_category": "permissive",
@@ -33,10 +33,10 @@
   "category": "other",
   "flags": [],
   "usability_score": 100,
-  "snapshot_days": 56,
+  "snapshot_days": 57,
   "is_indexable": true,
   "first_seen_at": "2026-08-30T23:15:18.749Z",
   "tracking_tier": "hot",
-  "last_fetched_date": "2026-10-25",
+  "last_fetched_date": "2026-10-26",
   "stars_stagnant_days": 0
 }

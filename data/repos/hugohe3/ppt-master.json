@@ -17,8 +17,8 @@
     "slide",
     "slides"
   ],
-  "stars": 67412,
-  "forks": 5283,
+  "stars": 68076,
+  "forks": 5316,
   "watchers": 122,
   "open_issues": 1,
   "created_at": "2025-12-10T06:54:33Z",
@@ -35,10 +35,10 @@
   "category": "ai-agent",
   "flags": [],
   "usability_score": 100,
-  "snapshot_days": 56,
+  "snapshot_days": 57,
   "is_indexable": true,
   "first_seen_at": "2026-08-30T23:15:18.749Z",
   "tracking_tier": "hot",
-  "last_fetched_date": "2026-10-25",
+  "last_fetched_date": "2026-10-26",
   "stars_stagnant_days": 0
 }

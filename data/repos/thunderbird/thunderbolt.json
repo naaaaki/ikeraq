@@ -11,7 +11,7 @@
     "llms",
     "on-device-ai"
   ],
-  "stars": 4800,
+  "stars": 4803,
   "forks": 334,
   "watchers": 27,
   "open_issues": 35,
@@ -29,10 +29,10 @@
   "category": "ai-agent",
   "flags": [],
   "usability_score": 100,
-  "snapshot_days": 30,
+  "snapshot_days": 31,
   "is_indexable": true,
   "first_seen_at": "2026-09-25T23:53:23.595Z",
   "tracking_tier": "hot",
-  "last_fetched_date": "2026-10-25",
-  "stars_stagnant_days": 3
+  "last_fetched_date": "2026-10-26",
+  "stars_stagnant_days": 0
 }

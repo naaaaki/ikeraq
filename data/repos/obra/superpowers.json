@@ -15,10 +15,10 @@
     "subagent-driven-development",
     "superpowers"
   ],
-  "stars": 304620,
-  "forks": 27135,
+  "stars": 305023,
+  "forks": 27168,
   "watchers": 1111,
-  "open_issues": 356,
+  "open_issues": 367,
   "created_at": "2025-10-09T19:45:18Z",
   "pushed_at": "2026-10-23T03:48:57Z",
   "is_archived": false,
@@ -33,10 +33,10 @@
   "category": "other",
   "flags": [],
   "usability_score": 100,
-  "snapshot_days": 57,
+  "snapshot_days": 58,
   "is_indexable": true,
   "first_seen_at": "2026-08-29T15:46:21.820Z",
   "tracking_tier": "hot",
-  "last_fetched_date": "2026-10-25",
+  "last_fetched_date": "2026-10-26",
   "stars_stagnant_days": 0
 }

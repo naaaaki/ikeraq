@@ -15,10 +15,10 @@
     "youtube-downloader",
     "yt-dlp"
   ],
-  "stars": 29997,
-  "forks": 1503,
-  "watchers": 163,
-  "open_issues": 739,
+  "stars": 30040,
+  "forks": 1504,
+  "watchers": 164,
+  "open_issues": 740,
   "created_at": "2022-04-15T01:15:25Z",
   "pushed_at": "2026-09-25T15:35:51Z",
   "is_archived": false,
@@ -39,10 +39,10 @@
     }
   ],
   "usability_score": 85,
-  "snapshot_days": 30,
+  "snapshot_days": 31,
   "is_indexable": true,
   "first_seen_at": "2026-09-25T23:53:23.592Z",
   "tracking_tier": "hot",
-  "last_fetched_date": "2026-10-25",
+  "last_fetched_date": "2026-10-26",
   "stars_stagnant_days": 0
 }

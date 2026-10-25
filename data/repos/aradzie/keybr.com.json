@@ -11,7 +11,7 @@
     "typing",
     "typing-tutor"
   ],
-  "stars": 4807,
+  "stars": 4808,
   "forks": 480,
   "watchers": 24,
   "open_issues": 332,
@@ -35,10 +35,10 @@
     }
   ],
   "usability_score": 85,
-  "snapshot_days": 30,
+  "snapshot_days": 31,
   "is_indexable": true,
   "first_seen_at": "2026-09-25T23:53:23.595Z",
   "tracking_tier": "hot",
-  "last_fetched_date": "2026-10-25",
+  "last_fetched_date": "2026-10-26",
   "stars_stagnant_days": 0
 }
