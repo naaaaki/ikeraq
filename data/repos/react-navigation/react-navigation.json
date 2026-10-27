@@ -11,12 +11,12 @@
     "react-native",
     "react-navigation"
   ],
-  "stars": 24515,
-  "forks": 5146,
-  "watchers": 303,
-  "open_issues": 428,
+  "stars": 24516,
+  "forks": 5145,
+  "watchers": 302,
+  "open_issues": 386,
   "created_at": "2017-01-26T19:51:40Z",
-  "pushed_at": "2026-10-25T14:26:07Z",
+  "pushed_at": "2026-10-26T19:47:00Z",
   "is_archived": false,
   "license_spdx": null,
   "license_category": "none",
@@ -35,10 +35,10 @@
     }
   ],
   "usability_score": 60,
-  "snapshot_days": 33,
+  "snapshot_days": 34,
   "is_indexable": true,
   "first_seen_at": "2026-09-23T23:28:32.618Z",
   "tracking_tier": "hot",
-  "last_fetched_date": "2026-10-26",
+  "last_fetched_date": "2026-10-27",
   "stars_stagnant_days": 0
 }

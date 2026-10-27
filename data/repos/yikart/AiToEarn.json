@@ -18,9 +18,9 @@
     "tool",
     "xiaohongshu"
   ],
-  "stars": 26891,
-  "forks": 4389,
-  "watchers": 742,
+  "stars": 26932,
+  "forks": 4402,
+  "watchers": 759,
   "open_issues": 27,
   "created_at": "2025-02-24T08:03:24Z",
   "pushed_at": "2026-10-20T10:49:01Z",
@@ -36,10 +36,10 @@
   "category": "web-frontend",
   "flags": [],
   "usability_score": 100,
-  "snapshot_days": 33,
+  "snapshot_days": 34,
   "is_indexable": true,
   "first_seen_at": "2026-09-23T23:28:32.617Z",
   "tracking_tier": "hot",
-  "last_fetched_date": "2026-10-26",
+  "last_fetched_date": "2026-10-27",
   "stars_stagnant_days": 0
 }

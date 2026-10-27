@@ -26,8 +26,8 @@
     "termux-hacks",
     "termux-tool"
   ],
-  "stars": 19963,
-  "forks": 2718,
+  "stars": 20013,
+  "forks": 2729,
   "watchers": 188,
   "open_issues": 143,
   "created_at": "2023-04-15T07:20:47Z",
@@ -46,7 +46,7 @@
     {
       "id": "stale",
       "label": "メンテ停止の疑い",
-      "reason": "最終コミットから 1018 日が経過しています（判定は 180 日以上）。"
+      "reason": "最終コミットから 1019 日が経過しています（判定は 180 日以上）。"
     },
     {
       "id": "no_license",
@@ -55,10 +55,10 @@
     }
   ],
   "usability_score": 30,
-  "snapshot_days": 25,
+  "snapshot_days": 26,
   "is_indexable": true,
   "first_seen_at": "2026-10-02T00:34:58.630Z",
   "tracking_tier": "hot",
-  "last_fetched_date": "2026-10-26",
+  "last_fetched_date": "2026-10-27",
   "stars_stagnant_days": 0
 }

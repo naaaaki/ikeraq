@@ -25,11 +25,11 @@
     "uncertainty"
   ],
   "stars": 5004,
-  "forks": 932,
+  "forks": 933,
   "watchers": 38,
-  "open_issues": 838,
+  "open_issues": 839,
   "created_at": "2020-07-03T13:05:24Z",
-  "pushed_at": "2026-10-24T12:14:50Z",
+  "pushed_at": "2026-10-26T19:55:15Z",
   "is_archived": false,
   "license_spdx": "MIT",
   "license_category": "permissive",
@@ -42,10 +42,10 @@
   "category": "learning",
   "flags": [],
   "usability_score": 100,
-  "snapshot_days": 32,
+  "snapshot_days": 33,
   "is_indexable": true,
   "first_seen_at": "2026-09-24T23:48:41.711Z",
-  "tracking_tier": "hot",
-  "last_fetched_date": "2026-10-26",
-  "stars_stagnant_days": 0
+  "tracking_tier": "normal",
+  "last_fetched_date": "2026-10-27",
+  "stars_stagnant_days": 1
 }

@@ -15,8 +15,8 @@
     "llm-agents",
     "voice-assistant"
   ],
-  "stars": 27541,
-  "forks": 3088,
+  "stars": 27549,
+  "forks": 3087,
   "watchers": 174,
   "open_issues": 23,
   "created_at": "2025-02-19T18:03:06Z",
@@ -39,10 +39,10 @@
     }
   ],
   "usability_score": 85,
-  "snapshot_days": 33,
+  "snapshot_days": 34,
   "is_indexable": true,
   "first_seen_at": "2026-09-23T23:28:32.617Z",
   "tracking_tier": "hot",
-  "last_fetched_date": "2026-10-26",
+  "last_fetched_date": "2026-10-27",
   "stars_stagnant_days": 0
 }

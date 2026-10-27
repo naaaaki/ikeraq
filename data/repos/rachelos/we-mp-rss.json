@@ -20,10 +20,10 @@
     "wx",
     "wxsprider"
   ],
-  "stars": 5019,
-  "forks": 835,
+  "stars": 5030,
+  "forks": 840,
   "watchers": 23,
-  "open_issues": 23,
+  "open_issues": 24,
   "created_at": "2025-05-14T07:28:21Z",
   "pushed_at": "2026-10-20T16:46:34Z",
   "is_archived": false,
@@ -38,10 +38,10 @@
   "category": "other",
   "flags": [],
   "usability_score": 100,
-  "snapshot_days": 31,
+  "snapshot_days": 32,
   "is_indexable": true,
   "first_seen_at": "2026-09-25T23:53:23.595Z",
   "tracking_tier": "hot",
-  "last_fetched_date": "2026-10-26",
+  "last_fetched_date": "2026-10-27",
   "stars_stagnant_days": 0
 }

@@ -14,10 +14,10 @@
     "shell",
     "zsh"
   ],
-  "stars": 4723,
+  "stars": 4726,
   "forks": 172,
   "watchers": 20,
-  "open_issues": 112,
+  "open_issues": 113,
   "created_at": "2022-10-01T08:46:39Z",
   "pushed_at": "2026-10-24T09:29:43Z",
   "is_archived": false,
@@ -32,10 +32,10 @@
   "category": "ai-agent",
   "flags": [],
   "usability_score": 100,
-  "snapshot_days": 31,
+  "snapshot_days": 32,
   "is_indexable": true,
   "first_seen_at": "2026-09-25T23:53:23.596Z",
   "tracking_tier": "hot",
-  "last_fetched_date": "2026-10-26",
+  "last_fetched_date": "2026-10-27",
   "stars_stagnant_days": 0
 }

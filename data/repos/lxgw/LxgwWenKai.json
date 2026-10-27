@@ -10,10 +10,10 @@
     "font",
     "typeface"
   ],
-  "stars": 26583,
+  "stars": 26605,
   "forks": 653,
   "watchers": 104,
-  "open_issues": 4,
+  "open_issues": 5,
   "created_at": "2021-01-30T15:41:52Z",
   "pushed_at": "2026-10-23T16:58:29Z",
   "is_archived": false,
@@ -34,10 +34,10 @@
     }
   ],
   "usability_score": 85,
-  "snapshot_days": 33,
+  "snapshot_days": 34,
   "is_indexable": true,
   "first_seen_at": "2026-09-23T23:28:32.617Z",
   "tracking_tier": "hot",
-  "last_fetched_date": "2026-10-26",
+  "last_fetched_date": "2026-10-27",
   "stars_stagnant_days": 0
 }

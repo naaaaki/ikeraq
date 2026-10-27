@@ -13,12 +13,12 @@
     "shell",
     "static-analysis"
   ],
-  "stars": 40237,
+  "stars": 40243,
   "forks": 1969,
   "watchers": 405,
-  "open_issues": 1092,
+  "open_issues": 1085,
   "created_at": "2012-11-17T03:15:11Z",
-  "pushed_at": "2026-10-19T01:25:10Z",
+  "pushed_at": "2026-10-26T01:55:51Z",
   "is_archived": false,
   "license_spdx": "GPL-3.0",
   "license_category": "strong-copyleft",
@@ -37,10 +37,10 @@
     }
   ],
   "usability_score": 85,
-  "snapshot_days": 33,
+  "snapshot_days": 34,
   "is_indexable": true,
   "first_seen_at": "2026-09-23T23:28:32.616Z",
   "tracking_tier": "hot",
-  "last_fetched_date": "2026-10-26",
+  "last_fetched_date": "2026-10-27",
   "stars_stagnant_days": 0
 }

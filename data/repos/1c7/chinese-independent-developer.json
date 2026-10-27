@@ -10,12 +10,12 @@
     "indie",
     "indie-developer"
   ],
-  "stars": 61905,
-  "forks": 5499,
+  "stars": 61933,
+  "forks": 5530,
   "watchers": null,
-  "open_issues": 3,
+  "open_issues": 9,
   "created_at": "2017-09-21T11:08:23Z",
-  "pushed_at": "2026-10-23T14:29:30Z",
+  "pushed_at": "2026-10-26T14:14:20Z",
   "is_archived": false,
   "license_spdx": null,
   "license_category": "none",
@@ -34,10 +34,10 @@
     }
   ],
   "usability_score": 60,
-  "snapshot_days": 42,
+  "snapshot_days": 43,
   "is_indexable": true,
   "first_seen_at": "2026-08-29T23:02:08.747Z",
   "tracking_tier": "normal",
-  "last_fetched_date": "2026-10-24",
+  "last_fetched_date": "2026-10-27",
   "stars_stagnant_days": 1
 }

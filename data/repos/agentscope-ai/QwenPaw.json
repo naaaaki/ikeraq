@@ -4,7 +4,7 @@
   "name": "QwenPaw",
   "description_en": "Your Personal AI Assistant; easy to install, deploy on your own machine or on the cloud; supports multiple chat apps with easily extensible capabilities.",
   "human_note": null,
-  "language": "Python",
+  "language": "TypeScript",
   "topics": [
     "agent",
     "agent-harness",
@@ -23,12 +23,12 @@
     "super-agent",
     "webui"
   ],
-  "stars": 36017,
-  "forks": 3203,
+  "stars": 36370,
+  "forks": 3217,
   "watchers": null,
-  "open_issues": 1131,
+  "open_issues": 1144,
   "created_at": "2026-02-24T03:42:56Z",
-  "pushed_at": "2026-10-23T11:08:34Z",
+  "pushed_at": "2026-10-26T10:52:15Z",
   "is_archived": false,
   "license_spdx": "Apache-2.0",
   "license_category": "permissive",
@@ -41,10 +41,10 @@
   "category": "ai-agent",
   "flags": [],
   "usability_score": 100,
-  "snapshot_days": 42,
+  "snapshot_days": 43,
   "is_indexable": true,
   "first_seen_at": "2026-09-01T00:26:13.032Z",
   "tracking_tier": "normal",
-  "last_fetched_date": "2026-10-24",
+  "last_fetched_date": "2026-10-27",
   "stars_stagnant_days": 1
 }

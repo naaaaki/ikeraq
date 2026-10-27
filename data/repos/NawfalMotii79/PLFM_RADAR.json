@@ -6,8 +6,8 @@
   "human_note": null,
   "language": "PLSQL",
   "topics": [],
-  "stars": 27166,
-  "forks": 6106,
+  "stars": 27182,
+  "forks": 6108,
   "watchers": 352,
   "open_issues": 27,
   "created_at": "2026-03-08T23:20:58Z",
@@ -24,10 +24,10 @@
   "category": "other",
   "flags": [],
   "usability_score": 100,
-  "snapshot_days": 26,
+  "snapshot_days": 27,
   "is_indexable": true,
   "first_seen_at": "2026-10-01T00:25:07.321Z",
   "tracking_tier": "hot",
-  "last_fetched_date": "2026-10-26",
+  "last_fetched_date": "2026-10-27",
   "stars_stagnant_days": 0
 }

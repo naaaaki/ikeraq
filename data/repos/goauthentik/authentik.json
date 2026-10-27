@@ -24,12 +24,12 @@
     "security",
     "sso"
   ],
-  "stars": 26097,
+  "stars": 26119,
   "forks": 2092,
   "watchers": 85,
-  "open_issues": 1153,
+  "open_issues": 1227,
   "created_at": "2019-12-30T09:19:48Z",
-  "pushed_at": "2026-10-25T19:44:38Z",
+  "pushed_at": "2026-10-27T00:02:50Z",
   "is_archived": false,
   "license_spdx": "NOASSERTION",
   "license_category": "unknown",
@@ -42,10 +42,10 @@
   "category": "security",
   "flags": [],
   "usability_score": 100,
-  "snapshot_days": 33,
+  "snapshot_days": 34,
   "is_indexable": true,
   "first_seen_at": "2026-09-23T23:28:32.617Z",
   "tracking_tier": "hot",
-  "last_fetched_date": "2026-10-26",
+  "last_fetched_date": "2026-10-27",
   "stars_stagnant_days": 0
 }

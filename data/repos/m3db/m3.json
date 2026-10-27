@@ -15,9 +15,9 @@
     "query-engine",
     "tsdb"
   ],
-  "stars": 4908,
+  "stars": 4909,
   "forks": 461,
-  "watchers": 109,
+  "watchers": 106,
   "open_issues": 171,
   "created_at": "2016-06-14T20:29:45Z",
   "pushed_at": "2026-10-20T02:24:03Z",
@@ -33,10 +33,10 @@
   "category": "infra",
   "flags": [],
   "usability_score": 100,
-  "snapshot_days": 32,
+  "snapshot_days": 33,
   "is_indexable": true,
   "first_seen_at": "2026-09-24T23:48:41.712Z",
   "tracking_tier": "hot",
-  "last_fetched_date": "2026-10-26",
-  "stars_stagnant_days": 7
+  "last_fetched_date": "2026-10-27",
+  "stars_stagnant_days": 0
 }

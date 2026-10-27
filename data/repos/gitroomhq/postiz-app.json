@@ -17,10 +17,10 @@
     "social-media-scheduling-tool",
     "typescript"
   ],
-  "stars": 37788,
-  "forks": 7385,
+  "stars": 38439,
+  "forks": 7455,
   "watchers": 137,
-  "open_issues": 220,
+  "open_issues": 222,
   "created_at": "2023-07-08T17:24:22Z",
   "pushed_at": "2026-10-24T18:27:21Z",
   "is_archived": false,
@@ -41,10 +41,10 @@
     }
   ],
   "usability_score": 85,
-  "snapshot_days": 56,
+  "snapshot_days": 57,
   "is_indexable": true,
   "first_seen_at": "2026-09-01T00:26:13.032Z",
   "tracking_tier": "hot",
-  "last_fetched_date": "2026-10-26",
+  "last_fetched_date": "2026-10-27",
   "stars_stagnant_days": 0
 }

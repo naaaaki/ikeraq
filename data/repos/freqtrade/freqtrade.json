@@ -16,12 +16,12 @@
     "trade",
     "trading-bot"
   ],
-  "stars": 55823,
-  "forks": 11558,
+  "stars": 56001,
+  "forks": 11571,
   "watchers": null,
   "open_issues": 26,
   "created_at": "2017-05-17T23:48:53Z",
-  "pushed_at": "2026-10-23T18:51:22Z",
+  "pushed_at": "2026-10-26T18:45:23Z",
   "is_archived": false,
   "license_spdx": "GPL-3.0",
   "license_category": "strong-copyleft",
@@ -40,10 +40,10 @@
     }
   ],
   "usability_score": 85,
-  "snapshot_days": 42,
+  "snapshot_days": 43,
   "is_indexable": true,
   "first_seen_at": "2026-08-29T23:02:08.747Z",
   "tracking_tier": "normal",
-  "last_fetched_date": "2026-10-24",
+  "last_fetched_date": "2026-10-27",
   "stars_stagnant_days": 1
 }

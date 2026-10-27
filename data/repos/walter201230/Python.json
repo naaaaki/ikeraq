@@ -9,10 +9,10 @@
     "python",
     "python3"
   ],
-  "stars": 28363,
-  "forks": 5584,
+  "stars": 28397,
+  "forks": 5587,
   "watchers": 712,
-  "open_issues": 80,
+  "open_issues": 82,
   "created_at": "2017-06-07T11:52:22Z",
   "pushed_at": "2026-10-22T15:24:32Z",
   "is_archived": false,
@@ -27,10 +27,10 @@
   "category": "other",
   "flags": [],
   "usability_score": 100,
-  "snapshot_days": 40,
+  "snapshot_days": 41,
   "is_indexable": true,
   "first_seen_at": "2026-09-03T23:03:15.575Z",
   "tracking_tier": "normal",
-  "last_fetched_date": "2026-10-24",
+  "last_fetched_date": "2026-10-27",
   "stars_stagnant_days": 0
 }

@@ -19,10 +19,10 @@
     "openclaw",
     "openclaw-skills"
   ],
-  "stars": 53291,
-  "forks": 5057,
-  "watchers": 314,
-  "open_issues": 6,
+  "stars": 53365,
+  "forks": 5062,
+  "watchers": 308,
+  "open_issues": 8,
   "created_at": "2026-01-25T09:22:32Z",
   "pushed_at": "2026-10-19T05:54:13Z",
   "is_archived": false,
@@ -37,10 +37,10 @@
   "category": "ai-agent",
   "flags": [],
   "usability_score": 100,
-  "snapshot_days": 42,
+  "snapshot_days": 43,
   "is_indexable": true,
   "first_seen_at": "2026-08-29T23:02:08.747Z",
   "tracking_tier": "normal",
-  "last_fetched_date": "2026-10-24",
+  "last_fetched_date": "2026-10-27",
   "stars_stagnant_days": 1
 }

@@ -11,7 +11,7 @@
   "watchers": 122,
   "open_issues": 40,
   "created_at": "2010-10-29T15:29:47Z",
-  "pushed_at": "2026-10-20T06:16:44Z",
+  "pushed_at": "2026-10-26T21:27:06Z",
   "is_archived": false,
   "license_spdx": "NOASSERTION",
   "license_category": "unknown",
@@ -24,10 +24,10 @@
   "category": "other",
   "flags": [],
   "usability_score": 100,
-  "snapshot_days": 32,
+  "snapshot_days": 33,
   "is_indexable": true,
   "first_seen_at": "2026-09-24T23:48:41.712Z",
-  "tracking_tier": "hot",
-  "last_fetched_date": "2026-10-26",
-  "stars_stagnant_days": 0
+  "tracking_tier": "normal",
+  "last_fetched_date": "2026-10-27",
+  "stars_stagnant_days": 1
 }

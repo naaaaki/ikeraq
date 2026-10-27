@@ -17,12 +17,12 @@
     "siyuan",
     "workspace"
   ],
-  "stars": 46901,
-  "forks": 3086,
+  "stars": 46947,
+  "forks": 3091,
   "watchers": null,
-  "open_issues": 11,
+  "open_issues": 10,
   "created_at": "2020-08-30T09:21:35Z",
-  "pushed_at": "2026-10-23T17:28:06Z",
+  "pushed_at": "2026-10-26T17:22:38Z",
   "is_archived": false,
   "license_spdx": "AGPL-3.0",
   "license_category": "strong-copyleft",
@@ -41,10 +41,10 @@
     }
   ],
   "usability_score": 85,
-  "snapshot_days": 43,
+  "snapshot_days": 44,
   "is_indexable": true,
   "first_seen_at": "2026-08-30T23:15:18.750Z",
   "tracking_tier": "normal",
-  "last_fetched_date": "2026-10-24",
+  "last_fetched_date": "2026-10-27",
   "stars_stagnant_days": 1
 }

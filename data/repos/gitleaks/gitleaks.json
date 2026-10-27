@@ -27,7 +27,7 @@
     "security",
     "security-tools"
   ],
-  "stars": 30325,
+  "stars": 30369,
   "forks": 2316,
   "watchers": 184,
   "open_issues": 516,
@@ -45,10 +45,10 @@
   "category": "llm",
   "flags": [],
   "usability_score": 100,
-  "snapshot_days": 33,
+  "snapshot_days": 34,
   "is_indexable": true,
   "first_seen_at": "2026-09-23T23:28:32.617Z",
   "tracking_tier": "hot",
-  "last_fetched_date": "2026-10-26",
+  "last_fetched_date": "2026-10-27",
   "stars_stagnant_days": 0
 }

@@ -14,10 +14,10 @@
     "router",
     "server"
   ],
-  "stars": 89426,
-  "forks": 8787,
+  "stars": 89435,
+  "forks": 8806,
   "watchers": 1360,
-  "open_issues": 812,
+  "open_issues": 816,
   "created_at": "2014-06-16T23:57:25Z",
   "pushed_at": "2026-10-10T04:20:35Z",
   "is_archived": false,
@@ -32,10 +32,10 @@
   "category": "backend",
   "flags": [],
   "usability_score": 100,
-  "snapshot_days": 33,
+  "snapshot_days": 34,
   "is_indexable": true,
   "first_seen_at": "2026-09-23T23:28:32.616Z",
   "tracking_tier": "hot",
-  "last_fetched_date": "2026-10-26",
+  "last_fetched_date": "2026-10-27",
   "stars_stagnant_days": 0
 }

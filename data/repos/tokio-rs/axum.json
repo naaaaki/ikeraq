@@ -10,10 +10,10 @@
     "routing",
     "rust"
   ],
-  "stars": 27601,
-  "forks": 1541,
-  "watchers": 151,
-  "open_issues": 114,
+  "stars": 27623,
+  "forks": 1558,
+  "watchers": 144,
+  "open_issues": 118,
   "created_at": "2021-05-30T09:22:25Z",
   "pushed_at": "2026-10-20T02:23:42Z",
   "is_archived": false,
@@ -28,10 +28,10 @@
   "category": "backend",
   "flags": [],
   "usability_score": 100,
-  "snapshot_days": 53,
+  "snapshot_days": 54,
   "is_indexable": true,
   "first_seen_at": "2026-09-03T23:03:15.575Z",
   "tracking_tier": "hot",
-  "last_fetched_date": "2026-10-26",
+  "last_fetched_date": "2026-10-27",
   "stars_stagnant_days": 0
 }

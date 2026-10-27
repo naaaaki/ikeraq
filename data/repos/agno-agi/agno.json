@@ -2,7 +2,7 @@
   "id": "agno-agi/agno",
   "owner": "agno-agi",
   "name": "agno",
-  "description_en": "The self-improving platform for agents",
+  "description_en": "The self-improving agent platform",
   "human_note": null,
   "language": "Python",
   "topics": [
@@ -12,12 +12,12 @@
     "developer-tools",
     "python"
   ],
-  "stars": 42887,
-  "forks": 6181,
+  "stars": 42904,
+  "forks": 6188,
   "watchers": 239,
-  "open_issues": 1938,
+  "open_issues": 1936,
   "created_at": "2022-05-04T15:23:02Z",
-  "pushed_at": "2026-10-25T19:25:34Z",
+  "pushed_at": "2026-10-27T00:15:05Z",
   "is_archived": false,
   "license_spdx": "Apache-2.0",
   "license_category": "permissive",
@@ -30,10 +30,10 @@
   "category": "ai-agent",
   "flags": [],
   "usability_score": 100,
-  "snapshot_days": 57,
+  "snapshot_days": 58,
   "is_indexable": true,
   "first_seen_at": "2026-08-30T23:15:18.750Z",
   "tracking_tier": "hot",
-  "last_fetched_date": "2026-10-26",
+  "last_fetched_date": "2026-10-27",
   "stars_stagnant_days": 0
 }
