@@ -25,12 +25,12 @@
     "typescript",
     "unused-code"
   ],
-  "stars": 5253,
+  "stars": 5261,
   "forks": 190,
   "watchers": 5,
-  "open_issues": 56,
+  "open_issues": 15,
   "created_at": "2026-03-17T08:40:57Z",
-  "pushed_at": "2026-10-27T00:16:59Z",
+  "pushed_at": "2026-10-27T22:35:17Z",
   "is_archived": false,
   "license_spdx": "MIT",
   "license_category": "permissive",
@@ -43,10 +43,10 @@
   "category": "ai-agent",
   "flags": [],
   "usability_score": 100,
-  "snapshot_days": 33,
+  "snapshot_days": 34,
   "is_indexable": true,
   "first_seen_at": "2026-09-24T23:48:41.712Z",
   "tracking_tier": "hot",
-  "last_fetched_date": "2026-10-27",
+  "last_fetched_date": "2026-10-28",
   "stars_stagnant_days": 0
 }

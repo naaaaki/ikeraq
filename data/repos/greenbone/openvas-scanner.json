@@ -22,12 +22,12 @@
     "vulnerability-management",
     "vulnerability-scanners"
   ],
-  "stars": 4896,
-  "forks": 805,
+  "stars": 4898,
+  "forks": 804,
   "watchers": 92,
-  "open_issues": 27,
+  "open_issues": 22,
   "created_at": "2018-01-22T07:49:57Z",
-  "pushed_at": "2026-10-26T21:14:20Z",
+  "pushed_at": "2026-10-27T17:24:49Z",
   "is_archived": false,
   "license_spdx": "GPL-2.0",
   "license_category": "strong-copyleft",
@@ -46,10 +46,10 @@
     }
   ],
   "usability_score": 85,
-  "snapshot_days": 33,
+  "snapshot_days": 34,
   "is_indexable": true,
   "first_seen_at": "2026-09-24T23:48:41.713Z",
   "tracking_tier": "hot",
-  "last_fetched_date": "2026-10-27",
+  "last_fetched_date": "2026-10-28",
   "stars_stagnant_days": 0
 }

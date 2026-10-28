@@ -17,10 +17,10 @@
     "widget",
     "widgets"
   ],
-  "stars": 31825,
-  "forks": 1713,
-  "watchers": 221,
-  "open_issues": 514,
+  "stars": 31846,
+  "forks": 1714,
+  "watchers": 215,
+  "open_issues": 515,
   "created_at": "2019-07-15T22:34:46Z",
   "pushed_at": "2026-10-21T18:35:59Z",
   "is_archived": false,
@@ -35,10 +35,10 @@
   "category": "game",
   "flags": [],
   "usability_score": 100,
-  "snapshot_days": 54,
+  "snapshot_days": 55,
   "is_indexable": true,
   "first_seen_at": "2026-09-01T23:05:22.650Z",
   "tracking_tier": "normal",
-  "last_fetched_date": "2026-10-25",
+  "last_fetched_date": "2026-10-28",
   "stars_stagnant_days": 1
 }

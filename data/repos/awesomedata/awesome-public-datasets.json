@@ -11,8 +11,8 @@
     "datasets",
     "opendata"
   ],
-  "stars": 79759,
-  "forks": 11914,
+  "stars": 79805,
+  "forks": 11921,
   "watchers": 2279,
   "open_issues": 165,
   "created_at": "2014-11-20T06:20:50Z",
@@ -29,10 +29,10 @@
   "category": "learning",
   "flags": [],
   "usability_score": 100,
-  "snapshot_days": 59,
+  "snapshot_days": 60,
   "is_indexable": true,
   "first_seen_at": "2026-08-29T23:02:08.747Z",
   "tracking_tier": "hot",
-  "last_fetched_date": "2026-10-27",
+  "last_fetched_date": "2026-10-28",
   "stars_stagnant_days": 0
 }

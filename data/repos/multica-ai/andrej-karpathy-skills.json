@@ -6,9 +6,9 @@
   "human_note": null,
   "language": null,
   "topics": [],
-  "stars": 224636,
-  "forks": 22470,
-  "watchers": 1290,
+  "stars": 225490,
+  "forks": 22526,
+  "watchers": 1292,
   "open_issues": 138,
   "created_at": "2026-01-27T03:53:13Z",
   "pushed_at": "2026-04-20T10:05:04Z",
@@ -26,7 +26,7 @@
     {
       "id": "stale",
       "label": "メンテ停止の疑い",
-      "reason": "最終コミットから 189 日が経過しています（判定は 180 日以上）。"
+      "reason": "最終コミットから 190 日が経過しています（判定は 180 日以上）。"
     },
     {
       "id": "no_license",
@@ -35,10 +35,10 @@
     }
   ],
   "usability_score": 30,
-  "snapshot_days": 49,
+  "snapshot_days": 50,
   "is_indexable": true,
   "first_seen_at": "2026-09-08T23:15:15.239Z",
   "tracking_tier": "hot",
-  "last_fetched_date": "2026-10-27",
+  "last_fetched_date": "2026-10-28",
   "stars_stagnant_days": 0
 }

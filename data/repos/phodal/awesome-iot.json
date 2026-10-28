@@ -15,12 +15,12 @@
     "iot-device",
     "iot-platform"
   ],
-  "stars": 4634,
-  "forks": 846,
+  "stars": 4633,
+  "forks": 847,
   "watchers": 270,
-  "open_issues": 3,
+  "open_issues": 1,
   "created_at": "2015-09-13T12:54:16Z",
-  "pushed_at": "2026-10-26T06:25:57Z",
+  "pushed_at": "2026-10-27T14:24:44Z",
   "is_archived": false,
   "license_spdx": "MIT",
   "license_category": "permissive",
@@ -33,10 +33,10 @@
   "category": "learning",
   "flags": [],
   "usability_score": 100,
-  "snapshot_days": 31,
+  "snapshot_days": 32,
   "is_indexable": true,
   "first_seen_at": "2026-09-26T23:25:20.110Z",
-  "tracking_tier": "hot",
-  "last_fetched_date": "2026-10-27",
-  "stars_stagnant_days": 3
+  "tracking_tier": "normal",
+  "last_fetched_date": "2026-10-28",
+  "stars_stagnant_days": 4
 }

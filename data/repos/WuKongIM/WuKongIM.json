@@ -11,12 +11,12 @@
     "im",
     "message"
   ],
-  "stars": 4974,
+  "stars": 4976,
   "forks": 713,
   "watchers": 37,
-  "open_issues": 82,
+  "open_issues": 83,
   "created_at": "2023-05-09T01:46:51Z",
-  "pushed_at": "2026-10-26T22:07:33Z",
+  "pushed_at": "2026-10-28T00:01:35Z",
   "is_archived": false,
   "license_spdx": "Apache-2.0",
   "license_category": "permissive",
@@ -29,10 +29,10 @@
   "category": "ai-agent",
   "flags": [],
   "usability_score": 100,
-  "snapshot_days": 33,
+  "snapshot_days": 34,
   "is_indexable": true,
   "first_seen_at": "2026-09-24T23:48:41.712Z",
   "tracking_tier": "hot",
-  "last_fetched_date": "2026-10-27",
+  "last_fetched_date": "2026-10-28",
   "stars_stagnant_days": 0
 }

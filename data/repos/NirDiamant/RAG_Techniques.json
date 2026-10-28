@@ -25,12 +25,12 @@
     "tutorials",
     "vector-database"
   ],
-  "stars": 30020,
-  "forks": 3678,
+  "stars": 30042,
+  "forks": 3682,
   "watchers": 257,
   "open_issues": 8,
   "created_at": "2024-07-13T16:08:36Z",
-  "pushed_at": "2026-10-26T15:36:11Z",
+  "pushed_at": "2026-10-27T14:12:42Z",
   "is_archived": false,
   "license_spdx": "NOASSERTION",
   "license_category": "unknown",
@@ -43,10 +43,10 @@
   "category": "ai-agent",
   "flags": [],
   "usability_score": 100,
-  "snapshot_days": 55,
+  "snapshot_days": 56,
   "is_indexable": true,
   "first_seen_at": "2026-09-02T23:02:41.773Z",
   "tracking_tier": "hot",
-  "last_fetched_date": "2026-10-27",
+  "last_fetched_date": "2026-10-28",
   "stars_stagnant_days": 0
 }

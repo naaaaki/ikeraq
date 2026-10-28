@@ -20,7 +20,7 @@
   "watchers": 85,
   "open_issues": 168,
   "created_at": "2016-10-11T08:28:23Z",
-  "pushed_at": "2026-10-22T15:57:21Z",
+  "pushed_at": "2026-10-27T13:16:22Z",
   "is_archived": false,
   "license_spdx": "BSD-3-Clause",
   "license_category": "permissive",
@@ -33,10 +33,10 @@
   "category": "infra",
   "flags": [],
   "usability_score": 100,
-  "snapshot_days": 33,
+  "snapshot_days": 34,
   "is_indexable": true,
   "first_seen_at": "2026-09-24T23:48:41.713Z",
-  "tracking_tier": "hot",
-  "last_fetched_date": "2026-10-27",
-  "stars_stagnant_days": 0
+  "tracking_tier": "normal",
+  "last_fetched_date": "2026-10-28",
+  "stars_stagnant_days": 1
 }

@@ -15,7 +15,7 @@
     "python",
     "pytorch"
   ],
-  "stars": 28231,
+  "stars": 28240,
   "forks": 7640,
   "watchers": 608,
   "open_issues": 279,
@@ -33,10 +33,10 @@
   "category": "learning",
   "flags": [],
   "usability_score": 100,
-  "snapshot_days": 39,
+  "snapshot_days": 40,
   "is_indexable": true,
   "first_seen_at": "2026-09-02T23:02:41.773Z",
   "tracking_tier": "normal",
-  "last_fetched_date": "2026-10-25",
+  "last_fetched_date": "2026-10-28",
   "stars_stagnant_days": 2
 }

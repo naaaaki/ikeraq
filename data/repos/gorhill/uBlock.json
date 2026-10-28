@@ -14,8 +14,8 @@
     "ublock",
     "ublock-origin"
   ],
-  "stars": 68851,
-  "forks": 4399,
+  "stars": 68871,
+  "forks": 4402,
   "watchers": 1048,
   "open_issues": 15,
   "created_at": "2015-04-01T17:51:11Z",
@@ -38,10 +38,10 @@
     }
   ],
   "usability_score": 85,
-  "snapshot_days": 59,
+  "snapshot_days": 60,
   "is_indexable": true,
   "first_seen_at": "2026-08-29T23:02:08.747Z",
   "tracking_tier": "hot",
-  "last_fetched_date": "2026-10-27",
+  "last_fetched_date": "2026-10-28",
   "stars_stagnant_days": 0
 }

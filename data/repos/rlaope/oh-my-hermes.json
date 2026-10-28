@@ -2,7 +2,7 @@
   "id": "rlaope/oh-my-hermes",
   "owner": "rlaope",
   "name": "oh-my-hermes",
-  "description_en": "The coding intelligence and skills for Hermes Agent ⚚ just install once. then type 'dag-ulw' to be graph engineering master.",
+  "description_en": "⚚ The coding agent with Hermes Agent, Just type 'dag-ulw'",
   "human_note": null,
   "language": "Python",
   "topics": [
@@ -16,12 +16,12 @@
     "hermes-skill",
     "skills"
   ],
-  "stars": 4309,
-  "forks": 326,
+  "stars": 4364,
+  "forks": 331,
   "watchers": 14,
-  "open_issues": 17,
+  "open_issues": 11,
   "created_at": "2026-06-03T13:00:34Z",
-  "pushed_at": "2026-10-26T18:21:12Z",
+  "pushed_at": "2026-10-28T00:17:12Z",
   "is_archived": false,
   "license_spdx": "MIT",
   "license_category": "permissive",
@@ -34,10 +34,10 @@
   "category": "ai-agent",
   "flags": [],
   "usability_score": 100,
-  "snapshot_days": 43,
+  "snapshot_days": 44,
   "is_indexable": true,
   "first_seen_at": "2026-09-14T23:44:07.049Z",
   "tracking_tier": "hot",
-  "last_fetched_date": "2026-10-27",
+  "last_fetched_date": "2026-10-28",
   "stars_stagnant_days": 0
 }

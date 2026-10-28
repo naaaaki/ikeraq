@@ -9,12 +9,12 @@
     "android",
     "java"
   ],
-  "stars": 43939,
-  "forks": 7332,
+  "stars": 43944,
+  "forks": 7333,
   "watchers": 1543,
   "open_issues": 148,
   "created_at": "2010-09-06T21:39:43Z",
-  "pushed_at": "2026-10-22T14:05:52Z",
+  "pushed_at": "2026-10-26T20:14:35Z",
   "is_archived": false,
   "license_spdx": "Apache-2.0",
   "license_category": "permissive",
@@ -27,10 +27,10 @@
   "category": "mobile",
   "flags": [],
   "usability_score": 100,
-  "snapshot_days": 40,
+  "snapshot_days": 41,
   "is_indexable": true,
   "first_seen_at": "2026-08-30T23:15:18.750Z",
   "tracking_tier": "normal",
-  "last_fetched_date": "2026-10-25",
+  "last_fetched_date": "2026-10-28",
   "stars_stagnant_days": 4
 }

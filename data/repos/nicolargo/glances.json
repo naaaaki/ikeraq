@@ -15,12 +15,12 @@
     "terminal",
     "web"
   ],
-  "stars": 33843,
+  "stars": 33862,
   "forks": 1838,
   "watchers": 497,
-  "open_issues": 116,
+  "open_issues": 113,
   "created_at": "2011-12-04T08:49:15Z",
-  "pushed_at": "2026-10-23T20:04:02Z",
+  "pushed_at": "2026-10-26T15:02:24Z",
   "is_archived": false,
   "license_spdx": "NOASSERTION",
   "license_category": "unknown",
@@ -33,10 +33,10 @@
   "category": "infra",
   "flags": [],
   "usability_score": 100,
-  "snapshot_days": 50,
+  "snapshot_days": 51,
   "is_indexable": true,
   "first_seen_at": "2026-09-01T23:05:22.650Z",
   "tracking_tier": "normal",
-  "last_fetched_date": "2026-10-25",
+  "last_fetched_date": "2026-10-28",
   "stars_stagnant_days": 1
 }

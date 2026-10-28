@@ -6,10 +6,10 @@
   "human_note": null,
   "language": "TypeScript",
   "topics": [],
-  "stars": 5300,
-  "forks": 170,
+  "stars": 5313,
+  "forks": 172,
   "watchers": 27,
-  "open_issues": 21,
+  "open_issues": 24,
   "created_at": "2026-03-09T14:46:03Z",
   "pushed_at": "2026-10-19T13:09:03Z",
   "is_archived": false,
@@ -30,10 +30,10 @@
     }
   ],
   "usability_score": 60,
-  "snapshot_days": 32,
+  "snapshot_days": 33,
   "is_indexable": true,
   "first_seen_at": "2026-09-25T23:53:23.595Z",
   "tracking_tier": "hot",
-  "last_fetched_date": "2026-10-27",
+  "last_fetched_date": "2026-10-28",
   "stars_stagnant_days": 0
 }

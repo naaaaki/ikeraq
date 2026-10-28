@@ -17,12 +17,12 @@
     "security-tools",
     "threat-hunting"
   ],
-  "stars": 4945,
-  "forks": 684,
+  "stars": 4949,
+  "forks": 683,
   "watchers": 98,
   "open_issues": 89,
   "created_at": "2018-02-05T17:30:31Z",
-  "pushed_at": "2026-10-26T19:50:37Z",
+  "pushed_at": "2026-10-27T21:36:48Z",
   "is_archived": false,
   "license_spdx": "NOASSERTION",
   "license_category": "unknown",
@@ -35,10 +35,10 @@
   "category": "security",
   "flags": [],
   "usability_score": 100,
-  "snapshot_days": 33,
+  "snapshot_days": 34,
   "is_indexable": true,
   "first_seen_at": "2026-09-24T23:48:41.712Z",
   "tracking_tier": "hot",
-  "last_fetched_date": "2026-10-27",
+  "last_fetched_date": "2026-10-28",
   "stars_stagnant_days": 0
 }

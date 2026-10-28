@@ -17,8 +17,8 @@
     "vte",
     "windows"
   ],
-  "stars": 66059,
-  "forks": 3674,
+  "stars": 66068,
+  "forks": 3675,
   "watchers": 451,
   "open_issues": 342,
   "created_at": "2016-02-18T05:02:30Z",
@@ -35,10 +35,10 @@
   "category": "dev-tool",
   "flags": [],
   "usability_score": 100,
-  "snapshot_days": 59,
+  "snapshot_days": 60,
   "is_indexable": true,
   "first_seen_at": "2026-08-29T23:02:08.747Z",
   "tracking_tier": "hot",
-  "last_fetched_date": "2026-10-27",
+  "last_fetched_date": "2026-10-28",
   "stars_stagnant_days": 0
 }

@@ -17,10 +17,10 @@
     "pytorch",
     "retinaface"
   ],
-  "stars": 30053,
-  "forks": 6123,
+  "stars": 30061,
+  "forks": 6125,
   "watchers": 519,
-  "open_issues": 1276,
+  "open_issues": 1275,
   "created_at": "2017-09-01T00:36:51Z",
   "pushed_at": "2026-10-19T07:54:01Z",
   "is_archived": false,
@@ -41,10 +41,10 @@
     }
   ],
   "usability_score": 60,
-  "snapshot_days": 54,
+  "snapshot_days": 55,
   "is_indexable": true,
   "first_seen_at": "2026-09-03T23:03:15.575Z",
   "tracking_tier": "hot",
-  "last_fetched_date": "2026-10-27",
+  "last_fetched_date": "2026-10-28",
   "stars_stagnant_days": 0
 }

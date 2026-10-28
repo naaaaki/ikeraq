@@ -14,7 +14,7 @@
     "steam",
     "sunshine"
   ],
-  "stars": 4970,
+  "stars": 4973,
   "forks": 299,
   "watchers": 29,
   "open_issues": 19,
@@ -38,10 +38,10 @@
     }
   ],
   "usability_score": 85,
-  "snapshot_days": 32,
+  "snapshot_days": 33,
   "is_indexable": true,
   "first_seen_at": "2026-09-25T23:53:23.594Z",
   "tracking_tier": "hot",
-  "last_fetched_date": "2026-10-27",
+  "last_fetched_date": "2026-10-28",
   "stars_stagnant_days": 0
 }
