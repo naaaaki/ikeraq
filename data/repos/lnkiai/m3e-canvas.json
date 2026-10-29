@@ -15,10 +15,10 @@
     "react",
     "vibe-coding"
   ],
-  "stars": 9825,
-  "forks": 1079,
+  "stars": 9855,
+  "forks": 1084,
   "watchers": 36,
-  "open_issues": 11,
+  "open_issues": 13,
   "created_at": "2026-09-02T04:36:34Z",
   "pushed_at": "2026-10-22T10:09:15Z",
   "is_archived": false,
@@ -33,10 +33,10 @@
   "category": "llm",
   "flags": [],
   "usability_score": 100,
-  "snapshot_days": 34,
+  "snapshot_days": 35,
   "is_indexable": true,
   "first_seen_at": "2026-09-24T23:48:41.710Z",
   "tracking_tier": "hot",
-  "last_fetched_date": "2026-10-28",
+  "last_fetched_date": "2026-10-29",
   "stars_stagnant_days": 0
 }

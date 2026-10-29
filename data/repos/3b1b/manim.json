@@ -11,9 +11,9 @@
     "explanatory-math-videos",
     "python"
   ],
-  "stars": 95734,
-  "forks": 7849,
-  "watchers": 956,
+  "stars": 95787,
+  "forks": 7855,
+  "watchers": 957,
   "open_issues": 512,
   "created_at": "2015-03-22T18:50:58Z",
   "pushed_at": "2026-09-09T16:23:48Z",
@@ -29,10 +29,10 @@
   "category": "other",
   "flags": [],
   "usability_score": 100,
-  "snapshot_days": 57,
+  "snapshot_days": 58,
   "is_indexable": true,
   "first_seen_at": "2026-09-01T23:05:21.930Z",
   "tracking_tier": "hot",
-  "last_fetched_date": "2026-10-28",
+  "last_fetched_date": "2026-10-29",
   "stars_stagnant_days": 0
 }

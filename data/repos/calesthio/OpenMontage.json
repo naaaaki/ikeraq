@@ -26,12 +26,12 @@
     "video-generation",
     "video-production"
   ],
-  "stars": 72466,
-  "forks": 9446,
+  "stars": 72736,
+  "forks": 9495,
   "watchers": 369,
-  "open_issues": 417,
+  "open_issues": 419,
   "created_at": "2026-03-29T15:23:22Z",
-  "pushed_at": "2026-10-24T00:49:34Z",
+  "pushed_at": "2026-10-28T21:46:02Z",
   "is_archived": false,
   "license_spdx": "AGPL-3.0",
   "license_category": "strong-copyleft",
@@ -50,10 +50,10 @@
     }
   ],
   "usability_score": 85,
-  "snapshot_days": 51,
+  "snapshot_days": 52,
   "is_indexable": true,
   "first_seen_at": "2026-09-07T23:19:48.975Z",
   "tracking_tier": "hot",
-  "last_fetched_date": "2026-10-28",
+  "last_fetched_date": "2026-10-29",
   "stars_stagnant_days": 0
 }

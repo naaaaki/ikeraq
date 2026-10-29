@@ -15,9 +15,9 @@
     "microsoft-for-beginners",
     "tutorials"
   ],
-  "stars": 97019,
-  "forks": 16068,
-  "watchers": 2668,
+  "stars": 97033,
+  "forks": 16088,
+  "watchers": 2660,
   "open_issues": 147,
   "created_at": "2020-11-10T02:44:00Z",
   "pushed_at": "2026-10-20T21:43:35Z",
@@ -33,10 +33,10 @@
   "category": "web-frontend",
   "flags": [],
   "usability_score": 100,
-  "snapshot_days": 39,
+  "snapshot_days": 40,
   "is_indexable": true,
   "first_seen_at": "2026-09-15T23:27:33.829Z",
   "tracking_tier": "normal",
-  "last_fetched_date": "2026-10-26",
+  "last_fetched_date": "2026-10-29",
   "stars_stagnant_days": 1
 }

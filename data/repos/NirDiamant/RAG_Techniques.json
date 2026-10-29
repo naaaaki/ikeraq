@@ -25,7 +25,7 @@
     "tutorials",
     "vector-database"
   ],
-  "stars": 30042,
+  "stars": 30050,
   "forks": 3682,
   "watchers": 257,
   "open_issues": 8,
@@ -43,10 +43,10 @@
   "category": "ai-agent",
   "flags": [],
   "usability_score": 100,
-  "snapshot_days": 56,
+  "snapshot_days": 57,
   "is_indexable": true,
   "first_seen_at": "2026-09-02T23:02:41.773Z",
   "tracking_tier": "hot",
-  "last_fetched_date": "2026-10-28",
+  "last_fetched_date": "2026-10-29",
   "stars_stagnant_days": 0
 }

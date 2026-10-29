@@ -26,12 +26,12 @@
     "sqs",
     "terraform"
   ],
-  "stars": 5027,
+  "stars": 5031,
   "forks": 518,
   "watchers": 16,
-  "open_issues": 25,
+  "open_issues": 41,
   "created_at": "2026-03-24T22:27:58Z",
-  "pushed_at": "2026-10-27T15:43:06Z",
+  "pushed_at": "2026-10-28T21:36:16Z",
   "is_archived": false,
   "license_spdx": "MIT",
   "license_category": "permissive",
@@ -44,10 +44,10 @@
   "category": "infra",
   "flags": [],
   "usability_score": 100,
-  "snapshot_days": 33,
+  "snapshot_days": 34,
   "is_indexable": true,
   "first_seen_at": "2026-09-25T23:53:23.596Z",
   "tracking_tier": "hot",
-  "last_fetched_date": "2026-10-28",
+  "last_fetched_date": "2026-10-29",
   "stars_stagnant_days": 0
 }

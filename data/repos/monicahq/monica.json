@@ -15,12 +15,12 @@
     "prm",
     "social"
   ],
-  "stars": 25535,
+  "stars": 25538,
   "forks": 2625,
   "watchers": 294,
   "open_issues": 794,
   "created_at": "2017-02-17T00:02:58Z",
-  "pushed_at": "2026-09-24T15:21:07Z",
+  "pushed_at": "2026-10-28T22:30:13Z",
   "is_archived": false,
   "license_spdx": "AGPL-3.0",
   "license_category": "strong-copyleft",
@@ -39,10 +39,10 @@
     }
   ],
   "usability_score": 85,
-  "snapshot_days": 34,
+  "snapshot_days": 35,
   "is_indexable": true,
   "first_seen_at": "2026-09-24T23:48:41.710Z",
   "tracking_tier": "hot",
-  "last_fetched_date": "2026-10-28",
+  "last_fetched_date": "2026-10-29",
   "stars_stagnant_days": 0
 }

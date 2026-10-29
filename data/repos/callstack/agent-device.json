@@ -2,7 +2,7 @@
   "id": "callstack/agent-device",
   "owner": "callstack",
   "name": "agent-device",
-  "description_en": "Mobile app automation and verification for AI coding agents. CLI, MCP server, and typed Node.js API for iOS, Android, HarmonyOS, TV, web, macOS, and Linux.",
+  "description_en": "Open source device layer for AI coding agents: a CLI, MCP server, and typed Node.js API to control mobile, web, TV, and desktop apps on devices and simulators, locally or in the cloud.",
   "human_note": null,
   "language": "TypeScript",
   "topics": [
@@ -24,12 +24,12 @@
     "testing",
     "xcuitest"
   ],
-  "stars": 5168,
-  "forks": 358,
+  "stars": 5179,
+  "forks": 360,
   "watchers": 6,
-  "open_issues": 99,
+  "open_issues": 107,
   "created_at": "2026-01-30T18:41:54Z",
-  "pushed_at": "2026-10-27T20:41:11Z",
+  "pushed_at": "2026-10-28T22:36:31Z",
   "is_archived": false,
   "license_spdx": "MIT",
   "license_category": "permissive",
@@ -42,10 +42,10 @@
   "category": "ai-agent",
   "flags": [],
   "usability_score": 100,
-  "snapshot_days": 33,
+  "snapshot_days": 34,
   "is_indexable": true,
   "first_seen_at": "2026-09-25T23:53:23.595Z",
   "tracking_tier": "hot",
-  "last_fetched_date": "2026-10-28",
+  "last_fetched_date": "2026-10-29",
   "stars_stagnant_days": 0
 }

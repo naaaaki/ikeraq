@@ -23,7 +23,7 @@
     "vrrp"
   ],
   "stars": 4734,
-  "forks": 785,
+  "forks": 784,
   "watchers": 146,
   "open_issues": 48,
   "created_at": "2012-07-11T12:42:41Z",
@@ -46,10 +46,10 @@
     }
   ],
   "usability_score": 85,
-  "snapshot_days": 33,
+  "snapshot_days": 34,
   "is_indexable": true,
   "first_seen_at": "2026-09-25T23:53:23.596Z",
-  "tracking_tier": "hot",
-  "last_fetched_date": "2026-10-28",
-  "stars_stagnant_days": 0
+  "tracking_tier": "normal",
+  "last_fetched_date": "2026-10-29",
+  "stars_stagnant_days": 1
 }

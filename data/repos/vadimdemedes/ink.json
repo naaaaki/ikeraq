@@ -13,12 +13,12 @@
     "javascript",
     "react"
   ],
-  "stars": 40183,
+  "stars": 40194,
   "forks": 1063,
   "watchers": 124,
-  "open_issues": 40,
+  "open_issues": 33,
   "created_at": "2017-06-12T06:12:28Z",
-  "pushed_at": "2026-10-26T10:28:15Z",
+  "pushed_at": "2026-10-28T16:59:10Z",
   "is_archived": false,
   "license_spdx": "MIT",
   "license_category": "permissive",
@@ -31,10 +31,10 @@
   "category": "web-frontend",
   "flags": [],
   "usability_score": 100,
-  "snapshot_days": 35,
+  "snapshot_days": 36,
   "is_indexable": true,
   "first_seen_at": "2026-09-23T23:28:32.616Z",
   "tracking_tier": "hot",
-  "last_fetched_date": "2026-10-28",
+  "last_fetched_date": "2026-10-29",
   "stars_stagnant_days": 0
 }

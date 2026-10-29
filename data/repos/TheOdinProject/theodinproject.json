@@ -12,7 +12,7 @@
     "ruby-on-rails",
     "theodinproject"
   ],
-  "stars": 4665,
+  "stars": 4668,
   "forks": 2141,
   "watchers": 174,
   "open_issues": 46,
@@ -30,10 +30,10 @@
   "category": "other",
   "flags": [],
   "usability_score": 100,
-  "snapshot_days": 32,
+  "snapshot_days": 33,
   "is_indexable": true,
   "first_seen_at": "2026-09-26T23:25:20.110Z",
   "tracking_tier": "hot",
-  "last_fetched_date": "2026-10-28",
+  "last_fetched_date": "2026-10-29",
   "stars_stagnant_days": 0
 }

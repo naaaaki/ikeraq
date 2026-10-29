@@ -24,12 +24,12 @@
     "surge",
     "v2ray"
   ],
-  "stars": 28998,
-  "forks": 2222,
+  "stars": 29021,
+  "forks": 2223,
   "watchers": 112,
   "open_issues": 15,
   "created_at": "2020-07-30T23:53:49Z",
-  "pushed_at": "2026-10-27T22:35:50Z",
+  "pushed_at": "2026-10-28T22:35:55Z",
   "is_archived": false,
   "license_spdx": "GPL-3.0",
   "license_category": "strong-copyleft",
@@ -48,10 +48,10 @@
     }
   ],
   "usability_score": 85,
-  "snapshot_days": 56,
+  "snapshot_days": 57,
   "is_indexable": true,
   "first_seen_at": "2026-09-02T23:02:41.773Z",
   "tracking_tier": "hot",
-  "last_fetched_date": "2026-10-28",
+  "last_fetched_date": "2026-10-29",
   "stars_stagnant_days": 0
 }

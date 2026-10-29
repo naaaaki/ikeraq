@@ -14,9 +14,9 @@
     "javascript",
     "robust"
   ],
-  "stars": 57655,
+  "stars": 57654,
   "forks": 12243,
-  "watchers": 2445,
+  "watchers": 2447,
   "open_issues": 22,
   "created_at": "2010-01-24T18:03:24Z",
   "pushed_at": "2026-10-12T10:58:53Z",
@@ -32,10 +32,10 @@
   "category": "web-frontend",
   "flags": [],
   "usability_score": 100,
-  "snapshot_days": 41,
+  "snapshot_days": 42,
   "is_indexable": true,
   "first_seen_at": "2026-09-01T23:05:22.650Z",
   "tracking_tier": "normal",
-  "last_fetched_date": "2026-10-26",
+  "last_fetched_date": "2026-10-29",
   "stars_stagnant_days": 1
 }

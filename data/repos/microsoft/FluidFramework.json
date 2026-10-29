@@ -15,12 +15,12 @@
     "microsoft",
     "realtime"
   ],
-  "stars": 4949,
+  "stars": 4950,
   "forks": 589,
   "watchers": 74,
-  "open_issues": 234,
+  "open_issues": 237,
   "created_at": "2019-08-22T17:37:57Z",
-  "pushed_at": "2026-10-27T22:42:11Z",
+  "pushed_at": "2026-10-28T22:43:58Z",
   "is_archived": false,
   "license_spdx": "MIT",
   "license_category": "permissive",
@@ -33,10 +33,10 @@
   "category": "backend",
   "flags": [],
   "usability_score": 100,
-  "snapshot_days": 34,
+  "snapshot_days": 35,
   "is_indexable": true,
   "first_seen_at": "2026-09-24T23:48:41.712Z",
   "tracking_tier": "hot",
-  "last_fetched_date": "2026-10-28",
+  "last_fetched_date": "2026-10-29",
   "stars_stagnant_days": 0
 }

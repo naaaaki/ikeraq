@@ -12,12 +12,12 @@
     "rust",
     "security"
   ],
-  "stars": 4872,
+  "stars": 4879,
   "forks": 482,
   "watchers": 44,
   "open_issues": 211,
   "created_at": "2021-01-20T07:31:17Z",
-  "pushed_at": "2026-10-27T16:10:30Z",
+  "pushed_at": "2026-10-28T23:05:43Z",
   "is_archived": false,
   "license_spdx": "Apache-2.0",
   "license_category": "permissive",
@@ -30,10 +30,10 @@
   "category": "security",
   "flags": [],
   "usability_score": 100,
-  "snapshot_days": 33,
+  "snapshot_days": 34,
   "is_indexable": true,
   "first_seen_at": "2026-09-25T23:53:23.594Z",
   "tracking_tier": "hot",
-  "last_fetched_date": "2026-10-28",
+  "last_fetched_date": "2026-10-29",
   "stars_stagnant_days": 0
 }

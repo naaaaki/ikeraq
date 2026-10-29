@@ -10,10 +10,10 @@
     "tampermonkey",
     "userscript"
   ],
-  "stars": 30908,
+  "stars": 30919,
   "forks": 1820,
   "watchers": 122,
-  "open_issues": 481,
+  "open_issues": 483,
   "created_at": "2018-07-16T07:48:06Z",
   "pushed_at": "2026-10-17T04:43:34Z",
   "is_archived": false,
@@ -28,10 +28,10 @@
   "category": "other",
   "flags": [],
   "usability_score": 100,
-  "snapshot_days": 51,
+  "snapshot_days": 52,
   "is_indexable": true,
   "first_seen_at": "2026-09-07T23:19:48.976Z",
   "tracking_tier": "hot",
-  "last_fetched_date": "2026-10-28",
+  "last_fetched_date": "2026-10-29",
   "stars_stagnant_days": 0
 }

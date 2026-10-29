@@ -17,12 +17,12 @@
     "ruby",
     "screenshots"
   ],
-  "stars": 42303,
+  "stars": 42321,
   "forks": 6046,
   "watchers": 724,
-  "open_issues": 688,
+  "open_issues": 685,
   "created_at": "2014-12-02T17:00:38Z",
-  "pushed_at": "2026-10-24T11:29:22Z",
+  "pushed_at": "2026-10-28T12:39:55Z",
   "is_archived": false,
   "license_spdx": "MIT",
   "license_category": "permissive",
@@ -35,10 +35,10 @@
   "category": "mobile",
   "flags": [],
   "usability_score": 100,
-  "snapshot_days": 43,
+  "snapshot_days": 44,
   "is_indexable": true,
   "first_seen_at": "2026-08-30T23:15:18.750Z",
   "tracking_tier": "normal",
-  "last_fetched_date": "2026-10-26",
+  "last_fetched_date": "2026-10-29",
   "stars_stagnant_days": 1
 }

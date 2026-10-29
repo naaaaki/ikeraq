@@ -22,12 +22,12 @@
     "sentry",
     "tag-production"
   ],
-  "stars": 45665,
+  "stars": 45672,
   "forks": 4956,
   "watchers": 670,
-  "open_issues": 2132,
+  "open_issues": 2123,
   "created_at": "2010-08-30T22:06:41Z",
-  "pushed_at": "2026-10-28T00:17:45Z",
+  "pushed_at": "2026-10-29T00:38:18Z",
   "is_archived": false,
   "license_spdx": "NOASSERTION",
   "license_category": "unknown",
@@ -40,10 +40,10 @@
   "category": "infra",
   "flags": [],
   "usability_score": 100,
-  "snapshot_days": 59,
+  "snapshot_days": 60,
   "is_indexable": true,
   "first_seen_at": "2026-08-30T23:15:18.750Z",
   "tracking_tier": "hot",
-  "last_fetched_date": "2026-10-28",
+  "last_fetched_date": "2026-10-29",
   "stars_stagnant_days": 0
 }

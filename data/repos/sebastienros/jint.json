@@ -10,12 +10,12 @@
     "interpreter",
     "javascript"
   ],
-  "stars": 4745,
+  "stars": 4746,
   "forks": 608,
   "watchers": 135,
-  "open_issues": 22,
+  "open_issues": 24,
   "created_at": "2014-01-10T01:51:04Z",
-  "pushed_at": "2026-10-27T20:51:56Z",
+  "pushed_at": "2026-10-28T16:23:32Z",
   "is_archived": false,
   "license_spdx": "BSD-2-Clause",
   "license_category": "permissive",
@@ -28,10 +28,10 @@
   "category": "other",
   "flags": [],
   "usability_score": 100,
-  "snapshot_days": 33,
+  "snapshot_days": 34,
   "is_indexable": true,
   "first_seen_at": "2026-09-25T23:53:23.595Z",
   "tracking_tier": "hot",
-  "last_fetched_date": "2026-10-28",
+  "last_fetched_date": "2026-10-29",
   "stars_stagnant_days": 0
 }
