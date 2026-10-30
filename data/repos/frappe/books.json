@@ -21,8 +21,8 @@
     "point-of-sale",
     "vuejs"
   ],
-  "stars": 5005,
-  "forks": 1162,
+  "stars": 5006,
+  "forks": 1164,
   "watchers": 79,
   "open_issues": 143,
   "created_at": "2018-01-08T12:29:11Z",
@@ -50,10 +50,10 @@
     }
   ],
   "usability_score": 35,
-  "snapshot_days": 33,
+  "snapshot_days": 34,
   "is_indexable": true,
   "first_seen_at": "2026-09-24T23:48:41.711Z",
   "tracking_tier": "normal",
-  "last_fetched_date": "2026-10-27",
+  "last_fetched_date": "2026-10-30",
   "stars_stagnant_days": 1
 }

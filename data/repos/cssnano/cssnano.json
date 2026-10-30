@@ -17,7 +17,7 @@
   "watchers": 49,
   "open_issues": 18,
   "created_at": "2015-04-14T16:23:09Z",
-  "pushed_at": "2026-10-26T13:37:45Z",
+  "pushed_at": "2026-10-30T00:07:39Z",
   "is_archived": false,
   "license_spdx": "MIT",
   "license_category": "permissive",
@@ -30,10 +30,10 @@
   "category": "web-frontend",
   "flags": [],
   "usability_score": 100,
-  "snapshot_days": 33,
+  "snapshot_days": 34,
   "is_indexable": true,
   "first_seen_at": "2026-09-24T23:48:41.711Z",
   "tracking_tier": "normal",
-  "last_fetched_date": "2026-10-27",
+  "last_fetched_date": "2026-10-30",
   "stars_stagnant_days": 10
 }

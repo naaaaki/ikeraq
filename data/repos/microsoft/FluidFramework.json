@@ -18,9 +18,9 @@
   "stars": 4950,
   "forks": 589,
   "watchers": 74,
-  "open_issues": 237,
+  "open_issues": 236,
   "created_at": "2019-08-22T17:37:57Z",
-  "pushed_at": "2026-10-28T22:43:58Z",
+  "pushed_at": "2026-10-30T00:25:55Z",
   "is_archived": false,
   "license_spdx": "MIT",
   "license_category": "permissive",
@@ -33,10 +33,10 @@
   "category": "backend",
   "flags": [],
   "usability_score": 100,
-  "snapshot_days": 35,
+  "snapshot_days": 36,
   "is_indexable": true,
   "first_seen_at": "2026-09-24T23:48:41.712Z",
-  "tracking_tier": "hot",
-  "last_fetched_date": "2026-10-29",
-  "stars_stagnant_days": 0
+  "tracking_tier": "normal",
+  "last_fetched_date": "2026-10-30",
+  "stars_stagnant_days": 1
 }

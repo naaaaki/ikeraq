@@ -25,12 +25,12 @@
     "webcam",
     "webcamera"
   ],
-  "stars": 97256,
-  "forks": 14160,
+  "stars": 97391,
+  "forks": 14193,
   "watchers": 573,
-  "open_issues": 56,
+  "open_issues": 54,
   "created_at": "2023-09-24T13:19:31Z",
-  "pushed_at": "2026-10-24T00:13:12Z",
+  "pushed_at": "2026-10-27T06:43:25Z",
   "is_archived": false,
   "license_spdx": "AGPL-3.0",
   "license_category": "strong-copyleft",
@@ -49,10 +49,10 @@
     }
   ],
   "usability_score": 85,
-  "snapshot_days": 43,
+  "snapshot_days": 44,
   "is_indexable": true,
   "first_seen_at": "2026-08-29T15:46:21.821Z",
   "tracking_tier": "normal",
-  "last_fetched_date": "2026-10-27",
+  "last_fetched_date": "2026-10-30",
   "stars_stagnant_days": 1
 }

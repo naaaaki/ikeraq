@@ -25,12 +25,12 @@
     "sql-editor",
     "visualization"
   ],
-  "stars": 49917,
-  "forks": 6939,
+  "stars": 49979,
+  "forks": 6953,
   "watchers": 669,
   "open_issues": 4638,
   "created_at": "2015-02-02T19:25:47Z",
-  "pushed_at": "2026-10-29T00:37:44Z",
+  "pushed_at": "2026-10-30T00:39:12Z",
   "is_archived": false,
   "license_spdx": "NOASSERTION",
   "license_category": "unknown",
@@ -43,10 +43,10 @@
   "category": "data",
   "flags": [],
   "usability_score": 100,
-  "snapshot_days": 60,
+  "snapshot_days": 61,
   "is_indexable": true,
   "first_seen_at": "2026-08-30T23:15:18.749Z",
   "tracking_tier": "hot",
-  "last_fetched_date": "2026-10-29",
+  "last_fetched_date": "2026-10-30",
   "stars_stagnant_days": 0
 }

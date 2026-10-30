@@ -14,8 +14,8 @@
     "search",
     "source"
   ],
-  "stars": 5020,
-  "forks": 845,
+  "stars": 5025,
+  "forks": 844,
   "watchers": 160,
   "open_issues": 555,
   "created_at": "2013-01-07T11:49:18Z",
@@ -32,10 +32,10 @@
   "category": "other",
   "flags": [],
   "usability_score": 100,
-  "snapshot_days": 33,
+  "snapshot_days": 34,
   "is_indexable": true,
   "first_seen_at": "2026-09-24T23:48:41.712Z",
   "tracking_tier": "normal",
-  "last_fetched_date": "2026-10-27",
+  "last_fetched_date": "2026-10-30",
   "stars_stagnant_days": 1
 }

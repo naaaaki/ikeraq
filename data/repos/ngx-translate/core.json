@@ -14,11 +14,11 @@
     "translation"
   ],
   "stars": 4659,
-  "forks": 590,
+  "forks": 589,
   "watchers": 96,
-  "open_issues": 28,
+  "open_issues": 26,
   "created_at": "2015-10-11T08:44:15Z",
-  "pushed_at": "2026-10-26T17:17:11Z",
+  "pushed_at": "2026-10-29T15:07:44Z",
   "is_archived": false,
   "license_spdx": "MIT",
   "license_category": "permissive",
@@ -31,10 +31,10 @@
   "category": "other",
   "flags": [],
   "usability_score": 100,
-  "snapshot_days": 32,
+  "snapshot_days": 33,
   "is_indexable": true,
   "first_seen_at": "2026-09-25T23:53:23.596Z",
   "tracking_tier": "normal",
-  "last_fetched_date": "2026-10-27",
+  "last_fetched_date": "2026-10-30",
   "stars_stagnant_days": 5
 }

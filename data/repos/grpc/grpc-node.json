@@ -10,11 +10,11 @@
     "hacktoberfest"
   ],
   "stars": 4841,
-  "forks": 721,
+  "forks": 720,
   "watchers": 67,
   "open_issues": 243,
   "created_at": "2017-08-02T18:20:33Z",
-  "pushed_at": "2026-10-20T21:45:22Z",
+  "pushed_at": "2026-10-29T15:21:27Z",
   "is_archived": false,
   "license_spdx": "Apache-2.0",
   "license_category": "permissive",
@@ -27,10 +27,10 @@
   "category": "backend",
   "flags": [],
   "usability_score": 100,
-  "snapshot_days": 33,
+  "snapshot_days": 34,
   "is_indexable": true,
   "first_seen_at": "2026-09-24T23:48:41.713Z",
   "tracking_tier": "normal",
-  "last_fetched_date": "2026-10-27",
+  "last_fetched_date": "2026-10-30",
   "stars_stagnant_days": 3
 }

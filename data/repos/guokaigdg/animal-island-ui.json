@@ -12,7 +12,7 @@
     "ui-components",
     "ui-design"
   ],
-  "stars": 5083,
+  "stars": 5088,
   "forks": 38,
   "watchers": 12,
   "open_issues": 3,
@@ -30,10 +30,10 @@
   "category": "web-frontend",
   "flags": [],
   "usability_score": 100,
-  "snapshot_days": 34,
+  "snapshot_days": 35,
   "is_indexable": true,
   "first_seen_at": "2026-09-25T23:53:23.596Z",
   "tracking_tier": "hot",
-  "last_fetched_date": "2026-10-29",
+  "last_fetched_date": "2026-10-30",
   "stars_stagnant_days": 0
 }

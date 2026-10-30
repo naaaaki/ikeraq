@@ -15,10 +15,10 @@
     "postgresql",
     "postgresql-extension"
   ],
-  "stars": 4916,
+  "stars": 4921,
   "forks": 543,
   "watchers": 77,
-  "open_issues": 260,
+  "open_issues": 265,
   "created_at": "2020-07-01T06:15:47Z",
   "pushed_at": "2026-10-13T20:50:40Z",
   "is_archived": false,
@@ -33,10 +33,10 @@
   "category": "data",
   "flags": [],
   "usability_score": 100,
-  "snapshot_days": 33,
+  "snapshot_days": 34,
   "is_indexable": true,
   "first_seen_at": "2026-09-24T23:48:41.713Z",
   "tracking_tier": "normal",
-  "last_fetched_date": "2026-10-27",
+  "last_fetched_date": "2026-10-30",
   "stars_stagnant_days": 1
 }

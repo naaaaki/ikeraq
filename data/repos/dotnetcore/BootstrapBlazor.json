@@ -18,12 +18,12 @@
     "wasm",
     "webassembly"
   ],
-  "stars": 4940,
+  "stars": 4945,
   "forks": 393,
   "watchers": 49,
-  "open_issues": 3,
+  "open_issues": 6,
   "created_at": "2020-03-20T10:37:54Z",
-  "pushed_at": "2026-10-26T06:05:37Z",
+  "pushed_at": "2026-10-29T14:39:00Z",
   "is_archived": false,
   "license_spdx": "Apache-2.0",
   "license_category": "permissive",
@@ -36,10 +36,10 @@
   "category": "web-frontend",
   "flags": [],
   "usability_score": 100,
-  "snapshot_days": 33,
+  "snapshot_days": 34,
   "is_indexable": true,
   "first_seen_at": "2026-09-24T23:48:41.712Z",
   "tracking_tier": "normal",
-  "last_fetched_date": "2026-10-27",
+  "last_fetched_date": "2026-10-30",
   "stars_stagnant_days": 4
 }

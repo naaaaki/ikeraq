@@ -25,10 +25,10 @@
     "wiki",
     "workspace"
   ],
-  "stars": 73946,
-  "forks": 5417,
+  "stars": 73970,
+  "forks": 5419,
   "watchers": 295,
-  "open_issues": 799,
+  "open_issues": 800,
   "created_at": "2022-07-31T18:45:21Z",
   "pushed_at": "2026-10-27T10:01:07Z",
   "is_archived": false,
@@ -43,10 +43,10 @@
   "category": "web-frontend",
   "flags": [],
   "usability_score": 100,
-  "snapshot_days": 61,
+  "snapshot_days": 62,
   "is_indexable": true,
   "first_seen_at": "2026-08-29T23:02:08.747Z",
   "tracking_tier": "hot",
-  "last_fetched_date": "2026-10-29",
+  "last_fetched_date": "2026-10-30",
   "stars_stagnant_days": 0
 }

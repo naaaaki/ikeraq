@@ -16,12 +16,12 @@
     "runtime",
     "windows"
   ],
-  "stars": 123129,
-  "forks": 39237,
+  "stars": 123090,
+  "forks": 39307,
   "watchers": null,
   "open_issues": 1292,
   "created_at": "2014-11-26T19:57:11Z",
-  "pushed_at": "2026-10-27T00:09:38Z",
+  "pushed_at": "2026-10-29T22:18:15Z",
   "is_archived": false,
   "license_spdx": "NOASSERTION",
   "license_category": "unknown",
@@ -34,10 +34,10 @@
   "category": "backend",
   "flags": [],
   "usability_score": 100,
-  "snapshot_days": 43,
+  "snapshot_days": 44,
   "is_indexable": true,
   "first_seen_at": "2026-08-29T15:46:21.820Z",
   "tracking_tier": "normal",
-  "last_fetched_date": "2026-10-27",
+  "last_fetched_date": "2026-10-30",
   "stars_stagnant_days": 1
 }

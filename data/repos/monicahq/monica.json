@@ -15,10 +15,10 @@
     "prm",
     "social"
   ],
-  "stars": 25538,
-  "forks": 2625,
+  "stars": 25543,
+  "forks": 2627,
   "watchers": 294,
-  "open_issues": 794,
+  "open_issues": 795,
   "created_at": "2017-02-17T00:02:58Z",
   "pushed_at": "2026-10-28T22:30:13Z",
   "is_archived": false,
@@ -39,10 +39,10 @@
     }
   ],
   "usability_score": 85,
-  "snapshot_days": 35,
+  "snapshot_days": 36,
   "is_indexable": true,
   "first_seen_at": "2026-09-24T23:48:41.710Z",
   "tracking_tier": "hot",
-  "last_fetched_date": "2026-10-29",
+  "last_fetched_date": "2026-10-30",
   "stars_stagnant_days": 0
 }

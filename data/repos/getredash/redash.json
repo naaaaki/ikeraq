@@ -4,7 +4,7 @@
   "name": "redash",
   "description_en": "Make Your Company Data Driven. Connect to any data source, easily visualize, dashboard and share your data.",
   "human_note": null,
-  "language": "Python",
+  "language": "TypeScript",
   "topics": [
     "analytics",
     "athena",
@@ -26,12 +26,12 @@
     "spark-sql",
     "visualization"
   ],
-  "stars": 28849,
-  "forks": 4637,
+  "stars": 28850,
+  "forks": 4632,
   "watchers": 567,
-  "open_issues": 817,
+  "open_issues": 787,
   "created_at": "2013-10-28T13:19:39Z",
-  "pushed_at": "2026-10-26T15:25:14Z",
+  "pushed_at": "2026-10-29T23:18:59Z",
   "is_archived": false,
   "license_spdx": "BSD-2-Clause",
   "license_category": "permissive",
@@ -44,10 +44,10 @@
   "category": "data",
   "flags": [],
   "usability_score": 100,
-  "snapshot_days": 41,
+  "snapshot_days": 42,
   "is_indexable": true,
   "first_seen_at": "2026-09-02T23:02:41.773Z",
   "tracking_tier": "normal",
-  "last_fetched_date": "2026-10-27",
+  "last_fetched_date": "2026-10-30",
   "stars_stagnant_days": 1
 }

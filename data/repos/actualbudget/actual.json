@@ -11,12 +11,12 @@
     "money",
     "personal-finance"
   ],
-  "stars": 29833,
-  "forks": 3219,
+  "stars": 29862,
+  "forks": 3222,
   "watchers": 88,
   "open_issues": 206,
   "created_at": "2022-04-29T02:41:34Z",
-  "pushed_at": "2026-10-28T20:49:30Z",
+  "pushed_at": "2026-10-29T21:26:01Z",
   "is_archived": false,
   "license_spdx": "MIT",
   "license_category": "permissive",
@@ -29,10 +29,10 @@
   "category": "other",
   "flags": [],
   "usability_score": 100,
-  "snapshot_days": 57,
+  "snapshot_days": 58,
   "is_indexable": true,
   "first_seen_at": "2026-09-02T23:02:41.773Z",
   "tracking_tier": "hot",
-  "last_fetched_date": "2026-10-29",
+  "last_fetched_date": "2026-10-30",
   "stars_stagnant_days": 0
 }

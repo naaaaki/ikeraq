@@ -27,8 +27,8 @@
     "vue-admin",
     "vue3"
   ],
-  "stars": 25103,
-  "forks": 7114,
+  "stars": 25109,
+  "forks": 7112,
   "watchers": 296,
   "open_issues": 39,
   "created_at": "2019-09-01T13:22:35Z",
@@ -45,10 +45,10 @@
   "category": "ai-agent",
   "flags": [],
   "usability_score": 100,
-  "snapshot_days": 36,
+  "snapshot_days": 37,
   "is_indexable": true,
   "first_seen_at": "2026-09-23T23:28:32.618Z",
   "tracking_tier": "hot",
-  "last_fetched_date": "2026-10-29",
+  "last_fetched_date": "2026-10-30",
   "stars_stagnant_days": 0
 }

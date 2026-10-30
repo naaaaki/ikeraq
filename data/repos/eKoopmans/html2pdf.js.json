@@ -12,12 +12,12 @@
     "javascript",
     "pdf-generation"
   ],
-  "stars": 4928,
-  "forks": 1717,
+  "stars": 4930,
+  "forks": 1716,
   "watchers": 66,
   "open_issues": 502,
   "created_at": "2017-03-29T00:24:44Z",
-  "pushed_at": "2026-10-26T14:25:21Z",
+  "pushed_at": "2026-10-29T12:39:26Z",
   "is_archived": false,
   "license_spdx": "MIT",
   "license_category": "permissive",
@@ -30,10 +30,10 @@
   "category": "web-frontend",
   "flags": [],
   "usability_score": 100,
-  "snapshot_days": 33,
+  "snapshot_days": 34,
   "is_indexable": true,
   "first_seen_at": "2026-09-24T23:48:41.712Z",
   "tracking_tier": "normal",
-  "last_fetched_date": "2026-10-27",
+  "last_fetched_date": "2026-10-30",
   "stars_stagnant_days": 1
 }

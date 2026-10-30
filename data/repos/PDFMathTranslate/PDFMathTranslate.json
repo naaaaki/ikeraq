@@ -26,12 +26,12 @@
     "translation",
     "zotero"
   ],
-  "stars": 38000,
-  "forks": 3408,
+  "stars": 38029,
+  "forks": 3411,
   "watchers": 128,
   "open_issues": 169,
   "created_at": "2024-09-06T06:56:03Z",
-  "pushed_at": "2026-10-29T00:02:09Z",
+  "pushed_at": "2026-10-30T00:24:16Z",
   "is_archived": false,
   "license_spdx": "AGPL-3.0",
   "license_category": "strong-copyleft",
@@ -50,10 +50,10 @@
     }
   ],
   "usability_score": 85,
-  "snapshot_days": 59,
+  "snapshot_days": 60,
   "is_indexable": true,
   "first_seen_at": "2026-09-01T00:26:13.032Z",
   "tracking_tier": "hot",
-  "last_fetched_date": "2026-10-29",
+  "last_fetched_date": "2026-10-30",
   "stars_stagnant_days": 0
 }

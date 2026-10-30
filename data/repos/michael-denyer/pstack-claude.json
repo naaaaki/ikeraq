@@ -27,12 +27,12 @@
     "opencode",
     "pstack"
   ],
-  "stars": 3579,
+  "stars": 3618,
   "forks": 334,
   "watchers": 7,
-  "open_issues": 5,
+  "open_issues": 10,
   "created_at": "2026-05-26T13:26:00Z",
-  "pushed_at": "2026-10-28T22:44:17Z",
+  "pushed_at": "2026-10-29T20:13:09Z",
   "is_archived": false,
   "license_spdx": "MIT",
   "license_category": "permissive",
@@ -45,10 +45,10 @@
   "category": "ai-agent",
   "flags": [],
   "usability_score": 100,
-  "snapshot_days": 25,
+  "snapshot_days": 26,
   "is_indexable": true,
   "first_seen_at": "2026-10-04T23:52:52.057Z",
   "tracking_tier": "hot",
-  "last_fetched_date": "2026-10-29",
+  "last_fetched_date": "2026-10-30",
   "stars_stagnant_days": 0
 }

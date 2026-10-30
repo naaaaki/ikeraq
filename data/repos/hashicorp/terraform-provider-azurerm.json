@@ -11,12 +11,12 @@
     "terraform",
     "terraform-provider"
   ],
-  "stars": 4977,
+  "stars": 4979,
   "forks": 5068,
   "watchers": 234,
-  "open_issues": 2951,
+  "open_issues": 2958,
   "created_at": "2017-06-05T20:53:54Z",
-  "pushed_at": "2026-10-26T21:19:33Z",
+  "pushed_at": "2026-10-29T20:03:36Z",
   "is_archived": false,
   "license_spdx": "MPL-2.0",
   "license_category": "weak-copyleft",
@@ -29,10 +29,10 @@
   "category": "infra",
   "flags": [],
   "usability_score": 100,
-  "snapshot_days": 33,
+  "snapshot_days": 34,
   "is_indexable": true,
   "first_seen_at": "2026-09-24T23:48:41.711Z",
   "tracking_tier": "normal",
-  "last_fetched_date": "2026-10-27",
+  "last_fetched_date": "2026-10-30",
   "stars_stagnant_days": 13
 }

@@ -19,7 +19,7 @@
     "web-framework",
     "webworkers"
   ],
-  "stars": 32836,
+  "stars": 32843,
   "forks": 1452,
   "watchers": 289,
   "open_issues": 129,
@@ -37,10 +37,10 @@
   "category": "backend",
   "flags": [],
   "usability_score": 100,
-  "snapshot_days": 40,
+  "snapshot_days": 41,
   "is_indexable": true,
   "first_seen_at": "2026-09-01T23:05:22.650Z",
   "tracking_tier": "normal",
-  "last_fetched_date": "2026-10-27",
+  "last_fetched_date": "2026-10-30",
   "stars_stagnant_days": 1
 }

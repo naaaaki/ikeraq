@@ -14,12 +14,12 @@
     "ruby",
     "test-coverage"
   ],
-  "stars": 4927,
+  "stars": 4926,
   "forks": 583,
   "watchers": 58,
   "open_issues": 0,
   "created_at": "2010-08-15T15:28:56Z",
-  "pushed_at": "2026-10-26T21:24:36Z",
+  "pushed_at": "2026-10-29T14:48:55Z",
   "is_archived": false,
   "license_spdx": "MIT",
   "license_category": "permissive",
@@ -32,10 +32,10 @@
   "category": "other",
   "flags": [],
   "usability_score": 100,
-  "snapshot_days": 33,
+  "snapshot_days": 34,
   "is_indexable": true,
   "first_seen_at": "2026-09-24T23:48:41.712Z",
   "tracking_tier": "normal",
-  "last_fetched_date": "2026-10-27",
+  "last_fetched_date": "2026-10-30",
   "stars_stagnant_days": 2
 }

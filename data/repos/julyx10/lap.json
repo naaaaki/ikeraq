@@ -26,12 +26,12 @@
     "vue",
     "windows-app"
   ],
-  "stars": 4113,
-  "forks": 237,
+  "stars": 4133,
+  "forks": 240,
   "watchers": 27,
-  "open_issues": 64,
+  "open_issues": 77,
   "created_at": "2024-08-11T16:24:28Z",
-  "pushed_at": "2026-10-28T12:10:27Z",
+  "pushed_at": "2026-10-29T13:34:10Z",
   "is_archived": false,
   "license_spdx": "GPL-3.0",
   "license_category": "strong-copyleft",
@@ -50,10 +50,10 @@
     }
   ],
   "usability_score": 85,
-  "snapshot_days": 35,
+  "snapshot_days": 36,
   "is_indexable": true,
   "first_seen_at": "2026-09-24T23:48:41.504Z",
   "tracking_tier": "hot",
-  "last_fetched_date": "2026-10-29",
+  "last_fetched_date": "2026-10-30",
   "stars_stagnant_days": 0
 }

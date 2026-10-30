@@ -24,10 +24,10 @@
     "web-automation",
     "web-scraping"
   ],
-  "stars": 119219,
-  "forks": 13260,
+  "stars": 119499,
+  "forks": 13301,
   "watchers": null,
-  "open_issues": 615,
+  "open_issues": 622,
   "created_at": "2024-10-31T16:00:56Z",
   "pushed_at": "2026-10-27T00:02:24Z",
   "is_archived": false,
@@ -42,10 +42,10 @@
   "category": "ai-agent",
   "flags": [],
   "usability_score": 100,
-  "snapshot_days": 47,
+  "snapshot_days": 48,
   "is_indexable": true,
   "first_seen_at": "2026-08-29T15:46:21.820Z",
   "tracking_tier": "normal",
-  "last_fetched_date": "2026-10-27",
+  "last_fetched_date": "2026-10-30",
   "stars_stagnant_days": 1
 }
