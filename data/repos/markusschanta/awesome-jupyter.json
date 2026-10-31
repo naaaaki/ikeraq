@@ -20,12 +20,12 @@
     "python",
     "visualization"
   ],
-  "stars": 4686,
-  "forks": 464,
+  "stars": 4685,
+  "forks": 466,
   "watchers": 113,
-  "open_issues": 11,
+  "open_issues": 13,
   "created_at": "2017-08-27T22:00:02Z",
-  "pushed_at": "2026-10-27T02:29:03Z",
+  "pushed_at": "2026-10-30T03:00:53Z",
   "is_archived": false,
   "license_spdx": "CC-BY-SA-4.0",
   "license_category": "strong-copyleft",
@@ -44,10 +44,10 @@
     }
   ],
   "usability_score": 85,
-  "snapshot_days": 33,
+  "snapshot_days": 34,
   "is_indexable": true,
   "first_seen_at": "2026-09-25T23:53:23.596Z",
   "tracking_tier": "normal",
-  "last_fetched_date": "2026-10-28",
+  "last_fetched_date": "2026-10-31",
   "stars_stagnant_days": 1
 }

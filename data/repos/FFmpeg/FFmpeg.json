@@ -22,12 +22,12 @@
     "video",
     "webm"
   ],
-  "stars": 66042,
-  "forks": 14463,
+  "stars": 66092,
+  "forks": 14473,
   "watchers": 1554,
   "open_issues": 3,
   "created_at": "2011-04-14T14:12:38Z",
-  "pushed_at": "2026-10-30T00:33:58Z",
+  "pushed_at": "2026-10-30T20:52:44Z",
   "is_archived": false,
   "license_spdx": "NOASSERTION",
   "license_category": "unknown",
@@ -40,10 +40,10 @@
   "category": "other",
   "flags": [],
   "usability_score": 100,
-  "snapshot_days": 62,
+  "snapshot_days": 63,
   "is_indexable": true,
   "first_seen_at": "2026-08-29T23:02:08.747Z",
   "tracking_tier": "hot",
-  "last_fetched_date": "2026-10-30",
+  "last_fetched_date": "2026-10-31",
   "stars_stagnant_days": 0
 }

@@ -14,10 +14,10 @@
     "quantitative-finance",
     "quantitative-trading"
   ],
-  "stars": 67267,
-  "forks": 55743,
+  "stars": 67299,
+  "forks": 55759,
   "watchers": 268,
-  "open_issues": 42,
+  "open_issues": 43,
   "created_at": "2026-01-10T06:43:20Z",
   "pushed_at": "2026-10-25T13:40:20Z",
   "is_archived": false,
@@ -32,10 +32,10 @@
   "category": "ai-agent",
   "flags": [],
   "usability_score": 100,
-  "snapshot_days": 62,
+  "snapshot_days": 63,
   "is_indexable": true,
   "first_seen_at": "2026-08-29T23:02:08.747Z",
   "tracking_tier": "hot",
-  "last_fetched_date": "2026-10-30",
+  "last_fetched_date": "2026-10-31",
   "stars_stagnant_days": 0
 }

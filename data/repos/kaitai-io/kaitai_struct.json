@@ -26,10 +26,10 @@
     "ruby",
     "rust"
   ],
-  "stars": 4719,
-  "forks": 212,
+  "stars": 4727,
+  "forks": 213,
   "watchers": 96,
-  "open_issues": 530,
+  "open_issues": 531,
   "created_at": "2016-02-20T15:17:00Z",
   "pushed_at": "2026-10-26T19:06:07Z",
   "is_archived": false,
@@ -50,10 +50,10 @@
     }
   ],
   "usability_score": 60,
-  "snapshot_days": 33,
+  "snapshot_days": 34,
   "is_indexable": true,
   "first_seen_at": "2026-09-25T23:53:23.596Z",
   "tracking_tier": "normal",
-  "last_fetched_date": "2026-10-28",
+  "last_fetched_date": "2026-10-31",
   "stars_stagnant_days": 1
 }

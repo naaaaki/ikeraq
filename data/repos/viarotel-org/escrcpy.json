@@ -25,10 +25,10 @@
     "screenshots",
     "windows"
   ],
-  "stars": 12232,
-  "forks": 859,
+  "stars": 12242,
+  "forks": 860,
   "watchers": 55,
-  "open_issues": 35,
+  "open_issues": 36,
   "created_at": "2023-09-15T02:42:13Z",
   "pushed_at": "2026-10-26T10:07:13Z",
   "is_archived": false,
@@ -43,10 +43,10 @@
   "category": "mobile",
   "flags": [],
   "usability_score": 100,
-  "snapshot_days": 52,
+  "snapshot_days": 53,
   "is_indexable": true,
   "first_seen_at": "2026-09-08T23:15:15.673Z",
   "tracking_tier": "hot",
-  "last_fetched_date": "2026-10-30",
+  "last_fetched_date": "2026-10-31",
   "stars_stagnant_days": 0
 }

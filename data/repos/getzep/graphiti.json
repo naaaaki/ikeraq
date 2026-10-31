@@ -11,8 +11,8 @@
     "llms",
     "rag"
   ],
-  "stars": 32343,
-  "forks": 3323,
+  "stars": 32374,
+  "forks": 3322,
   "watchers": 174,
   "open_issues": 530,
   "created_at": "2024-08-08T22:08:30Z",
@@ -29,10 +29,10 @@
   "category": "ai-agent",
   "flags": [],
   "usability_score": 100,
-  "snapshot_days": 59,
+  "snapshot_days": 60,
   "is_indexable": true,
   "first_seen_at": "2026-09-01T23:05:22.650Z",
   "tracking_tier": "hot",
-  "last_fetched_date": "2026-10-30",
+  "last_fetched_date": "2026-10-31",
   "stars_stagnant_days": 0
 }

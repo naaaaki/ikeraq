@@ -21,12 +21,12 @@
     "workflow-automation",
     "youtube-shorts"
   ],
-  "stars": 136309,
-  "forks": 21693,
+  "stars": 136607,
+  "forks": 21753,
   "watchers": 804,
   "open_issues": 81,
   "created_at": "2024-03-11T02:57:34Z",
-  "pushed_at": "2026-10-29T12:42:40Z",
+  "pushed_at": "2026-10-31T00:22:09Z",
   "is_archived": false,
   "license_spdx": "MIT",
   "license_category": "permissive",
@@ -39,10 +39,10 @@
   "category": "llm",
   "flags": [],
   "usability_score": 100,
-  "snapshot_days": 62,
+  "snapshot_days": 63,
   "is_indexable": true,
   "first_seen_at": "2026-08-29T15:46:21.820Z",
   "tracking_tier": "hot",
-  "last_fetched_date": "2026-10-30",
+  "last_fetched_date": "2026-10-31",
   "stars_stagnant_days": 0
 }

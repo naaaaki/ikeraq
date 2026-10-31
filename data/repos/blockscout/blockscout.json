@@ -11,12 +11,12 @@
     "ethereum",
     "explorer"
   ],
-  "stars": 4763,
+  "stars": 4769,
   "forks": 3212,
   "watchers": 140,
-  "open_issues": 170,
+  "open_issues": 173,
   "created_at": "2018-01-12T22:45:24Z",
-  "pushed_at": "2026-10-27T22:43:11Z",
+  "pushed_at": "2026-10-30T17:12:29Z",
   "is_archived": false,
   "license_spdx": "NOASSERTION",
   "license_category": "unknown",
@@ -29,10 +29,10 @@
   "category": "other",
   "flags": [],
   "usability_score": 100,
-  "snapshot_days": 33,
+  "snapshot_days": 34,
   "is_indexable": true,
   "first_seen_at": "2026-09-25T23:53:23.595Z",
   "tracking_tier": "normal",
-  "last_fetched_date": "2026-10-28",
+  "last_fetched_date": "2026-10-31",
   "stars_stagnant_days": 1
 }

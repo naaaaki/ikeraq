@@ -13,11 +13,11 @@
     "oci"
   ],
   "stars": 33149,
-  "forks": 3429,
+  "forks": 3431,
   "watchers": 223,
-  "open_issues": 975,
+  "open_issues": 979,
   "created_at": "2017-11-01T15:01:27Z",
-  "pushed_at": "2026-10-29T18:07:20Z",
+  "pushed_at": "2026-10-30T16:53:06Z",
   "is_archived": false,
   "license_spdx": "Apache-2.0",
   "license_category": "permissive",
@@ -30,10 +30,10 @@
   "category": "infra",
   "flags": [],
   "usability_score": 100,
-  "snapshot_days": 59,
+  "snapshot_days": 60,
   "is_indexable": true,
   "first_seen_at": "2026-09-01T23:05:22.650Z",
-  "tracking_tier": "hot",
-  "last_fetched_date": "2026-10-30",
-  "stars_stagnant_days": 0
+  "tracking_tier": "normal",
+  "last_fetched_date": "2026-10-31",
+  "stars_stagnant_days": 1
 }

@@ -27,12 +27,12 @@
     "remarkable-tablet",
     "ubuntu-touch"
   ],
-  "stars": 30740,
-  "forks": 2010,
+  "stars": 30756,
+  "forks": 2009,
   "watchers": 345,
-  "open_issues": 1395,
+  "open_issues": 1397,
   "created_at": "2013-03-24T13:09:42Z",
-  "pushed_at": "2026-10-29T21:30:25Z",
+  "pushed_at": "2026-10-30T22:19:51Z",
   "is_archived": false,
   "license_spdx": "AGPL-3.0",
   "license_category": "strong-copyleft",
@@ -51,10 +51,10 @@
     }
   ],
   "usability_score": 85,
-  "snapshot_days": 58,
+  "snapshot_days": 59,
   "is_indexable": true,
   "first_seen_at": "2026-09-02T23:02:41.773Z",
   "tracking_tier": "hot",
-  "last_fetched_date": "2026-10-30",
+  "last_fetched_date": "2026-10-31",
   "stars_stagnant_days": 0
 }

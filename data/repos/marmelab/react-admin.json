@@ -19,12 +19,12 @@
     "rest",
     "single-page-app"
   ],
-  "stars": 26973,
-  "forks": 5471,
+  "stars": 26977,
+  "forks": 5473,
   "watchers": null,
   "open_issues": 64,
   "created_at": "2016-07-13T07:58:54Z",
-  "pushed_at": "2026-10-27T16:49:06Z",
+  "pushed_at": "2026-10-30T17:19:17Z",
   "is_archived": false,
   "license_spdx": "MIT",
   "license_category": "permissive",
@@ -37,10 +37,10 @@
   "category": "web-frontend",
   "flags": [],
   "usability_score": 100,
-  "snapshot_days": 43,
+  "snapshot_days": 44,
   "is_indexable": true,
   "first_seen_at": "2026-09-03T23:03:15.575Z",
   "tracking_tier": "normal",
-  "last_fetched_date": "2026-10-28",
+  "last_fetched_date": "2026-10-31",
   "stars_stagnant_days": 1
 }

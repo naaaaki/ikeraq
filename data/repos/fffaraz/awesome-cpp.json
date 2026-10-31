@@ -19,8 +19,8 @@
     "programming-tutorial",
     "resources"
   ],
-  "stars": 74094,
-  "forks": 8360,
+  "stars": 74109,
+  "forks": 8362,
   "watchers": 2037,
   "open_issues": 312,
   "created_at": "2014-07-17T08:51:11Z",
@@ -37,10 +37,10 @@
   "category": "learning",
   "flags": [],
   "usability_score": 100,
-  "snapshot_days": 59,
+  "snapshot_days": 60,
   "is_indexable": true,
   "first_seen_at": "2026-09-01T23:05:22.650Z",
   "tracking_tier": "hot",
-  "last_fetched_date": "2026-10-30",
+  "last_fetched_date": "2026-10-31",
   "stars_stagnant_days": 0
 }

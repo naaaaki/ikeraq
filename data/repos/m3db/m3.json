@@ -15,7 +15,7 @@
     "query-engine",
     "tsdb"
   ],
-  "stars": 4909,
+  "stars": 4908,
   "forks": 460,
   "watchers": 106,
   "open_issues": 171,
@@ -33,10 +33,10 @@
   "category": "infra",
   "flags": [],
   "usability_score": 100,
-  "snapshot_days": 34,
+  "snapshot_days": 35,
   "is_indexable": true,
   "first_seen_at": "2026-09-24T23:48:41.712Z",
   "tracking_tier": "normal",
-  "last_fetched_date": "2026-10-28",
+  "last_fetched_date": "2026-10-31",
   "stars_stagnant_days": 1
 }

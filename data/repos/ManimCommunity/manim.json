@@ -12,8 +12,8 @@
     "math",
     "python"
   ],
-  "stars": 41994,
-  "forks": 3247,
+  "stars": 42028,
+  "forks": 3252,
   "watchers": 67,
   "open_issues": 393,
   "created_at": "2020-05-19T02:37:13Z",
@@ -30,10 +30,10 @@
   "category": "other",
   "flags": [],
   "usability_score": 100,
-  "snapshot_days": 60,
+  "snapshot_days": 61,
   "is_indexable": true,
   "first_seen_at": "2026-09-01T00:26:13.031Z",
   "tracking_tier": "hot",
-  "last_fetched_date": "2026-10-30",
+  "last_fetched_date": "2026-10-31",
   "stars_stagnant_days": 0
 }

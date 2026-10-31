@@ -13,8 +13,8 @@
     "mobile",
     "security"
   ],
-  "stars": 15631,
-  "forks": 1509,
+  "stars": 15642,
+  "forks": 1510,
   "watchers": 297,
   "open_issues": 65,
   "created_at": "2021-07-16T05:50:44Z",
@@ -31,10 +31,10 @@
   "category": "security",
   "flags": [],
   "usability_score": 100,
-  "snapshot_days": 37,
+  "snapshot_days": 38,
   "is_indexable": true,
   "first_seen_at": "2026-09-23T23:28:32.259Z",
   "tracking_tier": "hot",
-  "last_fetched_date": "2026-10-30",
+  "last_fetched_date": "2026-10-31",
   "stars_stagnant_days": 0
 }

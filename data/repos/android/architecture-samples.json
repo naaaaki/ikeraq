@@ -11,12 +11,12 @@
     "sample",
     "samples"
   ],
-  "stars": 45871,
+  "stars": 45877,
   "forks": 11851,
   "watchers": 2374,
   "open_issues": 228,
   "created_at": "2016-02-05T13:42:07Z",
-  "pushed_at": "2026-10-21T19:36:56Z",
+  "pushed_at": "2026-10-30T22:35:43Z",
   "is_archived": false,
   "license_spdx": "Apache-2.0",
   "license_category": "permissive",
@@ -29,10 +29,10 @@
   "category": "mobile",
   "flags": [],
   "usability_score": 100,
-  "snapshot_days": 41,
+  "snapshot_days": 42,
   "is_indexable": true,
   "first_seen_at": "2026-08-30T23:15:18.750Z",
   "tracking_tier": "normal",
-  "last_fetched_date": "2026-10-28",
+  "last_fetched_date": "2026-10-31",
   "stars_stagnant_days": 1
 }

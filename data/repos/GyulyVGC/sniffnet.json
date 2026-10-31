@@ -27,7 +27,7 @@
     "utility",
     "windows"
   ],
-  "stars": 41749,
+  "stars": 41772,
   "forks": 1940,
   "watchers": 183,
   "open_issues": 55,
@@ -45,10 +45,10 @@
   "category": "security",
   "flags": [],
   "usability_score": 100,
-  "snapshot_days": 61,
+  "snapshot_days": 62,
   "is_indexable": true,
   "first_seen_at": "2026-08-30T23:15:18.750Z",
   "tracking_tier": "hot",
-  "last_fetched_date": "2026-10-30",
+  "last_fetched_date": "2026-10-31",
   "stars_stagnant_days": 0
 }

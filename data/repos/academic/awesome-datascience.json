@@ -17,10 +17,10 @@
     "machine-learning",
     "science"
   ],
-  "stars": 30248,
-  "forks": 6693,
+  "stars": 30250,
+  "forks": 6699,
   "watchers": 1364,
-  "open_issues": 7,
+  "open_issues": 9,
   "created_at": "2014-07-05T07:07:43Z",
   "pushed_at": "2026-10-27T18:07:54Z",
   "is_archived": false,
@@ -35,10 +35,10 @@
   "category": "data",
   "flags": [],
   "usability_score": 100,
-  "snapshot_days": 52,
+  "snapshot_days": 53,
   "is_indexable": true,
   "first_seen_at": "2026-09-02T23:02:41.773Z",
   "tracking_tier": "normal",
-  "last_fetched_date": "2026-10-28",
+  "last_fetched_date": "2026-10-31",
   "stars_stagnant_days": 1
 }

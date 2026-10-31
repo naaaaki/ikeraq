@@ -14,12 +14,12 @@
     "php-installation",
     "php-library"
   ],
-  "stars": 32777,
+  "stars": 32779,
   "forks": 5131,
   "watchers": 1665,
-  "open_issues": 80,
+  "open_issues": 79,
   "created_at": "2013-11-26T03:14:19Z",
-  "pushed_at": "2026-10-29T20:59:53Z",
+  "pushed_at": "2026-10-30T20:46:41Z",
   "is_archived": false,
   "license_spdx": "WTFPL",
   "license_category": "permissive",
@@ -32,10 +32,10 @@
   "category": "learning",
   "flags": [],
   "usability_score": 100,
-  "snapshot_days": 33,
+  "snapshot_days": 34,
   "is_indexable": true,
   "first_seen_at": "2026-09-27T23:42:32.511Z",
   "tracking_tier": "hot",
-  "last_fetched_date": "2026-10-30",
+  "last_fetched_date": "2026-10-31",
   "stars_stagnant_days": 0
 }

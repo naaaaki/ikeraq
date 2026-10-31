@@ -11,10 +11,10 @@
     "sideloading",
     "sidestore"
   ],
-  "stars": 4401,
-  "forks": 334,
+  "stars": 4426,
+  "forks": 337,
   "watchers": 30,
-  "open_issues": 500,
+  "open_issues": 498,
   "created_at": "2025-11-02T04:21:23Z",
   "pushed_at": "2026-10-29T16:38:40Z",
   "is_archived": false,
@@ -29,10 +29,10 @@
   "category": "mobile",
   "flags": [],
   "usability_score": 100,
-  "snapshot_days": 49,
+  "snapshot_days": 50,
   "is_indexable": true,
   "first_seen_at": "2026-09-11T23:02:09.881Z",
   "tracking_tier": "hot",
-  "last_fetched_date": "2026-10-30",
+  "last_fetched_date": "2026-10-31",
   "stars_stagnant_days": 0
 }

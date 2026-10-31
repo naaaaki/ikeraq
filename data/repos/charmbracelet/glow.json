@@ -11,10 +11,10 @@
     "hacktoberfest",
     "markdown"
   ],
-  "stars": 27857,
-  "forks": 807,
+  "stars": 27865,
+  "forks": 809,
   "watchers": 83,
-  "open_issues": 262,
+  "open_issues": 264,
   "created_at": "2019-11-04T23:34:55Z",
   "pushed_at": "2026-10-05T11:11:20Z",
   "is_archived": false,
@@ -29,10 +29,10 @@
   "category": "dev-tool",
   "flags": [],
   "usability_score": 100,
-  "snapshot_days": 57,
+  "snapshot_days": 58,
   "is_indexable": true,
   "first_seen_at": "2026-09-03T23:03:15.575Z",
   "tracking_tier": "hot",
-  "last_fetched_date": "2026-10-30",
+  "last_fetched_date": "2026-10-31",
   "stars_stagnant_days": 0
 }

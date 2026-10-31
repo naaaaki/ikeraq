@@ -27,12 +27,12 @@
     "openai-chatgpt",
     "reverse-engineering"
   ],
-  "stars": 66949,
-  "forks": 13468,
+  "stars": 66954,
+  "forks": 13470,
   "watchers": 489,
-  "open_issues": 8,
+  "open_issues": 9,
   "created_at": "2023-03-29T17:00:43Z",
-  "pushed_at": "2026-10-27T22:44:32Z",
+  "pushed_at": "2026-10-31T00:17:47Z",
   "is_archived": false,
   "license_spdx": "GPL-3.0",
   "license_category": "strong-copyleft",
@@ -51,10 +51,10 @@
     }
   ],
   "usability_score": 85,
-  "snapshot_days": 42,
+  "snapshot_days": 43,
   "is_indexable": true,
   "first_seen_at": "2026-08-29T23:02:08.747Z",
   "tracking_tier": "normal",
-  "last_fetched_date": "2026-10-28",
+  "last_fetched_date": "2026-10-31",
   "stars_stagnant_days": 1
 }

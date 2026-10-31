@@ -9,8 +9,8 @@
     "android",
     "xposed"
   ],
-  "stars": 25241,
-  "forks": 3598,
+  "stars": 25263,
+  "forks": 3599,
   "watchers": 340,
   "open_issues": 5,
   "created_at": "2020-12-12T08:39:37Z",
@@ -33,10 +33,10 @@
     }
   ],
   "usability_score": 85,
-  "snapshot_days": 37,
+  "snapshot_days": 38,
   "is_indexable": true,
   "first_seen_at": "2026-09-23T23:28:32.618Z",
   "tracking_tier": "hot",
-  "last_fetched_date": "2026-10-30",
+  "last_fetched_date": "2026-10-31",
   "stars_stagnant_days": 0
 }
