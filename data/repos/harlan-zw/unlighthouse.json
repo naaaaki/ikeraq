@@ -10,8 +10,8 @@
     "puppeteer",
     "site-audit"
   ],
-  "stars": 4928,
-  "forks": 181,
+  "stars": 4929,
+  "forks": 182,
   "watchers": 27,
   "open_issues": 32,
   "created_at": "2021-10-31T07:14:30Z",
@@ -28,10 +28,10 @@
   "category": "other",
   "flags": [],
   "usability_score": 100,
-  "snapshot_days": 37,
+  "snapshot_days": 38,
   "is_indexable": true,
   "first_seen_at": "2026-09-24T23:48:41.712Z",
   "tracking_tier": "hot",
-  "last_fetched_date": "2026-10-31",
+  "last_fetched_date": "2026-11-01",
   "stars_stagnant_days": 0
 }

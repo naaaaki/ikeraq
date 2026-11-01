@@ -23,10 +23,10 @@
     "oauth2",
     "rust"
   ],
-  "stars": 32009,
-  "forks": 1968,
+  "stars": 32025,
+  "forks": 1973,
   "watchers": 97,
-  "open_issues": 139,
+  "open_issues": 140,
   "created_at": "2026-03-02T19:46:06Z",
   "pushed_at": "2026-10-30T16:06:54Z",
   "is_archived": false,
@@ -41,10 +41,10 @@
   "category": "ai-agent",
   "flags": [],
   "usability_score": 100,
-  "snapshot_days": 54,
+  "snapshot_days": 55,
   "is_indexable": true,
   "first_seen_at": "2026-09-07T23:19:48.975Z",
   "tracking_tier": "hot",
-  "last_fetched_date": "2026-10-31",
+  "last_fetched_date": "2026-11-01",
   "stars_stagnant_days": 0
 }

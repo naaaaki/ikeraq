@@ -20,7 +20,7 @@
     "swift-library",
     "swift-programming"
   ],
-  "stars": 53819,
+  "stars": 53829,
   "forks": 7029,
   "watchers": 1769,
   "open_issues": 32,
@@ -38,10 +38,10 @@
   "category": "mobile",
   "flags": [],
   "usability_score": 100,
-  "snapshot_days": 63,
+  "snapshot_days": 64,
   "is_indexable": true,
   "first_seen_at": "2026-08-29T23:02:08.747Z",
   "tracking_tier": "hot",
-  "last_fetched_date": "2026-10-31",
+  "last_fetched_date": "2026-11-01",
   "stars_stagnant_days": 0
 }

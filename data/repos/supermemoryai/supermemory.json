@@ -19,10 +19,10 @@
     "typescript",
     "vite"
   ],
-  "stars": 31473,
-  "forks": 2762,
+  "stars": 31484,
+  "forks": 2763,
   "watchers": 110,
-  "open_issues": 39,
+  "open_issues": 42,
   "created_at": "2024-02-27T20:10:04Z",
   "pushed_at": "2026-10-30T21:21:21Z",
   "is_archived": false,
@@ -37,10 +37,10 @@
   "category": "ai-agent",
   "flags": [],
   "usability_score": 100,
-  "snapshot_days": 59,
+  "snapshot_days": 60,
   "is_indexable": true,
   "first_seen_at": "2026-09-02T23:02:41.773Z",
   "tracking_tier": "hot",
-  "last_fetched_date": "2026-10-31",
+  "last_fetched_date": "2026-11-01",
   "stars_stagnant_days": 0
 }

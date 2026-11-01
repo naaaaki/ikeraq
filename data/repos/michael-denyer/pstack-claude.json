@@ -27,10 +27,10 @@
     "opencode",
     "pstack"
   ],
-  "stars": 3664,
-  "forks": 337,
+  "stars": 3693,
+  "forks": 340,
   "watchers": 7,
-  "open_issues": 6,
+  "open_issues": 9,
   "created_at": "2026-05-26T13:26:00Z",
   "pushed_at": "2026-10-30T23:34:51Z",
   "is_archived": false,
@@ -45,10 +45,10 @@
   "category": "ai-agent",
   "flags": [],
   "usability_score": 100,
-  "snapshot_days": 27,
+  "snapshot_days": 28,
   "is_indexable": true,
   "first_seen_at": "2026-10-04T23:52:52.057Z",
   "tracking_tier": "hot",
-  "last_fetched_date": "2026-10-31",
+  "last_fetched_date": "2026-11-01",
   "stars_stagnant_days": 0
 }

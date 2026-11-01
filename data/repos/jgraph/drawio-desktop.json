@@ -11,7 +11,7 @@
     "graphics",
     "javascript-applications"
   ],
-  "stars": 63727,
+  "stars": 63732,
   "forks": 5803,
   "watchers": 568,
   "open_issues": 4,
@@ -35,10 +35,10 @@
     }
   ],
   "usability_score": 85,
-  "snapshot_days": 63,
+  "snapshot_days": 64,
   "is_indexable": true,
   "first_seen_at": "2026-08-29T23:02:08.747Z",
   "tracking_tier": "hot",
-  "last_fetched_date": "2026-10-31",
+  "last_fetched_date": "2026-11-01",
   "stars_stagnant_days": 0
 }

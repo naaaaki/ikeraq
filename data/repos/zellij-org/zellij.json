@@ -10,10 +10,10 @@
     "terminal",
     "workspace"
   ],
-  "stars": 35902,
-  "forks": 1514,
+  "stars": 35911,
+  "forks": 1516,
   "watchers": 115,
-  "open_issues": 1934,
+  "open_issues": 1935,
   "created_at": "2020-09-01T14:04:28Z",
   "pushed_at": "2026-10-30T16:09:49Z",
   "is_archived": false,
@@ -28,10 +28,10 @@
   "category": "dev-tool",
   "flags": [],
   "usability_score": 100,
-  "snapshot_days": 61,
+  "snapshot_days": 62,
   "is_indexable": true,
   "first_seen_at": "2026-09-01T00:26:13.032Z",
   "tracking_tier": "hot",
-  "last_fetched_date": "2026-10-31",
+  "last_fetched_date": "2026-11-01",
   "stars_stagnant_days": 0
 }

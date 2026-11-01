@@ -24,7 +24,7 @@
     "virtual",
     "xdr"
   ],
-  "stars": 34314,
+  "stars": 34333,
   "forks": 648,
   "watchers": 85,
   "open_issues": 95,
@@ -48,10 +48,10 @@
     }
   ],
   "usability_score": 60,
-  "snapshot_days": 60,
+  "snapshot_days": 61,
   "is_indexable": true,
   "first_seen_at": "2026-09-01T23:05:22.650Z",
   "tracking_tier": "hot",
-  "last_fetched_date": "2026-10-31",
+  "last_fetched_date": "2026-11-01",
   "stars_stagnant_days": 0
 }

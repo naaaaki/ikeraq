@@ -12,7 +12,7 @@
     "termux",
     "x11"
   ],
-  "stars": 5052,
+  "stars": 5060,
   "forks": 812,
   "watchers": 116,
   "open_issues": 28,
@@ -36,10 +36,10 @@
     }
   ],
   "usability_score": 85,
-  "snapshot_days": 36,
+  "snapshot_days": 37,
   "is_indexable": true,
   "first_seen_at": "2026-09-25T23:53:23.593Z",
   "tracking_tier": "hot",
-  "last_fetched_date": "2026-10-31",
+  "last_fetched_date": "2026-11-01",
   "stars_stagnant_days": 0
 }
