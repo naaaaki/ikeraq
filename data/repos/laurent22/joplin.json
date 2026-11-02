@@ -25,12 +25,12 @@
     "web-clipper",
     "webdav"
   ],
-  "stars": 56964,
-  "forks": 6381,
+  "stars": 56979,
+  "forks": 6383,
   "watchers": 492,
   "open_issues": 653,
   "created_at": "2017-01-16T21:49:41Z",
-  "pushed_at": "2026-10-30T16:00:00Z",
+  "pushed_at": "2026-11-01T22:01:07Z",
   "is_archived": false,
   "license_spdx": "NOASSERTION",
   "license_category": "unknown",
@@ -43,10 +43,10 @@
   "category": "web-frontend",
   "flags": [],
   "usability_score": 100,
-  "snapshot_days": 64,
+  "snapshot_days": 65,
   "is_indexable": true,
   "first_seen_at": "2026-08-29T23:02:08.747Z",
   "tracking_tier": "hot",
-  "last_fetched_date": "2026-11-01",
+  "last_fetched_date": "2026-11-02",
   "stars_stagnant_days": 0
 }

@@ -19,12 +19,12 @@
     "zsh-prompt",
     "zsh-theme"
   ],
-  "stars": 60541,
-  "forks": 2840,
+  "stars": 60554,
+  "forks": 2866,
   "watchers": 203,
   "open_issues": 1062,
   "created_at": "2019-04-02T03:23:12Z",
-  "pushed_at": "2026-10-30T19:50:07Z",
+  "pushed_at": "2026-11-01T18:18:00Z",
   "is_archived": false,
   "license_spdx": "ISC",
   "license_category": "permissive",
@@ -37,10 +37,10 @@
   "category": "llm",
   "flags": [],
   "usability_score": 100,
-  "snapshot_days": 64,
+  "snapshot_days": 65,
   "is_indexable": true,
   "first_seen_at": "2026-08-29T23:02:08.747Z",
   "tracking_tier": "hot",
-  "last_fetched_date": "2026-11-01",
+  "last_fetched_date": "2026-11-02",
   "stars_stagnant_days": 0
 }

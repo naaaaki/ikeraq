@@ -6,7 +6,7 @@
   "human_note": null,
   "language": "Swift",
   "topics": [],
-  "stars": 50998,
+  "stars": 51001,
   "forks": 1801,
   "watchers": 220,
   "open_issues": 583,
@@ -24,10 +24,10 @@
   "category": "other",
   "flags": [],
   "usability_score": 100,
-  "snapshot_days": 63,
+  "snapshot_days": 64,
   "is_indexable": true,
   "first_seen_at": "2026-08-30T23:15:18.749Z",
   "tracking_tier": "hot",
-  "last_fetched_date": "2026-11-01",
+  "last_fetched_date": "2026-11-02",
   "stars_stagnant_days": 0
 }

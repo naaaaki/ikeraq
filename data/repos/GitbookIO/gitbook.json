@@ -11,12 +11,12 @@
     "gitbook",
     "markdown"
   ],
-  "stars": 29076,
+  "stars": 29084,
   "forks": 4036,
   "watchers": null,
-  "open_issues": 90,
+  "open_issues": 88,
   "created_at": "2014-03-31T03:01:56Z",
-  "pushed_at": "2026-10-29T18:20:29Z",
+  "pushed_at": "2026-11-01T15:54:57Z",
   "is_archived": false,
   "license_spdx": "GPL-3.0",
   "license_category": "strong-copyleft",
@@ -35,10 +35,10 @@
     }
   ],
   "usability_score": 85,
-  "snapshot_days": 42,
+  "snapshot_days": 43,
   "is_indexable": true,
   "first_seen_at": "2026-09-02T23:02:41.773Z",
   "tracking_tier": "normal",
-  "last_fetched_date": "2026-10-30",
+  "last_fetched_date": "2026-11-02",
   "stars_stagnant_days": 1
 }

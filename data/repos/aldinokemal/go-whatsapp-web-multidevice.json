@@ -19,12 +19,12 @@
     "whatsapp-multi-device",
     "whatsapp-web-multi-device"
   ],
-  "stars": 4986,
-  "forks": 1212,
+  "stars": 4984,
+  "forks": 1214,
   "watchers": 62,
-  "open_issues": 51,
+  "open_issues": 61,
   "created_at": "2022-02-09T16:19:30Z",
-  "pushed_at": "2026-10-30T04:05:30Z",
+  "pushed_at": "2026-11-01T12:07:17Z",
   "is_archived": false,
   "license_spdx": "MIT",
   "license_category": "permissive",
@@ -37,10 +37,10 @@
   "category": "backend",
   "flags": [],
   "usability_score": 100,
-  "snapshot_days": 38,
+  "snapshot_days": 39,
   "is_indexable": true,
   "first_seen_at": "2026-09-24T23:48:41.712Z",
-  "tracking_tier": "hot",
-  "last_fetched_date": "2026-11-01",
-  "stars_stagnant_days": 0
+  "tracking_tier": "normal",
+  "last_fetched_date": "2026-11-02",
+  "stars_stagnant_days": 1
 }

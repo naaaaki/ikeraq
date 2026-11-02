@@ -14,12 +14,12 @@
     "spir-v",
     "vulkan"
   ],
-  "stars": 50137,
-  "forks": 4751,
+  "stars": 50450,
+  "forks": 4799,
   "watchers": 394,
-  "open_issues": 1967,
+  "open_issues": 2129,
   "created_at": "2026-08-03T21:30:25Z",
-  "pushed_at": "2026-10-31T23:54:58Z",
+  "pushed_at": "2026-11-01T23:29:51Z",
   "is_archived": false,
   "license_spdx": "GPL-2.0",
   "license_category": "strong-copyleft",
@@ -38,10 +38,10 @@
     }
   ],
   "usability_score": 85,
-  "snapshot_days": 26,
+  "snapshot_days": 27,
   "is_indexable": true,
   "first_seen_at": "2026-10-07T00:25:18.639Z",
   "tracking_tier": "hot",
-  "last_fetched_date": "2026-11-01",
+  "last_fetched_date": "2026-11-02",
   "stars_stagnant_days": 0
 }

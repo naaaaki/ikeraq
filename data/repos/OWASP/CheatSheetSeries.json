@@ -14,12 +14,12 @@
     "owasp",
     "security"
   ],
-  "stars": 33797,
-  "forks": 4702,
+  "stars": 33836,
+  "forks": 4707,
   "watchers": null,
-  "open_issues": 23,
+  "open_issues": 20,
   "created_at": "2018-12-21T14:26:43Z",
-  "pushed_at": "2026-10-28T11:45:55Z",
+  "pushed_at": "2026-11-01T14:44:10Z",
   "is_archived": false,
   "license_spdx": "CC-BY-SA-4.0",
   "license_category": "strong-copyleft",
@@ -38,10 +38,10 @@
     }
   ],
   "usability_score": 85,
-  "snapshot_days": 49,
+  "snapshot_days": 50,
   "is_indexable": true,
   "first_seen_at": "2026-09-01T23:05:22.650Z",
   "tracking_tier": "normal",
-  "last_fetched_date": "2026-10-30",
+  "last_fetched_date": "2026-11-02",
   "stars_stagnant_days": 1
 }

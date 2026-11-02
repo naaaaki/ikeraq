@@ -14,12 +14,12 @@
     "werkzeug",
     "wsgi"
   ],
-  "stars": 74920,
-  "forks": 17211,
+  "stars": 75162,
+  "forks": 17261,
   "watchers": 2130,
   "open_issues": 4,
   "created_at": "2010-04-06T11:11:59Z",
-  "pushed_at": "2026-10-07T14:02:59Z",
+  "pushed_at": "2026-10-30T15:05:22Z",
   "is_archived": false,
   "license_spdx": "BSD-3-Clause",
   "license_category": "permissive",
@@ -32,10 +32,10 @@
   "category": "backend",
   "flags": [],
   "usability_score": 100,
-  "snapshot_days": 42,
+  "snapshot_days": 43,
   "is_indexable": true,
   "first_seen_at": "2026-09-08T23:15:15.921Z",
   "tracking_tier": "normal",
-  "last_fetched_date": "2026-10-30",
+  "last_fetched_date": "2026-11-02",
   "stars_stagnant_days": 1
 }

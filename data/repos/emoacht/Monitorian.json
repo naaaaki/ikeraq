@@ -12,12 +12,12 @@
     "luminance",
     "monitor"
   ],
-  "stars": 4783,
+  "stars": 4792,
   "forks": 228,
   "watchers": 25,
-  "open_issues": 18,
+  "open_issues": 13,
   "created_at": "2017-01-18T21:34:07Z",
-  "pushed_at": "2026-10-22T09:03:03Z",
+  "pushed_at": "2026-10-31T13:15:44Z",
   "is_archived": false,
   "license_spdx": "MIT",
   "license_category": "permissive",
@@ -30,10 +30,10 @@
   "category": "other",
   "flags": [],
   "usability_score": 100,
-  "snapshot_days": 33,
+  "snapshot_days": 34,
   "is_indexable": true,
   "first_seen_at": "2026-09-25T23:53:23.595Z",
   "tracking_tier": "normal",
-  "last_fetched_date": "2026-10-30",
+  "last_fetched_date": "2026-11-02",
   "stars_stagnant_days": 1
 }

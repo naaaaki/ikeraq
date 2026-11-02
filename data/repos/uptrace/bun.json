@@ -18,10 +18,10 @@
     "sqlite",
     "sqlite3"
   ],
-  "stars": 5003,
-  "forks": 317,
+  "stars": 5005,
+  "forks": 316,
   "watchers": 27,
-  "open_issues": 50,
+  "open_issues": 52,
   "created_at": "2021-05-03T11:40:52Z",
   "pushed_at": "2026-10-29T15:26:38Z",
   "is_archived": false,
@@ -36,10 +36,10 @@
   "category": "data",
   "flags": [],
   "usability_score": 100,
-  "snapshot_days": 34,
+  "snapshot_days": 35,
   "is_indexable": true,
   "first_seen_at": "2026-09-24T23:48:41.711Z",
   "tracking_tier": "normal",
-  "last_fetched_date": "2026-10-30",
+  "last_fetched_date": "2026-11-02",
   "stars_stagnant_days": 1
 }

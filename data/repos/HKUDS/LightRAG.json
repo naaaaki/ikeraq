@@ -18,10 +18,10 @@
     "ragas",
     "retrieval-augmented-generation"
   ],
-  "stars": 40421,
-  "forks": 5739,
+  "stars": 40468,
+  "forks": 5750,
   "watchers": null,
-  "open_issues": 421,
+  "open_issues": 431,
   "created_at": "2024-10-02T11:57:54Z",
   "pushed_at": "2026-10-29T18:05:03Z",
   "is_archived": false,
@@ -36,10 +36,10 @@
   "category": "llm",
   "flags": [],
   "usability_score": 100,
-  "snapshot_days": 42,
+  "snapshot_days": 43,
   "is_indexable": true,
   "first_seen_at": "2026-09-01T00:26:13.031Z",
   "tracking_tier": "normal",
-  "last_fetched_date": "2026-10-30",
+  "last_fetched_date": "2026-11-02",
   "stars_stagnant_days": 1
 }

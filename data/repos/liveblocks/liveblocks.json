@@ -23,12 +23,12 @@
     "yjs",
     "yjs-provider"
   ],
-  "stars": 4764,
+  "stars": 4768,
   "forks": 449,
   "watchers": 23,
-  "open_issues": 98,
+  "open_issues": 100,
   "created_at": "2021-05-25T15:25:51Z",
-  "pushed_at": "2026-10-29T18:03:37Z",
+  "pushed_at": "2026-10-31T16:07:22Z",
   "is_archived": false,
   "license_spdx": "NOASSERTION",
   "license_category": "unknown",
@@ -41,10 +41,10 @@
   "category": "ai-agent",
   "flags": [],
   "usability_score": 100,
-  "snapshot_days": 33,
+  "snapshot_days": 34,
   "is_indexable": true,
   "first_seen_at": "2026-09-25T23:53:23.595Z",
   "tracking_tier": "normal",
-  "last_fetched_date": "2026-10-30",
+  "last_fetched_date": "2026-11-02",
   "stars_stagnant_days": 1
 }

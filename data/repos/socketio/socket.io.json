@@ -11,10 +11,10 @@
     "socket-io",
     "websocket"
   ],
-  "stars": 63225,
-  "forks": 10227,
-  "watchers": 1474,
-  "open_issues": 188,
+  "stars": 63236,
+  "forks": 10234,
+  "watchers": 1475,
+  "open_issues": 190,
   "created_at": "2010-03-11T18:24:48Z",
   "pushed_at": "2026-09-29T09:18:54Z",
   "is_archived": false,
@@ -29,10 +29,10 @@
   "category": "backend",
   "flags": [],
   "usability_score": 100,
-  "snapshot_days": 41,
+  "snapshot_days": 42,
   "is_indexable": true,
   "first_seen_at": "2026-09-03T23:03:15.574Z",
   "tracking_tier": "normal",
-  "last_fetched_date": "2026-10-30",
+  "last_fetched_date": "2026-11-02",
   "stars_stagnant_days": 1
 }

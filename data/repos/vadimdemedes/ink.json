@@ -13,7 +13,7 @@
     "javascript",
     "react"
   ],
-  "stars": 40205,
+  "stars": 40208,
   "forks": 1063,
   "watchers": 124,
   "open_issues": 34,
@@ -31,10 +31,10 @@
   "category": "web-frontend",
   "flags": [],
   "usability_score": 100,
-  "snapshot_days": 39,
+  "snapshot_days": 40,
   "is_indexable": true,
   "first_seen_at": "2026-09-23T23:28:32.616Z",
   "tracking_tier": "hot",
-  "last_fetched_date": "2026-11-01",
+  "last_fetched_date": "2026-11-02",
   "stars_stagnant_days": 0
 }

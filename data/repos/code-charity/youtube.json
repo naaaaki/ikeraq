@@ -23,10 +23,10 @@
     "youtube-player",
     "youtube-playlist"
   ],
-  "stars": 4656,
-  "forks": 1022,
+  "stars": 4662,
+  "forks": 1024,
   "watchers": 274,
-  "open_issues": 1461,
+  "open_issues": 1466,
   "created_at": "2018-03-02T10:05:24Z",
   "pushed_at": "2026-10-26T07:04:52Z",
   "is_archived": false,
@@ -41,10 +41,10 @@
   "category": "dev-tool",
   "flags": [],
   "usability_score": 100,
-  "snapshot_days": 34,
+  "snapshot_days": 35,
   "is_indexable": true,
   "first_seen_at": "2026-09-26T23:25:20.111Z",
   "tracking_tier": "normal",
-  "last_fetched_date": "2026-10-30",
+  "last_fetched_date": "2026-11-02",
   "stars_stagnant_days": 1
 }

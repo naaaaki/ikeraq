@@ -17,10 +17,10 @@
     "wechat-weapp",
     "wxapp"
   ],
-  "stars": 4730,
+  "stars": 4733,
   "forks": 741,
   "watchers": 89,
-  "open_issues": 482,
+  "open_issues": 479,
   "created_at": "2018-07-02T11:41:33Z",
   "pushed_at": "2026-09-25T09:56:03Z",
   "is_archived": false,
@@ -35,10 +35,10 @@
   "category": "web-frontend",
   "flags": [],
   "usability_score": 100,
-  "snapshot_days": 33,
+  "snapshot_days": 34,
   "is_indexable": true,
   "first_seen_at": "2026-09-25T23:53:23.595Z",
   "tracking_tier": "normal",
-  "last_fetched_date": "2026-10-30",
+  "last_fetched_date": "2026-11-02",
   "stars_stagnant_days": 3
 }

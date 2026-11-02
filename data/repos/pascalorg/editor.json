@@ -25,8 +25,8 @@
     "threejs",
     "typescript"
   ],
-  "stars": 25253,
-  "forks": 3141,
+  "stars": 25265,
+  "forks": 3139,
   "watchers": 130,
   "open_issues": 58,
   "created_at": "2025-10-16T19:35:06Z",
@@ -43,10 +43,10 @@
   "category": "ai-agent",
   "flags": [],
   "usability_score": 100,
-  "snapshot_days": 55,
+  "snapshot_days": 56,
   "is_indexable": true,
   "first_seen_at": "2026-09-07T23:19:48.974Z",
   "tracking_tier": "hot",
-  "last_fetched_date": "2026-11-01",
+  "last_fetched_date": "2026-11-02",
   "stars_stagnant_days": 0
 }

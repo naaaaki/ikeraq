@@ -27,10 +27,10 @@
     "theta",
     "time-series"
   ],
-  "stars": 4954,
-  "forks": 427,
+  "stars": 4958,
+  "forks": 430,
   "watchers": 44,
-  "open_issues": 194,
+  "open_issues": 195,
   "created_at": "2021-11-24T02:19:14Z",
   "pushed_at": "2026-10-29T03:30:57Z",
   "is_archived": false,
@@ -45,10 +45,10 @@
   "category": "learning",
   "flags": [],
   "usability_score": 100,
-  "snapshot_days": 36,
+  "snapshot_days": 37,
   "is_indexable": true,
   "first_seen_at": "2026-09-24T23:48:41.712Z",
   "tracking_tier": "normal",
-  "last_fetched_date": "2026-10-30",
+  "last_fetched_date": "2026-11-02",
   "stars_stagnant_days": 1
 }

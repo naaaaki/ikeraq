@@ -28,11 +28,11 @@
     "research-tool"
   ],
   "stars": 4861,
-  "forks": 3690,
+  "forks": 3691,
   "watchers": 107,
-  "open_issues": 497,
+  "open_issues": 500,
   "created_at": "2014-03-11T14:48:42Z",
-  "pushed_at": "2026-10-31T23:34:20Z",
+  "pushed_at": "2026-11-01T23:35:46Z",
   "is_archived": false,
   "license_spdx": "MIT",
   "license_category": "permissive",
@@ -45,10 +45,10 @@
   "category": "other",
   "flags": [],
   "usability_score": 100,
-  "snapshot_days": 37,
+  "snapshot_days": 38,
   "is_indexable": true,
   "first_seen_at": "2026-09-25T23:53:23.595Z",
-  "tracking_tier": "hot",
-  "last_fetched_date": "2026-11-01",
-  "stars_stagnant_days": 0
+  "tracking_tier": "normal",
+  "last_fetched_date": "2026-11-02",
+  "stars_stagnant_days": 1
 }

@@ -25,10 +25,10 @@
     "volume",
     "xcode"
   ],
-  "stars": 34606,
-  "forks": 1036,
+  "stars": 34612,
+  "forks": 1038,
   "watchers": 167,
-  "open_issues": 30,
+  "open_issues": 29,
   "created_at": "2017-09-16T21:13:40Z",
   "pushed_at": "2026-10-14T15:14:19Z",
   "is_archived": false,
@@ -43,10 +43,10 @@
   "category": "other",
   "flags": [],
   "usability_score": 100,
-  "snapshot_days": 61,
+  "snapshot_days": 62,
   "is_indexable": true,
   "first_seen_at": "2026-09-01T23:05:22.650Z",
   "tracking_tier": "hot",
-  "last_fetched_date": "2026-11-01",
+  "last_fetched_date": "2026-11-02",
   "stars_stagnant_days": 0
 }

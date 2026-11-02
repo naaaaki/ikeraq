@@ -27,12 +27,12 @@
     "x25519",
     "xhttp"
   ],
-  "stars": 49024,
-  "forks": 12614,
+  "stars": 49105,
+  "forks": 12615,
   "watchers": 302,
-  "open_issues": 268,
+  "open_issues": 269,
   "created_at": "2023-02-09T19:16:57Z",
-  "pushed_at": "2026-10-29T09:09:29Z",
+  "pushed_at": "2026-11-01T15:53:11Z",
   "is_archived": false,
   "license_spdx": "GPL-3.0",
   "license_category": "strong-copyleft",
@@ -51,10 +51,10 @@
     }
   ],
   "usability_score": 85,
-  "snapshot_days": 60,
+  "snapshot_days": 61,
   "is_indexable": true,
   "first_seen_at": "2026-09-02T23:02:41.773Z",
   "tracking_tier": "hot",
-  "last_fetched_date": "2026-11-01",
+  "last_fetched_date": "2026-11-02",
   "stars_stagnant_days": 0
 }

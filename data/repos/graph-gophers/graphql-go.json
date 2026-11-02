@@ -10,12 +10,12 @@
     "golang",
     "graphql"
   ],
-  "stars": 4754,
+  "stars": 4755,
   "forks": 501,
   "watchers": 76,
-  "open_issues": 9,
+  "open_issues": 40,
   "created_at": "2016-10-18T13:57:24Z",
-  "pushed_at": "2026-10-11T21:39:18Z",
+  "pushed_at": "2026-11-01T09:25:29Z",
   "is_archived": false,
   "license_spdx": "BSD-2-Clause",
   "license_category": "permissive",
@@ -28,10 +28,10 @@
   "category": "backend",
   "flags": [],
   "usability_score": 100,
-  "snapshot_days": 33,
+  "snapshot_days": 34,
   "is_indexable": true,
   "first_seen_at": "2026-09-25T23:53:23.595Z",
   "tracking_tier": "normal",
-  "last_fetched_date": "2026-10-30",
+  "last_fetched_date": "2026-11-02",
   "stars_stagnant_days": 31
 }
