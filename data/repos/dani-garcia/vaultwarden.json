@@ -13,12 +13,12 @@
     "rust",
     "vaultwarden"
   ],
-  "stars": 70062,
-  "forks": 3396,
+  "stars": 70134,
+  "forks": 3404,
   "watchers": 319,
-  "open_issues": 91,
+  "open_issues": 92,
   "created_at": "2018-02-17T22:40:20Z",
-  "pushed_at": "2026-11-01T22:05:48Z",
+  "pushed_at": "2026-11-02T23:12:59Z",
   "is_archived": false,
   "license_spdx": "AGPL-3.0",
   "license_category": "strong-copyleft",
@@ -37,10 +37,10 @@
     }
   ],
   "usability_score": 85,
-  "snapshot_days": 65,
+  "snapshot_days": 66,
   "is_indexable": true,
   "first_seen_at": "2026-08-29T23:02:08.747Z",
   "tracking_tier": "hot",
-  "last_fetched_date": "2026-11-02",
+  "last_fetched_date": "2026-11-03",
   "stars_stagnant_days": 0
 }

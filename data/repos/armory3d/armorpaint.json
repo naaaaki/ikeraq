@@ -16,12 +16,12 @@
     "texturing",
     "tool"
   ],
-  "stars": 5440,
-  "forks": 652,
+  "stars": 5454,
+  "forks": 651,
   "watchers": 131,
   "open_issues": 83,
   "created_at": "2017-02-06T23:03:08Z",
-  "pushed_at": "2026-10-29T16:45:39Z",
+  "pushed_at": "2026-11-02T12:13:14Z",
   "is_archived": false,
   "license_spdx": "NOASSERTION",
   "license_category": "unknown",
@@ -34,10 +34,10 @@
   "category": "other",
   "flags": [],
   "usability_score": 100,
-  "snapshot_days": 40,
+  "snapshot_days": 41,
   "is_indexable": true,
   "first_seen_at": "2026-09-11T23:02:10.132Z",
   "tracking_tier": "normal",
-  "last_fetched_date": "2026-10-31",
+  "last_fetched_date": "2026-11-03",
   "stars_stagnant_days": 1
 }

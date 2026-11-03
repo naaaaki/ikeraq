@@ -10,12 +10,12 @@
     "multi-platform",
     "video-transcoding"
   ],
-  "stars": 24850,
+  "stars": 24864,
   "forks": 1742,
   "watchers": 297,
-  "open_issues": 296,
+  "open_issues": 298,
   "created_at": "2015-08-22T16:32:28Z",
-  "pushed_at": "2026-10-31T23:05:48Z",
+  "pushed_at": "2026-11-02T17:06:42Z",
   "is_archived": false,
   "license_spdx": "NOASSERTION",
   "license_category": "unknown",
@@ -28,10 +28,10 @@
   "category": "other",
   "flags": [],
   "usability_score": 100,
-  "snapshot_days": 40,
+  "snapshot_days": 41,
   "is_indexable": true,
   "first_seen_at": "2026-09-23T23:28:32.618Z",
   "tracking_tier": "hot",
-  "last_fetched_date": "2026-11-02",
+  "last_fetched_date": "2026-11-03",
   "stars_stagnant_days": 0
 }

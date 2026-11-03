@@ -27,7 +27,7 @@
     "ui-kit",
     "uikit"
   ],
-  "stars": 41978,
+  "stars": 41988,
   "forks": 4435,
   "watchers": null,
   "open_issues": 96,
@@ -45,10 +45,10 @@
   "category": "web-frontend",
   "flags": [],
   "usability_score": 100,
-  "snapshot_days": 42,
+  "snapshot_days": 43,
   "is_indexable": true,
   "first_seen_at": "2026-08-30T23:15:18.750Z",
   "tracking_tier": "normal",
-  "last_fetched_date": "2026-10-31",
+  "last_fetched_date": "2026-11-03",
   "stars_stagnant_days": 1
 }

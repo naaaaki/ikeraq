@@ -13,12 +13,12 @@
     "yt-dlp",
     "yt-dlp-gui"
   ],
-  "stars": 4698,
+  "stars": 4699,
   "forks": 338,
   "watchers": 24,
   "open_issues": 9,
   "created_at": "2024-11-29T17:15:45Z",
-  "pushed_at": "2026-10-25T08:08:32Z",
+  "pushed_at": "2026-11-01T10:07:40Z",
   "is_archived": false,
   "license_spdx": "MIT",
   "license_category": "permissive",
@@ -31,10 +31,10 @@
   "category": "other",
   "flags": [],
   "usability_score": 100,
-  "snapshot_days": 33,
+  "snapshot_days": 34,
   "is_indexable": true,
   "first_seen_at": "2026-09-26T23:25:20.110Z",
   "tracking_tier": "normal",
-  "last_fetched_date": "2026-10-31",
+  "last_fetched_date": "2026-11-03",
   "stars_stagnant_days": 4
 }

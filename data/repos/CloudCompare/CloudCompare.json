@@ -9,12 +9,12 @@
     "3d-point-clouds",
     "point-cloud"
   ],
-  "stars": 4839,
+  "stars": 4843,
   "forks": 1227,
   "watchers": 145,
-  "open_issues": 280,
+  "open_issues": 273,
   "created_at": "2012-11-06T20:15:51Z",
-  "pushed_at": "2026-10-29T23:01:16Z",
+  "pushed_at": "2026-11-02T23:50:09Z",
   "is_archived": false,
   "license_spdx": "NOASSERTION",
   "license_category": "unknown",
@@ -27,10 +27,10 @@
   "category": "other",
   "flags": [],
   "usability_score": 100,
-  "snapshot_days": 34,
+  "snapshot_days": 35,
   "is_indexable": true,
   "first_seen_at": "2026-09-25T23:53:23.595Z",
   "tracking_tier": "normal",
-  "last_fetched_date": "2026-10-31",
+  "last_fetched_date": "2026-11-03",
   "stars_stagnant_days": 1
 }

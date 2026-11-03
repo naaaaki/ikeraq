@@ -24,12 +24,12 @@
     "scientific-computing",
     "scientific-visualization"
   ],
-  "stars": 55664,
-  "forks": 4900,
+  "stars": 55849,
+  "forks": 4917,
   "watchers": 209,
   "open_issues": 77,
   "created_at": "2025-10-19T20:54:15Z",
-  "pushed_at": "2026-10-26T09:36:15Z",
+  "pushed_at": "2026-11-02T09:23:27Z",
   "is_archived": false,
   "license_spdx": "MIT",
   "license_category": "permissive",
@@ -42,10 +42,10 @@
   "category": "ai-agent",
   "flags": [],
   "usability_score": 100,
-  "snapshot_days": 65,
+  "snapshot_days": 66,
   "is_indexable": true,
   "first_seen_at": "2026-08-29T15:46:17.176Z",
   "tracking_tier": "hot",
-  "last_fetched_date": "2026-11-02",
+  "last_fetched_date": "2026-11-03",
   "stars_stagnant_days": 0
 }

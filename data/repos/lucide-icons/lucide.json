@@ -2,7 +2,7 @@
   "id": "lucide-icons/lucide",
   "owner": "lucide-icons",
   "name": "lucide",
-  "description_en": "Beautiful & consistent icon toolkit made by the community. Open-source project and a fork of Feather Icons.",
+  "description_en": "Beautiful & consistent icon toolkit made by the community. Lucide is an open-source icon library that provides 2000+ vector (svg) files for displaying icons and symbols in digital and non-digital projects. ",
   "human_note": null,
   "language": "TypeScript",
   "topics": [
@@ -17,12 +17,12 @@
     "ui-design",
     "vue"
   ],
-  "stars": 25447,
+  "stars": 25476,
   "forks": 1667,
-  "watchers": 60,
-  "open_issues": 396,
+  "watchers": 58,
+  "open_issues": 369,
   "created_at": "2020-06-08T15:36:21Z",
-  "pushed_at": "2026-11-01T14:39:23Z",
+  "pushed_at": "2026-11-02T21:05:54Z",
   "is_archived": false,
   "license_spdx": "NOASSERTION",
   "license_category": "unknown",
@@ -35,10 +35,10 @@
   "category": "web-frontend",
   "flags": [],
   "usability_score": 100,
-  "snapshot_days": 40,
+  "snapshot_days": 41,
   "is_indexable": true,
   "first_seen_at": "2026-09-23T23:28:32.618Z",
   "tracking_tier": "hot",
-  "last_fetched_date": "2026-11-02",
+  "last_fetched_date": "2026-11-03",
   "stars_stagnant_days": 0
 }

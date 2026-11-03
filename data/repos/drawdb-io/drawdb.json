@@ -27,10 +27,10 @@
     "sql-server",
     "sqlite"
   ],
-  "stars": 40217,
-  "forks": 3349,
+  "stars": 40227,
+  "forks": 3351,
   "watchers": 150,
-  "open_issues": 245,
+  "open_issues": 246,
   "created_at": "2023-07-16T17:09:20Z",
   "pushed_at": "2026-11-01T17:54:52Z",
   "is_archived": false,
@@ -51,10 +51,10 @@
     }
   ],
   "usability_score": 85,
-  "snapshot_days": 63,
+  "snapshot_days": 64,
   "is_indexable": true,
   "first_seen_at": "2026-09-01T00:26:13.031Z",
   "tracking_tier": "hot",
-  "last_fetched_date": "2026-11-02",
+  "last_fetched_date": "2026-11-03",
   "stars_stagnant_days": 0
 }

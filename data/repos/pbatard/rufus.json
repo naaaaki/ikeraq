@@ -27,7 +27,7 @@
     "windows",
     "windows-to-go"
   ],
-  "stars": 38207,
+  "stars": 38221,
   "forks": 3201,
   "watchers": 620,
   "open_issues": 10,
@@ -51,10 +51,10 @@
     }
   ],
   "usability_score": 85,
-  "snapshot_days": 40,
+  "snapshot_days": 41,
   "is_indexable": true,
   "first_seen_at": "2026-09-23T23:28:32.616Z",
   "tracking_tier": "hot",
-  "last_fetched_date": "2026-11-02",
+  "last_fetched_date": "2026-11-03",
   "stars_stagnant_days": 0
 }

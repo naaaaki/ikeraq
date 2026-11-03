@@ -18,12 +18,12 @@
     "kotlin-multiplatform",
     "webassembly"
   ],
-  "stars": 43845,
-  "forks": 2094,
+  "stars": 43907,
+  "forks": 2098,
   "watchers": 125,
-  "open_issues": 19,
+  "open_issues": 21,
   "created_at": "2023-07-04T03:59:15Z",
-  "pushed_at": "2026-11-01T17:10:13Z",
+  "pushed_at": "2026-11-02T07:56:49Z",
   "is_archived": false,
   "license_spdx": "GPL-3.0",
   "license_category": "strong-copyleft",
@@ -42,10 +42,10 @@
     }
   ],
   "usability_score": 85,
-  "snapshot_days": 64,
+  "snapshot_days": 65,
   "is_indexable": true,
   "first_seen_at": "2026-08-30T23:15:18.750Z",
   "tracking_tier": "hot",
-  "last_fetched_date": "2026-11-02",
+  "last_fetched_date": "2026-11-03",
   "stars_stagnant_days": 0
 }

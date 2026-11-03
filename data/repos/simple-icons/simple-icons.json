@@ -26,12 +26,12 @@
     "svg-icons",
     "svg-images"
   ],
-  "stars": 26112,
+  "stars": 26124,
   "forks": 3186,
   "watchers": null,
-  "open_issues": 1002,
+  "open_issues": 1013,
   "created_at": "2012-11-16T11:09:13Z",
-  "pushed_at": "2026-10-25T17:18:51Z",
+  "pushed_at": "2026-11-01T00:25:15Z",
   "is_archived": false,
   "license_spdx": "CC0-1.0",
   "license_category": "permissive",
@@ -44,10 +44,10 @@
   "category": "web-frontend",
   "flags": [],
   "usability_score": 100,
-  "snapshot_days": 44,
+  "snapshot_days": 45,
   "is_indexable": true,
   "first_seen_at": "2026-09-03T23:03:15.575Z",
   "tracking_tier": "normal",
-  "last_fetched_date": "2026-10-31",
+  "last_fetched_date": "2026-11-03",
   "stars_stagnant_days": 1
 }

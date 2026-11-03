@@ -25,7 +25,7 @@
     "txt",
     "xml"
   ],
-  "stars": 28688,
+  "stars": 28700,
   "forks": 2149,
   "watchers": 138,
   "open_issues": 276,
@@ -49,10 +49,10 @@
     }
   ],
   "usability_score": 85,
-  "snapshot_days": 61,
+  "snapshot_days": 62,
   "is_indexable": true,
   "first_seen_at": "2026-09-02T23:02:41.773Z",
   "tracking_tier": "hot",
-  "last_fetched_date": "2026-11-02",
+  "last_fetched_date": "2026-11-03",
   "stars_stagnant_days": 0
 }

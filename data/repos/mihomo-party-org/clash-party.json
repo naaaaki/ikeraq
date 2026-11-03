@@ -11,7 +11,7 @@
     "electron",
     "mihomo"
   ],
-  "stars": 27071,
+  "stars": 27093,
   "forks": 2129,
   "watchers": 81,
   "open_issues": 203,
@@ -35,10 +35,10 @@
     }
   ],
   "usability_score": 85,
-  "snapshot_days": 60,
+  "snapshot_days": 61,
   "is_indexable": true,
   "first_seen_at": "2026-09-03T23:03:15.575Z",
   "tracking_tier": "hot",
-  "last_fetched_date": "2026-11-02",
+  "last_fetched_date": "2026-11-03",
   "stars_stagnant_days": 0
 }

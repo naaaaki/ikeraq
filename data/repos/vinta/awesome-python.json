@@ -13,12 +13,12 @@
     "python-libraries",
     "python-tools"
   ],
-  "stars": 331811,
-  "forks": 29047,
+  "stars": 332040,
+  "forks": 29053,
   "watchers": 6146,
   "open_issues": 24,
   "created_at": "2014-06-27T21:00:06Z",
-  "pushed_at": "2026-11-01T01:52:52Z",
+  "pushed_at": "2026-11-02T04:36:52Z",
   "is_archived": false,
   "license_spdx": "NOASSERTION",
   "license_category": "unknown",
@@ -31,10 +31,10 @@
   "category": "learning",
   "flags": [],
   "usability_score": 100,
-  "snapshot_days": 65,
+  "snapshot_days": 66,
   "is_indexable": true,
   "first_seen_at": "2026-08-29T15:46:21.820Z",
   "tracking_tier": "hot",
-  "last_fetched_date": "2026-11-02",
+  "last_fetched_date": "2026-11-03",
   "stars_stagnant_days": 0
 }

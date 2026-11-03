@@ -17,10 +17,10 @@
     "teaching",
     "tutorial"
   ],
-  "stars": 79684,
-  "forks": 12749,
-  "watchers": 308,
-  "open_issues": 52,
+  "stars": 79774,
+  "forks": 12763,
+  "watchers": 306,
+  "open_issues": 54,
   "created_at": "2025-06-29T15:34:15Z",
   "pushed_at": "2026-10-27T04:47:00Z",
   "is_archived": false,
@@ -35,10 +35,10 @@
   "category": "ai-agent",
   "flags": [],
   "usability_score": 100,
-  "snapshot_days": 65,
+  "snapshot_days": 66,
   "is_indexable": true,
   "first_seen_at": "2026-08-29T23:02:08.747Z",
   "tracking_tier": "hot",
-  "last_fetched_date": "2026-11-02",
+  "last_fetched_date": "2026-11-03",
   "stars_stagnant_days": 0
 }

@@ -17,12 +17,12 @@
     "vte",
     "windows"
   ],
-  "stars": 66104,
-  "forks": 3700,
+  "stars": 66110,
+  "forks": 3704,
   "watchers": 451,
   "open_issues": 344,
   "created_at": "2016-02-18T05:02:30Z",
-  "pushed_at": "2026-10-26T22:32:23Z",
+  "pushed_at": "2026-11-02T05:42:37Z",
   "is_archived": false,
   "license_spdx": "Apache-2.0",
   "license_category": "permissive",
@@ -35,10 +35,10 @@
   "category": "dev-tool",
   "flags": [],
   "usability_score": 100,
-  "snapshot_days": 65,
+  "snapshot_days": 66,
   "is_indexable": true,
   "first_seen_at": "2026-08-29T23:02:08.747Z",
   "tracking_tier": "hot",
-  "last_fetched_date": "2026-11-02",
+  "last_fetched_date": "2026-11-03",
   "stars_stagnant_days": 0
 }

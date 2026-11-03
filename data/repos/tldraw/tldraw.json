@@ -19,12 +19,12 @@
     "sync",
     "whiteboard"
   ],
-  "stars": 51183,
+  "stars": 51209,
   "forks": 3597,
   "watchers": 172,
-  "open_issues": 561,
+  "open_issues": 547,
   "created_at": "2021-05-09T11:48:37Z",
-  "pushed_at": "2026-10-30T17:57:52Z",
+  "pushed_at": "2026-11-02T20:07:09Z",
   "is_archived": false,
   "license_spdx": "NOASSERTION",
   "license_category": "unknown",
@@ -37,10 +37,10 @@
   "category": "web-frontend",
   "flags": [],
   "usability_score": 100,
-  "snapshot_days": 64,
+  "snapshot_days": 65,
   "is_indexable": true,
   "first_seen_at": "2026-08-30T23:15:18.749Z",
   "tracking_tier": "hot",
-  "last_fetched_date": "2026-11-02",
+  "last_fetched_date": "2026-11-03",
   "stars_stagnant_days": 0
 }

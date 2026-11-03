@@ -2,7 +2,7 @@
   "id": "Zackriya-Solutions/meetily",
   "owner": "Zackriya-Solutions",
   "name": "meetily",
-  "description_en": "Privacy first AI meeting note taker. Download Free and open source granola, otter ai, fireflies alternative. Parakeet / Whisper live transcription, on-device speaker diarization, built on Rust. 100% local processing. Meetily (Meetly Ai - https://meetily.ai) is the #1 Self-hosted, Open-source Ai meeting note taker & Assistant for macOS & Windows",
+  "description_en": "Privacy-first AI meeting note taker for Windows and macOS. Free, open source (MIT). On-device Whisper/Parakeet transcription and speaker diarization, no meeting bot. Open-source alternative to Granola, Otter and Fireflies. https://meetily.ai",
   "human_note": null,
   "language": "Rust",
   "topics": [
@@ -27,12 +27,12 @@
     "whisper-cpp",
     "windows"
   ],
-  "stars": 32367,
-  "forks": 3551,
+  "stars": 32390,
+  "forks": 3557,
   "watchers": 137,
-  "open_issues": 395,
+  "open_issues": 397,
   "created_at": "2024-12-26T12:52:14Z",
-  "pushed_at": "2026-11-01T17:16:02Z",
+  "pushed_at": "2026-11-02T17:10:09Z",
   "is_archived": false,
   "license_spdx": "MIT",
   "license_category": "permissive",
@@ -45,10 +45,10 @@
   "category": "llm",
   "flags": [],
   "usability_score": 100,
-  "snapshot_days": 61,
+  "snapshot_days": 62,
   "is_indexable": true,
   "first_seen_at": "2026-09-02T23:02:41.773Z",
   "tracking_tier": "hot",
-  "last_fetched_date": "2026-11-02",
+  "last_fetched_date": "2026-11-03",
   "stars_stagnant_days": 0
 }

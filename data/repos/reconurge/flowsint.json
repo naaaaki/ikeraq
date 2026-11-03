@@ -11,9 +11,9 @@
     "python",
     "recon"
   ],
-  "stars": 10026,
-  "forks": 1241,
-  "watchers": 72,
+  "stars": 10040,
+  "forks": 1244,
+  "watchers": 73,
   "open_issues": 67,
   "created_at": "2025-01-31T15:10:41Z",
   "pushed_at": "2026-10-18T19:56:10Z",
@@ -29,10 +29,10 @@
   "category": "security",
   "flags": [],
   "usability_score": 100,
-  "snapshot_days": 49,
+  "snapshot_days": 50,
   "is_indexable": true,
   "first_seen_at": "2026-09-14T23:44:07.682Z",
   "tracking_tier": "hot",
-  "last_fetched_date": "2026-11-02",
+  "last_fetched_date": "2026-11-03",
   "stars_stagnant_days": 0
 }
