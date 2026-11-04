@@ -14,10 +14,10 @@
     "tesseract",
     "tesseract-ocr"
   ],
-  "stars": 77306,
-  "forks": 10899,
+  "stars": 77324,
+  "forks": 10894,
   "watchers": 1722,
-  "open_issues": 488,
+  "open_issues": 489,
   "created_at": "2014-08-12T18:04:59Z",
   "pushed_at": "2026-11-02T18:20:18Z",
   "is_archived": false,
@@ -32,10 +32,10 @@
   "category": "learning",
   "flags": [],
   "usability_score": 100,
-  "snapshot_days": 66,
+  "snapshot_days": 67,
   "is_indexable": true,
   "first_seen_at": "2026-08-29T23:02:08.747Z",
   "tracking_tier": "hot",
-  "last_fetched_date": "2026-11-03",
+  "last_fetched_date": "2026-11-04",
   "stars_stagnant_days": 0
 }

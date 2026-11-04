@@ -27,10 +27,10 @@
     "windows10",
     "windows11"
   ],
-  "stars": 61568,
-  "forks": 2736,
+  "stars": 61624,
+  "forks": 2729,
   "watchers": 256,
-  "open_issues": 39,
+  "open_issues": 38,
   "created_at": "2020-10-27T22:26:59Z",
   "pushed_at": "2026-11-01T21:16:25Z",
   "is_archived": false,
@@ -45,10 +45,10 @@
   "category": "dev-tool",
   "flags": [],
   "usability_score": 100,
-  "snapshot_days": 66,
+  "snapshot_days": 67,
   "is_indexable": true,
   "first_seen_at": "2026-08-29T23:02:08.747Z",
   "tracking_tier": "hot",
-  "last_fetched_date": "2026-11-03",
+  "last_fetched_date": "2026-11-04",
   "stars_stagnant_days": 0
 }

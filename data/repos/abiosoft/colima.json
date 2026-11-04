@@ -19,9 +19,9 @@
     "macos",
     "nerdctl"
   ],
-  "stars": 31496,
+  "stars": 31510,
   "forks": 636,
-  "watchers": 94,
+  "watchers": 95,
   "open_issues": 412,
   "created_at": "2021-09-04T09:52:22Z",
   "pushed_at": "2026-10-13T21:49:45Z",
@@ -37,10 +37,10 @@
   "category": "infra",
   "flags": [],
   "usability_score": 100,
-  "snapshot_days": 63,
+  "snapshot_days": 64,
   "is_indexable": true,
   "first_seen_at": "2026-09-01T23:05:22.650Z",
   "tracking_tier": "hot",
-  "last_fetched_date": "2026-11-03",
+  "last_fetched_date": "2026-11-04",
   "stars_stagnant_days": 0
 }

@@ -15,12 +15,12 @@
     "mermaid",
     "svg"
   ],
-  "stars": 64393,
-  "forks": 4256,
+  "stars": 64668,
+  "forks": 4266,
   "watchers": 147,
   "open_issues": 50,
   "created_at": "2026-04-16T18:01:16Z",
-  "pushed_at": "2026-11-03T02:44:50Z",
+  "pushed_at": "2026-11-03T18:31:42Z",
   "is_archived": false,
   "license_spdx": "MIT",
   "license_category": "permissive",
@@ -33,10 +33,10 @@
   "category": "ai-agent",
   "flags": [],
   "usability_score": 100,
-  "snapshot_days": 62,
+  "snapshot_days": 63,
   "is_indexable": true,
   "first_seen_at": "2026-09-02T23:02:41.773Z",
   "tracking_tier": "hot",
-  "last_fetched_date": "2026-11-03",
+  "last_fetched_date": "2026-11-04",
   "stars_stagnant_days": 0
 }

@@ -24,12 +24,12 @@
     "typescript",
     "web"
   ],
-  "stars": 60329,
-  "forks": 9922,
+  "stars": 60386,
+  "forks": 9939,
   "watchers": 230,
   "open_issues": 167,
   "created_at": "2022-12-01T13:04:40Z",
-  "pushed_at": "2026-11-03T02:44:55Z",
+  "pushed_at": "2026-11-04T00:13:24Z",
   "is_archived": false,
   "license_spdx": "NOASSERTION",
   "license_category": "unknown",
@@ -42,10 +42,10 @@
   "category": "web-frontend",
   "flags": [],
   "usability_score": 100,
-  "snapshot_days": 66,
+  "snapshot_days": 67,
   "is_indexable": true,
   "first_seen_at": "2026-08-29T23:02:08.747Z",
   "tracking_tier": "hot",
-  "last_fetched_date": "2026-11-03",
+  "last_fetched_date": "2026-11-04",
   "stars_stagnant_days": 0
 }

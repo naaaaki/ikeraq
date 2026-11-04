@@ -17,8 +17,8 @@
     "pptx",
     "prototype"
   ],
-  "stars": 28513,
-  "forks": 3089,
+  "stars": 28587,
+  "forks": 3095,
   "watchers": 101,
   "open_issues": 0,
   "created_at": "2026-04-19T14:42:06Z",
@@ -35,10 +35,10 @@
   "category": "ai-agent",
   "flags": [],
   "usability_score": 100,
-  "snapshot_days": 41,
+  "snapshot_days": 42,
   "is_indexable": true,
   "first_seen_at": "2026-09-23T23:28:32.618Z",
   "tracking_tier": "hot",
-  "last_fetched_date": "2026-11-03",
+  "last_fetched_date": "2026-11-04",
   "stars_stagnant_days": 0
 }

@@ -17,12 +17,12 @@
     "mcp-client",
     "ollama"
   ],
-  "stars": 53207,
-  "forks": 5165,
+  "stars": 53235,
+  "forks": 5172,
   "watchers": 209,
-  "open_issues": 2416,
+  "open_issues": 2450,
   "created_at": "2024-05-24T01:56:26Z",
-  "pushed_at": "2026-11-03T02:42:26Z",
+  "pushed_at": "2026-11-04T00:30:21Z",
   "is_archived": false,
   "license_spdx": "AGPL-3.0",
   "license_category": "strong-copyleft",
@@ -41,10 +41,10 @@
     }
   ],
   "usability_score": 85,
-  "snapshot_days": 65,
+  "snapshot_days": 66,
   "is_indexable": true,
   "first_seen_at": "2026-08-30T23:15:18.749Z",
   "tracking_tier": "hot",
-  "last_fetched_date": "2026-11-03",
+  "last_fetched_date": "2026-11-04",
   "stars_stagnant_days": 0
 }

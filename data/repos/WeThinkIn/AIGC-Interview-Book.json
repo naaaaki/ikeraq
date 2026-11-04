@@ -21,12 +21,12 @@
     "stable-diffusion",
     "transformer"
   ],
-  "stars": 5142,
-  "forks": 494,
+  "stars": 5150,
+  "forks": 493,
   "watchers": 25,
   "open_issues": 1,
   "created_at": "2023-10-14T16:15:40Z",
-  "pushed_at": "2026-11-02T15:33:29Z",
+  "pushed_at": "2026-11-03T15:24:31Z",
   "is_archived": false,
   "license_spdx": "GPL-3.0",
   "license_category": "strong-copyleft",
@@ -45,10 +45,10 @@
     }
   ],
   "usability_score": 85,
-  "snapshot_days": 39,
+  "snapshot_days": 40,
   "is_indexable": true,
   "first_seen_at": "2026-09-25T23:53:23.594Z",
   "tracking_tier": "hot",
-  "last_fetched_date": "2026-11-03",
+  "last_fetched_date": "2026-11-04",
   "stars_stagnant_days": 0
 }
