@@ -15,12 +15,12 @@
     "smartcontracts",
     "solidity"
   ],
-  "stars": 25768,
-  "forks": 6177,
+  "stars": 25767,
+  "forks": 6178,
   "watchers": null,
-  "open_issues": 848,
+  "open_issues": 855,
   "created_at": "2015-08-17T12:27:26Z",
-  "pushed_at": "2026-10-31T19:02:14Z",
+  "pushed_at": "2026-11-04T18:54:49Z",
   "is_archived": false,
   "license_spdx": "GPL-3.0",
   "license_category": "strong-copyleft",
@@ -39,10 +39,10 @@
     }
   ],
   "usability_score": 85,
-  "snapshot_days": 42,
+  "snapshot_days": 43,
   "is_indexable": true,
   "first_seen_at": "2026-09-03T23:03:15.575Z",
   "tracking_tier": "normal",
-  "last_fetched_date": "2026-11-02",
+  "last_fetched_date": "2026-11-05",
   "stars_stagnant_days": 1
 }

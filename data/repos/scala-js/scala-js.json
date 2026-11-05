@@ -11,10 +11,10 @@
     "language",
     "scala"
   ],
-  "stars": 4708,
+  "stars": 4707,
   "forks": 407,
   "watchers": 139,
-  "open_issues": 49,
+  "open_issues": 50,
   "created_at": "2013-02-18T16:33:55Z",
   "pushed_at": "2026-10-31T19:51:56Z",
   "is_archived": false,
@@ -29,10 +29,10 @@
   "category": "dev-tool",
   "flags": [],
   "usability_score": 100,
-  "snapshot_days": 34,
+  "snapshot_days": 35,
   "is_indexable": true,
   "first_seen_at": "2026-09-25T23:53:23.596Z",
   "tracking_tier": "normal",
-  "last_fetched_date": "2026-11-02",
+  "last_fetched_date": "2026-11-05",
   "stars_stagnant_days": 7
 }

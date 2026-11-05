@@ -2,7 +2,7 @@
   "id": "dgtlmoon/changedetection.io",
   "owner": "dgtlmoon",
   "name": "changedetection.io",
-  "description_en": "Best and simplest tool for website change detection, web page monitoring, and website change alerts. Perfect for tracking content changes, price drops, restock alerts, and website defacement monitoring—all for free or enjoy our SaaS plan!",
+  "description_en": "Best and simplest tool for website change detection, web page monitoring, and website change alerts. Perfect for tracking content changes, price drops, restock alerts, and website defacement monitoring— MCP included! all for free or enjoy our SaaS plan!",
   "human_note": null,
   "language": "Python",
   "topics": [
@@ -27,12 +27,12 @@
     "website-monitoring",
     "website-watcher"
   ],
-  "stars": 35491,
-  "forks": 2200,
+  "stars": 35511,
+  "forks": 2207,
   "watchers": 119,
-  "open_issues": 389,
+  "open_issues": 383,
   "created_at": "2021-01-27T16:03:30Z",
-  "pushed_at": "2026-11-03T17:09:20Z",
+  "pushed_at": "2026-11-04T17:46:10Z",
   "is_archived": false,
   "license_spdx": "Apache-2.0",
   "license_category": "permissive",
@@ -45,10 +45,10 @@
   "category": "infra",
   "flags": [],
   "usability_score": 100,
-  "snapshot_days": 64,
+  "snapshot_days": 65,
   "is_indexable": true,
   "first_seen_at": "2026-09-01T23:05:22.650Z",
   "tracking_tier": "hot",
-  "last_fetched_date": "2026-11-04",
+  "last_fetched_date": "2026-11-05",
   "stars_stagnant_days": 0
 }

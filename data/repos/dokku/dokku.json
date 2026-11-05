@@ -4,7 +4,7 @@
   "name": "dokku",
   "description_en": "A docker-powered PaaS that helps you build and manage the lifecycle of applications",
   "human_note": null,
-  "language": "Go",
+  "language": "Shell",
   "topics": [
     "buildpack",
     "containers",
@@ -18,12 +18,12 @@
     "self-hosted",
     "selfhosted"
   ],
-  "stars": 32220,
-  "forks": 2097,
+  "stars": 32219,
+  "forks": 2099,
   "watchers": null,
-  "open_issues": 33,
+  "open_issues": 30,
   "created_at": "2013-06-08T10:26:57Z",
-  "pushed_at": "2026-10-31T18:42:19Z",
+  "pushed_at": "2026-11-04T19:57:34Z",
   "is_archived": false,
   "license_spdx": "MIT",
   "license_category": "permissive",
@@ -36,10 +36,10 @@
   "category": "infra",
   "flags": [],
   "usability_score": 100,
-  "snapshot_days": 42,
+  "snapshot_days": 43,
   "is_indexable": true,
   "first_seen_at": "2026-09-01T23:05:22.650Z",
   "tracking_tier": "normal",
-  "last_fetched_date": "2026-11-02",
+  "last_fetched_date": "2026-11-05",
   "stars_stagnant_days": 2
 }

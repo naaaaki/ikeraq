@@ -14,7 +14,7 @@
     "security",
     "zero-trust"
   ],
-  "stars": 4796,
+  "stars": 4798,
   "forks": 229,
   "watchers": 30,
   "open_issues": 121,
@@ -32,10 +32,10 @@
   "category": "security",
   "flags": [],
   "usability_score": 100,
-  "snapshot_days": 36,
+  "snapshot_days": 37,
   "is_indexable": true,
   "first_seen_at": "2026-09-25T23:53:23.595Z",
   "tracking_tier": "normal",
-  "last_fetched_date": "2026-11-02",
+  "last_fetched_date": "2026-11-05",
   "stars_stagnant_days": 1
 }

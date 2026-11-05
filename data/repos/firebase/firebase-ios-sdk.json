@@ -25,11 +25,11 @@
     "storage-service"
   ],
   "stars": 6979,
-  "forks": 1832,
+  "forks": 1833,
   "watchers": 233,
-  "open_issues": 477,
+  "open_issues": 474,
   "created_at": "2017-04-22T00:26:50Z",
-  "pushed_at": "2026-11-01T05:05:36Z",
+  "pushed_at": "2026-11-05T00:03:30Z",
   "is_archived": false,
   "license_spdx": "Apache-2.0",
   "license_category": "permissive",
@@ -42,10 +42,10 @@
   "category": "data",
   "flags": [],
   "usability_score": 100,
-  "snapshot_days": 33,
+  "snapshot_days": 34,
   "is_indexable": true,
   "first_seen_at": "2026-10-01T00:25:06.995Z",
   "tracking_tier": "normal",
-  "last_fetched_date": "2026-11-02",
+  "last_fetched_date": "2026-11-05",
   "stars_stagnant_days": 1
 }

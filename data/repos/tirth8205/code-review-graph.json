@@ -19,10 +19,10 @@
     "static-analysis",
     "tree-sitter"
   ],
-  "stars": 32580,
-  "forks": 2965,
-  "watchers": 95,
-  "open_issues": 196,
+  "stars": 32596,
+  "forks": 2964,
+  "watchers": 93,
+  "open_issues": 197,
   "created_at": "2026-02-26T17:25:13Z",
   "pushed_at": "2026-10-29T10:34:29Z",
   "is_archived": false,
@@ -37,10 +37,10 @@
   "category": "ai-agent",
   "flags": [],
   "usability_score": 100,
-  "snapshot_days": 64,
+  "snapshot_days": 65,
   "is_indexable": true,
   "first_seen_at": "2026-09-01T23:05:22.650Z",
   "tracking_tier": "hot",
-  "last_fetched_date": "2026-11-04",
+  "last_fetched_date": "2026-11-05",
   "stars_stagnant_days": 0
 }

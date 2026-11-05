@@ -8,12 +8,12 @@
   "topics": [
     "zsh"
   ],
-  "stars": 55313,
-  "forks": 2448,
+  "stars": 55323,
+  "forks": 2446,
   "watchers": 190,
-  "open_issues": 153,
+  "open_issues": 154,
   "created_at": "2019-02-24T19:09:45Z",
-  "pushed_at": "2026-09-14T08:10:04Z",
+  "pushed_at": "2026-11-04T08:51:00Z",
   "is_archived": false,
   "license_spdx": "MIT",
   "license_category": "permissive",
@@ -26,10 +26,10 @@
   "category": "other",
   "flags": [],
   "usability_score": 100,
-  "snapshot_days": 40,
+  "snapshot_days": 41,
   "is_indexable": true,
   "first_seen_at": "2026-09-07T23:19:48.975Z",
   "tracking_tier": "normal",
-  "last_fetched_date": "2026-11-02",
+  "last_fetched_date": "2026-11-05",
   "stars_stagnant_days": 1
 }

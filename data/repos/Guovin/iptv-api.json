@@ -27,9 +27,9 @@
     "tv",
     "tvbox"
   ],
-  "stars": 25945,
-  "forks": 7673,
-  "watchers": 995,
+  "stars": 25956,
+  "forks": 7676,
+  "watchers": 997,
   "open_issues": 1,
   "created_at": "2024-02-04T11:22:59Z",
   "pushed_at": "2026-10-14T01:21:43Z",
@@ -45,10 +45,10 @@
   "category": "learning",
   "flags": [],
   "usability_score": 100,
-  "snapshot_days": 42,
+  "snapshot_days": 43,
   "is_indexable": true,
   "first_seen_at": "2026-09-23T23:28:32.618Z",
   "tracking_tier": "hot",
-  "last_fetched_date": "2026-11-04",
+  "last_fetched_date": "2026-11-05",
   "stars_stagnant_days": 0
 }

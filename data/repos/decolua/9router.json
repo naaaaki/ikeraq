@@ -27,10 +27,10 @@
     "qwen",
     "token-saver"
   ],
-  "stars": 31902,
-  "forks": 6218,
+  "stars": 31945,
+  "forks": 6233,
   "watchers": 142,
-  "open_issues": 2726,
+  "open_issues": 2747,
   "created_at": "2026-01-05T02:59:30Z",
   "pushed_at": "2026-10-28T09:45:26Z",
   "is_archived": false,
@@ -45,10 +45,10 @@
   "category": "ai-agent",
   "flags": [],
   "usability_score": 100,
-  "snapshot_days": 62,
+  "snapshot_days": 63,
   "is_indexable": true,
   "first_seen_at": "2026-09-03T23:03:15.575Z",
   "tracking_tier": "hot",
-  "last_fetched_date": "2026-11-04",
+  "last_fetched_date": "2026-11-05",
   "stars_stagnant_days": 0
 }

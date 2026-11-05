@@ -9,10 +9,10 @@
     "awesome",
     "rust"
   ],
-  "stars": 60310,
-  "forks": 3768,
+  "stars": 60332,
+  "forks": 3770,
   "watchers": 810,
-  "open_issues": 7,
+  "open_issues": 9,
   "created_at": "2014-07-17T10:45:10Z",
   "pushed_at": "2026-11-04T00:17:48Z",
   "is_archived": false,
@@ -27,10 +27,10 @@
   "category": "learning",
   "flags": [],
   "usability_score": 100,
-  "snapshot_days": 67,
+  "snapshot_days": 68,
   "is_indexable": true,
   "first_seen_at": "2026-08-29T23:02:08.747Z",
   "tracking_tier": "hot",
-  "last_fetched_date": "2026-11-04",
+  "last_fetched_date": "2026-11-05",
   "stars_stagnant_days": 0
 }

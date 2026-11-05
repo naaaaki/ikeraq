@@ -11,10 +11,10 @@
     "hellogithub",
     "python"
   ],
-  "stars": 186656,
-  "forks": 13192,
+  "stars": 186893,
+  "forks": 13201,
   "watchers": 5572,
-  "open_issues": 1242,
+  "open_issues": 1263,
   "created_at": "2016-05-04T06:24:11Z",
   "pushed_at": "2026-10-31T18:08:05Z",
   "is_archived": false,
@@ -35,10 +35,10 @@
     }
   ],
   "usability_score": 60,
-  "snapshot_days": 67,
+  "snapshot_days": 68,
   "is_indexable": true,
   "first_seen_at": "2026-08-29T15:46:21.820Z",
   "tracking_tier": "hot",
-  "last_fetched_date": "2026-11-04",
+  "last_fetched_date": "2026-11-05",
   "stars_stagnant_days": 0
 }

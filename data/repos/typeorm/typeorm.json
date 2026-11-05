@@ -21,10 +21,10 @@
     "typeorm",
     "typescript"
   ],
-  "stars": 36666,
+  "stars": 36667,
   "forks": 6691,
-  "watchers": 342,
-  "open_issues": 732,
+  "watchers": 334,
+  "open_issues": 738,
   "created_at": "2016-02-29T07:41:14Z",
   "pushed_at": "2026-10-29T06:46:16Z",
   "is_archived": false,
@@ -39,10 +39,10 @@
   "category": "data",
   "flags": [],
   "usability_score": 100,
-  "snapshot_days": 43,
+  "snapshot_days": 44,
   "is_indexable": true,
   "first_seen_at": "2026-09-01T00:26:13.032Z",
   "tracking_tier": "normal",
-  "last_fetched_date": "2026-11-02",
+  "last_fetched_date": "2026-11-05",
   "stars_stagnant_days": 1
 }

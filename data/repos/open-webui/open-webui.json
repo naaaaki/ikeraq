@@ -4,7 +4,7 @@
   "name": "open-webui",
   "description_en": "User-friendly AI Interface (Supports Ollama, OpenAI API, ...)",
   "human_note": null,
-  "language": "Python",
+  "language": "Svelte",
   "topics": [
     "ai",
     "llm",
@@ -22,12 +22,12 @@
     "ui",
     "webui"
   ],
-  "stars": 157483,
-  "forks": 22898,
+  "stars": 157792,
+  "forks": 22946,
   "watchers": null,
-  "open_issues": 165,
+  "open_issues": 184,
   "created_at": "2023-10-06T22:08:27Z",
-  "pushed_at": "2026-11-02T00:09:47Z",
+  "pushed_at": "2026-11-05T00:23:28Z",
   "is_archived": false,
   "license_spdx": "NOASSERTION",
   "license_category": "unknown",
@@ -40,10 +40,10 @@
   "category": "ai-agent",
   "flags": [],
   "usability_score": 100,
-  "snapshot_days": 49,
+  "snapshot_days": 50,
   "is_indexable": true,
   "first_seen_at": "2026-08-29T15:46:21.820Z",
   "tracking_tier": "normal",
-  "last_fetched_date": "2026-11-02",
+  "last_fetched_date": "2026-11-05",
   "stars_stagnant_days": 1
 }
