@@ -16,11 +16,11 @@
     "tsdb"
   ],
   "stars": 4909,
-  "forks": 460,
-  "watchers": 106,
-  "open_issues": 171,
+  "forks": 461,
+  "watchers": 105,
+  "open_issues": 172,
   "created_at": "2016-06-14T20:29:45Z",
-  "pushed_at": "2026-10-20T02:24:03Z",
+  "pushed_at": "2026-11-04T14:34:16Z",
   "is_archived": false,
   "license_spdx": "Apache-2.0",
   "license_category": "permissive",
@@ -33,10 +33,10 @@
   "category": "infra",
   "flags": [],
   "usability_score": 100,
-  "snapshot_days": 36,
+  "snapshot_days": 37,
   "is_indexable": true,
   "first_seen_at": "2026-09-24T23:48:41.712Z",
   "tracking_tier": "normal",
-  "last_fetched_date": "2026-11-03",
+  "last_fetched_date": "2026-11-06",
   "stars_stagnant_days": 1
 }

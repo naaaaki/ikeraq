@@ -25,10 +25,10 @@
     "ruby",
     "swift"
   ],
-  "stars": 51217,
-  "forks": 3230,
+  "stars": 51234,
+  "forks": 3245,
   "watchers": 945,
-  "open_issues": 412,
+  "open_issues": 425,
   "created_at": "2017-11-03T02:35:33Z",
   "pushed_at": "2026-10-31T07:24:05Z",
   "is_archived": false,
@@ -43,10 +43,10 @@
   "category": "learning",
   "flags": [],
   "usability_score": 100,
-  "snapshot_days": 59,
+  "snapshot_days": 60,
   "is_indexable": true,
   "first_seen_at": "2026-09-07T23:19:48.975Z",
   "tracking_tier": "hot",
-  "last_fetched_date": "2026-11-05",
+  "last_fetched_date": "2026-11-06",
   "stars_stagnant_days": 0
 }

@@ -11,10 +11,10 @@
     "speech-to-text",
     "tauri-v2"
   ],
-  "stars": 37543,
-  "forks": 3545,
+  "stars": 37693,
+  "forks": 3556,
   "watchers": 95,
-  "open_issues": 185,
+  "open_issues": 192,
   "created_at": "2025-02-13T02:42:29Z",
   "pushed_at": "2026-11-02T23:56:50Z",
   "is_archived": false,
@@ -29,10 +29,10 @@
   "category": "other",
   "flags": [],
   "usability_score": 100,
-  "snapshot_days": 65,
+  "snapshot_days": 66,
   "is_indexable": true,
   "first_seen_at": "2026-09-01T23:05:22.650Z",
   "tracking_tier": "hot",
-  "last_fetched_date": "2026-11-05",
+  "last_fetched_date": "2026-11-06",
   "stars_stagnant_days": 0
 }

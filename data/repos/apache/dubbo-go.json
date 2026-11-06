@@ -13,11 +13,11 @@
     "service-mesh"
   ],
   "stars": 4974,
-  "forks": 1044,
+  "forks": 1045,
   "watchers": 149,
-  "open_issues": 56,
+  "open_issues": 59,
   "created_at": "2018-08-08T05:30:36Z",
-  "pushed_at": "2026-11-02T03:25:36Z",
+  "pushed_at": "2026-11-04T07:04:50Z",
   "is_archived": false,
   "license_spdx": "Apache-2.0",
   "license_category": "permissive",
@@ -30,10 +30,10 @@
   "category": "backend",
   "flags": [],
   "usability_score": 100,
-  "snapshot_days": 36,
+  "snapshot_days": 37,
   "is_indexable": true,
   "first_seen_at": "2026-09-24T23:48:41.712Z",
   "tracking_tier": "normal",
-  "last_fetched_date": "2026-11-03",
+  "last_fetched_date": "2026-11-06",
   "stars_stagnant_days": 1
 }

@@ -27,10 +27,10 @@
     "tree-sitter",
     "windsurf"
   ],
-  "stars": 48119,
-  "forks": 3964,
+  "stars": 48178,
+  "forks": 3971,
   "watchers": 180,
-  "open_issues": 548,
+  "open_issues": 550,
   "created_at": "2026-02-24T22:01:00Z",
   "pushed_at": "2026-11-04T23:21:44Z",
   "is_archived": false,
@@ -45,10 +45,10 @@
   "category": "ai-agent",
   "flags": [],
   "usability_score": 100,
-  "snapshot_days": 67,
+  "snapshot_days": 68,
   "is_indexable": true,
   "first_seen_at": "2026-08-30T23:15:18.750Z",
   "tracking_tier": "hot",
-  "last_fetched_date": "2026-11-05",
+  "last_fetched_date": "2026-11-06",
   "stars_stagnant_days": 0
 }

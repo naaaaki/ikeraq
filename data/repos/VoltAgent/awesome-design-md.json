@@ -16,10 +16,10 @@
     "vibe-design",
     "vibecoding"
   ],
-  "stars": 125623,
-  "forks": 13914,
+  "stars": 125780,
+  "forks": 13931,
   "watchers": 462,
-  "open_issues": 311,
+  "open_issues": 310,
   "created_at": "2026-03-31T16:37:01Z",
   "pushed_at": "2026-10-28T15:45:40Z",
   "is_archived": false,
@@ -34,10 +34,10 @@
   "category": "web-frontend",
   "flags": [],
   "usability_score": 100,
-  "snapshot_days": 43,
+  "snapshot_days": 44,
   "is_indexable": true,
   "first_seen_at": "2026-09-23T23:28:32.616Z",
   "tracking_tier": "hot",
-  "last_fetched_date": "2026-11-05",
+  "last_fetched_date": "2026-11-06",
   "stars_stagnant_days": 0
 }

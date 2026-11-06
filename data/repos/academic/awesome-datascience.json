@@ -17,12 +17,12 @@
     "machine-learning",
     "science"
   ],
-  "stars": 30267,
-  "forks": 6698,
+  "stars": 30294,
+  "forks": 6703,
   "watchers": 1364,
   "open_issues": 5,
   "created_at": "2014-07-05T07:07:43Z",
-  "pushed_at": "2026-10-31T21:12:43Z",
+  "pushed_at": "2026-11-04T15:46:48Z",
   "is_archived": false,
   "license_spdx": "MIT",
   "license_category": "permissive",
@@ -35,10 +35,10 @@
   "category": "data",
   "flags": [],
   "usability_score": 100,
-  "snapshot_days": 54,
+  "snapshot_days": 55,
   "is_indexable": true,
   "first_seen_at": "2026-09-02T23:02:41.773Z",
   "tracking_tier": "normal",
-  "last_fetched_date": "2026-11-03",
+  "last_fetched_date": "2026-11-06",
   "stars_stagnant_days": 1
 }

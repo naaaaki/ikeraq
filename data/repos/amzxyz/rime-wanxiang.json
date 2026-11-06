@@ -14,12 +14,12 @@
     "rime-settings",
     "rime-wanxiang"
   ],
-  "stars": 5064,
+  "stars": 5072,
   "forks": 181,
   "watchers": 11,
-  "open_issues": 5,
+  "open_issues": 6,
   "created_at": "2024-08-06T13:16:11Z",
-  "pushed_at": "2026-11-04T14:11:45Z",
+  "pushed_at": "2026-11-06T00:38:23Z",
   "is_archived": false,
   "license_spdx": "CC-BY-4.0",
   "license_category": "unknown",
@@ -32,10 +32,10 @@
   "category": "other",
   "flags": [],
   "usability_score": 100,
-  "snapshot_days": 40,
+  "snapshot_days": 41,
   "is_indexable": true,
   "first_seen_at": "2026-09-26T23:25:20.109Z",
   "tracking_tier": "hot",
-  "last_fetched_date": "2026-11-05",
+  "last_fetched_date": "2026-11-06",
   "stars_stagnant_days": 0
 }

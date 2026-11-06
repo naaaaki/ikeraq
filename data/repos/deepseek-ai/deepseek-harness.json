@@ -11,8 +11,8 @@
     "dsh",
     "dsh-plugin"
   ],
-  "stars": 272585,
-  "forks": 33193,
+  "stars": 273845,
+  "forks": 33422,
   "watchers": 1066,
   "open_issues": 0,
   "created_at": "2026-08-13T11:56:32Z",
@@ -29,10 +29,10 @@
   "category": "ai-agent",
   "flags": [],
   "usability_score": 100,
-  "snapshot_days": 68,
+  "snapshot_days": 69,
   "is_indexable": true,
   "first_seen_at": "2026-08-29T15:46:21.820Z",
   "tracking_tier": "hot",
-  "last_fetched_date": "2026-11-05",
+  "last_fetched_date": "2026-11-06",
   "stars_stagnant_days": 0
 }

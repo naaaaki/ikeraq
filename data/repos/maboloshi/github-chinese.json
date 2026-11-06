@@ -13,8 +13,8 @@
     "userscript",
     "violentmonkey"
   ],
-  "stars": 37734,
-  "forks": 2081,
+  "stars": 37821,
+  "forks": 2084,
   "watchers": 143,
   "open_issues": 66,
   "created_at": "2021-09-27T08:47:55Z",
@@ -37,10 +37,10 @@
     }
   ],
   "usability_score": 85,
-  "snapshot_days": 65,
+  "snapshot_days": 66,
   "is_indexable": true,
   "first_seen_at": "2026-09-01T23:05:22.650Z",
   "tracking_tier": "hot",
-  "last_fetched_date": "2026-11-05",
+  "last_fetched_date": "2026-11-06",
   "stars_stagnant_days": 0
 }

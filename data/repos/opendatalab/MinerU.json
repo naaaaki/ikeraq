@@ -23,10 +23,10 @@
     "python",
     "xlsx"
   ],
-  "stars": 83132,
-  "forks": 6884,
+  "stars": 83194,
+  "forks": 6890,
   "watchers": 284,
-  "open_issues": 12,
+  "open_issues": 13,
   "created_at": "2024-02-29T08:52:34Z",
   "pushed_at": "2026-11-04T17:55:23Z",
   "is_archived": false,
@@ -41,10 +41,10 @@
   "category": "llm",
   "flags": [],
   "usability_score": 100,
-  "snapshot_days": 68,
+  "snapshot_days": 69,
   "is_indexable": true,
   "first_seen_at": "2026-08-29T23:02:08.747Z",
   "tracking_tier": "hot",
-  "last_fetched_date": "2026-11-05",
+  "last_fetched_date": "2026-11-06",
   "stars_stagnant_days": 0
 }

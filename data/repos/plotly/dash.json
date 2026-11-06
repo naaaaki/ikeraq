@@ -26,11 +26,11 @@
     "web-app"
   ],
   "stars": 24478,
-  "forks": 2336,
-  "watchers": 423,
-  "open_issues": 437,
+  "forks": 2339,
+  "watchers": 422,
+  "open_issues": 441,
   "created_at": "2015-04-10T01:53:08Z",
-  "pushed_at": "2026-11-02T19:56:57Z",
+  "pushed_at": "2026-11-05T15:19:50Z",
   "is_archived": false,
   "license_spdx": "MIT",
   "license_category": "permissive",
@@ -43,10 +43,10 @@
   "category": "web-frontend",
   "flags": [],
   "usability_score": 100,
-  "snapshot_days": 37,
+  "snapshot_days": 38,
   "is_indexable": true,
   "first_seen_at": "2026-09-23T23:28:32.618Z",
   "tracking_tier": "normal",
-  "last_fetched_date": "2026-11-03",
+  "last_fetched_date": "2026-11-06",
   "stars_stagnant_days": 1
 }

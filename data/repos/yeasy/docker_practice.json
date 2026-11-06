@@ -18,12 +18,12 @@
     "swarm",
     "virtualization"
   ],
-  "stars": 26344,
-  "forks": 5773,
+  "stars": 26348,
+  "forks": 5774,
   "watchers": 802,
-  "open_issues": 1,
+  "open_issues": 2,
   "created_at": "2014-09-05T04:06:39Z",
-  "pushed_at": "2026-10-31T21:31:39Z",
+  "pushed_at": "2026-11-05T11:24:25Z",
   "is_archived": false,
   "license_spdx": null,
   "license_category": "none",
@@ -42,10 +42,10 @@
     }
   ],
   "usability_score": 60,
-  "snapshot_days": 43,
+  "snapshot_days": 44,
   "is_indexable": true,
   "first_seen_at": "2026-09-03T23:03:15.575Z",
   "tracking_tier": "normal",
-  "last_fetched_date": "2026-11-03",
+  "last_fetched_date": "2026-11-06",
   "stars_stagnant_days": 1
 }
