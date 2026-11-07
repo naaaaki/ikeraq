@@ -21,7 +21,7 @@
     "vector-search",
     "word-embeddings"
   ],
-  "stars": 29156,
+  "stars": 29163,
   "forks": 5132,
   "watchers": 92,
   "open_issues": 43,
@@ -39,10 +39,10 @@
   "category": "llm",
   "flags": [],
   "usability_score": 100,
-  "snapshot_days": 65,
+  "snapshot_days": 66,
   "is_indexable": true,
   "first_seen_at": "2026-09-02T23:02:41.773Z",
   "tracking_tier": "hot",
-  "last_fetched_date": "2026-11-06",
+  "last_fetched_date": "2026-11-07",
   "stars_stagnant_days": 0
 }

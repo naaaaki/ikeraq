@@ -13,7 +13,7 @@
     "static-site-generator",
     "typescript"
   ],
-  "stars": 41784,
+  "stars": 41772,
   "forks": 55,
   "watchers": 779,
   "open_issues": 82,
@@ -31,10 +31,10 @@
   "category": "backend",
   "flags": [],
   "usability_score": 100,
-  "snapshot_days": 44,
+  "snapshot_days": 45,
   "is_indexable": true,
   "first_seen_at": "2026-08-30T23:15:18.750Z",
   "tracking_tier": "normal",
-  "last_fetched_date": "2026-11-04",
+  "last_fetched_date": "2026-11-07",
   "stars_stagnant_days": 1
 }

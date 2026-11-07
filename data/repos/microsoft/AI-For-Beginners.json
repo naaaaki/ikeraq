@@ -17,7 +17,7 @@
     "nlp",
     "rnn"
   ],
-  "stars": 70592,
+  "stars": 70615,
   "forks": 13742,
   "watchers": 662,
   "open_issues": 6,
@@ -35,10 +35,10 @@
   "category": "learning",
   "flags": [],
   "usability_score": 100,
-  "snapshot_days": 60,
+  "snapshot_days": 61,
   "is_indexable": true,
   "first_seen_at": "2026-09-07T23:19:48.975Z",
   "tracking_tier": "hot",
-  "last_fetched_date": "2026-11-06",
+  "last_fetched_date": "2026-11-07",
   "stars_stagnant_days": 0
 }

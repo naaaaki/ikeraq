@@ -14,7 +14,7 @@
     "push-notifications",
     "rest-api"
   ],
-  "stars": 35319,
+  "stars": 35349,
   "forks": 1702,
   "watchers": 100,
   "open_issues": 365,
@@ -32,10 +32,10 @@
   "category": "backend",
   "flags": [],
   "usability_score": 100,
-  "snapshot_days": 66,
+  "snapshot_days": 67,
   "is_indexable": true,
   "first_seen_at": "2026-09-01T23:05:22.650Z",
   "tracking_tier": "hot",
-  "last_fetched_date": "2026-11-06",
+  "last_fetched_date": "2026-11-07",
   "stars_stagnant_days": 0
 }

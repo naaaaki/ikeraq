@@ -23,7 +23,7 @@
     "oauth2",
     "rust"
   ],
-  "stars": 32131,
+  "stars": 32146,
   "forks": 1986,
   "watchers": 97,
   "open_issues": 139,
@@ -41,10 +41,10 @@
   "category": "ai-agent",
   "flags": [],
   "usability_score": 100,
-  "snapshot_days": 60,
+  "snapshot_days": 61,
   "is_indexable": true,
   "first_seen_at": "2026-09-07T23:19:48.975Z",
   "tracking_tier": "hot",
-  "last_fetched_date": "2026-11-06",
+  "last_fetched_date": "2026-11-07",
   "stars_stagnant_days": 0
 }

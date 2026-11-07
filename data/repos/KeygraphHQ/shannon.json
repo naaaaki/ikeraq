@@ -27,12 +27,12 @@
     "security-testing",
     "security-tools"
   ],
-  "stars": 51282,
-  "forks": 5972,
+  "stars": 51343,
+  "forks": 5978,
   "watchers": 232,
-  "open_issues": 33,
+  "open_issues": 25,
   "created_at": "2025-09-27T01:51:47Z",
-  "pushed_at": "2026-11-04T15:15:03Z",
+  "pushed_at": "2026-11-06T16:44:55Z",
   "is_archived": false,
   "license_spdx": "AGPL-3.0",
   "license_category": "strong-copyleft",
@@ -51,10 +51,10 @@
     }
   ],
   "usability_score": 85,
-  "snapshot_days": 68,
+  "snapshot_days": 69,
   "is_indexable": true,
   "first_seen_at": "2026-08-30T23:15:18.749Z",
   "tracking_tier": "hot",
-  "last_fetched_date": "2026-11-06",
+  "last_fetched_date": "2026-11-07",
   "stars_stagnant_days": 0
 }

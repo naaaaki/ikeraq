@@ -27,7 +27,7 @@
     "x86",
     "x86-64"
   ],
-  "stars": 50213,
+  "stars": 50219,
   "forks": 2930,
   "watchers": 2651,
   "open_issues": 575,
@@ -45,10 +45,10 @@
   "category": "security",
   "flags": [],
   "usability_score": 100,
-  "snapshot_days": 68,
+  "snapshot_days": 69,
   "is_indexable": true,
   "first_seen_at": "2026-08-30T23:15:18.749Z",
   "tracking_tier": "hot",
-  "last_fetched_date": "2026-11-06",
+  "last_fetched_date": "2026-11-07",
   "stars_stagnant_days": 0
 }

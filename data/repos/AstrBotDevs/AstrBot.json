@@ -24,8 +24,8 @@
     "qqbot",
     "telegram"
   ],
-  "stars": 46151,
-  "forks": 3390,
+  "stars": 46265,
+  "forks": 3403,
   "watchers": 92,
   "open_issues": 1160,
   "created_at": "2022-12-08T13:27:46Z",
@@ -48,10 +48,10 @@
     }
   ],
   "usability_score": 85,
-  "snapshot_days": 67,
+  "snapshot_days": 68,
   "is_indexable": true,
   "first_seen_at": "2026-09-01T00:26:13.031Z",
   "tracking_tier": "hot",
-  "last_fetched_date": "2026-11-06",
+  "last_fetched_date": "2026-11-07",
   "stars_stagnant_days": 0
 }

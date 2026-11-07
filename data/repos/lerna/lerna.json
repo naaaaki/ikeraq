@@ -12,12 +12,12 @@
     "package",
     "publishing"
   ],
-  "stars": 36038,
+  "stars": 36033,
   "forks": 2267,
   "watchers": 252,
   "open_issues": 301,
   "created_at": "2015-12-04T09:36:55Z",
-  "pushed_at": "2026-11-03T03:36:41Z",
+  "pushed_at": "2026-11-06T23:46:34Z",
   "is_archived": false,
   "license_spdx": "MIT",
   "license_category": "permissive",
@@ -30,10 +30,10 @@
   "category": "dev-tool",
   "flags": [],
   "usability_score": 100,
-  "snapshot_days": 43,
+  "snapshot_days": 44,
   "is_indexable": true,
   "first_seen_at": "2026-09-01T00:26:13.032Z",
   "tracking_tier": "normal",
-  "last_fetched_date": "2026-11-04",
+  "last_fetched_date": "2026-11-07",
   "stars_stagnant_days": 9
 }

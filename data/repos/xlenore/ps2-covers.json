@@ -15,10 +15,10 @@
     "ps2",
     "retroarch"
   ],
-  "stars": 4835,
-  "forks": 232,
+  "stars": 4840,
+  "forks": 235,
   "watchers": 45,
-  "open_issues": 55,
+  "open_issues": 56,
   "created_at": "2022-05-26T16:32:40Z",
   "pushed_at": "2026-09-27T19:17:14Z",
   "is_archived": false,
@@ -39,10 +39,10 @@
     }
   ],
   "usability_score": 60,
-  "snapshot_days": 40,
+  "snapshot_days": 41,
   "is_indexable": true,
   "first_seen_at": "2026-09-25T23:53:23.596Z",
   "tracking_tier": "normal",
-  "last_fetched_date": "2026-11-04",
+  "last_fetched_date": "2026-11-07",
   "stars_stagnant_days": 1
 }
