@@ -14,12 +14,12 @@
     "halocms",
     "website-builder"
   ],
-  "stars": 40112,
-  "forks": 10311,
+  "stars": 40151,
+  "forks": 10315,
   "watchers": null,
-  "open_issues": 107,
+  "open_issues": 110,
   "created_at": "2018-03-21T12:56:52Z",
-  "pushed_at": "2026-11-02T10:04:26Z",
+  "pushed_at": "2026-11-05T09:58:42Z",
   "is_archived": false,
   "license_spdx": "GPL-3.0",
   "license_category": "strong-copyleft",
@@ -38,10 +38,10 @@
     }
   ],
   "usability_score": 85,
-  "snapshot_days": 44,
+  "snapshot_days": 45,
   "is_indexable": true,
   "first_seen_at": "2026-09-01T00:26:13.031Z",
   "tracking_tier": "normal",
-  "last_fetched_date": "2026-11-05",
+  "last_fetched_date": "2026-11-08",
   "stars_stagnant_days": 1
 }

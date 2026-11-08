@@ -11,10 +11,10 @@
     "im",
     "message"
   ],
-  "stars": 4987,
-  "forks": 712,
+  "stars": 4991,
+  "forks": 713,
   "watchers": 37,
-  "open_issues": 97,
+  "open_issues": 98,
   "created_at": "2023-05-09T01:46:51Z",
   "pushed_at": "2026-11-04T05:36:12Z",
   "is_archived": false,
@@ -29,10 +29,10 @@
   "category": "ai-agent",
   "flags": [],
   "usability_score": 100,
-  "snapshot_days": 38,
+  "snapshot_days": 39,
   "is_indexable": true,
   "first_seen_at": "2026-09-24T23:48:41.712Z",
   "tracking_tier": "normal",
-  "last_fetched_date": "2026-11-05",
+  "last_fetched_date": "2026-11-08",
   "stars_stagnant_days": 1
 }

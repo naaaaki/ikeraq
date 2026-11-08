@@ -34,8 +34,14 @@
   "releases_count": 0,
   "ossf_scorecard": null,
   "category": "other",
-  "flags": [],
-  "usability_score": 100,
+  "flags": [
+    {
+      "id": "stale",
+      "label": "メンテ停止の疑い",
+      "reason": "最終コミットから 180 日が経過しています（判定は 180 日以上）。"
+    }
+  ],
+  "usability_score": 70,
   "snapshot_days": 42,
   "is_indexable": true,
   "first_seen_at": "2026-09-07T23:19:48.381Z",

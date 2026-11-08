@@ -25,7 +25,7 @@
     "moby",
     "tools"
   ],
-  "stars": 37186,
+  "stars": 37190,
   "forks": 3412,
   "watchers": 720,
   "open_issues": 75,
@@ -43,10 +43,10 @@
   "category": "security",
   "flags": [],
   "usability_score": 100,
-  "snapshot_days": 68,
+  "snapshot_days": 69,
   "is_indexable": true,
   "first_seen_at": "2026-09-01T00:26:13.032Z",
   "tracking_tier": "hot",
-  "last_fetched_date": "2026-11-07",
+  "last_fetched_date": "2026-11-08",
   "stars_stagnant_days": 0
 }

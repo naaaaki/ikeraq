@@ -27,8 +27,8 @@
     "typescript",
     "vector"
   ],
-  "stars": 39631,
-  "forks": 3731,
+  "stars": 39635,
+  "forks": 3727,
   "watchers": 290,
   "open_issues": 14,
   "created_at": "2023-05-12T23:53:30Z",
@@ -45,10 +45,10 @@
   "category": "llm",
   "flags": [],
   "usability_score": 100,
-  "snapshot_days": 43,
+  "snapshot_days": 44,
   "is_indexable": true,
   "first_seen_at": "2026-09-01T23:05:22.650Z",
   "tracking_tier": "normal",
-  "last_fetched_date": "2026-11-05",
+  "last_fetched_date": "2026-11-08",
   "stars_stagnant_days": 1
 }

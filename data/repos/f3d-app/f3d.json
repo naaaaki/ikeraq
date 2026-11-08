@@ -26,12 +26,12 @@
     "volume-rendering",
     "vtk"
   ],
-  "stars": 4996,
+  "stars": 5011,
   "forks": 468,
   "watchers": 42,
-  "open_issues": 317,
+  "open_issues": 315,
   "created_at": "2020-02-17T18:26:59Z",
-  "pushed_at": "2026-11-04T20:58:44Z",
+  "pushed_at": "2026-11-07T19:19:25Z",
   "is_archived": false,
   "license_spdx": "BSD-3-Clause",
   "license_category": "permissive",
@@ -44,10 +44,10 @@
   "category": "game",
   "flags": [],
   "usability_score": 100,
-  "snapshot_days": 37,
+  "snapshot_days": 38,
   "is_indexable": true,
   "first_seen_at": "2026-09-25T23:53:23.595Z",
   "tracking_tier": "normal",
-  "last_fetched_date": "2026-11-05",
+  "last_fetched_date": "2026-11-08",
   "stars_stagnant_days": 1
 }

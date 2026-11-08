@@ -10,10 +10,10 @@
     "cncf",
     "sandboxing"
   ],
-  "stars": 6160,
-  "forks": 691,
+  "stars": 6197,
+  "forks": 700,
   "watchers": 30,
-  "open_issues": 1086,
+  "open_issues": 1093,
   "created_at": "2026-05-13T19:02:38Z",
   "pushed_at": "2026-11-05T23:04:30Z",
   "is_archived": false,
@@ -28,10 +28,10 @@
   "category": "ai-agent",
   "flags": [],
   "usability_score": 100,
-  "snapshot_days": 45,
+  "snapshot_days": 46,
   "is_indexable": true,
   "first_seen_at": "2026-09-23T23:28:31.550Z",
   "tracking_tier": "hot",
-  "last_fetched_date": "2026-11-07",
+  "last_fetched_date": "2026-11-08",
   "stars_stagnant_days": 0
 }

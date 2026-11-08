@@ -14,12 +14,12 @@
     "ui-kit",
     "ui-library"
   ],
-  "stars": 100093,
-  "forks": 54633,
+  "stars": 100102,
+  "forks": 54634,
   "watchers": 254,
   "open_issues": 1149,
   "created_at": "2015-04-24T15:37:24Z",
-  "pushed_at": "2026-11-06T21:53:52Z",
+  "pushed_at": "2026-11-07T13:40:14Z",
   "is_archived": false,
   "license_spdx": "MIT",
   "license_category": "permissive",
@@ -32,10 +32,10 @@
   "category": "web-frontend",
   "flags": [],
   "usability_score": 100,
-  "snapshot_days": 70,
+  "snapshot_days": 71,
   "is_indexable": true,
   "first_seen_at": "2026-08-29T15:46:21.821Z",
   "tracking_tier": "hot",
-  "last_fetched_date": "2026-11-07",
+  "last_fetched_date": "2026-11-08",
   "stars_stagnant_days": 0
 }

@@ -12,10 +12,10 @@
     "developer-tools",
     "python"
   ],
-  "stars": 43085,
+  "stars": 43097,
   "forks": 6259,
   "watchers": 239,
-  "open_issues": 1977,
+  "open_issues": 1978,
   "created_at": "2022-05-04T15:23:02Z",
   "pushed_at": "2026-11-06T22:07:31Z",
   "is_archived": false,
@@ -30,10 +30,10 @@
   "category": "ai-agent",
   "flags": [],
   "usability_score": 100,
-  "snapshot_days": 69,
+  "snapshot_days": 70,
   "is_indexable": true,
   "first_seen_at": "2026-08-30T23:15:18.750Z",
   "tracking_tier": "hot",
-  "last_fetched_date": "2026-11-07",
+  "last_fetched_date": "2026-11-08",
   "stars_stagnant_days": 0
 }

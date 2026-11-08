@@ -21,12 +21,12 @@
     "ui",
     "ui-components"
   ],
-  "stars": 44001,
-  "forks": 3660,
+  "stars": 44002,
+  "forks": 3662,
   "watchers": null,
   "open_issues": 114,
   "created_at": "2018-12-19T08:24:04Z",
-  "pushed_at": "2026-11-05T00:46:59Z",
+  "pushed_at": "2026-11-07T20:13:49Z",
   "is_archived": false,
   "license_spdx": "Apache-2.0",
   "license_category": "permissive",
@@ -39,10 +39,10 @@
   "category": "web-frontend",
   "flags": [],
   "usability_score": 100,
-  "snapshot_days": 47,
+  "snapshot_days": 48,
   "is_indexable": true,
   "first_seen_at": "2026-08-30T23:15:18.750Z",
   "tracking_tier": "normal",
-  "last_fetched_date": "2026-11-05",
+  "last_fetched_date": "2026-11-08",
   "stars_stagnant_days": 1
 }

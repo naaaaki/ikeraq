@@ -18,7 +18,7 @@
     "proxy",
     "proxy-server"
   ],
-  "stars": 4815,
+  "stars": 4820,
   "forks": 552,
   "watchers": 91,
   "open_issues": 122,
@@ -36,10 +36,10 @@
   "category": "infra",
   "flags": [],
   "usability_score": 100,
-  "snapshot_days": 35,
+  "snapshot_days": 36,
   "is_indexable": true,
   "first_seen_at": "2026-09-25T23:53:23.594Z",
   "tracking_tier": "normal",
-  "last_fetched_date": "2026-11-05",
+  "last_fetched_date": "2026-11-08",
   "stars_stagnant_days": 6
 }

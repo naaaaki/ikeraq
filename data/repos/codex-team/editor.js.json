@@ -15,10 +15,10 @@
     "ui",
     "wysiwyg"
   ],
-  "stars": 31997,
-  "forks": 2246,
-  "watchers": 248,
-  "open_issues": 702,
+  "stars": 32000,
+  "forks": 2245,
+  "watchers": 242,
+  "open_issues": 706,
   "created_at": "2015-11-28T20:56:35Z",
   "pushed_at": "2026-11-01T14:05:25Z",
   "is_archived": false,
@@ -33,10 +33,10 @@
   "category": "web-frontend",
   "flags": [],
   "usability_score": 100,
-  "snapshot_days": 43,
+  "snapshot_days": 44,
   "is_indexable": true,
   "first_seen_at": "2026-09-01T23:05:22.650Z",
   "tracking_tier": "normal",
-  "last_fetched_date": "2026-11-05",
+  "last_fetched_date": "2026-11-08",
   "stars_stagnant_days": 3
 }

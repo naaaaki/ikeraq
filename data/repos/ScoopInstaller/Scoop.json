@@ -11,10 +11,10 @@
     "scoop",
     "windows"
   ],
-  "stars": 24800,
+  "stars": 24802,
   "forks": 1546,
   "watchers": 242,
-  "open_issues": 500,
+  "open_issues": 501,
   "created_at": "2013-05-11T03:52:15Z",
   "pushed_at": "2026-11-06T10:26:56Z",
   "is_archived": false,
@@ -29,10 +29,10 @@
   "category": "other",
   "flags": [],
   "usability_score": 100,
-  "snapshot_days": 45,
+  "snapshot_days": 46,
   "is_indexable": true,
   "first_seen_at": "2026-09-23T23:28:32.618Z",
   "tracking_tier": "hot",
-  "last_fetched_date": "2026-11-07",
+  "last_fetched_date": "2026-11-08",
   "stars_stagnant_days": 0
 }

@@ -15,7 +15,7 @@
     "notebook-jupyter",
     "vision-and-language"
   ],
-  "stars": 30165,
+  "stars": 30176,
   "forks": 6063,
   "watchers": 571,
   "open_issues": 5,
@@ -33,10 +33,10 @@
   "category": "llm",
   "flags": [],
   "usability_score": 100,
-  "snapshot_days": 66,
+  "snapshot_days": 67,
   "is_indexable": true,
   "first_seen_at": "2026-09-02T23:02:41.773Z",
   "tracking_tier": "hot",
-  "last_fetched_date": "2026-11-07",
+  "last_fetched_date": "2026-11-08",
   "stars_stagnant_days": 0
 }

@@ -18,7 +18,7 @@
     "typography",
     "variable-font"
   ],
-  "stars": 29684,
+  "stars": 29696,
   "forks": 1221,
   "watchers": 60,
   "open_issues": 41,
@@ -42,10 +42,10 @@
     }
   ],
   "usability_score": 85,
-  "snapshot_days": 45,
+  "snapshot_days": 46,
   "is_indexable": true,
   "first_seen_at": "2026-09-23T23:28:32.617Z",
   "tracking_tier": "hot",
-  "last_fetched_date": "2026-11-07",
+  "last_fetched_date": "2026-11-08",
   "stars_stagnant_days": 0
 }

@@ -24,12 +24,12 @@
     "wpf",
     "xaml"
   ],
-  "stars": 27420,
-  "forks": 1748,
+  "stars": 27431,
+  "forks": 1751,
   "watchers": 127,
-  "open_issues": 1168,
+  "open_issues": 1169,
   "created_at": "2020-12-15T13:52:11Z",
-  "pushed_at": "2026-11-06T17:05:56Z",
+  "pushed_at": "2026-11-07T20:41:14Z",
   "is_archived": false,
   "license_spdx": "GPL-3.0",
   "license_category": "strong-copyleft",
@@ -48,10 +48,10 @@
     }
   ],
   "usability_score": 85,
-  "snapshot_days": 65,
+  "snapshot_days": 66,
   "is_indexable": true,
   "first_seen_at": "2026-09-03T23:03:15.575Z",
   "tracking_tier": "hot",
-  "last_fetched_date": "2026-11-07",
+  "last_fetched_date": "2026-11-08",
   "stars_stagnant_days": 0
 }

@@ -11,7 +11,7 @@
     "terminal",
     "tui"
   ],
-  "stars": 4862,
+  "stars": 4860,
   "forks": 272,
   "watchers": 35,
   "open_issues": 208,
@@ -29,10 +29,10 @@
   "category": "dev-tool",
   "flags": [],
   "usability_score": 100,
-  "snapshot_days": 35,
+  "snapshot_days": 36,
   "is_indexable": true,
   "first_seen_at": "2026-09-25T23:53:23.593Z",
   "tracking_tier": "normal",
-  "last_fetched_date": "2026-11-05",
+  "last_fetched_date": "2026-11-08",
   "stars_stagnant_days": 2
 }
