@@ -27,10 +27,10 @@
     "ubuntu",
     "windows"
   ],
-  "stars": 27494,
-  "forks": 1794,
+  "stars": 27531,
+  "forks": 1798,
   "watchers": 181,
-  "open_issues": 356,
+  "open_issues": 359,
   "created_at": "2019-04-21T07:23:32Z",
   "pushed_at": "2026-11-06T01:32:45Z",
   "is_archived": false,
@@ -51,10 +51,10 @@
     }
   ],
   "usability_score": 85,
-  "snapshot_days": 66,
+  "snapshot_days": 67,
   "is_indexable": true,
   "first_seen_at": "2026-09-03T23:03:15.575Z",
   "tracking_tier": "hot",
-  "last_fetched_date": "2026-11-08",
+  "last_fetched_date": "2026-11-09",
   "stars_stagnant_days": 0
 }

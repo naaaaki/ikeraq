@@ -13,12 +13,12 @@
     "userscript",
     "violentmonkey"
   ],
-  "stars": 37976,
-  "forks": 2094,
+  "stars": 38051,
+  "forks": 2096,
   "watchers": 143,
-  "open_issues": 69,
+  "open_issues": 61,
   "created_at": "2021-09-27T08:47:55Z",
-  "pushed_at": "2026-11-02T08:56:04Z",
+  "pushed_at": "2026-11-08T16:03:08Z",
   "is_archived": false,
   "license_spdx": "GPL-3.0",
   "license_category": "strong-copyleft",
@@ -37,10 +37,10 @@
     }
   ],
   "usability_score": 85,
-  "snapshot_days": 68,
+  "snapshot_days": 69,
   "is_indexable": true,
   "first_seen_at": "2026-09-01T23:05:22.650Z",
   "tracking_tier": "hot",
-  "last_fetched_date": "2026-11-08",
+  "last_fetched_date": "2026-11-09",
   "stars_stagnant_days": 0
 }

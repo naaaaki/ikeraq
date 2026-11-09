@@ -2,7 +2,7 @@
   "id": "Anil-matcha/Open-Generative-AI",
   "owner": "Anil-matcha",
   "name": "Open-Generative-AI",
-  "description_en": "Unrestricted Open-source alternative to AI video platforms — Free AI image & video generation studio with 600+ models (Flux, Midjourney, Kling, Sora, Veo). No content filters. Self-hosted, MIT licensed.",
+  "description_en": "Uncensored Open-source alternative to AI video platforms — Free AI image & video generation studio with 600+ models (Flux, Midjourney, Kling, Sora, Veo). No content filters. Self-hosted, MIT licensed.",
   "human_note": null,
   "language": "JavaScript",
   "topics": [
@@ -27,12 +27,12 @@
     "uncensored",
     "wan-video"
   ],
-  "stars": 33043,
-  "forks": 6267,
+  "stars": 33416,
+  "forks": 6330,
   "watchers": 268,
-  "open_issues": 49,
+  "open_issues": 50,
   "created_at": "2023-05-09T14:12:37Z",
-  "pushed_at": "2026-11-06T09:32:33Z",
+  "pushed_at": "2026-11-08T19:06:02Z",
   "is_archived": false,
   "license_spdx": "MIT",
   "license_category": "permissive",
@@ -45,10 +45,10 @@
   "category": "other",
   "flags": [],
   "usability_score": 100,
-  "snapshot_days": 67,
+  "snapshot_days": 68,
   "is_indexable": true,
   "first_seen_at": "2026-09-02T23:02:41.773Z",
   "tracking_tier": "hot",
-  "last_fetched_date": "2026-11-08",
+  "last_fetched_date": "2026-11-09",
   "stars_stagnant_days": 0
 }

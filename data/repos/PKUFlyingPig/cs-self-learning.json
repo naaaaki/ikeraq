@@ -6,7 +6,7 @@
   "human_note": null,
   "language": "HTML",
   "topics": [],
-  "stars": 76646,
+  "stars": 76661,
   "forks": 8029,
   "watchers": 350,
   "open_issues": 167,
@@ -24,10 +24,10 @@
   "category": "other",
   "flags": [],
   "usability_score": 100,
-  "snapshot_days": 62,
+  "snapshot_days": 63,
   "is_indexable": true,
   "first_seen_at": "2026-09-07T23:19:48.975Z",
   "tracking_tier": "hot",
-  "last_fetched_date": "2026-11-08",
+  "last_fetched_date": "2026-11-09",
   "stars_stagnant_days": 0
 }

@@ -2,7 +2,7 @@
   "id": "nestjs/nest",
   "owner": "nestjs",
   "name": "nest",
-  "description_en": "A progressive Node.js framework for building efficient, scalable, and enterprise-grade server-side applications with TypeScript/JavaScript 🚀",
+  "description_en": "A progressive TypeScript framework for Node.js backends: from a small API in one file to efficient, scalable, enterprise-grade systems 🚀",
   "human_note": null,
   "language": "TypeScript",
   "topics": [
@@ -20,12 +20,12 @@
     "typescript-framework",
     "websockets"
   ],
-  "stars": 76986,
-  "forks": 8679,
+  "stars": 76989,
+  "forks": 8687,
   "watchers": null,
-  "open_issues": 35,
+  "open_issues": 39,
   "created_at": "2017-02-04T20:12:52Z",
-  "pushed_at": "2026-11-06T00:53:16Z",
+  "pushed_at": "2026-11-08T22:48:00Z",
   "is_archived": false,
   "license_spdx": "MIT",
   "license_category": "permissive",
@@ -38,10 +38,10 @@
   "category": "backend",
   "flags": [],
   "usability_score": 100,
-  "snapshot_days": 47,
+  "snapshot_days": 48,
   "is_indexable": true,
   "first_seen_at": "2026-08-29T23:02:08.747Z",
   "tracking_tier": "normal",
-  "last_fetched_date": "2026-11-06",
+  "last_fetched_date": "2026-11-09",
   "stars_stagnant_days": 1
 }

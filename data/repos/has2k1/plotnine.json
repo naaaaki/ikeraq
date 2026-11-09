@@ -13,7 +13,7 @@
     "python"
   ],
   "stars": 4780,
-  "forks": 263,
+  "forks": 260,
   "watchers": 63,
   "open_issues": 82,
   "created_at": "2017-04-24T19:00:44Z",
@@ -30,10 +30,10 @@
   "category": "game",
   "flags": [],
   "usability_score": 100,
-  "snapshot_days": 36,
+  "snapshot_days": 37,
   "is_indexable": true,
   "first_seen_at": "2026-09-25T23:53:23.595Z",
   "tracking_tier": "normal",
-  "last_fetched_date": "2026-11-06",
+  "last_fetched_date": "2026-11-09",
   "stars_stagnant_days": 1
 }

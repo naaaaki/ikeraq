@@ -11,10 +11,10 @@
     "graphics",
     "javascript-applications"
   ],
-  "stars": 63877,
-  "forks": 5811,
+  "stars": 63894,
+  "forks": 5810,
   "watchers": 564,
-  "open_issues": 5,
+  "open_issues": 6,
   "created_at": "2017-05-25T20:58:42Z",
   "pushed_at": "2026-11-05T07:55:32Z",
   "is_archived": false,
@@ -35,10 +35,10 @@
     }
   ],
   "usability_score": 85,
-  "snapshot_days": 71,
+  "snapshot_days": 72,
   "is_indexable": true,
   "first_seen_at": "2026-08-29T23:02:08.747Z",
   "tracking_tier": "hot",
-  "last_fetched_date": "2026-11-08",
+  "last_fetched_date": "2026-11-09",
   "stars_stagnant_days": 0
 }

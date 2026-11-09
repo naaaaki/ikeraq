@@ -12,8 +12,8 @@
     "pokemon",
     "reverse-engineering"
   ],
-  "stars": 5020,
-  "forks": 1349,
+  "stars": 5024,
+  "forks": 1351,
   "watchers": 129,
   "open_issues": 22,
   "created_at": "2013-07-06T02:27:16Z",
@@ -36,10 +36,10 @@
     }
   ],
   "usability_score": 60,
-  "snapshot_days": 37,
+  "snapshot_days": 38,
   "is_indexable": true,
   "first_seen_at": "2026-09-24T23:48:41.712Z",
   "tracking_tier": "normal",
-  "last_fetched_date": "2026-11-06",
+  "last_fetched_date": "2026-11-09",
   "stars_stagnant_days": 1
 }

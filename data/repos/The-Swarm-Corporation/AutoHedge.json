@@ -18,8 +18,8 @@
     "quantitative-trading",
     "trading"
   ],
-  "stars": 6634,
-  "forks": 967,
+  "stars": 6651,
+  "forks": 969,
   "watchers": 56,
   "open_issues": 26,
   "created_at": "2024-12-10T20:34:46Z",
@@ -38,14 +38,14 @@
     {
       "id": "stale",
       "label": "メンテ停止の疑い",
-      "reason": "最終コミットから 180 日が経過しています（判定は 180 日以上）。"
+      "reason": "最終コミットから 181 日が経過しています（判定は 180 日以上）。"
     }
   ],
   "usability_score": 70,
-  "snapshot_days": 42,
+  "snapshot_days": 43,
   "is_indexable": true,
   "first_seen_at": "2026-09-07T23:19:48.381Z",
   "tracking_tier": "normal",
-  "last_fetched_date": "2026-11-06",
+  "last_fetched_date": "2026-11-09",
   "stars_stagnant_days": 1
 }

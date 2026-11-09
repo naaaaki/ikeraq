@@ -6,29 +6,19 @@
   "human_note": null,
   "language": "C++",
   "topics": [
-    "cpm",
-    "cpp",
-    "docker",
-    "flathub-pkg",
     "game-stream",
     "game-streaming",
     "game-streaming-server",
     "geforce-experience",
-    "homebrew-pkg",
     "moonlight",
-    "pacman-pkg",
-    "remote-desktop",
-    "replicator-custom-issues",
-    "replicator-release-notifications",
-    "rtd",
-    "winget-pkg"
+    "remote-desktop"
   ],
-  "stars": 43124,
-  "forks": 2360,
+  "stars": 43162,
+  "forks": 2362,
   "watchers": 155,
   "open_issues": 179,
   "created_at": "2021-12-15T23:38:57Z",
-  "pushed_at": "2026-11-07T23:58:04Z",
+  "pushed_at": "2026-11-09T00:09:23Z",
   "is_archived": false,
   "license_spdx": "GPL-3.0",
   "license_category": "strong-copyleft",
@@ -38,7 +28,7 @@
   "contributors_count": 203,
   "releases_count": 46,
   "ossf_scorecard": null,
-  "category": "infra",
+  "category": "game",
   "flags": [
     {
       "id": "copyleft",
@@ -47,10 +37,10 @@
     }
   ],
   "usability_score": 85,
-  "snapshot_days": 70,
+  "snapshot_days": 71,
   "is_indexable": true,
   "first_seen_at": "2026-08-30T23:15:18.750Z",
   "tracking_tier": "hot",
-  "last_fetched_date": "2026-11-08",
+  "last_fetched_date": "2026-11-09",
   "stars_stagnant_days": 0
 }

@@ -10,12 +10,12 @@
     "rust",
     "shell"
   ],
-  "stars": 40791,
-  "forks": 2330,
+  "stars": 41063,
+  "forks": 2346,
   "watchers": null,
   "open_issues": 1459,
   "created_at": "2019-05-10T16:59:42Z",
-  "pushed_at": "2026-11-05T14:51:32Z",
+  "pushed_at": "2026-11-08T00:07:25Z",
   "is_archived": false,
   "license_spdx": "MIT",
   "license_category": "permissive",
@@ -28,10 +28,10 @@
   "category": "other",
   "flags": [],
   "usability_score": 100,
-  "snapshot_days": 49,
+  "snapshot_days": 50,
   "is_indexable": true,
   "first_seen_at": "2026-09-01T00:26:13.031Z",
   "tracking_tier": "normal",
-  "last_fetched_date": "2026-11-06",
+  "last_fetched_date": "2026-11-09",
   "stars_stagnant_days": 1
 }

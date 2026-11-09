@@ -11,10 +11,10 @@
     "mcp-server",
     "vibe-coding"
   ],
-  "stars": 64328,
-  "forks": 3221,
+  "stars": 64374,
+  "forks": 3225,
   "watchers": 164,
-  "open_issues": 56,
+  "open_issues": 57,
   "created_at": "2025-03-26T23:40:39Z",
   "pushed_at": "2026-11-06T21:31:21Z",
   "is_archived": false,
@@ -29,10 +29,10 @@
   "category": "ai-agent",
   "flags": [],
   "usability_score": 100,
-  "snapshot_days": 71,
+  "snapshot_days": 72,
   "is_indexable": true,
   "first_seen_at": "2026-08-29T23:02:08.747Z",
   "tracking_tier": "hot",
-  "last_fetched_date": "2026-11-08",
+  "last_fetched_date": "2026-11-09",
   "stars_stagnant_days": 0
 }

@@ -12,7 +12,7 @@
     "flexbox",
     "html"
   ],
-  "stars": 50034,
+  "stars": 50035,
   "forks": 3859,
   "watchers": 569,
   "open_issues": 532,
@@ -30,10 +30,10 @@
   "category": "web-frontend",
   "flags": [],
   "usability_score": 100,
-  "snapshot_days": 38,
+  "snapshot_days": 39,
   "is_indexable": true,
   "first_seen_at": "2026-09-23T23:28:32.616Z",
   "tracking_tier": "normal",
-  "last_fetched_date": "2026-11-06",
+  "last_fetched_date": "2026-11-09",
   "stars_stagnant_days": 1
 }

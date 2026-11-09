@@ -16,12 +16,12 @@
     "single-file-executable",
     "speech-to-text"
   ],
-  "stars": 26582,
+  "stars": 26589,
   "forks": 1672,
   "watchers": 221,
-  "open_issues": 212,
+  "open_issues": 213,
   "created_at": "2023-09-10T21:12:32Z",
-  "pushed_at": "2026-11-05T17:31:17Z",
+  "pushed_at": "2026-11-09T00:15:20Z",
   "is_archived": false,
   "license_spdx": "NOASSERTION",
   "license_category": "unknown",
@@ -34,10 +34,10 @@
   "category": "llm",
   "flags": [],
   "usability_score": 100,
-  "snapshot_days": 46,
+  "snapshot_days": 47,
   "is_indexable": true,
   "first_seen_at": "2026-09-23T23:28:32.617Z",
   "tracking_tier": "hot",
-  "last_fetched_date": "2026-11-08",
+  "last_fetched_date": "2026-11-09",
   "stars_stagnant_days": 0
 }

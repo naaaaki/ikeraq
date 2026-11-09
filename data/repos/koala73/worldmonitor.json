@@ -19,12 +19,12 @@
     "palantir",
     "situation"
   ],
-  "stars": 90316,
-  "forks": 13983,
+  "stars": 90375,
+  "forks": 14004,
   "watchers": 505,
-  "open_issues": 318,
+  "open_issues": 317,
   "created_at": "2026-01-08T17:26:06Z",
-  "pushed_at": "2026-11-07T18:13:28Z",
+  "pushed_at": "2026-11-08T23:31:25Z",
   "is_archived": false,
   "license_spdx": "AGPL-3.0",
   "license_category": "strong-copyleft",
@@ -43,10 +43,10 @@
     }
   ],
   "usability_score": 85,
-  "snapshot_days": 71,
+  "snapshot_days": 72,
   "is_indexable": true,
   "first_seen_at": "2026-08-29T15:46:21.821Z",
   "tracking_tier": "hot",
-  "last_fetched_date": "2026-11-08",
+  "last_fetched_date": "2026-11-09",
   "stars_stagnant_days": 0
 }

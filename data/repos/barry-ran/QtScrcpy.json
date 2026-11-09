@@ -9,7 +9,7 @@
     "android",
     "qt"
   ],
-  "stars": 32761,
+  "stars": 32775,
   "forks": 3860,
   "watchers": 240,
   "open_issues": 635,
@@ -27,10 +27,10 @@
   "category": "mobile",
   "flags": [],
   "usability_score": 100,
-  "snapshot_days": 46,
+  "snapshot_days": 47,
   "is_indexable": true,
   "first_seen_at": "2026-09-23T23:28:32.617Z",
   "tracking_tier": "hot",
-  "last_fetched_date": "2026-11-08",
+  "last_fetched_date": "2026-11-09",
   "stars_stagnant_days": 0
 }

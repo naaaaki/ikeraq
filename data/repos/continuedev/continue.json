@@ -12,10 +12,10 @@
     "developer-tools",
     "open-source"
   ],
-  "stars": 36413,
-  "forks": 5554,
+  "stars": 36432,
+  "forks": 5556,
   "watchers": null,
-  "open_issues": 871,
+  "open_issues": 867,
   "created_at": "2023-05-24T03:39:39Z",
   "pushed_at": "2026-11-05T15:28:28Z",
   "is_archived": false,
@@ -30,10 +30,10 @@
   "category": "ai-agent",
   "flags": [],
   "usability_score": 100,
-  "snapshot_days": 49,
+  "snapshot_days": 50,
   "is_indexable": true,
   "first_seen_at": "2026-09-01T00:26:13.032Z",
   "tracking_tier": "normal",
-  "last_fetched_date": "2026-11-06",
+  "last_fetched_date": "2026-11-09",
   "stars_stagnant_days": 1
 }

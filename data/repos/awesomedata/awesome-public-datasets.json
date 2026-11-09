@@ -11,12 +11,12 @@
     "datasets",
     "opendata"
   ],
-  "stars": 79975,
-  "forks": 11935,
+  "stars": 79986,
+  "forks": 11937,
   "watchers": 2279,
   "open_issues": 167,
   "created_at": "2014-11-20T06:20:50Z",
-  "pushed_at": "2026-11-07T15:44:21Z",
+  "pushed_at": "2026-11-08T16:03:30Z",
   "is_archived": false,
   "license_spdx": "MIT",
   "license_category": "permissive",
@@ -29,10 +29,10 @@
   "category": "learning",
   "flags": [],
   "usability_score": 100,
-  "snapshot_days": 71,
+  "snapshot_days": 72,
   "is_indexable": true,
   "first_seen_at": "2026-08-29T23:02:08.747Z",
   "tracking_tier": "hot",
-  "last_fetched_date": "2026-11-08",
+  "last_fetched_date": "2026-11-09",
   "stars_stagnant_days": 0
 }

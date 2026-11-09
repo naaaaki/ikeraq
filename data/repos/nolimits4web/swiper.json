@@ -15,10 +15,10 @@
     "touch",
     "touch-events"
   ],
-  "stars": 41906,
-  "forks": 9569,
+  "stars": 41907,
+  "forks": 9570,
   "watchers": 659,
-  "open_issues": 231,
+  "open_issues": 232,
   "created_at": "2012-03-14T19:11:45Z",
   "pushed_at": "2026-10-30T22:15:41Z",
   "is_archived": false,
@@ -33,10 +33,10 @@
   "category": "mobile",
   "flags": [],
   "usability_score": 100,
-  "snapshot_days": 44,
+  "snapshot_days": 45,
   "is_indexable": true,
   "first_seen_at": "2026-08-30T23:15:18.750Z",
   "tracking_tier": "normal",
-  "last_fetched_date": "2026-11-06",
+  "last_fetched_date": "2026-11-09",
   "stars_stagnant_days": 1
 }

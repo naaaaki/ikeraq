@@ -21,9 +21,9 @@
     "vercel"
   ],
   "stars": 32489,
-  "forks": 1404,
+  "forks": 1405,
   "watchers": 212,
-  "open_issues": 253,
+  "open_issues": 255,
   "created_at": "2019-10-28T18:16:01Z",
   "pushed_at": "2026-10-16T17:57:58Z",
   "is_archived": false,
@@ -38,10 +38,10 @@
   "category": "web-frontend",
   "flags": [],
   "usability_score": 100,
-  "snapshot_days": 43,
+  "snapshot_days": 44,
   "is_indexable": true,
   "first_seen_at": "2026-09-02T23:02:41.773Z",
   "tracking_tier": "normal",
-  "last_fetched_date": "2026-11-06",
+  "last_fetched_date": "2026-11-09",
   "stars_stagnant_days": 4
 }

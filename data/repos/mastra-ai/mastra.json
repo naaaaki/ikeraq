@@ -20,12 +20,12 @@
     "typescript",
     "workflows"
   ],
-  "stars": 29397,
+  "stars": 29414,
   "forks": 3085,
   "watchers": 106,
-  "open_issues": 818,
+  "open_issues": 833,
   "created_at": "2024-08-06T20:44:31Z",
-  "pushed_at": "2026-11-07T22:57:21Z",
+  "pushed_at": "2026-11-09T00:36:33Z",
   "is_archived": false,
   "license_spdx": "NOASSERTION",
   "license_category": "unknown",
@@ -38,10 +38,10 @@
   "category": "ai-agent",
   "flags": [],
   "usability_score": 100,
-  "snapshot_days": 67,
+  "snapshot_days": 68,
   "is_indexable": true,
   "first_seen_at": "2026-09-02T23:02:41.773Z",
   "tracking_tier": "hot",
-  "last_fetched_date": "2026-11-08",
+  "last_fetched_date": "2026-11-09",
   "stars_stagnant_days": 0
 }
