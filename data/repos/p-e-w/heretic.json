@@ -14,10 +14,10 @@
     "llm",
     "transformer"
   ],
-  "stars": 40048,
-  "forks": 4572,
+  "stars": 40155,
+  "forks": 4591,
   "watchers": 185,
-  "open_issues": 64,
+  "open_issues": 65,
   "created_at": "2025-09-21T05:46:16Z",
   "pushed_at": "2026-11-08T07:41:50Z",
   "is_archived": false,
@@ -38,10 +38,10 @@
     }
   ],
   "usability_score": 85,
-  "snapshot_days": 72,
+  "snapshot_days": 73,
   "is_indexable": true,
   "first_seen_at": "2026-08-29T23:02:07.533Z",
   "tracking_tier": "hot",
-  "last_fetched_date": "2026-11-09",
+  "last_fetched_date": "2026-11-10",
   "stars_stagnant_days": 0
 }

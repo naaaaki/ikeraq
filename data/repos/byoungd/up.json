@@ -14,10 +14,10 @@
     "self-directed-learning",
     "tutorial"
   ],
-  "stars": 70287,
-  "forks": 6988,
+  "stars": 70328,
+  "forks": 6996,
   "watchers": 989,
-  "open_issues": 22,
+  "open_issues": 23,
   "created_at": "2017-05-30T07:18:52Z",
   "pushed_at": "2026-11-04T03:25:03Z",
   "is_archived": false,
@@ -32,10 +32,10 @@
   "category": "learning",
   "flags": [],
   "usability_score": 100,
-  "snapshot_days": 72,
+  "snapshot_days": 73,
   "is_indexable": true,
   "first_seen_at": "2026-08-29T23:02:08.747Z",
   "tracking_tier": "hot",
-  "last_fetched_date": "2026-11-09",
+  "last_fetched_date": "2026-11-10",
   "stars_stagnant_days": 0
 }

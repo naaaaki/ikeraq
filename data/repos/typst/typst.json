@@ -11,10 +11,10 @@
     "typesetting",
     "typst"
   ],
-  "stars": 57056,
-  "forks": 1787,
+  "stars": 57082,
+  "forks": 1791,
   "watchers": 141,
-  "open_issues": 1341,
+  "open_issues": 1344,
   "created_at": "2019-09-24T21:41:56Z",
   "pushed_at": "2026-11-06T10:38:42Z",
   "is_archived": false,
@@ -29,10 +29,10 @@
   "category": "dev-tool",
   "flags": [],
   "usability_score": 100,
-  "snapshot_days": 72,
+  "snapshot_days": 73,
   "is_indexable": true,
   "first_seen_at": "2026-08-29T23:02:08.747Z",
   "tracking_tier": "hot",
-  "last_fetched_date": "2026-11-09",
+  "last_fetched_date": "2026-11-10",
   "stars_stagnant_days": 0
 }

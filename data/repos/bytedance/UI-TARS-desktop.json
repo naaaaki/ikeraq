@@ -21,13 +21,13 @@
     "vision",
     "vlm"
   ],
-  "stars": 39580,
-  "forks": 4028,
+  "stars": 39590,
+  "forks": 4026,
   "watchers": 277,
   "open_issues": 512,
   "created_at": "2025-01-19T09:04:43Z",
   "pushed_at": "2026-10-09T01:29:53Z",
-  "is_archived": false,
+  "is_archived": true,
   "license_spdx": "Apache-2.0",
   "license_category": "permissive",
   "readme_excerpt": "Introduction English | 简体中文 TARS \\ is a Multimodal AI Agent stack, currently shipping two projects: Agent TARS and UI-TARS-desktop: Agent TARS UI-TARS-desktop Agent TARS is a general multimodal AI Agent stack, it brings the power of GUI Agent and Vision into your terminal, computer, browser and product. It primarily ships with a CLI and Web UI for usage. It aims to provide a workflow that is closer to human-like task completion through cutting-edge multimodal LLMs and seamless integration with…",
@@ -37,12 +37,18 @@
   "releases_count": 38,
   "ossf_scorecard": null,
   "category": "ai-agent",
-  "flags": [],
-  "usability_score": 100,
-  "snapshot_days": 46,
+  "flags": [
+    {
+      "id": "archived",
+      "label": "アーカイブ済み",
+      "reason": "作者がアーカイブしています。新しい変更は入りません。"
+    }
+  ],
+  "usability_score": 50,
+  "snapshot_days": 47,
   "is_indexable": true,
   "first_seen_at": "2026-09-24T23:48:41.710Z",
   "tracking_tier": "hot",
-  "last_fetched_date": "2026-11-09",
+  "last_fetched_date": "2026-11-10",
   "stars_stagnant_days": 0
 }

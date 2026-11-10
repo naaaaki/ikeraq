@@ -6,8 +6,8 @@
   "human_note": null,
   "language": "Kotlin",
   "topics": [],
-  "stars": 63878,
-  "forks": 19245,
+  "stars": 63901,
+  "forks": 19262,
   "watchers": 1661,
   "open_issues": 51,
   "created_at": "2016-09-08T12:42:53Z",
@@ -30,10 +30,10 @@
     }
   ],
   "usability_score": 85,
-  "snapshot_days": 72,
+  "snapshot_days": 73,
   "is_indexable": true,
   "first_seen_at": "2026-08-29T23:02:08.747Z",
   "tracking_tier": "hot",
-  "last_fetched_date": "2026-11-09",
+  "last_fetched_date": "2026-11-10",
   "stars_stagnant_days": 0
 }

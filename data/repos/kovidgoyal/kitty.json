@@ -19,12 +19,12 @@
     "terminfo",
     "vt100"
   ],
-  "stars": 35603,
-  "forks": 1588,
+  "stars": 35611,
+  "forks": 1593,
   "watchers": 189,
-  "open_issues": 14,
+  "open_issues": 13,
   "created_at": "2016-10-16T14:48:28Z",
-  "pushed_at": "2026-11-07T21:32:54Z",
+  "pushed_at": "2026-11-10T03:00:31Z",
   "is_archived": false,
   "license_spdx": "GPL-3.0",
   "license_category": "strong-copyleft",
@@ -43,10 +43,10 @@
     }
   ],
   "usability_score": 85,
-  "snapshot_days": 70,
+  "snapshot_days": 71,
   "is_indexable": true,
   "first_seen_at": "2026-09-01T00:26:13.032Z",
   "tracking_tier": "hot",
-  "last_fetched_date": "2026-11-09",
+  "last_fetched_date": "2026-11-10",
   "stars_stagnant_days": 0
 }

@@ -17,8 +17,8 @@
     "self-hosted",
     "typescript"
   ],
-  "stars": 45494,
-  "forks": 4937,
+  "stars": 45558,
+  "forks": 4941,
   "watchers": 128,
   "open_issues": 18,
   "created_at": "2020-03-25T14:08:22Z",
@@ -35,10 +35,10 @@
   "category": "ai-agent",
   "flags": [],
   "usability_score": 100,
-  "snapshot_days": 71,
+  "snapshot_days": 72,
   "is_indexable": true,
   "first_seen_at": "2026-08-30T23:15:18.750Z",
   "tracking_tier": "hot",
-  "last_fetched_date": "2026-11-09",
+  "last_fetched_date": "2026-11-10",
   "stars_stagnant_days": 0
 }

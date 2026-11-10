@@ -20,10 +20,10 @@
     "swift-language",
     "swift-library"
   ],
-  "stars": 26362,
-  "forks": 3158,
-  "watchers": 868,
-  "open_issues": 22,
+  "stars": 26370,
+  "forks": 3157,
+  "watchers": 867,
+  "open_issues": 24,
   "created_at": "2014-07-10T14:04:09Z",
   "pushed_at": "2026-10-25T06:06:58Z",
   "is_archived": false,
@@ -38,10 +38,10 @@
   "category": "mobile",
   "flags": [],
   "usability_score": 100,
-  "snapshot_days": 43,
+  "snapshot_days": 44,
   "is_indexable": true,
   "first_seen_at": "2026-09-03T23:03:15.575Z",
   "tracking_tier": "normal",
-  "last_fetched_date": "2026-11-07",
+  "last_fetched_date": "2026-11-10",
   "stars_stagnant_days": 1
 }

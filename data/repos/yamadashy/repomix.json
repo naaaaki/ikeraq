@@ -27,8 +27,8 @@
     "openai",
     "typescript"
   ],
-  "stars": 29191,
-  "forks": 1632,
+  "stars": 29206,
+  "forks": 1630,
   "watchers": 77,
   "open_issues": 151,
   "created_at": "2024-07-13T07:11:32Z",
@@ -45,10 +45,10 @@
   "category": "ai-agent",
   "flags": [],
   "usability_score": 100,
-  "snapshot_days": 68,
+  "snapshot_days": 69,
   "is_indexable": true,
   "first_seen_at": "2026-09-02T23:02:41.773Z",
   "tracking_tier": "hot",
-  "last_fetched_date": "2026-11-09",
+  "last_fetched_date": "2026-11-10",
   "stars_stagnant_days": 0
 }

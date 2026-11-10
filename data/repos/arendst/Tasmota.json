@@ -20,12 +20,12 @@
     "tasmota",
     "tuya"
   ],
-  "stars": 24968,
-  "forks": 5208,
+  "stars": 24974,
+  "forks": 5206,
   "watchers": 618,
   "open_issues": 16,
   "created_at": "2017-01-28T13:37:08Z",
-  "pushed_at": "2026-11-06T16:38:41Z",
+  "pushed_at": "2026-11-09T13:09:48Z",
   "is_archived": false,
   "license_spdx": "GPL-3.0",
   "license_category": "strong-copyleft",
@@ -44,10 +44,10 @@
     }
   ],
   "usability_score": 85,
-  "snapshot_days": 43,
+  "snapshot_days": 44,
   "is_indexable": true,
   "first_seen_at": "2026-09-23T23:28:32.618Z",
   "tracking_tier": "normal",
-  "last_fetched_date": "2026-11-07",
+  "last_fetched_date": "2026-11-10",
   "stars_stagnant_days": 1
 }

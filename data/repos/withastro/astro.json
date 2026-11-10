@@ -18,12 +18,12 @@
     "static-site-generator",
     "universal"
   ],
-  "stars": 63828,
-  "forks": 3921,
+  "stars": 63852,
+  "forks": 3920,
   "watchers": 222,
   "open_issues": 148,
   "created_at": "2021-03-15T17:19:47Z",
-  "pushed_at": "2026-11-08T10:03:19Z",
+  "pushed_at": "2026-11-10T02:11:34Z",
   "is_archived": false,
   "license_spdx": "NOASSERTION",
   "license_category": "unknown",
@@ -36,10 +36,10 @@
   "category": "web-frontend",
   "flags": [],
   "usability_score": 100,
-  "snapshot_days": 72,
+  "snapshot_days": 73,
   "is_indexable": true,
   "first_seen_at": "2026-08-29T23:02:08.747Z",
   "tracking_tier": "hot",
-  "last_fetched_date": "2026-11-09",
+  "last_fetched_date": "2026-11-10",
   "stars_stagnant_days": 0
 }

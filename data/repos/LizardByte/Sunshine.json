@@ -13,12 +13,12 @@
     "moonlight",
     "remote-desktop"
   ],
-  "stars": 43162,
-  "forks": 2362,
+  "stars": 43211,
+  "forks": 2369,
   "watchers": 155,
-  "open_issues": 179,
+  "open_issues": 181,
   "created_at": "2021-12-15T23:38:57Z",
-  "pushed_at": "2026-11-09T00:09:23Z",
+  "pushed_at": "2026-11-09T17:38:45Z",
   "is_archived": false,
   "license_spdx": "GPL-3.0",
   "license_category": "strong-copyleft",
@@ -37,10 +37,10 @@
     }
   ],
   "usability_score": 85,
-  "snapshot_days": 71,
+  "snapshot_days": 72,
   "is_indexable": true,
   "first_seen_at": "2026-08-30T23:15:18.750Z",
   "tracking_tier": "hot",
-  "last_fetched_date": "2026-11-09",
+  "last_fetched_date": "2026-11-10",
   "stars_stagnant_days": 0
 }

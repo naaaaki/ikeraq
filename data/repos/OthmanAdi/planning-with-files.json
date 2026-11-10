@@ -27,7 +27,7 @@
     "planning",
     "session-recovery"
   ],
-  "stars": 27953,
+  "stars": 27974,
   "forks": 2313,
   "watchers": 118,
   "open_issues": 17,
@@ -45,10 +45,10 @@
   "category": "ai-agent",
   "flags": [],
   "usability_score": 100,
-  "snapshot_days": 67,
+  "snapshot_days": 68,
   "is_indexable": true,
   "first_seen_at": "2026-09-03T23:03:15.575Z",
   "tracking_tier": "hot",
-  "last_fetched_date": "2026-11-09",
+  "last_fetched_date": "2026-11-10",
   "stars_stagnant_days": 0
 }

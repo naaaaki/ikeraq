@@ -27,9 +27,9 @@
     "typescript",
     "vite"
   ],
-  "stars": 46185,
-  "forks": 9200,
-  "watchers": 297,
+  "stars": 46216,
+  "forks": 9218,
+  "watchers": 296,
   "open_issues": 11,
   "created_at": "2019-02-23T15:08:34Z",
   "pushed_at": "2026-11-03T13:46:50Z",
@@ -45,10 +45,10 @@
   "category": "infra",
   "flags": [],
   "usability_score": 100,
-  "snapshot_days": 59,
+  "snapshot_days": 60,
   "is_indexable": true,
   "first_seen_at": "2026-08-30T23:15:18.750Z",
   "tracking_tier": "normal",
-  "last_fetched_date": "2026-11-07",
+  "last_fetched_date": "2026-11-10",
   "stars_stagnant_days": 1
 }

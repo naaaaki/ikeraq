@@ -13,10 +13,10 @@
     "vue",
     "vueuse"
   ],
-  "stars": 49388,
+  "stars": 49412,
   "forks": 2271,
   "watchers": 163,
-  "open_issues": 201,
+  "open_issues": 206,
   "created_at": "2021-04-24T01:25:23Z",
   "pushed_at": "2026-11-05T06:29:21Z",
   "is_archived": false,
@@ -31,10 +31,10 @@
   "category": "web-frontend",
   "flags": [],
   "usability_score": 100,
-  "snapshot_days": 59,
+  "snapshot_days": 60,
   "is_indexable": true,
   "first_seen_at": "2026-08-30T23:15:18.749Z",
   "tracking_tier": "normal",
-  "last_fetched_date": "2026-11-07",
+  "last_fetched_date": "2026-11-10",
   "stars_stagnant_days": 1
 }

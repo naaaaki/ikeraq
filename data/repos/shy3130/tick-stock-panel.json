@@ -27,10 +27,10 @@
     "training",
     "tsp"
   ],
-  "stars": 7349,
-  "forks": 1794,
-  "watchers": 38,
-  "open_issues": 55,
+  "stars": 7454,
+  "forks": 1822,
+  "watchers": 39,
+  "open_issues": 59,
   "created_at": "2026-06-18T06:18:29Z",
   "pushed_at": "2026-11-07T16:08:44Z",
   "is_archived": false,
@@ -45,10 +45,10 @@
   "category": "ai-agent",
   "flags": [],
   "usability_score": 100,
-  "snapshot_days": 45,
+  "snapshot_days": 46,
   "is_indexable": true,
   "first_seen_at": "2026-09-25T23:53:23.361Z",
   "tracking_tier": "hot",
-  "last_fetched_date": "2026-11-09",
+  "last_fetched_date": "2026-11-10",
   "stars_stagnant_days": 0
 }

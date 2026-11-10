@@ -27,12 +27,12 @@
     "rlhf",
     "transformers"
   ],
-  "stars": 75945,
-  "forks": 9352,
+  "stars": 75966,
+  "forks": 9358,
   "watchers": 344,
   "open_issues": 1222,
   "created_at": "2023-05-28T10:09:12Z",
-  "pushed_at": "2026-11-06T12:20:51Z",
+  "pushed_at": "2026-11-09T14:55:42Z",
   "is_archived": false,
   "license_spdx": "Apache-2.0",
   "license_category": "permissive",
@@ -45,10 +45,10 @@
   "category": "ai-agent",
   "flags": [],
   "usability_score": 100,
-  "snapshot_days": 72,
+  "snapshot_days": 73,
   "is_indexable": true,
   "first_seen_at": "2026-08-29T23:02:08.747Z",
   "tracking_tier": "hot",
-  "last_fetched_date": "2026-11-09",
+  "last_fetched_date": "2026-11-10",
   "stars_stagnant_days": 0
 }

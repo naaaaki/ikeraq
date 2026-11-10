@@ -4,7 +4,7 @@
   "name": "yolov5",
   "description_en": "Ultralytics YOLOv5 in PyTorch for object detection, instance segmentation, classification, training, and export.",
   "human_note": null,
-  "language": null,
+  "language": "Python",
   "topics": [
     "computer-vision",
     "coreml",
@@ -23,12 +23,12 @@
     "yolo",
     "yolov5"
   ],
-  "stars": 58254,
-  "forks": 17441,
+  "stars": 58256,
+  "forks": 17439,
   "watchers": 378,
   "open_issues": 24,
   "created_at": "2020-05-18T03:45:11Z",
-  "pushed_at": "2026-11-04T10:15:57Z",
+  "pushed_at": "2026-11-07T16:59:45Z",
   "is_archived": false,
   "license_spdx": "AGPL-3.0",
   "license_category": "strong-copyleft",
@@ -47,10 +47,10 @@
     }
   ],
   "usability_score": 85,
-  "snapshot_days": 46,
+  "snapshot_days": 47,
   "is_indexable": true,
   "first_seen_at": "2026-08-29T23:02:08.747Z",
   "tracking_tier": "normal",
-  "last_fetched_date": "2026-11-07",
+  "last_fetched_date": "2026-11-10",
   "stars_stagnant_days": 1
 }

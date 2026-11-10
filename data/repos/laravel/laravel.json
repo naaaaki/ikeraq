@@ -10,8 +10,8 @@
     "laravel",
     "php"
   ],
-  "stars": 85385,
-  "forks": 26231,
+  "stars": 85393,
+  "forks": 25505,
   "watchers": 4413,
   "open_issues": 31,
   "created_at": "2011-06-08T03:06:08Z",
@@ -34,10 +34,10 @@
     }
   ],
   "usability_score": 60,
-  "snapshot_days": 46,
+  "snapshot_days": 47,
   "is_indexable": true,
   "first_seen_at": "2026-08-29T15:46:21.821Z",
   "tracking_tier": "normal",
-  "last_fetched_date": "2026-11-07",
+  "last_fetched_date": "2026-11-10",
   "stars_stagnant_days": 1
 }

@@ -2,7 +2,7 @@
   "id": "sickn33/agentic-awesome-skills",
   "owner": "sickn33",
   "name": "agentic-awesome-skills",
-  "description_en": "2,926+ reusable AI agent skills for Claude Code, Codex, Cursor and Gemini CLI. AAS Core adds local catalog discovery, agent-owned selection and plan preview. CLI, MCP and plugins.",
+  "description_en": "2,955+ reusable AI agent skills for Claude Code, Codex, Cursor and Gemini CLI. AAS Core adds local catalog discovery, agent-owned selection and plan preview. CLI, MCP and plugins.",
   "human_note": null,
   "language": "Python",
   "topics": [
@@ -27,12 +27,12 @@
     "mcp",
     "skill-library"
   ],
-  "stars": 49372,
-  "forks": 7161,
+  "stars": 49427,
+  "forks": 7169,
   "watchers": 325,
-  "open_issues": 11,
+  "open_issues": 1,
   "created_at": "2026-01-14T17:48:09Z",
-  "pushed_at": "2026-11-08T14:10:48Z",
+  "pushed_at": "2026-11-09T21:18:26Z",
   "is_archived": false,
   "license_spdx": "MIT",
   "license_category": "permissive",
@@ -45,10 +45,10 @@
   "category": "ai-agent",
   "flags": [],
   "usability_score": 100,
-  "snapshot_days": 71,
+  "snapshot_days": 72,
   "is_indexable": true,
   "first_seen_at": "2026-08-30T23:15:18.750Z",
   "tracking_tier": "hot",
-  "last_fetched_date": "2026-11-09",
+  "last_fetched_date": "2026-11-10",
   "stars_stagnant_days": 0
 }

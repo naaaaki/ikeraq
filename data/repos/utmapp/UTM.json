@@ -16,12 +16,12 @@
     "virtual-machines",
     "vm"
   ],
-  "stars": 36786,
+  "stars": 36804,
   "forks": 1915,
   "watchers": 382,
-  "open_issues": 1169,
+  "open_issues": 1166,
   "created_at": "2019-04-12T16:09:24Z",
-  "pushed_at": "2026-11-07T19:57:21Z",
+  "pushed_at": "2026-11-09T00:57:52Z",
   "is_archived": false,
   "license_spdx": "Apache-2.0",
   "license_category": "permissive",
@@ -34,10 +34,10 @@
   "category": "mobile",
   "flags": [],
   "usability_score": 100,
-  "snapshot_days": 70,
+  "snapshot_days": 71,
   "is_indexable": true,
   "first_seen_at": "2026-09-01T00:26:13.032Z",
   "tracking_tier": "hot",
-  "last_fetched_date": "2026-11-09",
+  "last_fetched_date": "2026-11-10",
   "stars_stagnant_days": 0
 }

@@ -8,9 +8,9 @@
   "topics": [
     "jquery"
   ],
-  "stars": 59858,
-  "forks": 20661,
-  "watchers": 3110,
+  "stars": 59857,
+  "forks": 20666,
+  "watchers": 3106,
   "open_issues": 96,
   "created_at": "2009-04-03T15:20:14Z",
   "pushed_at": "2026-11-02T22:48:21Z",
@@ -26,10 +26,10 @@
   "category": "other",
   "flags": [],
   "usability_score": 100,
-  "snapshot_days": 44,
+  "snapshot_days": 45,
   "is_indexable": true,
   "first_seen_at": "2026-09-01T00:26:13.031Z",
   "tracking_tier": "normal",
-  "last_fetched_date": "2026-11-07",
+  "last_fetched_date": "2026-11-10",
   "stars_stagnant_days": 3
 }

@@ -18,10 +18,10 @@
     "typescript",
     "zod"
   ],
-  "stars": 49753,
-  "forks": 15558,
-  "watchers": 207,
-  "open_issues": 1602,
+  "stars": 49867,
+  "forks": 15592,
+  "watchers": 203,
+  "open_issues": 1621,
   "created_at": "2021-03-22T13:47:42Z",
   "pushed_at": "2026-11-03T21:35:09Z",
   "is_archived": false,
@@ -36,10 +36,10 @@
   "category": "other",
   "flags": [],
   "usability_score": 100,
-  "snapshot_days": 57,
+  "snapshot_days": 58,
   "is_indexable": true,
   "first_seen_at": "2026-09-01T23:05:22.650Z",
   "tracking_tier": "normal",
-  "last_fetched_date": "2026-11-07",
+  "last_fetched_date": "2026-11-10",
   "stars_stagnant_days": 1
 }

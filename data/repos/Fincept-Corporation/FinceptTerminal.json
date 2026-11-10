@@ -24,15 +24,15 @@
     "stock-market",
     "trading"
   ],
-  "stars": 33600,
-  "forks": 4808,
+  "stars": 33641,
+  "forks": 4814,
   "watchers": 189,
   "open_issues": 6,
   "created_at": "2024-08-29T14:38:08Z",
-  "pushed_at": "2026-11-08T12:01:32Z",
+  "pushed_at": "2026-11-09T13:04:41Z",
   "is_archived": false,
-  "license_spdx": "NOASSERTION",
-  "license_category": "unknown",
+  "license_spdx": "AGPL-3.0",
+  "license_category": "strong-copyleft",
   "readme_excerpt": "> [!IMPORTANT] > Two editions. Enterprise is the private, closed-source build for funds and research desks — 41 modules, private data, live broker routing, SSO, from $99/user/month. This repo is the free AGPL-3.0 edition for learning and academic use, one release a month. > Compare · Pricing Fincept Terminal Your Thinking is the Only Limit. The Data Isn't. State-of-the-art financial intelligence platform with institutional-grade financial analytics, AI automation, and unlimited data connectivit…",
   "readme_length": 14385,
   "has_japanese_readme": false,
@@ -40,12 +40,18 @@
   "releases_count": 33,
   "ossf_scorecard": null,
   "category": "ai-agent",
-  "flags": [],
-  "usability_score": 100,
-  "snapshot_days": 69,
+  "flags": [
+    {
+      "id": "copyleft",
+      "label": "自社サービス組込み注意",
+      "reason": "AGPL-3.0 です。組み込んだ側のソース公開が必要になる場合があります。"
+    }
+  ],
+  "usability_score": 85,
+  "snapshot_days": 70,
   "is_indexable": true,
   "first_seen_at": "2026-09-01T23:05:22.650Z",
   "tracking_tier": "hot",
-  "last_fetched_date": "2026-11-09",
+  "last_fetched_date": "2026-11-10",
   "stars_stagnant_days": 0
 }
