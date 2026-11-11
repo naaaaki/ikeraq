@@ -15,12 +15,12 @@
     "leetcode",
     "python3"
   ],
-  "stars": 36756,
-  "forks": 9489,
+  "stars": 36764,
+  "forks": 9486,
   "watchers": null,
-  "open_issues": 2,
+  "open_issues": 0,
   "created_at": "2018-09-16T14:03:03Z",
-  "pushed_at": "2026-11-07T04:17:53Z",
+  "pushed_at": "2026-11-11T01:02:20Z",
   "is_archived": false,
   "license_spdx": "CC-BY-SA-4.0",
   "license_category": "strong-copyleft",
@@ -39,10 +39,10 @@
     }
   ],
   "usability_score": 85,
-  "snapshot_days": 45,
+  "snapshot_days": 46,
   "is_indexable": true,
   "first_seen_at": "2026-09-01T00:26:13.032Z",
   "tracking_tier": "normal",
-  "last_fetched_date": "2026-11-08",
+  "last_fetched_date": "2026-11-11",
   "stars_stagnant_days": 1
 }

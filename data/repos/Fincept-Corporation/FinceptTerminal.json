@@ -24,10 +24,10 @@
     "stock-market",
     "trading"
   ],
-  "stars": 33641,
+  "stars": 33665,
   "forks": 4814,
   "watchers": 189,
-  "open_issues": 6,
+  "open_issues": 5,
   "created_at": "2024-08-29T14:38:08Z",
   "pushed_at": "2026-11-09T13:04:41Z",
   "is_archived": false,
@@ -48,10 +48,10 @@
     }
   ],
   "usability_score": 85,
-  "snapshot_days": 70,
+  "snapshot_days": 71,
   "is_indexable": true,
   "first_seen_at": "2026-09-01T23:05:22.650Z",
   "tracking_tier": "hot",
-  "last_fetched_date": "2026-11-10",
+  "last_fetched_date": "2026-11-11",
   "stars_stagnant_days": 0
 }

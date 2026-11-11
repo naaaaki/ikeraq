@@ -15,10 +15,10 @@
     "training",
     "training-materials"
   ],
-  "stars": 33500,
-  "forks": 2094,
-  "watchers": 148,
-  "open_issues": 185,
+  "stars": 33518,
+  "forks": 2096,
+  "watchers": 147,
+  "open_issues": 186,
   "created_at": "2022-12-21T15:17:24Z",
   "pushed_at": "2026-11-03T23:37:45Z",
   "is_archived": false,
@@ -33,10 +33,10 @@
   "category": "mobile",
   "flags": [],
   "usability_score": 100,
-  "snapshot_days": 44,
+  "snapshot_days": 45,
   "is_indexable": true,
   "first_seen_at": "2026-09-01T23:05:22.650Z",
   "tracking_tier": "normal",
-  "last_fetched_date": "2026-11-08",
+  "last_fetched_date": "2026-11-11",
   "stars_stagnant_days": 1
 }

@@ -27,10 +27,10 @@
     "x86",
     "x86-64"
   ],
-  "stars": 50261,
-  "forks": 2940,
+  "stars": 50270,
+  "forks": 2942,
   "watchers": 2651,
-  "open_issues": 573,
+  "open_issues": 574,
   "created_at": "2015-04-11T20:48:23Z",
   "pushed_at": "2026-11-09T10:38:38Z",
   "is_archived": false,
@@ -45,10 +45,10 @@
   "category": "security",
   "flags": [],
   "usability_score": 100,
-  "snapshot_days": 72,
+  "snapshot_days": 73,
   "is_indexable": true,
   "first_seen_at": "2026-08-30T23:15:18.749Z",
   "tracking_tier": "hot",
-  "last_fetched_date": "2026-11-10",
+  "last_fetched_date": "2026-11-11",
   "stars_stagnant_days": 0
 }

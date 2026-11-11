@@ -25,9 +25,9 @@
     "moby",
     "tools"
   ],
-  "stars": 37201,
-  "forks": 3413,
-  "watchers": 720,
+  "stars": 37211,
+  "forks": 3414,
+  "watchers": 717,
   "open_issues": 77,
   "created_at": "2014-09-21T17:01:48Z",
   "pushed_at": "2026-11-04T19:38:56Z",
@@ -43,10 +43,10 @@
   "category": "security",
   "flags": [],
   "usability_score": 100,
-  "snapshot_days": 71,
+  "snapshot_days": 72,
   "is_indexable": true,
   "first_seen_at": "2026-09-01T00:26:13.032Z",
   "tracking_tier": "hot",
-  "last_fetched_date": "2026-11-10",
+  "last_fetched_date": "2026-11-11",
   "stars_stagnant_days": 0
 }

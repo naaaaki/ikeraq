@@ -20,12 +20,12 @@
     "starlette",
     "strawberry"
   ],
-  "stars": 4727,
+  "stars": 4730,
   "forks": 682,
   "watchers": 42,
-  "open_issues": 334,
+  "open_issues": 335,
   "created_at": "2018-12-21T08:56:55Z",
-  "pushed_at": "2026-11-07T16:27:00Z",
+  "pushed_at": "2026-11-10T17:50:29Z",
   "is_archived": false,
   "license_spdx": "MIT",
   "license_category": "permissive",
@@ -38,10 +38,10 @@
   "category": "backend",
   "flags": [],
   "usability_score": 100,
-  "snapshot_days": 36,
+  "snapshot_days": 37,
   "is_indexable": true,
   "first_seen_at": "2026-09-25T23:53:23.595Z",
   "tracking_tier": "normal",
-  "last_fetched_date": "2026-11-08",
+  "last_fetched_date": "2026-11-11",
   "stars_stagnant_days": 5
 }

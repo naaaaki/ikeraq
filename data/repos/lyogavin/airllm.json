@@ -20,12 +20,12 @@
     "open-source-models",
     "qlora"
   ],
-  "stars": 42068,
-  "forks": 4334,
+  "stars": 42130,
+  "forks": 4339,
   "watchers": 314,
   "open_issues": 156,
   "created_at": "2023-06-12T16:28:41Z",
-  "pushed_at": "2026-11-09T06:18:21Z",
+  "pushed_at": "2026-11-10T06:14:31Z",
   "is_archived": false,
   "license_spdx": "Apache-2.0",
   "license_category": "permissive",
@@ -38,10 +38,10 @@
   "category": "llm",
   "flags": [],
   "usability_score": 100,
-  "snapshot_days": 70,
+  "snapshot_days": 71,
   "is_indexable": true,
   "first_seen_at": "2026-09-01T23:05:22.650Z",
   "tracking_tier": "hot",
-  "last_fetched_date": "2026-11-10",
+  "last_fetched_date": "2026-11-11",
   "stars_stagnant_days": 0
 }

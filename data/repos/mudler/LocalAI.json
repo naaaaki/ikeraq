@@ -25,12 +25,12 @@
     "text-generation",
     "tts"
   ],
-  "stars": 50281,
-  "forks": 4586,
+  "stars": 50299,
+  "forks": 4589,
   "watchers": 299,
   "open_issues": 188,
   "created_at": "2023-03-18T22:58:02Z",
-  "pushed_at": "2026-11-10T01:47:40Z",
+  "pushed_at": "2026-11-11T00:59:45Z",
   "is_archived": false,
   "license_spdx": "MIT",
   "license_category": "permissive",
@@ -43,10 +43,10 @@
   "category": "ai-agent",
   "flags": [],
   "usability_score": 100,
-  "snapshot_days": 72,
+  "snapshot_days": 73,
   "is_indexable": true,
   "first_seen_at": "2026-08-30T23:15:18.749Z",
   "tracking_tier": "hot",
-  "last_fetched_date": "2026-11-10",
+  "last_fetched_date": "2026-11-11",
   "stars_stagnant_days": 0
 }

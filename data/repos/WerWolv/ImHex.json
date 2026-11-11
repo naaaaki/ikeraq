@@ -27,10 +27,10 @@
     "static-analysis",
     "windows"
   ],
-  "stars": 55812,
-  "forks": 2620,
+  "stars": 55818,
+  "forks": 2623,
   "watchers": 516,
-  "open_issues": 424,
+  "open_issues": 425,
   "created_at": "2020-11-10T14:27:00Z",
   "pushed_at": "2026-10-09T00:56:24Z",
   "is_archived": false,
@@ -51,10 +51,10 @@
     }
   ],
   "usability_score": 85,
-  "snapshot_days": 73,
+  "snapshot_days": 74,
   "is_indexable": true,
   "first_seen_at": "2026-08-29T23:02:08.747Z",
   "tracking_tier": "hot",
-  "last_fetched_date": "2026-11-10",
+  "last_fetched_date": "2026-11-11",
   "stars_stagnant_days": 0
 }

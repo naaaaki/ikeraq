@@ -19,12 +19,12 @@
     "second-brain",
     "tauri"
   ],
-  "stars": 42618,
-  "forks": 4214,
+  "stars": 42641,
+  "forks": 4213,
   "watchers": 199,
   "open_issues": 366,
   "created_at": "2026-02-18T20:01:27Z",
-  "pushed_at": "2026-11-09T16:04:07Z",
+  "pushed_at": "2026-11-10T22:15:44Z",
   "is_archived": false,
   "license_spdx": "GPL-3.0",
   "license_category": "strong-copyleft",
@@ -43,10 +43,10 @@
     }
   ],
   "usability_score": 85,
-  "snapshot_days": 71,
+  "snapshot_days": 72,
   "is_indexable": true,
   "first_seen_at": "2026-09-01T00:26:13.031Z",
   "tracking_tier": "hot",
-  "last_fetched_date": "2026-11-10",
+  "last_fetched_date": "2026-11-11",
   "stars_stagnant_days": 0
 }

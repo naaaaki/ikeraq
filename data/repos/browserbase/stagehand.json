@@ -22,11 +22,11 @@
     "web-scraping"
   ],
   "stars": 25992,
-  "forks": 1812,
+  "forks": 1814,
   "watchers": 104,
-  "open_issues": 435,
+  "open_issues": 433,
   "created_at": "2024-03-24T19:19:44Z",
-  "pushed_at": "2026-11-10T02:40:27Z",
+  "pushed_at": "2026-11-11T00:37:59Z",
   "is_archived": false,
   "license_spdx": "MIT",
   "license_category": "permissive",
@@ -39,10 +39,10 @@
   "category": "ai-agent",
   "flags": [],
   "usability_score": 100,
-  "snapshot_days": 48,
+  "snapshot_days": 49,
   "is_indexable": true,
   "first_seen_at": "2026-09-23T23:28:32.618Z",
-  "tracking_tier": "hot",
-  "last_fetched_date": "2026-11-10",
-  "stars_stagnant_days": 0
+  "tracking_tier": "normal",
+  "last_fetched_date": "2026-11-11",
+  "stars_stagnant_days": 1
 }

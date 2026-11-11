@@ -14,7 +14,7 @@
   "stars": 4741,
   "forks": 417,
   "watchers": 86,
-  "open_issues": 51,
+  "open_issues": 52,
   "created_at": "2015-06-10T08:13:17Z",
   "pushed_at": "2026-11-03T20:25:21Z",
   "is_archived": false,
@@ -29,10 +29,10 @@
   "category": "other",
   "flags": [],
   "usability_score": 100,
-  "snapshot_days": 36,
+  "snapshot_days": 37,
   "is_indexable": true,
   "first_seen_at": "2026-09-25T23:53:23.595Z",
   "tracking_tier": "normal",
-  "last_fetched_date": "2026-11-08",
+  "last_fetched_date": "2026-11-11",
   "stars_stagnant_days": 1
 }

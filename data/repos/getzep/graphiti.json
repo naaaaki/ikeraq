@@ -11,10 +11,10 @@
     "llms",
     "rag"
   ],
-  "stars": 32694,
-  "forks": 3359,
+  "stars": 32722,
+  "forks": 3362,
   "watchers": 174,
-  "open_issues": 557,
+  "open_issues": 560,
   "created_at": "2024-08-08T22:08:30Z",
   "pushed_at": "2026-11-09T09:35:23Z",
   "is_archived": false,
@@ -29,10 +29,10 @@
   "category": "ai-agent",
   "flags": [],
   "usability_score": 100,
-  "snapshot_days": 70,
+  "snapshot_days": 71,
   "is_indexable": true,
   "first_seen_at": "2026-09-01T23:05:22.650Z",
   "tracking_tier": "hot",
-  "last_fetched_date": "2026-11-10",
+  "last_fetched_date": "2026-11-11",
   "stars_stagnant_days": 0
 }

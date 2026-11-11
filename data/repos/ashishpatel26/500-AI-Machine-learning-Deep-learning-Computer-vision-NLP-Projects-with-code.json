@@ -20,7 +20,7 @@
     "nlp-projects",
     "python"
   ],
-  "stars": 37692,
+  "stars": 37710,
   "forks": 7540,
   "watchers": 703,
   "open_issues": 71,
@@ -44,10 +44,10 @@
     }
   ],
   "usability_score": 60,
-  "snapshot_days": 45,
+  "snapshot_days": 46,
   "is_indexable": true,
   "first_seen_at": "2026-09-26T23:25:20.107Z",
   "tracking_tier": "hot",
-  "last_fetched_date": "2026-11-10",
+  "last_fetched_date": "2026-11-11",
   "stars_stagnant_days": 0
 }

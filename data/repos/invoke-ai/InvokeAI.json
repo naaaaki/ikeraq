@@ -2,7 +2,7 @@
   "id": "invoke-ai/InvokeAI",
   "owner": "invoke-ai",
   "name": "InvokeAI",
-  "description_en": "Invoke is a leading creative engine for Stable Diffusion models, empowering professionals, artists, and enthusiasts to generate and create visual media using the latest AI-driven technologies. The solution offers an industry leading WebUI, and serves as the foundation for multiple commercial products.",
+  "description_en": "Invoke is a leading creative engine that uses image and video generation models to empower professionals, artists, and enthusiasts to generate and create visual media using the latest AI-driven technologies. The solution offers an industry-leading application interface, and serves as the foundation for multiple commercial products.",
   "human_note": null,
   "language": "TypeScript",
   "topics": [
@@ -20,12 +20,12 @@
     "txt2img",
     "windows"
   ],
-  "stars": 29016,
-  "forks": 3096,
+  "stars": 29058,
+  "forks": 3101,
   "watchers": 211,
-  "open_issues": 355,
+  "open_issues": 323,
   "created_at": "2022-08-17T01:04:27Z",
-  "pushed_at": "2026-11-08T00:04:34Z",
+  "pushed_at": "2026-11-11T00:49:36Z",
   "is_archived": false,
   "license_spdx": "Apache-2.0",
   "license_category": "permissive",
@@ -38,10 +38,10 @@
   "category": "other",
   "flags": [],
   "usability_score": 100,
-  "snapshot_days": 45,
+  "snapshot_days": 46,
   "is_indexable": true,
   "first_seen_at": "2026-09-02T23:02:41.773Z",
   "tracking_tier": "normal",
-  "last_fetched_date": "2026-11-08",
+  "last_fetched_date": "2026-11-11",
   "stars_stagnant_days": 1
 }

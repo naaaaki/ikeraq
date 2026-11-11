@@ -8,10 +8,10 @@
   "topics": [
     "mlx"
   ],
-  "stars": 29112,
-  "forks": 2417,
+  "stars": 29126,
+  "forks": 2420,
   "watchers": 209,
-  "open_issues": 126,
+  "open_issues": 130,
   "created_at": "2023-11-28T23:33:45Z",
   "pushed_at": "2026-11-06T23:36:17Z",
   "is_archived": false,
@@ -26,10 +26,10 @@
   "category": "other",
   "flags": [],
   "usability_score": 100,
-  "snapshot_days": 69,
+  "snapshot_days": 70,
   "is_indexable": true,
   "first_seen_at": "2026-09-02T23:02:41.773Z",
   "tracking_tier": "hot",
-  "last_fetched_date": "2026-11-10",
+  "last_fetched_date": "2026-11-11",
   "stars_stagnant_days": 0
 }

@@ -21,8 +21,8 @@
     "startpage",
     "youtube"
   ],
-  "stars": 38115,
-  "forks": 1516,
+  "stars": 38134,
+  "forks": 1518,
   "watchers": 81,
   "open_issues": 319,
   "created_at": "2024-04-27T18:55:38Z",
@@ -45,10 +45,10 @@
     }
   ],
   "usability_score": 85,
-  "snapshot_days": 71,
+  "snapshot_days": 72,
   "is_indexable": true,
   "first_seen_at": "2026-09-01T00:26:13.032Z",
   "tracking_tier": "hot",
-  "last_fetched_date": "2026-11-10",
+  "last_fetched_date": "2026-11-11",
   "stars_stagnant_days": 0
 }

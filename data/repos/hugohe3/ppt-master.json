@@ -17,10 +17,10 @@
     "slide",
     "slides"
   ],
-  "stars": 75302,
-  "forks": 5894,
+  "stars": 75643,
+  "forks": 5913,
   "watchers": 122,
-  "open_issues": 1,
+  "open_issues": 3,
   "created_at": "2025-12-10T06:54:33Z",
   "pushed_at": "2026-11-09T13:39:54Z",
   "is_archived": false,
@@ -35,10 +35,10 @@
   "category": "ai-agent",
   "flags": [],
   "usability_score": 100,
-  "snapshot_days": 72,
+  "snapshot_days": 73,
   "is_indexable": true,
   "first_seen_at": "2026-08-30T23:15:18.749Z",
   "tracking_tier": "hot",
-  "last_fetched_date": "2026-11-10",
+  "last_fetched_date": "2026-11-11",
   "stars_stagnant_days": 0
 }

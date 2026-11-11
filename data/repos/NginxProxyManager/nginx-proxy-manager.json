@@ -9,10 +9,10 @@
     "nginx",
     "nginx-proxy"
   ],
-  "stars": 34665,
+  "stars": 34670,
   "forks": 3964,
   "watchers": 224,
-  "open_issues": 828,
+  "open_issues": 829,
   "created_at": "2017-12-20T23:01:16Z",
   "pushed_at": "2026-11-09T22:26:34Z",
   "is_archived": false,
@@ -27,10 +27,10 @@
   "category": "infra",
   "flags": [],
   "usability_score": 100,
-  "snapshot_days": 70,
+  "snapshot_days": 71,
   "is_indexable": true,
   "first_seen_at": "2026-09-01T23:05:22.650Z",
   "tracking_tier": "hot",
-  "last_fetched_date": "2026-11-10",
+  "last_fetched_date": "2026-11-11",
   "stars_stagnant_days": 0
 }

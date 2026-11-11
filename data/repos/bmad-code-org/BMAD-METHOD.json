@@ -12,10 +12,10 @@
     "sdlc",
     "spec-driven-development"
   ],
-  "stars": 55185,
-  "forks": 6152,
+  "stars": 55235,
+  "forks": 6155,
   "watchers": 415,
-  "open_issues": 95,
+  "open_issues": 97,
   "created_at": "2025-04-13T14:54:25Z",
   "pushed_at": "2026-11-08T03:41:31Z",
   "is_archived": false,
@@ -30,10 +30,10 @@
   "category": "other",
   "flags": [],
   "usability_score": 100,
-  "snapshot_days": 73,
+  "snapshot_days": 74,
   "is_indexable": true,
   "first_seen_at": "2026-08-29T23:02:08.747Z",
   "tracking_tier": "hot",
-  "last_fetched_date": "2026-11-10",
+  "last_fetched_date": "2026-11-11",
   "stars_stagnant_days": 0
 }

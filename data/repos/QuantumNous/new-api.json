@@ -18,12 +18,12 @@
     "rerank",
     "self-hosted"
   ],
-  "stars": 51649,
-  "forks": 12579,
+  "stars": 51705,
+  "forks": 12606,
   "watchers": 167,
-  "open_issues": 1449,
+  "open_issues": 1456,
   "created_at": "2023-11-10T19:33:36Z",
-  "pushed_at": "2026-11-09T13:41:06Z",
+  "pushed_at": "2026-11-10T16:46:26Z",
   "is_archived": false,
   "license_spdx": "AGPL-3.0",
   "license_category": "strong-copyleft",
@@ -42,10 +42,10 @@
     }
   ],
   "usability_score": 85,
-  "snapshot_days": 72,
+  "snapshot_days": 73,
   "is_indexable": true,
   "first_seen_at": "2026-08-30T23:15:18.749Z",
   "tracking_tier": "hot",
-  "last_fetched_date": "2026-11-10",
+  "last_fetched_date": "2026-11-11",
   "stars_stagnant_days": 0
 }

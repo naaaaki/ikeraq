@@ -25,10 +25,10 @@
     "tui",
     "workspace-manager"
   ],
-  "stars": 49802,
-  "forks": 4021,
+  "stars": 50017,
+  "forks": 4043,
   "watchers": 116,
-  "open_issues": 460,
+  "open_issues": 471,
   "created_at": "2026-03-27T17:54:33Z",
   "pushed_at": "2026-11-07T12:32:55Z",
   "is_archived": false,
@@ -43,10 +43,10 @@
   "category": "ai-agent",
   "flags": [],
   "usability_score": 100,
-  "snapshot_days": 70,
+  "snapshot_days": 71,
   "is_indexable": true,
   "first_seen_at": "2026-09-01T23:05:22.650Z",
   "tracking_tier": "hot",
-  "last_fetched_date": "2026-11-10",
+  "last_fetched_date": "2026-11-11",
   "stars_stagnant_days": 0
 }
