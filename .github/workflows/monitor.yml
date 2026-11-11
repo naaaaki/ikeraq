@@ -8,9 +8,11 @@
 name: monitor
 
 on:
-  schedule:
-    # 03:00 UTC = 12:00 JST。日次パイプライン(06:00 JST)の6時間後に確認する
-    - cron: '0 3 * * *'
+  # ★ 2026-11-11 停止（daily.yml と一緒に止めた）。daily だけ動かさないと
+  #   毎日「データが古い」と通知が飛ぶので、再開するときは daily と同時に戻す。
+  # schedule:
+  #   # 03:00 UTC = 12:00 JST。日次パイプライン(06:00 JST)の6時間後に確認する
+  #   - cron: '0 3 * * *'
   workflow_dispatch:
 
 permissions:

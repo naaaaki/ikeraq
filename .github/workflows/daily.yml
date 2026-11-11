@@ -5,9 +5,11 @@
 name: daily
 
 on:
-  schedule:
-    # 21:00 UTC = 06:00 JST
-    - cron: '0 21 * * *'
+  # ★ 2026-11-11 停止（Naoki の指示）。再開するときは下の2行を戻す。
+  #   止めている間のスター履歴は後から取り直せない（CLAUDE.md 守ること #6）。
+  # schedule:
+  #   # 21:00 UTC = 06:00 JST
+  #   - cron: '0 21 * * *'
   workflow_dispatch:
 
 concurrency:
